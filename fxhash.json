@@ -1,41 +1,3033 @@
 {
-  "errors": [
-    {
-      "message": "Argument Validation Error",
-      "locations": [
-        {
-          "line": 3,
-          "column": 5
-        }
-      ],
-      "path": [
-        "marketStats",
-        "generativeTokens"
-      ],
-      "extensions": {
-        "code": "INTERNAL_SERVER_ERROR",
-        "exception": {
-          "validationErrors": [
-            {
-              "target": {
-                "skip": 0,
-                "take": 100
-              },
-              "value": 100,
-              "property": "take",
-              "children": [],
-              "constraints": {
-                "max": "take must not be greater than 50"
-              }
-            }
-          ]
-        }
-      }
-    }
-  ],
   "data": {
     "marketStats": {
-      "generativeTokens": null,
+      "generativeTokens": [
+        {
+          "floor": 4500000000,
+          "secVolumeTz": 221338928999,
+          "secVolumeNb": 203,
+          "secVolumeTz24": 0,
+          "secVolumeNb24": 0,
+          "secVolumeTz7d": 16769689999,
+          "secVolumeNb7d": 4,
+          "secVolumeTz30d": 33527689999,
+          "secVolumeNb30d": 8,
+          "primVolumeTz": 4572000000,
+          "primVolumeNb": 254,
+          "lowestSold": 19690000,
+          "highestSold": 8000000000,
+          "median": 9334845000,
+          "listed": 26,
+          "generativeToken": {
+            "id": 2969,
+            "name": "Garden, Monoliths",
+            "metadata": {
+              "name": "Garden, Monoliths",
+              "description": "\"Garden, Monoliths\" is the result of an algorithm that started in April 2021. It was called \"Grass.js\".\nSpring was blooming all around the house, taking over the stones and remnants of ancient battles that stood here. Inspiration was everywhere.\nThe initial goal was to use mathematical formulas for creating patterns inspired by the density of nature, that could be used by a pen plotter, so it kept focusing on outputting vector lines. This history and practice produced a graphical style based on line strokes, plus occasionally some transparent, filled shapes.\nEach artwork will be either Garden or Monolith, for they are variations of two existing pieces from my workshop.\nEach generative image allows for downloading a SVG file of the line art, ready for plotters -> just press 's' key in live mode when the computing has completed.\nThe \"Format\" feature tells you what machine size and paper size you would need, if you were willing to give it a try. A warning though, some of the SVGs can be tricky, servo-killers.\n<3",
+              "childrenDescription": "\"Garden, Monoliths\" is the result of an algorithm that started in April 2021. It was called \"Grass.js\".\nSpring was blooming all around the house, taking over the stones and remnants of ancient battles that stood here. Inspiration was everywhere.\nThe initial goal was to use mathematical formulas for creating patterns inspired by the density of nature, that could be used by a pen plotter, so it kept focusing on outputting vector lines. This history and practice produced a graphical style based on line strokes, plus occasionally some transparent, filled shapes.\nEach artwork will be either \"Garden\" or \"Monolith\", for they are variations of two existing designs from the workshop.\n\n",
+              "tags": [
+                "generative",
+                "figurative",
+                "plants",
+                "garden",
+                "javascript",
+                "lushtemple",
+                "grass",
+                "daisies",
+                "poppies",
+                "stones"
+              ],
+              "artifactUri": "ipfs://QmdrGdwTXNjAQZH9FMeNwvVNrNGyWgLKwPA6iJfFm7e3RF",
+              "displayUri": "ipfs://QmVRQKaFoMUybxmUefj5TExktFWqTVMXBduKcaZgUHYctD",
+              "thumbnailUri": "ipfs://QmYSjqpX7sHTLgZTbCUELFPumVsgcxNvQhYrAdQJCB1syR",
+              "generativeUri": "ipfs://QmeuWoPt7WNMhTxMTZmumPqqw8zcCCd1K14wCHR2WoH6b2",
+              "authenticityHash": "e2d301bc5f74fdfd25215abbd0cf82a0c7ee8fd14a023ec49b88d191162f8d5f",
+              "capture": {
+                "mode": "CANVAS",
+                "delay": 30000,
+                "canvasSelector": "canvas"
+              },
+              "symbol": "FXGEN",
+              "decimals": 0
+            },
+            "author": {
+              "id": "tz1gBXG9fg8RMDH69KfKqwoTH5sFDmzt5yzm",
+              "name": "zancan",
+              "__typename": "User"
+            },
+            "__typename": "GenerativeToken"
+          },
+          "__typename": "MarketStats"
+        },
+        {
+          "floor": 725000000,
+          "secVolumeTz": 151903970309,
+          "secVolumeNb": 545,
+          "secVolumeTz24": 0,
+          "secVolumeNb24": 0,
+          "secVolumeTz7d": 7434060000,
+          "secVolumeNb7d": 9,
+          "secVolumeTz30d": 26360820000,
+          "secVolumeNb30d": 33,
+          "primVolumeTz": 0,
+          "primVolumeNb": 1000,
+          "lowestSold": 0,
+          "highestSold": 6000000000,
+          "median": 2500000000,
+          "listed": 86,
+          "generativeToken": {
+            "id": 2,
+            "name": "RGB Elementary Cellular Automaton",
+            "metadata": {
+              "name": "RGB Elementary Cellular Automaton",
+              "description": "Stephen Wolfram's Elementary Cellular Automaton where 3 different rules are drawn in the Red, Green and Blue color components of the image.\n\nRules are selected randomly among a pre-selection of 53 rules from which nice behaviors emerge.\n\nTokens can have a cell size in the [1; 20] range.",
+              "childrenDescription": "Stephen Wolfram's Elementary Cellular Automaton where 3 different rules are drawn in the Red, Green and Blue color components of the image.\n\nRules are selected randomly among a pre-selection of 53 rules from which nice behaviors emerge.\n\nTokens can have a cell size in the [1; 20] range.",
+              "tags": [
+                "wolfram",
+                "automata",
+                "automaton",
+                "RGB"
+              ],
+              "artifactUri": "ipfs://QmYUVnnzA8ChVpoiVe56oXrLfbcEV83QKCfR8yFWqZUjCL",
+              "displayUri": "ipfs://Qmcg7DaHFPcgRyZ3pbwuTgNAS9CP1U7zp5HkjFfKJ9FYWZ",
+              "thumbnailUri": "ipfs://QmZDHp3vdNovV7ARkwnEi5AEs8DVqnZrVdunqUP3GnPB3Z",
+              "generativeUri": "ipfs://QmZmjHDjbZ1YufMffyisn1hZ5ssiJN4uMGi2wtLqqsbAmw",
+              "authenticityHash": "7e9878233ae65ca1ebb6bf9e98950a0ced6f5d76d8ae38cf7dbaa6095cdbc4da",
+              "capture": {
+                "mode": "CANVAS",
+                "delay": 2000,
+                "canvasSelector": "canvas"
+              },
+              "symbol": "FXGEN",
+              "decimals": 0
+            },
+            "author": {
+              "id": "tz1PoDdN2oyRyF6DA73zTWAWYhNL4UGr3Egj",
+              "name": "ciphrd",
+              "__typename": "User"
+            },
+            "__typename": "GenerativeToken"
+          },
+          "__typename": "MarketStats"
+        },
+        {
+          "floor": 24000000,
+          "secVolumeTz": 68333607417,
+          "secVolumeNb": 1085,
+          "secVolumeTz24": 35000000,
+          "secVolumeNb24": 1,
+          "secVolumeTz7d": 1026962022,
+          "secVolumeNb7d": 28,
+          "secVolumeTz30d": 19249013019,
+          "secVolumeNb30d": 292,
+          "primVolumeTz": 1454000000,
+          "primVolumeNb": 1454,
+          "lowestSold": 9000000,
+          "highestSold": 1340000000,
+          "median": 150000000,
+          "listed": 559,
+          "generativeToken": {
+            "id": 7889,
+            "name": "fxApe",
+            "metadata": {
+              "name": "fxApe",
+              "description": "fxApe\nArt by Littlesilver\nCode by Nicthib and Mark Knol\n\nThis project borrows assets from BAYC #8082 as permitted by ownership copyright, but is not affiliated with BAYC in any way. Big thanks to Ciphrd for permitting the use of fxhash logos and also in no particular order to Yazid, M.J. Lindow, Andreas Rau, Lisa Orth, Punevyr, Jim The Bim, William Zancan, Random Combo, Ciphrd, Sableraph, wblut, Mark Knol, Landlinesart and again Ciphrd for giving permission to take inspiration from or directly use their art.\n\nDedicated to the whole fxhash community and in particular to people that ape in.",
+              "childrenDescription": "fxApe\nArt by Littlesilver\nCode by Nicthib and Mark Knol\n\nThis project borrows assets from BAYC #8082 as permitted by ownership copyright, but is not affiliated with BAYC in any way. Big thanks to Ciphrd for permitting the use of fxhash logos and also in no particular order to Yazid, M.J. Lindow, Andreas Rau, Lisa Orth, Punevyr, Jim The Bim, William Zancan, Random Combo, Ciphrd, Sableraph, wblut, Mark Knol, Landlinesart and again Ciphrd for giving permission to take inspiration from or directly use their art.\n\nDedicated to the whole fxhash community and in particular to people that ape in.",
+              "tags": [
+                "Pfp",
+                "fxApe",
+                "smolskull",
+                "fxhash"
+              ],
+              "artifactUri": "ipfs://QmP68T45kEdtyPvv4hcZVNSNa57L8ni3uaZaDqEm21qoGK?fxhash=ooiC1DFQhDg8ePrgTkC6pEukc1ugjaUNVQqHnXuTXb866VdVQxP",
+              "displayUri": "ipfs://QmPh8Pw4UZbfc759V1GRocQQd3PEbksg4WewEw1CSVWr97",
+              "thumbnailUri": "ipfs://QmXtxRF8ES2Mf35AFAEcjZNVhQwUzVmPVd1WUoibU7diQL",
+              "generativeUri": "ipfs://QmP68T45kEdtyPvv4hcZVNSNa57L8ni3uaZaDqEm21qoGK",
+              "authenticityHash": "adcc98844468a18b1f5d9402f097e0ce9ab4ecb0617d9b9dfc3f9cb267616fee",
+              "previewHash": "ooiC1DFQhDg8ePrgTkC6pEukc1ugjaUNVQqHnXuTXb866VdVQxP",
+              "capture": {
+                "mode": "CANVAS",
+                "triggerMode": "DELAY",
+                "gpu": false,
+                "canvasSelector": "canvas",
+                "delay": 11100
+              },
+              "settings": {
+                "exploration": {
+                  "preMint": {
+                    "enabled": true,
+                    "hashConstraints": [
+                      "ooFqxpAJmisZQEUd24SF7tcKGXwRBxAUEGYLcZStatQzr2o37Tv",
+                      "ooyGpq8eh9aMq69NzQF5X2qGGfdU7RfPt9q3k7RhZk6rfHH17J5",
+                      "ooLtiDN1tfy34iLbEqhzcUqz58aB7XYpbrVYWa3QsdykH1F1qh7",
+                      "oovXJpnmbgRki9ggA8FHtmWCP2z1efYLgbXT1rQG4eSG1A2Hhhh",
+                      "oo5E8jVyTpKqC6cTEUtLBn1Ab5CfV2F41qLbVPgncYjEek5kqnn",
+                      "oosPh8RcvsjjQtNbTHb6frKQj111AsKb9LPFCZau2U5hvfuv63M",
+                      "oojAJ9p33Rbxvkdg6vtMMrkWoAgZiWx5zrXdB9wdPbtMhLmdfa3",
+                      "ooxjEMVR3pKcnVfTP3yQR5othzSeZ77fJtDMuzn7ca9AcGTmNWH",
+                      "ooCv4ke5oNMtk8b2pJBz7PfpShBw9GianN2iZcpt2NmbZRtzzeW",
+                      "oooFTmrtF11TJw79zrrK22ZrTRRiHFSnqnC6zDTUiTU3yCR7c7x"
+                    ]
+                  },
+                  "postMint": {
+                    "enabled": true,
+                    "hashConstraints": null
+                  }
+                }
+              },
+              "symbol": "FXGEN",
+              "decimals": 0,
+              "version": "0.2"
+            },
+            "author": {
+              "id": "tz1Qvc8ocPr2C1UuwyAH1uaXvDiFxWWDjXHo",
+              "name": "Littlesilver",
+              "__typename": "User"
+            },
+            "__typename": "GenerativeToken"
+          },
+          "__typename": "MarketStats"
+        },
+        {
+          "floor": 380000000,
+          "secVolumeTz": 46688398354,
+          "secVolumeNb": 175,
+          "secVolumeTz24": 680000000,
+          "secVolumeNb24": 2,
+          "secVolumeTz7d": 1220000000,
+          "secVolumeNb7d": 3,
+          "secVolumeTz30d": 3205000000,
+          "secVolumeNb30d": 7,
+          "primVolumeTz": 960000000,
+          "primVolumeNb": 480,
+          "lowestSold": 4000000,
+          "highestSold": 2300000000,
+          "median": 1000000000,
+          "listed": 42,
+          "generativeToken": {
+            "id": 79,
+            "name": "Loom",
+            "metadata": {
+              "name": "Loom",
+              "description": "480 unique sketches of imaginary weaves. Color palettes inspired by the great works of Anni Albers, Gunta Stölzl, Sophie Taeuber-Arp, and Hilma af Klint.\n\nExperimental genesis token on fxhash made with p5.js and a custom shader.\n\nOriginal artwork by Andreas Rau · Oslo, 2021",
+              "childrenDescription": "A unique sketch of an imaginary weave. Color palette inspired by the great works of Anni Albers, Gunta Stölzl, Sophie Taeuber-Arp, or Hilma af Klint.\n\nExperimental genesis token on fxhash made with p5.js and a custom shader.\n\nOriginal artwork by Andreas Rau · Oslo, 2021",
+              "tags": [
+                "andreasrau",
+                "loom",
+                "generativeart",
+                "generative",
+                "genart",
+                "abstract",
+                "color",
+                "p5js"
+              ],
+              "artifactUri": "ipfs://QmRKBJFnCNceQ1CNCXWy9QnSUf86STyQUvtWU4ydo167gH",
+              "displayUri": "ipfs://QmQfQcbJGeGmGLv1JBj8CRhbUqknQgrdJFpVSTQCrZmVS4",
+              "thumbnailUri": "ipfs://QmSnsYZs4gFWV7CDRkRWevZeTWsxcoDfr3RvG8YQFoGUU8",
+              "generativeUri": "ipfs://QmUTqt6h9evfT2x233MHapHVy2GBAHFLtp87ats7FmsVwS",
+              "authenticityHash": "0fcbba1e77fe1e8bef08fb9f48cad1858f2f806f49b42cdefbe0fa402b5ceca5",
+              "capture": {
+                "mode": "VIEWPORT",
+                "resolution": {
+                  "x": 800,
+                  "y": 800
+                },
+                "delay": 4000
+              },
+              "symbol": "FXGEN",
+              "decimals": 0
+            },
+            "author": {
+              "id": "tz1Roq6end2LFtkpGrmuyRZH82xsWfaRCat1",
+              "name": "andreasrau",
+              "__typename": "User"
+            },
+            "__typename": "GenerativeToken"
+          },
+          "__typename": "MarketStats"
+        },
+        {
+          "floor": 68990000,
+          "secVolumeTz": 45913875462,
+          "secVolumeNb": 874,
+          "secVolumeTz24": 0,
+          "secVolumeNb24": 0,
+          "secVolumeTz7d": 795000000,
+          "secVolumeNb7d": 7,
+          "secVolumeTz30d": 10477737142,
+          "secVolumeNb30d": 69,
+          "primVolumeTz": 1968000000,
+          "primVolumeNb": 1986,
+          "lowestSold": 1950000,
+          "highestSold": 750000000,
+          "median": 389000000,
+          "listed": 210,
+          "generativeToken": {
+            "id": 14,
+            "name": "SMOLSKULL",
+            "metadata": {
+              "name": "SMOLSKULL",
+              "description": "Smol pixelart skull face\n\nGenerative art by Mark Knol (@mknol)",
+              "childrenDescription": "Smol pixelart skull face\n\nGenerative art by Mark Knol (@mknol)",
+              "tags": [
+                "skull",
+                "generative",
+                "pfp",
+                "avatar",
+                "smolskull",
+                "pixelart"
+              ],
+              "artifactUri": "ipfs://QmWwxzWXEytuN6kcYUMWytNUMctSCzMLCn3coseXZx7dWp",
+              "displayUri": "ipfs://QmUZF8UeRUMBKEtdu7QFpHef4Zz2EQ2mqdcZ2NuFuDxx5Z",
+              "thumbnailUri": "ipfs://Qmeeix3itmJ3gQtGSC2KP4UybFA74iNvFCmepsTRKbZWxq",
+              "generativeUri": "ipfs://Qma5yJCTxVKLHXqs2ahqUeZymaKhpiAnQHp3jcU6FrYvGv",
+              "authenticityHash": "13f0368f0ec2099dca4e6eaaf78e97a8e803a0803af14614921288881df0cd63",
+              "capture": {
+                "mode": "VIEWPORT",
+                "resolution": {
+                  "x": 1360,
+                  "y": 1360
+                },
+                "delay": 1000
+              },
+              "symbol": "FXGEN",
+              "decimals": 0
+            },
+            "author": {
+              "id": "tz1XrutuvkFRG15HmV2gdon86F38NMMGMAXr",
+              "name": "markknol",
+              "__typename": "User"
+            },
+            "__typename": "GenerativeToken"
+          },
+          "__typename": "MarketStats"
+        },
+        {
+          "floor": 255000000,
+          "secVolumeTz": 42507597400,
+          "secVolumeNb": 211,
+          "secVolumeTz24": 0,
+          "secVolumeNb24": 0,
+          "secVolumeTz7d": 220000000,
+          "secVolumeNb7d": 1,
+          "secVolumeTz30d": 6182000000,
+          "secVolumeNb30d": 23,
+          "primVolumeTz": 3835000000,
+          "primVolumeNb": 767,
+          "lowestSold": 8000000,
+          "highestSold": 550000000,
+          "median": 575000000,
+          "listed": 63,
+          "generativeToken": {
+            "id": 65,
+            "name": "contrapuntos",
+            "metadata": {
+              "name": "contrapuntos",
+              "description": "Musical counterpoint is to me an abstraction of the layered, intertwining rhythms of every activity we carry on in our lives. With a global tempo typically set in days, we fit all sorts of temporal structures where our joys and fears live and play out over the span of our lives. This series is a metaphorical transposition of the musical counterpoint into a visual space, sometimes with repeating patterns, sometimes with broken structures, sometimes isolated notes / hours / souls.\n\nArtwork by Marcelo Soria-Rodríguez, @msoriaro. Made with p5js & glsl.\n\n25% of the proceedings in the primary sale once the project is sold out will go to Project Lighthouse, an initiative by Sultan Akif to foster self-sustainable communities in impoverished regions of the world by empowering the youth with access to education and career-long mentoring. See https://libraryinaweek.com/collections/project-lighthouse for more info.",
+              "childrenDescription": "Musical counterpoint is to me an abstraction of the layered, intertwining rhythms of every activity we carry on in our lives. With a global tempo typically set in days, we fit all sorts of temporal structures where our joys and fears live and play out over the span of our lives. This series is a metaphorical transposition of the musical counterpoint into a visual space, sometimes with repeating patterns, sometimes with broken structures, sometimes isolated notes / hours / souls.\n\nArtwork by Marcelo Soria-Rodríguez, @msoriaro. Made with p5js & glsl.",
+              "tags": [
+                "geometric",
+                "counterpoint",
+                "iillucid",
+                "glsl",
+                "p5"
+              ],
+              "artifactUri": "ipfs://QmcUfxGEhztdVfgJ1DDVhMTTRCzpCGenhrAdmbeQtFhz8o",
+              "displayUri": "ipfs://QmRX3xDuQKD2H8dPBHckyJz7tSEjVuuNdreM8kuJJG9eaD",
+              "thumbnailUri": "ipfs://QmadGoCmCfmefBQXcKaePMVURUDWwS9NVrLnxPCCgu4MZT",
+              "generativeUri": "ipfs://QmfTQFEgcgYDohPJLJWWnrKeRMBYrRP8JF79k6kveuXEv2",
+              "authenticityHash": "60bff18585278be9bc5600114a5c96804b0fa59778bb37037a36a3243bbe834e",
+              "capture": {
+                "mode": "VIEWPORT",
+                "resolution": {
+                  "x": 1500,
+                  "y": 1500
+                },
+                "delay": 4000
+              },
+              "symbol": "FXGEN",
+              "decimals": 0
+            },
+            "author": {
+              "id": "tz1eCX4smQ3LbxwDR3pqNoLQvNNKiHJtpwYz",
+              "name": "msoriaro",
+              "__typename": "User"
+            },
+            "__typename": "GenerativeToken"
+          },
+          "__typename": "MarketStats"
+        },
+        {
+          "floor": 7499690000,
+          "secVolumeTz": 40522000000,
+          "secVolumeNb": 26,
+          "secVolumeTz24": 0,
+          "secVolumeNb24": 0,
+          "secVolumeTz7d": 0,
+          "secVolumeNb7d": 0,
+          "secVolumeTz30d": 0,
+          "secVolumeNb30d": 0,
+          "primVolumeTz": 200000000,
+          "primVolumeNb": 50,
+          "lowestSold": 10000000,
+          "highestSold": 7650000000,
+          "median": 18500000000,
+          "listed": 4,
+          "generativeToken": {
+            "id": 215,
+            "name": "Waiting in Afton",
+            "metadata": {
+              "name": "Waiting in Afton",
+              "description": "One image for each day since I quit my job as a data engineer to work on art full-time. Looking out my back window each day and watching the seasons change.",
+              "childrenDescription": "One image for each day since I quit my job as a data engineer to work on art full-time. Looking out my back window each day and watching the seasons change.",
+              "tags": [
+                "mountains",
+                "landscape",
+                "p5.js"
+              ],
+              "artifactUri": "ipfs://Qmb5KhLSp9KAdPAEKqziGpHX1DN48fmQzcsPYuANcQC1nS",
+              "displayUri": "ipfs://QmYAeSsKNcWzy62fhYKoDosmNx2nSTBWZecSGzDxn61L23",
+              "thumbnailUri": "ipfs://QmQWntq34JruSsgrCqZqW2Rt3WaN52LxGjW6xZjC7izPMh",
+              "generativeUri": "ipfs://QmUXqnKmPGSaTzcvgS7k85KjaSjZ5888VeWVfiawJKZeKY",
+              "authenticityHash": "a2c3688c4925ad7a4d8e1ae06ac2d5b3c7ee6d10f9a6aa99f6f14442ba71aa23",
+              "capture": {
+                "mode": "CANVAS",
+                "delay": 40000,
+                "canvasSelector": "canvas#defaultCanvas0"
+              },
+              "symbol": "FXGEN",
+              "decimals": 0
+            },
+            "author": {
+              "id": "tz1bzg9xNB4heuF41sLfrdt1QmqrJTDQqDwN",
+              "name": "mjlindow",
+              "__typename": "User"
+            },
+            "__typename": "GenerativeToken"
+          },
+          "__typename": "MarketStats"
+        },
+        {
+          "floor": 250000000,
+          "secVolumeTz": 38074445382,
+          "secVolumeNb": 310,
+          "secVolumeTz24": 0,
+          "secVolumeNb24": 0,
+          "secVolumeTz7d": 839990000,
+          "secVolumeNb7d": 3,
+          "secVolumeTz30d": 6122655900,
+          "secVolumeNb30d": 20,
+          "primVolumeTz": 12723982000,
+          "primVolumeNb": 509,
+          "lowestSold": 45000000,
+          "highestSold": 696969000,
+          "median": 723480000,
+          "listed": 60,
+          "generativeToken": {
+            "id": 2613,
+            "name": "Dragons",
+            "metadata": {
+              "name": "Dragons",
+              "description": "A grid of many lines forming a dragon crafted on paper.\nThey all have their own personality... Be sure to name and take care of them.\n\ntw: williamapan",
+              "childrenDescription": "A grid of many lines forming a dragon crafted on paper.\nThey all have their own personality... Be sure to name and take care of them.\n\ntw: williamapan",
+              "tags": [
+                "generativeart",
+                "creativecoding",
+                "colors",
+                "tangible",
+                "dragons"
+              ],
+              "artifactUri": "ipfs://QmYqYWGQWqiwvCZSbgvCNM38yFqD49iYTeGUiHjFQbem7P",
+              "displayUri": "ipfs://QmTABGFp1GQY5VE8vqCGj5ydoHH7ebMffgB93PNjLSE1fZ",
+              "thumbnailUri": "ipfs://QmZvqve2NwBZNKzUA3u2ETswtgqYX1B3bbTzroLuTEHNpH",
+              "generativeUri": "ipfs://QmeKNachzan9TamxbYmfhDfjkur7gbs1EEtGqMpsmyubeb",
+              "authenticityHash": "1ca6206f39ae42c9cf0eacc9330519eef59df8876cd3b7eaf4e626fc91966336",
+              "capture": {
+                "mode": "VIEWPORT",
+                "resolution": {
+                  "x": 800,
+                  "y": 800
+                },
+                "delay": 10000
+              },
+              "symbol": "FXGEN",
+              "decimals": 0
+            },
+            "author": {
+              "id": "tz1eJF2r9JsfDLAswoo5iCDk6Qv2yWt6fbMX",
+              "name": "williamapan",
+              "__typename": "User"
+            },
+            "__typename": "GenerativeToken"
+          },
+          "__typename": "MarketStats"
+        },
+        {
+          "floor": 90000000,
+          "secVolumeTz": 32156519200,
+          "secVolumeNb": 286,
+          "secVolumeTz24": 0,
+          "secVolumeNb24": 0,
+          "secVolumeTz7d": 99000000,
+          "secVolumeNb7d": 1,
+          "secVolumeTz30d": 1264000000,
+          "secVolumeNb30d": 10,
+          "primVolumeTz": 4088000000,
+          "primVolumeNb": 511,
+          "lowestSold": 20000000,
+          "highestSold": 775000000,
+          "median": 610000000,
+          "listed": 75,
+          "generativeToken": {
+            "id": 2193,
+            "name": "Sequence",
+            "metadata": {
+              "name": "Sequence",
+              "description": "Sequence by Hevey (@HeveyArt).\n\nThis artwork was created using p5js.",
+              "childrenDescription": "Sequence by Hevey (@HeveyArt).\n\nThis artwork was created using p5js.",
+              "tags": [
+                "sequence",
+                "dna",
+                "genome",
+                "sequenced",
+                "lines",
+                "abstract",
+                "p5js"
+              ],
+              "artifactUri": "ipfs://QmU84jud2M9RaJnLfoSwpsfoQHadAz52SYu8oK5UdRYwxP",
+              "displayUri": "ipfs://QmUQv6n32MjcdV4qS5xsrxwtbr5PAP1Ceu35ToWAsH6ehX",
+              "thumbnailUri": "ipfs://QmPFUitdpjZuXBsotSkkpUF5XgRdzRG6VoimP9FYbftfXF",
+              "generativeUri": "ipfs://QmZ3NHUyksvQb51EMtivdXxfjxB73xx4xByLXvrxHvqrf9",
+              "authenticityHash": "1822519bc69346950aa4c4e31a0f29346ddb3fa2b8afcc900f283506d17474ca",
+              "capture": {
+                "mode": "CANVAS",
+                "delay": 2000,
+                "canvasSelector": "canvas"
+              },
+              "symbol": "FXGEN",
+              "decimals": 0
+            },
+            "author": {
+              "id": "tz1NMvVB48fNzrG3rPZS58Eo1nSJ6p3RjRyz",
+              "name": "Hevey",
+              "__typename": "User"
+            },
+            "__typename": "GenerativeToken"
+          },
+          "__typename": "MarketStats"
+        },
+        {
+          "floor": 65000000,
+          "secVolumeTz": 31202496900,
+          "secVolumeNb": 193,
+          "secVolumeTz24": 0,
+          "secVolumeNb24": 0,
+          "secVolumeTz7d": 0,
+          "secVolumeNb7d": 0,
+          "secVolumeTz30d": 1347700000,
+          "secVolumeNb30d": 21,
+          "primVolumeTz": 8343432006,
+          "primVolumeNb": 442,
+          "lowestSold": 40000000,
+          "highestSold": 678900000,
+          "median": 210000000,
+          "listed": 91,
+          "generativeToken": {
+            "id": 3683,
+            "name": "overloaded",
+            "metadata": {
+              "name": "overloaded",
+              "description": "Overloaded attempts to be a system to explore time perception, through non-representative images, while still representing pixels as upscaled forms. It plays with permanence and non-permanence.",
+              "childrenDescription": "Overloaded attempts to be a system to explore time perception, through non-representative images, while still representing pixels as upscaled forms. It plays with permanence and non-permanence.",
+              "tags": [
+                "time",
+                "pixel",
+                "grid",
+                "movement"
+              ],
+              "artifactUri": "ipfs://QmT6p155cLKjV9nN58f88M8iJDYN9dXTTNtn7XQMDGWiff",
+              "displayUri": "ipfs://QmUtMaFLL3KxorqptEBq1HBxPLZkchDhYszXCwRtmECHMc",
+              "thumbnailUri": "ipfs://QmRnniAoaQKQL2XZ2QRLQQtNaAzqtBXiJFutahh5Z2oPAs",
+              "generativeUri": "ipfs://QmR4foCBc5wefswLW9fFXYfwoLFGnP5ycspd43Gy33fhyt",
+              "authenticityHash": "b2ba30a9cba092e3439996aa7641eb4ee4fe6e4d7620b0c7acc6cfd02944b9cc",
+              "capture": {
+                "mode": "VIEWPORT",
+                "resolution": {
+                  "x": 800,
+                  "y": 800
+                },
+                "delay": 2000
+              },
+              "symbol": "FXGEN",
+              "decimals": 0
+            },
+            "author": {
+              "id": "tz1TxDL7npfYDSyvrZFC4deUPMySvsL6xARU",
+              "name": "p1xelfool",
+              "__typename": "User"
+            },
+            "__typename": "GenerativeToken"
+          },
+          "__typename": "MarketStats"
+        },
+        {
+          "floor": 348000000,
+          "secVolumeTz": 29346499999,
+          "secVolumeNb": 229,
+          "secVolumeTz24": 0,
+          "secVolumeNb24": 0,
+          "secVolumeTz7d": 4439450000,
+          "secVolumeNb7d": 11,
+          "secVolumeTz30d": 29346499999,
+          "secVolumeNb30d": 229,
+          "primVolumeTz": 2748000000,
+          "primVolumeNb": 233,
+          "lowestSold": 25000000,
+          "highestSold": 1500000000,
+          "median": 999000000,
+          "listed": 36,
+          "generativeToken": {
+            "id": 8564,
+            "name": "Solace",
+            "metadata": {
+              "name": "Solace",
+              "description": "Solace is an algorithm that generates artworks of sand dunes. It draws hundreds of thousands of tiny points according to a probability distribution calculated from the positions of the dunes.\n\nThe logic to divide the dunes into light and dark sides is simple, but produces some interesting chaotic behaviour. These are details that weren't hard-coded but emerge organically, such as the patterns on the spines of the dunes or the stripes around their bases.\n\nPlease note that the algorithm can take some time to run, especially when the number of dunes is high.\n\nThe starting price at unlock will be 12 tez. After 5 minutes, it will be reduced to 6 tez and after another 5 minutes, it will be reduced to the resting price of 3 tez.\n\nCreated by lunarean.",
+              "childrenDescription": "Solace is an algorithm that generates artworks of sand dunes. It draws hundreds of thousands of tiny points according to a probability distribution calculated from the positions of the dunes.\n\nThe logic to divide the dunes into light and dark sides is simple, but produces some interesting chaotic behaviour. These are details that weren't hard-coded but emerge organically, such as the patterns on the spines of the dunes or the stripes around their bases.\n\nPlease note that the algorithm can take some time to run, especially when the number of dunes is high.\n\nCreated by lunarean.",
+              "tags": [
+                "desert",
+                "dune",
+                "sand",
+                "nature",
+                "landscape",
+                "organic",
+                "p5js",
+                "processing"
+              ],
+              "artifactUri": "ipfs://QmebWKMJfBv7i1KAUMn5auH761qnXCY6ioKaa6KC47y2sR?fxhash=oojZ1N47YQ1XDbmTTE8mmhLbBpe1JDefWMg6Kp9E6iuaBxd8stJ",
+              "displayUri": "ipfs://QmXP8qPwzwnuduvYaomfvKNyF38gyo2oDeakwiqXKwu2iQ",
+              "thumbnailUri": "ipfs://QmR3yHxgvE6z6PG3Zzo6aB81JoM5yUBSpXGFCi1Ehgkoty",
+              "generativeUri": "ipfs://QmebWKMJfBv7i1KAUMn5auH761qnXCY6ioKaa6KC47y2sR",
+              "authenticityHash": "931b6c1e94b2af0be679d2f4393a48220eefd1d91c5f0b36b72f28335fb12234",
+              "previewHash": "oojZ1N47YQ1XDbmTTE8mmhLbBpe1JDefWMg6Kp9E6iuaBxd8stJ",
+              "capture": {
+                "mode": "CANVAS",
+                "triggerMode": "FN_TRIGGER",
+                "gpu": false,
+                "canvasSelector": "canvas#defaultCanvas0"
+              },
+              "settings": {
+                "exploration": {
+                  "preMint": {
+                    "enabled": true,
+                    "hashConstraints": [
+                      "oo8h2bajiyfVVx74hunTyVmcV5matp9mwgtNAynEB1jGCA8jCTb",
+                      "ooqS8Q5HH8cXSwZCQvK9DuPCKV86CNuwfUbVvaLg4GbPi7HPRR3",
+                      "ooGxY8MCskBG9w4UpmHbjcC2KcJQZciyesHSg8Guh3xajMxQtk5"
+                    ]
+                  },
+                  "postMint": {
+                    "enabled": false,
+                    "hashConstraints": null
+                  }
+                }
+              },
+              "symbol": "FXGEN",
+              "decimals": 0,
+              "version": "0.2"
+            },
+            "author": {
+              "id": "tz1Rakav1r6xMmrvYiXZjdvz3T1wNU4igoQM",
+              "name": "lunarean",
+              "__typename": "User"
+            },
+            "__typename": "GenerativeToken"
+          },
+          "__typename": "MarketStats"
+        },
+        {
+          "floor": 65000000,
+          "secVolumeTz": 28378964200,
+          "secVolumeNb": 154,
+          "secVolumeTz24": 0,
+          "secVolumeNb24": 0,
+          "secVolumeTz7d": 0,
+          "secVolumeNb7d": 0,
+          "secVolumeTz30d": 437000000,
+          "secVolumeNb30d": 6,
+          "primVolumeTz": 12288000000,
+          "primVolumeNb": 384,
+          "lowestSold": 12120000,
+          "highestSold": 777000000,
+          "median": 499000000,
+          "listed": 48,
+          "generativeToken": {
+            "id": 3496,
+            "name": "De/FragV2",
+            "metadata": {
+              "name": "De/FragV2",
+              "description": "The second piece in this series is dedicated to another fundamental algorithm in computer graphics: Voronoi. It's origin precedes its use with computers by several decades, or centuries, depending on who to credit, since science always is a continuum. In the generative art & design field, the algorithm has been an instrumental tool for generation(s) of practioners, sadly often to the point of turning cliché.\n\nIn this piece I've attempted to \"break\" the classic resulting aesthetics of this algorithm and focus more on revealing its inner workings. There are many ways of computing a Voronoi diagram. The so called Jump Flood Algorithm (JFA) proved to be the visually most interesting approach to me. Again, as with the previous De/Frag piece, here the algorithm has been slowed down, timesliced and customized in dozens of ways to result in a more painterly character overall and produce a variety of new shapes & textures.\n\nFullscreen compatible (Press 'S' to toggle square frame). Made with love & thi.ng/umbrella",
+              "childrenDescription": "The second piece in this series is dedicated to another fundamental algorithm in computer graphics: Voronoi. It's origin precedes its use with computers by several decades, or centuries, depending on who to credit, since science always is a continuum. In the generative art & design field, the algorithm has been an instrumental tool for generation(s) of practioners, sadly often to the point of turning cliché.\n\nIn this piece I've attempted to \"break\" the classic resulting aesthetics of this algorithm and focus more on revealing its inner workings. There are many ways of computing a Voronoi diagram. The so called Jump Flood Algorithm (JFA) proved to be the visually most interesting approach to me. Again, as with the previous De/Frag piece, here the algorithm has been slowed down, timesliced and customized in dozens of ways to result in a more painterly character overall and produce a variety of new shapes & textures.\n\nFullscreen compatible (Press 'S' to toggle square frame). Made with love & thi.ng/umbrella",
+              "tags": [
+                "painting",
+                "texture",
+                "grunge",
+                "voronoi",
+                "animated",
+                "thi.ng"
+              ],
+              "artifactUri": "ipfs://QmYo3y88ccLckxQQBkbHtZgA3b77KVGRCjDqw3WZFJvw1x",
+              "displayUri": "ipfs://QmXmYXYXAnGxVy6r2BN8Ax2197R58dYX6nZosbMcZucbuh",
+              "thumbnailUri": "ipfs://QmZE1RH9PbML9cx3kQGPxcRzwZ64bgwndLtAiRvaTWRnHx",
+              "generativeUri": "ipfs://QmQPK3nkUEnDWeoqhbjrCZfzuaytNSbYQyzEwuHhUmXGiD",
+              "authenticityHash": "3785d9ba23db5d091597ffe6de6b16fb4b5fd51f7ca06f19c59854f202be89b8",
+              "capture": {
+                "mode": "CANVAS",
+                "delay": 18000,
+                "canvasSelector": "#app"
+              },
+              "symbol": "FXGEN",
+              "decimals": 0
+            },
+            "author": {
+              "id": "tz1d4ThofujwwaWvxDQHF7VyJfaeR2ay3jhf",
+              "name": "toxi",
+              "__typename": "User"
+            },
+            "__typename": "GenerativeToken"
+          },
+          "__typename": "MarketStats"
+        },
+        {
+          "floor": 125000000,
+          "secVolumeTz": 26466787726,
+          "secVolumeNb": 219,
+          "secVolumeTz24": 0,
+          "secVolumeNb24": 0,
+          "secVolumeTz7d": 1231272727,
+          "secVolumeNb7d": 5,
+          "secVolumeTz30d": 3028172727,
+          "secVolumeNb30d": 18,
+          "primVolumeTz": 3360000000,
+          "primVolumeNb": 248,
+          "lowestSold": 38000000,
+          "highestSold": 727272727,
+          "median": 512000000,
+          "listed": 39,
+          "generativeToken": {
+            "id": 6621,
+            "name": "Towers",
+            "metadata": {
+              "name": "Towers",
+              "description": "Mostly black on gray.",
+              "childrenDescription": "Mostly black on gray. \n\nKeys\ns : snapshot 2k PNG\nS : snapshot 8k PNG",
+              "tags": [
+                "2d",
+                "abstract",
+                "concrete",
+                "experimental",
+                "generative",
+                "jitter",
+                "kinetictype",
+                "monospace",
+                "procedural",
+                "serif",
+                "textart",
+                "textmode",
+                "typography"
+              ],
+              "artifactUri": "ipfs://QmXY7eGw9bwMm1ARi74bcWs8GKp6pANr1mvY16j9H5J8wa?fxhash=ooGnvwM5KDAguz2A21Shy6SStDRFR7wCjw2c4ibERL7TNxpAtcA",
+              "displayUri": "ipfs://QmUD1kdJX1upTi8JUbG3Wfx6T7GRdwyavDc8o76oqK5mm6",
+              "thumbnailUri": "ipfs://QmdDA5jCaVrASi2bk99Gr6DBbbn2rNuFcngKTtkuh9gVeF",
+              "generativeUri": "ipfs://QmXY7eGw9bwMm1ARi74bcWs8GKp6pANr1mvY16j9H5J8wa",
+              "authenticityHash": "7add54a8abd56023502741c44ca7bc7f33639b392515f41042101a4a36e9f64b",
+              "previewHash": "ooGnvwM5KDAguz2A21Shy6SStDRFR7wCjw2c4ibERL7TNxpAtcA",
+              "capture": {
+                "mode": "VIEWPORT",
+                "triggerMode": "DELAY",
+                "resolution": {
+                  "x": 1600,
+                  "y": 1600
+                },
+                "delay": 2000
+              },
+              "settings": {
+                "exploration": {
+                  "preMint": {
+                    "enabled": true,
+                    "hashConstraints": null
+                  },
+                  "postMint": {
+                    "enabled": true,
+                    "hashConstraints": null
+                  }
+                }
+              },
+              "symbol": "FXGEN",
+              "decimals": 0,
+              "version": "0.2"
+            },
+            "author": {
+              "id": "tz1dEF5ZMTnBSkz2ZQPvpJjwyfeUUyGjeMtf",
+              "name": "ertdfgcvb",
+              "__typename": "User"
+            },
+            "__typename": "GenerativeToken"
+          },
+          "__typename": "MarketStats"
+        },
+        {
+          "floor": 45000000,
+          "secVolumeTz": 26013506900,
+          "secVolumeNb": 122,
+          "secVolumeTz24": 0,
+          "secVolumeNb24": 0,
+          "secVolumeTz7d": 136000000,
+          "secVolumeNb7d": 2,
+          "secVolumeTz30d": 1312500000,
+          "secVolumeNb30d": 15,
+          "primVolumeTz": 7000000000,
+          "primVolumeNb": 350,
+          "lowestSold": 45000000,
+          "highestSold": 2000000000,
+          "median": 275000000,
+          "listed": 91,
+          "generativeToken": {
+            "id": 3696,
+            "name": "Uninhabitable",
+            "metadata": {
+              "name": "Uninhabitable",
+              "description": "Uninhabitable is a generative system built only from ellipses. The process of playing with different geometric and trigonometric disruptions gives rise to four different compositions which seek to evoque living constructions and environments. Besides the shape itself and its related distortion, the stroke weight of the lines plays a meaningful role in the piece. Following a discrete range [0.01,0.1,1] the weight reveals the process allowing the viewer to realize the trace of the huge amount of lines in each piece. This back and forth between scales and context is, while kind of stripping the code, part of my continuing interest on understanding the -usually- crazy paths of machines' way of thinking.\n\nPress \"h\" to see it and high resolution and refresh to get back to the initial state. Press \"h\" to save it.\n\nUninhabitable is an original work by Iskra Velitchkova. 2021.",
+              "childrenDescription": "Uninhabitable is a generative system built only from ellipses. The process of playing with different geometric and trigonometric disruptions gives rise to four different compositions which seek to evoque living constructions and environments. Besides the shape itself and its related distortion, the stroke weight of the lines plays a meaningful role in the piece. Following a discrete range [0.01,0.1,1] the weight reveals the process allowing the viewer to realize the trace of the huge amount of lines in each piece. This back and forth between scales and context is, while kind of stripping the code, part of my continuing interest on understanding the -usually- crazy paths of machines' way of thinking.\n\nPress \"h\" to see it and high resolution and refresh to get back to the initial state. Press \"h\" to save it.\n\nUninhabitable is an original work by Iskra Velitchkova. 2021.",
+              "tags": [
+                "generative",
+                "generativeart",
+                "p5js",
+                "geometric",
+                "genart",
+                "lineart",
+                "monochrome"
+              ],
+              "artifactUri": "ipfs://QmRpdJ8twy1ehYAusN5PghnFRb7J1wUcH348ozQNm9ULDw",
+              "displayUri": "ipfs://QmahdQdRpX4bh83p3oo1zQRFVfMBYrfP4uiRg86LDpK1dx",
+              "thumbnailUri": "ipfs://QmQhZQxyEpbPkLJY35yW8zq2uJ4Xcmg7tdrBrGt7uUFpYK",
+              "generativeUri": "ipfs://QmPEvX12DbheDvyfP9gFERLwmLWwwrhinBgnk1irbCP23Q",
+              "authenticityHash": "c6c9681f13322084e6d49a361db97a990cb88fb47eb20af60ebe991e3f61e374",
+              "capture": {
+                "mode": "VIEWPORT",
+                "resolution": {
+                  "x": 1200,
+                  "y": 1200
+                },
+                "delay": 5000
+              },
+              "symbol": "FXGEN",
+              "decimals": 0
+            },
+            "author": {
+              "id": "tz1gVKxpEGC7QW1fZyEEMEW2kgJRbpgWLNpD",
+              "name": "IskraVelitchkova",
+              "__typename": "User"
+            },
+            "__typename": "GenerativeToken"
+          },
+          "__typename": "MarketStats"
+        },
+        {
+          "floor": 120000000,
+          "secVolumeTz": 25640637900,
+          "secVolumeNb": 203,
+          "secVolumeTz24": 0,
+          "secVolumeNb24": 0,
+          "secVolumeTz7d": 105000000,
+          "secVolumeNb7d": 1,
+          "secVolumeTz30d": 1235000000,
+          "secVolumeNb30d": 9,
+          "primVolumeTz": 1286870000,
+          "primVolumeNb": 247,
+          "lowestSold": 41000000,
+          "highestSold": 999000000,
+          "median": 350000000,
+          "listed": 47,
+          "generativeToken": {
+            "id": 5101,
+            "name": "Chaos Research",
+            "metadata": {
+              "name": "Chaos Research",
+              "description": "No feature, no attribute, believe what you see.\n\n*mouseClick in live mode to save in png.\n\nileivoivm (AluanWang) - @IOivm, Dec 2021",
+              "childrenDescription": "No feature, no attribute, believe what you see.\n\n*mouseClick in live mode to save in png.\n\nileivoivm (AluanWang) - @IOivm, Dec 2021",
+              "tags": [
+                "aluanwang",
+                "p5js",
+                "ileivoivm",
+                "ChaosResearch",
+                "GoodVibrations"
+              ],
+              "artifactUri": "ipfs://QmeALg31LnC9tAQAhFEp6pGvpCMboZUEAM8H5gpZBSsWKz?fxhash=ooPAib3CZxnUQNhTEBCa1mSS1mcT8iLVVvgzWzPBbgKhbp4Px8P",
+              "displayUri": "ipfs://QmWayq38MUGoLxHqFxDJ7yc5aiiho2nXeT2RFb3euXPZtu",
+              "thumbnailUri": "ipfs://QmVXp4cdYzKZx8MceXrfdSZ4Ti82gdCJyE58LKKJXbsZqF",
+              "generativeUri": "ipfs://QmeALg31LnC9tAQAhFEp6pGvpCMboZUEAM8H5gpZBSsWKz",
+              "authenticityHash": "3fb0b6b78633b72c7c36be0e516edfc0f1c95c461824aaf6802f1145d57847ff",
+              "previewHash": "ooPAib3CZxnUQNhTEBCa1mSS1mcT8iLVVvgzWzPBbgKhbp4Px8P",
+              "capture": {
+                "mode": "VIEWPORT",
+                "triggerMode": "FN_TRIGGER",
+                "resolution": {
+                  "x": 800,
+                  "y": 800
+                }
+              },
+              "settings": {
+                "exploration": {
+                  "preMint": {
+                    "enabled": true,
+                    "hashConstraints": [
+                      "ooPAib3CZxnUQNhTEBCa1mSS1mcT8iLVVvgzWzPBbgKhbp4Px8P",
+                      "oo1Su8D51eFa2g3zXeGd9b9cx3EEBfUwYYckBJ6b7FNTsmLWkzx",
+                      "oogfjN6vB7BdWpY9AtbbD4nk6cmKzDiZfJ35kfAJ31LXLwAAMME",
+                      "oo8XzuPw2bjY4r3YxHV2NfzStkAEUEwhGpG2PbZjVGF6BcLnDFG",
+                      "ooKaHu4PiAfXDutMwBtZRJUwSHe2n57KE9P2AaBTJ7dNwM7Dxo8",
+                      "ooiJHAbwzfCg8WZsYQxifoYmeQgknUCK3GPFryFAP8hzNGba1JW",
+                      "oobYcKCDg3XgjNBiZkVGwJNvkjHuoowsP6irj8oaT69yqKt3yi5",
+                      "oo9cHRWUZZm2JSacBikWANgZy4psghUs1ULUL533xQsMsTz9ggE",
+                      "ooTj4j9oj8P1CapnDkH3puk8frnrmZm7LKEdqBiELUXjb7ZDBv5"
+                    ]
+                  },
+                  "postMint": {
+                    "enabled": true,
+                    "hashConstraints": [
+                      "oo1Su8D51eFa2g3zXeGd9b9cx3EEBfUwYYckBJ6b7FNTsmLWkzx",
+                      "ooPAib3CZxnUQNhTEBCa1mSS1mcT8iLVVvgzWzPBbgKhbp4Px8P",
+                      "oogfjN6vB7BdWpY9AtbbD4nk6cmKzDiZfJ35kfAJ31LXLwAAMME",
+                      "oo8XzuPw2bjY4r3YxHV2NfzStkAEUEwhGpG2PbZjVGF6BcLnDFG",
+                      "ooKaHu4PiAfXDutMwBtZRJUwSHe2n57KE9P2AaBTJ7dNwM7Dxo8",
+                      "ooiJHAbwzfCg8WZsYQxifoYmeQgknUCK3GPFryFAP8hzNGba1JW",
+                      "oobYcKCDg3XgjNBiZkVGwJNvkjHuoowsP6irj8oaT69yqKt3yi5",
+                      "oo9cHRWUZZm2JSacBikWANgZy4psghUs1ULUL533xQsMsTz9ggE",
+                      "ooTj4j9oj8P1CapnDkH3puk8frnrmZm7LKEdqBiELUXjb7ZDBv5"
+                    ]
+                  }
+                }
+              },
+              "symbol": "FXGEN",
+              "decimals": 0,
+              "version": "0.2"
+            },
+            "author": {
+              "id": "tz1cbhmVZuFTKHcACSFpg5ER1bGVGkanhrbW",
+              "name": "ileivoivm",
+              "__typename": "User"
+            },
+            "__typename": "GenerativeToken"
+          },
+          "__typename": "MarketStats"
+        },
+        {
+          "floor": 85000000,
+          "secVolumeTz": 25142103000,
+          "secVolumeNb": 189,
+          "secVolumeTz24": 0,
+          "secVolumeNb24": 0,
+          "secVolumeTz7d": 0,
+          "secVolumeNb7d": 0,
+          "secVolumeTz30d": 1058900000,
+          "secVolumeNb30d": 13,
+          "primVolumeTz": 686000000,
+          "primVolumeNb": 196,
+          "lowestSold": 5500000,
+          "highestSold": 1000000000,
+          "median": 385000000,
+          "listed": 50,
+          "generativeToken": {
+            "id": 7198,
+            "name": "Mountain View",
+            "metadata": {
+              "name": "Mountain View",
+              "description": "fully generative mountain view - different locations, view angles, colors\nevery minted image can be displayed (and downloaded as SVG) in different color schemes varying\nfrom extreme colors over subtle shading to pure outlines\n...also pays off to play with different aspect ratios\n\n  press 's' for downloading as SVG image file\n  press 'c' for toggling between 6 different color modes\n",
+              "childrenDescription": "fully generative mountain view - different locations, view angles, colors\nevery minted image can be displayed (and downloaded as SVG) in different color schemes varying\nfrom extreme colors over subtle shading to pure outlines\n...also pays off to play with different aspect ratios\n\n  press 's' for downloading as SVG image file\n  press 'c' for toggling between 6 different color modes\n",
+              "tags": [
+                "terrain",
+                "generative",
+                "mountains",
+                "p5js",
+                "lineart"
+              ],
+              "artifactUri": "ipfs://QmXMuVGjtUFiFyCTzah7zkrsoSSnji4sU9kBDG2m8MXojW?fxhash=ooXn7AfPCvhfy2weoXjiJHmfby7R2wFVa2UKABoE3cAHCn7Ni4N",
+              "displayUri": "ipfs://QmT9zHvPhHeWSFSJRHzyNYqVvw9XXwXCRunCrTNp1fa92m",
+              "thumbnailUri": "ipfs://QmcgG72UXaCpstzC3wXNsFjjs3DRZia6TSmTmpcyUsG2Ws",
+              "generativeUri": "ipfs://QmXMuVGjtUFiFyCTzah7zkrsoSSnji4sU9kBDG2m8MXojW",
+              "authenticityHash": "944c26b7406be20f3d3eb85f5ee57a3772130a2c88bd1c110bac44c275b59d14",
+              "previewHash": "ooXn7AfPCvhfy2weoXjiJHmfby7R2wFVa2UKABoE3cAHCn7Ni4N",
+              "capture": {
+                "mode": "CANVAS",
+                "triggerMode": "FN_TRIGGER",
+                "canvasSelector": "canvas"
+              },
+              "settings": {
+                "exploration": {
+                  "preMint": {
+                    "enabled": true,
+                    "hashConstraints": [
+                      "oo41e4aJbWQyQ5pnW3KLNdf3r4xqMDDuZndJVe5Z5G6B9Ai7KFP",
+                      "ooL6MnVZ33kz1Uq8sVZTSNtLaKMW8JiLLS9iQm9hhwsrYFqyZu6",
+                      "ooaBJ3y1nY3GKPsKUB2zaM5uZS5nTaaA49mYLC3PU79U4rTcE4R",
+                      "oosQZBMhVShfGiq2fzxJZ9M3UqSgswg2J7WHXtXoiuTkJCqy6Ss",
+                      "ooNsbCB5Y6qt1t1zVfBWshPPQVRv2BVMGbd2cZZrTWfJUJmgUk4",
+                      "oomdu86wohf7VPCRzkwc3rgjjdY3xvn4w8hdkp7wjvAVgvfMFp3"
+                    ]
+                  },
+                  "postMint": {
+                    "enabled": false,
+                    "hashConstraints": null
+                  }
+                }
+              },
+              "symbol": "FXGEN",
+              "decimals": 0,
+              "version": "0.2"
+            },
+            "author": {
+              "id": "tz1T55y8BEuXQrCzBaPqayugNNGFwxy27WJt",
+              "name": "flockaroo",
+              "__typename": "User"
+            },
+            "__typename": "GenerativeToken"
+          },
+          "__typename": "MarketStats"
+        },
+        {
+          "floor": 485000000,
+          "secVolumeTz": 21006567000,
+          "secVolumeNb": 100,
+          "secVolumeTz24": 0,
+          "secVolumeNb24": 0,
+          "secVolumeTz7d": 340000000,
+          "secVolumeNb7d": 1,
+          "secVolumeTz30d": 673000000,
+          "secVolumeNb30d": 2,
+          "primVolumeTz": 11880000000,
+          "primVolumeNb": 198,
+          "lowestSold": 55000000,
+          "highestSold": 1200000000,
+          "median": 969000000,
+          "listed": 29,
+          "generativeToken": {
+            "id": 1291,
+            "name": "Hypergiraffe",
+            "metadata": {
+              "name": "Hypergiraffe",
+              "description": "3965 bytes of Javascript produce a generative doodling in resolution independent SVG format. Be sure to check the features for your each piece's custom title! By Piter Pasma (piterpasma.nl)",
+              "childrenDescription": "3965 bytes of Javascript produce a generative doodling in resolution independent SVG format. Be sure to check the features for your each piece's custom title! By Piter Pasma (piterpasma.nl)",
+              "tags": [
+                "generative",
+                "generativeart",
+                "digitalart",
+                "javascript",
+                "genartclub",
+                "abstract",
+                "doodle"
+              ],
+              "artifactUri": "ipfs://QmS8skFhewnKqLHBQimnctiGrxWs1Lg7AT6gFsTPL49rLe",
+              "displayUri": "ipfs://QmWQ1eycN38y6TTuadasY2A5ivuRG16fNY95ERgRPNj8CK",
+              "thumbnailUri": "ipfs://Qmc5MyeWGcuwiP8VqjTmWDXNExfzHywwgMiYiGS3FyavAD",
+              "generativeUri": "ipfs://Qmf5wUbLTDKNkpgxZWVXkv21HiiRzA2TMA6ohjVYNZs9BV",
+              "authenticityHash": "bdcc7a9d75746f3e464f3068fd94c52556b851269e14d0b9a2a65484d6a13c5c",
+              "capture": {
+                "mode": "VIEWPORT",
+                "resolution": {
+                  "x": 1600,
+                  "y": 1600
+                },
+                "delay": 10000
+              },
+              "symbol": "FXGEN",
+              "decimals": 0
+            },
+            "author": {
+              "id": "tz1Kw8cEFuNLj21e5b42NBn1ANW7hupmbDbo",
+              "name": "Piter Pasma",
+              "__typename": "User"
+            },
+            "__typename": "GenerativeToken"
+          },
+          "__typename": "MarketStats"
+        },
+        {
+          "floor": 45000000,
+          "secVolumeTz": 20593659999,
+          "secVolumeNb": 209,
+          "secVolumeTz24": 0,
+          "secVolumeNb24": 0,
+          "secVolumeTz7d": 0,
+          "secVolumeNb7d": 0,
+          "secVolumeTz30d": 1283380000,
+          "secVolumeNb30d": 17,
+          "primVolumeTz": 10060000000,
+          "primVolumeNb": 503,
+          "lowestSold": 26000000,
+          "highestSold": 305000000,
+          "median": 253000000,
+          "listed": 90,
+          "generativeToken": {
+            "id": 7519,
+            "name": "Growth v02",
+            "metadata": {
+              "name": "Growth v02",
+              "description": "Growth patterns, version 2. January 2022\nEdition of 512\n\nGrowth v02 is an generative exploration of patterns in the style of William Morris' iconic wallpaper designs from the 1800s. The code for the Growth series was originally designed to create plausible road networks but has been rewritten to create more organic curved forms. Created with p5js.\n\n'space' to pause the simulation\n'h' to toggle to higher res (increases canvas size but runs slower: great for screengrabs)\n'r' to reset the seed (some features are locked to the original hash)\n's' to save an image to disk\nAll generated patterns are tile-able horizontally and vertically.\n\nLicensed under CC BY-NC-SA 4.0",
+              "childrenDescription": "Growth patterns, version 2. January 2022\nEdition of 512\n\nGrowth v02 is an generative exploration of patterns in the style of William Morris' iconic wallpaper designs from the 1800s. The code for the Growth series was originally designed to create plausible road networks but has been rewritten to create more organic curved forms. Created with p5js.\n\n'space' to pause the simulation\n'h' to toggle to higher res (increases canvas size but runs slower: great for screengrabs)\n'r' to reset the seed (some features are locked to the original hash)\n's' to save an image to disk\nAll generated patterns are tile-able horizontally and vertically.\n\nLicensed under CC BY-NC-SA 4.0\n\nThis project relies heavily on randomly generated values. It has been thoroughly tested. However, there is always the chance that the wrong combination of randomness can create less-compelling growth. If you feel you version is not living up to the potential promised with this piece, please email me.",
+              "tags": [
+                "Growth",
+                "flight404",
+                "wallpaper",
+                "generative",
+                "algorithmic",
+                "William Morris"
+              ],
+              "artifactUri": "ipfs://QmY3B84gWU3gqYz8Ar3LwruFTZCv6ezHHPaw5Q9hCjPUAG?fxhash=ooCFuy5oMV4d19fvEU8HsyK95nt11xJrpVLfa6jU968WKcdXmE7",
+              "displayUri": "ipfs://QmW4kwZABx9a6dYeVE1eu6DKM1kNfioxSY5jojDRpPieXQ",
+              "thumbnailUri": "ipfs://QmXSEwf9e5jztdXoCJdtCNwZZwr2KheVLnAgsuFummvV1W",
+              "generativeUri": "ipfs://QmY3B84gWU3gqYz8Ar3LwruFTZCv6ezHHPaw5Q9hCjPUAG",
+              "authenticityHash": "4db7f85ca5880bb137e05e8b21e14c8bb030529ce3981b4feba44414a395ee46",
+              "previewHash": "ooCFuy5oMV4d19fvEU8HsyK95nt11xJrpVLfa6jU968WKcdXmE7",
+              "capture": {
+                "mode": "VIEWPORT",
+                "triggerMode": "FN_TRIGGER",
+                "resolution": {
+                  "x": 800,
+                  "y": 800
+                }
+              },
+              "settings": {
+                "exploration": {
+                  "preMint": {
+                    "enabled": true,
+                    "hashConstraints": [
+                      "oot2ZnkRnUf7itvZq33yVufhvkWuqoLg3CtkZ6S6E9TjtBohorx",
+                      "ooYv6vdA1GRojXNRwvKAqiCTDcPVJfBAGukHMfCyMPaqQF1MyQa",
+                      "oo6UZMVHZwL5KHjUs2bDSs1yEJ6dkQajWKnHGUT3Rpzne2g5Tkw",
+                      "ooQAkRjUtgMP2x6rCjW4gdM22i6d5R9DWPNCo6T6ibcXAgwdJPX",
+                      "ooqUvYn5brkUgT21u7o8ZK9UMAysrMVe2M94uwAj43JyrfdvNcR"
+                    ]
+                  },
+                  "postMint": {
+                    "enabled": false,
+                    "hashConstraints": null
+                  }
+                }
+              },
+              "symbol": "FXGEN",
+              "decimals": 0,
+              "version": "0.2"
+            },
+            "author": {
+              "id": "tz1YysAQDjxqh9AkQnSabKEXeUu4DuNng1pm",
+              "name": "flight404",
+              "__typename": "User"
+            },
+            "__typename": "GenerativeToken"
+          },
+          "__typename": "MarketStats"
+        },
+        {
+          "floor": 29000000,
+          "secVolumeTz": 19766149999,
+          "secVolumeNb": 380,
+          "secVolumeTz24": 60000000,
+          "secVolumeNb24": 1,
+          "secVolumeTz7d": 120000000,
+          "secVolumeNb7d": 2,
+          "secVolumeTz30d": 584150000,
+          "secVolumeNb30d": 13,
+          "primVolumeTz": 5112000000,
+          "primVolumeNb": 639,
+          "lowestSold": 7000000,
+          "highestSold": 1650000000,
+          "median": 259500000,
+          "listed": 74,
+          "generativeToken": {
+            "id": 2332,
+            "name": "Concrete",
+            "metadata": {
+              "name": "Concrete",
+              "description": "640 unique sketches of imaginary walls, inspired by the work of Norwegian architect Erling Viksjø (1910–1971) and his artist collaborators. Viksjø designed the Government Quarter in Oslo and invited artists from different disciplines to help design the facades and interiors of the buildings.\n\nViksjø’s aim was to “soften” modernist architecture. He invented «Natural Concrete», a type of concrete that deliberately exposes the mixed-in stones on its surface to give it warmth and a human touch. In my work, I have similar ambitions—using code instead of concrete.\n\nThe different styles of the piece are inspired by, and dedicated to some of the artists who worked together with Viksjø: Jakob Weidemann (~2%), Carl Nesjar (~18%), Odd Tandberg (~30%), and Tore Haaland (~50%).\n\nIn live mode, press ‘S’ to save an image at current resolution or ‘P’ to save a high-resolution file at 6000×6000px (this might take a while depending on your hardware).\n\nOriginal artwork by Andreas Rau · Made with p5.js & glsl · Oslo, 2021",
+              "childrenDescription": "640 unique sketches of imaginary walls, inspired by the work of Norwegian architect Erling Viksjø (1910–1971) and his artist collaborators. Viksjø designed the Government Quarter in Oslo and invited artists from different disciplines to help design the facades and interiors of the buildings.\n\nViksjø’s aim was to “soften” modernist architecture. He invented «Natural Concrete», a type of concrete that deliberately exposes the mixed-in stones on its surface to give it warmth and a human touch. In my work, I have similar ambitions—using code instead of concrete.\n\nThe different styles of the piece are inspired by, and dedicated to some of the artists who worked together with Viksjø: Jakob Weidemann (~2%), Carl Nesjar (~18%), Odd Tandberg (~30%), and Tore Haaland (~50%).\n\nIn live mode, press ‘S’ to save an image at current resolution or ‘P’ to save a high-resolution file at 6000×6000px (this might take a while depending on your hardware).\n\nOriginal artwork by Andreas Rau · Made with p5.js & glsl · Oslo, 2021",
+              "tags": [
+                "generative",
+                "generativeart",
+                "concrete",
+                "andreasrau",
+                "p5js",
+                "glsl"
+              ],
+              "artifactUri": "ipfs://QmdupAq8HC9K5Y8QhbCs9BzJkreZ79HxMePCwQzQACxuzB",
+              "displayUri": "ipfs://QmboENcuHsgF35REUvmShCitV659HcEmANoWBQDmshZW2z",
+              "thumbnailUri": "ipfs://QmUw54kq2AfNjkGkZ5qmhpJugoe37ddFjZzteUTtfi5nZA",
+              "generativeUri": "ipfs://QmcY7FqxzdaWbmeukGXBNVm1BaoR9Z2rSmDpxLqwRaVkpZ",
+              "authenticityHash": "920d7ae6b838587d87914281d65f049a7172d994d6d4a2b58a6e4f810865bb43",
+              "capture": {
+                "mode": "VIEWPORT",
+                "resolution": {
+                  "x": 800,
+                  "y": 800
+                },
+                "delay": 3600
+              },
+              "symbol": "FXGEN",
+              "decimals": 0
+            },
+            "author": {
+              "id": "tz1Roq6end2LFtkpGrmuyRZH82xsWfaRCat1",
+              "name": "andreasrau",
+              "__typename": "User"
+            },
+            "__typename": "GenerativeToken"
+          },
+          "__typename": "MarketStats"
+        },
+        {
+          "floor": 95000000,
+          "secVolumeTz": 19599220000,
+          "secVolumeNb": 109,
+          "secVolumeTz24": 0,
+          "secVolumeNb24": 0,
+          "secVolumeTz7d": 289000000,
+          "secVolumeNb7d": 2,
+          "secVolumeTz30d": 1730680000,
+          "secVolumeNb30d": 14,
+          "primVolumeTz": 1272450000,
+          "primVolumeNb": 255,
+          "lowestSold": 89000000,
+          "highestSold": 500000000,
+          "median": 250000000,
+          "listed": 47,
+          "generativeToken": {
+            "id": 3610,
+            "name": "Mei(梅)",
+            "metadata": {
+              "name": "Mei(梅)",
+              "description": "Mei(梅):\n\n\"Mei\" is an oriental art piece featuring the imagery of plum blossom, a symbol of courage and perseverance in traditional Chinese culture.\n\nThe generative system at the backend of \"Mei\" is an exploration of this cultural symbol by modern art language. The basic elements of the paintings are merely circles and enclosed flow field shapes. A great variety of short and light strokes of such elements are used across the paintings. Xuan paper is occasionally used as background, which is a painting material since the Tang dynasty.\n\nMei's outputs span different stages of plum blossom from winter to spring. The scene also changes from a calm day to snowy or even stormy weather. The consistent yet complex senses and feelings reflected are surprisingly versatile.",
+              "childrenDescription": "Mei(梅):\n\n\"Mei\" is an oriental art piece featuring the imagery of plum blossom, a symbol of courage and perseverance in traditional Chinese culture.\n\nThe generative system at the backend of \"Mei\" is an exploration of this cultural symbol by modern art language. The basic elements of the paintings are merely circles and enclosed flow field shapes. A great variety of short and light strokes of such elements are used across the paintings. Xuan paper is occasionally used as background, which is a painting material since the Tang dynasty.\n\nMei's outputs span different stages of plum blossom from winter to spring. The scene also changes from a calm day to snowy or even stormy weather. The consistent yet complex senses and feelings reflected are surprisingly versatile.",
+              "tags": [
+                "simple",
+                "algorithmic",
+                "generative",
+                "points",
+                "generativeart",
+                "colorful",
+                "creativecoding",
+                "algoart",
+                "p5js",
+                "chinese",
+                "culture"
+              ],
+              "artifactUri": "ipfs://QmQWrWFfJHfjEMykESN3259ppDiCkrdvXf9Jhs5mawdYcJ",
+              "displayUri": "ipfs://QmU8Fd7pubtoSiu177FG7RoYGehCX67RbrMi2PUUYLAGpD",
+              "thumbnailUri": "ipfs://QmZzY9CMuhL4pz4M95PRY3Tsqm8HiYiS6Vz5MiHCmagRm5",
+              "generativeUri": "ipfs://Qmf63hE31QPnswnp4GuMZgDDYEkKWTz9fspt8duYUBWjyK",
+              "authenticityHash": "3b9f2d0d3307571d9adb1f633e77ce8573bde1a797d659367f6ee4bbe13ae28c",
+              "capture": {
+                "mode": "VIEWPORT",
+                "resolution": {
+                  "x": 1024,
+                  "y": 1024
+                },
+                "delay": 2000
+              },
+              "symbol": "FXGEN",
+              "decimals": 0
+            },
+            "author": {
+              "id": "tz1WKofYY1qf3eiXfVduycVVtvJDvVjBuV9j",
+              "name": "random_combo",
+              "__typename": "User"
+            },
+            "__typename": "GenerativeToken"
+          },
+          "__typename": "MarketStats"
+        },
+        {
+          "floor": 55500000,
+          "secVolumeTz": 19126309999,
+          "secVolumeNb": 229,
+          "secVolumeTz24": 0,
+          "secVolumeNb24": 0,
+          "secVolumeTz7d": 94000000,
+          "secVolumeNb7d": 2,
+          "secVolumeTz30d": 1959070000,
+          "secVolumeNb30d": 38,
+          "primVolumeTz": 7749840000,
+          "primVolumeNb": 392,
+          "lowestSold": 33000000,
+          "highestSold": 250690000,
+          "median": 150000000,
+          "listed": 93,
+          "generativeToken": {
+            "id": 5343,
+            "name": "aprendizajes",
+            "metadata": {
+              "name": "aprendizajes",
+              "description": "aprendizajes is a generative art project that pays a tribute to the process of learning. 25% of primary proceeds go to Save The Children. Full description of the artwork+instructions here: https://www.iillucid.com/aprendizajes/\n\nThe artwork allows the user to:\n\n* Change resolution: press 'd' followed by any number from 1 to 9 to add that amount to the pixel density. If you get a black screen you have surpassed what your graphics card can handle: press d + 0 to reset the pixel density. You can fine tune pressing d followed by + or - (+/- 0.5).\n* Save image: press 's' to save the current image as png. For a higher resolution png, 1st increase the resolution using 'd' and then save the image with 's'.\n* Tune image parameters: press 'z' (brightness), 'x' (contrast), 'g' (gamma), 'b' (blur) followed by + or - to adjust. Toggle tuning with 'a'. Press 'n' then + or - to adjust amount of noise.\n* Redraw: 'r' (changes how lines are drawn)\n\nIt is recommended to read the full instructions on the article.",
+              "childrenDescription": "aprendizajes is a generative art project that pays a tribute to the process of learning. 25% of primary proceeds go to Save The Children. Full description of the artwork+instructions here: https://www.iillucid.com/aprendizajes/\n\nThe artwork allows the user to:\n\n* Change resolution: press 'd' followed by any number from 1 to 9 to add that amount to the pixel density. If you get a black screen you have surpassed what your graphics card can handle: press d + 0 to reset the pixel density. You can fine tune pressing d followed by + or - (+/- 0.5).\n* Save image: press 's' to save the current image as png. For a higher resolution png, 1st increase the resolution using 'd' and then save the image with 's'.\n* Tune image parameters: press 'z' (brightness), 'x' (contrast), 'g' (gamma), 'b' (blur) followed by + or - to adjust. Toggle tuning with 'a'. Press 'n' then + or - to adjust amount of noise.\n* Redraw: 'r' (changes how lines are drawn)\n\nIt is recommended to read the full instructions on the article.",
+              "tags": [
+                "learn",
+                "debug",
+                "iillucid"
+              ],
+              "artifactUri": "ipfs://QmYZeHWag2CisvWx8FYGYsdJAfhSEuF5wnSX9Ts5Yxt6rm?fxhash=ooNJ9ekYRzmxmXQKhzyhb55RQJdn6LNfcSGKrQz55h4xAcgazMW",
+              "displayUri": "ipfs://QmcHNHnAXHCJyhMcLVtrLW7JXgm2eJNdTMuwVoe2yNxpi6",
+              "thumbnailUri": "ipfs://QmRTpmUb8PyARFMYWnTEsKnRY4ork3QTvDZ2ksXKv7TquT",
+              "generativeUri": "ipfs://QmYZeHWag2CisvWx8FYGYsdJAfhSEuF5wnSX9Ts5Yxt6rm",
+              "authenticityHash": "cf932d1be7be8afce9cb1a3a8645a579e5b205dc6b61d1dca6b9ff9b25d5b524",
+              "previewHash": "ooNJ9ekYRzmxmXQKhzyhb55RQJdn6LNfcSGKrQz55h4xAcgazMW",
+              "capture": {
+                "mode": "CANVAS",
+                "triggerMode": "FN_TRIGGER",
+                "canvasSelector": "canvas#aprendizajes-cnv"
+              },
+              "settings": {
+                "exploration": {
+                  "preMint": {
+                    "enabled": true,
+                    "hashConstraints": null
+                  },
+                  "postMint": {
+                    "enabled": true,
+                    "hashConstraints": null
+                  }
+                }
+              },
+              "symbol": "FXGEN",
+              "decimals": 0,
+              "version": "0.2"
+            },
+            "author": {
+              "id": "tz1eCX4smQ3LbxwDR3pqNoLQvNNKiHJtpwYz",
+              "name": "msoriaro",
+              "__typename": "User"
+            },
+            "__typename": "GenerativeToken"
+          },
+          "__typename": "MarketStats"
+        },
+        {
+          "floor": 26000000,
+          "secVolumeTz": 18488217768,
+          "secVolumeNb": 421,
+          "secVolumeTz24": 0,
+          "secVolumeNb24": 0,
+          "secVolumeTz7d": 47290000,
+          "secVolumeNb7d": 2,
+          "secVolumeTz30d": 1223290000,
+          "secVolumeNb30d": 35,
+          "primVolumeTz": 9975000000,
+          "primVolumeNb": 665,
+          "lowestSold": 17500000,
+          "highestSold": 100000000,
+          "median": 77500000,
+          "listed": 89,
+          "generativeToken": {
+            "id": 3097,
+            "name": "Shattered Moons",
+            "metadata": {
+              "name": "Shattered Moons",
+              "description": "🌘🌗🌖Shattered Moons🌔🌓🌒\n\nExplore deep space moons through this pure SVG generative experiment.\n\nFeatures:\n- Striped Background\n- Shadows\n- Vapors\n- Horizontal Vapors\n- Meteors\n- Colored Meteors\n- White Moon (0.5%)\n\nSVG being a vectorial format, this work can be displayed/printed at any size.\nPress 's' on Live View to save the SVG.\nPress 'p' on Live View using a Chromium based browser to export as PNG.\n\nAlso, to fully enjoy your piece, I'd suggest to use a Chromium based browser as the SVG renderer gives more details.",
+              "childrenDescription": "🌘🌗🌖Shattered Moons🌔🌓🌒\n\nExplore deep space moons through this pure SVG generative experiment.\n\nFeatures:\n- Striped Background\n- Shadows\n- Vapors\n- Horizontal Vapors\n- Meteors\n- Colored Meteors\n- White Moon (0.5%)\n\nSVG being a vectorial format, this work can be displayed/printed at any size.\nPress 's' on Live View to save the SVG.\nPress 'p' on Live View using a Chromium based browser to export as PNG.\n\nAlso, to fully enjoy your piece, I'd suggest to use a Chromium based browser as the SVG renderer gives more details.",
+              "tags": [
+                "svg",
+                "makio135",
+                "space",
+                "moon"
+              ],
+              "artifactUri": "ipfs://QmPHciqjF2saaXTjkVzLCr7nweTZzr3csTx4UP4qVHrwWf",
+              "displayUri": "ipfs://QmY3uWX8hkQ5HYASyTxj1CwTPiLDLD58WHwbjJuzyJS3Ws",
+              "thumbnailUri": "ipfs://QmS1ZSyfdUyvYzgDXHwWB4jR7fy6NPGBtv9wv5RboAYd93",
+              "generativeUri": "ipfs://QmRM7CDDbJjjZ3vH3bVmJVTbtDa9YsLwfMJEo6iQW3cawn",
+              "authenticityHash": "c5200c1e8a5980842431817a71f2d43ef7c1f45e89dabbfaad9045a6d9efebf9",
+              "capture": {
+                "mode": "VIEWPORT",
+                "resolution": {
+                  "x": 800,
+                  "y": 800
+                },
+                "delay": 2000
+              },
+              "symbol": "FXGEN",
+              "decimals": 0
+            },
+            "author": {
+              "id": "tz2VN3fWzqHE44F6zedJB7UtALKEh5WhqAJJ",
+              "name": "makio135",
+              "__typename": "User"
+            },
+            "__typename": "GenerativeToken"
+          },
+          "__typename": "MarketStats"
+        },
+        {
+          "floor": 135000000,
+          "secVolumeTz": 17045185500,
+          "secVolumeNb": 83,
+          "secVolumeTz24": 0,
+          "secVolumeNb24": 0,
+          "secVolumeTz7d": 0,
+          "secVolumeNb7d": 0,
+          "secVolumeTz30d": 411900000,
+          "secVolumeNb30d": 4,
+          "primVolumeTz": 16384000000,
+          "primVolumeNb": 512,
+          "lowestSold": 44000000,
+          "highestSold": 850000000,
+          "median": 548348450,
+          "listed": 34,
+          "generativeToken": {
+            "id": 981,
+            "name": "De/Frag",
+            "metadata": {
+              "name": "De/Frag",
+              "description": "De/Frag is an homage to a classic algorithm in early computer art: Flood Fill. As a teenager in the late '80s, and without any literature, I spent weeks implementing a version for my very own drawing program for the Atari XL. It was the first non-trivial (to me) algorithm which made me want to learn more about data structures, the concept of recursion, divide-and-conquer...\n\nEven though Flood Fill was available in most commercial drawing & office apps of the time, I gained a deep appreciation of the algorithm by building it from scratch myself. 30+ years later I know its aesthetic possibilities are still far from exhausted. This is an invitation for re-exploration by others too!\n\nAs with many design algorithms, my primary interest isn't even the final result, but observing the inner workings. I massively slowed down and time-sliced the process for this piece. I do recommend giving each of these unique versions some time to allow them to evolve their ever-changing patterns (Note: each piece never loops!).",
+              "childrenDescription": "De/Frag is an homage to a classic algorithm in early computer art: Flood Fill. As a teenager in the late '80s, and without any literature, I spent weeks implementing a version for my very own drawing program for the Atari XL. It was the first non-trivial (to me) algorithm which made me want to learn more about data structures, the concept of recursion, divide-and-conquer...\n\nEven though Flood Fill was available in most commercial drawing & office apps of the time, I gained a deep appreciation of the algorithm by building it from scratch myself. 30+ years later I know its aesthetic possibilities are still far from exhausted. This is an invitation for re-exploration by others too!\n\nAs with many design algorithms, my primary interest isn't even the final result, but observing the inner workings. I massively slowed down and time-sliced the process for this piece. I do recommend giving each of these unique versions some time to allow them to evolve their ever-changing patterns (Note: each piece never loops!).",
+              "tags": [
+                "pattern",
+                "floodfill",
+                "retro",
+                "generative",
+                "2d",
+                "gradient",
+                "stripes",
+                "thi.ng"
+              ],
+              "artifactUri": "ipfs://QmTdhk952Rqqjj59StUkCcMVSheqtDXWdmxb6pUn5dULte",
+              "displayUri": "ipfs://QmQJec5t8jb8aYmaUnCSQJijUazrjCtrb1iUqDNWUhABnv",
+              "thumbnailUri": "ipfs://QmSNAfnMarWdxd9j3kxT5W3qpEnyDiXD17cziW5QQD9F8g",
+              "generativeUri": "ipfs://QmV6gGeyyXypRZpCENGogTsghEmjWaAh7qgh14vhG7cPuV",
+              "authenticityHash": "226311f8cf6f9470a232f04cd0847ab0ef259962aa0984fca3d99182137b513f",
+              "capture": {
+                "mode": "CANVAS",
+                "delay": 3000,
+                "canvasSelector": "canvas"
+              },
+              "symbol": "FXGEN",
+              "decimals": 0
+            },
+            "author": {
+              "id": "tz1d4ThofujwwaWvxDQHF7VyJfaeR2ay3jhf",
+              "name": "toxi",
+              "__typename": "User"
+            },
+            "__typename": "GenerativeToken"
+          },
+          "__typename": "MarketStats"
+        },
+        {
+          "floor": 88000000,
+          "secVolumeTz": 16089254999,
+          "secVolumeNb": 169,
+          "secVolumeTz24": 88880000,
+          "secVolumeNb24": 1,
+          "secVolumeTz7d": 283880000,
+          "secVolumeNb7d": 2,
+          "secVolumeTz30d": 1578880000,
+          "secVolumeNb30d": 17,
+          "primVolumeTz": 10000000000,
+          "primVolumeNb": 500,
+          "lowestSold": 15000000,
+          "highestSold": 420690000,
+          "median": 333000000,
+          "listed": 40,
+          "generativeToken": {
+            "id": 2968,
+            "name": "Repeater",
+            "metadata": {
+              "name": "Repeater",
+              "description": "Cut, copy, paste, repeat.  \n\n@xiiixiii",
+              "childrenDescription": "Cut, copy, paste, repeat.  \n\n@xiiixiii",
+              "tags": [],
+              "artifactUri": "ipfs://QmXzdagQkn43KXD7scxU9BnVxTgRAfc3pPt31xXYVzLY9S",
+              "displayUri": "ipfs://Qmbw71kGBJmohMtK2WWsMjgJRgT1sFqgdQ1LhdKDhVbhyn",
+              "thumbnailUri": "ipfs://QmUm6P4PBZmhzdYZ544kru1DqgcB1gw3ziLDDDTjyXWBRM",
+              "generativeUri": "ipfs://Qmbj7mmhVQTBtnpEikgdmkiLBss25U1V5PR9cVFXZ5ck6Z",
+              "authenticityHash": "84c5c04fcb29e5c12a0961b38875e618eb375634a3010b173894b7fde0fdc751",
+              "capture": {
+                "mode": "CANVAS",
+                "delay": 20000,
+                "canvasSelector": "canvas#defaultCanvas0"
+              },
+              "symbol": "FXGEN",
+              "decimals": 0
+            },
+            "author": {
+              "id": "tz1amcnQuDXY2pzBy23e4sV8qaxpRbQAY7W6",
+              "name": "xiiixiii",
+              "__typename": "User"
+            },
+            "__typename": "GenerativeToken"
+          },
+          "__typename": "MarketStats"
+        },
+        {
+          "floor": 99000000,
+          "secVolumeTz": 15599150000,
+          "secVolumeNb": 91,
+          "secVolumeTz24": 0,
+          "secVolumeNb24": 0,
+          "secVolumeTz7d": 485000000,
+          "secVolumeNb7d": 4,
+          "secVolumeTz30d": 15599150000,
+          "secVolumeNb30d": 91,
+          "primVolumeTz": 28440000000,
+          "primVolumeNb": 291,
+          "lowestSold": 90000000,
+          "highestSold": 379000000,
+          "median": 210000000,
+          "listed": 95,
+          "generativeToken": {
+            "id": 8514,
+            "name": "Ethereal Microcosm",
+            "metadata": {
+              "name": "Ethereal Microcosm",
+              "description": "An exploration of algorithmic organisms in a contained environment.\n\nThis piece is about the simulation of microscopic patterns using a high number of even tinier agents all following the same rules. Different species evolve and interact together, resulting in stabilizing patterns out of their parametric configurations. A form of artificial life.\n\nThis work is based on the paper \"Characteristics of pattern formation and evolution in approximations of physarum transport networks\", written by Jeff Jones and popularized in the artistic field by Sage Jenson. Some features were added to increase the visual and behavioral complexity of the system. Agents are divided into different species, with their own set of rules and interacting with their own substrate. Substrates also interact with each other and agents will mutate in contact of some of them.\n\nDutch auction\n100/80/60/40/30 - 10 minutes between decrements\n\nNFT License\nRuns properly on Chrome 97.0.4692.99\nGPU intensive\n\nPress P to pause (double tab touch)\nPress",
+              "childrenDescription": "An exploration of algorithmic organisms in a contained environment.\n\nThis piece is about the simulation of microscopic patterns using a high number of even tinier agents all following the same rules. Different species evolve and interact together, resulting in stabilizing patterns out of their parametric configurations. A form of artificial life.\n\nThis work is based on the paper \"Characteristics of pattern formation and evolution in approximations of physarum transport networks\", written by Jeff Jones and popularized in the artistic field by Sage Jenson. Some features were added to increase the visual and behavioral complexity of the system. Agents are divided into different species, with their own set of rules and interacting with their own substrate. Substrates also interact with each other and agents will mutate in contact of some of them.\n\nNFT License\nRuns properly on Chrome 97.0.4692.99\nGPU intensive\n\nPress P to pause (double tab touch devices)\nPress",
+              "tags": [
+                "GPGPU",
+                "artifical life",
+                "microcosm",
+                "ciphrd",
+                "biology",
+                "biomimicry"
+              ],
+              "artifactUri": "ipfs://QmZzdpEQB1AgdEhG9nEAYZrhKRuGx9U9WyDh9DMiJuNnDB?fxhash=ooE9e4PnbxcgshdKyZnwJPjsBysCYHNBvSHoiVGidZCjFJi7aAt",
+              "displayUri": "ipfs://QmWHpjuGnK7HMVgoiRBToU68X9g8QazfnEphLFAW8krydM",
+              "thumbnailUri": "ipfs://QmQv4VjsuZzAmpXy4zKygXvRgWeYciRYL3ksntvUXEhnWs",
+              "generativeUri": "ipfs://QmZzdpEQB1AgdEhG9nEAYZrhKRuGx9U9WyDh9DMiJuNnDB",
+              "authenticityHash": "8ee5ecf806eb2986b9282e4cd839befe1d26bb3233a7347d9ea625b60edb21c9",
+              "previewHash": "ooE9e4PnbxcgshdKyZnwJPjsBysCYHNBvSHoiVGidZCjFJi7aAt",
+              "capture": {
+                "mode": "VIEWPORT",
+                "triggerMode": "DELAY",
+                "gpu": true,
+                "resolution": {
+                  "x": 800,
+                  "y": 800
+                },
+                "delay": 300000
+              },
+              "settings": {
+                "exploration": {
+                  "preMint": {
+                    "enabled": true,
+                    "hashConstraints": null
+                  },
+                  "postMint": {
+                    "enabled": true,
+                    "hashConstraints": null
+                  }
+                }
+              },
+              "symbol": "FXGEN",
+              "decimals": 0,
+              "version": "0.2"
+            },
+            "author": {
+              "id": "tz1PoDdN2oyRyF6DA73zTWAWYhNL4UGr3Egj",
+              "name": "ciphrd",
+              "__typename": "User"
+            },
+            "__typename": "GenerativeToken"
+          },
+          "__typename": "MarketStats"
+        },
+        {
+          "floor": 19900000,
+          "secVolumeTz": 15173791689,
+          "secVolumeNb": 256,
+          "secVolumeTz24": 0,
+          "secVolumeNb24": 0,
+          "secVolumeTz7d": 19000000,
+          "secVolumeNb7d": 1,
+          "secVolumeTz30d": 1271140000,
+          "secVolumeNb30d": 33,
+          "primVolumeTz": 497000000,
+          "primVolumeNb": 497,
+          "lowestSold": 15000000,
+          "highestSold": 150000000,
+          "median": 140000000,
+          "listed": 117,
+          "generativeToken": {
+            "id": 5345,
+            "name": "<iframes>",
+            "metadata": {
+              "name": "<iframes>",
+              "description": "The <iframe> HTML element is an element that allows a web document to embed the contents of another web document within itself. iframes are at the core of fxhash. They are portals opening our view to rich content.\n\nThis work is a portal to itself. It loads itself within itself 20 times. It's not pretty, it reminds us of WordArt, it's a little bit hacky, it might break when our tools to display HTML will change. But it's a proof that the limits of our tools are only limits until creativity breaks them.\n\nThis work is not purely deterministic, because it simply cannot be. Slight timing differences due to loading times being different each time an <iframe> is loaded will make each visualization slightly unique.\n\nIf you view this token on mobile, the nesting limit was reduced to 4 to prevent performance issues.\n\nThis work is highly experimental. It leverages a \"hack\" to allow iframes to be nested.\nFirefox max <iframe> nesting depth as of 28/12/2021 is capped at 9.\nWorks with chrome desktop 96.0.4664.110",
+              "childrenDescription": "The <iframe> HTML element is an element that allows a web document to embed the contents of another web document within itself. iframes are at the core of fxhash. They are portals opening our view to rich content.\n\nThis work is a portal to itself. It loads itself within itself 20 times. It's not pretty, it reminds us of WordArt, it's a little bit hacky, it might break when our tools to display HTML will change. But it's a proof that the limits of our tools are only limits until creativity breaks them.\n\nThis work is not purely deterministic, because it simply cannot be. Slight timing differences due to loading times being different each time an <iframe> is loaded will make each visualization slightly unique.\n\nIf you view this token on mobile, the nesting limit was reduced to 4 to prevent performance issues.\n\nThis work is highly experimental. It leverages a \"hack\" to allow iframes to be nested.\nFirefox max <iframe> nesting depth as of 28/12/2021 is capped at 9.\nWorks with chrome desktop 96.0.4664.110",
+              "tags": [
+                "iframe",
+                "recursive",
+                "feedback",
+                "html",
+                "css"
+              ],
+              "artifactUri": "ipfs://QmZyRHjkpoQN4SQSkkjCaUCCKpdNYAdV8WBKcMBFQkhq2V?fxhash=ooYp6MoHdWxMYk3zdUJoJtXkD48YZN6Sp3k6EDT4MJHrv8UPXuR",
+              "displayUri": "ipfs://QmYxhAuwS1C3Jmiri3P4SwXP44ykNLnWbMX3namdRhtTLv",
+              "thumbnailUri": "ipfs://QmWmatsoxeVvKGtgiTu8meBZeGzhVv772UkkjQpE6cQR4n",
+              "generativeUri": "ipfs://QmZyRHjkpoQN4SQSkkjCaUCCKpdNYAdV8WBKcMBFQkhq2V",
+              "authenticityHash": "755ae2bf8926ab035ee9bd912f410ee5c821f94eb8952bb5e9ffb44c55a9c658",
+              "previewHash": "ooYp6MoHdWxMYk3zdUJoJtXkD48YZN6Sp3k6EDT4MJHrv8UPXuR",
+              "capture": {
+                "mode": "VIEWPORT",
+                "triggerMode": "FN_TRIGGER",
+                "resolution": {
+                  "x": 800,
+                  "y": 800
+                }
+              },
+              "settings": {
+                "exploration": {
+                  "preMint": {
+                    "enabled": true,
+                    "hashConstraints": null
+                  },
+                  "postMint": {
+                    "enabled": false,
+                    "hashConstraints": null
+                  }
+                }
+              },
+              "symbol": "FXGEN",
+              "decimals": 0,
+              "version": "0.2"
+            },
+            "author": {
+              "id": "tz1PoDdN2oyRyF6DA73zTWAWYhNL4UGr3Egj",
+              "name": "ciphrd",
+              "__typename": "User"
+            },
+            "__typename": "GenerativeToken"
+          },
+          "__typename": "MarketStats"
+        },
+        {
+          "floor": 19990000,
+          "secVolumeTz": 14857454490,
+          "secVolumeNb": 458,
+          "secVolumeTz24": 0,
+          "secVolumeNb24": 0,
+          "secVolumeTz7d": 58000000,
+          "secVolumeNb7d": 3,
+          "secVolumeTz30d": 344920690,
+          "secVolumeNb30d": 20,
+          "primVolumeTz": 992000000,
+          "primVolumeNb": 992,
+          "lowestSold": 7000000,
+          "highestSold": 100000000,
+          "median": 74000000,
+          "listed": 99,
+          "generativeToken": {
+            "id": 4189,
+            "name": "CENTURY-XXX-METAMETAMALEVICH",
+            "metadata": {
+              "name": "CENTURY-XXX-METAMETAMALEVICH",
+              "description": "1 of 5 in CENTURY-XXX, Series 1\nEdition of 1000",
+              "childrenDescription": "1 of 5 in CENTURY-XXX, Series 1\nEdition of 1000",
+              "tags": [
+                "homage history nonobjective"
+              ],
+              "artifactUri": "ipfs://QmbyLRT9Mdkun9dPuSFKqzTUTshFcH7wyvLQ9bXHkzk5Ym",
+              "displayUri": "ipfs://QmXZoaX42BR88dNHCK3WfKEN5TJQAXVu9iqsd7EqJ3ihat",
+              "thumbnailUri": "ipfs://QmaPcvRWb61pRGLAphXqrrY7U45ENRbTWnqir8Uyu5ybEt",
+              "generativeUri": "ipfs://QmNj2VagsdzPeUQ9rQiUY25nzHgfkK7yLpoZmxH7NyZzVJ",
+              "authenticityHash": "0f7d63fcfa50bff055c1a9cc96bde2c5a905133ebffc647b28d82f88be66823f",
+              "capture": {
+                "mode": "VIEWPORT",
+                "resolution": {
+                  "x": 800,
+                  "y": 800
+                },
+                "delay": 100
+              },
+              "symbol": "FXGEN",
+              "decimals": 0
+            },
+            "author": {
+              "id": "tz1LBwyJMRkH4tcG19KwYzAW7fLYbjFmWdWy",
+              "name": "REAS",
+              "__typename": "User"
+            },
+            "__typename": "GenerativeToken"
+          },
+          "__typename": "MarketStats"
+        },
+        {
+          "floor": 225000000,
+          "secVolumeTz": 14700779200,
+          "secVolumeNb": 143,
+          "secVolumeTz24": 0,
+          "secVolumeNb24": 0,
+          "secVolumeTz7d": 0,
+          "secVolumeNb7d": 0,
+          "secVolumeTz30d": 1491000000,
+          "secVolumeNb30d": 8,
+          "primVolumeTz": 1317690000,
+          "primVolumeNb": 363,
+          "lowestSold": 7000000,
+          "highestSold": 750000000,
+          "median": 725000000,
+          "listed": 40,
+          "generativeToken": {
+            "id": 1726,
+            "name": "Hashed Cities",
+            "metadata": {
+              "name": "Hashed Cities",
+              "description": "This token generates a deterministic set of minimal, abstract buildings of varying widths, heights, transparencies, and patterns, assembling a skyline view of your own unique imaginary city. Each city comes with its own randomized city day.\n\nEach mint has a native setting (Day or Night) which combined with the current time of viewing influences real-time movements of celestial bodies in your mint, e.g. on a mint with the Day setting, the sun will only appear when viewed during the day. The piece will re-render every minute.\n\nThe individual strokes of this token feature some of my latest developments of an algorithm that generatively simulates the texture of print imperfections. They are randomized at each render to give it a unique character. Note that depending on the complexity of each mint, some renders may introduce a brief pause. The aesthetics are greatly inspired by plotter art of early computer artists such as 'City Painting' by Grace C. Hertlein.\n\nMade in p5js\nCreated Nov 2021\nArtist: @Yazid",
+              "childrenDescription": "This token generates a deterministic set of minimal, abstract buildings of varying widths, heights, transparencies, and patterns, assembling a skyline view of your own unique imaginary city. Each city comes with its own randomized city day.\n\nEach mint has a native setting (Day or Night) which combined with the current time of viewing influences real-time movements of celestial bodies in your mint, e.g. on a mint with the Day setting, the sun will only appear when viewed during the day. The piece will re-render every minute.\n\nThe individual strokes of this token feature some of my latest developments of an algorithm that generatively simulates the texture of print imperfections. They are randomized at each render to give it a unique character. Note that depending on the complexity of each mint, some renders may introduce a brief pause. The aesthetics are greatly inspired by plotter art of early computer artists such as 'City Painting' by Grace C. Hertlein.\n\nMade in p5js\nCreated Nov 2021\nArtist: @Yazid",
+              "tags": [
+                "yazid",
+                "generativeart",
+                "p5js"
+              ],
+              "artifactUri": "ipfs://Qma8vWVAyQTbCJnNGcoG77cJLdGGH83qUfHKXNkT6yGiYC",
+              "displayUri": "ipfs://QmVTivJ6GAacqp6ejG9LkuxQWUx6tt6TTcQ89MDiNSpNQG",
+              "thumbnailUri": "ipfs://QmXKrQhCDpP4a6qFDHU9b3MRycdy3yvRzmZf8KaVPpKqUj",
+              "generativeUri": "ipfs://QmSAKfGStKWCcmxiRhZXyrknj4pQJ85ux1QAedS6Zjgxa9",
+              "authenticityHash": "f1edb5855e5267b23ec1649e999b8863c7aafae82b9e5926b314f4222bca3ca6",
+              "capture": {
+                "mode": "VIEWPORT",
+                "resolution": {
+                  "x": 2048,
+                  "y": 2048
+                },
+                "delay": 3000
+              },
+              "symbol": "FXGEN",
+              "decimals": 0
+            },
+            "author": {
+              "id": "tz1QgjmhrUD3X7kgS9mMHbUz4cS6uDiFGhAU",
+              "name": "Yazid",
+              "__typename": "User"
+            },
+            "__typename": "GenerativeToken"
+          },
+          "__typename": "MarketStats"
+        },
+        {
+          "floor": 50000000,
+          "secVolumeTz": 14400530000,
+          "secVolumeNb": 101,
+          "secVolumeTz24": 0,
+          "secVolumeNb24": 0,
+          "secVolumeTz7d": 45000000,
+          "secVolumeNb7d": 1,
+          "secVolumeTz30d": 469690000,
+          "secVolumeNb30d": 9,
+          "primVolumeTz": 1984000000,
+          "primVolumeNb": 248,
+          "lowestSold": 40000000,
+          "highestSold": 268000000,
+          "median": 199000000,
+          "listed": 65,
+          "generativeToken": {
+            "id": 4060,
+            "name": "reborn",
+            "metadata": {
+              "name": "reborn",
+              "description": "This is an album of cities too ideal to ever materialise.\n\nIt consists of 256 algorithmically generated plans that resemble drawings of Vincenzo Scamozzi, Pietro Cataneo, Filarete and other theorists of the Italian Renaissance. The cities differ in size, the grid of the streets, the landscape around them and the people that inhabit their utopian walls. They carry names that are Italian exonyms of real European cities, drawing a vision of a different world that enacts a mixture of military perfection with social superiority. Flawless, harmonious, unconquerable and utterly impossible.\n\nHistory brought us many theories about ideal cities, but very few examples exist today. Italian Palmanova or Polish Zamość are the few to remind us how hard it is to shape reality according to ideals. When confronted with the material world, its idealism becomes the city's grates foe.\n\nTo zoom, press a mouse button over the image or touch the screen. To pan, keep the mouse pressed and move it around.",
+              "childrenDescription": "This is an album of cities too ideal to ever materialise.\n\nIt consists of 256 algorithmically generated plans that resemble drawings of Vincenzo Scamozzi, Pietro Cataneo, Filarete and other theorists of the Italian Renaissance. The cities differ in size, the grid of the streets, the landscape around them and the people that inhabit their utopian walls. They carry names that are Italian exonyms of real European cities, drawing a vision of a different world that enacts a mixture of military perfection with social superiority. Flawless, harmonious, unconquerable and utterly impossible.\n\nHistory brought us many theories about ideal cities, but very few examples exist today. Italian Palmanova or Polish Zamość are the few to remind us how hard it is to shape reality according to ideals. When confronted with the material world, its idealism becomes the city's grates foe.\n\nTo zoom, press a mouse button over the image or touch the screen. To pan, keep the mouse pressed and move it around.",
+              "tags": [
+                "cleannft",
+                "geometry",
+                "2d",
+                "algorithmic",
+                "architecture",
+                "parametric",
+                "generative",
+                "digitalart",
+                "unique",
+                "city"
+              ],
+              "artifactUri": "ipfs://QmbCQjQG7e7ZdPpKYGM1GKLrtnUD2md9vwSpPuVniAXKRe",
+              "displayUri": "ipfs://QmUHA5LA2J72Wzw8gLYuxq5qcAbeiiPyNcYEteavd3cnc9",
+              "thumbnailUri": "ipfs://Qme3fhgXAdtaharnFiheysE64PJcFqK3rHro9zQp5dZ8hd",
+              "generativeUri": "ipfs://Qmf89tLykVTg6jPPfsMdMzf8ASigTk9fwugrk6zJ23ahK3",
+              "authenticityHash": "e8be3d09af64700f6b8139db7a874a2aad374c052de097d588c351cf4a69f33f",
+              "capture": {
+                "mode": "CANVAS",
+                "delay": 5000,
+                "canvasSelector": "#mainCanvas"
+              },
+              "symbol": "FXGEN",
+              "decimals": 0
+            },
+            "author": {
+              "id": "tz2KDeWyeCeu2eZYLav9PrRAQmFCyESNF4Es",
+              "name": "mrkswcz",
+              "__typename": "User"
+            },
+            "__typename": "GenerativeToken"
+          },
+          "__typename": "MarketStats"
+        },
+        {
+          "floor": 79000000,
+          "secVolumeTz": 14360189184,
+          "secVolumeNb": 298,
+          "secVolumeTz24": 0,
+          "secVolumeNb24": 0,
+          "secVolumeTz7d": 78900000,
+          "secVolumeNb7d": 1,
+          "secVolumeTz30d": 1514590000,
+          "secVolumeNb30d": 14,
+          "primVolumeTz": 0,
+          "primVolumeNb": 991,
+          "lowestSold": 0,
+          "highestSold": 256000000,
+          "median": 400000000,
+          "listed": 77,
+          "generativeToken": {
+            "id": 0,
+            "name": "FXHASH Generative Logo",
+            "metadata": {
+              "name": "FXHASH Generative Logo",
+              "description": "This Generative Token is the first GT minted on fxhash.\n\nIt also servers as the actual logo of the platform. It represents the generative processes driving fxhash tokens. Generative Tokens are fed with a unique hash to produce unique outputs based on the hash — they are functions with a hash as single input.\n\nThe growth that comes out of the text is driven by a \"Dividing-Aggregating Walkers\" (DAW) algorithm. The hash drives all the DAW settings, as well as a mutation factor which is responsible for changes in each Walker parameters as they divide.\n\nSome iterations will produce very simple outputs whereas others might be more chaotic.\n\nPiece by @ciphrd for fxhash",
+              "childrenDescription": "Unique iteration of the first Generative Token minted on fxhash.\n\nIt also servers as the actual logo of the platform. It represents the generative processes driving fxhash tokens. Generative Tokens are fed with a unique hash to produce unique outputs based on the hash — they are functions with a hash as single input.\n\nThe growth that comes out of the text is driven by a \"Dividing-Aggregating Walkers\" (DAW) algorithm. The hash drives all the DAW settings, as well as a mutation factor which is responsible for changes in each Walker parameters as they divide.\n\nSome iterations will produce very simple outputs whereas others might be more chaotic.\n\nPiece by @ciphrd for fxhash",
+              "tags": [
+                "fxhash",
+                "logo",
+                "first",
+                "mycelium",
+                "walkers",
+                "dividing"
+              ],
+              "artifactUri": "ipfs://QmV17ZnUHxwjHRjVT3mHMPs4oNfFtA2bAHxq3C4HNkvZtM",
+              "displayUri": "ipfs://QmW6WBRx5M69kPx6CbSjsS4fcTVy21117pwwsU8iAMhBqX",
+              "thumbnailUri": "ipfs://QmWiqH6gw8vZT4VZ58gLCSNRxumJTVfJpe6q6mCZGzRNCo",
+              "generativeUri": "ipfs://Qmc4tMDF2ff8efhi7ybAZTWucQXbuUk9z7DozAUfFgWDZB",
+              "authenticityHash": "4e1f469734487086a67ee25ba1d5e4edd0346c449533505055b74f62f7fd66fe",
+              "capture": {
+                "mode": "CANVAS",
+                "delay": 20300,
+                "canvasSelector": "canvas"
+              },
+              "symbol": "FXGEN",
+              "decimals": 0
+            },
+            "author": {
+              "id": "tz1fepn7jZsCYBqCDhpM63hzh9g2Ytqk4Tpv",
+              "name": "fxhash",
+              "__typename": "User"
+            },
+            "__typename": "GenerativeToken"
+          },
+          "__typename": "MarketStats"
+        },
+        {
+          "floor": 179000000,
+          "secVolumeTz": 14253590866,
+          "secVolumeNb": 181,
+          "secVolumeTz24": 0,
+          "secVolumeNb24": 0,
+          "secVolumeTz7d": 642000000,
+          "secVolumeNb7d": 3,
+          "secVolumeTz30d": 2762000000,
+          "secVolumeNb30d": 14,
+          "primVolumeTz": 1250000000,
+          "primVolumeNb": 500,
+          "lowestSold": 4000000,
+          "highestSold": 500000000,
+          "median": 465000000,
+          "listed": 49,
+          "generativeToken": {
+            "id": 355,
+            "name": "ASCII-SMOLSKULL",
+            "metadata": {
+              "name": "ASCII-SMOLSKULL",
+              "description": "ASCII smollskull - Limited edition\n\n\nGenerative art by Mark Knol (@mknol)",
+              "childrenDescription": "ASCII smollskull - Limited edition\n\n\nGenerative art by Mark Knol (@mknol)",
+              "tags": [
+                "pfp",
+                "generative",
+                "ascii",
+                "smolskull",
+                "markknol"
+              ],
+              "artifactUri": "ipfs://QmedhFWVyue5JvQVNHeZkt2K6RCjoM3aDzqdZenZYKDcj5",
+              "displayUri": "ipfs://QmUCBxqurvUQHyNCnnxZFvSxhf2kQEDzYxsmTueqjDkiV1",
+              "thumbnailUri": "ipfs://QmP4ZJkjgyWhtK7vcyMNzpcVJAZiRqbThpfBHgXp85VeZg",
+              "generativeUri": "ipfs://QmTnoPGWFMB8aKVXeCauYwjwhiDs4zq8ZYTDsnYpPGkjPY",
+              "authenticityHash": "fe753921cf1b3c8faa79cba9fe8d54364a5077c0816d038bebeddf3b6a511e92",
+              "capture": {
+                "mode": "CANVAS",
+                "delay": 500,
+                "canvasSelector": "#result canvas"
+              },
+              "symbol": "FXGEN",
+              "decimals": 0
+            },
+            "author": {
+              "id": "tz1XrutuvkFRG15HmV2gdon86F38NMMGMAXr",
+              "name": "markknol",
+              "__typename": "User"
+            },
+            "__typename": "GenerativeToken"
+          },
+          "__typename": "MarketStats"
+        },
+        {
+          "floor": 20990000,
+          "secVolumeTz": 14081489221,
+          "secVolumeNb": 208,
+          "secVolumeTz24": 0,
+          "secVolumeNb24": 0,
+          "secVolumeTz7d": 19000000,
+          "secVolumeNb7d": 1,
+          "secVolumeTz30d": 333800000,
+          "secVolumeNb30d": 13,
+          "primVolumeTz": 16320000000,
+          "primVolumeNb": 510,
+          "lowestSold": 1,
+          "highestSold": 222000000,
+          "median": 84000000,
+          "listed": 129,
+          "generativeToken": {
+            "id": 4304,
+            "name": "De/FragV3",
+            "metadata": {
+              "name": "De/FragV3",
+              "description": "The 3rd piece in this series is a painterly interpretation of De/FragV2 and highlighting more temporal aspects of the underlying algorithms (Voronoi & Jump Flooding) in unique and never repeating sequences.",
+              "childrenDescription": "The 3rd piece in this series is a painterly interpretation of De/FragV2 and highlighting more temporal aspects of the underlying algorithms (Voronoi & Jump Flooding) in unique and never repeating sequences.",
+              "tags": [
+                "voronoi",
+                "painting",
+                "animated",
+                "infinite",
+                "toxi"
+              ],
+              "artifactUri": "ipfs://QmecJb3qAZzAgrPfB2aCizmDvs1s1mWQkBuSTbL96QKjrH",
+              "displayUri": "ipfs://QmTFLKPKq8AA51qbU5F8wyZyN7iERzy9uu7zdc8fK8mD4Y",
+              "thumbnailUri": "ipfs://QmZEBP9t7d6c4ydfPvnz81ftpjwzLZRyWvRwxKcBsSBLyf",
+              "generativeUri": "ipfs://Qmb8jY6Xhvv3aCvjji3kybfvcCoUs6qrfEbri4K4mke1Jj",
+              "authenticityHash": "738f21579ebdb8b39e5ce7da24182a2ca4eab75cf4b2d1674431ff941bd648ee",
+              "capture": {
+                "mode": "CANVAS",
+                "delay": 3000,
+                "canvasSelector": "canvas#app"
+              },
+              "symbol": "FXGEN",
+              "decimals": 0
+            },
+            "author": {
+              "id": "tz1d4ThofujwwaWvxDQHF7VyJfaeR2ay3jhf",
+              "name": "toxi",
+              "__typename": "User"
+            },
+            "__typename": "GenerativeToken"
+          },
+          "__typename": "MarketStats"
+        },
+        {
+          "floor": 40000000,
+          "secVolumeTz": 14018384023,
+          "secVolumeNb": 203,
+          "secVolumeTz24": 0,
+          "secVolumeNb24": 0,
+          "secVolumeTz7d": 0,
+          "secVolumeNb7d": 0,
+          "secVolumeTz30d": 469110000,
+          "secVolumeNb30d": 8,
+          "primVolumeTz": 1992000000,
+          "primVolumeNb": 249,
+          "lowestSold": 40000000,
+          "highestSold": 225000000,
+          "median": 100000000,
+          "listed": 51,
+          "generativeToken": {
+            "id": 4680,
+            "name": "Wondering",
+            "metadata": {
+              "name": "Wondering",
+              "description": "The work contains a fluid simulation. I put random forces into the simulation and let it run 500 steps to create a flow field and then use it to generate the visuals. \n\nI choose fluid simulation instead of curl noise or any other noise function because I believe the fluid simulation could generate a movement that's more dynamic and organic. The result is a combination of big and small vortices.\n\n\nThis piece requires WebGL2 to run, please check and make sure this runs on your device in advance. Also you can press the spacebar to toggle the camera control.\n",
+              "childrenDescription": "The work contains a fluid simulation. I put random forces into the simulation and let it run 500 steps to create a flow field and then use it to generate the visuals. \n\nI choose fluid simulation instead of curl noise or any other noise function because I believe the fluid simulation could generate a movement that's more dynamic and organic. The result is a combination of big and small vortices.\n\n\nThis piece requires WebGL2 to run, please check and make sure this runs on your device in advance. Also you can press the spacebar to toggle the camera control.\n",
+              "tags": [
+                "fluid",
+                "generative"
+              ],
+              "artifactUri": "ipfs://QmdMCjKYqNG2ddjpkSAfeT95xaccgxYsuJYMK8xqZExtrz?fxhash=oo3Lb7xtHAKB4YkJyXbP2Eab1MJ1v8U6mtnYjK6fiUkcUygpSHo",
+              "displayUri": "ipfs://QmUEmZ9bBHY3DLFZ2pWsLJop6EFb3BAbdAWY37J4uhrnYC",
+              "thumbnailUri": "ipfs://QmfTHWaGDhevB3Sx8BYEjed1pUusjC2SQ56LgM2wNpfYg5",
+              "generativeUri": "ipfs://QmdMCjKYqNG2ddjpkSAfeT95xaccgxYsuJYMK8xqZExtrz",
+              "authenticityHash": "285e187e7078e093d51234b87aa9fc25adcebd41f2eb5cde19cf9eee2cbfe529",
+              "previewHash": "oo3Lb7xtHAKB4YkJyXbP2Eab1MJ1v8U6mtnYjK6fiUkcUygpSHo",
+              "capture": {
+                "mode": "CANVAS",
+                "triggerMode": "DELAY",
+                "canvasSelector": "canvas#main-canvas",
+                "delay": 11000
+              },
+              "symbol": "FXGEN",
+              "decimals": 0,
+              "version": "0.2"
+            },
+            "author": {
+              "id": "tz1WJpiJkNoMEjXE1wvoKeRuZo4o9Zgy6qXe",
+              "name": "Yi-Wen LIN",
+              "__typename": "User"
+            },
+            "__typename": "GenerativeToken"
+          },
+          "__typename": "MarketStats"
+        },
+        {
+          "floor": 125000000,
+          "secVolumeTz": 13196090000,
+          "secVolumeNb": 71,
+          "secVolumeTz24": 0,
+          "secVolumeNb24": 0,
+          "secVolumeTz7d": 0,
+          "secVolumeNb7d": 0,
+          "secVolumeTz30d": 13196090000,
+          "secVolumeNb30d": 71,
+          "primVolumeTz": 39075000000,
+          "primVolumeNb": 247,
+          "lowestSold": 100000000,
+          "highestSold": 400000000,
+          "median": 267000000,
+          "listed": 48,
+          "generativeToken": {
+            "id": 8818,
+            "name": "gatorade and apples",
+            "metadata": {
+              "name": "gatorade and apples",
+              "description": "still life drawing by john karel",
+              "childrenDescription": "still life drawing by john karel",
+              "tags": [
+                "still life drawing",
+                "jjjjjohn"
+              ],
+              "artifactUri": "ipfs://QmRcTu7oSg3EXWE9XyKphLxnQ9qto8YYPkRxwBb2gX5nQe?fxhash=oo1UViY8eJMcFAY2JzhitQkcUH3nisRuYqi9FNLXz3avRuS8E7p",
+              "displayUri": "ipfs://QmTdQnP8iNbzEcLymruPuyByXbHNEzSsYvxVhLFycbSJHk",
+              "thumbnailUri": "ipfs://QmQMNRTuHSaHWGiDL5Jf7u11qchXxqxC8qwsxFS4P22bqU",
+              "generativeUri": "ipfs://QmRcTu7oSg3EXWE9XyKphLxnQ9qto8YYPkRxwBb2gX5nQe",
+              "authenticityHash": "a3bebe79847c5a9a7c9e026fc70bc74035af6bca25cc275790170d57d02536d8",
+              "previewHash": "oo1UViY8eJMcFAY2JzhitQkcUH3nisRuYqi9FNLXz3avRuS8E7p",
+              "capture": {
+                "mode": "VIEWPORT",
+                "triggerMode": "FN_TRIGGER",
+                "gpu": false,
+                "resolution": {
+                  "x": 800,
+                  "y": 800
+                }
+              },
+              "settings": {
+                "exploration": {
+                  "preMint": {
+                    "enabled": true,
+                    "hashConstraints": null
+                  },
+                  "postMint": {
+                    "enabled": true,
+                    "hashConstraints": []
+                  }
+                }
+              },
+              "symbol": "FXGEN",
+              "decimals": 0,
+              "version": "0.2"
+            },
+            "author": {
+              "id": "tz1iZ2TPEShFC8TqHsXLA9RXdV7tSv8E3aLe",
+              "name": "jjjjjohn",
+              "__typename": "User"
+            },
+            "__typename": "GenerativeToken"
+          },
+          "__typename": "MarketStats"
+        },
+        {
+          "floor": 24000000,
+          "secVolumeTz": 13147802996,
+          "secVolumeNb": 341,
+          "secVolumeTz24": 0,
+          "secVolumeNb24": 0,
+          "secVolumeTz7d": 54299999,
+          "secVolumeNb7d": 2,
+          "secVolumeTz30d": 379179998,
+          "secVolumeNb30d": 13,
+          "primVolumeTz": 12830141600,
+          "primVolumeNb": 571,
+          "lowestSold": 10000000,
+          "highestSold": 329000000,
+          "median": 120000000,
+          "listed": 81,
+          "generativeToken": {
+            "id": 2726,
+            "name": "Caught in a Void",
+            "metadata": {
+              "name": "Caught in a Void",
+              "description": "A reflection on the 571 days between the start of the COVID lockdown and quitting my job to be a generative artist.\n\nFeatures include silhouette type, color palette, and fill effect.\n\np5.js",
+              "childrenDescription": "A reflection on the 571 days between the start of the COVID lockdown and quitting my job to be a generative artist.\n\nFeatures include silhouette type, color palette, and fill effect.\n\np5.js",
+              "tags": [],
+              "artifactUri": "ipfs://QmNkioshf7Ga43MpjMdHnP23Coe81CeTpL4b7UNi99C8VK",
+              "displayUri": "ipfs://QmbjHswPAypV4dfYNZHR6coNVu5DiA3vZkvdXfrToyLejD",
+              "thumbnailUri": "ipfs://Qmc6kQG6wML5c2QTP8ie4P9yH6mfmNhCDQVUbpkCQ6BwxV",
+              "generativeUri": "ipfs://QmPMi7MRVYvaqBYivWZfhd1QyiUnjCQjqfiriEzDDDWB5R",
+              "authenticityHash": "f459b0cd11e650a1aa5ad4090047ff817c32b06e809ead6d1e871552bd271a0c",
+              "capture": {
+                "mode": "CANVAS",
+                "delay": 31400,
+                "canvasSelector": "canvas#defaultCanvas0"
+              },
+              "symbol": "FXGEN",
+              "decimals": 0
+            },
+            "author": {
+              "id": "tz1bzg9xNB4heuF41sLfrdt1QmqrJTDQqDwN",
+              "name": "mjlindow",
+              "__typename": "User"
+            },
+            "__typename": "GenerativeToken"
+          },
+          "__typename": "MarketStats"
+        },
+        {
+          "floor": 400000000,
+          "secVolumeTz": 11996060000,
+          "secVolumeNb": 69,
+          "secVolumeTz24": 0,
+          "secVolumeNb24": 0,
+          "secVolumeTz7d": 0,
+          "secVolumeNb7d": 0,
+          "secVolumeTz30d": 369000000,
+          "secVolumeNb30d": 1,
+          "primVolumeTz": 580580000,
+          "primVolumeNb": 58,
+          "lowestSold": 59000000,
+          "highestSold": 500880000,
+          "median": 750000000,
+          "listed": 13,
+          "generativeToken": {
+            "id": 4829,
+            "name": "The Conjured",
+            "metadata": {
+              "name": "The Conjured",
+              "description": "A night-shrouded figure in paint.\nAgain and again and never the same. \n\n3000 x 3000 generative image. Right-click to save.\nCode by Liam Egan",
+              "childrenDescription": "A night-shrouded figure in paint.\nAgain and again and never the same. \n\n3000 x 3000 generative image. Right-click to save.\nCode by Liam Egan",
+              "tags": [
+                "goldcat",
+                "painterly",
+                "figurative",
+                "generative",
+                "dark art"
+              ],
+              "artifactUri": "ipfs://QmXu4pQB7p3AtSyqLdezWrcS1Er5riNcr2VAdMC5U1NaE6?fxhash=oo1iey5vpiPGKG1XU3UVbc8k2ZSabtG1cHoDMYbG1EoNuKJQsEY",
+              "displayUri": "ipfs://QmWx2PpvLB7pvAtF7E4XMha91qwLc91nf7k8LRbuyGLmqH",
+              "thumbnailUri": "ipfs://QmVVGUEDRDjTHxS3CszhWks5XQkbSbJq6zdjNRvwMwFLUj",
+              "generativeUri": "ipfs://QmXu4pQB7p3AtSyqLdezWrcS1Er5riNcr2VAdMC5U1NaE6",
+              "authenticityHash": "6d119e6262e3e7410aeabb77438c4c0afb2df1aa9c9294822988739ab79291fe",
+              "previewHash": "oo1iey5vpiPGKG1XU3UVbc8k2ZSabtG1cHoDMYbG1EoNuKJQsEY",
+              "capture": {
+                "mode": "VIEWPORT",
+                "triggerMode": "DELAY",
+                "resolution": {
+                  "x": 800,
+                  "y": 800
+                },
+                "delay": 4000
+              },
+              "settings": {
+                "exploration": {
+                  "preMint": {
+                    "enabled": true,
+                    "hashConstraints": [
+                      "oo8bXzDwprkfA2MxetNhs2PRNihjNEezuvW7mS3BtVPQYUhDAvs",
+                      "ookpcdoiAGsHtChqEMKhkFTLMCPW5V5GjPT35PyGy74cV8xQQWb",
+                      "oojKimq6e1CPsrbeHMwdcMFnqkCS8Hi962vP3pt2DeDBYJLz3rj"
+                    ]
+                  },
+                  "postMint": {
+                    "enabled": false,
+                    "hashConstraints": null
+                  }
+                }
+              },
+              "symbol": "FXGEN",
+              "decimals": 0,
+              "version": "0.2"
+            },
+            "author": {
+              "id": "tz2PsPRLTf3NPp43MqnHvWz1Q2URYQtisxs2",
+              "name": "goldcat",
+              "__typename": "User"
+            },
+            "__typename": "GenerativeToken"
+          },
+          "__typename": "MarketStats"
+        },
+        {
+          "floor": 24000000,
+          "secVolumeTz": 11771312854,
+          "secVolumeNb": 248,
+          "secVolumeTz24": 0,
+          "secVolumeNb24": 0,
+          "secVolumeTz7d": 171155555,
+          "secVolumeNb7d": 7,
+          "secVolumeTz30d": 11771312854,
+          "secVolumeNb30d": 248,
+          "primVolumeTz": 15904000000,
+          "primVolumeNb": 497,
+          "lowestSold": 17500000,
+          "highestSold": 99000000,
+          "median": 56000000,
+          "listed": 157,
+          "generativeToken": {
+            "id": 9129,
+            "name": "Urban Flora",
+            "metadata": {
+              "name": "Urban Flora",
+              "description": "Urban Flora is a generative artwork exploring interplay of natural and artificial forms created by Marcin Ignac / @marcinignac\n\nhttp://marcinignac.com/projects/urban-flora/\n\nThe project was inspired by the 3/4/5G network infrastructure more and more present in the parks and greenery of our cities. Final Urban Flora transformed into a study of abandoned structures of a long forgotten civilisation.\n\nThe whole image is generative and/or procedural. Leaves are parametric, twigs and trees use the space colonisation algorithm, and the geometry is based on platonic solids transformed though series of operations.\n\nFeatures determined at the time of minting:\n- one of the platonic solids or a prism\n- one of 15 geometry transformations\n- a color theme\n- leaves or detailed twigs\n- leaf's spread and the amount of ridges\n\n'g' / 'tree finger tap' - resolution and export\n'drag' - rotate\n'scroll' - zoom (on desktop)\n\nPlease note the project needs a decent GPU.\n\nLicensed under CC BY-NC-SA 4.0\n\n--\nWith dedication to my wife.",
+              "childrenDescription": "Urban Flora is a generative artwork exploring interplay of natural and artificial forms created by Marcin Ignac / @marcinignac\n\nhttp://marcinignac.com/projects/urban-flora/\n\nThe project was inspired by the 3/4/5G network infrastructure more and more present in the parks and greenery of our cities. Final Urban Flora transformed into a study of abandoned structures of a long forgotten civilisation.\n\nThe whole image is generative and/or procedural. Leaves are parametric, twigs and trees use the space colonisation algorithm, and the geometry is based on platonic solids transformed though series of operations.\n\nFeatures determined at the time of minting:\n- one of the platonic solids or a prism\n- one of 15 geometry transformations\n- a color theme\n- leaves or detailed twigs\n- leaf's spread and the amount of ridges\n\n'g' / 'tree finger tap' - resolution and export\n'drag' - rotate\n'scroll' - zoom (on desktop)\n\nPlease note the project needs a decent GPU.\n\nLicensed under CC BY-NC-SA 4.0\n\n--\nWith dedication to my wife.",
+              "tags": [
+                "generative",
+                "marcinignac",
+                "geometry",
+                "architecture",
+                "landscape",
+                "webgl",
+                "nodes_io"
+              ],
+              "artifactUri": "ipfs://QmNk5QWbLHxDtN8izV2jNi6Q2NSguWnjzCcRJrbU56fP35?fxhash=ooxN62w4yCf2pY3y6pXin46nwNVtFNNJVjwJuFGkNdZtHFpPbLe",
+              "displayUri": "ipfs://QmXEGvvUpFcjX85iMwrZL2CtP5WheFGLPv6DWpcEnm8Sa1",
+              "thumbnailUri": "ipfs://QmUdERH5Fv3zMm9QtUEeYcW5XEsR95HYUtH6KeU5HPoG6X",
+              "generativeUri": "ipfs://QmNk5QWbLHxDtN8izV2jNi6Q2NSguWnjzCcRJrbU56fP35",
+              "authenticityHash": "a2a43eb6e960dc7330c1936516132b6f11fafdcf378f9200f3a483c5ba911ec3",
+              "previewHash": "ooxN62w4yCf2pY3y6pXin46nwNVtFNNJVjwJuFGkNdZtHFpPbLe",
+              "capture": {
+                "mode": "VIEWPORT",
+                "triggerMode": "FN_TRIGGER",
+                "gpu": false,
+                "resolution": {
+                  "x": 2048,
+                  "y": 2048
+                }
+              },
+              "settings": {
+                "exploration": {
+                  "preMint": {
+                    "enabled": true,
+                    "hashConstraints": [
+                      "oobbacwNiSu5BiVTCTw8cvKLYzQJbZ28rZqSevVBeXXDoUrJcNe",
+                      "oourrLVp4AyikuYN8feMyVZWuAKzWXTk2MM8dTe7ZEL7VnVgUZr",
+                      "ooKLrYY4UWZsgpsQLCvwWASqj4Zyv8UycH2TtYeG2J8tqsNJLTK",
+                      "ooafuyHoDP2ppvueX4mmDDDz31BMDGyajgNPA3qpYHCZJkuJ5Bd",
+                      "oo9kEqsAWRcNhgpoxy5izsm5DU9F3Xifw3NZrpwzcLSL1SPAQUK",
+                      "ooHzYXddRKLGYqxiyFbj7By9ogfUvg4e95iKiJ4aTMgg7aQtuvT"
+                    ]
+                  },
+                  "postMint": {
+                    "enabled": true,
+                    "hashConstraints": null
+                  }
+                }
+              },
+              "symbol": "FXGEN",
+              "decimals": 0,
+              "version": "0.2"
+            },
+            "author": {
+              "id": "tz1aBgHQm9KrJ4WrZkfkzS6BEykYbDXP8znU",
+              "name": "marcinignac",
+              "__typename": "User"
+            },
+            "__typename": "GenerativeToken"
+          },
+          "__typename": "MarketStats"
+        },
+        {
+          "floor": 66000000,
+          "secVolumeTz": 10763990000,
+          "secVolumeNb": 61,
+          "secVolumeTz24": 0,
+          "secVolumeNb24": 0,
+          "secVolumeTz7d": 0,
+          "secVolumeNb7d": 0,
+          "secVolumeTz30d": 186500000,
+          "secVolumeNb30d": 5,
+          "primVolumeTz": 2560000000,
+          "primVolumeNb": 128,
+          "lowestSold": 25000000,
+          "highestSold": 666000000,
+          "median": 455000000,
+          "listed": 35,
+          "generativeToken": {
+            "id": 3552,
+            "name": "SoulTree",
+            "metadata": {
+              "name": "SoulTree",
+              "description": "Experimental work making glowing soul trees with recursive division and generative sound.\n\nhttps://twitter.com/cheyuwu345",
+              "childrenDescription": "Experimental work making glowing soul trees with recursive division and generative sound.\n\nhttps://twitter.com/cheyuwu345",
+              "tags": [
+                "tree",
+                "generative"
+              ],
+              "artifactUri": "ipfs://QmNgpJWJDH9kpkXkLc7MPkNtDfcuPEMXCse6qk8eDCtzc9",
+              "displayUri": "ipfs://QmNawgsq7qHDrgSf4WsJVBRQtZXfN1zLNKbgbpvjLBSzQf",
+              "thumbnailUri": "ipfs://QmaJGuBWTvdwQNQhrX2s6rWUEcQSJ2ZYsV1o4kVgPcVvrR",
+              "generativeUri": "ipfs://QmTsDrjr56uXPfhTaML9rzVmURNc2qt9YpJmotwqrweb7t",
+              "authenticityHash": "dba43aa920149ac20d2aabf40b89f204c0c42a9b9cec6f1e61ac89fd61cad808",
+              "capture": {
+                "mode": "CANVAS",
+                "delay": 2000,
+                "canvasSelector": "canvas#defaultCanvas0"
+              },
+              "symbol": "FXGEN",
+              "decimals": 0
+            },
+            "author": {
+              "id": "tz1WopvVxCVdGP7Sew7kz6Kro9o1qQ7SuEtN",
+              "name": "Che-Yu Wu",
+              "__typename": "User"
+            },
+            "__typename": "GenerativeToken"
+          },
+          "__typename": "MarketStats"
+        },
+        {
+          "floor": 95000000,
+          "secVolumeTz": 10381300900,
+          "secVolumeNb": 198,
+          "secVolumeTz24": 0,
+          "secVolumeNb24": 0,
+          "secVolumeTz7d": 300000000,
+          "secVolumeNb7d": 2,
+          "secVolumeTz30d": 2333000000,
+          "secVolumeNb30d": 20,
+          "primVolumeTz": 2976000000,
+          "primVolumeNb": 248,
+          "lowestSold": 16700000,
+          "highestSold": 256000000,
+          "median": 222000000,
+          "listed": 35,
+          "generativeToken": {
+            "id": 6607,
+            "name": "Non Spaces",
+            "metadata": {
+              "name": "Non Spaces",
+              "description": "Generate... \nArchitecture...\nClick...\n\nPhysical Twin: Every owner of a Minimal NonSpace can get a physical BW print of her/his NonSpace made by AxiDraw for free (only pieces acquired on primary). Only owners of a NonSpace can also get a physical copy, (primary and secondary owners) not for free: Contact me on twitter @ismahelios.\n\nEvolutive: Click on the screen to activate this feature. The token tracks its inception date. Every new day, trees, bushes and vegetation will start to grow... with time... Come back to see your Non Space evolve.\nPress \"s\" or \"S\" to get a 2000x2000 pixels png\n\nOriginal piece by Ismahelio. Madrid. 2022. p5js.",
+              "childrenDescription": "Generate... \nArchitecture...\nClick...\n\nPhysical Twin: Every owner of a Minimal NonSpace can get a physical BW print of her/his NonSpace made by AxiDraw for free (only pieces acquired on primary). Only owners of a NonSpace can also get a physical copy, (primary and secondary owners) not for free: Contact me on twitter @ismahelios.\n\nEvolutive: Click on the screen to activate this feature. The token tracks its inception date. Every new day, trees, bushes and vegetation will start to grow... with time... Come back to see your Non Space evolve.\nPress \"s\" or \"S\" to get a 2000x2000 pixels png\n\nOriginal piece by Ismahelio. Madrid. 2022. p5js.",
+              "tags": [
+                "generative",
+                "geometry",
+                "art",
+                "ismahelio",
+                "architecture"
+              ],
+              "artifactUri": "ipfs://QmcaLWDR4iQ9CidhstE5FvE4PecF5EA3kYF8hqScZhFJrp?fxhash=oocRKeSuCYGRF7z2QjUngW4RxLiJt5uVVn7LvpFJ2a12SJDAN17",
+              "displayUri": "ipfs://Qmck9t9Y71wVLjbiLwLJmqkittb1ycaRtii8US3Vnh86Vc",
+              "thumbnailUri": "ipfs://QmcmgK5egqE8rxVuG6PKjytifFztNYYF5SaN9tQFxmYkSG",
+              "generativeUri": "ipfs://QmcaLWDR4iQ9CidhstE5FvE4PecF5EA3kYF8hqScZhFJrp",
+              "authenticityHash": "7a39b32b1c948f227626f3f10a0299b20ba4306312a5a27284a21ef2ee834a62",
+              "previewHash": "oocRKeSuCYGRF7z2QjUngW4RxLiJt5uVVn7LvpFJ2a12SJDAN17",
+              "capture": {
+                "mode": "VIEWPORT",
+                "triggerMode": "DELAY",
+                "resolution": {
+                  "x": 1000,
+                  "y": 1000
+                },
+                "delay": 3900
+              },
+              "settings": {
+                "exploration": {
+                  "preMint": {
+                    "enabled": true,
+                    "hashConstraints": [
+                      "ooAAAu8G24HTM1JxTnF1MUctmQGiBqeEvRCChgjnw7vG2D71xyj",
+                      "oottsVMxdxJHvtBApcF4QkboEpzLmfqYJ1AtmFgpNXx8ZgEVF6h",
+                      "oovDMYyV2CLC7KxHdPbm71SErFR8Bw9cLxrf2KEGCw9qVh4wtBJ",
+                      "ooZHkGJAXaxQ63v4BsK6YzHf15JxXJNDujYtNWUVAFBochBDWwz",
+                      "ooRBBRGQe4yDH43zYxafoTNerxV2NQvidk9Ct6sxiwY5hA3F6m3",
+                      "ooMyCFQdLooDB6xJj9kz5pKfBLtbMgQuhj1QswF86R5878mp7zq",
+                      "ooiKVUfxQfSEuh5byAXtBNKhfWYmBsKFQeNqNbV8PGRZ3eweRBH",
+                      "ooN6hreRPFcL2keD3jb8koLNFnZjrQnV4wHNVJFMKrbGuoiHHtW",
+                      "ooqWXj8hmeYCTgKPaxskNfVxRLJWfbpboMZnGSmPZugAJnMvt7S",
+                      "oo2oeMi3XLFG2eoqoH51wj1ktHgNWyUhLz42ohN5Yw9QgoZY4WA",
+                      "oojyixwcFEmNgUhPVbJvhqA1fyLQsYTG9sySwgkMtcHc1Eir8cQ",
+                      "oo5omk1mhvN2P1T8NjWLFVXAYwaDNRCvXfS22PweQGbp6t89m3C",
+                      "oo25YtivqvzZ9nVErJ9BHxjgyuWxA5TSBPGVZZ1L6aZvJNdwQ9y"
+                    ]
+                  },
+                  "postMint": {
+                    "enabled": false,
+                    "hashConstraints": null
+                  }
+                }
+              },
+              "symbol": "FXGEN",
+              "decimals": 0,
+              "version": "0.2"
+            },
+            "author": {
+              "id": "tz1aB4WhspBPfLA6X4qSQPZCDKQkmmGobrCk",
+              "name": "ismahelio",
+              "__typename": "User"
+            },
+            "__typename": "GenerativeToken"
+          },
+          "__typename": "MarketStats"
+        },
+        {
+          "floor": 120000000,
+          "secVolumeTz": 10367170000,
+          "secVolumeNb": 115,
+          "secVolumeTz24": 0,
+          "secVolumeNb24": 0,
+          "secVolumeTz7d": 0,
+          "secVolumeNb7d": 0,
+          "secVolumeTz30d": 274690000,
+          "secVolumeNb30d": 3,
+          "primVolumeTz": 2110000000,
+          "primVolumeNb": 211,
+          "lowestSold": 28000000,
+          "highestSold": 555000000,
+          "median": 341500000,
+          "listed": 32,
+          "generativeToken": {
+            "id": 4504,
+            "name": "Echos",
+            "metadata": {
+              "name": "Echos",
+              "description": "Imperfect echos of shape and color.\n\nAspect Ratio: the default preview is 1:1, but Echos may look better with different aspect ratios. You're encouraged to open in live view and explore different options (tall and narrow, short and wide, etc).",
+              "childrenDescription": "Imperfect echos of shape and color.\n\nAspect Ratio: the default preview is 1:1, but Echos may look better with different aspect ratios. You're encouraged to open in live view and explore different options (tall and narrow, short and wide, etc).",
+              "tags": [
+                "echo",
+                "reflect",
+                "minimal"
+              ],
+              "artifactUri": "ipfs://QmZ7LeVaLLmqoFLcQ6pAuK5yPVG5z9BWeWQpiakt84rYYJ",
+              "displayUri": "ipfs://QmTo5jy24tLhw9Fvj2bjYth2xsAnX8PFXLKfyEsE9sm78j",
+              "thumbnailUri": "ipfs://QmVQAdbtTHmFu5x9jfsNmKUaDQbcSFxgZDZmpbSGeaAa87",
+              "generativeUri": "ipfs://QmRHUTb25se4vCLgQ4fqc9aU99kvNpjPP4pW1ZCjwaC1mC",
+              "authenticityHash": "b54e443d4d1d46f3b0180e5d91714748ee31246b9165cd9b7fcc1bd3f0f21055",
+              "capture": {
+                "mode": "VIEWPORT",
+                "resolution": {
+                  "x": 1000,
+                  "y": 1000
+                },
+                "delay": 100
+              },
+              "symbol": "FXGEN",
+              "decimals": 0
+            },
+            "author": {
+              "id": "tz2MgAiWfd5i7kee4pMKiY5cx5QQUHD94HFS",
+              "name": "ippsketch",
+              "__typename": "User"
+            },
+            "__typename": "GenerativeToken"
+          },
+          "__typename": "MarketStats"
+        },
+        {
+          "floor": 22000000,
+          "secVolumeTz": 10143176658,
+          "secVolumeNb": 164,
+          "secVolumeTz24": 0,
+          "secVolumeNb24": 0,
+          "secVolumeTz7d": 0,
+          "secVolumeNb7d": 0,
+          "secVolumeTz30d": 3771646659,
+          "secVolumeNb30d": 76,
+          "primVolumeTz": 1605500000,
+          "primVolumeNb": 247,
+          "lowestSold": 23990000,
+          "highestSold": 250000000,
+          "median": 77950000,
+          "listed": 84,
+          "generativeToken": {
+            "id": 8162,
+            "name": "Mountain Moves",
+            "metadata": {
+              "name": "Mountain Moves",
+              "description": "Mountain Moves - ...kind of the logical real-time consequence of \"Mountain View\"\nfeaturing different mountain formation (noise) types, different display modes\n(outlines, semi outlines, no outlines, soft paint strokes)\n6 color modes are still switchable. initially always 2-color modes.\non phones also uses device orientation.\n \n press 'c' ... switch color mode\n press 's' ... save png of actual resolution x3\n",
+              "childrenDescription": "Mountain Moves - ...kind of the logical real-time consequence of \"Mountain View\"\nfeaturing different mountain formation (noise) types, different display modes\n(outlines, semi outlines, no outlines, soft paint strokes)\n6 color modes are still switchable. initially always 2-color modes.\non phones also uses device orientation.\n \n press 'c' ... switch color mode\n press 's' ... save png of actual resolution x3\n",
+              "tags": [
+                "terrain",
+                "generative",
+                "interactive",
+                "realtime",
+                "lineart",
+                "mountains"
+              ],
+              "artifactUri": "ipfs://QmXTLhZYZ9WCG2QiJ69ZaMWAv9uZ6UcrPLNhPbqWtiC4wy?fxhash=oobTJ5kKeXx2Ans9KZEopvMXNR62Yy2yudeiMu37fy96fU2UX12",
+              "displayUri": "ipfs://QmWcJuXPCu74eWdshb6zVQMy13RPkU2refksaFGvSMs3vp",
+              "thumbnailUri": "ipfs://QmYw27xGN3TfSpf4wxLrvD32YBZv5uTNXMAPNhHVCapise",
+              "generativeUri": "ipfs://QmXTLhZYZ9WCG2QiJ69ZaMWAv9uZ6UcrPLNhPbqWtiC4wy",
+              "authenticityHash": "cfe065233f11df0e1fd7389dd42e9a15dd3dd0de933b59840eeeb28b1375cfcf",
+              "previewHash": "oobTJ5kKeXx2Ans9KZEopvMXNR62Yy2yudeiMu37fy96fU2UX12",
+              "capture": {
+                "mode": "VIEWPORT",
+                "triggerMode": "FN_TRIGGER",
+                "gpu": false,
+                "resolution": {
+                  "x": 500,
+                  "y": 500
+                }
+              },
+              "settings": {
+                "exploration": {
+                  "preMint": {
+                    "enabled": true,
+                    "hashConstraints": [
+                      "oowbEVdZsCygui5u8uCqyFDkHaXLNxTLBUSiKV7zhzrtYE5uUiU",
+                      "ooXqRBRxdFdcmZVh9EiV2z1dF4BuxzqYpLxamsgPQjsumc6M2v9",
+                      "ooNJs5Gs8EDSd1vR6LdEBybEnhtyjU1pUkQEpuTXs2BASv3UsCa",
+                      "ooNXRYGinTNij7pGrU36Ce3TegCkh5CDKzaXtVNGUqjPGrui9PL",
+                      "ooaGdSgLw4BKPyPELUsrHF1PboQG8qTe7q9KFKSTmqQzT1RfBTh",
+                      "oo1ovEoMgJBx1E8jDYKQDw8JkuiMsqbL9dsquD8R3zUBTwJAr5i",
+                      "ooXqTTHyDPx7ZvwMiDABQnq1rgtJnGHawJ91hKzicYEhfLBKmfU",
+                      "ooaRXkJ7fme1rmrTNsuvimofEL282rhmj9F8fKLMAA1jvBnbtJt"
+                    ]
+                  },
+                  "postMint": {
+                    "enabled": false,
+                    "hashConstraints": null
+                  }
+                }
+              },
+              "symbol": "FXGEN",
+              "decimals": 0,
+              "version": "0.2"
+            },
+            "author": {
+              "id": "tz1T55y8BEuXQrCzBaPqayugNNGFwxy27WJt",
+              "name": "flockaroo",
+              "__typename": "User"
+            },
+            "__typename": "GenerativeToken"
+          },
+          "__typename": "MarketStats"
+        },
+        {
+          "floor": 99000000,
+          "secVolumeTz": 10016874270,
+          "secVolumeNb": 308,
+          "secVolumeTz24": 0,
+          "secVolumeNb24": 0,
+          "secVolumeTz7d": 822970000,
+          "secVolumeNb7d": 7,
+          "secVolumeTz30d": 2456660000,
+          "secVolumeNb30d": 31,
+          "primVolumeTz": 1000000000,
+          "primVolumeNb": 500,
+          "lowestSold": 3800000,
+          "highestSold": 250000000,
+          "median": 250000000,
+          "listed": 29,
+          "generativeToken": {
+            "id": 2961,
+            "name": "Farbteiler",
+            "metadata": {
+              "name": "Farbteiler",
+              "description": "Each Farbteiler is a rectilinear, mostly self-avoiding walk, dividing the space of the canvas with dotted grids using colors from Johannes Itten's Farbkreis. Everything is inside and everything is outside.",
+              "childrenDescription": "Each Farbteiler is a rectilinear, mostly self-avoiding walk, dividing the space of the canvas with dotted grids using colors from Johannes Itten's Farbkreis. Everything is inside and everything is outside.",
+              "tags": [
+                "generative",
+                "color",
+                "oblique",
+                "plotter",
+                "architecture"
+              ],
+              "artifactUri": "ipfs://QmTWJ2oPyUMNqVMnpJpjMXwgS7Trt1JnrjVhANahPPMmTk",
+              "displayUri": "ipfs://QmNaNSu8Pjc4R8kgPqYA4LKA13nfBHb4qgASCrKp9e92L2",
+              "thumbnailUri": "ipfs://QmdVkL9Cj7whcaFLQFCxMPn5JCZpZnaqVsZ9iviZLtUYhu",
+              "generativeUri": "ipfs://QmPKcPEZJVZ4RoPC6JFZYWiErbUTDvW1NEYeB9k1UyeKF8",
+              "authenticityHash": "8a680b378f3c917a6653e979e4b01c001fc0f4641381d25a7a3891908df6bdd7",
+              "capture": {
+                "mode": "CANVAS",
+                "delay": 30000,
+                "canvasSelector": "canvas"
+              },
+              "symbol": "FXGEN",
+              "decimals": 0
+            },
+            "author": {
+              "id": "tz1WDJV8EC2WRegrn2W6A68RmZLyfZP8tzwJ",
+              "name": "Erik Swahn",
+              "__typename": "User"
+            },
+            "__typename": "GenerativeToken"
+          },
+          "__typename": "MarketStats"
+        },
+        {
+          "floor": 30000000,
+          "secVolumeTz": 9965632799,
+          "secVolumeNb": 153,
+          "secVolumeTz24": 0,
+          "secVolumeNb24": 0,
+          "secVolumeTz7d": 47500000,
+          "secVolumeNb7d": 2,
+          "secVolumeTz30d": 904586900,
+          "secVolumeNb30d": 23,
+          "primVolumeTz": 11597100000,
+          "primVolumeNb": 290,
+          "lowestSold": 15000000,
+          "highestSold": 666000000,
+          "median": 95845000,
+          "listed": 90,
+          "generativeToken": {
+            "id": 5438,
+            "name": "SoulSea",
+            "metadata": {
+              "name": "SoulSea",
+              "description": "The Soul Sea\n\nYou look down and find that the ocean in your heart is a sine wave. \nThe tide gently laps onto the shore.\n\nThe soul is the sea. You are the land. \nThere are waves on the shore, and the waves are slices.\n\nGazing at the slices, you feel the coldness of the Arctic Ocean, the permafrost of the Antarctic Sea, the deep darkness of the bottomless sea.\n\nStay silent, hear the sound of the waves lapping at the innumerable shores far away.\nFeel the soul of the digital ocean.\n\nInteractivities:\n> Key P: Pause\n> Key S: Save\n> Press and move mouseX: wave moves slower / faster\n\nChe-Yu Wu",
+              "childrenDescription": "The Soul Sea\n\nYou look down and find that the ocean in your heart is a sine wave. \nThe tide gently laps onto the shore.\n\nThe soul is the sea. You are the land. \nThere are waves on the shore, and the waves are slices.\n\nGazing at the slices, you feel the coldness of the Arctic Ocean, the permafrost of the Antarctic Sea, the deep darkness of the bottomless sea.\n\nStay silent, hear the sound of the waves lapping at the innumerable shores far away.\nFeel the soul of the digital ocean.\n\nInteractivities:\n> Key P: Pause\n> Key S: Save\n> Press and move mouseX: wave moves slower / faster\n\nChe-Yu Wu",
+              "tags": [
+                "generative",
+                "digital",
+                "nature",
+                "soulsea"
+              ],
+              "artifactUri": "ipfs://QmPDfMShxb1iQ12bwV4LivT5pC1UXoL9ZRcjjC7grr3r9P?fxhash=ooto45sU86CaUZFWxUduRyCPqRYpVoSmKrcRcrkJ8DCxwziDb6o",
+              "displayUri": "ipfs://QmSjD9c2S8tN4f8QpJSRtxHhkKRtpiA8LmEoNRWAdxANW7",
+              "thumbnailUri": "ipfs://QmQE4384qrW2rUYq1Bv6RPr1sfqweihmREY8Jqr5Hxwg7z",
+              "generativeUri": "ipfs://QmPDfMShxb1iQ12bwV4LivT5pC1UXoL9ZRcjjC7grr3r9P",
+              "authenticityHash": "30ce370003b5515b5d9d1a8fd03381ac10428c68a289fc4700a4b2fe0fab3df9",
+              "previewHash": "ooto45sU86CaUZFWxUduRyCPqRYpVoSmKrcRcrkJ8DCxwziDb6o",
+              "capture": {
+                "mode": "CANVAS",
+                "triggerMode": "DELAY",
+                "canvasSelector": "canvas#defaultCanvas0",
+                "delay": 40000
+              },
+              "settings": {
+                "exploration": {
+                  "preMint": {
+                    "enabled": true,
+                    "hashConstraints": [
+                      "oo2GLnbcJfUHTTmsqewNryQtpfzDiLg8cQyknwvArr4XhwADCsX",
+                      "ooq7jaDLWtg7Dm86nr8fmnt1Kfrb8B38LqR552oyhJRGLHaULQG",
+                      "ooSWoiCMZxuVwrKZPpatBLDCqpVbq2XdXm9NXBJ3LpSQ5R8qhTt",
+                      "oooDUF6qP8uFA8rYCJ6LRxwpcJftHWrkhMLbk1P17N2LBLgP4Wo",
+                      "ooSYSicambXHGg4kvcQiUqGPjGNkBoTA5LQUEz7piNMc6mKRtwQ"
+                    ]
+                  },
+                  "postMint": {
+                    "enabled": false,
+                    "hashConstraints": null
+                  }
+                }
+              },
+              "symbol": "FXGEN",
+              "decimals": 0,
+              "version": "0.2"
+            },
+            "author": {
+              "id": "tz1WopvVxCVdGP7Sew7kz6Kro9o1qQ7SuEtN",
+              "name": "Che-Yu Wu",
+              "__typename": "User"
+            },
+            "__typename": "GenerativeToken"
+          },
+          "__typename": "MarketStats"
+        },
+        {
+          "floor": 36000000,
+          "secVolumeTz": 9759722998,
+          "secVolumeNb": 209,
+          "secVolumeTz24": 0,
+          "secVolumeNb24": 0,
+          "secVolumeTz7d": 35000000,
+          "secVolumeNb7d": 1,
+          "secVolumeTz30d": 183000000,
+          "secVolumeNb30d": 5,
+          "primVolumeTz": 2000000000,
+          "primVolumeNb": 250,
+          "lowestSold": 20000000,
+          "highestSold": 222000000,
+          "median": 99475000,
+          "listed": 46,
+          "generativeToken": {
+            "id": 5004,
+            "name": "Fire Card",
+            "metadata": {
+              "name": "Fire Card",
+              "description": "Fire Cards is a series of generative artworks inspired by 19th-century Japanese fireworks catalogues. The images in these catalogues didn't so much focus on realism, but on the visual associations of the pyrotechnic effects instead. Using a restricted color palette and relatively simple shapes, this resulted in vibrant, graphical posters that sparked your own imagination more than anything else.\n\nIn Fire Cards, the abstract, static images are transformed back into lively, dynamic worlds again, each with their own distinctive, centuries-old aesthetics. Using a custom animation and 2D render system, the algorithmically generated worlds slowly build up and show a magical fireworks performance.\n\nFire Cards are tiny, personal and unique shows of wonder.",
+              "childrenDescription": "Fire Cards is a series of generative artworks inspired by 19th-century Japanese fireworks catalogues. The images in these catalogues didn't so much focus on realism, but on the visual associations of the pyrotechnic effects instead. Using a restricted color palette and relatively simple shapes, this resulted in vibrant, graphical posters that sparked your own imagination more than anything else.\n\nIn Fire Cards, the abstract, static images are transformed back into lively, dynamic worlds again, each with their own distinctive, centuries-old aesthetics. Using a custom animation and 2D render system, the algorithmically generated worlds slowly build up and show a magical fireworks performance.\n\nFire Cards are tiny, personal and unique shows of wonder.",
+              "tags": [
+                "Fire Cards",
+                "Fire Card",
+                "firecards",
+                "firecard",
+                "fireworks",
+                "Monokai",
+                "Japan",
+                "19th century",
+                "graphical",
+                "animated",
+                "animation",
+                "generative",
+                "world",
+                "tree",
+                "moon",
+                "sparkles",
+                "retro",
+                "vintage"
+              ],
+              "artifactUri": "ipfs://QmbKWSteqjJHqoqBh45XBTCWCo3opYUwgvXj4tbKBcbPeE?fxhash=ooMfJxB4ycGDXNTP5SBTnsNA8BhXtKhWpr8wxUdPRY9eyqTR3vJ",
+              "displayUri": "ipfs://QmNnjQw3gfJXVDUwExkEAsLJ7sf6Q1myRFZUNq5m8PztwA",
+              "thumbnailUri": "ipfs://QmWDmgCthoDPtj8e8qRmKaXPcrySfPPkujTgrSNeWbVWD5",
+              "generativeUri": "ipfs://QmbKWSteqjJHqoqBh45XBTCWCo3opYUwgvXj4tbKBcbPeE",
+              "authenticityHash": "a3042c0a86a96f24c4af9e1d5229969ccb04889cd0069e05ad7c3ec63927ba4c",
+              "previewHash": "ooMfJxB4ycGDXNTP5SBTnsNA8BhXtKhWpr8wxUdPRY9eyqTR3vJ",
+              "capture": {
+                "mode": "CANVAS",
+                "triggerMode": "FN_TRIGGER",
+                "canvasSelector": ".monokai-20211226-canvas"
+              },
+              "settings": {
+                "exploration": {
+                  "preMint": {
+                    "enabled": true,
+                    "hashConstraints": null
+                  },
+                  "postMint": {
+                    "enabled": false,
+                    "hashConstraints": null
+                  }
+                }
+              },
+              "symbol": "FXGEN",
+              "decimals": 0,
+              "version": "0.2"
+            },
+            "author": {
+              "id": "tz1WqXSMDZENwSrxuVRgAnW1AEa7UCkpkwSF",
+              "name": "monokai",
+              "__typename": "User"
+            },
+            "__typename": "GenerativeToken"
+          },
+          "__typename": "MarketStats"
+        },
+        {
+          "floor": 8000000,
+          "secVolumeTz": 9385301106,
+          "secVolumeNb": 291,
+          "secVolumeTz24": 0,
+          "secVolumeNb24": 0,
+          "secVolumeTz7d": 15000000,
+          "secVolumeNb7d": 2,
+          "secVolumeTz30d": 142550000,
+          "secVolumeNb30d": 14,
+          "primVolumeTz": 3990000000,
+          "primVolumeNb": 798,
+          "lowestSold": 6000000,
+          "highestSold": 125000000,
+          "median": 65000000,
+          "listed": 166,
+          "generativeToken": {
+            "id": 3493,
+            "name": "Celestial Collisions ",
+            "metadata": {
+              "name": "Celestial Collisions ",
+              "description": "Celestial Collisions  - The following series is an exploration of organic textures that embodies the way of a gentle breeze and the simulation of color pencils that randomly generates simple shapes. Out of 380K different combinations of the following combinations,\nan endless amount of orientations can be produced from the piece of work.  \n\nFor the interactivity element, turn on the (a)toms and check the pulsar settings.. on the interval the atoms will go from being almost invisible to standing front and center. Sometimes, you may need to look hard depending on the various atoms. \n\n* 's' - save an image of the current state \n* 'a' - activate atoms\n\nThe piece is to be experienced by default at 1000x1000, however, have fun with the image. It will adapt to various sizes and create different images by whatever size you view it in. \n\n@generatecoll 2021 ",
+              "childrenDescription": "Celestial Collisions  - The following series is an exploration of organic textures that embodies the way of a gentle breeze and the simulation of color pencils that randomly generates simple shapes. Out of 380K different combinations of the following combinations,\nan endless amount of orientations can be produced from the piece of work.  \n\nFor the interactivity element, turn on the (a)toms and check the pulsar settings.. on the interval the atoms will go from being almost invisible to standing front and center. Sometimes, you may need to look hard depending on the various atoms. \n\n* 's' - save an image of the current state \n* 'a' - activate atoms\n\nThe piece is to be experienced by default at 1000x1000, however, have fun with the image. It will adapt to various sizes and create different images by whatever size you view it in. \n\n@generatecoll 2021 ",
+              "tags": [
+                "generative art",
+                "generative",
+                "creative coding",
+                "generatecoll"
+              ],
+              "artifactUri": "ipfs://QmWDXfcF9Dfbd4RxbvXJqEB4iewdD9iDJamq6dA4bT4Knd",
+              "displayUri": "ipfs://QmZxCxghEKk1ZqKyM5kRKzYDTwbZMXoWCUV1ZNSGCGbSt1",
+              "thumbnailUri": "ipfs://QmWzPNhhZk7NFADPyocCrhcgxQKewBmW1ippSp6q4TSLPz",
+              "generativeUri": "ipfs://QmZQVUEoqjAB1Y2BjhGYiFA9fx5kiheHA5VkTaBQAyjeus",
+              "authenticityHash": "f0b7994e04bcb405417c75acea5924e062e8db59f54df1afcd7fde6b83aee581",
+              "capture": {
+                "mode": "VIEWPORT",
+                "resolution": {
+                  "x": 1000,
+                  "y": 1000
+                },
+                "delay": 15000
+              },
+              "symbol": "FXGEN",
+              "decimals": 0
+            },
+            "author": {
+              "id": "tz1faciLfucCMGZqsHPda7hqAvmMRumqxm7B",
+              "name": "generatecoll",
+              "__typename": "User"
+            },
+            "__typename": "GenerativeToken"
+          },
+          "__typename": "MarketStats"
+        },
+        {
+          "floor": 27690000,
+          "secVolumeTz": 8990662835,
+          "secVolumeNb": 192,
+          "secVolumeTz24": 0,
+          "secVolumeNb24": 0,
+          "secVolumeTz7d": 55000000,
+          "secVolumeNb7d": 2,
+          "secVolumeTz30d": 322900000,
+          "secVolumeNb30d": 10,
+          "primVolumeTz": 9980000000,
+          "primVolumeNb": 998,
+          "lowestSold": 14000000,
+          "highestSold": 555000000,
+          "median": 290500000,
+          "listed": 88,
+          "generativeToken": {
+            "id": 86,
+            "name": "Reading a book",
+            "metadata": {
+              "name": "Reading a book",
+              "description": "The formal structure of a book is beautiful by itself, but its aesthetic is the tacit atmosphere within which events take place in a story.\n\nThe WebGL real-time animation sets up an initial grid based on the fxhash. The grid cells get subdivided into another grid and the resulting cells become filled with pixels in color (~33%) or black and white (~66%).\nThe colored pixels come in 3 different coloring styles.\n- Big Palette (~49%)\n- Small Palette (~49%)\n- Monochrome [b/w] (~2%)\n4 noise algorithms modify the pixels of selected grid cells while at the same time 4 reset algorithms reassemble the initial image. The selected cells switch over time.",
+              "childrenDescription": "The formal structure of a book is beautiful by itself, but its aesthetic is the tacit atmosphere within which events take place in a story.\n\nThe WebGL real-time animation sets up an initial grid based on the fxhash. The grid cells get subdivided into another grid and the resulting cells become filled with pixels in color (~33%) or black and white (~66%).\nThe colored pixels come in 3 different coloring styles.\n- Big Palette (~49%)\n- Small Palette (~49%)\n- Monochrome [b/w] (~2%)\n4 noise algorithms modify the pixels of selected grid cells while at the same time 4 reset algorithms reassemble the initial image. The selected cells switch over time.",
+              "tags": [
+                "real-time",
+                "glsl",
+                "webgl",
+                "glitch",
+                "kimasendorf",
+                "pixel"
+              ],
+              "artifactUri": "ipfs://QmbSJDXUjiysBpifFPiSaF3xBf3urDwDFgXPXoCAay6ubq",
+              "displayUri": "ipfs://QmUAFhaqUYCt4pUmFjzXDs15uskt8smkgPSCFcpJznfqcK",
+              "thumbnailUri": "ipfs://QmUL6wqjrwo3f5YUtEJnf2DzQHDG1vX1yCcRadniSAbTCA",
+              "generativeUri": "ipfs://QmSgkdmpqwGLrCtH8qCYQGYNqeKvt47SgasZisGCQrpzKE",
+              "authenticityHash": "1c0c447eed4c1705b7f0953a0c514700bc007eea200fb3d33daafac5e7358571",
+              "capture": {
+                "mode": "VIEWPORT",
+                "resolution": {
+                  "x": 800,
+                  "y": 800
+                },
+                "delay": 40000
+              },
+              "symbol": "FXGEN",
+              "decimals": 0
+            },
+            "author": {
+              "id": "tz1N1vuWBsDtGMyj3No8NfeJdCBFu8v6gvSX",
+              "name": "Kim Asendorf",
+              "__typename": "User"
+            },
+            "__typename": "GenerativeToken"
+          },
+          "__typename": "MarketStats"
+        },
+        {
+          "floor": 1050000000,
+          "secVolumeTz": 8907580000,
+          "secVolumeNb": 27,
+          "secVolumeTz24": 0,
+          "secVolumeNb24": 0,
+          "secVolumeTz7d": 0,
+          "secVolumeNb7d": 0,
+          "secVolumeTz30d": 0,
+          "secVolumeNb30d": 0,
+          "primVolumeTz": 227500000,
+          "primVolumeNb": 65,
+          "lowestSold": 6500000,
+          "highestSold": 2323000000,
+          "median": 3000000000,
+          "listed": 9,
+          "generativeToken": {
+            "id": 768,
+            "name": "Stippled Impressions",
+            "metadata": {
+              "name": "Stippled Impressions",
+              "description": "The grainy texture of stippling has always appealed to me. Charcoal and graphite drawings on rough paper have a similar aesthetic I find appealing. There is something in the rough texture that feels dreamlike.\n\nThis project includes the following features: line count, rendering method, interpolation method, line shape, and color palette.\n\nP5.js",
+              "childrenDescription": "The grainy texture of stippling has always appealed to me. Charcoal and graphite drawings on rough paper have a similar aesthetic I find appealing. There is something in the rough texture that feels dreamlike.\n\nThis project includes the following features: line count, rendering method, interpolation method, line shape, and color palette.\n\nP5.js",
+              "tags": [
+                "stippling",
+                "p5.js"
+              ],
+              "artifactUri": "ipfs://QmP3kpZiti6bfDrCs9smNVJW85QJgkGN3yG2EwkLPMaf6u",
+              "displayUri": "ipfs://QmaRCPm1XsS7fFygVXjFvezDT1pCfdmV3mrk2KwvjdfQ6N",
+              "thumbnailUri": "ipfs://QmfPaHrcmF8L5Xf7oggFkymFS2u8nAe5eYyaMytjrpjeza",
+              "generativeUri": "ipfs://QmP1ESk4YoWw7rB7BBKZSvydpm8S1vX3K1DCorrMvXeUcn",
+              "authenticityHash": "b925097159c1c97b295169d281e7bb6eaa21f31b5c877de21dcb5d71096da5aa",
+              "capture": {
+                "mode": "CANVAS",
+                "delay": 30400,
+                "canvasSelector": "canvas#defaultCanvas0"
+              },
+              "symbol": "FXGEN",
+              "decimals": 0
+            },
+            "author": {
+              "id": "tz1bzg9xNB4heuF41sLfrdt1QmqrJTDQqDwN",
+              "name": "mjlindow",
+              "__typename": "User"
+            },
+            "__typename": "GenerativeToken"
+          },
+          "__typename": "MarketStats"
+        },
+        {
+          "floor": 55000000,
+          "secVolumeTz": 8850270000,
+          "secVolumeNb": 160,
+          "secVolumeTz24": 0,
+          "secVolumeNb24": 0,
+          "secVolumeTz7d": 316390000,
+          "secVolumeNb7d": 7,
+          "secVolumeTz30d": 615390000,
+          "secVolumeNb30d": 12,
+          "primVolumeTz": 994000000,
+          "primVolumeNb": 497,
+          "lowestSold": 3000000,
+          "highestSold": 250000000,
+          "median": 186000000,
+          "listed": 52,
+          "generativeToken": {
+            "id": 91,
+            "name": "Jardín",
+            "metadata": {
+              "name": "Jardín",
+              "description": "Layers of basic geometric shapes inspired by maze gardens.",
+              "childrenDescription": "Layers of basic geometric shapes inspired by maze gardens.",
+              "tags": [],
+              "artifactUri": "ipfs://QmfTc2qUhd8JYfkEAimyEYkFqN9RpLxHTTFApKJei8yNts",
+              "displayUri": "ipfs://QmYrVofCQfudR1xhQqw9Pa19QDV3W1UR4KUoq8CEEkYKcc",
+              "thumbnailUri": "ipfs://QmPgR1G6196xhVcM2auv96yeQiGn1PaXAyMiHqnPB7FxSn",
+              "generativeUri": "ipfs://Qmc52NuGLvtL2PjVz68izqSsEDQR4WKenVtxUwB4Y1TKVC",
+              "authenticityHash": "a6b97b6fc744104073ae0dcbc6d246f4169be20b0fda9c52243ce814ea32efa9",
+              "capture": {
+                "mode": "CANVAS",
+                "delay": 10000,
+                "canvasSelector": "canvas#defaultCanvas0"
+              },
+              "symbol": "FXGEN",
+              "decimals": 0
+            },
+            "author": {
+              "id": "tz1bzg9xNB4heuF41sLfrdt1QmqrJTDQqDwN",
+              "name": "mjlindow",
+              "__typename": "User"
+            },
+            "__typename": "GenerativeToken"
+          },
+          "__typename": "MarketStats"
+        },
+        {
+          "floor": 44400000,
+          "secVolumeTz": 8846599999,
+          "secVolumeNb": 154,
+          "secVolumeTz24": 0,
+          "secVolumeNb24": 0,
+          "secVolumeTz7d": 30000000,
+          "secVolumeNb7d": 1,
+          "secVolumeTz30d": 364000000,
+          "secVolumeNb30d": 9,
+          "primVolumeTz": 564000000,
+          "primVolumeNb": 282,
+          "lowestSold": 3000000,
+          "highestSold": 220000000,
+          "median": 147000000,
+          "listed": 52,
+          "generativeToken": {
+            "id": 4586,
+            "name": "Brosser",
+            "metadata": {
+              "name": "Brosser",
+              "description": "Exploring generative brush strokes to simulate real life paintings. \n\n- A selection of 19 different palettes\n- 4 different drawing styles\n- Randomized \"color swap\" between the primary and secondary colors in each palette\n\nSeveral other factors determine the output of a piece, including angles, depth, brush length, and brush weight, among others.",
+              "childrenDescription": "Exploring generative brush strokes to simulate real life paintings. \n\n- A selection of 19 different palettes\n- 4 different drawing styles\n- Randomized \"color swap\" between the primary and secondary colors in each palette\n\nSeveral other factors determine the output of a piece, including angles, depth, brush length, and brush weight, among others.",
+              "tags": [
+                "brushstrokes",
+                "paint",
+                "oil",
+                "art",
+                "abstract",
+                "impressionism",
+                "generative"
+              ],
+              "artifactUri": "ipfs://QmXgSrFXQevJJVVjc6cTFU6fPd18S1EGj412LHeGLunWUn",
+              "displayUri": "ipfs://QmSyk1HFi7x9FVy12ttBKx72jRkvvVW5wN4dZJWKedc7Ed",
+              "thumbnailUri": "ipfs://QmaBYhWfD5nJaPHgZcMq6dmSj42nShv1o2AxenGy8yit8n",
+              "generativeUri": "ipfs://QmaqQUG3agS82PY7GU3xGnmxzs1xTNW5Mx79Ld8ALvPFdn",
+              "authenticityHash": "69a1463f0415b40ab20cccd3f46b673d169f7ad11e64b610b5e5fefbb18702b4",
+              "capture": {
+                "mode": "VIEWPORT",
+                "resolution": {
+                  "x": 800,
+                  "y": 800
+                },
+                "delay": 38000
+              },
+              "symbol": "FXGEN",
+              "decimals": 0
+            },
+            "author": {
+              "id": "tz1f3NLHqCurHDVcfRuRLSh5Hkg4KzRMRucD",
+              "name": "Eric Andwer",
+              "__typename": "User"
+            },
+            "__typename": "GenerativeToken"
+          },
+          "__typename": "MarketStats"
+        },
+        {
+          "floor": 119000000,
+          "secVolumeTz": 8448199999,
+          "secVolumeNb": 113,
+          "secVolumeTz24": 0,
+          "secVolumeNb24": 0,
+          "secVolumeTz7d": 0,
+          "secVolumeNb7d": 0,
+          "secVolumeTz30d": 0,
+          "secVolumeNb30d": 0,
+          "primVolumeTz": 512000000,
+          "primVolumeNb": 256,
+          "lowestSold": 5000000,
+          "highestSold": 777000000,
+          "median": 500000000,
+          "listed": 38,
+          "generativeToken": {
+            "id": 1095,
+            "name": "unbuilt",
+            "metadata": {
+              "name": "unbuilt",
+              "description": "This is a journey through architecture that never existed.\n\nInspired by the grammatical rules behind French sacral architecture of the Middle Ages, this generative tool is meant for creating a collection of 256 plans of fictional buildings. Each plan is a unique variation on semantic relations between architectural elements: from a regular composition resembling existing churches to a dynamic aggregation of vaults, columns and chevets. But always following the same set of rules extracted from multiple examples of gothic cathedrals.\n\nEvery church has its place and time in which it could have been built in an alternative series of historical events.\n\nThis artistic tribute to the research of Stiny and Mitchell about Palladian architecture or Duarte's work about Siza takes the topic of formalizing architectural language onto a lighthearted level by moving it to a slightly imaginary world.\n\nTo zoom, press a mouse button when over the image or touch the screen. To pan, keep the mouse pressed and move it around.",
+              "childrenDescription": "This is a journey through architecture that never existed.\n\nInspired by the grammatical rules behind French sacral architecture of the Middle Ages, this generative tool is meant for creating a collection of 256 plans of fictional buildings. Each plan is a unique variation on semantic relations between architectural elements: from a regular composition resembling existing churches to a dynamic aggregation of vaults, columns and chevets. But always following the same set of rules extracted from multiple examples of gothic cathedrals.\n\nEvery church has its place and time in which it could have been built in an alternative series of historical events.\n\nThis artistic tribute to the research of Stiny and Mitchell about Palladian architecture or Duarte's work about Siza takes the topic of formalizing architectural language onto a lighthearted level by moving it to a slightly imaginary world.\n\nTo zoom, press a mouse button when over the image or touch the screen. To pan, keep the mouse pressed and move it around.",
+              "tags": [
+                "cleannft",
+                "geometry",
+                "2d",
+                "algorithmic",
+                "architecture",
+                "parametric",
+                "generative",
+                "digitalart",
+                "unique"
+              ],
+              "artifactUri": "ipfs://QmXP43ULPo9YKAFZGMrjJnvpqgprhyeDsKUZpEwasWRWSt",
+              "displayUri": "ipfs://QmYz7WfAe37CjYgvs3AhPzb5i98e2ATj8xuFoVJ39hPKTv",
+              "thumbnailUri": "ipfs://QmTEZvtbyRXX6ddjUFogiQUsMH5PBnrYtPjNgWXmT5ChU8",
+              "generativeUri": "ipfs://QmUehq2wYWhzPdWLxvmLX5aKNrsv1hRxUZcPZcSxZBdLNK",
+              "authenticityHash": "fec172c6c157c9c8c08c50b36c2f1aa572f3f1ecaa54329e5f020425cdc6d5d1",
+              "capture": {
+                "mode": "CANVAS",
+                "delay": 3900,
+                "canvasSelector": "#mainCanvas"
+              },
+              "symbol": "FXGEN",
+              "decimals": 0
+            },
+            "author": {
+              "id": "tz2KDeWyeCeu2eZYLav9PrRAQmFCyESNF4Es",
+              "name": "mrkswcz",
+              "__typename": "User"
+            },
+            "__typename": "GenerativeToken"
+          },
+          "__typename": "MarketStats"
+        }
+      ],
       "__typename": "MarketStatsData"
     }
   }
