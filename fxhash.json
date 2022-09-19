@@ -2,17 +2,1243 @@
   "data": {
     "listings": [
       {
-        "id": 501018,
+        "id": 501065,
         "version": 1,
-        "price": 1400000,
+        "price": 28000000,
         "objkt": {
-          "id": 1173143,
+          "id": 1155679,
           "version": 1,
-          "name": "just one long day #304",
-          "slug": "just-one-long-day-304",
+          "name": "Immure #198",
+          "slug": "immure-198",
           "metadata": {
-            "name": "just one long day #304",
-            "iterationHash": "oogtMHqdHpbFJZggwtVzuWo8PcVcvogCYJXHogUHFvcZmGq8f5N",
+            "name": "Immure #198",
+            "iterationHash": "onxy7odULNMcUhuoDnXrpgWAPraJBnTdVcGJtqqTmSB6sjNteqt",
+            "description": "Was this power meant for us?",
+            "tags": [
+              "immure",
+              "ancient",
+              "elemental",
+              "p5.js",
+              "p5",
+              "holy",
+              "time",
+              "noise",
+              "painting",
+              "chroma.js",
+              "chroma",
+              "paint",
+              "live render"
+            ],
+            "generatorUri": "ipfs://QmNrrKymaDxzVxFKhPeD5q1EfDhK9FHLLaotTmxkM7qxjq",
+            "artifactUri": "ipfs://QmNrrKymaDxzVxFKhPeD5q1EfDhK9FHLLaotTmxkM7qxjq?fxhash=onxy7odULNMcUhuoDnXrpgWAPraJBnTdVcGJtqqTmSB6sjNteqt",
+            "displayUri": "ipfs://QmPDEuF2VPjY5uFexUa8PhnK9b2wsSoUvmRCHrmZ5yjekR",
+            "thumbnailUri": "ipfs://QmcYFXQWf8VVFbx6T24DmyHZfnUGBoFMd3k6RguvuiAqx9",
+            "authenticityHash": "ef33664a6fd302b6a2102af4ae1d8f449d1c7f18a6e74fcf29046d27cc6390a3",
+            "attributes": [
+              {
+                "name": "Palette",
+                "value": "Emerald"
+              },
+              {
+                "name": "Background",
+                "value": "Retro Black"
+              },
+              {
+                "name": "Color Density",
+                "value": 6
+              },
+              {
+                "name": "Contour Density",
+                "value": 2
+              },
+              {
+                "name": "Liquid",
+                "value": false
+              },
+              {
+                "name": "Frame Style",
+                "value": "Minimal"
+              },
+              {
+                "name": "Field Rotation",
+                "value": "30°"
+              }
+            ],
+            "decimals": 0,
+            "symbol": "GENTK",
+            "version": "0.2"
+          },
+          "duplicate": false,
+          "activeListing": {
+            "id": 501065,
+            "version": 1,
+            "price": 28000000,
+            "__typename": "Listing"
+          },
+          "owner": {
+            "id": "tz1dj24MNd637pgGXGx4i499DgAqdsehkfFd",
+            "name": "tz1d33j4y.",
+            "flag": "NONE",
+            "avatarUri": "ipfs://QmZ5desosN2BkjArNvU5x84sVhuaD9UL8brjqnp1eubFFY",
+            "__typename": "User"
+          },
+          "issuer": {
+            "flag": "NONE",
+            "name": "Immure",
+            "author": {
+              "id": "tz1LGRo4e3ke7kiCvJHGtmQSfPvLK5zhEHAR",
+              "name": "Chris McCully",
+              "type": "REGULAR",
+              "avatarUri": "ipfs://QmW9su6C9tNsqVbSvdPDEbrGdLHs4xiwqprcmQkDxLbBjF",
+              "flag": "VERIFIED",
+              "collaborators": null,
+              "__typename": "User"
+            },
+            "__typename": "GenerativeToken"
+          },
+          "__typename": "Objkt"
+        },
+        "__typename": "Listing"
+      },
+      {
+        "id": 501064,
+        "version": 1,
+        "price": 3000000,
+        "objkt": {
+          "id": 935398,
+          "version": 1,
+          "name": "Landscapes in my mind #62",
+          "slug": "landscapes-in-my-mind-62",
+          "metadata": {
+            "name": "Landscapes in my mind #62",
+            "iterationHash": "ongrkzAD1DPgeeYN7skTKftCKXoVopSZJSz4HBunLDnMziyaMfv",
+            "description": "In this work I tried to convey the idea of a landscape (many landscapes) with hills, trees, grass, bushes, skies and clouds. As is normal on fxhash I have accomplished all this by writing the code that generates the elements in a scene.\nWhile writing the code to obtain these landscapes I did not try to reproduce landscapes seen in reality or in photography, rather I followed from time to time ideas of landscapes that came to my mind as a sort of lucid dream. I hope I managed to convey this idea of a landscape that is halfway between reality and fantasy.\n\nLands and Clouds are rendered using a mix of simplex noise and FBM (Fractional Brownian Motion), trees are generated with recursive functions an placed using Poisson Disk Sampling distribution. The distribution density could be homogeneous (land heightmap drive the density) or biased to have more density towards the top, bottom, left or right of the land.\n\n\nDeveloped with p5.js using WEBGL renderer.\nRendering is faster with chrome browser.\n\n[1] to render at 1600x1600\n[2] to render at 2400x2400\n[3] to render at 3200x3200\n[s] to save a png at last rendered resolution.\n\n\nFeatures:\n\"LandPalette\": 20 colormaps\n\"TreePalette\": 20 colormaps\n\"Light\":  Morning, Evening, Night\n\"SkyColor\": Blue, Azure, Turquoise, Gray, VioletRed\n\"Haze\": True, False\n\"Rainbow\":  True, False\n\"Grayscale\": True, False\n\"TreeDensity\": Homogeneous, Top, Bottom, Left, Right\n\n\nCreated by Andrea Belloni, fxhash: anbello, twitter: @Waterflowing0. Licensed under CC BY-NC-SA 4.0, see LICENSE.txt for more information.",
+            "tags": [
+              "p5js",
+              "generative",
+              "creative coding",
+              "noise",
+              "simplex",
+              "FBM",
+              "clouds",
+              "trees",
+              "landscape"
+            ],
+            "generatorUri": "ipfs://QmZQnWAJodqHE9JFN3t42f52qvE3fpJfNj5sLP6ex29oNU",
+            "artifactUri": "ipfs://QmZQnWAJodqHE9JFN3t42f52qvE3fpJfNj5sLP6ex29oNU?fxhash=ongrkzAD1DPgeeYN7skTKftCKXoVopSZJSz4HBunLDnMziyaMfv",
+            "displayUri": "ipfs://Qmdf7SMGYt4Cyow8g2JENZCq1RkCH4FLm3yTBpgDqzwpW5",
+            "thumbnailUri": "ipfs://QmdKxXTTheTo3Vp3h4gAMSPf9zbbaVC5xTY7LTFqtfxkCT",
+            "authenticityHash": "509a1b6dda4f92cf5d4c688c7b4cb17afdd9747f049ae765184952251bb902ef",
+            "attributes": [
+              {
+                "name": "LandPalette",
+                "value": "WhiteCherry"
+              },
+              {
+                "name": "TreePalette",
+                "value": "WheatGray"
+              },
+              {
+                "name": "Light",
+                "value": "Night"
+              },
+              {
+                "name": "SkyColor",
+                "value": "Azure"
+              },
+              {
+                "name": "Haze",
+                "value": "False"
+              },
+              {
+                "name": "Rainbow",
+                "value": "False"
+              },
+              {
+                "name": "Grayscale",
+                "value": "False"
+              },
+              {
+                "name": "TreeDensity",
+                "value": "Right"
+              }
+            ],
+            "decimals": 0,
+            "symbol": "GENTK",
+            "version": "0.2"
+          },
+          "duplicate": false,
+          "activeListing": {
+            "id": 501064,
+            "version": 1,
+            "price": 3000000,
+            "__typename": "Listing"
+          },
+          "owner": {
+            "id": "tz1ew8MmEDFpBV3nnmCF4igNf6DXurBdHAoh",
+            "name": "Faker",
+            "flag": "NONE",
+            "avatarUri": "ipfs://QmaGqM28K5qEmD5g4jd31b1iTyRuX5a1nKryuUFizZjFzn",
+            "__typename": "User"
+          },
+          "issuer": {
+            "flag": "NONE",
+            "name": "Landscapes in my mind",
+            "author": {
+              "id": "tz1Yb9mrEBSsv35doLWovF4Dmwy2q4won9oa",
+              "name": "anbello",
+              "type": "REGULAR",
+              "avatarUri": "ipfs://QmYrwKg7Jat74PmCdD4smV1A6gdXaS3SAzAVn6dk1D4UZc",
+              "flag": "VERIFIED",
+              "collaborators": null,
+              "__typename": "User"
+            },
+            "__typename": "GenerativeToken"
+          },
+          "__typename": "Objkt"
+        },
+        "__typename": "Listing"
+      },
+      {
+        "id": 501063,
+        "version": 1,
+        "price": 1000000,
+        "objkt": {
+          "id": 914288,
+          "version": 1,
+          "name": "Beam #48",
+          "slug": "beam-48",
+          "metadata": {
+            "name": "Beam #48",
+            "iterationHash": "onqericRpcFD4CvcWhF9h2uJ8iPBjWn3wtqqXsVYG7MphSa2UGt",
+            "description": "Warning: GPU intensive!\n\nEditions tiers:\n- 125 free\n- 125 1tz\n- 125 2tz\n- 125 3tz\n(each tier will be unlocked upon the previous one's completion)\n\nRealistic simulation of an emissive beam traversing a piece of glass of different color and density placed on a metallic surface\n\n(the preview has a resolution factor of 0.75 so it's a bit blurry, the generator has a default of 0.9)\n\nhold the left mouse button and drag to rotate the view around the center\n\nhover with your mouse to spawn some settings controls:\n- Resolution (performance-heavy)\n- Light bounces\n- Frame Samples\n- Screenshot Button (takes a screenshot...if it doesn't download, you should open the generator in a new tab)\n- Rendering toggle (once you are satisfied with the output you can pause the rendering)\n\nCreated with threejs + three-gpu-pathtracer",
+            "tags": [
+              "glass",
+              "simulation",
+              "realistic",
+              "light",
+              "beam",
+              "pathtracing",
+              "laser"
+            ],
+            "generatorUri": "ipfs://QmbMA3pdSAu7ggLmHQ39XoE7XctjCvm1SGWVT5xchDdo6i",
+            "artifactUri": "ipfs://QmbMA3pdSAu7ggLmHQ39XoE7XctjCvm1SGWVT5xchDdo6i?fxhash=onqericRpcFD4CvcWhF9h2uJ8iPBjWn3wtqqXsVYG7MphSa2UGt",
+            "displayUri": "ipfs://QmSqDYzww8ecx8N5nm9RJdkfEfc3MaJT3hbwYVjki8kjCA",
+            "thumbnailUri": "ipfs://QmT3NEofjJRRJY2C7wRy2gHoP3B5WCD4wAs1FMhZo79mVV",
+            "authenticityHash": "64b559223fc3706d51f4e6c22aedde39ae760aa0ff5bf8b6a244eca384c22994",
+            "attributes": [
+              {
+                "name": "lightSource",
+                "value": "ve"
+              },
+              {
+                "name": "floorMetalness",
+                "value": 0
+              },
+              {
+                "name": "floorRoughness",
+                "value": 0.1
+              },
+              {
+                "name": "glass",
+                "value": "desat"
+              },
+              {
+                "name": "light",
+                "value": "OFF"
+              },
+              {
+                "name": "density",
+                "value": 0.02
+              }
+            ],
+            "decimals": 0,
+            "symbol": "GENTK",
+            "version": "0.2"
+          },
+          "duplicate": false,
+          "activeListing": {
+            "id": 501063,
+            "version": 1,
+            "price": 1000000,
+            "__typename": "Listing"
+          },
+          "owner": {
+            "id": "tz1ew8MmEDFpBV3nnmCF4igNf6DXurBdHAoh",
+            "name": "Faker",
+            "flag": "NONE",
+            "avatarUri": "ipfs://QmaGqM28K5qEmD5g4jd31b1iTyRuX5a1nKryuUFizZjFzn",
+            "__typename": "User"
+          },
+          "issuer": {
+            "flag": "NONE",
+            "name": "Beam",
+            "author": {
+              "id": "tz1TYpWE3vypZUh9oNBXn2p4Az2UHq1EeFAA",
+              "name": "ciaccodavide",
+              "type": "REGULAR",
+              "avatarUri": "ipfs://QmPwnATsHTkGr9TRdv3tdCTcmD7mM57TsuAQnBPuuHZm5d",
+              "flag": "VERIFIED",
+              "collaborators": null,
+              "__typename": "User"
+            },
+            "__typename": "GenerativeToken"
+          },
+          "__typename": "Objkt"
+        },
+        "__typename": "Listing"
+      },
+      {
+        "id": 501062,
+        "version": 1,
+        "price": 3500000,
+        "objkt": {
+          "id": 633259,
+          "version": 1,
+          "name": "Torn #212",
+          "slug": "torn-212",
+          "metadata": {
+            "name": "Torn #212",
+            "iterationHash": "oo7fMt6NmdHvngnVPsoTYLHBeoy2WxBtPq9BkR9yMHjLjPfuavB",
+            "description": "A generative torn canvas creates a unique pattern.\n\nMade in p5js\n",
+            "tags": [
+              "Torn",
+              "tear",
+              "vertical",
+              "portrait",
+              "abstract",
+              "colorful",
+              "p5",
+              "p5js",
+              "JavaScript",
+              "generative",
+              "Tezumie"
+            ],
+            "generatorUri": "ipfs://QmYwgrtBL3o2TdznjiKxcpfk58T9gm1NZmXK8mSsDcjpZe",
+            "artifactUri": "ipfs://QmYwgrtBL3o2TdznjiKxcpfk58T9gm1NZmXK8mSsDcjpZe?fxhash=oo7fMt6NmdHvngnVPsoTYLHBeoy2WxBtPq9BkR9yMHjLjPfuavB",
+            "displayUri": "ipfs://QmXvsRsg7Vx8jHhLiMnQszoV7gG3xYitqJpU6XjtcSArBU",
+            "thumbnailUri": "ipfs://QmTLALSZ15UFvpakUgb42Xe5txi6gyB2tVZM8oqxwNo3hs",
+            "authenticityHash": "fd282bbbfcec183513db0ee07d186e51936290c4ec018b200942a440d85976d2",
+            "attributes": [],
+            "decimals": 0,
+            "symbol": "GENTK",
+            "version": "0.2"
+          },
+          "duplicate": false,
+          "activeListing": {
+            "id": 501062,
+            "version": 1,
+            "price": 3500000,
+            "__typename": "Listing"
+          },
+          "owner": {
+            "id": "tz1ew8MmEDFpBV3nnmCF4igNf6DXurBdHAoh",
+            "name": "Faker",
+            "flag": "NONE",
+            "avatarUri": "ipfs://QmaGqM28K5qEmD5g4jd31b1iTyRuX5a1nKryuUFizZjFzn",
+            "__typename": "User"
+          },
+          "issuer": {
+            "flag": "NONE",
+            "name": "Torn",
+            "author": {
+              "id": "tz1a2aHDQayeSEsbDRm5igEiLYH4cxcNnKyz",
+              "name": "Tezumie",
+              "type": "REGULAR",
+              "avatarUri": "ipfs://Qme87rj5nGeRDqEZRJ1urtRuzyf5TrNvW85cWVjS17xseG",
+              "flag": "NONE",
+              "collaborators": null,
+              "__typename": "User"
+            },
+            "__typename": "GenerativeToken"
+          },
+          "__typename": "Objkt"
+        },
+        "__typename": "Listing"
+      },
+      {
+        "id": 501061,
+        "version": 1,
+        "price": 6000000,
+        "objkt": {
+          "id": 1083874,
+          "version": 1,
+          "name": "Everlasting Room renovation #12",
+          "slug": "everlasting-room-renovation-12",
+          "metadata": {
+            "name": "Everlasting Room renovation #12",
+            "iterationHash": "op6vRcppZZpARUfnLtKXhGDrr6vkkXdjZHp36UgC1K1f5vFhoM7",
+            "description": "The Everlasting Building is a construction with no boundaries. Each Room is liminally unique. A digital metabolist utopia.",
+            "tags": [
+              "liminal",
+              "chairs",
+              "uncanny",
+              "liminal space",
+              "everlasting building",
+              "interior",
+              "room"
+            ],
+            "generatorUri": "ipfs://QmULhpHLvHrMGWZoT29KQybU8q4DxvkYtpdekfh7fMamWv",
+            "artifactUri": "ipfs://QmULhpHLvHrMGWZoT29KQybU8q4DxvkYtpdekfh7fMamWv?fxhash=op6vRcppZZpARUfnLtKXhGDrr6vkkXdjZHp36UgC1K1f5vFhoM7",
+            "displayUri": "ipfs://QmWpmBvT8xgZuWfonRqPgnzLnvygjGHqcGeNnnHzRyvqeG",
+            "thumbnailUri": "ipfs://QmcaH7GVoaGQyijuPwgb2fhg9eG29LezCp16GpCXU1mckZ",
+            "authenticityHash": "2b6318fe298bbde304ba0f981dd36838d54f2aaad00f966bc2ee76e6dba77a89",
+            "attributes": [],
+            "decimals": 0,
+            "symbol": "GENTK",
+            "version": "0.2"
+          },
+          "duplicate": false,
+          "activeListing": {
+            "id": 501061,
+            "version": 1,
+            "price": 6000000,
+            "__typename": "Listing"
+          },
+          "owner": {
+            "id": "tz1ew8MmEDFpBV3nnmCF4igNf6DXurBdHAoh",
+            "name": "Faker",
+            "flag": "NONE",
+            "avatarUri": "ipfs://QmaGqM28K5qEmD5g4jd31b1iTyRuX5a1nKryuUFizZjFzn",
+            "__typename": "User"
+          },
+          "issuer": {
+            "flag": "NONE",
+            "name": "Everlasting Room renovation",
+            "author": {
+              "id": "tz1SkJMvMBtmsrUMNY2gCEf6SBAt76AWBKzz",
+              "name": "EverlastingBuilding",
+              "type": "REGULAR",
+              "avatarUri": "ipfs://QmeJsmBJ4DmvRQDs6RjvJRxRNmjeQukFuDiB3DuJZ94ntZ",
+              "flag": "VERIFIED",
+              "collaborators": null,
+              "__typename": "User"
+            },
+            "__typename": "GenerativeToken"
+          },
+          "__typename": "Objkt"
+        },
+        "__typename": "Listing"
+      },
+      {
+        "id": 501060,
+        "version": 1,
+        "price": 4000000,
+        "objkt": {
+          "id": 1088296,
+          "version": 1,
+          "name": "Precarious #110",
+          "slug": "precarious-110",
+          "metadata": {
+            "name": "Precarious #110",
+            "iterationHash": "opUWqFjnXg9MqDxvkFitWYbdYuUTN4bhwnfkYwG6X5g2PMSF5Qu",
+            "description": "Minimal sculptures precariously balanced\n\nFeatures:\n1 - Toggle Border\n2 - Save 2048 X 2048\n3 - Save 4096 X 4096\n4 - Save 8192 X 8192\n\nQuery Parameters:\ngrain=false - turns off grain texture\nresolution=2048 - sets resolution\n\nHow it was made: \nhttps://www.jeffweber.art/precarious\n\nCredit:\nThanks to @Estienne_ca for the grainy texture algorithm",
+            "tags": [
+              "Balance",
+              "p5js"
+            ],
+            "generatorUri": "ipfs://QmTP6wCvcz4fxhmV9kvKKvqvQRRjFbSrYMG3vnmj6Y1fsq",
+            "artifactUri": "ipfs://QmTP6wCvcz4fxhmV9kvKKvqvQRRjFbSrYMG3vnmj6Y1fsq?fxhash=opUWqFjnXg9MqDxvkFitWYbdYuUTN4bhwnfkYwG6X5g2PMSF5Qu",
+            "displayUri": "ipfs://QmbjnEJq9FXfDrKmgYx4inFsVtd8SNw6Lw2qcBszGhoFyE",
+            "thumbnailUri": "ipfs://Qmb8PDSo8UQtmNejb5rQNUpYuYGQ1WjYTnAsRKUqmEZUsy",
+            "authenticityHash": "ca240678294221ae51d593ac8af2c570bb5c6b83fd8b171d2167f8d42f761626",
+            "attributes": true,
+            "decimals": 0,
+            "symbol": "GENTK",
+            "version": "0.2"
+          },
+          "duplicate": false,
+          "activeListing": {
+            "id": 501060,
+            "version": 1,
+            "price": 4000000,
+            "__typename": "Listing"
+          },
+          "owner": {
+            "id": "tz1ew8MmEDFpBV3nnmCF4igNf6DXurBdHAoh",
+            "name": "Faker",
+            "flag": "NONE",
+            "avatarUri": "ipfs://QmaGqM28K5qEmD5g4jd31b1iTyRuX5a1nKryuUFizZjFzn",
+            "__typename": "User"
+          },
+          "issuer": {
+            "flag": "NONE",
+            "name": "Precarious",
+            "author": {
+              "id": "tz1YxVuK63pDpkz9NHVjY3GMsfjeCpJtfXPa",
+              "name": "JeffW",
+              "type": "REGULAR",
+              "avatarUri": "ipfs://QmVeeTB5BKHTqW2kGYGqMnE2jC1kJrzzD5LcDJugpV4cVK",
+              "flag": "VERIFIED",
+              "collaborators": null,
+              "__typename": "User"
+            },
+            "__typename": "GenerativeToken"
+          },
+          "__typename": "Objkt"
+        },
+        "__typename": "Listing"
+      },
+      {
+        "id": 501059,
+        "version": 1,
+        "price": 2000000,
+        "objkt": {
+          "id": 1137707,
+          "version": 1,
+          "name": "FLATWORLD #138",
+          "slug": "flatworld-138",
+          "metadata": {
+            "name": "FLATWORLD #138",
+            "iterationHash": "ooWWZgbobsrQ5Nx1riJjRzG7MWf7MrCmLz73PWSiGd7YycV3Gjb",
+            "description": "3RD DIMENSION IS A SCAM",
+            "tags": [],
+            "generatorUri": "ipfs://QmSjNa14w2vgtEMjYKFF9TZ3Wb96vAC5axwpPB4qojZXKr",
+            "artifactUri": "ipfs://QmSjNa14w2vgtEMjYKFF9TZ3Wb96vAC5axwpPB4qojZXKr?fxhash=ooWWZgbobsrQ5Nx1riJjRzG7MWf7MrCmLz73PWSiGd7YycV3Gjb",
+            "displayUri": "ipfs://QmNiaFVkhfYky1bRqoauGYZz2bg3mxYw1t2221fAPuSXKi",
+            "thumbnailUri": "ipfs://QmPHsEWEC28MGS8VTBdvWN4tcf4pdSMkmv4SLfDNv595XU",
+            "authenticityHash": "a700b7e6c9d382f71423824ac88e48783774cc4242c0c089e0717f59f981a75f",
+            "attributes": true,
+            "decimals": 0,
+            "symbol": "GENTK",
+            "version": "0.2"
+          },
+          "duplicate": false,
+          "activeListing": {
+            "id": 501059,
+            "version": 1,
+            "price": 2000000,
+            "__typename": "Listing"
+          },
+          "owner": {
+            "id": "tz1ew8MmEDFpBV3nnmCF4igNf6DXurBdHAoh",
+            "name": "Faker",
+            "flag": "NONE",
+            "avatarUri": "ipfs://QmaGqM28K5qEmD5g4jd31b1iTyRuX5a1nKryuUFizZjFzn",
+            "__typename": "User"
+          },
+          "issuer": {
+            "flag": "NONE",
+            "name": "FLATWORLD",
+            "author": {
+              "id": "tz1TSwLNzjpveo6z5mgsHbzL69hGXTqR4K4a",
+              "name": "Etienne de Crecy",
+              "type": "REGULAR",
+              "avatarUri": "ipfs://Qme3j2C6m8zMShtvSF4YHJ6WAZfNBkJSaQfhWUJbeCL5Mr",
+              "flag": "VERIFIED",
+              "collaborators": null,
+              "__typename": "User"
+            },
+            "__typename": "GenerativeToken"
+          },
+          "__typename": "Objkt"
+        },
+        "__typename": "Listing"
+      },
+      {
+        "id": 501058,
+        "version": 1,
+        "price": 2000000,
+        "objkt": {
+          "id": 1137913,
+          "version": 1,
+          "name": "FLATWORLD #344",
+          "slug": "flatworld-344",
+          "metadata": {
+            "name": "FLATWORLD #344",
+            "iterationHash": "oou4p6dsQhHf7haboUdL1cGgV4YxCxr7PdiNA1qabd5DMHFoGgh",
+            "description": "3RD DIMENSION IS A SCAM",
+            "tags": [],
+            "generatorUri": "ipfs://QmSjNa14w2vgtEMjYKFF9TZ3Wb96vAC5axwpPB4qojZXKr",
+            "artifactUri": "ipfs://QmSjNa14w2vgtEMjYKFF9TZ3Wb96vAC5axwpPB4qojZXKr?fxhash=oou4p6dsQhHf7haboUdL1cGgV4YxCxr7PdiNA1qabd5DMHFoGgh",
+            "displayUri": "ipfs://QmZYkYYcTGbzKkzFVefaBHoh3Jy4uZfFRayiBHHZp8ehTk",
+            "thumbnailUri": "ipfs://QmaMArYxcokhbTBDwgxLn1kdJNDhtMeEZCsUSTRjiPeBtA",
+            "authenticityHash": "a4ddf91dc4fb04ce8d7034111296f2534d93650e04310cb2a5f3f379e5a4cea0",
+            "attributes": true,
+            "decimals": 0,
+            "symbol": "GENTK",
+            "version": "0.2"
+          },
+          "duplicate": false,
+          "activeListing": {
+            "id": 501058,
+            "version": 1,
+            "price": 2000000,
+            "__typename": "Listing"
+          },
+          "owner": {
+            "id": "tz1ew8MmEDFpBV3nnmCF4igNf6DXurBdHAoh",
+            "name": "Faker",
+            "flag": "NONE",
+            "avatarUri": "ipfs://QmaGqM28K5qEmD5g4jd31b1iTyRuX5a1nKryuUFizZjFzn",
+            "__typename": "User"
+          },
+          "issuer": {
+            "flag": "NONE",
+            "name": "FLATWORLD",
+            "author": {
+              "id": "tz1TSwLNzjpveo6z5mgsHbzL69hGXTqR4K4a",
+              "name": "Etienne de Crecy",
+              "type": "REGULAR",
+              "avatarUri": "ipfs://Qme3j2C6m8zMShtvSF4YHJ6WAZfNBkJSaQfhWUJbeCL5Mr",
+              "flag": "VERIFIED",
+              "collaborators": null,
+              "__typename": "User"
+            },
+            "__typename": "GenerativeToken"
+          },
+          "__typename": "Objkt"
+        },
+        "__typename": "Listing"
+      },
+      {
+        "id": 501057,
+        "version": 1,
+        "price": 3000000,
+        "objkt": {
+          "id": 1123696,
+          "version": 1,
+          "name": "Pixel rain in a data landsacape #37",
+          "slug": "pixel-rain-in-a-data-landsacape-37",
+          "metadata": {
+            "name": "Pixel rain in a data landsacape #37",
+            "iterationHash": "oowdM4N1taGkojUg6g45Kz2d6etRF5Y3thJhyDydrtphVjXPRoi",
+            "description": "Generative landscape\n(Click to full screen)",
+            "tags": [
+              "Landscape"
+            ],
+            "generatorUri": "ipfs://Qmek91y4bciPd5m38uNXDyo28RKodd9ugrpDrnd6fkHyYB",
+            "artifactUri": "ipfs://Qmek91y4bciPd5m38uNXDyo28RKodd9ugrpDrnd6fkHyYB?fxhash=oowdM4N1taGkojUg6g45Kz2d6etRF5Y3thJhyDydrtphVjXPRoi",
+            "displayUri": "ipfs://QmdcG4K3hfFqJcDQUwudJBevxyeQg4jXTT5ASUo3E485S3",
+            "thumbnailUri": "ipfs://QmQU4n5QWs9QPmpdU4DekH1bAHgHaXvEGS43NBbkGWCf4d",
+            "authenticityHash": "b4eee7a2cd86f47e79f561110231188124e90d2f7e63d896b34f8a1cabaf4ca5",
+            "attributes": true,
+            "decimals": 0,
+            "symbol": "GENTK",
+            "version": "0.2"
+          },
+          "duplicate": false,
+          "activeListing": {
+            "id": 501057,
+            "version": 1,
+            "price": 3000000,
+            "__typename": "Listing"
+          },
+          "owner": {
+            "id": "tz1ew8MmEDFpBV3nnmCF4igNf6DXurBdHAoh",
+            "name": "Faker",
+            "flag": "NONE",
+            "avatarUri": "ipfs://QmaGqM28K5qEmD5g4jd31b1iTyRuX5a1nKryuUFizZjFzn",
+            "__typename": "User"
+          },
+          "issuer": {
+            "flag": "NONE",
+            "name": "Pixel rain in a data landsacape",
+            "author": {
+              "id": "tz1S8Lc2zGSDDVeHqn1BSYDz6tmkuBNSEAY4",
+              "name": "Helio Santos",
+              "type": "REGULAR",
+              "avatarUri": "ipfs://QmWRT8wKB5uV64t4Xmdfd6uoqTEzvtrJKVwyeoL593bKno",
+              "flag": "VERIFIED",
+              "collaborators": null,
+              "__typename": "User"
+            },
+            "__typename": "GenerativeToken"
+          },
+          "__typename": "Objkt"
+        },
+        "__typename": "Listing"
+      },
+      {
+        "id": 501056,
+        "version": 1,
+        "price": 3000000,
+        "objkt": {
+          "id": 1021312,
+          "version": 1,
+          "name": "Etude #39",
+          "slug": "etude-39",
+          "metadata": {
+            "name": "Etude #39",
+            "iterationHash": "ooEvQs4KLgifbBtdUMk7CnemxzAkMEqnTMcFdLMHA8m98ygXsQy",
+            "description": "A study of forms and colors.\n\n3 different aspect ratio's, almost 50 color palettes and all kinds of geometric forms.\n\nMade with p5js.\n\nUpOnlyFan July 2022",
+            "tags": [
+              "forms",
+              "colors",
+              "generative",
+              "Study",
+              "p5js",
+              "UpOnlyFam"
+            ],
+            "generatorUri": "ipfs://QmPLiXwcVvQrXJUVAGHZv4q1mtCHFHpKVvD9poPkTZVnBU",
+            "artifactUri": "ipfs://QmPLiXwcVvQrXJUVAGHZv4q1mtCHFHpKVvD9poPkTZVnBU?fxhash=ooEvQs4KLgifbBtdUMk7CnemxzAkMEqnTMcFdLMHA8m98ygXsQy",
+            "displayUri": "ipfs://QmcJaiMSFHwEqV6YsN4Q7iwycRkSkWFn4g36Lk8QsPfBm9",
+            "thumbnailUri": "ipfs://QmdcsM78DTpXG34t34XMUpaVkeCccS18t1nC56iSAhTpjL",
+            "authenticityHash": "993c9f08779a99d4db1d4afade084c178dbb072b20eee9016de7615bd74dcd0d",
+            "attributes": [
+              {
+                "name": "Background",
+                "value": "Main Color Palette"
+              },
+              {
+                "name": "Format",
+                "value": "Portrait"
+              },
+              {
+                "name": "Main Color Palette",
+                "value": 41
+              },
+              {
+                "name": "Secondary Color Palette",
+                "value": 45
+              },
+              {
+                "name": "Wide",
+                "value": 22
+              },
+              {
+                "name": "High",
+                "value": 43
+              },
+              {
+                "name": "Set Size",
+                "value": "Every row"
+              },
+              {
+                "name": "Set Color",
+                "value": "Once"
+              },
+              {
+                "name": "Background Form",
+                "value": "Triangles"
+              },
+              {
+                "name": "Orderly",
+                "value": 1
+              }
+            ],
+            "decimals": 0,
+            "symbol": "GENTK",
+            "version": "0.2"
+          },
+          "duplicate": false,
+          "activeListing": {
+            "id": 501056,
+            "version": 1,
+            "price": 3000000,
+            "__typename": "Listing"
+          },
+          "owner": {
+            "id": "tz1ew8MmEDFpBV3nnmCF4igNf6DXurBdHAoh",
+            "name": "Faker",
+            "flag": "NONE",
+            "avatarUri": "ipfs://QmaGqM28K5qEmD5g4jd31b1iTyRuX5a1nKryuUFizZjFzn",
+            "__typename": "User"
+          },
+          "issuer": {
+            "flag": "NONE",
+            "name": "Etude",
+            "author": {
+              "id": "tz1dW9QXydD28arnVXC4YZFLMEdQsJbrRnxM",
+              "name": "UpOnlyFan",
+              "type": "REGULAR",
+              "avatarUri": "ipfs://QmRpKSFeX9wyMnP8D8sUF5WVFqHc6mNX7svqWUiVAjYroV",
+              "flag": "NONE",
+              "collaborators": null,
+              "__typename": "User"
+            },
+            "__typename": "GenerativeToken"
+          },
+          "__typename": "Objkt"
+        },
+        "__typename": "Listing"
+      },
+      {
+        "id": 501055,
+        "version": 1,
+        "price": 1500000,
+        "objkt": {
+          "id": 1066070,
+          "version": 1,
+          "name": "Etude B&W #231",
+          "slug": "etude-bandw-231",
+          "metadata": {
+            "name": "Etude B&W #231",
+            "iterationHash": "oo31A6QeLE1uaMJu22tovRRVeBqwKrRq6ZSE3FiH358ESkGYVvq",
+            "description": "A study of forms, composition and transparency in Black and White.\n\nCompanion piece to 'Etude'\n\nThank you for minting.\n\nMade with p5js.\n\nUponlyFan August 2022",
+            "tags": [
+              "forms",
+              "B&W",
+              "generative",
+              "composition",
+              "study",
+              "p5js",
+              "UpOnlyFam",
+              "gift",
+              "free mint",
+              "token of appreciation"
+            ],
+            "generatorUri": "ipfs://QmWso9iQyDpxFbfX7jhk45hY1vYchj9Lgw6fKoAb6urnvw",
+            "artifactUri": "ipfs://QmWso9iQyDpxFbfX7jhk45hY1vYchj9Lgw6fKoAb6urnvw?fxhash=oo31A6QeLE1uaMJu22tovRRVeBqwKrRq6ZSE3FiH358ESkGYVvq",
+            "displayUri": "ipfs://QmWfNp9VA5vtm2mc71wotUX5cEcP42oeHZF9stgHM3hJdH",
+            "thumbnailUri": "ipfs://QmZdLWvEGc19mAewAgcDcXxU1mdtf9WrS8yM88tyGX7nT2",
+            "authenticityHash": "5801830cb35a9de22765a986838cd56c6d0361ce78100691872c18bbdc844e7b",
+            "attributes": [
+              {
+                "name": "Background",
+                "value": "Black"
+              },
+              {
+                "name": "Format",
+                "value": "Portrait"
+              },
+              {
+                "name": "Colors",
+                "value": "Black & White"
+              },
+              {
+                "name": "Wide",
+                "value": 46
+              },
+              {
+                "name": "High",
+                "value": 17
+              },
+              {
+                "name": "Set Size",
+                "value": "Once"
+              },
+              {
+                "name": "Set Color",
+                "value": "Every row"
+              },
+              {
+                "name": "Background Form",
+                "value": "Ellipses"
+              },
+              {
+                "name": "Orderly",
+                "value": "Yes"
+              },
+              {
+                "name": "Chaotic",
+                "value": "No"
+              }
+            ],
+            "decimals": 0,
+            "symbol": "GENTK",
+            "version": "0.2"
+          },
+          "duplicate": false,
+          "activeListing": {
+            "id": 501055,
+            "version": 1,
+            "price": 1500000,
+            "__typename": "Listing"
+          },
+          "owner": {
+            "id": "tz1ew8MmEDFpBV3nnmCF4igNf6DXurBdHAoh",
+            "name": "Faker",
+            "flag": "NONE",
+            "avatarUri": "ipfs://QmaGqM28K5qEmD5g4jd31b1iTyRuX5a1nKryuUFizZjFzn",
+            "__typename": "User"
+          },
+          "issuer": {
+            "flag": "NONE",
+            "name": "Etude B&W",
+            "author": {
+              "id": "tz1dW9QXydD28arnVXC4YZFLMEdQsJbrRnxM",
+              "name": "UpOnlyFan",
+              "type": "REGULAR",
+              "avatarUri": "ipfs://QmRpKSFeX9wyMnP8D8sUF5WVFqHc6mNX7svqWUiVAjYroV",
+              "flag": "NONE",
+              "collaborators": null,
+              "__typename": "User"
+            },
+            "__typename": "GenerativeToken"
+          },
+          "__typename": "Objkt"
+        },
+        "__typename": "Listing"
+      },
+      {
+        "id": 501054,
+        "version": 1,
+        "price": 10000000,
+        "objkt": {
+          "id": 1138218,
+          "version": 1,
+          "name": "Aliciidae #30",
+          "slug": "aliciidae-30",
+          "metadata": {
+            "name": "Aliciidae #30",
+            "iterationHash": "onqa8sRiQSvCC9ip93wcGYEsyNjGe6XjMbVqEA3T9Abn5qn8FUD",
+            "description": "Half flora, half fauna: this piece is an exploration of anemones, specifically in the Aliciidae family, known for long trunks and a head of tentacles. This algorithm creates a new mutation within the Aliciidae family.\n\nPress ’s’ to save a 3600x4500 .png\n\nGhost Types - 5% chance\nGradient Backgrounds - 10% chance",
+            "tags": [
+              "aliciidae",
+              "anemone",
+              "bio",
+              "webgl",
+              "p5",
+              "p5js",
+              "tentacle",
+              "flower",
+              "tendril",
+              "vine",
+              "animated",
+              "underwater"
+            ],
+            "generatorUri": "ipfs://QmdPTmc88vb9JPbZgMcroW9HRSTLxX2sXe2ZH53QxBuVsk",
+            "artifactUri": "ipfs://QmdPTmc88vb9JPbZgMcroW9HRSTLxX2sXe2ZH53QxBuVsk?fxhash=onqa8sRiQSvCC9ip93wcGYEsyNjGe6XjMbVqEA3T9Abn5qn8FUD",
+            "displayUri": "ipfs://QmQTUgh3Nt2G8RApFXKAwM4iESaPmXiGk2SDhiDwh7DJJm",
+            "thumbnailUri": "ipfs://QmfDinuv73Q3TQ4qBox2duVoheWUuRAB1rf29PHtdv6LRz",
+            "authenticityHash": "b8d15616f08bc74644ca620ec15fa4d149205fd9df31c5bca72a21d9535fff7a",
+            "attributes": [
+              {
+                "name": "Palette",
+                "value": "MonoChrome"
+              },
+              {
+                "name": "Margin",
+                "value": "Floral White"
+              },
+              {
+                "name": "BioDensity",
+                "value": 9
+              },
+              {
+                "name": "Column Size",
+                "value": "69%"
+              },
+              {
+                "name": "Tentacle Size",
+                "value": "76%"
+              },
+              {
+                "name": "Gradient",
+                "value": false
+              },
+              {
+                "name": "Ghost Type",
+                "value": false
+              }
+            ],
+            "decimals": 0,
+            "symbol": "GENTK",
+            "version": "0.2"
+          },
+          "duplicate": false,
+          "activeListing": {
+            "id": 501054,
+            "version": 1,
+            "price": 10000000,
+            "__typename": "Listing"
+          },
+          "owner": {
+            "id": "tz1dj24MNd637pgGXGx4i499DgAqdsehkfFd",
+            "name": "tz1d33j4y.",
+            "flag": "NONE",
+            "avatarUri": "ipfs://QmZ5desosN2BkjArNvU5x84sVhuaD9UL8brjqnp1eubFFY",
+            "__typename": "User"
+          },
+          "issuer": {
+            "flag": "NONE",
+            "name": "Aliciidae",
+            "author": {
+              "id": "tz1LGRo4e3ke7kiCvJHGtmQSfPvLK5zhEHAR",
+              "name": "Chris McCully",
+              "type": "REGULAR",
+              "avatarUri": "ipfs://QmW9su6C9tNsqVbSvdPDEbrGdLHs4xiwqprcmQkDxLbBjF",
+              "flag": "VERIFIED",
+              "collaborators": null,
+              "__typename": "User"
+            },
+            "__typename": "GenerativeToken"
+          },
+          "__typename": "Objkt"
+        },
+        "__typename": "Listing"
+      },
+      {
+        "id": 501053,
+        "version": 1,
+        "price": 10000000,
+        "objkt": {
+          "id": 1143835,
+          "version": 1,
+          "name": "Yashinoki #113",
+          "slug": "yashinoki-113",
+          "metadata": {
+            "name": "Yashinoki #113",
+            "iterationHash": "ooWqp7yjKdKKCpw7WgiK7yqH1HvPLubouFxMUy4zu5V5coMWM3h",
+            "description": "Inspired by classic Japanese woodblock prints and cross-sections of palm tree (yashinoki) trunks. \n\nControls in live mode:\n- Press [s] to save a png\n\n\nMade with code by AutoEclectus.\n AutoEclectus is an artist specialising in code-based generative works.\n\n@autoeclectus everywhere:\n- Links: https://autoeclectus.art\n- Twitter: autoeclectus\n- Instagram: autoeclectus\n\n© AutoEclectus - NFT License Version 2.0 - September 2022",
+            "tags": [
+              "autoeclectus",
+              "cvg",
+              "js",
+              "organic",
+              "organica"
+            ],
+            "generatorUri": "ipfs://QmbFMhRwq1NqNU6JYhYxN5juENvMEeM6E79fBwxg6Ajkzg",
+            "artifactUri": "ipfs://QmbFMhRwq1NqNU6JYhYxN5juENvMEeM6E79fBwxg6Ajkzg?fxhash=ooWqp7yjKdKKCpw7WgiK7yqH1HvPLubouFxMUy4zu5V5coMWM3h",
+            "displayUri": "ipfs://QmToppHHiDojvQcygjZKoTv3xzcdSXRKjNxbtf9gAJZxQo",
+            "thumbnailUri": "ipfs://Qmb8X5b9FfiUMef3ciynQ2U5cFYBVv7k3WJepSUcacUzRZ",
+            "authenticityHash": "0a96bd9626a622cd5eb45bd2b7aecba79444e333dba728acfcc2a761ec7b861c",
+            "attributes": [
+              {
+                "name": "Palette",
+                "value": "Asphalt and Tender Shoot"
+              },
+              {
+                "name": "Species",
+                "value": "Foxtail Palm"
+              }
+            ],
+            "decimals": 0,
+            "symbol": "GENTK",
+            "version": "0.2"
+          },
+          "duplicate": false,
+          "activeListing": {
+            "id": 501053,
+            "version": 1,
+            "price": 10000000,
+            "__typename": "Listing"
+          },
+          "owner": {
+            "id": "tz1dj24MNd637pgGXGx4i499DgAqdsehkfFd",
+            "name": "tz1d33j4y.",
+            "flag": "NONE",
+            "avatarUri": "ipfs://QmZ5desosN2BkjArNvU5x84sVhuaD9UL8brjqnp1eubFFY",
+            "__typename": "User"
+          },
+          "issuer": {
+            "flag": "NONE",
+            "name": "Yashinoki",
+            "author": {
+              "id": "tz1RzomQhc8ttSFR7LgsaFxMpwVBCUpWqRYe",
+              "name": "AutoEclectus",
+              "type": "REGULAR",
+              "avatarUri": "ipfs://QmUZDUNmNVdn4fWR8VyRfctFyo5mHuZvEH4TmVBDVjwiDe",
+              "flag": "VERIFIED",
+              "collaborators": null,
+              "__typename": "User"
+            },
+            "__typename": "GenerativeToken"
+          },
+          "__typename": "Objkt"
+        },
+        "__typename": "Listing"
+      },
+      {
+        "id": 501052,
+        "version": 1,
+        "price": 6000000,
+        "objkt": {
+          "id": 1164736,
+          "version": 1,
+          "name": "Sparsely Populated Grid #172",
+          "slug": "sparsely-populated-grid-172",
+          "metadata": {
+            "name": "Sparsely Populated Grid #172",
+            "iterationHash": "opKSni1t7Cp9mWHshmtkZCFrkzZXgX33ZQc4e2vGdTrM4NYcWwj",
+            "description": "“Sparsely Populated Grid” is the result of an architect’s fascination with Cartographies and a crypto-enthusiast love for Neo Punk aesthetics. The first sketch, drawn by hand with Procreate, was made in October 2021.\n\nThis is an exploration on the field of Generative Cartographies, an abstract diagrammatic representation of a randomly generated area within the virtual IPFS world. Everything starts with an GRID of varying sizes and angles, subsequently POPULATED by a random number of forms. But, how to populate the grid? SPARSELY, of course, with just the right amount of superpositions.\n\nThe algorithm produces varying compositions of fourteen different forms, with seven possible mixes and ten colour palettes. Movement, made possible by its generative digital nature, follows sinusoidal patterns, as if the forms breathed and danced to an unheard music.\n\nBesides, they never forget to celebrate birthdays.\n\n\n// INTERACTIVITY\n\n- CLICK or SPACEBAR to stop movement.\n- UP and DOWN ARROWS to Disable/Enable graphic elements such as texts (wink).\n- LEFT and RIGHT ARROWS (when stopped) to Move frames back and forth.\n- Press 1 for a low-res PNG.\n- Press 2 for a medium-res PNG (3x).\n- Press 3 for a hi-res PNG (6x).\n- Press G for Glitch (low-res).\n- Press P for PixelArt (low-res).\n\nIf you want a different resolution, you can also add ?&res=xxx to the url to get your desired output. Then simply Right-Click SAVE the canvas -- experimental",
+            "tags": [
+              "isometric",
+              "retro",
+              "grid",
+              "architecture",
+              "cartography"
+            ],
+            "generatorUri": "ipfs://QmQCeDaN6FuAknfMmLyRedyYCvkj9HcvhqCucEBZsBBB5N",
+            "artifactUri": "ipfs://QmQCeDaN6FuAknfMmLyRedyYCvkj9HcvhqCucEBZsBBB5N?fxhash=opKSni1t7Cp9mWHshmtkZCFrkzZXgX33ZQc4e2vGdTrM4NYcWwj",
+            "displayUri": "ipfs://QmZzJetA1aZEoUAPxrok5yQdP4ShN8hxuRg5tFm4EMpbaK",
+            "thumbnailUri": "ipfs://QmW3GhUuaXFAHxLJPvrNvGSc7Qsd4rskobKGCzDUFqmPnS",
+            "authenticityHash": "bbea445e925926a9c3886505d029a7b97ba320c469f36edc467c1a94403b20a6",
+            "attributes": [
+              {
+                "name": "Palette",
+                "value": "Outremer Gris"
+              },
+              {
+                "name": "Grid Angle",
+                "value": "Iso45"
+              },
+              {
+                "name": "Grid Type",
+                "value": "Clean"
+              },
+              {
+                "name": "Family",
+                "value": "Round Royal"
+              },
+              {
+                "name": "Numbers",
+                "value": 29
+              },
+              {
+                "name": "Speed",
+                "value": "Nervous"
+              }
+            ],
+            "decimals": 0,
+            "symbol": "GENTK",
+            "version": "0.2"
+          },
+          "duplicate": false,
+          "activeListing": {
+            "id": 501052,
+            "version": 1,
+            "price": 6000000,
+            "__typename": "Listing"
+          },
+          "owner": {
+            "id": "tz1dj24MNd637pgGXGx4i499DgAqdsehkfFd",
+            "name": "tz1d33j4y.",
+            "flag": "NONE",
+            "avatarUri": "ipfs://QmZ5desosN2BkjArNvU5x84sVhuaD9UL8brjqnp1eubFFY",
+            "__typename": "User"
+          },
+          "issuer": {
+            "flag": "NONE",
+            "name": "Sparsely Populated Grid",
+            "author": {
+              "id": "tz1Z3A438AD3qZFNvoJBD5LQUYbomErw716Q",
+              "name": "(rat)chitect",
+              "type": "REGULAR",
+              "avatarUri": "ipfs://QmXWsQaRTEuupqxKw5C676mSTz11W3eE1nqftShu3SfRMH",
+              "flag": "NONE",
+              "collaborators": null,
+              "__typename": "User"
+            },
+            "__typename": "GenerativeToken"
+          },
+          "__typename": "Objkt"
+        },
+        "__typename": "Listing"
+      },
+      {
+        "id": 501051,
+        "version": 1,
+        "price": 25450000,
+        "objkt": {
+          "id": 1172431,
+          "version": 1,
+          "name": "Monsoon #318",
+          "slug": "monsoon-318",
+          "metadata": {
+            "name": "Monsoon #318",
+            "iterationHash": "op1owkaCofyEG9cp5JYzVVJHHVeAR9rDK8wv5tHsTsb1kQosUJ4",
+            "description": "Optimization. It's something that haunts all programmers. Including me. But no longer! Monsoon is a study into the optimization of particle systems for the web. Looking especially deep into dynamic grids and dynamic frame rates.\n\nAs for the piece itself, it's a reference to how busy this modern world is. How we're all constantly on the go, whether that is physically, or mentally. Almost feeling like a monsoon. A storm of information. A storm of life. A storm of work. A storm of thoughts. A storm of emotions. A storm of everything. And it's all so fast.\n\nAs are the particles. They're all moving around these cyclones of information. Glowing up like neon signs in a busy city. Moving so fast it's almost a blur. Forming into something greater than the sum of its parts.\n",
+            "tags": [
+              "Woot",
+              "Scoot",
+              "WootScoot",
+              "Flow",
+              "Cyclone",
+              "Monsoon",
+              "Webgl",
+              "p5js"
+            ],
+            "generatorUri": "ipfs://QmewcDL9DDRqUJGaUvz8Vft67E5tcJ2fqUuK58nZxzmYri",
+            "artifactUri": "ipfs://QmewcDL9DDRqUJGaUvz8Vft67E5tcJ2fqUuK58nZxzmYri?fxhash=op1owkaCofyEG9cp5JYzVVJHHVeAR9rDK8wv5tHsTsb1kQosUJ4",
+            "displayUri": "ipfs://QmabjdCJvrkVmYFq9oeztYe2BS432H5hdfrBBE8fLpoCR4",
+            "thumbnailUri": "ipfs://QmRvgmYrr1h3o553A6DuAuSMcntxjNKe3ygL4vNqL26kdE",
+            "authenticityHash": "c696d299e367871228ab79c712c8668fa4289362a40c01515ebad4ec3c11f203",
+            "attributes": [
+              {
+                "name": "Palette",
+                "value": "Fresh"
+              },
+              {
+                "name": "Flowfield Magnitude",
+                "value": 0
+              },
+              {
+                "name": "Cyclone Magnitude",
+                "value": 0.7
+              },
+              {
+                "name": "Cyclone Count",
+                "value": 1
+              },
+              {
+                "name": "Cyclone Phase",
+                "value": 0
+              },
+              {
+                "name": "Minimum Length",
+                "value": 1
+              },
+              {
+                "name": "Maximum Length",
+                "value": 30
+              },
+              {
+                "name": "Padding",
+                "value": 3.3
+              },
+              {
+                "name": "In Circle",
+                "value": false
+              },
+              {
+                "name": "noiseScale",
+                "value": 0
+              },
+              {
+                "name": "Canvas Ratio",
+                "value": 1
+              }
+            ],
+            "decimals": 0,
+            "symbol": "GENTK",
+            "version": "0.2"
+          },
+          "duplicate": false,
+          "activeListing": {
+            "id": 501051,
+            "version": 1,
+            "price": 25450000,
+            "__typename": "Listing"
+          },
+          "owner": {
+            "id": "tz1dj24MNd637pgGXGx4i499DgAqdsehkfFd",
+            "name": "tz1d33j4y.",
+            "flag": "NONE",
+            "avatarUri": "ipfs://QmZ5desosN2BkjArNvU5x84sVhuaD9UL8brjqnp1eubFFY",
+            "__typename": "User"
+          },
+          "issuer": {
+            "flag": "NONE",
+            "name": "Monsoon",
+            "author": {
+              "id": "tz1b9y6JsH24yeLM4FknLa2BS4CGZN8TWAZ5",
+              "name": "WootScoot",
+              "type": "REGULAR",
+              "avatarUri": "ipfs://Qmb16J5s9rwQUQ6i9HjcJ6GfiyaokUqLTsno4r57nfvQoD",
+              "flag": "VERIFIED",
+              "collaborators": null,
+              "__typename": "User"
+            },
+            "__typename": "GenerativeToken"
+          },
+          "__typename": "Objkt"
+        },
+        "__typename": "Listing"
+      },
+      {
+        "id": 501050,
+        "version": 1,
+        "price": 3000000,
+        "objkt": {
+          "id": 1171966,
+          "version": 1,
+          "name": "just one long day #111",
+          "slug": "just-one-long-day-111",
+          "metadata": {
+            "name": "just one long day #111",
+            "iterationHash": "opMv2AK2KKqN9F2GG5fxiNyDUMnoc95yj5FsUvJqHfsEz4jej6C",
             "description": "It's just a very long day. 365 revolutions around the sun, 8,760 hours and thousands of unfamiliar eyes waiting for the next morning. What does it mean to be stuck in one day? When everything around you is changing, living, breathing, dying, only you alone, like a stone statue. Nothing can touch you, and your feelings are externally muted to a minimum. Calm, joy, fear, anxiety, despair. You don't seem to have lost the ability to live, but you are somehow helpless and immobile. All your thoughts and experiences flow through your empty body, driving you insane. Everything around you distorts and changes in your eyes. And all you can do is remind yourself that it's just one long day. And I hope your tomorrow comes very soon. ",
             "tags": [
               "Image composition",
@@ -20,22 +1246,22 @@
               "portrait"
             ],
             "generatorUri": "ipfs://QmQ1WTQMwZ6AA6kTLryZ89XMx6pAxjFDmnQKLpfBSWcZKL",
-            "artifactUri": "ipfs://QmQ1WTQMwZ6AA6kTLryZ89XMx6pAxjFDmnQKLpfBSWcZKL?fxhash=oogtMHqdHpbFJZggwtVzuWo8PcVcvogCYJXHogUHFvcZmGq8f5N",
-            "displayUri": "ipfs://QmYmhkGnUKVajQZRY7v2Ut5P67PyDVE1CSgqQjmtYzkX29",
-            "thumbnailUri": "ipfs://QmPvAGKGey1NkSGA8dNFgLXQxzgXwMyMRACcbCQuXFEUjU",
-            "authenticityHash": "9ef2bd8ed3c6de563a32755c5d814d4ff39900ee8a08d88f393e6004c616bf68",
+            "artifactUri": "ipfs://QmQ1WTQMwZ6AA6kTLryZ89XMx6pAxjFDmnQKLpfBSWcZKL?fxhash=opMv2AK2KKqN9F2GG5fxiNyDUMnoc95yj5FsUvJqHfsEz4jej6C",
+            "displayUri": "ipfs://QmQQy1Y1Yt7ypdyNE82TERuzcgm6r7tCAqjvKpEuRuwXyJ",
+            "thumbnailUri": "ipfs://QmNqyNwz5j2qa3zEoNYAPFR2y1JqJvSf6ppoJaYVpGc5qW",
+            "authenticityHash": "62a8615ca84d758b56fa44c91aa533f376caae66db92c808ada419c2d2ce6383",
             "attributes": [
               {
                 "name": "base",
-                "value": "base 1"
+                "value": "base 6"
               },
               {
                 "name": "body",
-                "value": "body 2"
+                "value": "body 3"
               },
               {
                 "name": "face",
-                "value": "face 8"
+                "value": "face 2"
               },
               {
                 "name": "hair",
@@ -52,16 +1278,16 @@
           },
           "duplicate": false,
           "activeListing": {
-            "id": 501018,
+            "id": 501050,
             "version": 1,
-            "price": 1400000,
+            "price": 3000000,
             "__typename": "Listing"
           },
           "owner": {
-            "id": "tz1geLcyhaHfFqE7tUuMCMkgdGHJkTZxNkm8",
-            "name": null,
+            "id": "tz1YBoeVTunKHGYR54KqdWjF73AaATSqHFUL",
+            "name": "printilun",
             "flag": "NONE",
-            "avatarUri": null,
+            "avatarUri": "ipfs://QmP3p4hLn5j8fAqbavahzVFpq49BTHWDP5bu8TxMgRB1nM",
             "__typename": "User"
           },
           "issuer": {
@@ -83,39 +1309,76 @@
         "__typename": "Listing"
       },
       {
-        "id": 501017,
+        "id": 501049,
         "version": 1,
-        "price": 7000000,
+        "price": 24000000,
         "objkt": {
-          "id": 1170495,
+          "id": 1167218,
           "version": 1,
-          "name": "Overcast #228",
-          "slug": "overcast-228",
+          "name": "Fountain #4",
+          "slug": "fountain-4",
           "metadata": {
-            "name": "Overcast #228",
-            "iterationHash": "ooo7ndnrVbRDjE8ahMabSPAzXc3SoGVrH3k45yjD7cT5XPmpnkS",
-            "description": "Cloudy weather on fx(hash).\nMinimalistic generative animation.\n\nResolution: 5120x3072 PNG\n\nby Xender 2022",
+            "name": "Fountain #4",
+            "iterationHash": "opEx5A5FhZ8gArPUhnNfEGms3CoEuoDpvSuEmCpkgHrTpn4Ks5Q",
+            "description": "▪️ 16 Variables\n▪️ 8 Features [SIDES, SCALE, ANGLE, STRENGTH, X, Y, CIRCULAR, INVERTED]\n▪️ [left mouse button] hold to rotate\n▪️ [mouse wheel] to zoom in and out\n▪️ [right mouse button] to start or stop the animation\n▪️ [middle mouse button] to reset the current camera view\n▪️ [1,2,3] to change between camera views\n▪️ [s] key to capture a screenshot with current height and width [Live Only]\n▪️ The piece does not stretch but instead it adjusts to the screen size and ratio\n▪️ Designed to have a strong visual impact so might not be suitable for mobile",
             "tags": [
-              "generative",
-              "minimalistic",
-              "animation",
-              "creativecoding"
+              "interactive",
+              "animated",
+              "monochrome",
+              "shapes",
+              "black and white",
+              "greyscale",
+              "fountain",
+              "vectorz3r0"
             ],
-            "generatorUri": "ipfs://QmP5VnfJ8qmZbaXxXPnrkjrgNwFwsTNSPBihe3QDwv3SQT",
-            "artifactUri": "ipfs://QmP5VnfJ8qmZbaXxXPnrkjrgNwFwsTNSPBihe3QDwv3SQT?fxhash=ooo7ndnrVbRDjE8ahMabSPAzXc3SoGVrH3k45yjD7cT5XPmpnkS",
-            "displayUri": "ipfs://QmScEM95bycC2a3Qx1qNjA9VHLHFCozMvq6aa8CXfmbWYm",
-            "thumbnailUri": "ipfs://QmSUQCw9CfvMbYHBKN5XZ6cySuyw1ijoPtouThieCj94NR",
-            "authenticityHash": "2e3f49e1ce13755ff4d8d85309013121cb3584f4493c0d0685cacba4ca27ec5d",
-            "attributes": true,
+            "generatorUri": "ipfs://QmbfXpCuFqWxEbhHf5EaGL1TxFczyatze9RVuCDqo4TR1j",
+            "artifactUri": "ipfs://QmbfXpCuFqWxEbhHf5EaGL1TxFczyatze9RVuCDqo4TR1j?fxhash=opEx5A5FhZ8gArPUhnNfEGms3CoEuoDpvSuEmCpkgHrTpn4Ks5Q",
+            "displayUri": "ipfs://QmWB75vaPB9DHVXCQA8VfWyoSRuHaQrbRymPLT6JgzgB3s",
+            "thumbnailUri": "ipfs://QmQqrAMyCjvHoeP5pTTLez8bKUfadz44yc6XEB1ztoiQSD",
+            "authenticityHash": "44338c90a902f2274758fbea8e5a9f6686589fb126a9d6a22331b553cc4fa4e8",
+            "attributes": [
+              {
+                "name": "SIDES",
+                "value": 4
+              },
+              {
+                "name": "SCALE",
+                "value": 3.4
+              },
+              {
+                "name": "ANGLE",
+                "value": 0.4
+              },
+              {
+                "name": "STRENGTH",
+                "value": 0.3
+              },
+              {
+                "name": "X",
+                "value": 0.1
+              },
+              {
+                "name": "Y",
+                "value": 0.3
+              },
+              {
+                "name": "CIRCULAR",
+                "value": false
+              },
+              {
+                "name": "INVERTED",
+                "value": true
+              }
+            ],
             "decimals": 0,
             "symbol": "GENTK",
             "version": "0.2"
           },
           "duplicate": false,
           "activeListing": {
-            "id": 501017,
+            "id": 501049,
             "version": 1,
-            "price": 7000000,
+            "price": 24000000,
             "__typename": "Listing"
           },
           "owner": {
@@ -127,13 +1390,13 @@
           },
           "issuer": {
             "flag": "NONE",
-            "name": "Overcast",
+            "name": "Fountain",
             "author": {
-              "id": "tz1MNPn42gqgSWyCLJQSLzAgXyNhk61VxuY7",
-              "name": "Xender",
+              "id": "tz1SrA7UpvzPmxp6NymuzDzaRfxDSJaz6ebF",
+              "name": "vectorz3r0",
               "type": "REGULAR",
-              "avatarUri": "ipfs://QmV1fCUfwjtBcmPPpUqGrNVYBcxafiby9ERPvyEj1hTToU",
-              "flag": "NONE",
+              "avatarUri": "ipfs://QmdeUpNJEedQGFHr73xrp1oNdV4X1mKaNuT5hoRoemJHp4",
+              "flag": "VERIFIED",
               "collaborators": null,
               "__typename": "User"
             },
@@ -144,74 +1407,56 @@
         "__typename": "Listing"
       },
       {
-        "id": 501016,
+        "id": 501048,
         "version": 1,
-        "price": 120000,
+        "price": 480000000,
         "objkt": {
-          "id": 816639,
+          "id": 1052937,
           "version": 1,
-          "name": "2D Mansion #879",
-          "slug": "2d-mansion-879",
+          "name": "Turner Light #177",
+          "slug": "turner-light-177",
           "metadata": {
-            "name": "2D Mansion #879",
-            "iterationHash": "opNMWAk6XbAdxqdPspTH9SQnEd1Hv17dXCFaGXrtai1ERMCf2VB",
-            "description": "A mansion generator to crash real estate prices.\n\nPress 'n' or click on the sun to cycle day/night, 's' toggle the canvas resizing and allows to zoom or take a picture at full resolution.\n\nGuest has 7 different values (Two can only happen at a certain moon phase) and there are 4 different materials.",
+            "name": "Turner Light #177",
+            "iterationHash": "onz5JezwbnEVW37HocUmbcQ1AcvGh5v5iKE4P2mAH3P1RczGczp",
+            "description": "'Light is therefore colour' - J.M.W Turner\n\nThe shadows of the future are the light I emit now, and\nI can only keep moving forward towards the core of the planet.",
             "tags": [
-              "mansion",
-              "house",
-              "pixel",
-              "pixelart"
+              "ileivoivm",
+              "aluanwang",
+              "TurnerLight"
             ],
-            "generatorUri": "ipfs://QmdYhGef3WzLSc9mCkub5W18RHAVxUbwwhsRfqzorz1erf",
-            "artifactUri": "ipfs://QmdYhGef3WzLSc9mCkub5W18RHAVxUbwwhsRfqzorz1erf?fxhash=opNMWAk6XbAdxqdPspTH9SQnEd1Hv17dXCFaGXrtai1ERMCf2VB",
-            "displayUri": "ipfs://QmeWgkPKiYi36F3WrwQRZiRuwDcN9eZp43fRJjPJ1jhBA2",
-            "thumbnailUri": "ipfs://Qmb4h22y9u9ZNbYdwCSkJCq6ozcpzirGjKJeNzV5hRZZZQ",
-            "authenticityHash": "9a132bb4a3d2dcfc1d1f3363a9a7a85a47f81bb62516365a93b8cfaab307fb05",
-            "attributes": [
-              {
-                "name": "Material",
-                "value": "red_brick"
-              },
-              {
-                "name": "Moon Phase",
-                "value": "Last Gibbous"
-              },
-              {
-                "name": "Guest",
-                "value": "Ninja"
-              },
-              {
-                "name": "Block Profile",
-                "value": "-6-2-4-4-5-5-"
-              }
-            ],
+            "generatorUri": "ipfs://QmYYoEZhhfiN5o7BepGfMNfP8r1NTG8uZ3qPpMWSXzXW6v",
+            "artifactUri": "ipfs://QmYYoEZhhfiN5o7BepGfMNfP8r1NTG8uZ3qPpMWSXzXW6v?fxhash=onz5JezwbnEVW37HocUmbcQ1AcvGh5v5iKE4P2mAH3P1RczGczp",
+            "displayUri": "ipfs://QmSAksyfaGLd9XbfxAQoCaq2SDj5jqjNsvyM4vgDswrhaM",
+            "thumbnailUri": "ipfs://Qmd39fj7ts4CtBbheMuu5yrS48LeV9nXLQatZU3JXfo2E9",
+            "authenticityHash": "100534c83e92c2f66dc46e4bb1bd9491e047267c603c4da06165ee35e3893f7e",
+            "attributes": true,
             "decimals": 0,
             "symbol": "GENTK",
             "version": "0.2"
           },
           "duplicate": false,
           "activeListing": {
-            "id": 501016,
+            "id": 501048,
             "version": 1,
-            "price": 120000,
+            "price": 480000000,
             "__typename": "Listing"
           },
           "owner": {
-            "id": "tz1ZTCoxCpf2mAujoxt7ZxToxWByjqS2z2XJ",
-            "name": "CryptoRonin",
+            "id": "tz1LmEvSBa3aY9AG2qGiH3ijqEtbThZqcX2j",
+            "name": "Trismegisto",
             "flag": "NONE",
-            "avatarUri": "ipfs://Qmdy2ppxwA98c4LSF3bXUjm7Vq9iyMEvzuP6GrgbJqvFmS",
+            "avatarUri": "ipfs://QmZ6Qmoc13J9SHebSSfn9npuBvYqZtc6rHwYR1kx3vGkL1",
             "__typename": "User"
           },
           "issuer": {
             "flag": "NONE",
-            "name": "2D Mansion",
+            "name": "Turner Light",
             "author": {
-              "id": "tz1iEiZBsrbDWWq5E4RzmWgZUyJfad3r4WEn",
-              "name": "PetiShaMiaou",
+              "id": "tz1SLRzGqX9fuKPx1PAkrDxCvaetr524is11",
+              "name": "ileivoivm II",
               "type": "REGULAR",
-              "avatarUri": "ipfs://QmYQ7tJYEMJMGhnjmoJDFSq26fX3HHdHp4NVbZxZCUru4o",
-              "flag": "NONE",
+              "avatarUri": "ipfs://Qmb3Nd4cxBKvZBHnRDG2tZn8Wu849w3WycqqEpJLN4ggrv",
+              "flag": "VERIFIED",
               "collaborators": null,
               "__typename": "User"
             },
@@ -222,73 +1467,57 @@
         "__typename": "Listing"
       },
       {
-        "id": 501015,
+        "id": 501047,
         "version": 1,
-        "price": 120000,
+        "price": 8000000,
         "objkt": {
-          "id": 816604,
+          "id": 1151236,
           "version": 1,
-          "name": "2D Mansion #847",
-          "slug": "2d-mansion-847",
+          "name": "Radiante Metamorfico #73",
+          "slug": "radiante-metamorfico-73",
           "metadata": {
-            "name": "2D Mansion #847",
-            "iterationHash": "opDJjG19ShMUtgreuw5JezWgYSKE4hw3HNhNM6YfYEuzdVERkTf",
-            "description": "A mansion generator to crash real estate prices.\n\nPress 'n' or click on the sun to cycle day/night, 's' toggle the canvas resizing and allows to zoom or take a picture at full resolution.\n\nGuest has 7 different values (Two can only happen at a certain moon phase) and there are 4 different materials.",
+            "name": "Radiante Metamorfico #73",
+            "iterationHash": "opF7yYnkQM5saQagufS9scx4vvQwoWAhSgeJet76vUTame95bLU",
+            "description": "“Metamorphism is a process that changes preexisting rocks into new forms because of increases in temperature, pressure, and chemically active fluids. Metamorphism may affect igneous, sedimentary, or other metamorphic rocks.”\n\nIn collaboration with Furnigible Collective. A selection of mints will be used to produce a collection of physical rugs as part of Furnigible’s generative art series. \nLearn more on furnigible.com \n\nLicense: CC BY-NC-ND 4.0\n\n@enrico_penzo\n@artpulls\n",
             "tags": [
-              "mansion",
-              "house",
-              "pixel",
-              "pixelart"
+              "furnigible",
+              "collective",
+              "enrico",
+              "penzo",
+              "p5js"
             ],
-            "generatorUri": "ipfs://QmdYhGef3WzLSc9mCkub5W18RHAVxUbwwhsRfqzorz1erf",
-            "artifactUri": "ipfs://QmdYhGef3WzLSc9mCkub5W18RHAVxUbwwhsRfqzorz1erf?fxhash=opDJjG19ShMUtgreuw5JezWgYSKE4hw3HNhNM6YfYEuzdVERkTf",
-            "displayUri": "ipfs://QmT4XDR2Jmiw2KeyFi1TEGVV8TeLyHoJk6gYHnh2ZxHmCX",
-            "thumbnailUri": "ipfs://QmRi18Xur4cB26b5DR9ngZrsWNCr9qSf8szvJx8yvGeudw",
-            "authenticityHash": "f63e2274a589aece93fd8d4856b11f4d6c7e6e2c9c3cdafb3a53db10a7229974",
-            "attributes": [
-              {
-                "name": "Material",
-                "value": "stone"
-              },
-              {
-                "name": "Moon Phase",
-                "value": "First Quarter"
-              },
-              {
-                "name": "Guest",
-                "value": "Nobody"
-              },
-              {
-                "name": "Block Profile",
-                "value": "-5-5-2-6-3-2-"
-              }
-            ],
+            "generatorUri": "ipfs://QmUeC17kApak87okz5n4FsBC2GAHqhHYXCr8o2YBvTJ7GN",
+            "artifactUri": "ipfs://QmUeC17kApak87okz5n4FsBC2GAHqhHYXCr8o2YBvTJ7GN?fxhash=opF7yYnkQM5saQagufS9scx4vvQwoWAhSgeJet76vUTame95bLU",
+            "displayUri": "ipfs://QmaXwZzebwSxLQ9xCebtXZQxuk8BLkYdHrhEe5MX4wtZgu",
+            "thumbnailUri": "ipfs://Qmd7DYvhc4snXhqMvuV5L5cVgRmpmdJTKfcd9FSHKVUHk7",
+            "authenticityHash": "bbcba58bdf5532af4a50da5ead219d561d83a3a83208fc73fa1e64598aa76fdc",
+            "attributes": true,
             "decimals": 0,
             "symbol": "GENTK",
             "version": "0.2"
           },
           "duplicate": false,
           "activeListing": {
-            "id": 501015,
+            "id": 501047,
             "version": 1,
-            "price": 120000,
+            "price": 8000000,
             "__typename": "Listing"
           },
           "owner": {
-            "id": "tz1ZTCoxCpf2mAujoxt7ZxToxWByjqS2z2XJ",
-            "name": "CryptoRonin",
+            "id": "tz1LmEvSBa3aY9AG2qGiH3ijqEtbThZqcX2j",
+            "name": "Trismegisto",
             "flag": "NONE",
-            "avatarUri": "ipfs://Qmdy2ppxwA98c4LSF3bXUjm7Vq9iyMEvzuP6GrgbJqvFmS",
+            "avatarUri": "ipfs://QmZ6Qmoc13J9SHebSSfn9npuBvYqZtc6rHwYR1kx3vGkL1",
             "__typename": "User"
           },
           "issuer": {
             "flag": "NONE",
-            "name": "2D Mansion",
+            "name": "Radiante Metamorfico",
             "author": {
-              "id": "tz1iEiZBsrbDWWq5E4RzmWgZUyJfad3r4WEn",
-              "name": "PetiShaMiaou",
+              "id": "tz1YiTdeBnko16VjoGDzNxsrpfhuBRcySdiQ",
+              "name": "Enrico Penzo",
               "type": "REGULAR",
-              "avatarUri": "ipfs://QmYQ7tJYEMJMGhnjmoJDFSq26fX3HHdHp4NVbZxZCUru4o",
+              "avatarUri": "ipfs://QmVtF4EZhdsNWnrvgTkEJhLWoK4T3zy2BsLmNyF4cr4TYF",
               "flag": "NONE",
               "collaborators": null,
               "__typename": "User"
@@ -300,1534 +1529,58 @@
         "__typename": "Listing"
       },
       {
-        "id": 501014,
+        "id": 501046,
         "version": 1,
         "price": 3000000,
         "objkt": {
-          "id": 1171129,
+          "id": 1153477,
           "version": 1,
-          "name": "mnmnMMXXII-[1.2] #7",
-          "slug": "mnmnmmxxii-1.2-7",
+          "name": "Urban Sketches #88",
+          "slug": "urban-sketches-88",
           "metadata": {
-            "name": "mnmnMMXXII-[1.2] #7",
-            "iterationHash": "oo3iWnDqenyvuBsn8nwCjRYbLn39AyXoAX937P8S35JRwdeodPg",
-            "description": " ̷̨̢̥̅͝ͅ(̸̢̛̼̞̭͋ͅ)̸͚̰͛̔̾̀̿͒͂:̴͓̞̑̌̂̆̊͋̀:̸͎̟̯̂̓̌:̶̢͙͙͕̠̩͆(̷̮͍͚̫͚͂̍̒̋̕)̵̳̗̊̍̽́ ̵͍̪̲̀̍ ̴̤̚ ̴̹̙͙̻̓̉̚͝V̸̘̅̀̒̃̚V̴̠̼̩̘͈̦̥̉͋̐͗͌͠V̵̪̮̅̉̓mnmnMMXXII-[1.2]\nmonomonio2022/̸̠̜̅̐͊̋̿̐̓\\̸̧͔̰̳̦̣̪̈̏̓ ̴̡̛̅͐͛̀̽/̶̱̼̣̤̰̲̣̈́̋͌̿̄̍̊\\̴̲̣̝̀͜ͅ ̸̝̮̟̹̀̆̋̿ ̴̤̻̀(̵̙̺̳̩͐͗́͑͋̓̕͜ͅ(̵̺͖̤͌͂͑̐̕🤖⚙️👽☠️\n\nseed=ramdom(50);\nseed<5=TYPE=MIN\nseed>5&&<45=TYPE=GLITCHED\nseed==42=TYPE=42\nseed>50=TYPE=MAX\n̷̨̢̥̅͝ͅ(̸̢̛̼̞̭͋ͅ)̸͚̰͛̔̾̀̿͒͂:̴͓̞̑̌̂̆̊͋̀:̸͎̟̯̂̓̌",
+            "name": "Urban Sketches #88",
+            "iterationHash": "opDZPDGbfNWf3vD1Vu8ByvN4iYi7myh6ALKLx5A6H9PvoEyToaS",
+            "description": "Digital composition that simulates urban drawings created in p5.js.",
             "tags": [
-              "generative",
-              "glitch",
-              "glitched",
-              "grunge",
-              "background",
-              "colors",
-              "fullscreen",
-              "p5js",
-              "abstract"
+              "fxhash",
+              "urbansketchs",
+              "generativeart",
+              "p5js"
             ],
-            "generatorUri": "ipfs://QmTsdSKV9CakNwtz9SEW211U9MEpUsTLW9RTniM9JGVh5D",
-            "artifactUri": "ipfs://QmTsdSKV9CakNwtz9SEW211U9MEpUsTLW9RTniM9JGVh5D?fxhash=oo3iWnDqenyvuBsn8nwCjRYbLn39AyXoAX937P8S35JRwdeodPg",
-            "displayUri": "ipfs://QmSBzf9wv6kNgXNVNcsK9vNKfRPtRiRrBBaXeE6TAaGt7L",
-            "thumbnailUri": "ipfs://QmZn7vDToLyH99JTfBh1mms9XZkjqDQt7rYnGzRQrVceVw",
-            "authenticityHash": "a5c82a2830591e9eb0d7aaaeafb8f1f19e60ffd780c30d0b45dd9a3a95e5ecaf",
-            "attributes": [
-              {
-                "name": "BACK",
-                "value": "#333333"
-              },
-              {
-                "name": "COLOR #1",
-                "value": "#ff00a6"
-              },
-              {
-                "name": "COLOR #2",
-                "value": "#510957"
-              },
-              {
-                "name": "HIGHLIGHT",
-                "value": "#E09142"
-              },
-              {
-                "name": "TYPE SEED",
-                "value": "GLITCHED"
-              }
-            ],
+            "generatorUri": "ipfs://QmewyA8edwBSAUvRoWgB7NLoo4KNumNiYCe9yywYMrD46h",
+            "artifactUri": "ipfs://QmewyA8edwBSAUvRoWgB7NLoo4KNumNiYCe9yywYMrD46h?fxhash=opDZPDGbfNWf3vD1Vu8ByvN4iYi7myh6ALKLx5A6H9PvoEyToaS",
+            "displayUri": "ipfs://QmZdvZtxnhdCfL6dGTDYv7GsNe2SjEu7JMoNo8bFPukNpa",
+            "thumbnailUri": "ipfs://QmR7FW4c8j9yxzjTEnzCxsQaKhwt5QRA1G1pHmcZFhGKD7",
+            "authenticityHash": "ca41b05cbf809d3ca7db21a608d3f80fcc8e2dfbeb55eb70f00d42c8bfbeb7df",
+            "attributes": true,
             "decimals": 0,
             "symbol": "GENTK",
             "version": "0.2"
           },
           "duplicate": false,
           "activeListing": {
-            "id": 501014,
+            "id": 501046,
             "version": 1,
             "price": 3000000,
             "__typename": "Listing"
           },
           "owner": {
-            "id": "tz1XHHACha8KVSt7ckS5EoRWH4wSfABhHeGq",
-            "name": null,
+            "id": "tz1LmEvSBa3aY9AG2qGiH3ijqEtbThZqcX2j",
+            "name": "Trismegisto",
             "flag": "NONE",
-            "avatarUri": null,
+            "avatarUri": "ipfs://QmZ6Qmoc13J9SHebSSfn9npuBvYqZtc6rHwYR1kx3vGkL1",
             "__typename": "User"
           },
           "issuer": {
             "flag": "NONE",
-            "name": "mnmnMMXXII-[1.2]",
+            "name": "Urban Sketches",
             "author": {
-              "id": "tz1MiFyPrqhn7GpmQNBLnXyWGEV8SgsJMHqv",
-              "name": "monomonio",
+              "id": "tz1eqcruUAez6PASNd9Z5oHT2rqoTPqWGFsU",
+              "name": "Stonn",
               "type": "REGULAR",
-              "avatarUri": "ipfs://QmWPcEetpsJRF5JoK53DzUtHj4YVTaDkGRRcedc8T5FNYS",
+              "avatarUri": "ipfs://QmPgsAV9dtjf6pWedvUGjfisceNjeqjH5vp5X5vrFQbk5o",
               "flag": "NONE",
               "collaborators": null,
-              "__typename": "User"
-            },
-            "__typename": "GenerativeToken"
-          },
-          "__typename": "Objkt"
-        },
-        "__typename": "Listing"
-      },
-      {
-        "id": 501012,
-        "version": 1,
-        "price": 220000,
-        "objkt": {
-          "id": 841914,
-          "version": 1,
-          "name": "Unfavorable Tanshiro 100 | 不遇のタンシロくん 100 #850",
-          "slug": "unfavorable-tanshiro-100-or-100-850",
-          "metadata": {
-            "name": "Unfavorable Tanshiro 100 | 不遇のタンシロくん 100 #850",
-            "iterationHash": "op8emBW2pNrWmtg5Lt8gndXkVA7zynPXYWJmcAGFvaZNpc1pWEi",
-            "description": "This <Unfavorable tanshiro 100> will be the final release of this series. \n\nUnfavorable Tanshiro is a p5.js generative character made by @tanshiro1986.\nEveryday I draw a new factor, and post a unique Tanshiro on twitter. \n\nToday is the 100th day since Tanshiro's birth.\nUnfavorable Tanshiro #1~#99 were released on Opensea as daily record, and this memorable #100 will be concluded, improved, and released on fx(hash).\n\nThere are 1000 unique Tashiro coming from 2,400,000 different combinations.\nSome special factors are the collab with JT's artwork. \n\nMy Twitter: https://twitter.com/tanshiro1986",
-            "tags": [
-              "cats",
-              "cat",
-              "animal",
-              "cute",
-              "colorful",
-              "p5js",
-              "japan",
-              "anime",
-              "cartoon",
-              "charactor",
-              "pfp"
-            ],
-            "generatorUri": "ipfs://QmWaAwopiC17bh7vs6hjai2dRUoxizXPFwiy52KC1csp5J",
-            "artifactUri": "ipfs://QmWaAwopiC17bh7vs6hjai2dRUoxizXPFwiy52KC1csp5J?fxhash=op8emBW2pNrWmtg5Lt8gndXkVA7zynPXYWJmcAGFvaZNpc1pWEi",
-            "displayUri": "ipfs://QmWj21SHKgoXcw1DteBPChTQM5tq1jRCThrWRdmZABdiy8",
-            "thumbnailUri": "ipfs://QmYQ7CUBnhpFPJfvxTkt37mcCyAKLT8cGz7L74z2sWAiJF",
-            "authenticityHash": "b12c199b4cfcf3f035bc5e80f96fc06f68f41aec59cbe344b079993e57fd7b55",
-            "attributes": [
-              {
-                "name": "Face",
-                "value": 6
-              },
-              {
-                "name": "Body",
-                "value": 15
-              },
-              {
-                "name": "Background",
-                "value": 8
-              },
-              {
-                "name": "Object",
-                "value": 3
-              },
-              {
-                "name": "Color",
-                "value": 2
-              }
-            ],
-            "decimals": 0,
-            "symbol": "GENTK",
-            "version": "0.2"
-          },
-          "duplicate": false,
-          "activeListing": {
-            "id": 501012,
-            "version": 1,
-            "price": 220000,
-            "__typename": "Listing"
-          },
-          "owner": {
-            "id": "tz1ZTCoxCpf2mAujoxt7ZxToxWByjqS2z2XJ",
-            "name": "CryptoRonin",
-            "flag": "NONE",
-            "avatarUri": "ipfs://Qmdy2ppxwA98c4LSF3bXUjm7Vq9iyMEvzuP6GrgbJqvFmS",
-            "__typename": "User"
-          },
-          "issuer": {
-            "flag": "CLEAN",
-            "name": "Unfavorable Tanshiro 100 | 不遇のタンシロくん 100",
-            "author": {
-              "id": "KT1XG1MkURrFJe2n6BLr9bHuhbWFuSDMHGYw",
-              "name": null,
-              "type": "COLLAB_CONTRACT_V1",
-              "avatarUri": null,
-              "flag": "NONE",
-              "collaborators": [
-                {
-                  "id": "tz1g1Q9X9tamozJLsA9pS4RHQKWiXS1gTduB",
-                  "name": "Unfavorable tanshiro",
-                  "avatarUri": "ipfs://QmTCNLaXEXQTmssfc6gkU5UEcEHQoZY8Uivm9JaF8qqkqN",
-                  "flag": "NONE",
-                  "__typename": "User"
-                },
-                {
-                  "id": "tz1YnnXf9o2dD4ZfMaQpA9NXbP7dJ2D5F3P7",
-                  "name": "JT | orangecat.nft",
-                  "avatarUri": "ipfs://QmWYZoHN7fvdzwpktSV5aam6D1prKLoG4cNMEPei8RWnQE",
-                  "flag": "VERIFIED",
-                  "__typename": "User"
-                }
-              ],
-              "__typename": "User"
-            },
-            "__typename": "GenerativeToken"
-          },
-          "__typename": "Objkt"
-        },
-        "__typename": "Listing"
-      },
-      {
-        "id": 501011,
-        "version": 1,
-        "price": 220000,
-        "objkt": {
-          "id": 839128,
-          "version": 1,
-          "name": "Unfavorable Tanshiro 100 | 不遇のタンシロくん 100 #41",
-          "slug": "unfavorable-tanshiro-100-or-100-41",
-          "metadata": {
-            "name": "Unfavorable Tanshiro 100 | 不遇のタンシロくん 100 #41",
-            "iterationHash": "ongxJXzHRjkcw1CL6VpM1WskNyfK8iU2Br3F9DbBNEyRy1juGhW",
-            "description": "This <Unfavorable tanshiro 100> will be the final release of this series. \n\nUnfavorable Tanshiro is a p5.js generative character made by @tanshiro1986.\nEveryday I draw a new factor, and post a unique Tanshiro on twitter. \n\nToday is the 100th day since Tanshiro's birth.\nUnfavorable Tanshiro #1~#99 were released on Opensea as daily record, and this memorable #100 will be concluded, improved, and released on fx(hash).\n\nThere are 1000 unique Tashiro coming from 2,400,000 different combinations.\nSome special factors are the collab with JT's artwork. \n\nMy Twitter: https://twitter.com/tanshiro1986",
-            "tags": [
-              "cats",
-              "cat",
-              "animal",
-              "cute",
-              "colorful",
-              "p5js",
-              "japan",
-              "anime",
-              "cartoon",
-              "charactor",
-              "pfp"
-            ],
-            "generatorUri": "ipfs://QmWaAwopiC17bh7vs6hjai2dRUoxizXPFwiy52KC1csp5J",
-            "artifactUri": "ipfs://QmWaAwopiC17bh7vs6hjai2dRUoxizXPFwiy52KC1csp5J?fxhash=ongxJXzHRjkcw1CL6VpM1WskNyfK8iU2Br3F9DbBNEyRy1juGhW",
-            "displayUri": "ipfs://QmczLk8qbjv1QjMp9ci2aNU4Soia2z3nGZudPU2FypqxU6",
-            "thumbnailUri": "ipfs://QmP82s6K4sArfhhBrRhmXj9TWUxShUrFfnpeF5L95NjygZ",
-            "authenticityHash": "2c6d4b4996d4a1cc95bc213501ba092b7251d0b0dbf8e1673e4489427277ed92",
-            "attributes": [
-              {
-                "name": "Face",
-                "value": 8
-              },
-              {
-                "name": "Body",
-                "value": 16
-              },
-              {
-                "name": "Background",
-                "value": 14
-              },
-              {
-                "name": "Object",
-                "value": 11
-              },
-              {
-                "name": "Color",
-                "value": 4
-              }
-            ],
-            "decimals": 0,
-            "symbol": "GENTK",
-            "version": "0.2"
-          },
-          "duplicate": false,
-          "activeListing": {
-            "id": 501011,
-            "version": 1,
-            "price": 220000,
-            "__typename": "Listing"
-          },
-          "owner": {
-            "id": "tz1ZTCoxCpf2mAujoxt7ZxToxWByjqS2z2XJ",
-            "name": "CryptoRonin",
-            "flag": "NONE",
-            "avatarUri": "ipfs://Qmdy2ppxwA98c4LSF3bXUjm7Vq9iyMEvzuP6GrgbJqvFmS",
-            "__typename": "User"
-          },
-          "issuer": {
-            "flag": "CLEAN",
-            "name": "Unfavorable Tanshiro 100 | 不遇のタンシロくん 100",
-            "author": {
-              "id": "KT1XG1MkURrFJe2n6BLr9bHuhbWFuSDMHGYw",
-              "name": null,
-              "type": "COLLAB_CONTRACT_V1",
-              "avatarUri": null,
-              "flag": "NONE",
-              "collaborators": [
-                {
-                  "id": "tz1g1Q9X9tamozJLsA9pS4RHQKWiXS1gTduB",
-                  "name": "Unfavorable tanshiro",
-                  "avatarUri": "ipfs://QmTCNLaXEXQTmssfc6gkU5UEcEHQoZY8Uivm9JaF8qqkqN",
-                  "flag": "NONE",
-                  "__typename": "User"
-                },
-                {
-                  "id": "tz1YnnXf9o2dD4ZfMaQpA9NXbP7dJ2D5F3P7",
-                  "name": "JT | orangecat.nft",
-                  "avatarUri": "ipfs://QmWYZoHN7fvdzwpktSV5aam6D1prKLoG4cNMEPei8RWnQE",
-                  "flag": "VERIFIED",
-                  "__typename": "User"
-                }
-              ],
-              "__typename": "User"
-            },
-            "__typename": "GenerativeToken"
-          },
-          "__typename": "Objkt"
-        },
-        "__typename": "Listing"
-      },
-      {
-        "id": 501010,
-        "version": 1,
-        "price": 220000,
-        "objkt": {
-          "id": 839135,
-          "version": 1,
-          "name": "Unfavorable Tanshiro 100 | 不遇のタンシロくん 100 #46",
-          "slug": "unfavorable-tanshiro-100-or-100-46",
-          "metadata": {
-            "name": "Unfavorable Tanshiro 100 | 不遇のタンシロくん 100 #46",
-            "iterationHash": "oozBzYw9R2ZLEfBEEpjw6r5V8qwcDpthTsi9hjARRSayxVCaBSD",
-            "description": "This <Unfavorable tanshiro 100> will be the final release of this series. \n\nUnfavorable Tanshiro is a p5.js generative character made by @tanshiro1986.\nEveryday I draw a new factor, and post a unique Tanshiro on twitter. \n\nToday is the 100th day since Tanshiro's birth.\nUnfavorable Tanshiro #1~#99 were released on Opensea as daily record, and this memorable #100 will be concluded, improved, and released on fx(hash).\n\nThere are 1000 unique Tashiro coming from 2,400,000 different combinations.\nSome special factors are the collab with JT's artwork. \n\nMy Twitter: https://twitter.com/tanshiro1986",
-            "tags": [
-              "cats",
-              "cat",
-              "animal",
-              "cute",
-              "colorful",
-              "p5js",
-              "japan",
-              "anime",
-              "cartoon",
-              "charactor",
-              "pfp"
-            ],
-            "generatorUri": "ipfs://QmWaAwopiC17bh7vs6hjai2dRUoxizXPFwiy52KC1csp5J",
-            "artifactUri": "ipfs://QmWaAwopiC17bh7vs6hjai2dRUoxizXPFwiy52KC1csp5J?fxhash=oozBzYw9R2ZLEfBEEpjw6r5V8qwcDpthTsi9hjARRSayxVCaBSD",
-            "displayUri": "ipfs://QmYRpe9nZt3f4rz4knp8PM5MHXcbHkKoVg7AG2HjCg7BC6",
-            "thumbnailUri": "ipfs://QmabFmriPBcRimjjTSHihWiQHm8oQVNNueCJMt7qE4by2n",
-            "authenticityHash": "c391fa95766fccba1880d78ff9be66672e76c754bfe93e34b5be6ad6b84da11f",
-            "attributes": [
-              {
-                "name": "Face",
-                "value": 2
-              },
-              {
-                "name": "Body",
-                "value": 14
-              },
-              {
-                "name": "Background",
-                "value": 13
-              },
-              {
-                "name": "Object",
-                "value": 15
-              },
-              {
-                "name": "Color",
-                "value": 9
-              }
-            ],
-            "decimals": 0,
-            "symbol": "GENTK",
-            "version": "0.2"
-          },
-          "duplicate": false,
-          "activeListing": {
-            "id": 501010,
-            "version": 1,
-            "price": 220000,
-            "__typename": "Listing"
-          },
-          "owner": {
-            "id": "tz1ZTCoxCpf2mAujoxt7ZxToxWByjqS2z2XJ",
-            "name": "CryptoRonin",
-            "flag": "NONE",
-            "avatarUri": "ipfs://Qmdy2ppxwA98c4LSF3bXUjm7Vq9iyMEvzuP6GrgbJqvFmS",
-            "__typename": "User"
-          },
-          "issuer": {
-            "flag": "CLEAN",
-            "name": "Unfavorable Tanshiro 100 | 不遇のタンシロくん 100",
-            "author": {
-              "id": "KT1XG1MkURrFJe2n6BLr9bHuhbWFuSDMHGYw",
-              "name": null,
-              "type": "COLLAB_CONTRACT_V1",
-              "avatarUri": null,
-              "flag": "NONE",
-              "collaborators": [
-                {
-                  "id": "tz1g1Q9X9tamozJLsA9pS4RHQKWiXS1gTduB",
-                  "name": "Unfavorable tanshiro",
-                  "avatarUri": "ipfs://QmTCNLaXEXQTmssfc6gkU5UEcEHQoZY8Uivm9JaF8qqkqN",
-                  "flag": "NONE",
-                  "__typename": "User"
-                },
-                {
-                  "id": "tz1YnnXf9o2dD4ZfMaQpA9NXbP7dJ2D5F3P7",
-                  "name": "JT | orangecat.nft",
-                  "avatarUri": "ipfs://QmWYZoHN7fvdzwpktSV5aam6D1prKLoG4cNMEPei8RWnQE",
-                  "flag": "VERIFIED",
-                  "__typename": "User"
-                }
-              ],
-              "__typename": "User"
-            },
-            "__typename": "GenerativeToken"
-          },
-          "__typename": "Objkt"
-        },
-        "__typename": "Listing"
-      },
-      {
-        "id": 501009,
-        "version": 1,
-        "price": 200000,
-        "objkt": {
-          "id": 847897,
-          "version": 1,
-          "name": "FX_D3M0NS #217",
-          "slug": "fx_d3m0ns-217",
-          "metadata": {
-            "name": "FX_D3M0NS #217",
-            "iterationHash": "ooAaWFuWH1wkHGiPtFQ17B5wNHLYGsN9K9P9HfLWGWEbpSmVhn3",
-            "description": "FX_D3M0NS is a fun Generative PFP project designed to give back to the Tezos Community and most importantly spotlight some INCREDIBLE artist.  I have wanted to create a D3M0N collection that was Generative for a while, and I also have a DEEP PASSION for showcasing other artist which led me to a great idea.  This project has been a goal of mine for a long time and I am truly Excited because of the artists that got involved.  It will be fun to see a canvas from an artist as profile picture, thus making the \"skin\" of the D3M0Ns the artists spotlight.  Have fun collecting and please share your favorites!\n\nTwitter: @FX_D3M0NS\n\n\"Skins\" Designed by (no particular order): \n@_loopymoon\n@the_grecu\n@DoodleALatte\n@CustomHorror\n@iamwesselart\n@MelShapcott\n@AnnaNatter\n@KX________\n@PixelBuddyJam\n\nCODED BY:\n@PureSpider\n",
-            "tags": [
-              "D3M0NS",
-              "PFP",
-              "LOOPYMOON",
-              "IAMWESSEL",
-              "THEGRECU",
-              "PIXELBUDDYJAM",
-              "DOODLEALATTE",
-              "CUSTOMHORROR",
-              "MELSHAPCOTT",
-              "ANNANATTER",
-              "KX",
-              "PURESPIDER"
-            ],
-            "generatorUri": "ipfs://QmQ3zNz7238vPJMUq8EmPatstweLh9BKPKveT1gg3CbRQP",
-            "artifactUri": "ipfs://QmQ3zNz7238vPJMUq8EmPatstweLh9BKPKveT1gg3CbRQP?fxhash=ooAaWFuWH1wkHGiPtFQ17B5wNHLYGsN9K9P9HfLWGWEbpSmVhn3",
-            "displayUri": "ipfs://QmQXirGbe3SBLHufeKuQTnt4Mzny2Qs1nV3GrsSRFaxxAq",
-            "thumbnailUri": "ipfs://Qma496q9nmrNCDCgnQu19sjv58VdCRmxq3WCdySVUa888u",
-            "authenticityHash": "b87a839c8cf445ce8f791bb8d78ab040136b40c42d92face6365741975d256cf",
-            "attributes": [
-              {
-                "name": "bAcKgRound",
-                "value": "cHarCoal"
-              },
-              {
-                "name": "D3M0Ns",
-                "value": "MELSHAPCOTT 0"
-              },
-              {
-                "name": "taTs",
-                "value": "EDGAR ALLEN CROW"
-              },
-              {
-                "name": "faCeStufF",
-                "value": "SKETCHY"
-              },
-              {
-                "name": "wEirDsTuFf",
-                "value": "NONE"
-              },
-              {
-                "name": "sPeciAls",
-                "value": "TEAL BANDANA"
-              },
-              {
-                "name": "bORdeR",
-                "value": "NONE"
-              },
-              {
-                "name": "rAreStuFf",
-                "value": "NONE"
-              }
-            ],
-            "decimals": 0,
-            "symbol": "GENTK",
-            "version": "0.2"
-          },
-          "duplicate": false,
-          "activeListing": {
-            "id": 501009,
-            "version": 1,
-            "price": 200000,
-            "__typename": "Listing"
-          },
-          "owner": {
-            "id": "tz1ZTCoxCpf2mAujoxt7ZxToxWByjqS2z2XJ",
-            "name": "CryptoRonin",
-            "flag": "NONE",
-            "avatarUri": "ipfs://Qmdy2ppxwA98c4LSF3bXUjm7Vq9iyMEvzuP6GrgbJqvFmS",
-            "__typename": "User"
-          },
-          "issuer": {
-            "flag": "NONE",
-            "name": "FX_D3M0NS",
-            "author": {
-              "id": "tz1ME3HTVzFvk9bRpqT9sMS1avJ2RaM3EkXX",
-              "name": "PIXELBUDDYJAM",
-              "type": "REGULAR",
-              "avatarUri": "ipfs://QmQtZyqNkYVNLPcXt8TcKefG7BzwaCrHfJ9qBoeReEKBGA",
-              "flag": "NONE",
-              "collaborators": null,
-              "__typename": "User"
-            },
-            "__typename": "GenerativeToken"
-          },
-          "__typename": "Objkt"
-        },
-        "__typename": "Listing"
-      },
-      {
-        "id": 501008,
-        "version": 1,
-        "price": 200000,
-        "objkt": {
-          "id": 847908,
-          "version": 1,
-          "name": "FX_D3M0NS #227",
-          "slug": "fx_d3m0ns-227",
-          "metadata": {
-            "name": "FX_D3M0NS #227",
-            "iterationHash": "ooXZiJizFscJvz4cuLMA2XBGW3MGpB2RCG3tTjitcLqVHdqfemo",
-            "description": "FX_D3M0NS is a fun Generative PFP project designed to give back to the Tezos Community and most importantly spotlight some INCREDIBLE artist.  I have wanted to create a D3M0N collection that was Generative for a while, and I also have a DEEP PASSION for showcasing other artist which led me to a great idea.  This project has been a goal of mine for a long time and I am truly Excited because of the artists that got involved.  It will be fun to see a canvas from an artist as profile picture, thus making the \"skin\" of the D3M0Ns the artists spotlight.  Have fun collecting and please share your favorites!\n\nTwitter: @FX_D3M0NS\n\n\"Skins\" Designed by (no particular order): \n@_loopymoon\n@the_grecu\n@DoodleALatte\n@CustomHorror\n@iamwesselart\n@MelShapcott\n@AnnaNatter\n@KX________\n@PixelBuddyJam\n\nCODED BY:\n@PureSpider\n",
-            "tags": [
-              "D3M0NS",
-              "PFP",
-              "LOOPYMOON",
-              "IAMWESSEL",
-              "THEGRECU",
-              "PIXELBUDDYJAM",
-              "DOODLEALATTE",
-              "CUSTOMHORROR",
-              "MELSHAPCOTT",
-              "ANNANATTER",
-              "KX",
-              "PURESPIDER"
-            ],
-            "generatorUri": "ipfs://QmQ3zNz7238vPJMUq8EmPatstweLh9BKPKveT1gg3CbRQP",
-            "artifactUri": "ipfs://QmQ3zNz7238vPJMUq8EmPatstweLh9BKPKveT1gg3CbRQP?fxhash=ooXZiJizFscJvz4cuLMA2XBGW3MGpB2RCG3tTjitcLqVHdqfemo",
-            "displayUri": "ipfs://QmYfEvKxzKZTXMTdYCBNN1jnGtcX91apP9zzhUCN9i7XSU",
-            "thumbnailUri": "ipfs://QmPvJfqTZLRDyT3gAL1dMckWYoBzoom5UaxWWwxyopS49o",
-            "authenticityHash": "ec3397a96388875cbda68b799c914979eafebe3b103c16d81353a4e8989dbb44",
-            "attributes": [
-              {
-                "name": "bAcKgRound",
-                "value": "cHarCoal"
-              },
-              {
-                "name": "D3M0Ns",
-                "value": "SUNSET 0"
-              },
-              {
-                "name": "taTs",
-                "value": "CARDS"
-              },
-              {
-                "name": "faCeStufF",
-                "value": "GHOST"
-              },
-              {
-                "name": "wEirDsTuFf",
-                "value": "NONE"
-              },
-              {
-                "name": "sPeciAls",
-                "value": "YELLOW WORM"
-              },
-              {
-                "name": "bORdeR",
-                "value": "NONE"
-              },
-              {
-                "name": "rAreStuFf",
-                "value": "NONE"
-              }
-            ],
-            "decimals": 0,
-            "symbol": "GENTK",
-            "version": "0.2"
-          },
-          "duplicate": false,
-          "activeListing": {
-            "id": 501008,
-            "version": 1,
-            "price": 200000,
-            "__typename": "Listing"
-          },
-          "owner": {
-            "id": "tz1ZTCoxCpf2mAujoxt7ZxToxWByjqS2z2XJ",
-            "name": "CryptoRonin",
-            "flag": "NONE",
-            "avatarUri": "ipfs://Qmdy2ppxwA98c4LSF3bXUjm7Vq9iyMEvzuP6GrgbJqvFmS",
-            "__typename": "User"
-          },
-          "issuer": {
-            "flag": "NONE",
-            "name": "FX_D3M0NS",
-            "author": {
-              "id": "tz1ME3HTVzFvk9bRpqT9sMS1avJ2RaM3EkXX",
-              "name": "PIXELBUDDYJAM",
-              "type": "REGULAR",
-              "avatarUri": "ipfs://QmQtZyqNkYVNLPcXt8TcKefG7BzwaCrHfJ9qBoeReEKBGA",
-              "flag": "NONE",
-              "collaborators": null,
-              "__typename": "User"
-            },
-            "__typename": "GenerativeToken"
-          },
-          "__typename": "Objkt"
-        },
-        "__typename": "Listing"
-      },
-      {
-        "id": 501007,
-        "version": 1,
-        "price": 165000000,
-        "objkt": {
-          "id": 47586,
-          "version": 0,
-          "name": "Reading a book #625",
-          "slug": "reading-a-book-625",
-          "metadata": {
-            "name": "Reading a book #625",
-            "iterationHash": "oowm28hSZWbSvXEpSbTebWF3gMLsZSgVeLazuxVPwF7NMsdpZrW",
-            "description": "The formal structure of a book is beautiful by itself, but its aesthetic is the tacit atmosphere within which events take place in a story.\n\nThe WebGL real-time animation sets up an initial grid based on the fxhash. The grid cells get subdivided into another grid and the resulting cells become filled with pixels in color (~33%) or black and white (~66%).\nThe colored pixels come in 3 different coloring styles.\n- Big Palette (~49%)\n- Small Palette (~49%)\n- Monochrome [b/w] (~2%)\n4 noise algorithms modify the pixels of selected grid cells while at the same time 4 reset algorithms reassemble the initial image. The selected cells switch over time.",
-            "tags": [
-              "real-time",
-              "glsl",
-              "webgl",
-              "glitch",
-              "kimasendorf",
-              "pixel"
-            ],
-            "artifactUri": "ipfs://QmYQq35yD77krqADhwmZd9mC7ws3NwtVUJWXAFdx4ENYc9",
-            "displayUri": "ipfs://QmeNFJaAMGuWcuBhh5aifLgBqSjxWmjyR3Eb2nRSuYCQYe",
-            "thumbnailUri": "ipfs://QmShAFW1iiAhGxmsLj8D47qQhFs8Na5UHtiTj2YKi49oeB",
-            "authenticityHash": "dfc955ac15c15d8485b56e6cb9ee0b469ea678945fb19c7ff7c517ac0d2a6a6e",
-            "attributes": [
-              {
-                "name": "Color Style",
-                "value": "Small Palette"
-              },
-              {
-                "name": "Number of Colors",
-                "value": 5
-              },
-              {
-                "name": "Columns",
-                "value": 2
-              },
-              {
-                "name": "Rows",
-                "value": 19
-              }
-            ],
-            "decimals": 0,
-            "symbol": "GENTK"
-          },
-          "duplicate": false,
-          "activeListing": {
-            "id": 501007,
-            "version": 1,
-            "price": 165000000,
-            "__typename": "Listing"
-          },
-          "owner": {
-            "id": "tz1iD1ERTjngtrS6i1dCrok3CmNGMHUCyJWP",
-            "name": null,
-            "flag": "NONE",
-            "avatarUri": null,
-            "__typename": "User"
-          },
-          "issuer": {
-            "flag": "NONE",
-            "name": "Reading a book",
-            "author": {
-              "id": "tz1N1vuWBsDtGMyj3No8NfeJdCBFu8v6gvSX",
-              "name": "Kim Asendorf",
-              "type": "REGULAR",
-              "avatarUri": "ipfs://Qmcw4j7AC7A7APgJPAKAM1M3voHftejiRVwBTJxPVu7pn4",
-              "flag": "VERIFIED",
-              "collaborators": null,
-              "__typename": "User"
-            },
-            "__typename": "GenerativeToken"
-          },
-          "__typename": "Objkt"
-        },
-        "__typename": "Listing"
-      },
-      {
-        "id": 501006,
-        "version": 1,
-        "price": 10000000,
-        "objkt": {
-          "id": 1168447,
-          "version": 1,
-          "name": "pfp of the queen #9",
-          "slug": "pfp-of-the-queen-9",
-          "metadata": {
-            "name": "pfp of the queen #9",
-            "iterationHash": "ooV8JszpAAgWm8HHB2XrMbXNNmmztnYGWLC8VXgVV5vegAtAUQ9",
-            "description": "\nIn this project, I have tried to produce tokens as a souvenir of the Queen of England\nThe combination of clothes and jewelry with each other has been observed exactly like the taste of the queen herself and her designers\nI hope you like them",
-            "tags": [
-              "pfp",
-              "queen",
-              "art",
-              "2d",
-              "texture",
-              "england",
-              "king"
-            ],
-            "generatorUri": "ipfs://QmTjFvPUWM3WSh2STiUm9S2jmmTXqGgozLRe4DTTr7C1dr",
-            "artifactUri": "ipfs://QmTjFvPUWM3WSh2STiUm9S2jmmTXqGgozLRe4DTTr7C1dr?fxhash=ooV8JszpAAgWm8HHB2XrMbXNNmmztnYGWLC8VXgVV5vegAtAUQ9",
-            "displayUri": "ipfs://QmPU7xyY3RkbmF6heaKZdyuhcvpuJsgagnMdZJLAtqWcnb",
-            "thumbnailUri": "ipfs://QmRXW857Gtjnb2HjVqAEpd4aZwHp67RZN2qUw5qzH1Y76n",
-            "authenticityHash": "d8bd0d4972b5a1e15c524a6d6460eba5d52be66c039a1940859aef8ebe275039",
-            "attributes": [
-              {
-                "name": "back",
-                "value": "back7"
-              },
-              {
-                "name": "face",
-                "value": "face1"
-              },
-              {
-                "name": "cloths",
-                "value": "cloths12"
-              },
-              {
-                "name": "lips",
-                "value": "lips3"
-              },
-              {
-                "name": "Jewellery",
-                "value": "Jewellery11"
-              },
-              {
-                "name": "fg",
-                "value": "fg1"
-              }
-            ],
-            "decimals": 0,
-            "symbol": "GENTK",
-            "version": "0.2"
-          },
-          "duplicate": false,
-          "activeListing": {
-            "id": 501006,
-            "version": 1,
-            "price": 10000000,
-            "__typename": "Listing"
-          },
-          "owner": {
-            "id": "tz1atXxrEfPwhvdixW74bh5qWLxqKmAcxvw8",
-            "name": "Meds.tez",
-            "flag": "NONE",
-            "avatarUri": "ipfs://QmWmR4N4kdW8CyWd2ZiW7J7ZKdofiuwN3Ga2s7bzvMitRg",
-            "__typename": "User"
-          },
-          "issuer": {
-            "flag": "NONE",
-            "name": "pfp of the queen",
-            "author": {
-              "id": "tz1Yx6Qca71m4zdLTRJiYYb68NDkfV8riDop",
-              "name": "AydaEtb",
-              "type": "REGULAR",
-              "avatarUri": "ipfs://QmaJcCGNbeovikWjpe79nN6bLYsKniza6emaqHTkJBPHG6",
-              "flag": "NONE",
-              "collaborators": null,
-              "__typename": "User"
-            },
-            "__typename": "GenerativeToken"
-          },
-          "__typename": "Objkt"
-        },
-        "__typename": "Listing"
-      },
-      {
-        "id": 501005,
-        "version": 1,
-        "price": 30000000,
-        "objkt": {
-          "id": 343044,
-          "version": 0,
-          "name": "Shapely Crew #66",
-          "slug": "shapely-crew-66",
-          "metadata": {
-            "name": "Shapely Crew #66",
-            "iterationHash": "ooPANue2KYMi7UNJfc2eEBbVbvoBukPdTKV9fV6bDCPNrnNVFYn",
-            "description": "Shapely Crew in collaboration with Joe Chain\n tw: @JoeChain13\nas: https://www.artstation.com/ceda90\n\n Vukasin Stancevic  tw: @lomzart\nweb: https://www.lomz.net\n  Rarity: COMMON 5/10 UNCOMMON 3/10 RARE 2/10 EPIC 1/10",
-            "tags": [
-              "p5js",
-              "cards"
-            ],
-            "generatorUri": "ipfs://QmVfr4iXhKMXTPyh6GF4dRAcLxb41iFqYWoaCin3za6cEA",
-            "artifactUri": "ipfs://QmVfr4iXhKMXTPyh6GF4dRAcLxb41iFqYWoaCin3za6cEA?fxhash=ooPANue2KYMi7UNJfc2eEBbVbvoBukPdTKV9fV6bDCPNrnNVFYn",
-            "displayUri": "ipfs://QmRLYyoynNGaKaNvD6K739wfjy8dHiE34doyEjdBLpLo1h",
-            "thumbnailUri": "ipfs://QmabLGZuwDw2xoAKFFvMU3mT8ZbG486zxnZkhhpcLeTBpd",
-            "authenticityHash": "c21c2d4064b6606f9aa08dffc46727a5d87bbfff210c4e3e485bce093c0c1084",
-            "attributes": [],
-            "decimals": 0,
-            "symbol": "GENTK",
-            "version": "0.2"
-          },
-          "duplicate": false,
-          "activeListing": {
-            "id": 501005,
-            "version": 1,
-            "price": 30000000,
-            "__typename": "Listing"
-          },
-          "owner": {
-            "id": "tz2S4MxMyMRFt7vRt5osp8LioFNbk2DZdPe8",
-            "name": "Gabriele GenArt",
-            "flag": "VERIFIED",
-            "avatarUri": "ipfs://QmfRXKj2oZYBXtdqdkZyDw2rMVKGoiR25zKSA94TegHJv3",
-            "__typename": "User"
-          },
-          "issuer": {
-            "flag": "NONE",
-            "name": "Shapely Crew",
-            "author": {
-              "id": "tz1gYwgGhpxjt4po3f53P1t1sS3osPondHwW",
-              "name": "lomz",
-              "type": "REGULAR",
-              "avatarUri": "ipfs://QmWar55kg2Yvmwpbg7J9cUcdWnNgF5JfPYNrmFDRgiK1EY",
-              "flag": "VERIFIED",
-              "collaborators": null,
-              "__typename": "User"
-            },
-            "__typename": "GenerativeToken"
-          },
-          "__typename": "Objkt"
-        },
-        "__typename": "Listing"
-      },
-      {
-        "id": 501004,
-        "version": 1,
-        "price": 229000000,
-        "objkt": {
-          "id": 907516,
-          "version": 1,
-          "name": "Elevation #126",
-          "slug": "elevation-126",
-          "metadata": {
-            "name": "Elevation #126",
-            "iterationHash": "opDFvPHUMj6UGGgzLkXPgK5Sbu9AZtyvoy2GrJFJusG7x5AoCPj",
-            "description": "There’s so much more to our world than what we are able to perceive, let alone understand. Will we ever be able to even fully understand ourselves?\n\n–\n\nElevation is a series of 320 generative elevation drawings of imaginary structures. It is a reminder of the limits of our consciousness, and an ode to the manifold nuances that lie beyond what we can perceive, beyond what we even can imagine.\n\nAs a generative artist, I aim to elevate my own consciousness with the help of the machine. I welcome algorithms and randomness into the creation of my works, taking full control, and intentionally giving it away, always seeking to expand my imagination. For as humans alone, we remain limited to our own edifice of thought, and often fail to free ourselves from the visible, mundane world.\n\nBoth are present in Elevation: the visible and the imaginary, the mundane and the transcendent, the solid and the fragile. Where an architect’s elevation drawing marks the transition from the thought world into the visible world, Elevation remains in-between, depicting both the idea of an imaginary structure, and the structure itself.\n\n–\n\nElevation is intended for print. All holders of an Elevation NFT will be able to order the corresponding signed print in the respective paper format via andreasrau.eu/elevation. Press [s] to save the image as displayed or [p] to generate a print-ready PNG image at 300 dpi. This might take a while, depending on paper format and your hardware.\n\n–\n\nElevation\np5.js, glsl, html, css\nAndreas Rau, 2022",
-            "tags": [
-              "andreasrau",
-              "elevation",
-              "generative",
-              "generativeart",
-              "abstract",
-              "p5js"
-            ],
-            "generatorUri": "ipfs://QmV3SFEnf9gxak2giZRnwH4PZS8bKXSKP1hJuSFhSNus6W",
-            "artifactUri": "ipfs://QmV3SFEnf9gxak2giZRnwH4PZS8bKXSKP1hJuSFhSNus6W?fxhash=opDFvPHUMj6UGGgzLkXPgK5Sbu9AZtyvoy2GrJFJusG7x5AoCPj",
-            "displayUri": "ipfs://QmcHp8Krr8cWpdmQD7UEyUnzUW5kdvXTf5E4JBxwCfAVE2",
-            "thumbnailUri": "ipfs://QmfNVy4fvggwpZ4D6JsC7Zp3Nh2t2Gwh38dpEzNbHscAuW",
-            "authenticityHash": "c2e68938788dd9d4cdce5bbb0d8be594105ebbaa6baff57119f7c320c4c25554",
-            "attributes": [
-              {
-                "name": "Format",
-                "value": "A4 landscape"
-              },
-              {
-                "name": "Palette",
-                "value": "Aalto"
-              },
-              {
-                "name": "Grid",
-                "value": "Regular"
-              },
-              {
-                "name": "Show grid",
-                "value": true
-              },
-              {
-                "name": "Texture",
-                "value": "uniform"
-              }
-            ],
-            "decimals": 0,
-            "symbol": "GENTK",
-            "version": "0.2"
-          },
-          "duplicate": false,
-          "activeListing": {
-            "id": 501004,
-            "version": 1,
-            "price": 229000000,
-            "__typename": "Listing"
-          },
-          "owner": {
-            "id": "tz1iD1ERTjngtrS6i1dCrok3CmNGMHUCyJWP",
-            "name": null,
-            "flag": "NONE",
-            "avatarUri": null,
-            "__typename": "User"
-          },
-          "issuer": {
-            "flag": "NONE",
-            "name": "Elevation",
-            "author": {
-              "id": "tz1Roq6end2LFtkpGrmuyRZH82xsWfaRCat1",
-              "name": "andreasrau",
-              "type": "REGULAR",
-              "avatarUri": "ipfs://QmVpDdbgepazjzkcRc3MJpex46QRFKRdDZMdKpY53XzJ1s",
-              "flag": "VERIFIED",
-              "collaborators": null,
-              "__typename": "User"
-            },
-            "__typename": "GenerativeToken"
-          },
-          "__typename": "Objkt"
-        },
-        "__typename": "Listing"
-      },
-      {
-        "id": 501002,
-        "version": 1,
-        "price": 8880000,
-        "objkt": {
-          "id": 862803,
-          "version": 1,
-          "name": "Overcrowded #140",
-          "slug": "overcrowded-140",
-          "metadata": {
-            "name": "Overcrowded #140",
-            "iterationHash": "onxpHtvZfeiZvUSeSZABbYKmBeM8N2frsy4ZokcjHvQKhAaoZKy",
-            "description": "There's no room left in heaven.\n\n\nMade with p5js\nLicense: CC0\n\n",
-            "tags": [
-              "p5",
-              "filler",
-              "particles"
-            ],
-            "generatorUri": "ipfs://QmasU9cLeA83cCMuxEzdJdrgrdd7BCE5isCWeuh1WBzTsU",
-            "artifactUri": "ipfs://QmasU9cLeA83cCMuxEzdJdrgrdd7BCE5isCWeuh1WBzTsU?fxhash=onxpHtvZfeiZvUSeSZABbYKmBeM8N2frsy4ZokcjHvQKhAaoZKy",
-            "displayUri": "ipfs://QmWj5EU1tKa35NjnGriC9t5YkgKvnmGC1ysqFE6jaYJT6N",
-            "thumbnailUri": "ipfs://QmSpVbNyfk6JGC7qEoZ8JMGyU85pEMhFBAXCaCdxAn2tbh",
-            "authenticityHash": "b6e2e6fe5b284aa6cbbb13a734b2450f095609203a018e17bcf3114e7ddbdcee",
-            "attributes": true,
-            "decimals": 0,
-            "symbol": "GENTK",
-            "version": "0.2"
-          },
-          "duplicate": false,
-          "activeListing": {
-            "id": 501002,
-            "version": 1,
-            "price": 8880000,
-            "__typename": "Listing"
-          },
-          "owner": {
-            "id": "tz1ZTCoxCpf2mAujoxt7ZxToxWByjqS2z2XJ",
-            "name": "CryptoRonin",
-            "flag": "NONE",
-            "avatarUri": "ipfs://Qmdy2ppxwA98c4LSF3bXUjm7Vq9iyMEvzuP6GrgbJqvFmS",
-            "__typename": "User"
-          },
-          "issuer": {
-            "flag": "NONE",
-            "name": "Overcrowded",
-            "author": {
-              "id": "tz1eEt3svgSQX5FGb8kZ9ejRdc9eQSG8GDxk",
-              "name": "Fernando Jerez",
-              "type": "REGULAR",
-              "avatarUri": "ipfs://QmXDzrwv2kBip93ZU8n5P6TyzA7CoaL3N9z3e8GwprQeEZ",
-              "flag": "VERIFIED",
-              "collaborators": null,
-              "__typename": "User"
-            },
-            "__typename": "GenerativeToken"
-          },
-          "__typename": "Objkt"
-        },
-        "__typename": "Listing"
-      },
-      {
-        "id": 501001,
-        "version": 1,
-        "price": 100000000,
-        "objkt": {
-          "id": 1084794,
-          "version": 1,
-          "name": "Emotional Shell #266",
-          "slug": "emotional-shell-266",
-          "metadata": {
-            "name": "Emotional Shell #266",
-            "iterationHash": "oo7syYc9VBPVrb1jYFgLcJquCenAyqzz6Hq7WAugTMnLL8otcgo",
-            "description": "Manual Dutch Auction (DA): 72 · 54 · 40 · 30 · 24 · 20 every 8 minutes.\nAuction will stop changing price when non-reserves are fully minted, and then drop one price tier.\n\n---------\n\nThe feeling of being human – with all of its intricate hopes, struggles, and fleeting emotions – seems so unique that we assume artificial intelligence could never replicate our experience. And while we devise systems for solving unfathomably complex problems, generating algorithmic creativity, and unlocking regenerative biological possibilities, we simultaneously cling to the power and originality of emotional feeling – believing it to be the irreplaceable source of what makes us human.\n\nIf the body is our shell for emotion and soul, can an artificial humanoid be another vessel for these thoughts and feelings – for human essence itself? If our ‘soul’ is the last stand between us and the machines, what happens when the soul becomes transferable? That we may see answers to these questions looks more real every year, and is perhaps a little frightening. \n\nEmotional Shell uses introspective portraits of future selves to question what it means to be human, when the people around us are no longer human.\n\n---------\n\nWarning: This piece is GPU intensive, it may not render on lower end devices.\n\nPress 1-3 to select from low, medium, and high quality settings\nPress 'S' to save the image at the current scale\nPress 'H' to save the image at 2400px resolution\n\nCreated with Three.js\nFor third party license information, please see bundle.js.LICENSE.txt\n\n---------\n\nTENDER x wwatkns\nAugust 2022",
-            "tags": [
-              "Portrait",
-              "Android",
-              "Face",
-              "Figurative",
-              "Blur"
-            ],
-            "generatorUri": "ipfs://QmdKRyS1mm88TSaLyJLCZHJqxbdBkXoU5yikwJHCnSP1zY",
-            "artifactUri": "ipfs://QmdKRyS1mm88TSaLyJLCZHJqxbdBkXoU5yikwJHCnSP1zY?fxhash=oo7syYc9VBPVrb1jYFgLcJquCenAyqzz6Hq7WAugTMnLL8otcgo",
-            "displayUri": "ipfs://QmTCkAt6Mp4tr9hM7D5eg9886xvXVeuGHo7yCXqEtQDUiR",
-            "thumbnailUri": "ipfs://Qmaa4JTgacGFofNN8twjL56tf8fF93v58Yp6byZu8ApQcb",
-            "authenticityHash": "24bd4cf11c375de8d54793bbf8fa164fb39462f648f7ec6743b71470f933564b",
-            "attributes": [
-              {
-                "name": "animation",
-                "value": 27
-              },
-              {
-                "name": "light",
-                "value": 24
-              },
-              {
-                "name": "variation",
-                "value": "trail"
-              },
-              {
-                "name": "eyeType",
-                "value": "glow"
-              },
-              {
-                "name": "color",
-                "value": "cornflower-blue"
-              },
-              {
-                "name": "tone",
-                "value": "grayishDust"
-              },
-              {
-                "name": "glitch",
-                "value": false
-              }
-            ],
-            "decimals": 0,
-            "symbol": "GENTK",
-            "version": "0.2"
-          },
-          "duplicate": false,
-          "activeListing": {
-            "id": 501001,
-            "version": 1,
-            "price": 100000000,
-            "__typename": "Listing"
-          },
-          "owner": {
-            "id": "tz1iD1ERTjngtrS6i1dCrok3CmNGMHUCyJWP",
-            "name": null,
-            "flag": "NONE",
-            "avatarUri": null,
-            "__typename": "User"
-          },
-          "issuer": {
-            "flag": "NONE",
-            "name": "Emotional Shell",
-            "author": {
-              "id": "KT1PfwMgGmg1uCrSa931TmReWoTYGxfyCYCM",
-              "name": null,
-              "type": "COLLAB_CONTRACT_V1",
-              "avatarUri": null,
-              "flag": "NONE",
-              "collaborators": [
-                {
-                  "id": "tz1NmZAWpGzA8U3t7WBefVNwQfcCZoz3oMvi",
-                  "name": "TENDER x",
-                  "avatarUri": "ipfs://QmR3fMt1gSoXguocaaNGyTbHWBTy6A4VXDNy2of5WvqDff",
-                  "flag": "VERIFIED",
-                  "__typename": "User"
-                },
-                {
-                  "id": "tz1TSWBRGdDShXCAKhDkfLLx8SetxZK8kCmz",
-                  "name": "wwatkns",
-                  "avatarUri": "ipfs://QmNuK15T67tH172twj2HuL5ADCfg8uLA1GT4wbmpmjQWM8",
-                  "flag": "VERIFIED",
-                  "__typename": "User"
-                }
-              ],
-              "__typename": "User"
-            },
-            "__typename": "GenerativeToken"
-          },
-          "__typename": "Objkt"
-        },
-        "__typename": "Listing"
-      },
-      {
-        "id": 501000,
-        "version": 1,
-        "price": 75000000,
-        "objkt": {
-          "id": 1151919,
-          "version": 1,
-          "name": "A Strange Loop #146",
-          "slug": "a-strange-loop-146",
-          "metadata": {
-            "name": "A Strange Loop #146",
-            "iterationHash": "opXNv6AiLy5cv1rmEC2iUUR8ieK115538cFcmydCDcz4nZh7Awk",
-            "description": "[ TAP/CLICK TO ACTIVATE SOUND ]\n\nA whiff of pattern begins to emerge. Out of disarray comes the familiar pulsation of an ordered signal. The sense of regularity strengthens and we feel it swelling towards a singularity. Heeere weeee goooo… BAM! Then off again marching back into chaos to repeat the cycle.\n\nProposed by cognitive scientist Douglas Hofstadter in his 1979 book “Gödel, Escher, Bach”, and further developed in his 2007 book “I Am a Strange Loop”, “Strange Loops” are Hofstadter’s attempt at explaining the mechanisms that give rise to the sensation of “I” - through hierarchical, self-referential, and at times seemingly paradoxical feedback-loops of abstraction and causality. \n\n—\n\n“Who shoves whom around in the tangled megaganglion that is your brain, and who shoves whom around in ‘this teetering bulb of dread and dream’ that is mine?”\n\n“Do dreads and dreams, hopes and griefs, ideas and beliefs, interests and doubts, infatuations and envies, memories and ambitions, bouts of nostalgia and floods of empathy, flashes of guilt and sparks of genius, play any role in the world of physical objects? Do such pure abstractions have causal powers? Can they shove massive things around, or are they just impotent fictions?” \n\n\"In the end, we are self-perceiving, self-inventing, locked-in mirages that are little miracles of self-reference. [...] Poised midway between the unvisualizable cosmic vastness of curved spacetime and the dubious, shadowy flickerings of charged quanta, we human beings, more like rainbows and mirages than like raindrops or boulders, are unpredictable self-writing poems — vague, metaphorical, ambiguous, and sometimes exceedingly beautiful.”\n\n- Douglas Hofstadter, “I Am a Strange Loop”, 2007\n\n–-\n\nMemo Akten \nƈօʍքʊtǟtɨօռǟʟ Aʀȶɨֆȶ; AI wrangler; curious philomath; PhD in Creative Artificial Intelligence with Meaningful Human Control; works with code to create images, sounds, films, large-scale responsive installations and performances; fascinated by trying to understand the nature of nature and the human condition.\n\nJames Paterson \nSynthesizing drawing, animation, sculpture and code under the moniker Presstube since 1999. Inspired by meditation, molecular biology, music, parenting, psychedelics, the seen, the heard, the felt, the cognized.\n\n–-\n\nControls:\n- CLICK/TAP ONCE ON THE SCREEN TO ACTIVATE SOUND\n- ‘S’: to toggle Sound on/off (only works when opened fullscreen)",
-            "tags": [
-              "presstube",
-              "memoakten",
-              "jamespaterson",
-              "memotv",
-              "animation",
-              "collab",
-              "generative",
-              "sound",
-              "consciousness",
-              "loop",
-              "strange",
-              "strangeloop",
-              "framebyframe",
-              "chaos",
-              "order",
-              "emergence",
-              "singularity",
-              "fxcollab",
-              "fxc012"
-            ],
-            "generatorUri": "ipfs://QmV7ecJNnF4zZhLohetpVkQTnD3oasP7mswVwJ6Q26kTBj",
-            "artifactUri": "ipfs://QmV7ecJNnF4zZhLohetpVkQTnD3oasP7mswVwJ6Q26kTBj?fxhash=opXNv6AiLy5cv1rmEC2iUUR8ieK115538cFcmydCDcz4nZh7Awk",
-            "displayUri": "ipfs://QmQ6CEn21CD1kwZv8bA393ogqLx5TEmCAYYNwnuzsvVmpv",
-            "thumbnailUri": "ipfs://QmafxYNsiQikRsiVYP61GiNfGBkv9HHh9zwjASYp8dpcBe",
-            "authenticityHash": "29d3581aeb3cdc2cc8537c2180743624aaa55e9b13b8f03457869fa9c1de9cb4",
-            "attributes": true,
-            "decimals": 0,
-            "symbol": "GENTK",
-            "version": "0.2"
-          },
-          "duplicate": false,
-          "activeListing": {
-            "id": 501000,
-            "version": 1,
-            "price": 75000000,
-            "__typename": "Listing"
-          },
-          "owner": {
-            "id": "tz1iYXPauJThJeCJYfDFThpwYNCUt8yESdDJ",
-            "name": "Battleton",
-            "flag": "NONE",
-            "avatarUri": "ipfs://QmRPxDvNNoazbLnCS4hK9hDuTNvS65BBC8Pi7RqcAnXxpg",
-            "__typename": "User"
-          },
-          "issuer": {
-            "flag": "NONE",
-            "name": "A Strange Loop",
-            "author": {
-              "id": "KT1LZ9MP2RafyVoZMpZm3TQ9BHERouuyKXUD",
-              "name": null,
-              "type": "COLLAB_CONTRACT_V1",
-              "avatarUri": null,
-              "flag": "NONE",
-              "collaborators": [
-                {
-                  "id": "tz1Z1pDsbfuF7t6fHfbVxhjhouRemXuREpH5",
-                  "name": "memoakten",
-                  "avatarUri": "ipfs://QmVAFhXy2wEmJ3uJFuBsHxBbjaV9BNu2ugg2iU3BX6NnyV",
-                  "flag": "VERIFIED",
-                  "__typename": "User"
-                },
-                {
-                  "id": "tz1ZMDCUyEvsQykWuxTkBzVDcTzMtUEwTeiw",
-                  "name": "Presstube",
-                  "avatarUri": "ipfs://QmeNWX2YFAWDYVywhZruqTDCm67PCBRaTP39SUhNtwsiYu",
-                  "flag": "VERIFIED",
-                  "__typename": "User"
-                }
-              ],
-              "__typename": "User"
-            },
-            "__typename": "GenerativeToken"
-          },
-          "__typename": "Objkt"
-        },
-        "__typename": "Listing"
-      },
-      {
-        "id": 500999,
-        "version": 1,
-        "price": 540000,
-        "objkt": {
-          "id": 954022,
-          "version": 1,
-          "name": "xDeads  #450",
-          "slug": "xdeads-450",
-          "metadata": {
-            "name": "xDeads  #450",
-            "iterationHash": "op7LC18ngCh26qxv2wreC4vaxNHyaTVLfbizMs7eWYqeMFjuEeC",
-            "description": "The xDeads are 11x11 pixel art collectible characters, generated algorithmically on-chain with proof of ownership stored on the Tezos blockchain. It’s one of the first collections of generative PFP’s based on Hydra, and implemented using p5 and createloop libraries.\n\nThere are a few functions for interacting with art: Press 'p' to download screen 1500x1500 (live mode) Press 'x' to download a 5 second gif (Live Mod) Click on screen to play/pause music and make art interact. ( it can take time )\n\nWhat are those xDeads, afterall?\n\nEverything starts when a company named xCorp, a bulwark on technology on the planet, began their evil plan in the name of profit: control human minds in order to alienate the population in whatever the corporation wants and needs. This alienation power was only possible by the possession of a rare, mysterious and mistic objkt: a pickle, that contains an absurd energy power that no one knows its origin.\n\nIn the past, the xCorporation concentrate its power and resources on I.A. and robot engineering - and this was their first mistake. The second one was to focus only on the alienation project, leaving all the robots on their own, who started to settle their own plan: to conquer the sacred objkt, the pickle, and use it to their own interests.\n\nEventually, the robots reach the supremacy of the world, leaving all the human kind, now dumb and disaffected, wandering like zombies. 100 years in this mess have passed when a mighty eclipses emerges on the sky, heralding the arrival of hungry aliens, atracted by the power of the pickle.\n\nIn fact, it was the aliens, back when the human race did not exist in the planet, who plant the seed of the pickle, hoping to get back when the objkt reach its final form. It was the pickle power in the earth who give the humans consciousness, and only this objkt can make them go back to their normal state.\n\nThe whole earth is now a battlefield: aliens, robots and zombies struggling to have the possession of the artifact in order to keep their survival.\n\nxDeads Features: The xDeads world is subdivided in three Classes: Robots, Zombies, Aliens. All of them include the Emission gas: Tezonium, Carbon and Lead. The classes are, as well, overwelmed by alignment: Lawful Neutral, True Neutral, Chaotic Neutral. Lawful Good, Neutral Good, Chaotic Good. Lawful Evil, Neutral Evil, Chaotic Evil. The xDeads have Background features too: Gray, White, Red, Orange, Yellow, Green, Blue, Purple, Black. And the last feature is an important one, the Ki, wich represents the power of each xDead(in rarity order): in Robots, in Zombies, in the Aliens\n\nIf you have luck, your xDead’s Ki will be over 9000!\n\n..and one more thing\n\nAll the xDeads come with a modular music and a reaction system that moves with the frequencies of the amplifier embedded to the NFT: a music that tells part of the history, and how your xDead connect with the chaotic world it had born. All of the tracks were composed by dead_marcelo on Vcvrack, a eurorack synthesizer.\n\nThe perception of the pixel in xDeads philosophy\n\nAs Professor Herbert W. Frank once said, it is well known nowadays that the brain and the sensory organs function on a physical basis and that perception itself is above all a kind of data processing. We are all the time learning and regurgitating the information we received. But the thing doesn’t stop right there. The human brain have multiples steps in processing information, variating since memories till fully conscious analysis.\n\nIn the pixels world – more specifically in the xDeads world – the perception of the nature of each creature is no different. What is a pixel if not a squared extension of what we see everyday? When you see pixels on a screen you are looking at molecules or atoms that are emitting or transmitting light. Light itself does not consist of molecules.\n\nWe use this type of abstraction to tell xDeads history and, perhaps, predict the future.",
-            "tags": [
-              "generative",
-              "hydrajs",
-              "p5js",
-              "js",
-              "audio",
-              "reactive",
-              "gif"
-            ],
-            "generatorUri": "ipfs://Qmf1kHqUzTuY7SVK7LxhZgS6dx5MniEaNJPzHZwXCyMSae",
-            "artifactUri": "ipfs://Qmf1kHqUzTuY7SVK7LxhZgS6dx5MniEaNJPzHZwXCyMSae?fxhash=op7LC18ngCh26qxv2wreC4vaxNHyaTVLfbizMs7eWYqeMFjuEeC",
-            "displayUri": "ipfs://QmbwqJsfU1bkxXYVVh3fPhyfFpn4x3N6bYMcwSdnWYfpHT",
-            "thumbnailUri": "ipfs://QmXWM1EQvmsyy5ndpgJzYakRRJ3EvchqiDZDsHVMyn1aig",
-            "authenticityHash": "eaf61ebf3403d49855c28af2415276cd6ff1d03069b47b8793c67901f4fea6b5",
-            "attributes": [
-              {
-                "name": "Type",
-                "value": "xDead"
-              },
-              {
-                "name": "Class",
-                "value": "Zombie"
-              },
-              {
-                "name": "Alignment",
-                "value": "Lawful Evil"
-              },
-              {
-                "name": "Background Color",
-                "value": "Purple"
-              },
-              {
-                "name": "Track",
-                "value": "The World is A Quiet Place"
-              },
-              {
-                "name": "Emission Gas",
-                "value": "Lead"
-              },
-              {
-                "name": "Ki",
-                "value": "4372 of Power"
-              }
-            ],
-            "decimals": 0,
-            "symbol": "GENTK",
-            "version": "0.2"
-          },
-          "duplicate": false,
-          "activeListing": {
-            "id": 500999,
-            "version": 1,
-            "price": 540000,
-            "__typename": "Listing"
-          },
-          "owner": {
-            "id": "tz1ZTCoxCpf2mAujoxt7ZxToxWByjqS2z2XJ",
-            "name": "CryptoRonin",
-            "flag": "NONE",
-            "avatarUri": "ipfs://Qmdy2ppxwA98c4LSF3bXUjm7Vq9iyMEvzuP6GrgbJqvFmS",
-            "__typename": "User"
-          },
-          "issuer": {
-            "flag": "NONE",
-            "name": "xDeads ",
-            "author": {
-              "id": "KT1FLtqKsxSQK95sxvV664s2ZX5yikfnhrfa",
-              "name": null,
-              "type": "COLLAB_CONTRACT_V1",
-              "avatarUri": null,
-              "flag": "NONE",
-              "collaborators": [
-                {
-                  "id": "tz1e4CQqEiFiZoosHQEugZTK4kwNAsfxXSJs",
-                  "name": "socialcryptoDAO",
-                  "avatarUri": "ipfs://QmUNUdK2xK6vuSjjNjcu4sxkfeErwswWiHFPUZ33bcy9kX",
-                  "flag": "NONE",
-                  "__typename": "User"
-                },
-                {
-                  "id": "tz1V1WKxhK9g5UFbhRNUnQMmDnnL2vtBzoZJ",
-                  "name": "hydra",
-                  "avatarUri": null,
-                  "flag": "NONE",
-                  "__typename": "User"
-                },
-                {
-                  "id": "tz1bmUi5SXy4KdoeQoqcg5dWdcnbVHzFGE6u",
-                  "name": "xDeads Collection",
-                  "avatarUri": "ipfs://QmeYSNuCnsE9AhMr4mZs37TG1CJ6gdBzdkqtBDwDEm9Se5",
-                  "flag": "NONE",
-                  "__typename": "User"
-                },
-                {
-                  "id": "tz1QvQ7JG4iq2ZxgicaUBDrQD4T38y2HT2Vv",
-                  "name": "Luzo Cairo",
-                  "avatarUri": "ipfs://Qmb5JHNK8ebHcwciTQUyuNCh7Kbxt3RZswZqM8BiY3vLS5",
-                  "flag": "NONE",
-                  "__typename": "User"
-                },
-                {
-                  "id": "tz1du7JyqkpAWrQf7kspXS383wpMxkVWCoqQ",
-                  "name": "nt_worm",
-                  "avatarUri": "ipfs://QmcmQ5pSVWYru4vhQt19oYNqiiNFXfXYq65o2N5RdVgqUg",
-                  "flag": "VERIFIED",
-                  "__typename": "User"
-                },
-                {
-                  "id": "tz2T81YWfh1jj7LT3HaDhsXJ3nWAUcJtqAuL",
-                  "name": "_Poritz",
-                  "avatarUri": "ipfs://QmbKQZe46KXco8PXNUTCANibMYzxF9fvSAR27fMfMvgN67",
-                  "flag": "NONE",
-                  "__typename": "User"
-                },
-                {
-                  "id": "tz1TG9d5ACUTVsyASTP2yi412VbW8hf2HUV6",
-                  "name": "Marcelo ",
-                  "avatarUri": "ipfs://QmeBaTK2BfdHJRx2t9GSR3GmwiTHG7rjQoPwnUkxfdtY6s",
-                  "flag": "VERIFIED",
-                  "__typename": "User"
-                }
-              ],
-              "__typename": "User"
-            },
-            "__typename": "GenerativeToken"
-          },
-          "__typename": "Objkt"
-        },
-        "__typename": "Listing"
-      },
-      {
-        "id": 500998,
-        "version": 1,
-        "price": 7000000,
-        "objkt": {
-          "id": 1172502,
-          "version": 1,
-          "name": "just one long day #157",
-          "slug": "just-one-long-day-157",
-          "metadata": {
-            "name": "just one long day #157",
-            "iterationHash": "ooUqFiCW19kimdfBJdAyfrPXyKPrzmLV551NWQ6VVAsAfSBAQHh",
-            "description": "It's just a very long day. 365 revolutions around the sun, 8,760 hours and thousands of unfamiliar eyes waiting for the next morning. What does it mean to be stuck in one day? When everything around you is changing, living, breathing, dying, only you alone, like a stone statue. Nothing can touch you, and your feelings are externally muted to a minimum. Calm, joy, fear, anxiety, despair. You don't seem to have lost the ability to live, but you are somehow helpless and immobile. All your thoughts and experiences flow through your empty body, driving you insane. Everything around you distorts and changes in your eyes. And all you can do is remind yourself that it's just one long day. And I hope your tomorrow comes very soon. ",
-            "tags": [
-              "Image composition",
-              "png layers",
-              "portrait"
-            ],
-            "generatorUri": "ipfs://QmQ1WTQMwZ6AA6kTLryZ89XMx6pAxjFDmnQKLpfBSWcZKL",
-            "artifactUri": "ipfs://QmQ1WTQMwZ6AA6kTLryZ89XMx6pAxjFDmnQKLpfBSWcZKL?fxhash=ooUqFiCW19kimdfBJdAyfrPXyKPrzmLV551NWQ6VVAsAfSBAQHh",
-            "displayUri": "ipfs://QmQhHK4Ziu2NmgUGr5DNbYfSye8nQSUkA8Mqz4Yqotdxof",
-            "thumbnailUri": "ipfs://QmUY2kvh5qGiQsrm9UhsuWkFYZAGF4p3XnjRfvK3525KGN",
-            "authenticityHash": "baccf3ffc93447f5221329c062a5d332fdcecf2193fde3adae07592dbf770269",
-            "attributes": [
-              {
-                "name": "base",
-                "value": "base 2"
-              },
-              {
-                "name": "body",
-                "value": "body 1"
-              },
-              {
-                "name": "face",
-                "value": "face 1"
-              },
-              {
-                "name": "hair",
-                "value": "hair 1"
-              },
-              {
-                "name": "pieces",
-                "value": "pieces 8"
-              }
-            ],
-            "decimals": 0,
-            "symbol": "GENTK",
-            "version": "0.2"
-          },
-          "duplicate": false,
-          "activeListing": {
-            "id": 500998,
-            "version": 1,
-            "price": 7000000,
-            "__typename": "Listing"
-          },
-          "owner": {
-            "id": "tz2EXTfchhvwmptFUFJBV7vBhqmGZPMCd6nA",
-            "name": "OTHERfaces",
-            "flag": "NONE",
-            "avatarUri": "ipfs://QmTivfv42itrwsD7c618dWYcqrJsr7xHAEMZRJmdiudd4T",
-            "__typename": "User"
-          },
-          "issuer": {
-            "flag": "NONE",
-            "name": "just one long day",
-            "author": {
-              "id": "tz1YM4Rth44rBF2yXMZJJX8wo1KcShwwEpnk",
-              "name": "ahriplaa|nastacea",
-              "type": "REGULAR",
-              "avatarUri": "ipfs://QmfUpeHyhHvKnY9LChMsQm5z37nV3QHYCzkSdjNWYUFYPH",
-              "flag": "NONE",
-              "collaborators": null,
-              "__typename": "User"
-            },
-            "__typename": "GenerativeToken"
-          },
-          "__typename": "Objkt"
-        },
-        "__typename": "Listing"
-      },
-      {
-        "id": 500997,
-        "version": 1,
-        "price": 520000,
-        "objkt": {
-          "id": 954049,
-          "version": 1,
-          "name": "xDeads  #463",
-          "slug": "xdeads-463",
-          "metadata": {
-            "name": "xDeads  #463",
-            "iterationHash": "ontu1jZhZqRQ1vGewSdhMk917NqEqcrBXyxGXRy52F5E8Cim9uC",
-            "description": "The xDeads are 11x11 pixel art collectible characters, generated algorithmically on-chain with proof of ownership stored on the Tezos blockchain. It’s one of the first collections of generative PFP’s based on Hydra, and implemented using p5 and createloop libraries.\n\nThere are a few functions for interacting with art: Press 'p' to download screen 1500x1500 (live mode) Press 'x' to download a 5 second gif (Live Mod) Click on screen to play/pause music and make art interact. ( it can take time )\n\nWhat are those xDeads, afterall?\n\nEverything starts when a company named xCorp, a bulwark on technology on the planet, began their evil plan in the name of profit: control human minds in order to alienate the population in whatever the corporation wants and needs. This alienation power was only possible by the possession of a rare, mysterious and mistic objkt: a pickle, that contains an absurd energy power that no one knows its origin.\n\nIn the past, the xCorporation concentrate its power and resources on I.A. and robot engineering - and this was their first mistake. The second one was to focus only on the alienation project, leaving all the robots on their own, who started to settle their own plan: to conquer the sacred objkt, the pickle, and use it to their own interests.\n\nEventually, the robots reach the supremacy of the world, leaving all the human kind, now dumb and disaffected, wandering like zombies. 100 years in this mess have passed when a mighty eclipses emerges on the sky, heralding the arrival of hungry aliens, atracted by the power of the pickle.\n\nIn fact, it was the aliens, back when the human race did not exist in the planet, who plant the seed of the pickle, hoping to get back when the objkt reach its final form. It was the pickle power in the earth who give the humans consciousness, and only this objkt can make them go back to their normal state.\n\nThe whole earth is now a battlefield: aliens, robots and zombies struggling to have the possession of the artifact in order to keep their survival.\n\nxDeads Features: The xDeads world is subdivided in three Classes: Robots, Zombies, Aliens. All of them include the Emission gas: Tezonium, Carbon and Lead. The classes are, as well, overwelmed by alignment: Lawful Neutral, True Neutral, Chaotic Neutral. Lawful Good, Neutral Good, Chaotic Good. Lawful Evil, Neutral Evil, Chaotic Evil. The xDeads have Background features too: Gray, White, Red, Orange, Yellow, Green, Blue, Purple, Black. And the last feature is an important one, the Ki, wich represents the power of each xDead(in rarity order): in Robots, in Zombies, in the Aliens\n\nIf you have luck, your xDead’s Ki will be over 9000!\n\n..and one more thing\n\nAll the xDeads come with a modular music and a reaction system that moves with the frequencies of the amplifier embedded to the NFT: a music that tells part of the history, and how your xDead connect with the chaotic world it had born. All of the tracks were composed by dead_marcelo on Vcvrack, a eurorack synthesizer.\n\nThe perception of the pixel in xDeads philosophy\n\nAs Professor Herbert W. Frank once said, it is well known nowadays that the brain and the sensory organs function on a physical basis and that perception itself is above all a kind of data processing. We are all the time learning and regurgitating the information we received. But the thing doesn’t stop right there. The human brain have multiples steps in processing information, variating since memories till fully conscious analysis.\n\nIn the pixels world – more specifically in the xDeads world – the perception of the nature of each creature is no different. What is a pixel if not a squared extension of what we see everyday? When you see pixels on a screen you are looking at molecules or atoms that are emitting or transmitting light. Light itself does not consist of molecules.\n\nWe use this type of abstraction to tell xDeads history and, perhaps, predict the future.",
-            "tags": [
-              "generative",
-              "hydrajs",
-              "p5js",
-              "js",
-              "audio",
-              "reactive",
-              "gif"
-            ],
-            "generatorUri": "ipfs://Qmf1kHqUzTuY7SVK7LxhZgS6dx5MniEaNJPzHZwXCyMSae",
-            "artifactUri": "ipfs://Qmf1kHqUzTuY7SVK7LxhZgS6dx5MniEaNJPzHZwXCyMSae?fxhash=ontu1jZhZqRQ1vGewSdhMk917NqEqcrBXyxGXRy52F5E8Cim9uC",
-            "displayUri": "ipfs://QmSZSRUf6wWN8JDipm55iDNuahmsdS7kARuTPHJaNtyEgM",
-            "thumbnailUri": "ipfs://QmaCc2vTQRevVeB9QCoc7BtLuoTAoknERiupbXsh7NbWtc",
-            "authenticityHash": "6d782b256c861f0f55614f6bfe769b175fe6e283333503df4c07d6cc94da2e3d",
-            "attributes": [
-              {
-                "name": "Type",
-                "value": "xDead"
-              },
-              {
-                "name": "Class",
-                "value": "Zombie"
-              },
-              {
-                "name": "Alignment",
-                "value": "True Neutral"
-              },
-              {
-                "name": "Background Color",
-                "value": "Black"
-              },
-              {
-                "name": "Track",
-                "value": "Please Save Us, Dear Pickle"
-              },
-              {
-                "name": "Emission Gas",
-                "value": "Lead"
-              },
-              {
-                "name": "Ki",
-                "value": "4954 of Power"
-              }
-            ],
-            "decimals": 0,
-            "symbol": "GENTK",
-            "version": "0.2"
-          },
-          "duplicate": false,
-          "activeListing": {
-            "id": 500997,
-            "version": 1,
-            "price": 520000,
-            "__typename": "Listing"
-          },
-          "owner": {
-            "id": "tz1ZTCoxCpf2mAujoxt7ZxToxWByjqS2z2XJ",
-            "name": "CryptoRonin",
-            "flag": "NONE",
-            "avatarUri": "ipfs://Qmdy2ppxwA98c4LSF3bXUjm7Vq9iyMEvzuP6GrgbJqvFmS",
-            "__typename": "User"
-          },
-          "issuer": {
-            "flag": "NONE",
-            "name": "xDeads ",
-            "author": {
-              "id": "KT1FLtqKsxSQK95sxvV664s2ZX5yikfnhrfa",
-              "name": null,
-              "type": "COLLAB_CONTRACT_V1",
-              "avatarUri": null,
-              "flag": "NONE",
-              "collaborators": [
-                {
-                  "id": "tz1e4CQqEiFiZoosHQEugZTK4kwNAsfxXSJs",
-                  "name": "socialcryptoDAO",
-                  "avatarUri": "ipfs://QmUNUdK2xK6vuSjjNjcu4sxkfeErwswWiHFPUZ33bcy9kX",
-                  "flag": "NONE",
-                  "__typename": "User"
-                },
-                {
-                  "id": "tz1V1WKxhK9g5UFbhRNUnQMmDnnL2vtBzoZJ",
-                  "name": "hydra",
-                  "avatarUri": null,
-                  "flag": "NONE",
-                  "__typename": "User"
-                },
-                {
-                  "id": "tz1bmUi5SXy4KdoeQoqcg5dWdcnbVHzFGE6u",
-                  "name": "xDeads Collection",
-                  "avatarUri": "ipfs://QmeYSNuCnsE9AhMr4mZs37TG1CJ6gdBzdkqtBDwDEm9Se5",
-                  "flag": "NONE",
-                  "__typename": "User"
-                },
-                {
-                  "id": "tz1QvQ7JG4iq2ZxgicaUBDrQD4T38y2HT2Vv",
-                  "name": "Luzo Cairo",
-                  "avatarUri": "ipfs://Qmb5JHNK8ebHcwciTQUyuNCh7Kbxt3RZswZqM8BiY3vLS5",
-                  "flag": "NONE",
-                  "__typename": "User"
-                },
-                {
-                  "id": "tz1du7JyqkpAWrQf7kspXS383wpMxkVWCoqQ",
-                  "name": "nt_worm",
-                  "avatarUri": "ipfs://QmcmQ5pSVWYru4vhQt19oYNqiiNFXfXYq65o2N5RdVgqUg",
-                  "flag": "VERIFIED",
-                  "__typename": "User"
-                },
-                {
-                  "id": "tz2T81YWfh1jj7LT3HaDhsXJ3nWAUcJtqAuL",
-                  "name": "_Poritz",
-                  "avatarUri": "ipfs://QmbKQZe46KXco8PXNUTCANibMYzxF9fvSAR27fMfMvgN67",
-                  "flag": "NONE",
-                  "__typename": "User"
-                },
-                {
-                  "id": "tz1TG9d5ACUTVsyASTP2yi412VbW8hf2HUV6",
-                  "name": "Marcelo ",
-                  "avatarUri": "ipfs://QmeBaTK2BfdHJRx2t9GSR3GmwiTHG7rjQoPwnUkxfdtY6s",
-                  "flag": "VERIFIED",
-                  "__typename": "User"
-                }
-              ],
               "__typename": "User"
             },
             "__typename": "GenerativeToken"
