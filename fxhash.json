@@ -2,222 +2,226 @@
   "data": {
     "listings": [
       {
-        "id": 728093,
+        "id": 728119,
         "version": 1,
-        "price": 15000000,
+        "price": 1000000000,
         "objkt": {
-          "id": 1372285,
+          "id": 1010372,
           "version": 1,
-          "name": "Textura #97",
-          "slug": "textura-97",
+          "name": "Solitude #11",
+          "slug": "solitude-11",
           "metadata": {
-            "name": "Textura #97",
-            "iterationHash": "ooMKJRTyt4VVGpTAVLEPECmR4EkXAJPTAMWekmpVLvBU3WK28WE",
-            "description": "\"Textura\"\n\nMy initial goal was to create artwork that could trigger raw, visceral emotions and feelings. A polar opposite to the polite, clinical precision of some other collections, I wanted to embrace the grittier side of abstract art. \n\nThis turned out to be a rather difficult project for me. It was a departure from my usual figurative / ink line style, where most of the time I find it straightforward to tell a \"good\" output from a \"bad\" one. Here, out of my comfort zone, I couldn't tell. I liked some outputs, I hated some. The ones I hated, usually would be someone else's favorites. Abstract art is hard !\n\nAfter a while, some patterns started to emerge. The overall feedback was that, generally:\n- blue outputs were peaceful\n- orange ones were intense and aggressive\n- black and white ones were oppressive and sometimes disturbing\n\nIf you can associate an emotion to any given output, I feel like I will have achieved my goal. Thank you to everyone who provided feedback !\n\n \nTechnically, this project also posed a number of challenges:\n- how to blend a large number of procedural textures in a smooth, yet natural way\n- how to make sure the final piece has some kind of depth, visible beyond the intricate layering\n- how to optimize contrast and get vibrant results\n\nThis was mostly achieved by spending a lot of time designing and fine-tuning color schemes - enhanced versions of color palettes, that also contain pre and post-processing settings.\n\nThe collection features a total of 31 color schemes. \n\nKey commands:\n'1', '2', '4': increase resolution\n's': save png\n'n': toggle background noise\n'c': toggle background canvas texture\n\nOn mobile devices, the rendering resolution is reduced to deal with memory limitations.\n",
+            "name": "Solitude #11",
+            "iterationHash": "oo7aHp2YGUyJ8JRRY66fc4XmTULj4pexPpnL7vVDm8jhWvUxmbF",
+            "description": "A dream of a quiet place to just be.\n\nMade in p5.js with a WebGL shader.",
             "tags": [
-              "#abstract",
-              "#r1b2",
-              "#textura",
-              "#b&w",
-              "#color",
-              "#red",
-              "#blue",
-              "#black",
-              "#gold"
-            ],
-            "generatorUri": "ipfs://QmbTnPXhynUt7mqZFANr1ccBjib7aPd9fuHy1ZpzoY4n8N",
-            "artifactUri": "ipfs://QmbTnPXhynUt7mqZFANr1ccBjib7aPd9fuHy1ZpzoY4n8N?fxhash=ooMKJRTyt4VVGpTAVLEPECmR4EkXAJPTAMWekmpVLvBU3WK28WE",
-            "displayUri": "ipfs://QmY76ViJhkuDDitf26ybm7XHNH7xULNAVuvL8QUwCyEq7k",
-            "thumbnailUri": "ipfs://QmfWBTQtkxEhYbnhy87tDHWyeF2C5aX94HpaFNQeQZqgLp",
-            "authenticityHash": "f46f67e564e7bac3f4389d76f9f5a5d82926a773e96b6d3918c29eb5f12b47d1",
-            "attributes": [
-              {
-                "name": "Color Scheme",
-                "value": "Autumn Rhythm"
-              }
-            ],
-            "decimals": 0,
-            "symbol": "GENTK",
-            "version": "0.2"
-          },
-          "duplicate": false,
-          "activeListing": {
-            "id": 728093,
-            "version": 1,
-            "price": 15000000,
-            "__typename": "Listing"
-          },
-          "owner": {
-            "id": "tz1WoXzwhVJoaKiJ31wy2yFQEtu79xmaNqMA",
-            "name": "jill.s",
-            "flag": "NONE",
-            "avatarUri": null,
-            "__typename": "User"
-          },
-          "issuer": {
-            "flag": "NONE",
-            "name": "Textura",
-            "author": {
-              "id": "tz2Q5AmNP45Z5KMmeK7ZYdXyLMkbhz82n6fd",
-              "name": "r1b2",
-              "type": "REGULAR",
-              "avatarUri": "ipfs://QmShWESZVs1zkcFds7npFU5ryGjKrE2ZPFn4zZEA8oMCm3",
-              "flag": "VERIFIED",
-              "collaborators": null,
-              "__typename": "User"
-            },
-            "__typename": "GenerativeToken"
-          },
-          "__typename": "Objkt"
-        },
-        "__typename": "Listing"
-      },
-      {
-        "id": 728092,
-        "version": 1,
-        "price": 4444000000,
-        "objkt": {
-          "id": 357407,
-          "version": 0,
-          "name": "Geode #18",
-          "slug": "geode-18",
-          "metadata": {
-            "name": "Geode #18",
-            "iterationHash": "onjsyP4N8ULUV9t7Y4J8ctdDFHxpS6G9MUzTSxp9xMBoozZvreQ",
-            "description": "A single seed shape is chosen from 13, and placed onto the plane. At every step, a copy of this seed is laid edge-to-edge adjacent to an existing shape, without causing any overlaps. This copy is colored based on the edge it shares with the existing shape. The process continues until the animation completes.\n\nNew shapes are placed closest to a moving target. In some mints, this target is slow moving, causing new shapes to expand radially from the seed. In other mints, this target races around, causing new shapes to chase it. \n\nEach of the 13 shapes forms different patterns under different circumstances. Not all patterns will be explored.\n\nControls:\n  - SPACE: Pause/unpause the animation.\n  - ENTER: Skip the animation.\n  - R: Restart the animation.\n\nURL Params:\n  - \"preview=1\": Skip the animation.\n  - \"flex=1\": Adapt the boundaries to the size of the window.\n  - “slow=1”: Draw only one shape per frame.\n\nLicensed under CC BY-NC-SA 4.0",
-            "tags": [],
-            "generatorUri": "ipfs://QmVpxAAi9ybpNs6Ys9ZfpEKtfChRr99q77RYwrkrRUnp1m",
-            "artifactUri": "ipfs://QmVpxAAi9ybpNs6Ys9ZfpEKtfChRr99q77RYwrkrRUnp1m?fxhash=onjsyP4N8ULUV9t7Y4J8ctdDFHxpS6G9MUzTSxp9xMBoozZvreQ",
-            "displayUri": "ipfs://QmXTxFYokgTkMkAkUgMXE8j68XvhySWNA1ybTySwZnyZFk",
-            "thumbnailUri": "ipfs://QmadmhicRhNZDUC962daXVbTqNdajmNGvbmLko5buVodHo",
-            "authenticityHash": "668d242d0a105b6a36ec3abcd56a5ee8bb571ad6f1fecbc870e053dd03ea9765",
-            "attributes": [
-              {
-                "name": "Conditional Rarity",
-                "value": "s:i:e:m:s"
-              },
-              {
-                "name": "Decay",
-                "value": "Small"
-              },
-              {
-                "name": "Completeness",
-                "value": "Partial"
-              },
-              {
-                "name": "Attractor Radius",
-                "value": "Inside"
-              },
-              {
-                "name": "Attractor Speed",
-                "value": "Slow"
-              },
-              {
-                "name": "Color Scheme",
-                "value": "Mixed"
-              },
-              {
-                "name": "Shape Vertices",
-                "value": "(0, 0), (0.4, -0.4), (1, -0.3), (1.8, 0), (1, 0.5), (0, 0.5)"
-              },
-              {
-                "name": "Shape Name",
-                "value": "Stone"
-              }
-            ],
-            "decimals": 0,
-            "symbol": "GENTK",
-            "version": "0.2"
-          },
-          "duplicate": false,
-          "activeListing": {
-            "id": 728092,
-            "version": 1,
-            "price": 4444000000,
-            "__typename": "Listing"
-          },
-          "owner": {
-            "id": "tz1MH7vTRc4yXkttnoU93CYqiZfhEzk7C17a",
-            "name": "lonli lonli lonli ",
-            "flag": "NONE",
-            "avatarUri": null,
-            "__typename": "User"
-          },
-          "issuer": {
-            "flag": "NONE",
-            "name": "Geode",
-            "author": {
-              "id": "tz1Wzwn5KCCnf12wCX9LAPrd9uYR8iPDNSx3",
-              "name": "larswander",
-              "type": "REGULAR",
-              "avatarUri": "ipfs://QmfKeSZHSu4EdeFh1tDgTuQNAnDf57eyH8pHiEJBrhPmyf",
-              "flag": "VERIFIED",
-              "collaborators": null,
-              "__typename": "User"
-            },
-            "__typename": "GenerativeToken"
-          },
-          "__typename": "Objkt"
-        },
-        "__typename": "Listing"
-      },
-      {
-        "id": 728091,
-        "version": 1,
-        "price": 44000000,
-        "objkt": {
-          "id": 1412723,
-          "version": 1,
-          "name": "Pearls #21",
-          "slug": "pearls-21",
-          "metadata": {
-            "name": "Pearls #21",
-            "iterationHash": "oooJGVUfEm4f2qNhAJUsYDdztacsstC82BzGFT27WqsanNPAQmM",
-            "description": "Pearls is a generative minimal artwork made with 100% code in p5js.\n\nThis algorithm places perfectly round pearls into multiple stacked grids and connects them in a pleasing way. The small grids lead to interesting emerging patterns. Some see faces and fish, others see ancient hardware and elephants, and some just enjoy the minimal simplicity.\n\n-- controls (in live view)\ns: to save the current image\na: to play a small animation\n\n-- some attributes\nlayout: 2x2 to 34x34\npalette: genuary, monochrome red & purple, night\nmode: ink, walk\nbias: central, north, east, south, west\ndensity: sparse, middle, dense\nsymmetry: none, vertical, horizontal, point\nlayer: 2 to 6",
-            "tags": [
-              "minimal",
-              "p5js",
-              "genuary",
-              "genartclub",
-              "creativecoding",
-              "generativeart",
+              "landscape",
               "abstract",
-              "color",
-              "purple"
+              "painting",
+              "blur",
+              "dream",
+              "dreamy",
+              "tree",
+              "sun",
+              "sky",
+              "clouds",
+              "p5js",
+              "p5.js",
+              "shader",
+              "webgl",
+              "genartclub",
+              "generativeart",
+              "genart",
+              "melissa",
+              "wiederrecht",
+              "melissawiederreghtnftart",
+              "abstract art"
             ],
-            "generatorUri": "ipfs://QmSuj6V7whbVNRZ5nt5iMQ1MAW9vMxgALkafKCWLS6N6ya",
-            "artifactUri": "ipfs://QmSuj6V7whbVNRZ5nt5iMQ1MAW9vMxgALkafKCWLS6N6ya?fxhash=oooJGVUfEm4f2qNhAJUsYDdztacsstC82BzGFT27WqsanNPAQmM",
-            "displayUri": "ipfs://QmSfjQFKbz32761RWEv3MtkWHXhfvBAHqjce3fbvySLhtF",
-            "thumbnailUri": "ipfs://QmPy65nXq6wmFLswY9hfk1vJo4pxNvhgCS1yc7WYnY7vYD",
-            "authenticityHash": "62902e41d27fe0865d232e897a27469b6d7f44d2889ed8feee91436c8a21def4",
+            "generatorUri": "ipfs://QmXzBgTmGTG5pXaJ2TCcrnjZrydUy3W6wKak3KCCXEG7oV",
+            "artifactUri": "ipfs://QmXzBgTmGTG5pXaJ2TCcrnjZrydUy3W6wKak3KCCXEG7oV?fxhash=oo7aHp2YGUyJ8JRRY66fc4XmTULj4pexPpnL7vVDm8jhWvUxmbF",
+            "displayUri": "ipfs://QmRtR4DZnXfTtHkRDuZZf3khVxksmp67ehYFUbW5hQy4jH",
+            "thumbnailUri": "ipfs://QmQk4UNc9ref9rdx4QgHRg6NJPM13qfLd54az1DF1c9qLz",
+            "authenticityHash": "8aac26a4c1850dfa60060b12f979c62bb83373c5a4a20ee34c1ec433f1dadf3e",
+            "attributes": true,
+            "decimals": 0,
+            "symbol": "GENTK",
+            "version": "0.2"
+          },
+          "duplicate": false,
+          "activeListing": {
+            "id": 728119,
+            "version": 1,
+            "price": 1000000000,
+            "__typename": "Listing"
+          },
+          "owner": {
+            "id": "tz1eeATpjgjcoVcAL9dpjUed94tzmnHyiDHT",
+            "name": "cryptoartmagazine",
+            "flag": "NONE",
+            "avatarUri": "ipfs://QmRjFH2sB6h9CTvcawZ51BGxChdZaF4F6vQ4hETQHdxezU",
+            "__typename": "User"
+          },
+          "issuer": {
+            "flag": "NONE",
+            "name": "Solitude",
+            "author": {
+              "id": "tz1amUZ31Ua4qDTNXvRRs1CFYn415xEWq5Kb",
+              "name": "Melissa Wiederrecht",
+              "type": "REGULAR",
+              "avatarUri": "ipfs://QmTmFSKLMMCbmrrZu4PUZWLTSQescfMRfFzNGwL5g9Tj7F",
+              "flag": "VERIFIED",
+              "collaborators": null,
+              "__typename": "User"
+            },
+            "__typename": "GenerativeToken"
+          },
+          "__typename": "Objkt"
+        },
+        "__typename": "Listing"
+      },
+      {
+        "id": 728118,
+        "version": 1,
+        "price": 12000000000,
+        "objkt": {
+          "id": 130844,
+          "version": 0,
+          "name": "Dragons #305",
+          "slug": "dragons-305",
+          "metadata": {
+            "name": "Dragons #305",
+            "iterationHash": "opRChmfFEi4ZiKSjDgBxTM6HhiR3a9B51z1hEJnvQ89Bzavjmn2",
+            "description": "A grid of many lines forming a dragon crafted on paper.\nThey all have their own personality... Be sure to name and take care of them.\n\ntw: williamapan",
+            "tags": [
+              "generativeart",
+              "creativecoding",
+              "colors",
+              "tangible",
+              "dragons"
+            ],
+            "artifactUri": "ipfs://QmQAuicDSm2af84XY4Ky8DNQMrq1km13U8TBq1M6Eb9Z8a",
+            "displayUri": "ipfs://QmYArnYcsPrfKmBuanmAoAKfA3YZ9DFTZmVahwYzLdU1Ft",
+            "thumbnailUri": "ipfs://QmREM58UuE1m8WJ9ihwzStmkoJ46trcJCxL2HNDnUjqte5",
+            "authenticityHash": "7eac533b066ee23e2388881f50a19682859974f3849b4591cdf3de1ac2dec9f5",
             "attributes": [
               {
-                "name": "layout",
-                "value": "8x8"
+                "name": "silky",
+                "value": "no"
               },
               {
-                "name": "palette",
-                "value": "neon"
+                "name": "magical",
+                "value": "no"
               },
               {
-                "name": "layer",
-                "value": 5
+                "name": "age",
+                "value": "very old"
               },
               {
-                "name": "mode",
-                "value": "ink"
+                "name": "type",
+                "value": "groundy"
               },
               {
-                "name": "density",
-                "value": "dense"
+                "name": "status",
+                "value": "living"
               },
               {
-                "name": "bias",
-                "value": "central"
+                "name": "atmosphere",
+                "value": "dry"
               },
               {
-                "name": "symmetry",
-                "value": "horizontal (partial)"
+                "name": "temperature",
+                "value": "stable"
+              },
+              {
+                "name": "environment",
+                "value": "colorful"
+              }
+            ],
+            "decimals": 0,
+            "symbol": "GENTK"
+          },
+          "duplicate": false,
+          "activeListing": {
+            "id": 728118,
+            "version": 1,
+            "price": 12000000000,
+            "__typename": "Listing"
+          },
+          "owner": {
+            "id": "tz1eeATpjgjcoVcAL9dpjUed94tzmnHyiDHT",
+            "name": "cryptoartmagazine",
+            "flag": "NONE",
+            "avatarUri": "ipfs://QmRjFH2sB6h9CTvcawZ51BGxChdZaF4F6vQ4hETQHdxezU",
+            "__typename": "User"
+          },
+          "issuer": {
+            "flag": "NONE",
+            "name": "Dragons",
+            "author": {
+              "id": "tz1eJF2r9JsfDLAswoo5iCDk6Qv2yWt6fbMX",
+              "name": "williamapan",
+              "type": "REGULAR",
+              "avatarUri": "ipfs://QmcSMPa4KwYtd5QNHavvARddn9T4sd66jGe7RfSZDBjn3t",
+              "flag": "VERIFIED",
+              "collaborators": null,
+              "__typename": "User"
+            },
+            "__typename": "GenerativeToken"
+          },
+          "__typename": "Objkt"
+        },
+        "__typename": "Listing"
+      },
+      {
+        "id": 728117,
+        "version": 1,
+        "price": 30000000,
+        "objkt": {
+          "id": 1413465,
+          "version": 1,
+          "name": "YANF #131",
+          "slug": "yanf-131",
+          "metadata": {
+            "name": "YANF #131",
+            "iterationHash": "ook6JR8woSg7uSQ9MkYhnF4iGXiYREM93C6R2LgkYgLDoGH8ex4",
+            "description": "Yet Another Noises and Flows\n\nAfter three works on landscapes I returned to an abstract work in which I used several kinds of noise fields and a different approach to flow lines.\n\nIn this work I use three intermediate images to generate the final image:\n- on the first image to each pixels is assigned a color related to the value of the noise field in that point using the main color palette\n- on the second image the gradient orientation (angle) of the field is used to assign colors using a secondary palette with the purpose of giving lights and shadows to the final image\n- on the third image flow lines are drawn using the direction perpendicular to the gradient, in this way the flows are aligned to the contour lines\n\nAfter the second and third step the new generated image is blended with the previous giving rise to the final image.\n\nDeveloped with p5.js\n\nDefault resolution: 2400x1600, 1600x2400, 2000x2000 (3/2, 2/3, 1/1 aspect ratio)\n\n[2] to redraw at double resolution (it takes four times then default)\n[1] to redraw at default resolution\n[s] to save a png at current resolution\n\nSources of variations are:\n- 14 palettes\n- 6 kinds of combinations of noise type and fractal type\n- 8 kinds of cuts\n- 3 kinds of aspect ratio\n- 3 border thickness\n\nThis Generative Token uses the FastNoiseLite.js and chroma.js libraries.\n\nCreated by Andrea Belloni, fxhash: anbello, twitter: @Waterflowing0. Licensed under CC BY-NC-SA 4.0, see LICENSE.txt for more information.",
+            "tags": [
+              "p5js",
+              "generative",
+              "creativecoding",
+              "noise",
+              "simplex",
+              "sobel",
+              "edgedetection",
+              "gradient",
+              "flow",
+              "fields"
+            ],
+            "generatorUri": "ipfs://QmW6TZ3itjfuMK2mxzZMPjVrL7ep55zz88X5jA5RdB7gt2",
+            "artifactUri": "ipfs://QmW6TZ3itjfuMK2mxzZMPjVrL7ep55zz88X5jA5RdB7gt2?fxhash=ook6JR8woSg7uSQ9MkYhnF4iGXiYREM93C6R2LgkYgLDoGH8ex4",
+            "displayUri": "ipfs://QmTX81vXqTcQwmCRqKqF4M7CxwSjK7Kii4sH91UQgScq7f",
+            "thumbnailUri": "ipfs://QmX81z5w3ut29w4uyv7Q7Ff8RBvEgW4s9FuxB2rC5vgATB",
+            "authenticityHash": "7110f177b498ace84dae6482086ceb72d3e5001f3d84c03ea8b54701963f8e6b",
+            "attributes": [
+              {
+                "name": "Palette",
+                "value": "Blue-Green"
+              },
+              {
+                "name": "NoiseSetting",
+                "value": "Cellular Manhattan"
+              },
+              {
+                "name": "AspectRatio",
+                "value": "Portrait"
+              },
+              {
+                "name": "Cuts",
+                "value": "Noise"
+              },
+              {
+                "name": "Border",
+                "value": "Thin"
               }
             ],
             "decimals": 0,
@@ -226,26 +230,160 @@
           },
           "duplicate": false,
           "activeListing": {
-            "id": 728091,
+            "id": 728117,
             "version": 1,
-            "price": 44000000,
+            "price": 30000000,
             "__typename": "Listing"
           },
           "owner": {
-            "id": "tz1V3kAU5ou3zkpNBkyt4emxv4Bx1Kr3vhta",
-            "name": "CoolBlue",
+            "id": "tz1iHU4J6hB7sjJfKaSw8h3FyHtEjs4NWAUz",
+            "name": "700.tez",
             "flag": "NONE",
-            "avatarUri": "ipfs://QmRgndzLMnwJ8jf2fmkdtpGdXziNXwNhwVWFNH3Hazdzca",
+            "avatarUri": null,
             "__typename": "User"
           },
           "issuer": {
             "flag": "NONE",
-            "name": "Pearls",
+            "name": "YANF",
             "author": {
-              "id": "tz2JdiAnT4mEubUphv73ZpAgNxhZo8197xhr",
-              "name": "ducttapecode",
+              "id": "tz1Yb9mrEBSsv35doLWovF4Dmwy2q4won9oa",
+              "name": "anbello",
               "type": "REGULAR",
-              "avatarUri": "ipfs://QmfChngfpEjqKfYPyR8kcFxCf1KbsD3ZZ263FDtnQ1eXuo",
+              "avatarUri": "ipfs://QmYrwKg7Jat74PmCdD4smV1A6gdXaS3SAzAVn6dk1D4UZc",
+              "flag": "VERIFIED",
+              "collaborators": null,
+              "__typename": "User"
+            },
+            "__typename": "GenerativeToken"
+          },
+          "__typename": "Objkt"
+        },
+        "__typename": "Listing"
+      },
+      {
+        "id": 728116,
+        "version": 1,
+        "price": 4200000000,
+        "objkt": {
+          "id": 1074132,
+          "version": 1,
+          "name": "Zbageti #75",
+          "slug": "zbageti-75",
+          "metadata": {
+            "name": "Zbageti #75",
+            "iterationHash": "op2XyjDifFmMjsGyYf3J9nHM73NyfZnAnYhszrVeeXiG85mNPSU",
+            "description": "100% generative art made with p5js and a WebGL shader.",
+            "tags": [
+              "generative art",
+              "genart",
+              "genartclub",
+              "abstract",
+              "painterly",
+              "paint",
+              "spaghetti",
+              "zbageti",
+              "zbagetti",
+              "noodle",
+              "explosion",
+              "color",
+              "colorful",
+              "texture"
+            ],
+            "generatorUri": "ipfs://QmSiNazFMBbanXs6yHrEMLvaZFJc3JJixDPvM7CGSfARSh",
+            "artifactUri": "ipfs://QmSiNazFMBbanXs6yHrEMLvaZFJc3JJixDPvM7CGSfARSh?fxhash=op2XyjDifFmMjsGyYf3J9nHM73NyfZnAnYhszrVeeXiG85mNPSU",
+            "displayUri": "ipfs://QmZCTHAkX8TZQy1YsHY4qBegkJshM77DJg5cvLB6QHEc1S",
+            "thumbnailUri": "ipfs://QmVyzTjgcfchvSTTshUMvzhbYzYaqtCJsxmFAX8tBAxFWZ",
+            "authenticityHash": "0d746f93131e8aea180065e707ca5068c5c10bd4913c20948efa858c8a14acbf",
+            "attributes": true,
+            "decimals": 0,
+            "symbol": "GENTK",
+            "version": "0.2"
+          },
+          "duplicate": false,
+          "activeListing": {
+            "id": 728116,
+            "version": 1,
+            "price": 4200000000,
+            "__typename": "Listing"
+          },
+          "owner": {
+            "id": "tz1Na7eAxDUHsmxEYLFVKheL37S2fPvuYLV6",
+            "name": null,
+            "flag": "NONE",
+            "avatarUri": null,
+            "__typename": "User"
+          },
+          "issuer": {
+            "flag": "NONE",
+            "name": "Zbageti",
+            "author": {
+              "id": "tz1amUZ31Ua4qDTNXvRRs1CFYn415xEWq5Kb",
+              "name": "Melissa Wiederrecht",
+              "type": "REGULAR",
+              "avatarUri": "ipfs://QmTmFSKLMMCbmrrZu4PUZWLTSQescfMRfFzNGwL5g9Tj7F",
+              "flag": "VERIFIED",
+              "collaborators": null,
+              "__typename": "User"
+            },
+            "__typename": "GenerativeToken"
+          },
+          "__typename": "Objkt"
+        },
+        "__typename": "Listing"
+      },
+      {
+        "id": 728115,
+        "version": 1,
+        "price": 177000000,
+        "objkt": {
+          "id": 1412328,
+          "version": 1,
+          "name": "Archiplex II #27",
+          "slug": "archiplex-ii-27",
+          "metadata": {
+            "name": "Archiplex II #27",
+            "iterationHash": "opPBvv9vffrt8WwHjYZDBprE3z6ziB2fihn5DoUwi7nGmcKPWKP",
+            "description": "Archiplex II lays its foundations on Brutalist and Bauhaus design. Through simple, triangular shapes and hand-picked, bold colour palettes, this long-form series explores how generative methods can play and meld with these traditional architectural and design forms.",
+            "tags": [
+              "generative art",
+              "genartclub",
+              "genoce",
+              "bauhaus",
+              "generative design",
+              "graphic design"
+            ],
+            "generatorUri": "ipfs://QmP7yQiHmJkE4jQffJn9naNvgdgBifmZNUGSgVqP6dg1bq",
+            "artifactUri": "ipfs://QmP7yQiHmJkE4jQffJn9naNvgdgBifmZNUGSgVqP6dg1bq?fxhash=opPBvv9vffrt8WwHjYZDBprE3z6ziB2fihn5DoUwi7nGmcKPWKP",
+            "displayUri": "ipfs://QmRBzKwsbnhJhdmbLm8UuFjkAiHTtTDM5HTR2LhgtWPcwC",
+            "thumbnailUri": "ipfs://QmaodJwwJR2NKCdPzjiCkmpz9r3nxH8vadbCJ9PQqmeMRa",
+            "authenticityHash": "5362c0ebfea9cd9047cbc19eaa4dd88d433aa4bbf62241ec09decc752ec8f34e",
+            "attributes": true,
+            "decimals": 0,
+            "symbol": "GENTK",
+            "version": "0.2"
+          },
+          "duplicate": false,
+          "activeListing": {
+            "id": 728115,
+            "version": 1,
+            "price": 177000000,
+            "__typename": "Listing"
+          },
+          "owner": {
+            "id": "tz1bWDia9bfsiHESzrH7tBR77cUDbodLhpiZ",
+            "name": null,
+            "flag": "NONE",
+            "avatarUri": null,
+            "__typename": "User"
+          },
+          "issuer": {
+            "flag": "NONE",
+            "name": "Archiplex II",
+            "author": {
+              "id": "tz1USaiPyqDcLmxRmphhjahompoCK8X2MgKd",
+              "name": "ad_strauss",
+              "type": "REGULAR",
+              "avatarUri": "ipfs://QmdtX2hUyHQstjjmMdDExkxMPHhhWyq6ibQcVtLT7sTLJc",
               "flag": "NONE",
               "collaborators": null,
               "__typename": "User"
@@ -257,695 +395,84 @@
         "__typename": "Listing"
       },
       {
-        "id": 728090,
+        "id": 728114,
         "version": 1,
-        "price": 77000000,
+        "price": 10690000,
         "objkt": {
-          "id": 1166901,
+          "id": 1405753,
           "version": 1,
-          "name": "In Due Time #164",
-          "slug": "in-due-time-164",
+          "name": "Nothing But Trash #187",
+          "slug": "nothing-but-trash-187",
           "metadata": {
-            "name": "In Due Time #164",
-            "iterationHash": "oo6ELbM29KquXWfozVy3945ZVgFea6qCFGnyfXWYvUmcjCQPTpD",
-            "description": "“In Due Time” is a collaborative generative collection between artists Melissa Wiederrecht and Amber Vittoria. Inspired by Wiederrecht’s mastery of line and Vittoria’s notable palette, this 1/1/250 series captures the present moment. It serves as a reminder that we are more similar than we are different, leveraging homogeneous shapes to create distinctive compositions.\n\nVittoria’s poem for the collection:\n\n“In Due Time”\nWe will all become\nParticles dancing\nAcross the skyline.\n\nThe artwork listed is indeed authentic, created by, and copyright to artists Melissa Wiederrecht and Amber Vittoria; the purchase of this NFT is a purchase of the asset, not of the copyright.\n\n-------------------------------------------\n\nTo save a high-resolution image for printing, click “open” under the image on the page for your token, and then hit:\n\nDigits “1” through “9” to get an image that is 1000 through 9000px tall.  This may take a while, depending on the size and your computer, so please be patient.",
+            "name": "Nothing But Trash #187",
+            "iterationHash": "ooSK5ZUpyR1pDhbVJzW9yLdzP7eL2U1wQtXCiVDfdwn2X4mQf27",
+            "description": "This is garbage. I honestly can't believe the code even works. It's trash.\n\nFeaturing cc0 #trashart by these dirty dumpster divers:\n\n64 Gallon Toter by @ROBNESSOFFICIAL\nhttps://superrare.com/artwork-v2/64-gallon-toter-7323\n\nRed Dot Derivatives Trash Art by @robert_matheson\nhttps://objkt.com/collection/KT1W6qmZdYJMkKRuUb3ePSgouFPvB9ikrVSK\n\nTrash Waves by @MSTRVLDZ\nhttps://objkt.com/asset/KT1MhodKgE3BUJ3Ry23WPpqnTWaMmH3wjGRZ/77\n\nTrash Mountain by @NevilleGlover\nhttps://objkt.com/asset/KT1QH2jEJhGN5npcHrAM9R1bWCXCrunSY5N6/6\n\nTrash Panic by @kbometaverse\nhttps://objkt.com/asset/KT1NY2e86DGL3GdZAia9mXxptyKPHk53zQGW/82\n\nALT+CRTL+DRIFT by @TankussArt\nhttps://objkt.com/asset/hicetnunc/769129\n\nTrash Mimic by @letsglitchit\nhttps://objkt.com/asset/KT1NU2oYj8zHPkdCcPE2SViNQoQcNuZux814/15\n\nSmall bin. by @cheapbitcoinart\nhttps://objkt.com/asset/hicetnunc/761005\n\nTotermojis REMIX - The Trash HERO by @baird_naked\nhttps://objkt.com/asset/KT1TuEnmRower4wSoiGFRGJUJPmJNghZTcxm/32\n\nHappy trashy accidents by @Moxarra\nhttps://objkt.com/asset/KT19yaHCyi3BmVzZ9jvBmAnajShkSzYCDaJi/1\n\nMonolith Gardens by @ShillyPreston\nhttps://objkt.com/collection/KT1FRN9vSoJAp3VZ5zDs2aQiRFLS4TZxfvGA\n\nArt As A Mirror by @cryptofangs1\nhttps://objkt.com/asset/hicetnunc/761963\n\nNotes:\n- Framework for the code was generated by asking ChatGPT to write me a p5js script that would pixelate an image. Hacked from there. Seriously, this is trash.\n- Uses static and animated images with random tints and pixel grid overlays.\n- License is cc0. Public Domain.\n\nSpecial thanks to all the artists out there pushing the boundaries of the landfill and littering up the blockchain.",
             "tags": [
-              "amber",
-              "vittoria",
-              "melissa",
-              "wiederrecht",
-              "bright",
-              "colorful",
-              "gradient",
-              "in due time"
+              "robert matheson",
+              "red dot",
+              "trash art",
+              "trashart",
+              "tez trash",
+              "teztrash",
+              "cc0",
+              "public domain",
+              "newberry made",
+              "newberry is an art town"
             ],
-            "generatorUri": "ipfs://QmbptTL4qiHS1WBGccNF8F14tBiPKnCFfK2mYMTzT4mpWJ",
-            "artifactUri": "ipfs://QmbptTL4qiHS1WBGccNF8F14tBiPKnCFfK2mYMTzT4mpWJ?fxhash=oo6ELbM29KquXWfozVy3945ZVgFea6qCFGnyfXWYvUmcjCQPTpD",
-            "displayUri": "ipfs://QmRw43VS23urQsMYMTxwHrteAewm1kM9Zeb2gPAH4ztydF",
-            "thumbnailUri": "ipfs://QmWSGcM4eTrodavF46audYNt9wpvGtSHXmoU4zm3v3vz5R",
-            "authenticityHash": "1120b8139dc6fdf774e37d69b4cbb09f7724cbeda02bf4b528db2f8c355e26bb",
-            "attributes": true,
+            "generatorUri": "ipfs://QmQmoHMPyhFC9YW7De5tZm36Jnajp1WZTX9Lmz7KaW7aUA",
+            "artifactUri": "ipfs://QmQmoHMPyhFC9YW7De5tZm36Jnajp1WZTX9Lmz7KaW7aUA?fxhash=ooSK5ZUpyR1pDhbVJzW9yLdzP7eL2U1wQtXCiVDfdwn2X4mQf27",
+            "displayUri": "ipfs://QmZxAB4Sr4N5aMFHQmijM8LndPHawGR7H4BtNdZDjnnmXA",
+            "thumbnailUri": "ipfs://QmUrRvta7KauTfdso6hBqQe45SwgXjVEmUDsG4cRr9MdbP",
+            "authenticityHash": "a72d16851a1c2f4b0ceb6e5ad70324f215298fea3fc3aa60e0888c68be76e66b",
+            "attributes": [
+              {
+                "name": "Artist",
+                "value": "@NevilleGlover"
+              },
+              {
+                "name": "Theme",
+                "value": "Feeling Blue"
+              },
+              {
+                "name": "Waste",
+                "value": "Recycled"
+              },
+              {
+                "name": "Surface",
+                "value": "Stained"
+              },
+              {
+                "name": "Environment",
+                "value": "Dusty"
+              }
+            ],
             "decimals": 0,
             "symbol": "GENTK",
             "version": "0.2"
           },
           "duplicate": false,
           "activeListing": {
-            "id": 728090,
+            "id": 728114,
             "version": 1,
-            "price": 77000000,
+            "price": 10690000,
             "__typename": "Listing"
           },
           "owner": {
-            "id": "tz1dABt43fzCHPkoJ5Hpk9ZPeLKfZwmTjqCm",
-            "name": null,
+            "id": "tz1SiJbBaDPbgKf3ZnKicgzGxiHipTUYu8bV",
+            "name": "Nevglov",
             "flag": "NONE",
-            "avatarUri": null,
+            "avatarUri": "ipfs://QmXaTNPixk1aRMHEf5qDSLQHxeC9M2PBSBSZmqvmWYQei1",
             "__typename": "User"
           },
           "issuer": {
             "flag": "NONE",
-            "name": "In Due Time",
+            "name": "Nothing But Trash",
             "author": {
-              "id": "KT1Vpwhpzy4JiLh81axzjRmEeC5xHJkh8r42",
-              "name": null,
-              "type": "COLLAB_CONTRACT_V1",
-              "avatarUri": null,
-              "flag": "NONE",
-              "collaborators": [
-                {
-                  "id": "tz1b36x2r4979rJfovuMeQ7mnr91SLyLHgpp",
-                  "name": "Amber Vittoria",
-                  "avatarUri": "ipfs://QmTRoVriQQ5Yvro3Rjebgy9tq9jKFSsJHv5xQtisCU33FM",
-                  "flag": "VERIFIED",
-                  "__typename": "User"
-                },
-                {
-                  "id": "tz1amUZ31Ua4qDTNXvRRs1CFYn415xEWq5Kb",
-                  "name": "Melissa Wiederrecht",
-                  "avatarUri": "ipfs://QmTmFSKLMMCbmrrZu4PUZWLTSQescfMRfFzNGwL5g9Tj7F",
-                  "flag": "VERIFIED",
-                  "__typename": "User"
-                }
-              ],
-              "__typename": "User"
-            },
-            "__typename": "GenerativeToken"
-          },
-          "__typename": "Objkt"
-        },
-        "__typename": "Listing"
-      },
-      {
-        "id": 728089,
-        "version": 1,
-        "price": 77000000,
-        "objkt": {
-          "id": 1166765,
-          "version": 1,
-          "name": "In Due Time #58",
-          "slug": "in-due-time-58",
-          "metadata": {
-            "name": "In Due Time #58",
-            "iterationHash": "ooTq12y7zqnroQavLKuYDZn43UAwHL4Ctmigp6mjJbP3tuujvhc",
-            "description": "“In Due Time” is a collaborative generative collection between artists Melissa Wiederrecht and Amber Vittoria. Inspired by Wiederrecht’s mastery of line and Vittoria’s notable palette, this 1/1/250 series captures the present moment. It serves as a reminder that we are more similar than we are different, leveraging homogeneous shapes to create distinctive compositions.\n\nVittoria’s poem for the collection:\n\n“In Due Time”\nWe will all become\nParticles dancing\nAcross the skyline.\n\nThe artwork listed is indeed authentic, created by, and copyright to artists Melissa Wiederrecht and Amber Vittoria; the purchase of this NFT is a purchase of the asset, not of the copyright.\n\n-------------------------------------------\n\nTo save a high-resolution image for printing, click “open” under the image on the page for your token, and then hit:\n\nDigits “1” through “9” to get an image that is 1000 through 9000px tall.  This may take a while, depending on the size and your computer, so please be patient.",
-            "tags": [
-              "amber",
-              "vittoria",
-              "melissa",
-              "wiederrecht",
-              "bright",
-              "colorful",
-              "gradient",
-              "in due time"
-            ],
-            "generatorUri": "ipfs://QmbptTL4qiHS1WBGccNF8F14tBiPKnCFfK2mYMTzT4mpWJ",
-            "artifactUri": "ipfs://QmbptTL4qiHS1WBGccNF8F14tBiPKnCFfK2mYMTzT4mpWJ?fxhash=ooTq12y7zqnroQavLKuYDZn43UAwHL4Ctmigp6mjJbP3tuujvhc",
-            "displayUri": "ipfs://QmbcuVWr6fovjgUZu6LjyGhFgzc5yiogAvRinrBzSuYmjp",
-            "thumbnailUri": "ipfs://QmafqJwUkBvUTqeq84T382ZZUZ6CPK1t3R4HJBpTEQLqgK",
-            "authenticityHash": "6d9abbfab5b6f195a763a8b8bbf1a6c82b1424ef0e57c331c63931cc365728ee",
-            "attributes": true,
-            "decimals": 0,
-            "symbol": "GENTK",
-            "version": "0.2"
-          },
-          "duplicate": false,
-          "activeListing": {
-            "id": 728089,
-            "version": 1,
-            "price": 77000000,
-            "__typename": "Listing"
-          },
-          "owner": {
-            "id": "tz1dABt43fzCHPkoJ5Hpk9ZPeLKfZwmTjqCm",
-            "name": null,
-            "flag": "NONE",
-            "avatarUri": null,
-            "__typename": "User"
-          },
-          "issuer": {
-            "flag": "NONE",
-            "name": "In Due Time",
-            "author": {
-              "id": "KT1Vpwhpzy4JiLh81axzjRmEeC5xHJkh8r42",
-              "name": null,
-              "type": "COLLAB_CONTRACT_V1",
-              "avatarUri": null,
-              "flag": "NONE",
-              "collaborators": [
-                {
-                  "id": "tz1b36x2r4979rJfovuMeQ7mnr91SLyLHgpp",
-                  "name": "Amber Vittoria",
-                  "avatarUri": "ipfs://QmTRoVriQQ5Yvro3Rjebgy9tq9jKFSsJHv5xQtisCU33FM",
-                  "flag": "VERIFIED",
-                  "__typename": "User"
-                },
-                {
-                  "id": "tz1amUZ31Ua4qDTNXvRRs1CFYn415xEWq5Kb",
-                  "name": "Melissa Wiederrecht",
-                  "avatarUri": "ipfs://QmTmFSKLMMCbmrrZu4PUZWLTSQescfMRfFzNGwL5g9Tj7F",
-                  "flag": "VERIFIED",
-                  "__typename": "User"
-                }
-              ],
-              "__typename": "User"
-            },
-            "__typename": "GenerativeToken"
-          },
-          "__typename": "Objkt"
-        },
-        "__typename": "Listing"
-      },
-      {
-        "id": 728088,
-        "version": 1,
-        "price": 77000000,
-        "objkt": {
-          "id": 1166733,
-          "version": 1,
-          "name": "In Due Time #29",
-          "slug": "in-due-time-29",
-          "metadata": {
-            "name": "In Due Time #29",
-            "iterationHash": "op2uNX58tc54FEY9hR6sRBM4mhPetBJP55W82by1jp45k7Z9GRZ",
-            "description": "“In Due Time” is a collaborative generative collection between artists Melissa Wiederrecht and Amber Vittoria. Inspired by Wiederrecht’s mastery of line and Vittoria’s notable palette, this 1/1/250 series captures the present moment. It serves as a reminder that we are more similar than we are different, leveraging homogeneous shapes to create distinctive compositions.\n\nVittoria’s poem for the collection:\n\n“In Due Time”\nWe will all become\nParticles dancing\nAcross the skyline.\n\nThe artwork listed is indeed authentic, created by, and copyright to artists Melissa Wiederrecht and Amber Vittoria; the purchase of this NFT is a purchase of the asset, not of the copyright.\n\n-------------------------------------------\n\nTo save a high-resolution image for printing, click “open” under the image on the page for your token, and then hit:\n\nDigits “1” through “9” to get an image that is 1000 through 9000px tall.  This may take a while, depending on the size and your computer, so please be patient.",
-            "tags": [
-              "amber",
-              "vittoria",
-              "melissa",
-              "wiederrecht",
-              "bright",
-              "colorful",
-              "gradient",
-              "in due time"
-            ],
-            "generatorUri": "ipfs://QmbptTL4qiHS1WBGccNF8F14tBiPKnCFfK2mYMTzT4mpWJ",
-            "artifactUri": "ipfs://QmbptTL4qiHS1WBGccNF8F14tBiPKnCFfK2mYMTzT4mpWJ?fxhash=op2uNX58tc54FEY9hR6sRBM4mhPetBJP55W82by1jp45k7Z9GRZ",
-            "displayUri": "ipfs://QmQt69tnuPirME3LSwhfrF1qPjWn3BXKZxgzPtad9BJCaX",
-            "thumbnailUri": "ipfs://QmV7eVNjnGqngaYxxbufMWPNkUrJeq7JGcMcNZK7q52cjs",
-            "authenticityHash": "c2ad73cffec945c6104b12eb4e9279cce447b0015e24c4d29c444cedd1609e94",
-            "attributes": true,
-            "decimals": 0,
-            "symbol": "GENTK",
-            "version": "0.2"
-          },
-          "duplicate": false,
-          "activeListing": {
-            "id": 728088,
-            "version": 1,
-            "price": 77000000,
-            "__typename": "Listing"
-          },
-          "owner": {
-            "id": "tz1dABt43fzCHPkoJ5Hpk9ZPeLKfZwmTjqCm",
-            "name": null,
-            "flag": "NONE",
-            "avatarUri": null,
-            "__typename": "User"
-          },
-          "issuer": {
-            "flag": "NONE",
-            "name": "In Due Time",
-            "author": {
-              "id": "KT1Vpwhpzy4JiLh81axzjRmEeC5xHJkh8r42",
-              "name": null,
-              "type": "COLLAB_CONTRACT_V1",
-              "avatarUri": null,
-              "flag": "NONE",
-              "collaborators": [
-                {
-                  "id": "tz1b36x2r4979rJfovuMeQ7mnr91SLyLHgpp",
-                  "name": "Amber Vittoria",
-                  "avatarUri": "ipfs://QmTRoVriQQ5Yvro3Rjebgy9tq9jKFSsJHv5xQtisCU33FM",
-                  "flag": "VERIFIED",
-                  "__typename": "User"
-                },
-                {
-                  "id": "tz1amUZ31Ua4qDTNXvRRs1CFYn415xEWq5Kb",
-                  "name": "Melissa Wiederrecht",
-                  "avatarUri": "ipfs://QmTmFSKLMMCbmrrZu4PUZWLTSQescfMRfFzNGwL5g9Tj7F",
-                  "flag": "VERIFIED",
-                  "__typename": "User"
-                }
-              ],
-              "__typename": "User"
-            },
-            "__typename": "GenerativeToken"
-          },
-          "__typename": "Objkt"
-        },
-        "__typename": "Listing"
-      },
-      {
-        "id": 728087,
-        "version": 1,
-        "price": 77000000,
-        "objkt": {
-          "id": 1166926,
-          "version": 1,
-          "name": "In Due Time #178",
-          "slug": "in-due-time-178",
-          "metadata": {
-            "name": "In Due Time #178",
-            "iterationHash": "opDoGDnGJg54yFweM5wkequdNYZzUohPRVztDzzovSA75nAHbgE",
-            "description": "“In Due Time” is a collaborative generative collection between artists Melissa Wiederrecht and Amber Vittoria. Inspired by Wiederrecht’s mastery of line and Vittoria’s notable palette, this 1/1/250 series captures the present moment. It serves as a reminder that we are more similar than we are different, leveraging homogeneous shapes to create distinctive compositions.\n\nVittoria’s poem for the collection:\n\n“In Due Time”\nWe will all become\nParticles dancing\nAcross the skyline.\n\nThe artwork listed is indeed authentic, created by, and copyright to artists Melissa Wiederrecht and Amber Vittoria; the purchase of this NFT is a purchase of the asset, not of the copyright.\n\n-------------------------------------------\n\nTo save a high-resolution image for printing, click “open” under the image on the page for your token, and then hit:\n\nDigits “1” through “9” to get an image that is 1000 through 9000px tall.  This may take a while, depending on the size and your computer, so please be patient.",
-            "tags": [
-              "amber",
-              "vittoria",
-              "melissa",
-              "wiederrecht",
-              "bright",
-              "colorful",
-              "gradient",
-              "in due time"
-            ],
-            "generatorUri": "ipfs://QmbptTL4qiHS1WBGccNF8F14tBiPKnCFfK2mYMTzT4mpWJ",
-            "artifactUri": "ipfs://QmbptTL4qiHS1WBGccNF8F14tBiPKnCFfK2mYMTzT4mpWJ?fxhash=opDoGDnGJg54yFweM5wkequdNYZzUohPRVztDzzovSA75nAHbgE",
-            "displayUri": "ipfs://QmSWGCsRbmQPJFHLXwQoxGe3TjUKGkcr7kj1AXqbRLRk8f",
-            "thumbnailUri": "ipfs://Qmai1GQMgT1mWDELS2uEXbKytk9fYknq3wo9J312pec4Eo",
-            "authenticityHash": "1266b230e6005c80de53bade1df66c2e8d4289543565f127ecbea568d336abfe",
-            "attributes": true,
-            "decimals": 0,
-            "symbol": "GENTK",
-            "version": "0.2"
-          },
-          "duplicate": false,
-          "activeListing": {
-            "id": 728087,
-            "version": 1,
-            "price": 77000000,
-            "__typename": "Listing"
-          },
-          "owner": {
-            "id": "tz1dABt43fzCHPkoJ5Hpk9ZPeLKfZwmTjqCm",
-            "name": null,
-            "flag": "NONE",
-            "avatarUri": null,
-            "__typename": "User"
-          },
-          "issuer": {
-            "flag": "NONE",
-            "name": "In Due Time",
-            "author": {
-              "id": "KT1Vpwhpzy4JiLh81axzjRmEeC5xHJkh8r42",
-              "name": null,
-              "type": "COLLAB_CONTRACT_V1",
-              "avatarUri": null,
-              "flag": "NONE",
-              "collaborators": [
-                {
-                  "id": "tz1b36x2r4979rJfovuMeQ7mnr91SLyLHgpp",
-                  "name": "Amber Vittoria",
-                  "avatarUri": "ipfs://QmTRoVriQQ5Yvro3Rjebgy9tq9jKFSsJHv5xQtisCU33FM",
-                  "flag": "VERIFIED",
-                  "__typename": "User"
-                },
-                {
-                  "id": "tz1amUZ31Ua4qDTNXvRRs1CFYn415xEWq5Kb",
-                  "name": "Melissa Wiederrecht",
-                  "avatarUri": "ipfs://QmTmFSKLMMCbmrrZu4PUZWLTSQescfMRfFzNGwL5g9Tj7F",
-                  "flag": "VERIFIED",
-                  "__typename": "User"
-                }
-              ],
-              "__typename": "User"
-            },
-            "__typename": "GenerativeToken"
-          },
-          "__typename": "Objkt"
-        },
-        "__typename": "Listing"
-      },
-      {
-        "id": 728086,
-        "version": 1,
-        "price": 77000000,
-        "objkt": {
-          "id": 1166892,
-          "version": 1,
-          "name": "In Due Time #159",
-          "slug": "in-due-time-159",
-          "metadata": {
-            "name": "In Due Time #159",
-            "iterationHash": "opVnzfaZguGvpdhDF7rsaxDXvNdKdrzrTjQaU7z9u16hWgkqhGe",
-            "description": "“In Due Time” is a collaborative generative collection between artists Melissa Wiederrecht and Amber Vittoria. Inspired by Wiederrecht’s mastery of line and Vittoria’s notable palette, this 1/1/250 series captures the present moment. It serves as a reminder that we are more similar than we are different, leveraging homogeneous shapes to create distinctive compositions.\n\nVittoria’s poem for the collection:\n\n“In Due Time”\nWe will all become\nParticles dancing\nAcross the skyline.\n\nThe artwork listed is indeed authentic, created by, and copyright to artists Melissa Wiederrecht and Amber Vittoria; the purchase of this NFT is a purchase of the asset, not of the copyright.\n\n-------------------------------------------\n\nTo save a high-resolution image for printing, click “open” under the image on the page for your token, and then hit:\n\nDigits “1” through “9” to get an image that is 1000 through 9000px tall.  This may take a while, depending on the size and your computer, so please be patient.",
-            "tags": [
-              "amber",
-              "vittoria",
-              "melissa",
-              "wiederrecht",
-              "bright",
-              "colorful",
-              "gradient",
-              "in due time"
-            ],
-            "generatorUri": "ipfs://QmbptTL4qiHS1WBGccNF8F14tBiPKnCFfK2mYMTzT4mpWJ",
-            "artifactUri": "ipfs://QmbptTL4qiHS1WBGccNF8F14tBiPKnCFfK2mYMTzT4mpWJ?fxhash=opVnzfaZguGvpdhDF7rsaxDXvNdKdrzrTjQaU7z9u16hWgkqhGe",
-            "displayUri": "ipfs://QmQBF9vNB6Tcy3TPFuBpXhg2PutbAVZAjjui6XraP6nHHX",
-            "thumbnailUri": "ipfs://QmWXPmVDHzeZw8nbwkfHzFYKyFfTYYyTmmtsFzaSksCdkx",
-            "authenticityHash": "733fb086a9a82b1aceb104164dc4c30a28b9cc8355a354c8470564b56e450808",
-            "attributes": true,
-            "decimals": 0,
-            "symbol": "GENTK",
-            "version": "0.2"
-          },
-          "duplicate": false,
-          "activeListing": {
-            "id": 728086,
-            "version": 1,
-            "price": 77000000,
-            "__typename": "Listing"
-          },
-          "owner": {
-            "id": "tz1dABt43fzCHPkoJ5Hpk9ZPeLKfZwmTjqCm",
-            "name": null,
-            "flag": "NONE",
-            "avatarUri": null,
-            "__typename": "User"
-          },
-          "issuer": {
-            "flag": "NONE",
-            "name": "In Due Time",
-            "author": {
-              "id": "KT1Vpwhpzy4JiLh81axzjRmEeC5xHJkh8r42",
-              "name": null,
-              "type": "COLLAB_CONTRACT_V1",
-              "avatarUri": null,
-              "flag": "NONE",
-              "collaborators": [
-                {
-                  "id": "tz1b36x2r4979rJfovuMeQ7mnr91SLyLHgpp",
-                  "name": "Amber Vittoria",
-                  "avatarUri": "ipfs://QmTRoVriQQ5Yvro3Rjebgy9tq9jKFSsJHv5xQtisCU33FM",
-                  "flag": "VERIFIED",
-                  "__typename": "User"
-                },
-                {
-                  "id": "tz1amUZ31Ua4qDTNXvRRs1CFYn415xEWq5Kb",
-                  "name": "Melissa Wiederrecht",
-                  "avatarUri": "ipfs://QmTmFSKLMMCbmrrZu4PUZWLTSQescfMRfFzNGwL5g9Tj7F",
-                  "flag": "VERIFIED",
-                  "__typename": "User"
-                }
-              ],
-              "__typename": "User"
-            },
-            "__typename": "GenerativeToken"
-          },
-          "__typename": "Objkt"
-        },
-        "__typename": "Listing"
-      },
-      {
-        "id": 728085,
-        "version": 1,
-        "price": 77000000,
-        "objkt": {
-          "id": 1166763,
-          "version": 1,
-          "name": "In Due Time #56",
-          "slug": "in-due-time-56",
-          "metadata": {
-            "name": "In Due Time #56",
-            "iterationHash": "ooe5fXkKZ6Wkmovsvq8PBoK7nz13qF36ft4ESvX9sbp8QAZEtwc",
-            "description": "“In Due Time” is a collaborative generative collection between artists Melissa Wiederrecht and Amber Vittoria. Inspired by Wiederrecht’s mastery of line and Vittoria’s notable palette, this 1/1/250 series captures the present moment. It serves as a reminder that we are more similar than we are different, leveraging homogeneous shapes to create distinctive compositions.\n\nVittoria’s poem for the collection:\n\n“In Due Time”\nWe will all become\nParticles dancing\nAcross the skyline.\n\nThe artwork listed is indeed authentic, created by, and copyright to artists Melissa Wiederrecht and Amber Vittoria; the purchase of this NFT is a purchase of the asset, not of the copyright.\n\n-------------------------------------------\n\nTo save a high-resolution image for printing, click “open” under the image on the page for your token, and then hit:\n\nDigits “1” through “9” to get an image that is 1000 through 9000px tall.  This may take a while, depending on the size and your computer, so please be patient.",
-            "tags": [
-              "amber",
-              "vittoria",
-              "melissa",
-              "wiederrecht",
-              "bright",
-              "colorful",
-              "gradient",
-              "in due time"
-            ],
-            "generatorUri": "ipfs://QmbptTL4qiHS1WBGccNF8F14tBiPKnCFfK2mYMTzT4mpWJ",
-            "artifactUri": "ipfs://QmbptTL4qiHS1WBGccNF8F14tBiPKnCFfK2mYMTzT4mpWJ?fxhash=ooe5fXkKZ6Wkmovsvq8PBoK7nz13qF36ft4ESvX9sbp8QAZEtwc",
-            "displayUri": "ipfs://QmccwNb7UVJrCW6vYHGGa7kLDkM4WNYSrRX1h7NqesA4hR",
-            "thumbnailUri": "ipfs://QmXcuDu5DEmnnVoqacpVATduNDf6D5ZdgfBvy9BfTnmLjf",
-            "authenticityHash": "e64f1bcd9d5b3201ca729e7da109323ab7b741959fdf3cc1ccdb3f1847c42a58",
-            "attributes": true,
-            "decimals": 0,
-            "symbol": "GENTK",
-            "version": "0.2"
-          },
-          "duplicate": false,
-          "activeListing": {
-            "id": 728085,
-            "version": 1,
-            "price": 77000000,
-            "__typename": "Listing"
-          },
-          "owner": {
-            "id": "tz1dABt43fzCHPkoJ5Hpk9ZPeLKfZwmTjqCm",
-            "name": null,
-            "flag": "NONE",
-            "avatarUri": null,
-            "__typename": "User"
-          },
-          "issuer": {
-            "flag": "NONE",
-            "name": "In Due Time",
-            "author": {
-              "id": "KT1Vpwhpzy4JiLh81axzjRmEeC5xHJkh8r42",
-              "name": null,
-              "type": "COLLAB_CONTRACT_V1",
-              "avatarUri": null,
-              "flag": "NONE",
-              "collaborators": [
-                {
-                  "id": "tz1b36x2r4979rJfovuMeQ7mnr91SLyLHgpp",
-                  "name": "Amber Vittoria",
-                  "avatarUri": "ipfs://QmTRoVriQQ5Yvro3Rjebgy9tq9jKFSsJHv5xQtisCU33FM",
-                  "flag": "VERIFIED",
-                  "__typename": "User"
-                },
-                {
-                  "id": "tz1amUZ31Ua4qDTNXvRRs1CFYn415xEWq5Kb",
-                  "name": "Melissa Wiederrecht",
-                  "avatarUri": "ipfs://QmTmFSKLMMCbmrrZu4PUZWLTSQescfMRfFzNGwL5g9Tj7F",
-                  "flag": "VERIFIED",
-                  "__typename": "User"
-                }
-              ],
-              "__typename": "User"
-            },
-            "__typename": "GenerativeToken"
-          },
-          "__typename": "Objkt"
-        },
-        "__typename": "Listing"
-      },
-      {
-        "id": 728084,
-        "version": 1,
-        "price": 77000000,
-        "objkt": {
-          "id": 1166830,
-          "version": 1,
-          "name": "In Due Time #120",
-          "slug": "in-due-time-120",
-          "metadata": {
-            "name": "In Due Time #120",
-            "iterationHash": "opEy8zrP8Tc9RC99gyvToy4iu4x5n8FMnf7iQD7Dq7ChnKF4fn9",
-            "description": "“In Due Time” is a collaborative generative collection between artists Melissa Wiederrecht and Amber Vittoria. Inspired by Wiederrecht’s mastery of line and Vittoria’s notable palette, this 1/1/250 series captures the present moment. It serves as a reminder that we are more similar than we are different, leveraging homogeneous shapes to create distinctive compositions.\n\nVittoria’s poem for the collection:\n\n“In Due Time”\nWe will all become\nParticles dancing\nAcross the skyline.\n\nThe artwork listed is indeed authentic, created by, and copyright to artists Melissa Wiederrecht and Amber Vittoria; the purchase of this NFT is a purchase of the asset, not of the copyright.\n\n-------------------------------------------\n\nTo save a high-resolution image for printing, click “open” under the image on the page for your token, and then hit:\n\nDigits “1” through “9” to get an image that is 1000 through 9000px tall.  This may take a while, depending on the size and your computer, so please be patient.",
-            "tags": [
-              "amber",
-              "vittoria",
-              "melissa",
-              "wiederrecht",
-              "bright",
-              "colorful",
-              "gradient",
-              "in due time"
-            ],
-            "generatorUri": "ipfs://QmbptTL4qiHS1WBGccNF8F14tBiPKnCFfK2mYMTzT4mpWJ",
-            "artifactUri": "ipfs://QmbptTL4qiHS1WBGccNF8F14tBiPKnCFfK2mYMTzT4mpWJ?fxhash=opEy8zrP8Tc9RC99gyvToy4iu4x5n8FMnf7iQD7Dq7ChnKF4fn9",
-            "displayUri": "ipfs://QmVdk4viS51h2TRua1UuDhMuh5y8KPJafubpRHD9B6dbrQ",
-            "thumbnailUri": "ipfs://QmVGTWEtcvbUfaSKT7kUh6LrH1yGgHLsAKs5pkDQd1nad8",
-            "authenticityHash": "bed3e07c8abd20084aef1784939d8a5f18e99d109ed4c4083007d3997988535a",
-            "attributes": true,
-            "decimals": 0,
-            "symbol": "GENTK",
-            "version": "0.2"
-          },
-          "duplicate": false,
-          "activeListing": {
-            "id": 728084,
-            "version": 1,
-            "price": 77000000,
-            "__typename": "Listing"
-          },
-          "owner": {
-            "id": "tz1dABt43fzCHPkoJ5Hpk9ZPeLKfZwmTjqCm",
-            "name": null,
-            "flag": "NONE",
-            "avatarUri": null,
-            "__typename": "User"
-          },
-          "issuer": {
-            "flag": "NONE",
-            "name": "In Due Time",
-            "author": {
-              "id": "KT1Vpwhpzy4JiLh81axzjRmEeC5xHJkh8r42",
-              "name": null,
-              "type": "COLLAB_CONTRACT_V1",
-              "avatarUri": null,
-              "flag": "NONE",
-              "collaborators": [
-                {
-                  "id": "tz1b36x2r4979rJfovuMeQ7mnr91SLyLHgpp",
-                  "name": "Amber Vittoria",
-                  "avatarUri": "ipfs://QmTRoVriQQ5Yvro3Rjebgy9tq9jKFSsJHv5xQtisCU33FM",
-                  "flag": "VERIFIED",
-                  "__typename": "User"
-                },
-                {
-                  "id": "tz1amUZ31Ua4qDTNXvRRs1CFYn415xEWq5Kb",
-                  "name": "Melissa Wiederrecht",
-                  "avatarUri": "ipfs://QmTmFSKLMMCbmrrZu4PUZWLTSQescfMRfFzNGwL5g9Tj7F",
-                  "flag": "VERIFIED",
-                  "__typename": "User"
-                }
-              ],
-              "__typename": "User"
-            },
-            "__typename": "GenerativeToken"
-          },
-          "__typename": "Objkt"
-        },
-        "__typename": "Listing"
-      },
-      {
-        "id": 728083,
-        "version": 1,
-        "price": 77000000,
-        "objkt": {
-          "id": 1166732,
-          "version": 1,
-          "name": "In Due Time #28",
-          "slug": "in-due-time-28",
-          "metadata": {
-            "name": "In Due Time #28",
-            "iterationHash": "ooSpD9TURPonaE9Eq4y1qiihYR5tbYDfJc9hKJck9Qd5GDURDLd",
-            "description": "“In Due Time” is a collaborative generative collection between artists Melissa Wiederrecht and Amber Vittoria. Inspired by Wiederrecht’s mastery of line and Vittoria’s notable palette, this 1/1/250 series captures the present moment. It serves as a reminder that we are more similar than we are different, leveraging homogeneous shapes to create distinctive compositions.\n\nVittoria’s poem for the collection:\n\n“In Due Time”\nWe will all become\nParticles dancing\nAcross the skyline.\n\nThe artwork listed is indeed authentic, created by, and copyright to artists Melissa Wiederrecht and Amber Vittoria; the purchase of this NFT is a purchase of the asset, not of the copyright.\n\n-------------------------------------------\n\nTo save a high-resolution image for printing, click “open” under the image on the page for your token, and then hit:\n\nDigits “1” through “9” to get an image that is 1000 through 9000px tall.  This may take a while, depending on the size and your computer, so please be patient.",
-            "tags": [
-              "amber",
-              "vittoria",
-              "melissa",
-              "wiederrecht",
-              "bright",
-              "colorful",
-              "gradient",
-              "in due time"
-            ],
-            "generatorUri": "ipfs://QmbptTL4qiHS1WBGccNF8F14tBiPKnCFfK2mYMTzT4mpWJ",
-            "artifactUri": "ipfs://QmbptTL4qiHS1WBGccNF8F14tBiPKnCFfK2mYMTzT4mpWJ?fxhash=ooSpD9TURPonaE9Eq4y1qiihYR5tbYDfJc9hKJck9Qd5GDURDLd",
-            "displayUri": "ipfs://QmdJigdEoKcdmufBi5ozy2qwULuN531gz5uqPm78eizBA1",
-            "thumbnailUri": "ipfs://Qmd8uBYWCNgmZKofxUgyaYzCR6LUPK8cihuJFrkkDL4w6s",
-            "authenticityHash": "7695f5a899d71d9da1d3fda9b5214e400e0657cc11f02ae5f01f714864897fdb",
-            "attributes": true,
-            "decimals": 0,
-            "symbol": "GENTK",
-            "version": "0.2"
-          },
-          "duplicate": false,
-          "activeListing": {
-            "id": 728083,
-            "version": 1,
-            "price": 77000000,
-            "__typename": "Listing"
-          },
-          "owner": {
-            "id": "tz1dABt43fzCHPkoJ5Hpk9ZPeLKfZwmTjqCm",
-            "name": null,
-            "flag": "NONE",
-            "avatarUri": null,
-            "__typename": "User"
-          },
-          "issuer": {
-            "flag": "NONE",
-            "name": "In Due Time",
-            "author": {
-              "id": "KT1Vpwhpzy4JiLh81axzjRmEeC5xHJkh8r42",
-              "name": null,
-              "type": "COLLAB_CONTRACT_V1",
-              "avatarUri": null,
-              "flag": "NONE",
-              "collaborators": [
-                {
-                  "id": "tz1b36x2r4979rJfovuMeQ7mnr91SLyLHgpp",
-                  "name": "Amber Vittoria",
-                  "avatarUri": "ipfs://QmTRoVriQQ5Yvro3Rjebgy9tq9jKFSsJHv5xQtisCU33FM",
-                  "flag": "VERIFIED",
-                  "__typename": "User"
-                },
-                {
-                  "id": "tz1amUZ31Ua4qDTNXvRRs1CFYn415xEWq5Kb",
-                  "name": "Melissa Wiederrecht",
-                  "avatarUri": "ipfs://QmTmFSKLMMCbmrrZu4PUZWLTSQescfMRfFzNGwL5g9Tj7F",
-                  "flag": "VERIFIED",
-                  "__typename": "User"
-                }
-              ],
-              "__typename": "User"
-            },
-            "__typename": "GenerativeToken"
-          },
-          "__typename": "Objkt"
-        },
-        "__typename": "Listing"
-      },
-      {
-        "id": 728082,
-        "version": 1,
-        "price": 3980000,
-        "objkt": {
-          "id": 1413184,
-          "version": 1,
-          "name": "Con(text)ual #86",
-          "slug": "con(text)ual-86",
-          "metadata": {
-            "name": "Con(text)ual #86",
-            "iterationHash": "opJXTo1dETW8UqtbYUf8VuEZZq71ui68FQGrYJr9SWcFo288Uy4",
-            "description": "Con(text)ual is a generative painting made from ASCII characters confined into shapes. Shapes are randomly drawn onto the canvas, then filled with individual characters from a character array. The density of characters is dependent upon the size of the shape, creating some transparencies and an organic feel to each shape.\n\nI've long been interested in typography as an artform and this is an extension of my typography explorations.\n\nThere are a total of 10 color pallets. The number of shapes on each canvas varies from 3 to 9. The edition size was chosen based on the code, which lends itself well to a wide array of potential outcomes. Please get in touch with me if you want a larger resolution size for printing. \n\nI hope you enjoy the art!\n\nMade with 100% Code and p5.js\nLicensed under CC BY-NC-SA 4.0",
-            "tags": [
-              "ASCII",
-              "Text"
-            ],
-            "generatorUri": "ipfs://QmQRRVn8HtY1hqJrNqCubTEiVtUtcdCJu9hPUjnebXAQyR",
-            "artifactUri": "ipfs://QmQRRVn8HtY1hqJrNqCubTEiVtUtcdCJu9hPUjnebXAQyR?fxhash=opJXTo1dETW8UqtbYUf8VuEZZq71ui68FQGrYJr9SWcFo288Uy4",
-            "displayUri": "ipfs://QmefdJs1Sxwyk74QG2jbatBtqqXSDgXGLJdDZzVP7zV6Ti",
-            "thumbnailUri": "ipfs://QmZb48DoQHnBTuaskq6mN6ubFAXSFAnk9bvLEhkboB8s8t",
-            "authenticityHash": "41afbfbf128f9f5bac507ea2fd131ae1d3766a7294b81aac113f1d4ad655e1ff",
-            "attributes": true,
-            "decimals": 0,
-            "symbol": "GENTK",
-            "version": "0.2"
-          },
-          "duplicate": false,
-          "activeListing": {
-            "id": 728082,
-            "version": 1,
-            "price": 3980000,
-            "__typename": "Listing"
-          },
-          "owner": {
-            "id": "tz1fT8u4PVrhbGMMT9HTrxyGFfYn2F1gGrqB",
-            "name": "miles.v",
-            "flag": "NONE",
-            "avatarUri": "ipfs://QmYaHo87nWCtT5xPSHb3UjdKHjQFo6xy8TJYPv2jHWxT1d",
-            "__typename": "User"
-          },
-          "issuer": {
-            "flag": "NONE",
-            "name": "Con(text)ual",
-            "author": {
-              "id": "tz1Q64UruC5uMhK6TfnYWSVcoapBbXM4QMp9",
-              "name": "Tendernode",
+              "id": "tz1fUeheQrjeZzkmtuEPiUFGwaXe53Zw7sHS",
+              "name": "Robert Matheson",
               "type": "REGULAR",
-              "avatarUri": "ipfs://QmdHZSvX4h26ueGVfBP4MzpKa2qpKYm6xG4fvgYTwNnp3q",
-              "flag": "NONE",
+              "avatarUri": "ipfs://QmRSKR6VKDnLg9mv8bPCnPhEt6XKqAFVwZWJadPfvW41Vs",
+              "flag": "VERIFIED",
               "collaborators": null,
               "__typename": "User"
             },
@@ -956,89 +483,357 @@
         "__typename": "Listing"
       },
       {
-        "id": 728081,
+        "id": 728113,
         "version": 1,
-        "price": 4000000,
+        "price": 2500000000,
         "objkt": {
-          "id": 1413141,
+          "id": 1010342,
           "version": 1,
-          "name": "Con(text)ual #43",
-          "slug": "con(text)ual-43",
+          "name": "Solitude #1",
+          "slug": "solitude-1",
           "metadata": {
-            "name": "Con(text)ual #43",
-            "iterationHash": "ooiGDrVtbt85THV9kQL69ko7Xx9MrD81UnPgA4R2R6Fg12Si32N",
-            "description": "Con(text)ual is a generative painting made from ASCII characters confined into shapes. Shapes are randomly drawn onto the canvas, then filled with individual characters from a character array. The density of characters is dependent upon the size of the shape, creating some transparencies and an organic feel to each shape.\n\nI've long been interested in typography as an artform and this is an extension of my typography explorations.\n\nThere are a total of 10 color pallets. The number of shapes on each canvas varies from 3 to 9. The edition size was chosen based on the code, which lends itself well to a wide array of potential outcomes. Please get in touch with me if you want a larger resolution size for printing. \n\nI hope you enjoy the art!\n\nMade with 100% Code and p5.js\nLicensed under CC BY-NC-SA 4.0",
+            "name": "Solitude #1",
+            "iterationHash": "ooyP1N2bcqAP3KjBmvP3qWyzWTLjBKMnLvfDK939rwSBJgdsU1E",
+            "description": "A dream of a quiet place to just be.\n\nMade in p5.js with a WebGL shader.",
             "tags": [
-              "ASCII",
-              "Text"
-            ],
-            "generatorUri": "ipfs://QmQRRVn8HtY1hqJrNqCubTEiVtUtcdCJu9hPUjnebXAQyR",
-            "artifactUri": "ipfs://QmQRRVn8HtY1hqJrNqCubTEiVtUtcdCJu9hPUjnebXAQyR?fxhash=ooiGDrVtbt85THV9kQL69ko7Xx9MrD81UnPgA4R2R6Fg12Si32N",
-            "displayUri": "ipfs://QmbYE5NCr2BwrCYcESos1HfqLX3ngafng9gKrDPcLLWzbC",
-            "thumbnailUri": "ipfs://QmWhg7E59uVAAocJn1WV6JFYK3UDanhCmeiwhpY7oPXxF9",
-            "authenticityHash": "05b2599a54946d75131444aa55a1d627dcddf3b1d994f138f4918af39214d75c",
-            "attributes": true,
-            "decimals": 0,
-            "symbol": "GENTK",
-            "version": "0.2"
-          },
-          "duplicate": false,
-          "activeListing": {
-            "id": 728081,
-            "version": 1,
-            "price": 4000000,
-            "__typename": "Listing"
-          },
-          "owner": {
-            "id": "tz1XuAzqvJWvWLQ5gnsJEdzQYQUyHEjuLS6e",
-            "name": null,
-            "flag": "NONE",
-            "avatarUri": null,
-            "__typename": "User"
-          },
-          "issuer": {
-            "flag": "NONE",
-            "name": "Con(text)ual",
-            "author": {
-              "id": "tz1Q64UruC5uMhK6TfnYWSVcoapBbXM4QMp9",
-              "name": "Tendernode",
-              "type": "REGULAR",
-              "avatarUri": "ipfs://QmdHZSvX4h26ueGVfBP4MzpKa2qpKYm6xG4fvgYTwNnp3q",
-              "flag": "NONE",
-              "collaborators": null,
-              "__typename": "User"
-            },
-            "__typename": "GenerativeToken"
-          },
-          "__typename": "Objkt"
-        },
-        "__typename": "Listing"
-      },
-      {
-        "id": 728080,
-        "version": 1,
-        "price": 555000000,
-        "objkt": {
-          "id": 269723,
-          "version": 0,
-          "name": "Chaos Research #25",
-          "slug": "chaos-research-25",
-          "metadata": {
-            "name": "Chaos Research #25",
-            "iterationHash": "ooArhnQNWx6w96QHR727tbr9ekW8TJsStSuGfqzJji5shj2AwsU",
-            "description": "No feature, no attribute, believe what you see.\n\n*mouseClick in live mode to save in png.\n\nileivoivm (AluanWang) - @IOivm, Dec 2021",
-            "tags": [
-              "aluanwang",
+              "landscape",
+              "abstract",
+              "painting",
+              "blur",
+              "dream",
+              "dreamy",
+              "tree",
+              "sun",
+              "sky",
+              "clouds",
               "p5js",
-              "ileivoivm",
-              "ChaosResearch",
-              "GoodVibrations"
+              "p5.js",
+              "shader",
+              "webgl",
+              "genartclub",
+              "generativeart",
+              "genart",
+              "melissa",
+              "wiederrecht",
+              "melissawiederreghtnftart",
+              "abstract art"
             ],
-            "generatorUri": "ipfs://QmeALg31LnC9tAQAhFEp6pGvpCMboZUEAM8H5gpZBSsWKz",
-            "artifactUri": "ipfs://QmeALg31LnC9tAQAhFEp6pGvpCMboZUEAM8H5gpZBSsWKz?fxhash=ooArhnQNWx6w96QHR727tbr9ekW8TJsStSuGfqzJji5shj2AwsU",
-            "displayUri": "ipfs://Qme3QB4EoTD2CSPbgxdYs4BqdXChGwPuhHQjYtgt16KJ6C",
-            "thumbnailUri": "ipfs://QmXntT3WDhzGknvLXVSygnaGDki8H5rZ78Kyg5qZoUw6rt",
-            "authenticityHash": "d5754b5248047e9fb7bd52095b3ff756b9fb950d01d4ec5d8d91354bb9de2d0d",
+            "generatorUri": "ipfs://QmXzBgTmGTG5pXaJ2TCcrnjZrydUy3W6wKak3KCCXEG7oV",
+            "artifactUri": "ipfs://QmXzBgTmGTG5pXaJ2TCcrnjZrydUy3W6wKak3KCCXEG7oV?fxhash=ooyP1N2bcqAP3KjBmvP3qWyzWTLjBKMnLvfDK939rwSBJgdsU1E",
+            "displayUri": "ipfs://QmWX8NPRdtPjJKWw7MMYtC5CN2SKkm7Mwv7JbvEeUzxZSF",
+            "thumbnailUri": "ipfs://QmPmeAPwHWkM3bEA9K7bBTDd9YZgDuBpLGwWqtCp4o78tY",
+            "authenticityHash": "667518fa3d8c5741d18c52df9ce5800b6cdd4a1d6063fc8364a3128abddd8b53",
+            "attributes": true,
+            "decimals": 0,
+            "symbol": "GENTK",
+            "version": "0.2"
+          },
+          "duplicate": false,
+          "activeListing": {
+            "id": 728113,
+            "version": 1,
+            "price": 2500000000,
+            "__typename": "Listing"
+          },
+          "owner": {
+            "id": "tz1M5QPtZ6WLTkotfonH6QXNpncjUudVmTWN",
+            "name": "DocSciFi",
+            "flag": "NONE",
+            "avatarUri": "ipfs://QmaFcv3o6WxVGrzrmSG7LeNgsFZVx3JogQcQdDTDhekhKC",
+            "__typename": "User"
+          },
+          "issuer": {
+            "flag": "NONE",
+            "name": "Solitude",
+            "author": {
+              "id": "tz1amUZ31Ua4qDTNXvRRs1CFYn415xEWq5Kb",
+              "name": "Melissa Wiederrecht",
+              "type": "REGULAR",
+              "avatarUri": "ipfs://QmTmFSKLMMCbmrrZu4PUZWLTSQescfMRfFzNGwL5g9Tj7F",
+              "flag": "VERIFIED",
+              "collaborators": null,
+              "__typename": "User"
+            },
+            "__typename": "GenerativeToken"
+          },
+          "__typename": "Objkt"
+        },
+        "__typename": "Listing"
+      },
+      {
+        "id": 728112,
+        "version": 1,
+        "price": 176000000,
+        "objkt": {
+          "id": 1412331,
+          "version": 1,
+          "name": "Archiplex II #30",
+          "slug": "archiplex-ii-30",
+          "metadata": {
+            "name": "Archiplex II #30",
+            "iterationHash": "opU3Go9kuo4PmvQaCZkC6kEepFrnswcSzEvQGpEBwgecvXRFkNY",
+            "description": "Archiplex II lays its foundations on Brutalist and Bauhaus design. Through simple, triangular shapes and hand-picked, bold colour palettes, this long-form series explores how generative methods can play and meld with these traditional architectural and design forms.",
+            "tags": [
+              "generative art",
+              "genartclub",
+              "genoce",
+              "bauhaus",
+              "generative design",
+              "graphic design"
+            ],
+            "generatorUri": "ipfs://QmP7yQiHmJkE4jQffJn9naNvgdgBifmZNUGSgVqP6dg1bq",
+            "artifactUri": "ipfs://QmP7yQiHmJkE4jQffJn9naNvgdgBifmZNUGSgVqP6dg1bq?fxhash=opU3Go9kuo4PmvQaCZkC6kEepFrnswcSzEvQGpEBwgecvXRFkNY",
+            "displayUri": "ipfs://Qmcp6Y5SE3F833auGzVA27hiC7zDVXLFwtut8CgNns3edD",
+            "thumbnailUri": "ipfs://QmRL9CG5zJdmHFyjMqLvQ5qeAAq2rfESmaMmgVkFsoFBPT",
+            "authenticityHash": "4ed5661a72a2d34218ac9f8df7b23dbc0206f72a761761b22e082ece949cc93d",
+            "attributes": true,
+            "decimals": 0,
+            "symbol": "GENTK",
+            "version": "0.2"
+          },
+          "duplicate": false,
+          "activeListing": {
+            "id": 728112,
+            "version": 1,
+            "price": 176000000,
+            "__typename": "Listing"
+          },
+          "owner": {
+            "id": "tz1hsUHB1RngmR5xxV5JwwxjnC2tNUMdZJhT",
+            "name": null,
+            "flag": "NONE",
+            "avatarUri": null,
+            "__typename": "User"
+          },
+          "issuer": {
+            "flag": "NONE",
+            "name": "Archiplex II",
+            "author": {
+              "id": "tz1USaiPyqDcLmxRmphhjahompoCK8X2MgKd",
+              "name": "ad_strauss",
+              "type": "REGULAR",
+              "avatarUri": "ipfs://QmdtX2hUyHQstjjmMdDExkxMPHhhWyq6ibQcVtLT7sTLJc",
+              "flag": "NONE",
+              "collaborators": null,
+              "__typename": "User"
+            },
+            "__typename": "GenerativeToken"
+          },
+          "__typename": "Objkt"
+        },
+        "__typename": "Listing"
+      },
+      {
+        "id": 728111,
+        "version": 1,
+        "price": 3690000,
+        "objkt": {
+          "id": 1405642,
+          "version": 1,
+          "name": "Nothing But Trash #157",
+          "slug": "nothing-but-trash-157",
+          "metadata": {
+            "name": "Nothing But Trash #157",
+            "iterationHash": "ooyodgrtQLAn4QDzQKSM4x7eXKTLDRKvVdX9Ft1eyE9RQKrJcGt",
+            "description": "This is garbage. I honestly can't believe the code even works. It's trash.\n\nFeaturing cc0 #trashart by these dirty dumpster divers:\n\n64 Gallon Toter by @ROBNESSOFFICIAL\nhttps://superrare.com/artwork-v2/64-gallon-toter-7323\n\nRed Dot Derivatives Trash Art by @robert_matheson\nhttps://objkt.com/collection/KT1W6qmZdYJMkKRuUb3ePSgouFPvB9ikrVSK\n\nTrash Waves by @MSTRVLDZ\nhttps://objkt.com/asset/KT1MhodKgE3BUJ3Ry23WPpqnTWaMmH3wjGRZ/77\n\nTrash Mountain by @NevilleGlover\nhttps://objkt.com/asset/KT1QH2jEJhGN5npcHrAM9R1bWCXCrunSY5N6/6\n\nTrash Panic by @kbometaverse\nhttps://objkt.com/asset/KT1NY2e86DGL3GdZAia9mXxptyKPHk53zQGW/82\n\nALT+CRTL+DRIFT by @TankussArt\nhttps://objkt.com/asset/hicetnunc/769129\n\nTrash Mimic by @letsglitchit\nhttps://objkt.com/asset/KT1NU2oYj8zHPkdCcPE2SViNQoQcNuZux814/15\n\nSmall bin. by @cheapbitcoinart\nhttps://objkt.com/asset/hicetnunc/761005\n\nTotermojis REMIX - The Trash HERO by @baird_naked\nhttps://objkt.com/asset/KT1TuEnmRower4wSoiGFRGJUJPmJNghZTcxm/32\n\nHappy trashy accidents by @Moxarra\nhttps://objkt.com/asset/KT19yaHCyi3BmVzZ9jvBmAnajShkSzYCDaJi/1\n\nMonolith Gardens by @ShillyPreston\nhttps://objkt.com/collection/KT1FRN9vSoJAp3VZ5zDs2aQiRFLS4TZxfvGA\n\nArt As A Mirror by @cryptofangs1\nhttps://objkt.com/asset/hicetnunc/761963\n\nNotes:\n- Framework for the code was generated by asking ChatGPT to write me a p5js script that would pixelate an image. Hacked from there. Seriously, this is trash.\n- Uses static and animated images with random tints and pixel grid overlays.\n- License is cc0. Public Domain.\n\nSpecial thanks to all the artists out there pushing the boundaries of the landfill and littering up the blockchain.",
+            "tags": [
+              "robert matheson",
+              "red dot",
+              "trash art",
+              "trashart",
+              "tez trash",
+              "teztrash",
+              "cc0",
+              "public domain",
+              "newberry made",
+              "newberry is an art town"
+            ],
+            "generatorUri": "ipfs://QmQmoHMPyhFC9YW7De5tZm36Jnajp1WZTX9Lmz7KaW7aUA",
+            "artifactUri": "ipfs://QmQmoHMPyhFC9YW7De5tZm36Jnajp1WZTX9Lmz7KaW7aUA?fxhash=ooyodgrtQLAn4QDzQKSM4x7eXKTLDRKvVdX9Ft1eyE9RQKrJcGt",
+            "displayUri": "ipfs://QmWzRaqUQ2c9ofodWhr3YUAnczA5MhaeRR6tqV6JFoxtmQ",
+            "thumbnailUri": "ipfs://QmcSZ5nLbbpwix6NMWZgrVeQeXnbqMDwUxdPKqiAwkywKi",
+            "authenticityHash": "5ebf11cb2b2e105de6a4def8d8240f74e2a9fe322bfa8c8d5e7f65cd4b5ad017",
+            "attributes": [
+              {
+                "name": "Artist",
+                "value": "@Robert_Matheson"
+              },
+              {
+                "name": "Theme",
+                "value": "Greywater"
+              },
+              {
+                "name": "Waste",
+                "value": "Boxed"
+              },
+              {
+                "name": "Surface",
+                "value": "Clean"
+              },
+              {
+                "name": "Environment",
+                "value": "Barren"
+              }
+            ],
+            "decimals": 0,
+            "symbol": "GENTK",
+            "version": "0.2"
+          },
+          "duplicate": false,
+          "activeListing": {
+            "id": 728111,
+            "version": 1,
+            "price": 3690000,
+            "__typename": "Listing"
+          },
+          "owner": {
+            "id": "tz1SiJbBaDPbgKf3ZnKicgzGxiHipTUYu8bV",
+            "name": "Nevglov",
+            "flag": "NONE",
+            "avatarUri": "ipfs://QmXaTNPixk1aRMHEf5qDSLQHxeC9M2PBSBSZmqvmWYQei1",
+            "__typename": "User"
+          },
+          "issuer": {
+            "flag": "NONE",
+            "name": "Nothing But Trash",
+            "author": {
+              "id": "tz1fUeheQrjeZzkmtuEPiUFGwaXe53Zw7sHS",
+              "name": "Robert Matheson",
+              "type": "REGULAR",
+              "avatarUri": "ipfs://QmRSKR6VKDnLg9mv8bPCnPhEt6XKqAFVwZWJadPfvW41Vs",
+              "flag": "VERIFIED",
+              "collaborators": null,
+              "__typename": "User"
+            },
+            "__typename": "GenerativeToken"
+          },
+          "__typename": "Objkt"
+        },
+        "__typename": "Listing"
+      },
+      {
+        "id": 728110,
+        "version": 1,
+        "price": 2690000,
+        "objkt": {
+          "id": 1400200,
+          "version": 1,
+          "name": "Nothing But Trash #11",
+          "slug": "nothing-but-trash-11",
+          "metadata": {
+            "name": "Nothing But Trash #11",
+            "iterationHash": "ooVwUXK7hmY4eVRL7jwCzioMrXBr9j3xxwR6GyWNE1SegfeDQve",
+            "description": "This is garbage. I honestly can't believe the code even works. It's trash.\n\nFeaturing cc0 #trashart by these dirty dumpster divers:\n\n64 Gallon Toter by @ROBNESSOFFICIAL\nhttps://superrare.com/artwork-v2/64-gallon-toter-7323\n\nRed Dot Derivatives Trash Art by @robert_matheson\nhttps://objkt.com/collection/KT1W6qmZdYJMkKRuUb3ePSgouFPvB9ikrVSK\n\nTrash Waves by @MSTRVLDZ\nhttps://objkt.com/asset/KT1MhodKgE3BUJ3Ry23WPpqnTWaMmH3wjGRZ/77\n\nTrash Mountain by @NevilleGlover\nhttps://objkt.com/asset/KT1QH2jEJhGN5npcHrAM9R1bWCXCrunSY5N6/6\n\nTrash Panic by @kbometaverse\nhttps://objkt.com/asset/KT1NY2e86DGL3GdZAia9mXxptyKPHk53zQGW/82\n\nALT+CRTL+DRIFT by @TankussArt\nhttps://objkt.com/asset/hicetnunc/769129\n\nTrash Mimic by @letsglitchit\nhttps://objkt.com/asset/KT1NU2oYj8zHPkdCcPE2SViNQoQcNuZux814/15\n\nSmall bin. by @cheapbitcoinart\nhttps://objkt.com/asset/hicetnunc/761005\n\nTotermojis REMIX - The Trash HERO by @baird_naked\nhttps://objkt.com/asset/KT1TuEnmRower4wSoiGFRGJUJPmJNghZTcxm/32\n\nHappy trashy accidents by @Moxarra\nhttps://objkt.com/asset/KT19yaHCyi3BmVzZ9jvBmAnajShkSzYCDaJi/1\n\nMonolith Gardens by @ShillyPreston\nhttps://objkt.com/collection/KT1FRN9vSoJAp3VZ5zDs2aQiRFLS4TZxfvGA\n\nArt As A Mirror by @cryptofangs1\nhttps://objkt.com/asset/hicetnunc/761963\n\nNotes:\n- Framework for the code was generated by asking ChatGPT to write me a p5js script that would pixelate an image. Hacked from there. Seriously, this is trash.\n- Uses static and animated images with random tints and pixel grid overlays.\n- License is cc0. Public Domain.\n\nSpecial thanks to all the artists out there pushing the boundaries of the landfill and littering up the blockchain.",
+            "tags": [
+              "robert matheson",
+              "red dot",
+              "trash art",
+              "trashart",
+              "tez trash",
+              "teztrash",
+              "cc0",
+              "public domain",
+              "newberry made",
+              "newberry is an art town"
+            ],
+            "generatorUri": "ipfs://QmQmoHMPyhFC9YW7De5tZm36Jnajp1WZTX9Lmz7KaW7aUA",
+            "artifactUri": "ipfs://QmQmoHMPyhFC9YW7De5tZm36Jnajp1WZTX9Lmz7KaW7aUA?fxhash=ooVwUXK7hmY4eVRL7jwCzioMrXBr9j3xxwR6GyWNE1SegfeDQve",
+            "displayUri": "ipfs://QmV66ejSBLBBWg3ft3gp8oX6kDTC3V29DGekUWV4wnyckc",
+            "thumbnailUri": "ipfs://QmZF36ZNmHvtc4CzvKNes8JbnGpNHk5h5XjygFEv4QLNfV",
+            "authenticityHash": "bd6c9358670fdad1e1e44c4f491612b134686247d1eeffa8057cfb96c75504a8",
+            "attributes": [
+              {
+                "name": "Artist",
+                "value": "@ShillyPreston"
+              },
+              {
+                "name": "Theme",
+                "value": "Feeling Blue"
+              },
+              {
+                "name": "Waste",
+                "value": "Recycled"
+              },
+              {
+                "name": "Surface",
+                "value": "Clean"
+              },
+              {
+                "name": "Environment",
+                "value": "Dusty"
+              }
+            ],
+            "decimals": 0,
+            "symbol": "GENTK",
+            "version": "0.2"
+          },
+          "duplicate": false,
+          "activeListing": {
+            "id": 728110,
+            "version": 1,
+            "price": 2690000,
+            "__typename": "Listing"
+          },
+          "owner": {
+            "id": "tz1SiJbBaDPbgKf3ZnKicgzGxiHipTUYu8bV",
+            "name": "Nevglov",
+            "flag": "NONE",
+            "avatarUri": "ipfs://QmXaTNPixk1aRMHEf5qDSLQHxeC9M2PBSBSZmqvmWYQei1",
+            "__typename": "User"
+          },
+          "issuer": {
+            "flag": "NONE",
+            "name": "Nothing But Trash",
+            "author": {
+              "id": "tz1fUeheQrjeZzkmtuEPiUFGwaXe53Zw7sHS",
+              "name": "Robert Matheson",
+              "type": "REGULAR",
+              "avatarUri": "ipfs://QmRSKR6VKDnLg9mv8bPCnPhEt6XKqAFVwZWJadPfvW41Vs",
+              "flag": "VERIFIED",
+              "collaborators": null,
+              "__typename": "User"
+            },
+            "__typename": "GenerativeToken"
+          },
+          "__typename": "Objkt"
+        },
+        "__typename": "Listing"
+      },
+      {
+        "id": 728109,
+        "version": 1,
+        "price": 1288000000,
+        "objkt": {
+          "id": 1180489,
+          "version": 1,
+          "name": "Take Wing #201",
+          "slug": "take-wing-201",
+          "metadata": {
+            "name": "Take Wing #201",
+            "iterationHash": "op9wMgQDDewz6mBLZme2ij7dHeAmcEUhMBc9a5UXM7XVg937Jzu",
+            "description": "“Take Wing” is a generative art collection depicting the hope, optimism, and thrilling excitement of a person taking off, gaining traction, and soaring to new heights and off into the great unknown.  \n\nThe algorithm behind the piece stems from an attempt to go back to art fundamentals and codify composition rules and painterly techniques into a generative form - taking into account focal points, contrast, eye movement, and color theory while still giving the algorithm freedom to explore random color palettes, random flow field movement, random brush strokes, and many other degrees of freedom.\n\nThe collection is made in pure code with p5.js and a few GLSL fragment shaders.\n\nThe piece has been created to be exhibited at \"In Touch\" with VerticalCryptoArt in Berlin in September 2022, curated by Anika Meier.\n\n------------------------------------------------\n\nTo get a (somewhat) high-resolution output, open the live view of your token, and then edit the URL adding &h=5400 at the end of it.  5400 is the tallest you can go, but you can also put a smaller number if you desire.  Be aware that this will only work on a machine with a very beefy GPU, and even then may take a bit, so please be patient!",
+            "tags": [
+              "take wing",
+              "paint",
+              "painterly",
+              "painting",
+              "abstract",
+              "melissa",
+              "wiederrecht",
+              "p5js",
+              "p5.js",
+              "glsl",
+              "webgl",
+              "verticalcrypto",
+              "verticalcryptoart",
+              "berlin",
+              "in touch"
+            ],
+            "generatorUri": "ipfs://QmcFdeWe7HCt7MvZMz7PRJjmRZuNNaEtRrUygDwTjbzgKB",
+            "artifactUri": "ipfs://QmcFdeWe7HCt7MvZMz7PRJjmRZuNNaEtRrUygDwTjbzgKB?fxhash=op9wMgQDDewz6mBLZme2ij7dHeAmcEUhMBc9a5UXM7XVg937Jzu",
+            "displayUri": "ipfs://Qme9e9goWPMXCqxRXzLrLS6qfjD4VvqHdP4C7Adq9w7WWA",
+            "thumbnailUri": "ipfs://QmPqF5oeykzQcCe7T4Ynau2iZp6DUaSxUSrdwwk9Z8yhcT",
+            "authenticityHash": "249bed3f448427d5fbf6060c434ea0f71f5434d7959f30816a8a9ad17dea5502",
             "attributes": [],
             "decimals": 0,
             "symbol": "GENTK",
@@ -1046,26 +841,26 @@
           },
           "duplicate": false,
           "activeListing": {
-            "id": 728080,
+            "id": 728109,
             "version": 1,
-            "price": 555000000,
+            "price": 1288000000,
             "__typename": "Listing"
           },
           "owner": {
-            "id": "tz1cABJBbk9yxqh1whZFYVpPP76MUsvVTpqz",
-            "name": "ASVsupreme",
+            "id": "tz1ZhXjXNJ6eaEw42jvQBbvT1gW4dkBt5GxJ",
+            "name": "agksys.tez",
             "flag": "NONE",
-            "avatarUri": "ipfs://QmQumoyynQLb6SGAzZENSMggZvkKF7ycXzZnfsv1BDkLqU",
+            "avatarUri": "ipfs://QmSJ1v4zBGApLXKwTCuxNEhnJR92ho2FDWTzpZUphmJpTy",
             "__typename": "User"
           },
           "issuer": {
             "flag": "NONE",
-            "name": "Chaos Research",
+            "name": "Take Wing",
             "author": {
-              "id": "tz1cbhmVZuFTKHcACSFpg5ER1bGVGkanhrbW",
-              "name": "ileivoivm",
+              "id": "tz1amUZ31Ua4qDTNXvRRs1CFYn415xEWq5Kb",
+              "name": "Melissa Wiederrecht",
               "type": "REGULAR",
-              "avatarUri": "ipfs://QmcJQSgw2rxEJH9TeBoLooj5h39U9baCAVcBLTvtCoYFqc",
+              "avatarUri": "ipfs://QmTmFSKLMMCbmrrZu4PUZWLTSQescfMRfFzNGwL5g9Tj7F",
               "flag": "VERIFIED",
               "collaborators": null,
               "__typename": "User"
@@ -1077,346 +872,591 @@
         "__typename": "Listing"
       },
       {
-        "id": 728079,
+        "id": 728108,
         "version": 1,
-        "price": 18000000,
+        "price": 1919000000,
         "objkt": {
-          "id": 1412713,
+          "id": 1274410,
           "version": 1,
-          "name": "Pearls #11",
-          "slug": "pearls-11",
+          "name": "Acequia #206",
+          "slug": "acequia-206",
           "metadata": {
-            "name": "Pearls #11",
-            "iterationHash": "ooMYq8buyp2uFSc43hR6HNEsMJxMfKTsXQqas68oFdnvyYe7V17",
-            "description": "Pearls is a generative minimal artwork made with 100% code in p5js.\n\nThis algorithm places perfectly round pearls into multiple stacked grids and connects them in a pleasing way. The small grids lead to interesting emerging patterns. Some see faces and fish, others see ancient hardware and elephants, and some just enjoy the minimal simplicity.\n\n-- controls (in live view)\ns: to save the current image\na: to play a small animation\n\n-- some attributes\nlayout: 2x2 to 34x34\npalette: genuary, monochrome red & purple, night\nmode: ink, walk\nbias: central, north, east, south, west\ndensity: sparse, middle, dense\nsymmetry: none, vertical, horizontal, point\nlayer: 2 to 6",
+            "name": "Acequia #206",
+            "iterationHash": "onjySQDbUMAmLu1SMMuQmm4iAEvsSZJQGGDRebPQrqoHySWHdZP",
+            "description": "Acequia (“ah-seh-kee-uh”) - a Spanish adaptation of the Arabic word as-sāqiya, meaning “water carrier”. \n\nIn our second collaboration, Rich and Rick are back with our blend of generative code, intricate design, attention to detail, and a splash of charm. \n\n Acequias are traditional irrigation canals used to distribute rainwater and snowmelt along a complex network of narrow channels. They are found in Spain, the American Southwest, and northern Mexico, where they are essential for sustaining fields, orchards, and gardens in semi-arid regions.   \nOur aim in this series is to capture the essence of these waterways in bold geometric designs. Each piece is inspired by a mountain village or town in Andalusia (southern Spain). \n\nThe location determines the cube designs and construction rules that are used to build the final output. These are combined with striking day/night palettes, outline styles, scales, climates, and a few surprises of course!\n\n\nControls (in live view): \n\n- Press [p] to pause water animation \n- Press [e] to complete water animation \n- Press [r] to reset water animation \n- Press [s] to save the current image \n- Press [h] for a high-res output suitable for printing \n- Press [b] to toggle the border",
             "tags": [
-              "minimal",
-              "p5js",
-              "genuary",
-              "genartclub",
-              "creativecoding",
-              "generativeart",
+              "cube",
+              "hex",
+              "landscape",
+              "water"
+            ],
+            "generatorUri": "ipfs://QmUBXzcPTme2wwfjp52Wy6Ty8oS25qguo7DLjfAMW9eRQK",
+            "artifactUri": "ipfs://QmUBXzcPTme2wwfjp52Wy6Ty8oS25qguo7DLjfAMW9eRQK?fxhash=onjySQDbUMAmLu1SMMuQmm4iAEvsSZJQGGDRebPQrqoHySWHdZP",
+            "displayUri": "ipfs://QmW1Ycspw4E72eZQ4Ma23YExQt7QYuER359rJYR8f5hm2h",
+            "thumbnailUri": "ipfs://QmcZqs4mdQ9dDsygPS3p92PYm3JedNGUh8dZtU56gC6YhC",
+            "authenticityHash": "06811aca9cc118420961a748af7296d437d5134922ec51941e110dc27279cd73",
+            "attributes": [
+              {
+                "name": "Alignment",
+                "value": "Fixed"
+              },
+              {
+                "name": "Climate",
+                "value": "Temperate"
+              },
+              {
+                "name": "Location",
+                "value": "Capileria"
+              },
+              {
+                "name": "Outline",
+                "value": "Regular"
+              },
+              {
+                "name": "Palette",
+                "value": "Biome"
+              },
+              {
+                "name": "Size",
+                "value": "Standard"
+              },
+              {
+                "name": "Time of Day",
+                "value": "Dawn"
+              }
+            ],
+            "decimals": 0,
+            "symbol": "GENTK",
+            "version": "0.2"
+          },
+          "duplicate": false,
+          "activeListing": {
+            "id": 728108,
+            "version": 1,
+            "price": 1919000000,
+            "__typename": "Listing"
+          },
+          "owner": {
+            "id": "tz1LvDyHQgvZwbh8ViJJjU1wBUfmmwhsukuJ",
+            "name": "obi.tez",
+            "flag": "VERIFIED",
+            "avatarUri": "ipfs://QmSNjNZHR8KS74Be6m2TNFCevw3BBPNXQU1gtGu63LfLK9",
+            "__typename": "User"
+          },
+          "issuer": {
+            "flag": "NONE",
+            "name": "Acequia",
+            "author": {
+              "id": "KT1HP1h1uEesRgsFhGbLtbMbvvTNZZ6Di7p3",
+              "name": null,
+              "type": "COLLAB_CONTRACT_V1",
+              "avatarUri": null,
+              "flag": "NONE",
+              "collaborators": [
+                {
+                  "id": "tz1KqsqLnEsMjiyLu1cV33SwhpUcBJyKEAbq",
+                  "name": "ThePaperCrane",
+                  "avatarUri": "ipfs://QmXrdram3Bg3RQWdHs3EytBaMbRqysrXvTE1SutxbFFH7i",
+                  "flag": "VERIFIED",
+                  "__typename": "User"
+                },
+                {
+                  "id": "tz1XgdC4S9XMosavpqmSiFyjyCfqTNxSp19a",
+                  "name": "Rich Poole",
+                  "avatarUri": "ipfs://QmejkZtxiYDpX7uPVo3fwF9AHsZwnqx35qK5iaytNK8pyh",
+                  "flag": "VERIFIED",
+                  "__typename": "User"
+                }
+              ],
+              "__typename": "User"
+            },
+            "__typename": "GenerativeToken"
+          },
+          "__typename": "Objkt"
+        },
+        "__typename": "Listing"
+      },
+      {
+        "id": 728107,
+        "version": 1,
+        "price": 750000000,
+        "objkt": {
+          "id": 1316866,
+          "version": 1,
+          "name": "Mantle #218",
+          "slug": "mantle-218",
+          "metadata": {
+            "name": "Mantle #218",
+            "iterationHash": "opSHhH69cofcXixyzP3fKRDxct6L5DG3QELiyWTB7bKyQeBMKYX",
+            "description": "A colourful graphic exploration that I started in December 2021 and didn't finish until just now. \nHappy birthday FX! #fxhashturnsone",
+            "tags": [
+              "fxhashturnsone"
+            ],
+            "generatorUri": "ipfs://QmWovr6CbShKvSUT9WY652C5Vm8isecDkFj8m2YYmmNoDK",
+            "artifactUri": "ipfs://QmWovr6CbShKvSUT9WY652C5Vm8isecDkFj8m2YYmmNoDK?fxhash=opSHhH69cofcXixyzP3fKRDxct6L5DG3QELiyWTB7bKyQeBMKYX",
+            "displayUri": "ipfs://QmeZ84SfSrjhAazpAPNYHpBg9iiMFQzfrryLeRU7qRgLPS",
+            "thumbnailUri": "ipfs://QmXYBi7TPcRZbUQCFwQ7RU8tUX99kzavvMDHMtwMkXTkXQ",
+            "authenticityHash": "022b099e6209545e26384d664b31c98db8c5649f4b6cbaabc4fb17799a14aa49",
+            "attributes": [
+              {
+                "name": "Palette",
+                "value": "Multi"
+              },
+              {
+                "name": "Layout",
+                "value": "Shelves"
+              },
+              {
+                "name": "Scale",
+                "value": "S"
+              }
+            ],
+            "decimals": 0,
+            "symbol": "GENTK",
+            "version": "0.2"
+          },
+          "duplicate": false,
+          "activeListing": {
+            "id": 728107,
+            "version": 1,
+            "price": 750000000,
+            "__typename": "Listing"
+          },
+          "owner": {
+            "id": "tz1NtLM6sadeDnJpBKfMLKMnvVvCeCRGEXhL",
+            "name": "NFTzombie",
+            "flag": "NONE",
+            "avatarUri": "ipfs://QmdWcTz4kX7r1e8GZqbXVz5yEG8oAb6QgqzNHaqG3eP8HY",
+            "__typename": "User"
+          },
+          "issuer": {
+            "flag": "NONE",
+            "name": "Mantle",
+            "author": {
+              "id": "tz1amcnQuDXY2pzBy23e4sV8qaxpRbQAY7W6",
+              "name": "xiiixiii",
+              "type": "REGULAR",
+              "avatarUri": "ipfs://QmX3qd35oVfU7qhp59gH5bt8jCoLbdcjJy4k7GpdHPGALv",
+              "flag": "VERIFIED",
+              "collaborators": null,
+              "__typename": "User"
+            },
+            "__typename": "GenerativeToken"
+          },
+          "__typename": "Objkt"
+        },
+        "__typename": "Listing"
+      },
+      {
+        "id": 728106,
+        "version": 1,
+        "price": 120000000,
+        "objkt": {
+          "id": 1316947,
+          "version": 1,
+          "name": "Mantle #295",
+          "slug": "mantle-295",
+          "metadata": {
+            "name": "Mantle #295",
+            "iterationHash": "ooGChDix96wnoNXLTwGFvejvomuxtMp4fjwdmqPRfNjv8i7FeuR",
+            "description": "A colourful graphic exploration that I started in December 2021 and didn't finish until just now. \nHappy birthday FX! #fxhashturnsone",
+            "tags": [
+              "fxhashturnsone"
+            ],
+            "generatorUri": "ipfs://QmWovr6CbShKvSUT9WY652C5Vm8isecDkFj8m2YYmmNoDK",
+            "artifactUri": "ipfs://QmWovr6CbShKvSUT9WY652C5Vm8isecDkFj8m2YYmmNoDK?fxhash=ooGChDix96wnoNXLTwGFvejvomuxtMp4fjwdmqPRfNjv8i7FeuR",
+            "displayUri": "ipfs://QmbMhyxBpY1CeX6kWdCpCBUxk43E4etxa3215yMvouKG6E",
+            "thumbnailUri": "ipfs://QmXDqbvsDuWF9WFip2gkEGoPW194j9uCDK4MZcSQFfsmQ5",
+            "authenticityHash": "8a77df49d3b9ef4672663dd9df9f313b8fac9f440808d309c06e0e1618eb90f8",
+            "attributes": [
+              {
+                "name": "Palette",
+                "value": "Trio"
+              },
+              {
+                "name": "Layout",
+                "value": "Shelves"
+              },
+              {
+                "name": "Scale",
+                "value": "L"
+              }
+            ],
+            "decimals": 0,
+            "symbol": "GENTK",
+            "version": "0.2"
+          },
+          "duplicate": false,
+          "activeListing": {
+            "id": 728106,
+            "version": 1,
+            "price": 120000000,
+            "__typename": "Listing"
+          },
+          "owner": {
+            "id": "tz1NtLM6sadeDnJpBKfMLKMnvVvCeCRGEXhL",
+            "name": "NFTzombie",
+            "flag": "NONE",
+            "avatarUri": "ipfs://QmdWcTz4kX7r1e8GZqbXVz5yEG8oAb6QgqzNHaqG3eP8HY",
+            "__typename": "User"
+          },
+          "issuer": {
+            "flag": "NONE",
+            "name": "Mantle",
+            "author": {
+              "id": "tz1amcnQuDXY2pzBy23e4sV8qaxpRbQAY7W6",
+              "name": "xiiixiii",
+              "type": "REGULAR",
+              "avatarUri": "ipfs://QmX3qd35oVfU7qhp59gH5bt8jCoLbdcjJy4k7GpdHPGALv",
+              "flag": "VERIFIED",
+              "collaborators": null,
+              "__typename": "User"
+            },
+            "__typename": "GenerativeToken"
+          },
+          "__typename": "Objkt"
+        },
+        "__typename": "Listing"
+      },
+      {
+        "id": 728105,
+        "version": 1,
+        "price": 20000000,
+        "objkt": {
+          "id": 661417,
+          "version": 1,
+          "name": "(un)existing #163",
+          "slug": "(un)existing-163",
+          "metadata": {
+            "name": "(un)existing #163",
+            "iterationHash": "onrXbJZmJiRWixRUr7zm7BCF2QPZbMuGSWGbTzmWchhzWePnD6t",
+            "description": "The existing nature grows on the unexisting spirits.\n\nGenerative sketch, based on the pen and ink drawings of Po Sheng Chen. Po Sheng Chen is an Architect who has drawn nothing but Architecture for over 25 years. He tried to explore something different from his previous style (Brutalism with Magical Realism), so developed his own Minimalist Architecture process and style. After breaking up all the complicated elements and symbols, he chose a simple and naive way to present “pure volumes in the space (the essential of Architecture)”: the Use of different densities of vertical lines to create different faces of volumes, with the addition of horizontal lines to create shadows on the volumes. Shadow determined the form of volumes, then they became a clear composition in the space, Eliminating chaos. These lines seem like spirits to Po Sheng Chen, because they represent the soul of Architecture, but they do not have a specific form or meaning...they are between existing and unexisting! Tezumie is a creative generative artist. He saw the latest experimental drawings of Po Sheng Chen, and after reaching out, the collab was formed with the goal of creating a digital representation of the original concept surrounded by a natural and overgrown environment. The combination of nature and architecture.\n\nMade in p5js.\n",
+            "tags": [
+              "(un)existing",
+              "architecture",
+              "building",
+              "structure",
+              "volume",
+              "nature",
+              "plant",
+              "flower",
+              "spirit",
+              "geometric",
+              "shapes",
+              "collab",
+              "pen",
+              "ink",
+              "sketch",
+              "Tezumie",
+              "PersonChen"
+            ],
+            "generatorUri": "ipfs://QmaKAE18PwUSehRMcbG5zAsVXfM93wcuDV63DvJ6aB6UfP",
+            "artifactUri": "ipfs://QmaKAE18PwUSehRMcbG5zAsVXfM93wcuDV63DvJ6aB6UfP?fxhash=onrXbJZmJiRWixRUr7zm7BCF2QPZbMuGSWGbTzmWchhzWePnD6t",
+            "displayUri": "ipfs://QmPnPM1Fhaya8bRPyoASTurktYYKcD7GWwMSzvnFiPLToi",
+            "thumbnailUri": "ipfs://QmaUB9257RSEUi1pmdz3MkyH68AJPTvxEbpNVDBcY7d8zp",
+            "authenticityHash": "8ac68853b36bee5b2bbd6257653222329fd96d8b2dad29059a0a2f99e6815845",
+            "attributes": [],
+            "decimals": 0,
+            "symbol": "GENTK",
+            "version": "0.2"
+          },
+          "duplicate": false,
+          "activeListing": {
+            "id": 728105,
+            "version": 1,
+            "price": 20000000,
+            "__typename": "Listing"
+          },
+          "owner": {
+            "id": "tz1XgdC4S9XMosavpqmSiFyjyCfqTNxSp19a",
+            "name": "Rich Poole",
+            "flag": "VERIFIED",
+            "avatarUri": "ipfs://QmejkZtxiYDpX7uPVo3fwF9AHsZwnqx35qK5iaytNK8pyh",
+            "__typename": "User"
+          },
+          "issuer": {
+            "flag": "NONE",
+            "name": "(un)existing",
+            "author": {
+              "id": "KT1SRyw73wFrH3k9ycEuEmds8DnVY2QunVkt",
+              "name": null,
+              "type": "COLLAB_CONTRACT_V1",
+              "avatarUri": null,
+              "flag": "NONE",
+              "collaborators": [
+                {
+                  "id": "tz1VsUbGDa9WHCaNoNR3btcRceR18XaMCjNW",
+                  "name": "PersonChen",
+                  "avatarUri": "ipfs://QmXaWuLPRbKCcgUmNLUqgDeXaPmzQnRc8QvkVavZgbjsvp",
+                  "flag": "NONE",
+                  "__typename": "User"
+                },
+                {
+                  "id": "tz1a2aHDQayeSEsbDRm5igEiLYH4cxcNnKyz",
+                  "name": "Tezumie",
+                  "avatarUri": "ipfs://Qme87rj5nGeRDqEZRJ1urtRuzyf5TrNvW85cWVjS17xseG",
+                  "flag": "NONE",
+                  "__typename": "User"
+                }
+              ],
+              "__typename": "User"
+            },
+            "__typename": "GenerativeToken"
+          },
+          "__typename": "Objkt"
+        },
+        "__typename": "Listing"
+      },
+      {
+        "id": 728104,
+        "version": 1,
+        "price": 20000000,
+        "objkt": {
+          "id": 661488,
+          "version": 1,
+          "name": "(un)existing #233",
+          "slug": "(un)existing-233",
+          "metadata": {
+            "name": "(un)existing #233",
+            "iterationHash": "ooJcFjcwK68UXkGy1A3AswmBnPxQktawWhHDX9nz5mBdcsbBXcE",
+            "description": "The existing nature grows on the unexisting spirits.\n\nGenerative sketch, based on the pen and ink drawings of Po Sheng Chen. Po Sheng Chen is an Architect who has drawn nothing but Architecture for over 25 years. He tried to explore something different from his previous style (Brutalism with Magical Realism), so developed his own Minimalist Architecture process and style. After breaking up all the complicated elements and symbols, he chose a simple and naive way to present “pure volumes in the space (the essential of Architecture)”: the Use of different densities of vertical lines to create different faces of volumes, with the addition of horizontal lines to create shadows on the volumes. Shadow determined the form of volumes, then they became a clear composition in the space, Eliminating chaos. These lines seem like spirits to Po Sheng Chen, because they represent the soul of Architecture, but they do not have a specific form or meaning...they are between existing and unexisting! Tezumie is a creative generative artist. He saw the latest experimental drawings of Po Sheng Chen, and after reaching out, the collab was formed with the goal of creating a digital representation of the original concept surrounded by a natural and overgrown environment. The combination of nature and architecture.\n\nMade in p5js.\n",
+            "tags": [
+              "(un)existing",
+              "architecture",
+              "building",
+              "structure",
+              "volume",
+              "nature",
+              "plant",
+              "flower",
+              "spirit",
+              "geometric",
+              "shapes",
+              "collab",
+              "pen",
+              "ink",
+              "sketch",
+              "Tezumie",
+              "PersonChen"
+            ],
+            "generatorUri": "ipfs://QmaKAE18PwUSehRMcbG5zAsVXfM93wcuDV63DvJ6aB6UfP",
+            "artifactUri": "ipfs://QmaKAE18PwUSehRMcbG5zAsVXfM93wcuDV63DvJ6aB6UfP?fxhash=ooJcFjcwK68UXkGy1A3AswmBnPxQktawWhHDX9nz5mBdcsbBXcE",
+            "displayUri": "ipfs://QmdAD13zGkcGVZWPgYxzwC1sSiaeRg2cPWmce78656VDcq",
+            "thumbnailUri": "ipfs://QmWh7LdYyByM3eaPswLiJNF5iS176EMdW9dc73Jts2KHPT",
+            "authenticityHash": "3ba065a7d552958150db2bb87829b4113709a73851a62d78383d6087b3046510",
+            "attributes": [],
+            "decimals": 0,
+            "symbol": "GENTK",
+            "version": "0.2"
+          },
+          "duplicate": false,
+          "activeListing": {
+            "id": 728104,
+            "version": 1,
+            "price": 20000000,
+            "__typename": "Listing"
+          },
+          "owner": {
+            "id": "tz1XgdC4S9XMosavpqmSiFyjyCfqTNxSp19a",
+            "name": "Rich Poole",
+            "flag": "VERIFIED",
+            "avatarUri": "ipfs://QmejkZtxiYDpX7uPVo3fwF9AHsZwnqx35qK5iaytNK8pyh",
+            "__typename": "User"
+          },
+          "issuer": {
+            "flag": "NONE",
+            "name": "(un)existing",
+            "author": {
+              "id": "KT1SRyw73wFrH3k9ycEuEmds8DnVY2QunVkt",
+              "name": null,
+              "type": "COLLAB_CONTRACT_V1",
+              "avatarUri": null,
+              "flag": "NONE",
+              "collaborators": [
+                {
+                  "id": "tz1VsUbGDa9WHCaNoNR3btcRceR18XaMCjNW",
+                  "name": "PersonChen",
+                  "avatarUri": "ipfs://QmXaWuLPRbKCcgUmNLUqgDeXaPmzQnRc8QvkVavZgbjsvp",
+                  "flag": "NONE",
+                  "__typename": "User"
+                },
+                {
+                  "id": "tz1a2aHDQayeSEsbDRm5igEiLYH4cxcNnKyz",
+                  "name": "Tezumie",
+                  "avatarUri": "ipfs://Qme87rj5nGeRDqEZRJ1urtRuzyf5TrNvW85cWVjS17xseG",
+                  "flag": "NONE",
+                  "__typename": "User"
+                }
+              ],
+              "__typename": "User"
+            },
+            "__typename": "GenerativeToken"
+          },
+          "__typename": "Objkt"
+        },
+        "__typename": "Listing"
+      },
+      {
+        "id": 728103,
+        "version": 1,
+        "price": 500000000,
+        "objkt": {
+          "id": 1325921,
+          "version": 1,
+          "name": "Punktwelt #197",
+          "slug": "punktwelt-197",
+          "metadata": {
+            "name": "Punktwelt #197",
+            "iterationHash": "ooJeBzoPreTngTdi7kpWzf3SuywFVi6heCCY62erLqo8N9DSKBa",
+            "description": "Continuing on the theme of color perception in Farbteiler, Punktwelt is an exploration of color interaction, projection and perceived depth, and the aesthetics of simple Boolean operations on form.\n\nEach shape is the result of a single block, a rectangular cuboid, subjected to a series of Boolean subtractions with other blocks, and rendered in parallel projection, oblique or axonometric, in the abstract landscape of the Punktwelt.\n\nSome have horizons, some have banded or striped backgrounds. The unnatural drawing order and chromatic differences of the individual faces sometimes yields illusory or paradoxical visual geometries.\n\nPress ’s’ to save a png. Press ’4’ to export a high resolution png. Press ’8’ to export a very high resolution png. Press ’e’ to export an SVG file (may take some time and produce large files).\n\nAspect ratio variations are 4:5, 5:4, 2:3, 3:2 and 1:1.\n\nBuilt in Javascript with p5.js, p5.svg and csg.js.",
+            "tags": [],
+            "generatorUri": "ipfs://QmTjgrNyaH3iS8msm4jAFzkyCnvepoWSMxuAtejvdLAY4g",
+            "artifactUri": "ipfs://QmTjgrNyaH3iS8msm4jAFzkyCnvepoWSMxuAtejvdLAY4g?fxhash=ooJeBzoPreTngTdi7kpWzf3SuywFVi6heCCY62erLqo8N9DSKBa",
+            "displayUri": "ipfs://QmXW4nAtqttRDZV5QruQpGwo5GyCRuqeRUggbEG2NNsSAe",
+            "thumbnailUri": "ipfs://QmVmFZf7PUakphJ7ese1fXFPBBcZpv2FGp4wnHkhyo77LU",
+            "authenticityHash": "1df8fb0e68f04befa9001de4ce20d12770b65dfafadbc500d08322df4dabae97",
+            "attributes": [
+              {
+                "name": "Axonometric",
+                "value": true
+              },
+              {
+                "name": "Horizon",
+                "value": false
+              },
+              {
+                "name": "One layer",
+                "value": false
+              },
+              {
+                "name": "Pigments",
+                "value": "#FF6900,#FF2702,#002BAA,#FF6900,#A3023B,#1C77C3,#FCD300"
+              },
+              {
+                "name": "Figure spacing",
+                "value": "5.6"
+              },
+              {
+                "name": "No background",
+                "value": false
+              },
+              {
+                "name": "Background color",
+                "value": "#FF6900"
+              },
+              {
+                "name": "Background spacing",
+                "value": "3.6"
+              },
+              {
+                "name": "Background banded",
+                "value": false
+              },
+              {
+                "name": "Background striped",
+                "value": false
+              }
+            ],
+            "decimals": 0,
+            "symbol": "GENTK",
+            "version": "0.2"
+          },
+          "duplicate": false,
+          "activeListing": {
+            "id": 728103,
+            "version": 1,
+            "price": 500000000,
+            "__typename": "Listing"
+          },
+          "owner": {
+            "id": "tz1RsFrbkJync4shc9ZxfjG4DMLXBDRbLXt9",
+            "name": null,
+            "flag": "NONE",
+            "avatarUri": null,
+            "__typename": "User"
+          },
+          "issuer": {
+            "flag": "NONE",
+            "name": "Punktwelt",
+            "author": {
+              "id": "tz1WDJV8EC2WRegrn2W6A68RmZLyfZP8tzwJ",
+              "name": "Erik Swahn",
+              "type": "REGULAR",
+              "avatarUri": "ipfs://QmPHQBzJboUnMvfKKC5LDbgyfNBcP3aytcqxtwiURGyL41",
+              "flag": "VERIFIED",
+              "collaborators": null,
+              "__typename": "User"
+            },
+            "__typename": "GenerativeToken"
+          },
+          "__typename": "Objkt"
+        },
+        "__typename": "Listing"
+      },
+      {
+        "id": 728102,
+        "version": 1,
+        "price": 300000000,
+        "objkt": {
+          "id": 509636,
+          "version": 0,
+          "name": "Cuts #160",
+          "slug": "cuts-160",
+          "metadata": {
+            "name": "Cuts #160",
+            "iterationHash": "opCdhYex37t6W2CkXq4Qm3LDX1EiEq97yaRxBBK9RE8ZEPuAVzf",
+            "description": "Cuts is an abstract representation of the exact moments in our lives when something is cut. It could be moving to a different country, being fired, quitting a bad habit, when a relationship ends or when you receive a very bad (or good!) news.\nBy themselves, cuts are not positive or negative events; it really depends on who you were before and who you wish to be after. But one thing is sure: every cut creates a new space that wasn’t there. This space could be small or huge, ordered or chaotic, regardless, you have to deal with it. Sometimes cuts try to resist and heal themselves extruding the core of the fibres we are made of, but they will fail. A cut is irreversible and it’s up to us to fill the gap with meaning.\n\nMain features include:\n- Curated palettes (21)\n- Drawing modes (3)\n- Extrusions (yes/no)\n- Orientation (3)\n- Overlapping (yes/no)\n- Covered area (2)\n- Cut position (2)\n\nIn live mode:\n- Press [s] to save a 2400x2400 px image\n- Press [t] to toggle shading (sometimes flat colours rock!)\n- Press [c] to see copyright notice\n- Press [f] to log features in console\n\nBy Todemashi 2022\nNFT License 2.0\n\n### NOTES\nMade with p5js and GLSL shaders.\nShaders are based on tutorials and code by Patricio Gonzalez Vivo - The Book of Shaders - https://thebookofshaders.com/",
+            "tags": [
               "abstract",
-              "color",
-              "purple"
-            ],
-            "generatorUri": "ipfs://QmSuj6V7whbVNRZ5nt5iMQ1MAW9vMxgALkafKCWLS6N6ya",
-            "artifactUri": "ipfs://QmSuj6V7whbVNRZ5nt5iMQ1MAW9vMxgALkafKCWLS6N6ya?fxhash=ooMYq8buyp2uFSc43hR6HNEsMJxMfKTsXQqas68oFdnvyYe7V17",
-            "displayUri": "ipfs://QmXDDtB9fnBpPw8wKaH73GEAJ1YPDgEYDu5RFShe4yMtRU",
-            "thumbnailUri": "ipfs://QmcWHCixhEHQUdkEZ1hb2iZsrTzrskogjAWMQmRVTBHMPV",
-            "authenticityHash": "6ddb0e499e6a254b202c0d9827bcc23cd99384f6c5a645ab9e97c535c569e5a9",
-            "attributes": [
-              {
-                "name": "layout",
-                "value": "6x6"
-              },
-              {
-                "name": "palette",
-                "value": "monochrome red"
-              },
-              {
-                "name": "layer",
-                "value": 3
-              },
-              {
-                "name": "mode",
-                "value": "ink"
-              },
-              {
-                "name": "density",
-                "value": "middle"
-              },
-              {
-                "name": "bias",
-                "value": "central"
-              },
-              {
-                "name": "symmetry",
-                "value": "vertical"
-              }
-            ],
-            "decimals": 0,
-            "symbol": "GENTK",
-            "version": "0.2"
-          },
-          "duplicate": false,
-          "activeListing": {
-            "id": 728079,
-            "version": 1,
-            "price": 18000000,
-            "__typename": "Listing"
-          },
-          "owner": {
-            "id": "tz1UUS7ja5xtDHgXFJcwWPvemKEusrf2knqL",
-            "name": null,
-            "flag": "NONE",
-            "avatarUri": null,
-            "__typename": "User"
-          },
-          "issuer": {
-            "flag": "NONE",
-            "name": "Pearls",
-            "author": {
-              "id": "tz2JdiAnT4mEubUphv73ZpAgNxhZo8197xhr",
-              "name": "ducttapecode",
-              "type": "REGULAR",
-              "avatarUri": "ipfs://QmfChngfpEjqKfYPyR8kcFxCf1KbsD3ZZ263FDtnQ1eXuo",
-              "flag": "NONE",
-              "collaborators": null,
-              "__typename": "User"
-            },
-            "__typename": "GenerativeToken"
-          },
-          "__typename": "Objkt"
-        },
-        "__typename": "Listing"
-      },
-      {
-        "id": 728078,
-        "version": 1,
-        "price": 4000000,
-        "objkt": {
-          "id": 1413200,
-          "version": 1,
-          "name": "Con(text)ual #102",
-          "slug": "con(text)ual-102",
-          "metadata": {
-            "name": "Con(text)ual #102",
-            "iterationHash": "oniCBWx49GhzkHYayV7n4on7kLVf3f1WWyHqHELgsCeEQvfeHQQ",
-            "description": "Con(text)ual is a generative painting made from ASCII characters confined into shapes. Shapes are randomly drawn onto the canvas, then filled with individual characters from a character array. The density of characters is dependent upon the size of the shape, creating some transparencies and an organic feel to each shape.\n\nI've long been interested in typography as an artform and this is an extension of my typography explorations.\n\nThere are a total of 10 color pallets. The number of shapes on each canvas varies from 3 to 9. The edition size was chosen based on the code, which lends itself well to a wide array of potential outcomes. Please get in touch with me if you want a larger resolution size for printing. \n\nI hope you enjoy the art!\n\nMade with 100% Code and p5.js\nLicensed under CC BY-NC-SA 4.0",
-            "tags": [
-              "ASCII",
-              "Text"
-            ],
-            "generatorUri": "ipfs://QmQRRVn8HtY1hqJrNqCubTEiVtUtcdCJu9hPUjnebXAQyR",
-            "artifactUri": "ipfs://QmQRRVn8HtY1hqJrNqCubTEiVtUtcdCJu9hPUjnebXAQyR?fxhash=oniCBWx49GhzkHYayV7n4on7kLVf3f1WWyHqHELgsCeEQvfeHQQ",
-            "displayUri": "ipfs://QmTrmNU2bJxKiB3RLpTqsAJia9B5ZQvokM2RnV5XB2J4p8",
-            "thumbnailUri": "ipfs://QmTFJg4JgQwtHxtjg4Xavt1EozCUcBweqmXCTy7W4MWQ9g",
-            "authenticityHash": "08fed6a3103205c81ba8768e21e21748cc42d59d6f2f4613532541f55712427f",
-            "attributes": true,
-            "decimals": 0,
-            "symbol": "GENTK",
-            "version": "0.2"
-          },
-          "duplicate": false,
-          "activeListing": {
-            "id": 728078,
-            "version": 1,
-            "price": 4000000,
-            "__typename": "Listing"
-          },
-          "owner": {
-            "id": "tz1XuAzqvJWvWLQ5gnsJEdzQYQUyHEjuLS6e",
-            "name": null,
-            "flag": "NONE",
-            "avatarUri": null,
-            "__typename": "User"
-          },
-          "issuer": {
-            "flag": "NONE",
-            "name": "Con(text)ual",
-            "author": {
-              "id": "tz1Q64UruC5uMhK6TfnYWSVcoapBbXM4QMp9",
-              "name": "Tendernode",
-              "type": "REGULAR",
-              "avatarUri": "ipfs://QmdHZSvX4h26ueGVfBP4MzpKa2qpKYm6xG4fvgYTwNnp3q",
-              "flag": "NONE",
-              "collaborators": null,
-              "__typename": "User"
-            },
-            "__typename": "GenerativeToken"
-          },
-          "__typename": "Objkt"
-        },
-        "__typename": "Listing"
-      },
-      {
-        "id": 728077,
-        "version": 1,
-        "price": 15000000,
-        "objkt": {
-          "id": 1412866,
-          "version": 1,
-          "name": "Plasma Flux #7",
-          "slug": "plasma-flux-7",
-          "metadata": {
-            "name": "Plasma Flux #7",
-            "iterationHash": "ontqZx3P6vDUHzcTmVo67dokzwk4GEE1wpVdnVh2C86dDVukjVS",
-            "description": "Generative artwork made using p5.js and WebGL\n\nPress 's' to save a high-res copy of your output.\nPress 'a' to animate continuously once fully drawn.\n\n2022 Felix Jennings, CC BY-NC 4.0",
-            "tags": [],
-            "generatorUri": "ipfs://QmcQj5786qfNDxjPhgJmcRaeShHZVQHPPS8cjfFBMKsCno",
-            "artifactUri": "ipfs://QmcQj5786qfNDxjPhgJmcRaeShHZVQHPPS8cjfFBMKsCno?fxhash=ontqZx3P6vDUHzcTmVo67dokzwk4GEE1wpVdnVh2C86dDVukjVS",
-            "displayUri": "ipfs://QmVRdMRSweDqpocnQD2zJ385HaVzuwFH3c28fyV8TyEah4",
-            "thumbnailUri": "ipfs://QmVVuDu2E6om4FqsMn3pCS7j2wLaJpgyByFkBo23LCT4jr",
-            "authenticityHash": "67e3f29334f85c87bfecb25066a64f7dc70d6a0ecf7645e8d42bb261d10458ca",
-            "attributes": [
-              {
-                "name": "Octaves",
-                "value": 12
-              },
-              {
-                "name": "Modifier",
-                "value": 12000
-              }
-            ],
-            "decimals": 0,
-            "symbol": "GENTK",
-            "version": "0.2"
-          },
-          "duplicate": false,
-          "activeListing": {
-            "id": 728077,
-            "version": 1,
-            "price": 15000000,
-            "__typename": "Listing"
-          },
-          "owner": {
-            "id": "tz1g5XT1mitUqswejurB1WX4TnYGSAnMqVY7",
-            "name": null,
-            "flag": "NONE",
-            "avatarUri": null,
-            "__typename": "User"
-          },
-          "issuer": {
-            "flag": "NONE",
-            "name": "Plasma Flux",
-            "author": {
-              "id": "tz1iM6vsBwgVba25jk714rFNEkiJqu1x8HNB",
-              "name": "Felix Jennings",
-              "type": "REGULAR",
-              "avatarUri": "ipfs://QmZQ9kPwgqXiS2L9Ex9kcssYP1zJjty9QUBvwRmzQJHnXV",
-              "flag": "NONE",
-              "collaborators": null,
-              "__typename": "User"
-            },
-            "__typename": "GenerativeToken"
-          },
-          "__typename": "Objkt"
-        },
-        "__typename": "Listing"
-      },
-      {
-        "id": 728076,
-        "version": 1,
-        "price": 16000000,
-        "objkt": {
-          "id": 1413066,
-          "version": 1,
-          "name": "Plasma Flux #196",
-          "slug": "plasma-flux-196",
-          "metadata": {
-            "name": "Plasma Flux #196",
-            "iterationHash": "oo28tWr6g3n5na7u5sjPFQywcDaR1KcrZqZuNCTNPVyRNBFdxyb",
-            "description": "Generative artwork made using p5.js and WebGL\n\nPress 's' to save a high-res copy of your output.\nPress 'a' to animate continuously once fully drawn.\n\n2022 Felix Jennings, CC BY-NC 4.0",
-            "tags": [],
-            "generatorUri": "ipfs://QmcQj5786qfNDxjPhgJmcRaeShHZVQHPPS8cjfFBMKsCno",
-            "artifactUri": "ipfs://QmcQj5786qfNDxjPhgJmcRaeShHZVQHPPS8cjfFBMKsCno?fxhash=oo28tWr6g3n5na7u5sjPFQywcDaR1KcrZqZuNCTNPVyRNBFdxyb",
-            "displayUri": "ipfs://QmbEGJyskNvzfhuCPgTLSY4sDnMpx5QaaM8HXP5EbXAyXc",
-            "thumbnailUri": "ipfs://QmdRDR76HYcdSGn4xPs5bEjoCbXNVh3cojzV4ZTpchVvNG",
-            "authenticityHash": "29bc303af942392d049d55a3ded242f105b56e5a30a89eb378a5b06ddaa35f41",
-            "attributes": [
-              {
-                "name": "Octaves",
-                "value": 2
-              },
-              {
-                "name": "Modifier",
-                "value": 4000
-              }
-            ],
-            "decimals": 0,
-            "symbol": "GENTK",
-            "version": "0.2"
-          },
-          "duplicate": false,
-          "activeListing": {
-            "id": 728076,
-            "version": 1,
-            "price": 16000000,
-            "__typename": "Listing"
-          },
-          "owner": {
-            "id": "tz1XuAzqvJWvWLQ5gnsJEdzQYQUyHEjuLS6e",
-            "name": null,
-            "flag": "NONE",
-            "avatarUri": null,
-            "__typename": "User"
-          },
-          "issuer": {
-            "flag": "NONE",
-            "name": "Plasma Flux",
-            "author": {
-              "id": "tz1iM6vsBwgVba25jk714rFNEkiJqu1x8HNB",
-              "name": "Felix Jennings",
-              "type": "REGULAR",
-              "avatarUri": "ipfs://QmZQ9kPwgqXiS2L9Ex9kcssYP1zJjty9QUBvwRmzQJHnXV",
-              "flag": "NONE",
-              "collaborators": null,
-              "__typename": "User"
-            },
-            "__typename": "GenerativeToken"
-          },
-          "__typename": "Objkt"
-        },
-        "__typename": "Listing"
-      },
-      {
-        "id": 728075,
-        "version": 1,
-        "price": 23000000,
-        "objkt": {
-          "id": 1412764,
-          "version": 1,
-          "name": "Pearls #61",
-          "slug": "pearls-61",
-          "metadata": {
-            "name": "Pearls #61",
-            "iterationHash": "ooaNQNwrgaFtdUKuc2YPSANbDBuJqEhArtsDKqg7VoUSFsoUcU1",
-            "description": "Pearls is a generative minimal artwork made with 100% code in p5js.\n\nThis algorithm places perfectly round pearls into multiple stacked grids and connects them in a pleasing way. The small grids lead to interesting emerging patterns. Some see faces and fish, others see ancient hardware and elephants, and some just enjoy the minimal simplicity.\n\n-- controls (in live view)\ns: to save the current image\na: to play a small animation\n\n-- some attributes\nlayout: 2x2 to 34x34\npalette: genuary, monochrome red & purple, night\nmode: ink, walk\nbias: central, north, east, south, west\ndensity: sparse, middle, dense\nsymmetry: none, vertical, horizontal, point\nlayer: 2 to 6",
-            "tags": [
-              "minimal",
+              "cuts",
+              "geometric",
+              "grain",
               "p5js",
-              "genuary",
-              "genartclub",
-              "creativecoding",
-              "generativeart",
-              "abstract",
+              "concept",
               "color",
-              "purple"
+              "2d"
             ],
-            "generatorUri": "ipfs://QmSuj6V7whbVNRZ5nt5iMQ1MAW9vMxgALkafKCWLS6N6ya",
-            "artifactUri": "ipfs://QmSuj6V7whbVNRZ5nt5iMQ1MAW9vMxgALkafKCWLS6N6ya?fxhash=ooaNQNwrgaFtdUKuc2YPSANbDBuJqEhArtsDKqg7VoUSFsoUcU1",
-            "displayUri": "ipfs://QmPoegCfTcVNcDCY38rTicweiUsDZCuGZiDFGQoqWbpzc2",
-            "thumbnailUri": "ipfs://QmRFYhZhP5NxKfYEQyHbS3RZK2gwZ2A8SN8vPr5bKTNSXw",
-            "authenticityHash": "1604e82a8e9eecac0983157ef68b0ace57b347ff98a4b3e2139ff14a9aa55216",
+            "generatorUri": "ipfs://QmRDdA87agcJyCvEmDjN9oPTWmzxLG3bxo87tNT3zUobWF",
+            "artifactUri": "ipfs://QmRDdA87agcJyCvEmDjN9oPTWmzxLG3bxo87tNT3zUobWF?fxhash=opCdhYex37t6W2CkXq4Qm3LDX1EiEq97yaRxBBK9RE8ZEPuAVzf",
+            "displayUri": "ipfs://QmVQmimyDzg4UxbEDVBAWh8Zxu2D2xNPm5endX9AC7Caap",
+            "thumbnailUri": "ipfs://QmcUBjFzVXRDpN2p8cxoKTXSBRCBMpQ751JFKyV7P7VoKS",
+            "authenticityHash": "4d404ba204eb9addf0add45e632c2636ddae0867b91fe59686f9d31532fbced6",
             "attributes": [
               {
-                "name": "layout",
-                "value": "11x11"
+                "name": "Palette",
+                "value": "Kyoto"
               },
               {
-                "name": "palette",
-                "value": "night"
+                "name": "Covered Area",
+                "value": "> 50%"
               },
               {
-                "name": "layer",
-                "value": 2
+                "name": "Orientation",
+                "value": "Vertical"
               },
               {
-                "name": "mode",
-                "value": "ink"
+                "name": "Overlapping",
+                "value": "No"
               },
               {
-                "name": "density",
-                "value": "dense"
+                "name": "Thickness",
+                "value": "Free"
               },
               {
-                "name": "bias",
-                "value": "central"
+                "name": "Cut position",
+                "value": "Free"
               },
               {
-                "name": "symmetry",
-                "value": "point"
+                "name": "Frame",
+                "value": "No"
+              },
+              {
+                "name": "Drawing Mode",
+                "value": "Filled"
+              },
+              {
+                "name": "Extrusions",
+                "value": "Yes"
               }
             ],
             "decimals": 0,
@@ -1425,27 +1465,27 @@
           },
           "duplicate": false,
           "activeListing": {
-            "id": 728075,
+            "id": 728102,
             "version": 1,
-            "price": 23000000,
+            "price": 300000000,
             "__typename": "Listing"
           },
           "owner": {
-            "id": "tz1iCWKj4FLFeBSr5rPH3rdFCedg4RWrqh9w",
-            "name": "UwangUangwang",
-            "flag": "NONE",
-            "avatarUri": "ipfs://QmRbCRWvSoXLcoGJnLxzyoraNhYYuHehZpwFx9CvCsZcH6",
+            "id": "tz1XgdC4S9XMosavpqmSiFyjyCfqTNxSp19a",
+            "name": "Rich Poole",
+            "flag": "VERIFIED",
+            "avatarUri": "ipfs://QmejkZtxiYDpX7uPVo3fwF9AHsZwnqx35qK5iaytNK8pyh",
             "__typename": "User"
           },
           "issuer": {
             "flag": "NONE",
-            "name": "Pearls",
+            "name": "Cuts",
             "author": {
-              "id": "tz2JdiAnT4mEubUphv73ZpAgNxhZo8197xhr",
-              "name": "ducttapecode",
+              "id": "tz1RNVBYBcbAUyjcWkUH86G3v9dTKmuuQTVf",
+              "name": "todemashi",
               "type": "REGULAR",
-              "avatarUri": "ipfs://QmfChngfpEjqKfYPyR8kcFxCf1KbsD3ZZ263FDtnQ1eXuo",
-              "flag": "NONE",
+              "avatarUri": "ipfs://QmXdwHhzAWf6LWSWrf7hCch17esPS1h47ghYz7hGQwBsUq",
+              "flag": "VERIFIED",
               "collaborators": null,
               "__typename": "User"
             },
@@ -1456,32 +1496,70 @@
         "__typename": "Listing"
       },
       {
-        "id": 728074,
+        "id": 728101,
         "version": 1,
-        "price": 25000000,
+        "price": 520000000,
         "objkt": {
-          "id": 1413064,
+          "id": 761194,
           "version": 1,
-          "name": "Plasma Flux #194",
-          "slug": "plasma-flux-194",
+          "name": "Dencity #895",
+          "slug": "dencity-895",
           "metadata": {
-            "name": "Plasma Flux #194",
-            "iterationHash": "oozMRtWJ68NthR9cpj2q389so5fmEdp1H9MVGALBLkquymBSmNU",
-            "description": "Generative artwork made using p5.js and WebGL\n\nPress 's' to save a high-res copy of your output.\nPress 'a' to animate continuously once fully drawn.\n\n2022 Felix Jennings, CC BY-NC 4.0",
-            "tags": [],
-            "generatorUri": "ipfs://QmcQj5786qfNDxjPhgJmcRaeShHZVQHPPS8cjfFBMKsCno",
-            "artifactUri": "ipfs://QmcQj5786qfNDxjPhgJmcRaeShHZVQHPPS8cjfFBMKsCno?fxhash=oozMRtWJ68NthR9cpj2q389so5fmEdp1H9MVGALBLkquymBSmNU",
-            "displayUri": "ipfs://QmZVp1feYjzmWgkwzwsWsrHufowVerLG8KcaZJj8QCmacj",
-            "thumbnailUri": "ipfs://QmenSViddHyN3NPWEzM7d8jKBkm5QF9tKJQfoVt7mzkdSc",
-            "authenticityHash": "167eebdf4d94ceacfd15534535a69fdd0d49819da3d4ee8e4993a44167b6a40b",
+            "name": "Dencity #895",
+            "iterationHash": "oorL3bYefEDSzP7kUWvj4DiytGjxPQxR71V2r1YmVbce3X6z2kF",
+            "description": "Dencity is a generative art project inspired by aerial views of cities with a high density of buildings. Its perspective effect, its perfectly imprecise lines, its subtle textures and its very advanced level of detail give it the appearance of a hand-drawn work.\n\nBehind the visible art (the image) hides another form of art, an extremely complex algorithm capable of calculating and drawing in 2D each variation of the Dencity project. To draw a variation, the algorithm notably takes around 3,000,000 to 20,000,000 random decisions based on the hash of the mint and draws around 800,000 to 4,000,000 lines to create all the strokes and texture effects.\n\nMade with ❤️, code and p5js.",
+            "tags": [
+              "p5js",
+              "city",
+              "cities",
+              "architecture",
+              "perspective"
+            ],
+            "generatorUri": "ipfs://QmPaFpXKhSLdbFmrXXoogFngkzaXZAht1VREi5gCGMwc1A",
+            "artifactUri": "ipfs://QmPaFpXKhSLdbFmrXXoogFngkzaXZAht1VREi5gCGMwc1A?fxhash=oorL3bYefEDSzP7kUWvj4DiytGjxPQxR71V2r1YmVbce3X6z2kF",
+            "displayUri": "ipfs://QmNfwj6BLFjSL7e4XjtZDXYeXFBq3hPQ5UjnSheNX2frv1",
+            "thumbnailUri": "ipfs://QmQMEALeCsmEZDWK1XfXHyNA7tP8Rnwri4qpQ5t5q2znox",
+            "authenticityHash": "4c0ce9c99993381e2d2b839c6b73cfd6680ba9151e24873a873e1d2d688ed672",
             "attributes": [
               {
-                "name": "Octaves",
-                "value": 5
+                "name": "Palette",
+                "value": "Citrus"
               },
               {
-                "name": "Modifier",
-                "value": 4000
+                "name": "Single Color Palette",
+                "value": "No"
+              },
+              {
+                "name": "Area Size",
+                "value": 4
+              },
+              {
+                "name": "Distribution",
+                "value": "Regular"
+              },
+              {
+                "name": "Perspective",
+                "value": 10
+              },
+              {
+                "name": "View",
+                "value": "Normal"
+              },
+              {
+                "name": "Trees",
+                "value": "Yes"
+              },
+              {
+                "name": "Vehicles",
+                "value": "Yes"
+              },
+              {
+                "name": "Building Density",
+                "value": "High"
+              },
+              {
+                "name": "Lines Accuracy",
+                "value": 1
               }
             ],
             "decimals": 0,
@@ -1490,27 +1568,117 @@
           },
           "duplicate": false,
           "activeListing": {
-            "id": 728074,
+            "id": 728101,
             "version": 1,
-            "price": 25000000,
+            "price": 520000000,
             "__typename": "Listing"
           },
           "owner": {
-            "id": "tz1iCWKj4FLFeBSr5rPH3rdFCedg4RWrqh9w",
-            "name": "UwangUangwang",
+            "id": "tz1Kozn4d7zc8gbsQMHz6NeNqYkJwD2AEcoh",
+            "name": "Wingism",
             "flag": "NONE",
-            "avatarUri": "ipfs://QmRbCRWvSoXLcoGJnLxzyoraNhYYuHehZpwFx9CvCsZcH6",
+            "avatarUri": "ipfs://QmTu1bLvZrxFDBrFKQruEAVCnyUz31Vzsz2kjF7jk9DZW8",
             "__typename": "User"
           },
           "issuer": {
             "flag": "NONE",
-            "name": "Plasma Flux",
+            "name": "Dencity",
             "author": {
-              "id": "tz1iM6vsBwgVba25jk714rFNEkiJqu1x8HNB",
-              "name": "Felix Jennings",
+              "id": "tz1NMvVB48fNzrG3rPZS58Eo1nSJ6p3RjRyz",
+              "name": "Hevey",
               "type": "REGULAR",
-              "avatarUri": "ipfs://QmZQ9kPwgqXiS2L9Ex9kcssYP1zJjty9QUBvwRmzQJHnXV",
-              "flag": "NONE",
+              "avatarUri": "ipfs://QmeGW5LK9W4KupJKrhRwUGZbaRpSTMb1JnbHqTx6RzJQkv",
+              "flag": "VERIFIED",
+              "collaborators": null,
+              "__typename": "User"
+            },
+            "__typename": "GenerativeToken"
+          },
+          "__typename": "Objkt"
+        },
+        "__typename": "Listing"
+      },
+      {
+        "id": 728100,
+        "version": 1,
+        "price": 19000000,
+        "objkt": {
+          "id": 1109888,
+          "version": 1,
+          "name": "Cappadocia Dream #42",
+          "slug": "cappadocia-dream-42",
+          "metadata": {
+            "name": "Cappadocia Dream #42",
+            "iterationHash": "oojasaYUvqbSKz8Ltu9GWezxTRvSAjNSUuYkhFeo4jMQAZogeY5",
+            "description": "Cappadocia Dream is a generative art project by James Filomar. It is the artist’s depiction of hot air balloons hovering above the majestic rocky terrain of Cappadocia.\n\nPress 's' to download a high resolution PNG.\n\nNFT License 2.0 (https://www.nftlicense.org/)",
+            "tags": [
+              "landscape",
+              "line",
+              "minimalist",
+              "picture",
+              "hot",
+              "air",
+              "balloon",
+              "turkey"
+            ],
+            "generatorUri": "ipfs://QmYk21j1wbFKa7dLqjR1tYuu71jkB9nhK2VCNJxbA7evmc",
+            "artifactUri": "ipfs://QmYk21j1wbFKa7dLqjR1tYuu71jkB9nhK2VCNJxbA7evmc?fxhash=oojasaYUvqbSKz8Ltu9GWezxTRvSAjNSUuYkhFeo4jMQAZogeY5",
+            "displayUri": "ipfs://QmdQbAAJo8rhnoK8RAV3rvnWqgCWuVyUJDTULsSDKwH86z",
+            "thumbnailUri": "ipfs://QmSwCbbiKYesE3oyB5HA7XxFddcSQVWUznKxJUamRNeMJh",
+            "authenticityHash": "a354361c9e23a49018c36ffa4006020319d64edb5997aaea748588dc0ea41844",
+            "attributes": [
+              {
+                "name": "Aspect Ratio",
+                "value": "5:4"
+              },
+              {
+                "name": "Orientation",
+                "value": "portrait"
+              },
+              {
+                "name": "Layers",
+                "value": "mid-low"
+              },
+              {
+                "name": "Density",
+                "value": "mid"
+              },
+              {
+                "name": "Background",
+                "value": "light"
+              },
+              {
+                "name": "Hue",
+                "value": "hue 5"
+              }
+            ],
+            "decimals": 0,
+            "symbol": "GENTK",
+            "version": "0.2"
+          },
+          "duplicate": false,
+          "activeListing": {
+            "id": 728100,
+            "version": 1,
+            "price": 19000000,
+            "__typename": "Listing"
+          },
+          "owner": {
+            "id": "tz1WbXsWK1cfo7mTAkGXhpQ8cgFCyFFwoopq",
+            "name": "henfarmer",
+            "flag": "NONE",
+            "avatarUri": "ipfs://QmeyCjZ9VrM1bajcvzucMQ1gHGqQNngc19SzSriBRs7PUU",
+            "__typename": "User"
+          },
+          "issuer": {
+            "flag": "NONE",
+            "name": "Cappadocia Dream",
+            "author": {
+              "id": "tz1fZ3x4oUfshuHoF4qbDd94cKfQaNurwst7",
+              "name": "James Filomar",
+              "type": "REGULAR",
+              "avatarUri": "ipfs://QmPovAoqZjcYi7r6oTj4dRuwc8cr14nxmpsSLgXYG2x9YK",
+              "flag": "VERIFIED",
               "collaborators": null,
               "__typename": "User"
             },
