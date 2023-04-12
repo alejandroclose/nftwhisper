@@ -2,6 +2,942 @@
   "data": {
     "listings": [
       {
+        "id": 942028,
+        "version": 1,
+        "price": 100000000,
+        "objkt": {
+          "id": "FX1-5996",
+          "version": 2,
+          "name": "Schwere See #277",
+          "slug": "schwere-see-277",
+          "metadata": {
+            "name": "Schwere See #277",
+            "iterationHash": "onq1KwLPtJTSms3YaWXB3XRqcczkKAuGvqE8sVu8WkaScy73wh1",
+            "description": "Schwere See\n(...which is german for \"Heavy Seas\")\n\nthis work creates completely generative ocean worlds between the real and the surreal.\nwhat is real? when do we feel reality? i guess as with many other things, we feel reality best when we're deprived of it.\nThat might be the reason why it never ceases to fascinate us to both exaggerate and abstract nature and reality - maybe even at the same time.\nthat's where this work tries to go...\ngiving my best to create realistic looking waves out of hmm... thin electron-gas..., and then disrupt those from realism by unnaturally exaggerating waveforms and abstracting the display to a few colors and lines - ...well, not so few of the latter, actually ;-)\n\nbeware: this needs a good GPU (at least here in 2023) to properly run in realtime.\nstills can still be rendered on a low end machine with on-board graphics, but for realtime playing you'd need some proper dedicated graphics card.\nand of course it wont run fast (or maybe not all) on your mobile phone (except maybe on a very high end device).\n\nthe different mints vary in wave shape, color, camera view, animation speed, aspect ratio, frame style, hatching density, field of view, and more.\nsome color schemes are based on pre-chosen palettes (slightly varied though), but others are wildly random-generated. there's always some risk in randomness, but lets give the error some chance to surprise us - this is one of the many benefits of generative art.\n\nas generative art can do so much more than just generate/show an image i feel almost obliged to add the possibility to animate/inteact.\nhowever, this extra control shall not be chosen without some considerations. \nyou don't want a strobingly wild animation above your fireplace or in a doctors waiting room. nor is it motion-wise very inspiring to have subtle image stills hanging in a dancefloor.\nso, by default when in animation mode (<space>-key) the scene is very slowly and steadily changing - some pieces faster, some slower. however, by pressing <f> you can toggle to a sped up animation of waves, clouds, and scene rotation.\nbtw, going faster in nav-mode also speeds up the wave animation. (...so be careful when you accelerate! the ocean is not a ponyfarm.)\n\n\nmouse/keyboard functions:\n\n<mouse move>..........rotate view\n<mouse wheel>.........zoom in/out\n<space>...............start animation (or append '&AnimEnable=1' to the url)\n<ctrl>+<1><2><3><4>...make png screenshot in 1/2/3/4-fold resolution\n<p>...................same as <ctrl>+<3>\n<n>...................toggle nav-mode - navigate/fly through scene\n<w>/<crsr up>.........accelerate in nav-mode\n<s>/<crsr down>.......decelerate in nav-mode\n<a>/<crsr left>.......rotate left in nav-mode\n<d>/<crsr right>......rotate right in nav-mode\n<f>...................fast animation mode (speeds up animation)\n\n\nsome technical info:\n\ntechnically this is a raymarched scene. the distance field of the waves is constructed my many localized rotations on many different scales.\nfor the hatching no actual lines are being drawn. it is archieved by applying periodic functions in world-position-space as halftone patterns to the actual image color. \nthe frequency of these halftone-functions thereby depending on screen-position-derivatives.\n",
+            "tags": [
+              "waves",
+              "generative",
+              "raymarch",
+              "animated",
+              "interactive"
+            ],
+            "generatorUri": "ipfs://QmeBgeyZt7Z1qCeayJfaaseeiZuks46Pibs7oc6aSdHAha",
+            "artifactUri": "ipfs://QmeBgeyZt7Z1qCeayJfaaseeiZuks46Pibs7oc6aSdHAha/?fxhash=onq1KwLPtJTSms3YaWXB3XRqcczkKAuGvqE8sVu8WkaScy73wh1",
+            "displayUri": "ipfs://QmYqcwaDsa8Uv5vRwiCcrvJRftUaJ66JuKjr5jh8nNMtpV",
+            "thumbnailUri": "ipfs://QmVxfmzMmJT6sfLhSHVcRkFixJzwMH5wfDkRcbHtMZX8pT",
+            "authenticityHash": "3b6a97a61abc9060d415d1a8aa028999c9c3359b91354847c89a08e3ebdc344a",
+            "attributes": [
+              {
+                "name": "BlackShiny",
+                "value": 0.3521128462129982
+              },
+              {
+                "name": "CarvePseu",
+                "value": 0
+              },
+              {
+                "name": "CloudSize",
+                "value": 3.2955812579593324
+              },
+              {
+                "name": "HatchW",
+                "value": 1.2265891050348012
+              },
+              {
+                "name": "HatchSm",
+                "value": 1.7371611164882779
+              },
+              {
+                "name": "WaveAnim",
+                "value": 0.32566274442433213
+              },
+              {
+                "name": "Hatch2",
+                "value": 0
+              },
+              {
+                "name": "WhiteAlpha",
+                "value": 0.8047986520477193
+              },
+              {
+                "name": "PhaseOffs",
+                "value": 3.8542870279215276
+              },
+              {
+                "name": "ViewDist0",
+                "value": 3.09207589161411
+              },
+              {
+                "name": "BGRough",
+                "value": 0.07214151213907899
+              },
+              {
+                "name": "MetalBump",
+                "value": -0.23049183288209746
+              },
+              {
+                "name": "FovY",
+                "value": 1
+              },
+              {
+                "name": "Aspect",
+                "value": 1.0424180974485353
+              },
+              {
+                "name": "FrameW",
+                "value": 0.19940815387321795
+              },
+              {
+                "name": "MetalBg",
+                "value": 0
+              },
+              {
+                "name": "Cuts",
+                "value": 0
+              },
+              {
+                "name": "FrameDist",
+                "value": 0.15303944195244598
+              },
+              {
+                "name": "Roll0",
+                "value": 0
+              },
+              {
+                "name": "ContentFrame",
+                "value": 1.4439657203503412e-05
+              },
+              {
+                "name": "Gap",
+                "value": 0.29842393174767495
+              },
+              {
+                "name": "PosOffs0Z",
+                "value": 0
+              },
+              {
+                "name": "PosOffs0Y",
+                "value": -143.0488003185019
+              },
+              {
+                "name": "PosOffs0X",
+                "value": -123.32723953295499
+              },
+              {
+                "name": "RotSpeed",
+                "value": 0
+              },
+              {
+                "name": "Carve",
+                "value": 0
+              },
+              {
+                "name": "Fisheye",
+                "value": 0.018453239689555114
+              },
+              {
+                "name": "NoiseType",
+                "value": 2
+              },
+              {
+                "name": "Metal",
+                "value": 0
+              },
+              {
+                "name": "BlackAlpha",
+                "value": 1
+              },
+              {
+                "name": "Azim0",
+                "value": 3.717650561919436
+              },
+              {
+                "name": "FrameErr",
+                "value": 0.013920603847171373
+              },
+              {
+                "name": "BGColB",
+                "value": 0.5516055137850344
+              },
+              {
+                "name": "BGColG",
+                "value": 0.1928711044602096
+              },
+              {
+                "name": "BGColR",
+                "value": 0.9584725939203054
+              },
+              {
+                "name": "SkyAnim",
+                "value": -0.9605006580241024
+              },
+              {
+                "name": "BlackColR",
+                "value": 0.25284334016032517
+              },
+              {
+                "name": "Elev0",
+                "value": 1.2353861010726541
+              },
+              {
+                "name": "BlackColG",
+                "value": 0.4434849228709936
+              },
+              {
+                "name": "SkyMode",
+                "value": 1
+              },
+              {
+                "name": "BlackColB",
+                "value": 0.03406029264442623
+              },
+              {
+                "name": "MetalBlack",
+                "value": 0
+              },
+              {
+                "name": "BrightMode",
+                "value": 0.23114563099720348
+              },
+              {
+                "name": "WhiteColB",
+                "value": 1.0071366376709192
+              },
+              {
+                "name": "SkyH",
+                "value": 0.6731675337068737
+              },
+              {
+                "name": "WhiteColG",
+                "value": 0.43881378541700544
+              },
+              {
+                "name": "WhiteColR",
+                "value": 1.069174047652632
+              },
+              {
+                "name": "FrameSm",
+                "value": 0.050799316726624966
+              },
+              {
+                "name": "WhiteLev",
+                "value": 0.5307361734739091
+              },
+              {
+                "name": "FrameVis",
+                "value": -0.18983625760301948
+              },
+              {
+                "name": "Edgy",
+                "value": 0.07393117581097734
+              },
+              {
+                "name": "Anim0",
+                "value": 0.0061513984195460695
+              }
+            ],
+            "decimals": 0,
+            "symbol": "GENTK",
+            "version": "0.2"
+          },
+          "duplicate": false,
+          "activeListing": {
+            "id": 942028,
+            "version": 1,
+            "price": 100000000,
+            "__typename": "Listing"
+          },
+          "owner": {
+            "id": "tz1bWmoMGt58JCsgCqLMQC43Vv3RF4Un54gK",
+            "name": "Brassic",
+            "flag": "NONE",
+            "avatarUri": "ipfs://QmW6oK1gRUfYPTACDEui4Umhmj7B5HT1mYrdp8BvzikFxt",
+            "__typename": "User"
+          },
+          "issuer": {
+            "flag": "NONE",
+            "name": "Schwere See",
+            "author": {
+              "id": "tz1T55y8BEuXQrCzBaPqayugNNGFwxy27WJt",
+              "name": "flockaroo",
+              "type": "REGULAR",
+              "avatarUri": "ipfs://QmTYvBZmoNJvNsHjWd7J16JLCW8qcNpgKac4N4P4VdMr6X",
+              "flag": "VERIFIED",
+              "collaborators": null,
+              "__typename": "User"
+            },
+            "__typename": "GenerativeToken"
+          },
+          "__typename": "Objkt"
+        },
+        "__typename": "Listing"
+      },
+      {
+        "id": 942027,
+        "version": 1,
+        "price": 93000000,
+        "objkt": {
+          "id": "FX0-1472468",
+          "version": 1,
+          "name": "Chrysalis #33",
+          "slug": "chrysalis-33",
+          "metadata": {
+            "name": "Chrysalis #33",
+            "iterationHash": "ooPZAsGzqhVv8ZGUdCwo3aJrr5LNjTBCABp8TqvsDycCp2zvBke",
+            "description": "Interact: click & drag, zoom, press 'g'.",
+            "tags": [
+              "webgl",
+              "glsl",
+              "shader",
+              "raymarching",
+              "pathtracing",
+              "voxel",
+              "organic"
+            ],
+            "generatorUri": "ipfs://QmaPzWywTwfJFV65wU49zGVJgn6rsFE7bVLH2fT3x7XQ64",
+            "artifactUri": "ipfs://QmaPzWywTwfJFV65wU49zGVJgn6rsFE7bVLH2fT3x7XQ64?fxhash=ooPZAsGzqhVv8ZGUdCwo3aJrr5LNjTBCABp8TqvsDycCp2zvBke",
+            "displayUri": "ipfs://QmcMSu1ghNGwHExAKau522knYJaMrhEomms4ZsJzgvh52L",
+            "thumbnailUri": "ipfs://QmR1XzNoQ8vft59XDDhjgmEZp1Zim5PeqQUDjugX94qNGm",
+            "authenticityHash": "2d711bd3abc0ec9a9175781441ab3681cae138d79f2320444622f675ae5e61c5",
+            "attributes": [],
+            "decimals": 0,
+            "symbol": "GENTK",
+            "version": "0.2"
+          },
+          "duplicate": false,
+          "activeListing": {
+            "id": 942027,
+            "version": 1,
+            "price": 93000000,
+            "__typename": "Listing"
+          },
+          "owner": {
+            "id": "tz1bWmoMGt58JCsgCqLMQC43Vv3RF4Un54gK",
+            "name": "Brassic",
+            "flag": "NONE",
+            "avatarUri": "ipfs://QmW6oK1gRUfYPTACDEui4Umhmj7B5HT1mYrdp8BvzikFxt",
+            "__typename": "User"
+          },
+          "issuer": {
+            "flag": "NONE",
+            "name": "Chrysalis",
+            "author": {
+              "id": "KT1KvG1VotiiB1K4ex7Hqw4DbM4YJCLVLorp",
+              "name": null,
+              "type": "COLLAB_CONTRACT_V1",
+              "avatarUri": null,
+              "flag": "NONE",
+              "collaborators": [
+                {
+                  "id": "tz1anEPxWfjFNuiGgB3Z5NvCCUeGPs7hNmVb",
+                  "name": "Monotau",
+                  "avatarUri": "ipfs://QmSDwSLKy1uaz86CQfNaWLvGu2hZbqaE12L7GHbfU1NRS7",
+                  "flag": "VERIFIED",
+                  "__typename": "User"
+                },
+                {
+                  "id": "tz1Q5AYJLYkb6wNxvCENaZxfvHHVMdp9a5As",
+                  "name": "arsiliath",
+                  "avatarUri": "ipfs://QmdSS7ZqvteC4TFWv1ZZosSXjt26KYqiox6x1KidmaxSep",
+                  "flag": "VERIFIED",
+                  "__typename": "User"
+                }
+              ],
+              "__typename": "User"
+            },
+            "__typename": "GenerativeToken"
+          },
+          "__typename": "Objkt"
+        },
+        "__typename": "Listing"
+      },
+      {
+        "id": 942026,
+        "version": 1,
+        "price": 15000000,
+        "objkt": {
+          "id": "FX1-17445",
+          "version": 2,
+          "name": "Forbidden Tree #2",
+          "slug": "forbidden-tree-2",
+          "metadata": {
+            "name": "Forbidden Tree #2",
+            "iterationHash": "onkbSxyfYBp75c3vgSN81CJW5KosR5ezqtr6y2HdhS9WcBbpw5J",
+            "description": "The forbidden tree is a common motif found in many mythologies and religious traditions around the world. In many cases, it is portrayed as a tree whose fruit or knowledge is forbidden to humans or certain divine beings. In the Abrahamic tradition, the forbidden tree is the Tree of Knowledge of Good and Evil from which Adam and Eve were forbidden to eat in the Garden of Eden. Similarly, in Norse mythology, the goddess Idunn guarded a tree that bore golden apples that granted eternal youth, which was also forbidden to mortals. The motif of the forbidden tree often serves as a cautionary tale about the consequences of disobedience or hubris, and highlights the tension between human curiosity and the limitations imposed by the divine or natural order.\n\nFeatures:\n- Multiple Color Palettes\n- Different Background Textures\n- Multiple Numbers of Tree\n- It might be rainy or snowy\n- Different Scene Types\n- If you are lucky enough, you might get the Forbidden Fruit ;)\n\n-- Created in P5JS --\n\nOpen and Download For High Quality (3000px * 3000px)",
+            "tags": [
+              "tree",
+              "forbidden",
+              "garden",
+              "flower",
+              "landscape",
+              "nature"
+            ],
+            "generatorUri": "ipfs://QmRi3ghzqk1EPHjG67rdg2DMdkk89xj5bY7pqBWi4HhpiC",
+            "artifactUri": "ipfs://QmRi3ghzqk1EPHjG67rdg2DMdkk89xj5bY7pqBWi4HhpiC/?fxhash=onkbSxyfYBp75c3vgSN81CJW5KosR5ezqtr6y2HdhS9WcBbpw5J",
+            "displayUri": "ipfs://QmSx128ayf5HGusycb5o34uEy2zkZUk4wBYo9rdfo18ZBY",
+            "thumbnailUri": "ipfs://QmNhCV4KBKG1hm3fep7KEfL9FXdGE7NHLMemarhCguQc5K",
+            "authenticityHash": "a0d0ed08c0e0177259086826f818e91e31a98a30485957e99a981b43e28f80bd",
+            "attributes": [
+              {
+                "name": "Color Palette",
+                "value": "Red Violet"
+              },
+              {
+                "name": "Background Texture",
+                "value": "Dual Radial"
+              },
+              {
+                "name": "Tree No.",
+                "value": 1
+              },
+              {
+                "name": "Scene Type",
+                "value": "Lake"
+              },
+              {
+                "name": "Weather",
+                "value": "Clear"
+              },
+              {
+                "name": "Forbidden Fruit",
+                "value": "No"
+              }
+            ],
+            "decimals": 0,
+            "symbol": "GENTK",
+            "version": "0.2"
+          },
+          "duplicate": false,
+          "activeListing": {
+            "id": 942026,
+            "version": 1,
+            "price": 15000000,
+            "__typename": "Listing"
+          },
+          "owner": {
+            "id": "tz1gcBRVdyCM87ZjndNb11xcYyK9aB9wbRf5",
+            "name": "Dr. Lise",
+            "flag": "NONE",
+            "avatarUri": "ipfs://QmQa6h1dezL97XTqRRDwwY4rJ9xQibSUE2WLyfLctuG8SL",
+            "__typename": "User"
+          },
+          "issuer": {
+            "flag": "NONE",
+            "name": "Forbidden Tree",
+            "author": {
+              "id": "KT1Sm2Cg6NTL54ZEPdxiMh9175xkmaLxdDcD",
+              "name": null,
+              "type": "COLLAB_CONTRACT_V1",
+              "avatarUri": null,
+              "flag": "NONE",
+              "collaborators": [
+                {
+                  "id": "tz1gAxjfvjnQrfvWqUbdjHk5occ9K758NXeQ",
+                  "name": "Foxonoid",
+                  "avatarUri": "ipfs://QmdwndDYC3soeYR9DasxdUApQFYi55TTK5E8ZcB7pMovrR",
+                  "flag": "NONE",
+                  "__typename": "User"
+                },
+                {
+                  "id": "tz1Mx5yAwFH1PKX3fjvtzVX47goXwpwvj3fY",
+                  "name": "Ravenoid",
+                  "avatarUri": "ipfs://QmULSGuANEpvnUW5y2H2vMy1hYbkG8zwocwsdZnww7ikJe",
+                  "flag": "NONE",
+                  "__typename": "User"
+                },
+                {
+                  "id": "tz1Zar28cCni4hHQejKVgzump2YVzsSvHDUm",
+                  "name": "Pouya Ahmari",
+                  "avatarUri": "ipfs://QmXsG9KjwyseAFhXb8mSPCJ733tN8atBAu82N8wp9XKEDr",
+                  "flag": "VERIFIED",
+                  "__typename": "User"
+                }
+              ],
+              "__typename": "User"
+            },
+            "__typename": "GenerativeToken"
+          },
+          "__typename": "Objkt"
+        },
+        "__typename": "Listing"
+      },
+      {
+        "id": 942025,
+        "version": 1,
+        "price": 30000000,
+        "objkt": {
+          "id": "FX1-17656",
+          "version": 2,
+          "name": "Chromalign #133",
+          "slug": "chromalign-133",
+          "metadata": {
+            "name": "Chromalign #133",
+            "iterationHash": "opSNL3eNA8NLHQkAFyx3XAw1CqifHXBJrfpU2M4j78om3BB3dAy",
+            "description": "A relatively simple idea: columns filled with many thin horizontal lines, layered with complexity from colour features, stroke styles, and column perturbations. The compositions that emerge may be harmonious or asynchronous, comforting or jarring, wistful, mysterious, subtle, or bold.\n\nThe piece is generated as follows:\n\nFirst, borders and columns are defined. The canvas may have one or two borders, ranging from small to large, and the inner border may or may not have a coloured edge and fill. If they are not coloured, the feature \"Hidden Background\" will be true. Each column is assigned three colours at random from one of several possible colour palettes. The top and bottom boundaries of each column are set, and in some iterations, there is a chance that columns will break outside the border boundaries.\n\nAs columns are drawn from top to bottom, there are several events that may occur with probabilities pre-defined for each iteration: 1) The stroke colour may switch abruptly or over a gradient between two of the three column colours. 2) A 'repeater' pattern may be triggered, where two of the column colours alternate with a given frequency and rate of decay. 3) Single 'accent' bands may occur with the third column colour. 4) 'Bulges' may form with either rectangle, diamond, sin wave, or 'skirt' shapes.\n\nThere may also be horizontal bands that span the entire image, with a certain variability of height across columns.\n\nStrokes may be straight lines or Bezier curves. Bezier curves may be uniform for an iteration, where the control points of the curves are generated from a single formula for the whole image, or they may be random. Strokes may also have horizontal and/or vertical 'line fuzz', where the start and end points of the line are randomly offset in either direction.\n\nStraight strokes may or may not have a solid base-layer drawn underneath, which gives the image a more filled vs. sketched appearance. Top strokes may also be partially transparent, allowing for a layered effect.\n\nColumns are drawn in one of several possible orders, and once the initial drawing is complete, columns will be redrawn slowly and the image will evolve over time.\n\nPress '2', '4', '6', '8', or '0' to re-draw at 2K, 4K, 6K, 8K, or 10K resolution (shortest edge), which will also save an image when the initial draw is complete and before animation begins.\n\nPress 's' at any time to save an image at the current resolution.",
+            "tags": [
+              "generative",
+              "abstract",
+              "line art",
+              "color field",
+              "geometric"
+            ],
+            "generatorUri": "ipfs://Qmcnii9vPSCuDfEkdPtwxTJkiPHZtkdwH5d6x17MceVS8q",
+            "artifactUri": "ipfs://Qmcnii9vPSCuDfEkdPtwxTJkiPHZtkdwH5d6x17MceVS8q/?fxhash=opSNL3eNA8NLHQkAFyx3XAw1CqifHXBJrfpU2M4j78om3BB3dAy",
+            "displayUri": "ipfs://QmPJsForb3fSqsiv6fPFyRggXKtqiTegmzrTg3ehmVuji5",
+            "thumbnailUri": "ipfs://QmaSWNwQu9N6dUeUKBLSTzyJ6g1G6Gs738hnKAHUwRrLaQ",
+            "authenticityHash": "c66f4b5108eda8b438984bedfc6ebb793e1a1f97bba33cf1e868f6bc82dbe040",
+            "attributes": [
+              {
+                "name": "Palette",
+                "value": "Ski Jacket"
+              },
+              {
+                "name": "Aspect",
+                "value": "A4 Tall"
+              },
+              {
+                "name": "Stroke Style",
+                "value": "Straight"
+              },
+              {
+                "name": "Top line alpha",
+                "value": "High"
+              },
+              {
+                "name": "Number of Columns",
+                "value": "Modest"
+              },
+              {
+                "name": "Draw Order",
+                "value": "Swipe Right"
+              },
+              {
+                "name": "Outer Border",
+                "value": "Medium"
+              },
+              {
+                "name": "Inner Border",
+                "value": "Small"
+              },
+              {
+                "name": "Hidden Background",
+                "value": true
+              },
+              {
+                "name": "Baselayer",
+                "value": false
+              },
+              {
+                "name": "Vertical Line Fuzz",
+                "value": "Medium"
+              },
+              {
+                "name": "Horizontal Line Fuzz",
+                "value": "Light"
+              },
+              {
+                "name": "Bulges",
+                "value": "None"
+              },
+              {
+                "name": "Horizontal Bands",
+                "value": 2
+              }
+            ],
+            "decimals": 0,
+            "symbol": "GENTK",
+            "version": "0.2"
+          },
+          "duplicate": false,
+          "activeListing": {
+            "id": 942025,
+            "version": 1,
+            "price": 30000000,
+            "__typename": "Listing"
+          },
+          "owner": {
+            "id": "tz1gcBRVdyCM87ZjndNb11xcYyK9aB9wbRf5",
+            "name": "Dr. Lise",
+            "flag": "NONE",
+            "avatarUri": "ipfs://QmQa6h1dezL97XTqRRDwwY4rJ9xQibSUE2WLyfLctuG8SL",
+            "__typename": "User"
+          },
+          "issuer": {
+            "flag": "NONE",
+            "name": "Chromalign",
+            "author": {
+              "id": "tz1RH5aJvuk7Qw4UYbwdjfahWHaKsVPgwBhk",
+              "name": "bleaker.art",
+              "type": "REGULAR",
+              "avatarUri": "ipfs://QmZ77A8tKbqSfuX8NRa7uDTA5jb7Et3aPeTNvQLebxE7iC",
+              "flag": "NONE",
+              "collaborators": null,
+              "__typename": "User"
+            },
+            "__typename": "GenerativeToken"
+          },
+          "__typename": "Objkt"
+        },
+        "__typename": "Listing"
+      },
+      {
+        "id": 942024,
+        "version": 1,
+        "price": 100000000,
+        "objkt": {
+          "id": "FX1-17930",
+          "version": 2,
+          "name": "The Beauty In Small Things #26",
+          "slug": "the-beauty-in-small-things-26",
+          "metadata": {
+            "name": "The Beauty In Small Things #26",
+            "iterationHash": "oo5A1cqmMRoKsyJzGjrCoFaRBvmPksA4C92XCQYK864rYNRtDdZ",
+            "description": "\"The Beauty In Small Things\" marks a new page in my collection of rules-based emergent systems. Like my previous projects,it is based on millions of transparent lines interacting in unpredictable ways. This time, the following rules are applied:\n- Place N circles in the canvas and pick a random point on each circle.\n- Assign a color from the current palette to each point\n- At each step, rotate the point along its circle, and draw a segment between the 2 closest points in the set.\n\nFinding the closest points in a set is another classic computer science problem. This implementation uses the sweep line algorithm to avoid the O(n^2) complexity of the naive method. Rendering still requires a good GPU (with the density at its maximum, it draws 5.7 million lines)\n\nPlaying with the token parameters will reward collectors with very diverse and unexpected outputs.\n\nFor this token I have added 2 important parameters:\n- Hash Override: when set to a valid hash value, this forces using this value for the token generation. This allows collectors to mint the exact same output as the one they see while adjusting the parameters.\n- Micro Variation: one downside of using Hash Override is that the same output can be generated multiple time, by using the same hash. The Micro Variation parameters counterbalances that, by adding a variable amount of randomness taken from the original mint hash. This ensures the output\nwill be very similar to the one currently displayed, but not exactly identical.\n*** WARNING *** If Micro-Variation is set to 0, the output is 100% deterministic and other collectors will be able to generate the exact same output by copying the Hash Override value.\n\nLike \"The Traveling Salesman\", \"The Beauty In Small Things\" is an open edition that starts with 10.000 editions priced at 1tz. After 1 week, the supply will be halved and the price increased by 1tz every day.\n\n75% of the royalties will go to the minters, to reward their creative use of the parameters.\n\nIn Live view, you can use ?s=2 or ?s=3 to render at a higher resolution.\n?noise=0 will turn off the background noise texture.",
+            "tags": [
+              "#abstract",
+              "#color",
+              "#regl",
+              "#webgl",
+              "#lines"
+            ],
+            "generatorUri": "ipfs://QmfDxq2eh1H9Sbfq3zhv2w6J6xojWCPiNy5WaKK3ugB9Kg",
+            "artifactUri": "ipfs://QmfDxq2eh1H9Sbfq3zhv2w6J6xojWCPiNy5WaKK3ugB9Kg/?fxhash=oo5A1cqmMRoKsyJzGjrCoFaRBvmPksA4C92XCQYK864rYNRtDdZ&fxparams=003500730069006600390030006d0075006f0072007100610073007a0079007700650070006c00610061006c007900630073006d00680071007a0069006d006a0079006800310033006f00320074006b0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000004052c00000000000000d570bfaa7fe882c75148039ceff454359d9af60e29833760779c8f4ca11feb7df020040340000000000004026000000000000405680000000000040574000000000004051400000000000405100000000000040410000000000004019b851eb851eb8404c000000000000404a8000000000004044000000000000c01c000000000000014042000000000000c0140000000000003fe51eb851eb851f",
+            "displayUri": "ipfs://QmWN91LGGAn7V37yRBmtKmuMD4A7Y6r5iC12h4doX89snq",
+            "thumbnailUri": "ipfs://Qmei9GWEuTHNxVNF94P9nSz9woFbUBbTbouXHShso5QfiH",
+            "authenticityHash": "7966faba256a740177b7a019bbf183ee157952efaef2942b85bd53019f0fa7d9",
+            "attributes": true,
+            "decimals": 0,
+            "symbol": "GENTK",
+            "version": "0.2"
+          },
+          "duplicate": false,
+          "activeListing": {
+            "id": 942024,
+            "version": 1,
+            "price": 100000000,
+            "__typename": "Listing"
+          },
+          "owner": {
+            "id": "tz1gcBRVdyCM87ZjndNb11xcYyK9aB9wbRf5",
+            "name": "Dr. Lise",
+            "flag": "NONE",
+            "avatarUri": "ipfs://QmQa6h1dezL97XTqRRDwwY4rJ9xQibSUE2WLyfLctuG8SL",
+            "__typename": "User"
+          },
+          "issuer": {
+            "flag": "NONE",
+            "name": "The Beauty In Small Things",
+            "author": {
+              "id": "tz2Q5AmNP45Z5KMmeK7ZYdXyLMkbhz82n6fd",
+              "name": "r1b2",
+              "type": "REGULAR",
+              "avatarUri": "ipfs://QmShWESZVs1zkcFds7npFU5ryGjKrE2ZPFn4zZEA8oMCm3",
+              "flag": "VERIFIED",
+              "collaborators": null,
+              "__typename": "User"
+            },
+            "__typename": "GenerativeToken"
+          },
+          "__typename": "Objkt"
+        },
+        "__typename": "Listing"
+      },
+      {
+        "id": 942023,
+        "version": 1,
+        "price": 47000000,
+        "objkt": {
+          "id": "FX0-193697",
+          "version": 0,
+          "name": "sinuosity #183",
+          "slug": "sinuosity-183",
+          "metadata": {
+            "name": "sinuosity #183",
+            "iterationHash": "ooKEqzyPYBsD9e9PZH7pME6M4THrR8MaDtXnYZUYi8MkrDmbcey",
+            "description": "sinuosity is defined as:\n\n- (n.) the ability to curve or bend easily and flexibly.\n\nsinuous is defined as a couple of things:\n\n- (adj.) having many curves and turns.\n- (adj.) lithe and supple.\n\neach curve anchors to the center. \n\nmaybe that center is a life. (maybe that center is you.)\n\nmaybe that curve is a relationship. (or a job.) (or repressed trauma that needs processing.)\n\nmaybe that curve has other curves within. (it probably does.)\n\nsometimes there are many curves at once. (usually this the case.) \n\noccasionally, there may only be one. (life isn’t always so complicated.) \n\nwhatever curves the moment contains it can help to step away and see how they come together. (this is not always easy.)\n\n[cc0] [p5js] [xoxo] [twitter: @heyjeres]",
+            "tags": [
+              "sinuosity",
+              "sinuous",
+              "p5js",
+              "bezier"
+            ],
+            "artifactUri": "ipfs://QmTn2pd3b9yPL4tTCx5hSsLos5mqt7C8CrtFFwrR46V4Hy",
+            "displayUri": "ipfs://QmbH2WJmSk6nxRqedSJC7RM4Nt5d6KuBMrowF4kfsw7C63",
+            "thumbnailUri": "ipfs://QmREhmWTFpTeiWeifPi2HEUP9HmwHKYiei58qjeab585vK",
+            "authenticityHash": "af75393c60b0e1328c6c5f2d425c8101eef95962baf282b0cb6fcfff53935ae0",
+            "attributes": [
+              {
+                "name": "Background",
+                "value": "None"
+              },
+              {
+                "name": "Palette",
+                "value": "Monochrome"
+              },
+              {
+                "name": "Curves",
+                "value": 10
+              }
+            ],
+            "decimals": 0,
+            "symbol": "GENTK"
+          },
+          "duplicate": false,
+          "activeListing": {
+            "id": 942023,
+            "version": 1,
+            "price": 47000000,
+            "__typename": "Listing"
+          },
+          "owner": {
+            "id": "tz1McPoo1KSxYJdAsQ2cTTjocJKus7us1QL4",
+            "name": null,
+            "flag": "NONE",
+            "avatarUri": null,
+            "__typename": "User"
+          },
+          "issuer": {
+            "flag": "NONE",
+            "name": "sinuosity",
+            "author": {
+              "id": "tz1hnnCaYDiRPH8apoJQB9wvytwpYQSJEzCK",
+              "name": "jeres",
+              "type": "REGULAR",
+              "avatarUri": "ipfs://QmdRGTD7rW2MsAk8JKJr9y9u9uJVv3ZcgVkqyCGQj5xwa5",
+              "flag": "VERIFIED",
+              "collaborators": null,
+              "__typename": "User"
+            },
+            "__typename": "GenerativeToken"
+          },
+          "__typename": "Objkt"
+        },
+        "__typename": "Listing"
+      },
+      {
+        "id": 942022,
+        "version": 1,
+        "price": 69000000,
+        "objkt": {
+          "id": "FX0-193738",
+          "version": 0,
+          "name": "sinuosity #212",
+          "slug": "sinuosity-212",
+          "metadata": {
+            "name": "sinuosity #212",
+            "iterationHash": "ooyffvVMXG8dHRBWMdBwRfz1yKzhy6a519hUosqDwPDh7KC9cP9",
+            "description": "sinuosity is defined as:\n\n- (n.) the ability to curve or bend easily and flexibly.\n\nsinuous is defined as a couple of things:\n\n- (adj.) having many curves and turns.\n- (adj.) lithe and supple.\n\neach curve anchors to the center. \n\nmaybe that center is a life. (maybe that center is you.)\n\nmaybe that curve is a relationship. (or a job.) (or repressed trauma that needs processing.)\n\nmaybe that curve has other curves within. (it probably does.)\n\nsometimes there are many curves at once. (usually this the case.) \n\noccasionally, there may only be one. (life isn’t always so complicated.) \n\nwhatever curves the moment contains it can help to step away and see how they come together. (this is not always easy.)\n\n[cc0] [p5js] [xoxo] [twitter: @heyjeres]",
+            "tags": [
+              "sinuosity",
+              "sinuous",
+              "p5js",
+              "bezier"
+            ],
+            "artifactUri": "ipfs://QmYnrZCn7nWoT7sjqtC8NJ8nFQWZ9ARmtSdumM3oKri3GD",
+            "displayUri": "ipfs://QmTQeq9eV8LKawL4ZvDbVgPV7mVfMXzCMvjJed3dW68MFp",
+            "thumbnailUri": "ipfs://QmWhB1tv2mRB1XzcK86yPwC66RuEFrZpA7d957PX3cm5hS",
+            "authenticityHash": "b6590e85291804538d46c205c27bd559014725ffb706a1424fdbabbcf067b679",
+            "attributes": [
+              {
+                "name": "Background",
+                "value": "None"
+              },
+              {
+                "name": "Palette",
+                "value": "Monochrome"
+              },
+              {
+                "name": "Curves",
+                "value": 10
+              }
+            ],
+            "decimals": 0,
+            "symbol": "GENTK"
+          },
+          "duplicate": false,
+          "activeListing": {
+            "id": 942022,
+            "version": 1,
+            "price": 69000000,
+            "__typename": "Listing"
+          },
+          "owner": {
+            "id": "tz1McPoo1KSxYJdAsQ2cTTjocJKus7us1QL4",
+            "name": null,
+            "flag": "NONE",
+            "avatarUri": null,
+            "__typename": "User"
+          },
+          "issuer": {
+            "flag": "NONE",
+            "name": "sinuosity",
+            "author": {
+              "id": "tz1hnnCaYDiRPH8apoJQB9wvytwpYQSJEzCK",
+              "name": "jeres",
+              "type": "REGULAR",
+              "avatarUri": "ipfs://QmdRGTD7rW2MsAk8JKJr9y9u9uJVv3ZcgVkqyCGQj5xwa5",
+              "flag": "VERIFIED",
+              "collaborators": null,
+              "__typename": "User"
+            },
+            "__typename": "GenerativeToken"
+          },
+          "__typename": "Objkt"
+        },
+        "__typename": "Listing"
+      },
+      {
+        "id": 942021,
+        "version": 1,
+        "price": 20000000,
+        "objkt": {
+          "id": "FX1-17921",
+          "version": 2,
+          "name": "The Beauty In Small Things #25",
+          "slug": "the-beauty-in-small-things-25",
+          "metadata": {
+            "name": "The Beauty In Small Things #25",
+            "iterationHash": "onvmHY7wVKx6Gi6AQmPMbnDRwnNuvxAQ3L5CPpi2v4f4vZ7waeF",
+            "description": "\"The Beauty In Small Things\" marks a new page in my collection of rules-based emergent systems. Like my previous projects,it is based on millions of transparent lines interacting in unpredictable ways. This time, the following rules are applied:\n- Place N circles in the canvas and pick a random point on each circle.\n- Assign a color from the current palette to each point\n- At each step, rotate the point along its circle, and draw a segment between the 2 closest points in the set.\n\nFinding the closest points in a set is another classic computer science problem. This implementation uses the sweep line algorithm to avoid the O(n^2) complexity of the naive method. Rendering still requires a good GPU (with the density at its maximum, it draws 5.7 million lines)\n\nPlaying with the token parameters will reward collectors with very diverse and unexpected outputs.\n\nFor this token I have added 2 important parameters:\n- Hash Override: when set to a valid hash value, this forces using this value for the token generation. This allows collectors to mint the exact same output as the one they see while adjusting the parameters.\n- Micro Variation: one downside of using Hash Override is that the same output can be generated multiple time, by using the same hash. The Micro Variation parameters counterbalances that, by adding a variable amount of randomness taken from the original mint hash. This ensures the output\nwill be very similar to the one currently displayed, but not exactly identical.\n*** WARNING *** If Micro-Variation is set to 0, the output is 100% deterministic and other collectors will be able to generate the exact same output by copying the Hash Override value.\n\nLike \"The Traveling Salesman\", \"The Beauty In Small Things\" is an open edition that starts with 10.000 editions priced at 1tz. After 1 week, the supply will be halved and the price increased by 1tz every day.\n\n75% of the royalties will go to the minters, to reward their creative use of the parameters.\n\nIn Live view, you can use ?s=2 or ?s=3 to render at a higher resolution.\n?noise=0 will turn off the background noise texture.",
+            "tags": [
+              "#abstract",
+              "#color",
+              "#regl",
+              "#webgl",
+              "#lines"
+            ],
+            "generatorUri": "ipfs://QmfDxq2eh1H9Sbfq3zhv2w6J6xojWCPiNy5WaKK3ugB9Kg",
+            "artifactUri": "ipfs://QmfDxq2eh1H9Sbfq3zhv2w6J6xojWCPiNy5WaKK3ugB9Kg/?fxhash=onvmHY7wVKx6Gi6AQmPMbnDRwnNuvxAQ3L5CPpi2v4f4vZ7waeF&fxparams=0070003300650065006a00630071006f006700650072006e00660036003500760033006700700061003200760075006500790069006600370071003000370072006d003400730067006800640038003500670068007400300073006a00740070006c006600770077000000000000000000000000000000000000000000000000405880000000000001207e97605b5e446cb577ef2aaebc5bbbd642b4157e448458e071a289aa6a25aad10200403100000000000040280000000000004055000000000000403d000000000000402c0000000000004046000000000000402e000000000000405900000000000040280000000000004049000000000000404f800000000000000000000000000001c05000000000000040504000000000003fe9eb851eb851ec",
+            "displayUri": "ipfs://QmVgtFemSUGLrqJYNmB2A7yeH2xi7dsNvWw7sN5H6mnyLM",
+            "thumbnailUri": "ipfs://QmNiJCkuuVk6RFmJdSu6kaZKrnb6AiwZcuwhugd3NxmBEt",
+            "authenticityHash": "4a5f703c2116fb68bda161e5b208a5d33412e1220a872b0220fc5edd0711f39a",
+            "attributes": true,
+            "decimals": 0,
+            "symbol": "GENTK",
+            "version": "0.2"
+          },
+          "duplicate": false,
+          "activeListing": {
+            "id": 942021,
+            "version": 1,
+            "price": 20000000,
+            "__typename": "Listing"
+          },
+          "owner": {
+            "id": "tz1gcBRVdyCM87ZjndNb11xcYyK9aB9wbRf5",
+            "name": "Dr. Lise",
+            "flag": "NONE",
+            "avatarUri": "ipfs://QmQa6h1dezL97XTqRRDwwY4rJ9xQibSUE2WLyfLctuG8SL",
+            "__typename": "User"
+          },
+          "issuer": {
+            "flag": "NONE",
+            "name": "The Beauty In Small Things",
+            "author": {
+              "id": "tz2Q5AmNP45Z5KMmeK7ZYdXyLMkbhz82n6fd",
+              "name": "r1b2",
+              "type": "REGULAR",
+              "avatarUri": "ipfs://QmShWESZVs1zkcFds7npFU5ryGjKrE2ZPFn4zZEA8oMCm3",
+              "flag": "VERIFIED",
+              "collaborators": null,
+              "__typename": "User"
+            },
+            "__typename": "GenerativeToken"
+          },
+          "__typename": "Objkt"
+        },
+        "__typename": "Listing"
+      },
+      {
+        "id": 942020,
+        "version": 1,
+        "price": 3330000,
+        "objkt": {
+          "id": "FX1-17189",
+          "version": 2,
+          "name": "XERIES'S SKELETONS #372",
+          "slug": "xeries's-skeletons-372",
+          "metadata": {
+            "name": "XERIES'S SKELETONS #372",
+            "iterationHash": "ono1Gsg7MAqbuvcCWd9tDKS3eV9ttRyrfuKYexVQsmsisodJsSR",
+            "description": "This is Skeletons PFP Art Collection\nI portray a sincere human being\nlike a skeleton without flesh, clothing, or a false shell.\n\n💾 NO ROADMAP OR PLAN  ✨just Art for Collectable\n\nI'm  xeriesjame.tez\ntwitter : @xeriesjame_nft\n\nSpecial Thank! 🕵️‍♀️ \"PureSpider\" for template",
+            "tags": [
+              "xeriesjame",
+              "skeleton",
+              "death",
+              "skull",
+              "dead",
+              "dark",
+              "glitch"
+            ],
+            "generatorUri": "ipfs://QmYkJkmpCp6tTRjpc5RqAGJHPL6uPSe4C1AcsEhdd9BLpp",
+            "artifactUri": "ipfs://QmYkJkmpCp6tTRjpc5RqAGJHPL6uPSe4C1AcsEhdd9BLpp/?fxhash=ono1Gsg7MAqbuvcCWd9tDKS3eV9ttRyrfuKYexVQsmsisodJsSR",
+            "displayUri": "ipfs://QmRv5N3zs2zPSWHAZcFJ6WhvF6ZJXysUJuY3bNkDn4soLk",
+            "thumbnailUri": "ipfs://Qme3zNJALShxWmZKyaQ6jsrQ1Rgh1EPtpPsc5QWU9B2H1b",
+            "authenticityHash": "d4706cf13861b388c3a2db098b81d06197492ec4a7418c8afa07cd57d960a9d7",
+            "attributes": [
+              {
+                "name": "Background",
+                "value": "None"
+              },
+              {
+                "name": "Skeleton",
+                "value": "Pink"
+              },
+              {
+                "name": "Aura",
+                "value": "Triangle"
+              },
+              {
+                "name": "On_Head",
+                "value": "Magic Letter Crown"
+              },
+              {
+                "name": "Eyes",
+                "value": "SadWithBlueTear"
+              },
+              {
+                "name": "Something",
+                "value": "GM"
+              }
+            ],
+            "decimals": 0,
+            "symbol": "GENTK",
+            "version": "0.2"
+          },
+          "duplicate": false,
+          "activeListing": {
+            "id": 942020,
+            "version": 1,
+            "price": 3330000,
+            "__typename": "Listing"
+          },
+          "owner": {
+            "id": "tz1ayfDuVuMqggzjWwsXKMBeEywwXEWXrjoj",
+            "name": "Juurkku",
+            "flag": "NONE",
+            "avatarUri": "ipfs://QmVyMEXiimTZuNH6XhK37APqdU5YY9brFYRBFtWxv8mR1v",
+            "__typename": "User"
+          },
+          "issuer": {
+            "flag": "NONE",
+            "name": "XERIES'S SKELETONS",
+            "author": {
+              "id": "tz1f9tMsZVAgWbN5cUxMvCQVans34hH9fyrf",
+              "name": "xj-fxhash.tez",
+              "type": "REGULAR",
+              "avatarUri": "ipfs://QmUUor8JRcksAyf281ug4TFXsbsY5tcuUp4tp7kxTZxugd",
+              "flag": "NONE",
+              "collaborators": null,
+              "__typename": "User"
+            },
+            "__typename": "GenerativeToken"
+          },
+          "__typename": "Objkt"
+        },
+        "__typename": "Listing"
+      },
+      {
         "id": 942019,
         "version": 1,
         "price": 7000000,
@@ -965,929 +1901,6 @@
               "type": "REGULAR",
               "avatarUri": "ipfs://QmUrPXWmFJtahwiDoiZuWNwpbmJQ7hKh91XWEeoWkAauTe",
               "flag": "VERIFIED",
-              "collaborators": null,
-              "__typename": "User"
-            },
-            "__typename": "GenerativeToken"
-          },
-          "__typename": "Objkt"
-        },
-        "__typename": "Listing"
-      },
-      {
-        "id": 942008,
-        "version": 1,
-        "price": 7000000,
-        "objkt": {
-          "id": "FX1-17633",
-          "version": 2,
-          "name": "Chromalign #129",
-          "slug": "chromalign-129",
-          "metadata": {
-            "name": "Chromalign #129",
-            "iterationHash": "opVMBTmzCZMTghuPogizud4Mth2fpM21obEbLHzh3fvZakCEnzv",
-            "description": "A relatively simple idea: columns filled with many thin horizontal lines, layered with complexity from colour features, stroke styles, and column perturbations. The compositions that emerge may be harmonious or asynchronous, comforting or jarring, wistful, mysterious, subtle, or bold.\n\nThe piece is generated as follows:\n\nFirst, borders and columns are defined. The canvas may have one or two borders, ranging from small to large, and the inner border may or may not have a coloured edge and fill. If they are not coloured, the feature \"Hidden Background\" will be true. Each column is assigned three colours at random from one of several possible colour palettes. The top and bottom boundaries of each column are set, and in some iterations, there is a chance that columns will break outside the border boundaries.\n\nAs columns are drawn from top to bottom, there are several events that may occur with probabilities pre-defined for each iteration: 1) The stroke colour may switch abruptly or over a gradient between two of the three column colours. 2) A 'repeater' pattern may be triggered, where two of the column colours alternate with a given frequency and rate of decay. 3) Single 'accent' bands may occur with the third column colour. 4) 'Bulges' may form with either rectangle, diamond, sin wave, or 'skirt' shapes.\n\nThere may also be horizontal bands that span the entire image, with a certain variability of height across columns.\n\nStrokes may be straight lines or Bezier curves. Bezier curves may be uniform for an iteration, where the control points of the curves are generated from a single formula for the whole image, or they may be random. Strokes may also have horizontal and/or vertical 'line fuzz', where the start and end points of the line are randomly offset in either direction.\n\nStraight strokes may or may not have a solid base-layer drawn underneath, which gives the image a more filled vs. sketched appearance. Top strokes may also be partially transparent, allowing for a layered effect.\n\nColumns are drawn in one of several possible orders, and once the initial drawing is complete, columns will be redrawn slowly and the image will evolve over time.\n\nPress '2', '4', '6', '8', or '0' to re-draw at 2K, 4K, 6K, 8K, or 10K resolution (shortest edge), which will also save an image when the initial draw is complete and before animation begins.\n\nPress 's' at any time to save an image at the current resolution.",
-            "tags": [
-              "generative",
-              "abstract",
-              "line art",
-              "color field",
-              "geometric"
-            ],
-            "generatorUri": "ipfs://Qmcnii9vPSCuDfEkdPtwxTJkiPHZtkdwH5d6x17MceVS8q",
-            "artifactUri": "ipfs://Qmcnii9vPSCuDfEkdPtwxTJkiPHZtkdwH5d6x17MceVS8q/?fxhash=opVMBTmzCZMTghuPogizud4Mth2fpM21obEbLHzh3fvZakCEnzv",
-            "displayUri": "ipfs://QmWvvSrs9wzCGhy9ypGPYfZr8pm4cUEsbBFd2APrDtzVoh",
-            "thumbnailUri": "ipfs://QmbSDGPEhNNXQUb5kVHoxf22izUHqb3Xwfs7sk1A2trsED",
-            "authenticityHash": "b8385e330468ce3f937325f309bc93e341996288c9ed56a6166d55cb61ddf720",
-            "attributes": [
-              {
-                "name": "Palette",
-                "value": "Snow Cone"
-              },
-              {
-                "name": "Aspect",
-                "value": "A4 Wide"
-              },
-              {
-                "name": "Stroke Style",
-                "value": "Straight"
-              },
-              {
-                "name": "Top line alpha",
-                "value": "None"
-              },
-              {
-                "name": "Number of Columns",
-                "value": "Probably too many"
-              },
-              {
-                "name": "Draw Order",
-                "value": "Flying W"
-              },
-              {
-                "name": "Outer Border",
-                "value": "Large"
-              },
-              {
-                "name": "Inner Border",
-                "value": "Medium"
-              },
-              {
-                "name": "Hidden Background",
-                "value": true
-              },
-              {
-                "name": "Baselayer",
-                "value": false
-              },
-              {
-                "name": "Vertical Line Fuzz",
-                "value": "Light"
-              },
-              {
-                "name": "Horizontal Line Fuzz",
-                "value": "None"
-              },
-              {
-                "name": "Bulges",
-                "value": "Medium"
-              },
-              {
-                "name": "Horizontal Bands",
-                "value": 2
-              }
-            ],
-            "decimals": 0,
-            "symbol": "GENTK",
-            "version": "0.2"
-          },
-          "duplicate": false,
-          "activeListing": {
-            "id": 942008,
-            "version": 1,
-            "price": 7000000,
-            "__typename": "Listing"
-          },
-          "owner": {
-            "id": "tz1htpaK9vcViRUdAiRs42WXvKXXhwp8m7pz",
-            "name": " ######  ",
-            "flag": "NONE",
-            "avatarUri": "ipfs://QmeFL6uW5hEGSanZjsbBehMiHBKdtvUT97kYGwFCDF3BSZ",
-            "__typename": "User"
-          },
-          "issuer": {
-            "flag": "NONE",
-            "name": "Chromalign",
-            "author": {
-              "id": "tz1RH5aJvuk7Qw4UYbwdjfahWHaKsVPgwBhk",
-              "name": "bleaker.art",
-              "type": "REGULAR",
-              "avatarUri": "ipfs://QmZ77A8tKbqSfuX8NRa7uDTA5jb7Et3aPeTNvQLebxE7iC",
-              "flag": "NONE",
-              "collaborators": null,
-              "__typename": "User"
-            },
-            "__typename": "GenerativeToken"
-          },
-          "__typename": "Objkt"
-        },
-        "__typename": "Listing"
-      },
-      {
-        "id": 942007,
-        "version": 1,
-        "price": 69000000,
-        "objkt": {
-          "id": "FX1-14359",
-          "version": 2,
-          "name": "2 Shapes #153",
-          "slug": "2-shapes-153",
-          "metadata": {
-            "name": "2 Shapes #153",
-            "iterationHash": "oo53C4m1BhPoFqF8qKtWCXhjhYgtQw7a3ZX88S9huZu4dMnFM6q",
-            "description": "‘2 Shapes’ is the very first Generative Token by Anna: 2 triangles shift and stretch horizontally and mirrored vertically. There are 50 colour-variations and various possibilities for individual ‘2 Shapes‘. \n",
-            "tags": [],
-            "generatorUri": "ipfs://QmQxm3w7bifdqbugkZpyMDBUPxGtS2Q5kft28iwoRb9BZU",
-            "artifactUri": "ipfs://QmQxm3w7bifdqbugkZpyMDBUPxGtS2Q5kft28iwoRb9BZU/?fxhash=oo53C4m1BhPoFqF8qKtWCXhjhYgtQw7a3ZX88S9huZu4dMnFM6q",
-            "displayUri": "ipfs://Qmd8b1KyUMY4bBxmnSonFuMWsQQDRGx22LT259EiV87y4z",
-            "thumbnailUri": "ipfs://QmXQ3XKGvx8aczSLNcLfaxD2zFaX6cGJ5QLfNXGEUo6wog",
-            "authenticityHash": "0eb9f345cc7c5954bec1b2e9fdabb72b0e19435fa5f114afa2a3b3662121df7f",
-            "attributes": true,
-            "decimals": 0,
-            "symbol": "GENTK",
-            "version": "0.2"
-          },
-          "duplicate": false,
-          "activeListing": {
-            "id": 942007,
-            "version": 1,
-            "price": 69000000,
-            "__typename": "Listing"
-          },
-          "owner": {
-            "id": "tz1McPoo1KSxYJdAsQ2cTTjocJKus7us1QL4",
-            "name": null,
-            "flag": "NONE",
-            "avatarUri": null,
-            "__typename": "User"
-          },
-          "issuer": {
-            "flag": "NONE",
-            "name": "2 Shapes",
-            "author": {
-              "id": "tz2LY7SstuRTUAjbnyPi9fk3C7AQP9i7caTo",
-              "name": "Anna Beller",
-              "type": "REGULAR",
-              "avatarUri": "ipfs://QmUtaYC8RX6T2fSq1CDoi2tdjpLQ4beboDL2FA3YKvqFNy",
-              "flag": "VERIFIED",
-              "collaborators": null,
-              "__typename": "User"
-            },
-            "__typename": "GenerativeToken"
-          },
-          "__typename": "Objkt"
-        },
-        "__typename": "Listing"
-      },
-      {
-        "id": 942006,
-        "version": 1,
-        "price": 100000000,
-        "objkt": {
-          "id": "FX0-1097081",
-          "version": 1,
-          "name": "Flower Arrangement #200",
-          "slug": "flower-arrangement-200",
-          "metadata": {
-            "name": "Flower Arrangement #200",
-            "iterationHash": "opYeyczKSE2HhPGXyqZkpTkMYS9vUD45RY55XWKsrkShxPcP5mM",
-            "description": "Flower arrangement made by code.\n\nPossible features:\n- Style: Natural, Oval, Triangular, Grassy\n- Orientation: Square, Portrait, Landscape\n- Palette: White, Cream, Tan, Pink, Green, Blue, Yellow, Orange\n- Primary flower: Mix, Gerbera, Gerbera 2, Dahlia, Dahlia 2, Spiky, Unknown\n- Primary color: Random, Light, Dark\n- Secondary color: Random, Light, Dark\n- Vase shape: Cylinder, Tumbler, Round, Curve\n- Dish: true, false\n- Table: true, false\n- Texture: true, false\n\nLive view options:\n- Press \"s\" key: Saves the high resolution image (3300 x 3300 for square, 4200 x 3300 for portrait, 3300 x 4200 for landscape)\n\nDepending on the device you run it on, it may take some time for the drawing to complete.\nBest viewed in larger window size.\nMade with p5js.\n\nAugust 2022\nykxotkx",
-            "tags": [
-              "generative",
-              "flower",
-              "grass",
-              "plant",
-              "still life",
-              "p5js"
-            ],
-            "generatorUri": "ipfs://QmaNDDPog7HvUtr5eKwMrwZgXs8CD3aLQvHN4YS6dwUaHn",
-            "artifactUri": "ipfs://QmaNDDPog7HvUtr5eKwMrwZgXs8CD3aLQvHN4YS6dwUaHn?fxhash=opYeyczKSE2HhPGXyqZkpTkMYS9vUD45RY55XWKsrkShxPcP5mM",
-            "displayUri": "ipfs://QmYu3DEjjpt3WogUAt6GitNP7iQcuW4bSi8MzLrcLh3hJ1",
-            "thumbnailUri": "ipfs://QmZmWiw2MvCyuSxxygv3FZvziq6nMkLdQg5ruTVJSy68mh",
-            "authenticityHash": "3c90b587218f9c38d896f30ff2aa22f5eb4262bae06131ed5df1e7558112817f",
-            "attributes": [
-              {
-                "name": "Style",
-                "value": "Natural"
-              },
-              {
-                "name": "Orientation",
-                "value": "Portrait"
-              },
-              {
-                "name": "Palette",
-                "value": "Blue"
-              },
-              {
-                "name": "PrimaryFlower",
-                "value": "Mix"
-              },
-              {
-                "name": "PrimaryColor",
-                "value": "Dark"
-              },
-              {
-                "name": "SecondaryColor",
-                "value": "Dark"
-              },
-              {
-                "name": "VaseShape",
-                "value": "Cylinder"
-              },
-              {
-                "name": "Dish",
-                "value": true
-              },
-              {
-                "name": "Table",
-                "value": true
-              },
-              {
-                "name": "Texture",
-                "value": true
-              }
-            ],
-            "decimals": 0,
-            "symbol": "GENTK",
-            "version": "0.2"
-          },
-          "duplicate": false,
-          "activeListing": {
-            "id": 942006,
-            "version": 1,
-            "price": 100000000,
-            "__typename": "Listing"
-          },
-          "owner": {
-            "id": "tz1Tk1MJDZ96bK85RLAqtKfnptZZyXsJ2jaq",
-            "name": "exsstas",
-            "flag": "NONE",
-            "avatarUri": "ipfs://QmXLhvsJehVbQrDHA9GuY1tdyqdHwGwDnPgS75nUKmZh7c",
-            "__typename": "User"
-          },
-          "issuer": {
-            "flag": "NONE",
-            "name": "Flower Arrangement",
-            "author": {
-              "id": "tz1ZV6zpRiyGdpFxprDSuA1CUaXh5HyHAssc",
-              "name": "ykxotkx",
-              "type": "REGULAR",
-              "avatarUri": "ipfs://QmZAoVppST1CngtnrUDen8fFJz2oFxJJ2eVvwZN8Kd4cH9",
-              "flag": "VERIFIED",
-              "collaborators": null,
-              "__typename": "User"
-            },
-            "__typename": "GenerativeToken"
-          },
-          "__typename": "Objkt"
-        },
-        "__typename": "Listing"
-      },
-      {
-        "id": 942005,
-        "version": 1,
-        "price": 85000000,
-        "objkt": {
-          "id": "FX0-448984",
-          "version": 0,
-          "name": "A B I S M O  #5",
-          "slug": "a-b-i-s-m-o-5",
-          "metadata": {
-            "name": "A B I S M O  #5",
-            "iterationHash": "ooS6D5nJ3wRA6x2aJfBBukhsbrRbcYCUEYzST32DQUiaEN1qQvR",
-            "description": "Bottomless void in space",
-            "tags": [
-              "generative",
-              "raymarching",
-              "minimal",
-              "dark",
-              "glsl",
-              "sdf"
-            ],
-            "generatorUri": "ipfs://QmUgNcwhyMJ12jMdgMb175Uj2pfhY6DS1LcL41yDzBnG4R",
-            "artifactUri": "ipfs://QmUgNcwhyMJ12jMdgMb175Uj2pfhY6DS1LcL41yDzBnG4R?fxhash=ooS6D5nJ3wRA6x2aJfBBukhsbrRbcYCUEYzST32DQUiaEN1qQvR",
-            "displayUri": "ipfs://QmZSscKRKtWg8Mx3pcpohr9GRTEDq2xnaZVjNkpVMW2qt7",
-            "thumbnailUri": "ipfs://Qmb6cBpqVkCva2GYrvGvbMDKKz1UchDdcMwsJj3VBNiyFk",
-            "authenticityHash": "a1082dd49d8bca1e60f5bf628dc512c6176aaa3e582d29b57f1d49b814af6aa7",
-            "attributes": [
-              {
-                "name": "shape",
-                "value": 4
-              },
-              {
-                "name": "color",
-                "value": 3
-              },
-              {
-                "name": "two",
-                "value": true
-              },
-              {
-                "name": "direction",
-                "value": true
-              },
-              {
-                "name": "abismo",
-                "value": 1
-              },
-              {
-                "name": "night",
-                "value": true
-              }
-            ],
-            "decimals": 0,
-            "symbol": "GENTK",
-            "version": "0.2"
-          },
-          "duplicate": false,
-          "activeListing": {
-            "id": 942005,
-            "version": 1,
-            "price": 85000000,
-            "__typename": "Listing"
-          },
-          "owner": {
-            "id": "tz1Tk1MJDZ96bK85RLAqtKfnptZZyXsJ2jaq",
-            "name": "exsstas",
-            "flag": "NONE",
-            "avatarUri": "ipfs://QmXLhvsJehVbQrDHA9GuY1tdyqdHwGwDnPgS75nUKmZh7c",
-            "__typename": "User"
-          },
-          "issuer": {
-            "flag": "NONE",
-            "name": "A B I S M O ",
-            "author": {
-              "id": "tz1aARx1r9qzScEmRXNxY5WpKzL6ebWrWjMD",
-              "name": "Pablo Alpe",
-              "type": "REGULAR",
-              "avatarUri": "ipfs://QmYWTAfZqcZwWzxNjSBibmWmtt5sh4uvaMSffocC7xJxgm",
-              "flag": "VERIFIED",
-              "collaborators": null,
-              "__typename": "User"
-            },
-            "__typename": "GenerativeToken"
-          },
-          "__typename": "Objkt"
-        },
-        "__typename": "Listing"
-      },
-      {
-        "id": 942004,
-        "version": 1,
-        "price": 70000000,
-        "objkt": {
-          "id": "FX0-1373146",
-          "version": 1,
-          "name": "The Spectrum Of Nature #213",
-          "slug": "the-spectrum-of-nature-213",
-          "metadata": {
-            "name": "The Spectrum Of Nature #213",
-            "iterationHash": "op12ytjjSKxaAedh4jibyiHYpmP5FSGkzqvngsqGYHPdJBkuY7X",
-            "description": "*\\_../*`¬-’\\/*`¬’’¬`*\\/’-¬`*\\.._/*\n\nNature, nature, evolving might… Silent inventor, always right.\nWhere is the edge of nature and where do we begin?  \nWhat is of nature and what is of man? \nIsn't everything made by nature's hands?\n\nTo know more about the concept and technicalities of this piece, see the fxtext article “The spectrum of nature - a short making of”. Link at the bottom. If you’d rather just ignore my personal meaning, feel free to skip the article. \n\n\\*\\*\\*\\*\\*\\*\\*\\*\\*\\*\\*\\*\\*\\*\\*\\*\\*\\*\\*\\\n\nBasic info:\nThe piece comes in possible portrait or landscape versions. Both have a relative size of 1 by 1.5. So the initial render will be 1000px wide and 1500px high for portrait. And 1500x1000 for landscape. With the ability to scale this up (see below).\n\nThe piece uses WebGL, so will perform much better with a graphics card. A faster computer will obviously be better, though I've done my very best to make it fast and efficient for any old laptop. My hope is that you will find the render process quick and enjoyable for the amount of detail that’s present. \n\n../’`*’`\\../’`*’`\\../’`*’`\\../’`*’`\\../’`*’`\\..\n\nControls:\nPress the [s] key to save the initial render. You will need to wait a few seconds after all the elements have stopped loading. A box will pop up in the top left saying “done” for 4 seconds when it’s ready. For the [s] key to work you may need to open in a new tab. But can right click save otherwise.\n\nLarger sizes:\nPress the [2-9] keys to save a resolution of that key size. So [2] saves a 2000x3000 size image, [9] saves a 9000x13500 size image etc. Unless you are making some very large prints you probably won’t need more than 4k (even 2-3k is big). Though the option is there. \n\nThere may be slight variations in the textures for the larger renders, this is because the shader code has to redraw the textures at the higher pixel resolution, and getting the textures where they sit is more of an art than a science. All the elements remain exact however. \n\n/*/*/*/*/*/*/*/*/*/*/*/*/*/*/*/*/*/*\n\nMade with javascript and some small extra code:\nA palette creator by @nathansonic\nNoisejs - github.com/josephg/noisejs - Perlin noise generator\nTwgl - github.com/greggman/twgl.js - A small webGL helper.\n",
-            "tags": [
-              "spectrum",
-              "nature",
-              "sci-fi",
-              "plants",
-              "animation",
-              "halo",
-              "binding",
-              "fog",
-              "generativeart",
-              "creativecoding",
-              "nft",
-              "landscape",
-              "perspective",
-              "code",
-              "codeart",
-              "markludgate",
-              "genart"
-            ],
-            "generatorUri": "ipfs://QmSMjEscudNBACqzGn1hicmkG2apVtDNdfHMfDwoQ4tZh7",
-            "artifactUri": "ipfs://QmSMjEscudNBACqzGn1hicmkG2apVtDNdfHMfDwoQ4tZh7?fxhash=op12ytjjSKxaAedh4jibyiHYpmP5FSGkzqvngsqGYHPdJBkuY7X",
-            "displayUri": "ipfs://QmdQNpAjkrd6oho7a4uTuTozcPUQTbZdSfYQ4nm8B1BWsQ",
-            "thumbnailUri": "ipfs://QmT8eJCti4cpEKY6QMKmArM835FhDRg1V7xBVDXSGbKCkF",
-            "authenticityHash": "eb89b8c94a4f61c09d44713d1b6c50fa3280269747297d1cc1eee827f4a6a52b",
-            "attributes": [
-              {
-                "name": "Dusk",
-                "value": "No"
-              },
-              {
-                "name": "Canvas orientation",
-                "value": "horizontal"
-              },
-              {
-                "name": "Tech tree angled",
-                "value": "Yes"
-              },
-              {
-                "name": "Tech tree amount tapered",
-                "value": "Yes"
-              },
-              {
-                "name": "Forced pallet limit",
-                "value": "No"
-              },
-              {
-                "name": "Accelerate gamma",
-                "value": "No"
-              },
-              {
-                "name": "Tech tree parts size",
-                "value": "Large"
-              },
-              {
-                "name": "Init colour hue",
-                "value": "90 - 135"
-              },
-              {
-                "name": "Colour algo",
-                "value": "s30"
-              },
-              {
-                "name": "Mountain layers",
-                "value": "6 - 9"
-              },
-              {
-                "name": "Sea view",
-                "value": "Yes"
-              },
-              {
-                "name": "Primitive human touch",
-                "value": "walls"
-              },
-              {
-                "name": "Tech tree leaf",
-                "value": "circle_bobbled"
-              },
-              {
-                "name": "Primitive human elem num",
-                "value": "6 - 9"
-              },
-              {
-                "name": "Plant type 1",
-                "value": "flower_tropical"
-              },
-              {
-                "name": "Plant type 2",
-                "value": "grass"
-              },
-              {
-                "name": "Plant type 3",
-                "value": "fern"
-              },
-              {
-                "name": "Wall plant type",
-                "value": "fern"
-              }
-            ],
-            "decimals": 0,
-            "symbol": "GENTK",
-            "version": "0.2"
-          },
-          "duplicate": false,
-          "activeListing": {
-            "id": 942004,
-            "version": 1,
-            "price": 70000000,
-            "__typename": "Listing"
-          },
-          "owner": {
-            "id": "tz1Tk1MJDZ96bK85RLAqtKfnptZZyXsJ2jaq",
-            "name": "exsstas",
-            "flag": "NONE",
-            "avatarUri": "ipfs://QmXLhvsJehVbQrDHA9GuY1tdyqdHwGwDnPgS75nUKmZh7c",
-            "__typename": "User"
-          },
-          "issuer": {
-            "flag": "NONE",
-            "name": "The Spectrum Of Nature",
-            "author": {
-              "id": "tz1PvJ24Uj4CPfrDLo3rQnEvs5TD84k2VswX",
-              "name": "MarkLudgatex",
-              "type": "REGULAR",
-              "avatarUri": "ipfs://QmcEjfPPTQwN27Wj22j1ToPbxKrTLC94aB9W2Fmc8cSUoR",
-              "flag": "VERIFIED",
-              "collaborators": null,
-              "__typename": "User"
-            },
-            "__typename": "GenerativeToken"
-          },
-          "__typename": "Objkt"
-        },
-        "__typename": "Listing"
-      },
-      {
-        "id": 942003,
-        "version": 1,
-        "price": 175000000,
-        "objkt": {
-          "id": "FX0-600571",
-          "version": 1,
-          "name": "chaos memory #107",
-          "slug": "chaos-memory-107",
-          "metadata": {
-            "name": "chaos memory #107",
-            "iterationHash": "ooGQyGQ9mg7eq6cdWvdtHXx1nCmnbzmVYW54M7MNTBTv5i6yr5c",
-            "description": "Ｉ Ｌ Ｅ Ｉ Ｖ\nＬ Ｅ Ｉ Ｖ Ｉ\nＥ Ｉ Ｖ Ｉ Ｌ\nＩ Ｖ Ｉ Ｌ Ｅ\nＶ Ｉ Ｌ Ｅ Ｉ\n\nＯ Ｉ Ｖ Ｍ  \nＩ Ｖ Ｍ Ｏ  \nＶ Ｍ Ｏ Ｉ  \nＭ Ｏ Ｉ Ｖ\n\nＴｈｅ ｃａｕｓｅ ｃｏｍｅｓ ｂｅｆｏｒｅ ｔｈｅ ｅｆｆｅｃｔ。\nＴｈａｔ’ｓ ｊｕｓｔ ｔｈｅ ｗａｙ ｗｅ ｓａｗ ｔｈｅ ｔｉｍｅ。",
-            "tags": [
-              "aluanwang",
-              "ileivoivm",
-              "chaosMemory",
-              "chaosResearch"
-            ],
-            "generatorUri": "ipfs://QmSsGpDggV6uFUtu6pfR4dy3hZBMU9Rsu1xzTznD9DgMWT",
-            "artifactUri": "ipfs://QmSsGpDggV6uFUtu6pfR4dy3hZBMU9Rsu1xzTznD9DgMWT?fxhash=ooGQyGQ9mg7eq6cdWvdtHXx1nCmnbzmVYW54M7MNTBTv5i6yr5c",
-            "displayUri": "ipfs://QmU8rxJEmdEGG7ciUE92KQUzdf3iogUBVhCTexWMKQCze3",
-            "thumbnailUri": "ipfs://Qmd655bRQzmewyYWb8F3FLJAcRjuWg7SUqDVgMY7MQSBVH",
-            "authenticityHash": "37ce41321310e85b51e0035c711cc67510af0d1898582230e52ecf73ccaa529f",
-            "attributes": [],
-            "decimals": 0,
-            "symbol": "GENTK",
-            "version": "0.2"
-          },
-          "duplicate": false,
-          "activeListing": {
-            "id": 942003,
-            "version": 1,
-            "price": 175000000,
-            "__typename": "Listing"
-          },
-          "owner": {
-            "id": "tz1Tk1MJDZ96bK85RLAqtKfnptZZyXsJ2jaq",
-            "name": "exsstas",
-            "flag": "NONE",
-            "avatarUri": "ipfs://QmXLhvsJehVbQrDHA9GuY1tdyqdHwGwDnPgS75nUKmZh7c",
-            "__typename": "User"
-          },
-          "issuer": {
-            "flag": "NONE",
-            "name": "chaos memory",
-            "author": {
-              "id": "tz1cbhmVZuFTKHcACSFpg5ER1bGVGkanhrbW",
-              "name": "ileivoivm",
-              "type": "REGULAR",
-              "avatarUri": "ipfs://QmfV2K7nEDRs284d9t8Gs43USVQUGkW2E1eKCcQXeh1LyT",
-              "flag": "VERIFIED",
-              "collaborators": null,
-              "__typename": "User"
-            },
-            "__typename": "GenerativeToken"
-          },
-          "__typename": "Objkt"
-        },
-        "__typename": "Listing"
-      },
-      {
-        "id": 942002,
-        "version": 1,
-        "price": 3000000,
-        "objkt": {
-          "id": "FX1-3327",
-          "version": 2,
-          "name": "pico_punk_generator_generator.p8 #229",
-          "slug": "pico_punk_generator_generator.p8-229",
-          "metadata": {
-            "name": "pico_punk_generator_generator.p8 #229",
-            "iterationHash": "opJkXAGXb2qxcwGxf4nnsWfYYHu3bRnP4zYL7i2QJyEV7yFShs5",
-            "description": "Welcome to the ultimate pico_punk generator! This interactive token is a parameter based generator that creates unique pico_punk generators. Each one will generate one pico_punk with a number of layers chosen by you during the parameter selection phase. Additionally, you can use the buttons to navigate the generative space, and create your own pico_punks via an interactive process of discovery. This is the final pico_punk generator I intend to make, with the extra capabilities added by the parameter selection process, and the final tweaks and changes I made to the appearances and effects, I think this project is now as complete as I can ever make it.\n\nThe controls:\n- arrow keys: move through the generative space... each step adds one layer to the composition\n- x button: take a screenshot of the generated pico_punk\n- o button: clear all layers except the current one (clean slate for building a new pico_punk)\n\nEach layer has a chance to apply one of various visual effects, which vary in how transformative (or disruptive) they are.\n\n\npico_punks began as a project to create something akin to DOS Punks, but fully generative, without any manual intervention or pre-rendered components, using only the Pico-8 Fantasy Console. You can find the first generator here: (https://objkt.com/asset/hicetnunc/439049). In this early version, the generator was interactive, but each pico_punk was totally isolated, being generated from one unique seed and one consistent process. Over time, this evolved to this final experience: one in which the \"curator\", the user exploring the generator, is not just choosing from an infinite number of punks, but actually the process of exploration itself is modifying the output before your eyes.\n\npico_punks is all about exploring themes of irreversibility, noise, pattern recognition, pareidolia, and of course identity. What began for me as something bordering on satire, has become an integral part of how I represent myself online. It is my sincere wish that with these tools you are also able to create something unique that you feel represents you, and is something that couldn't have been made without you.\n\nThank you so much for these last couple years of support, and here's to many more making and collecting art together :)\n\n\nNotes on minting: \n- 30% of royalties go to the minter\n- 10% of royalties go to previous curated pico_punk holders\n- One reserve spot is generated for each curated pico_punk held, and they stack\n- One extra reserve spot is for my Mom",
-            "tags": [
-              "pico8",
-              "pico-8",
-              "neoretro",
-              "pixelart",
-              "lofi",
-              "entropy locking",
-              "pico_punks",
-              "pico_punk",
-              "aebrer_pfp",
-              "pfp",
-              "punks"
-            ],
-            "generatorUri": "ipfs://QmdaEhotLYzPMuKXqbjpk6EzB5oLgUUic45o8i277foPfG",
-            "artifactUri": "ipfs://QmdaEhotLYzPMuKXqbjpk6EzB5oLgUUic45o8i277foPfG/?fxhash=opJkXAGXb2qxcwGxf4nnsWfYYHu3bRnP4zYL7i2QJyEV7yFShs5&fxparams=0f010c07111d0e084041800000000000000000000000000040390000000000000000000000000000000000000000000000000000000000000000000000000000",
-            "displayUri": "ipfs://QmWVJj6RtPfG9LmNuCfqp1fSieuMfDC9REdaA9pXiJH5Rg",
-            "thumbnailUri": "ipfs://QmW8XHmdYY1Qv2T6KLKw9bSBVJEWySZXhu4EALvNvqMesM",
-            "authenticityHash": "011bb0211eb93dd219cea52ce7402f3c0b1dfb28a48c8ccb8ab38c07349dde68",
-            "attributes": [
-              {
-                "name": "Background Color",
-                "value": "light-peach"
-              },
-              {
-                "name": "Main Skin Color",
-                "value": "blue"
-              },
-              {
-                "name": "Skin Accent Color",
-                "value": "dark-blue"
-              },
-              {
-                "name": "Eye Color",
-                "value": "white"
-              },
-              {
-                "name": "Eye Accent Color",
-                "value": "darker-blue"
-              },
-              {
-                "name": "Hair Color",
-                "value": "mauve"
-              },
-              {
-                "name": "Mouth Color",
-                "value": "pink"
-              },
-              {
-                "name": "Mouth Accent Color",
-                "value": "red"
-              },
-              {
-                "name": "Initial Composition Layers",
-                "value": 35
-              },
-              {
-                "name": "Noise Frequency",
-                "value": 0
-              },
-              {
-                "name": "Memory Corruption Frequency",
-                "value": 25
-              },
-              {
-                "name": "Glitch Frequency",
-                "value": 0
-              },
-              {
-                "name": "Shrink Frequency",
-                "value": 0
-              },
-              {
-                "name": "Expand Frequency",
-                "value": 0
-              },
-              {
-                "name": "Copy Frequency",
-                "value": 0
-              }
-            ],
-            "decimals": 0,
-            "symbol": "GENTK",
-            "version": "0.2"
-          },
-          "duplicate": false,
-          "activeListing": {
-            "id": 942002,
-            "version": 1,
-            "price": 3000000,
-            "__typename": "Listing"
-          },
-          "owner": {
-            "id": "tz1Tk1MJDZ96bK85RLAqtKfnptZZyXsJ2jaq",
-            "name": "exsstas",
-            "flag": "NONE",
-            "avatarUri": "ipfs://QmXLhvsJehVbQrDHA9GuY1tdyqdHwGwDnPgS75nUKmZh7c",
-            "__typename": "User"
-          },
-          "issuer": {
-            "flag": "NONE",
-            "name": "pico_punk_generator_generator.p8",
-            "author": {
-              "id": "tz1ZBMhTa7gxSpaeXoqyc6bTCrxEHfZYSpPt",
-              "name": "aebrer",
-              "type": "REGULAR",
-              "avatarUri": "ipfs://QmWNPdEzKzkiPwPkDDPo7NK99xEixJUhLx1hM5Aw9J1boK",
-              "flag": "VERIFIED",
-              "collaborators": null,
-              "__typename": "User"
-            },
-            "__typename": "GenerativeToken"
-          },
-          "__typename": "Objkt"
-        },
-        "__typename": "Listing"
-      },
-      {
-        "id": 942001,
-        "version": 1,
-        "price": 5000000,
-        "objkt": {
-          "id": "FX1-13179",
-          "version": 2,
-          "name": "Corroding Cubes #34",
-          "slug": "corroding-cubes-34",
-          "metadata": {
-            "name": "Corroding Cubes #34",
-            "iterationHash": "ooTxjE6qt1hpHCbAeZZcnwB7CYbDCWfTRMhse8gAJeFtnMyaBcP",
-            "description": "The kaleidoscopic pillars, once soaring emblems of the city's soul, had now succumbed to the relentless onslaught of time. Yet, as they crumbled and decayed, their colors remained steadfast, a radiant symphony of hues that defied the erosion of age. The people looked up at the pillars, and in their decline, they saw a reflection of their own trials and victories.\n\n• • •\n\nAll of the visuals in this project are 100% code.\n\n[1] End Animation\n[2] Save Image",
-            "tags": [
-              "IceRain",
-              "Thirdhalf",
-              "isometric",
-              "cubism",
-              "isofolk",
-              "p5js",
-              "generative art"
-            ],
-            "generatorUri": "ipfs://QmPYQSmLGF1uQSrN7sB9B7LBhv3YeboiUFqwPftfbkVGeX",
-            "artifactUri": "ipfs://QmPYQSmLGF1uQSrN7sB9B7LBhv3YeboiUFqwPftfbkVGeX/?fxhash=ooTxjE6qt1hpHCbAeZZcnwB7CYbDCWfTRMhse8gAJeFtnMyaBcP",
-            "displayUri": "ipfs://Qmf6isjwsjyeFUAqELdJggkELiACQXdkztZ7k1zAQPfqd8",
-            "thumbnailUri": "ipfs://QmcbeyLzYuVSMX6zaWDEVz2onSRuVBCRb3QxzSQr73uk1S",
-            "authenticityHash": "228e0c45ab4649ad9cd96cf49bfa0a2ae091dbcf10369768a415effaa195da03",
-            "attributes": [
-              {
-                "name": "Color Palette",
-                "value": "Zoisite"
-              },
-              {
-                "name": "Structure",
-                "value": "Truss"
-              },
-              {
-                "name": "Backdrop",
-                "value": "Double Burst"
-              },
-              {
-                "name": "Corrosion",
-                "value": "Corrosion Y"
-              },
-              {
-                "name": "Decay",
-                "value": 0.16477279118262234
-              }
-            ],
-            "decimals": 0,
-            "symbol": "GENTK",
-            "version": "0.2"
-          },
-          "duplicate": false,
-          "activeListing": {
-            "id": 942001,
-            "version": 1,
-            "price": 5000000,
-            "__typename": "Listing"
-          },
-          "owner": {
-            "id": "tz1S48xQgmciATrngqM7UWX6PX3s9Jp7qw3K",
-            "name": "Dirbots",
-            "flag": "VERIFIED",
-            "avatarUri": "ipfs://QmZ2GZ1WQJVxNNshDrT33h2V9u7WzhPpcWw5Yp7DqE3dxZ",
-            "__typename": "User"
-          },
-          "issuer": {
-            "flag": "NONE",
-            "name": "Corroding Cubes",
-            "author": {
-              "id": "KT1TzN8oQKyFzLLY2EmhsCqhFm9WqF45EVwJ",
-              "name": null,
-              "type": "COLLAB_CONTRACT_V1",
-              "avatarUri": null,
-              "flag": "NONE",
-              "collaborators": [
-                {
-                  "id": "tz1fKJ785hd8mtkv66tpMVxdFaW73QxVC5EJ",
-                  "name": "IceRain",
-                  "avatarUri": "ipfs://QmT3gh4dyGhUma8HkELsKJfgB4mTwZNiFWdoqkggWifTib",
-                  "flag": "NONE",
-                  "__typename": "User"
-                },
-                {
-                  "id": "tz1MvT8gyvGtozgvWEWNBn7DQxjGWEbgKnD3",
-                  "name": "Thirdhalfart",
-                  "avatarUri": "ipfs://QmcKfMZ4SVhfupgtStkTsTyyEEYi65stjDuGfy7sUCUUzQ",
-                  "flag": "NONE",
-                  "__typename": "User"
-                }
-              ],
-              "__typename": "User"
-            },
-            "__typename": "GenerativeToken"
-          },
-          "__typename": "Objkt"
-        },
-        "__typename": "Listing"
-      },
-      {
-        "id": 942000,
-        "version": 1,
-        "price": 22000000,
-        "objkt": {
-          "id": "FX1-17544",
-          "version": 2,
-          "name": "Chromalign #96",
-          "slug": "chromalign-96",
-          "metadata": {
-            "name": "Chromalign #96",
-            "iterationHash": "onijCdUDx9mNsVC4A9wMjFA1hVDq3nPQpZcjbVdT7kFK9Eovn2C",
-            "description": "A relatively simple idea: columns filled with many thin horizontal lines, layered with complexity from colour features, stroke styles, and column perturbations. The compositions that emerge may be harmonious or asynchronous, comforting or jarring, wistful, mysterious, subtle, or bold.\n\nThe piece is generated as follows:\n\nFirst, borders and columns are defined. The canvas may have one or two borders, ranging from small to large, and the inner border may or may not have a coloured edge and fill. If they are not coloured, the feature \"Hidden Background\" will be true. Each column is assigned three colours at random from one of several possible colour palettes. The top and bottom boundaries of each column are set, and in some iterations, there is a chance that columns will break outside the border boundaries.\n\nAs columns are drawn from top to bottom, there are several events that may occur with probabilities pre-defined for each iteration: 1) The stroke colour may switch abruptly or over a gradient between two of the three column colours. 2) A 'repeater' pattern may be triggered, where two of the column colours alternate with a given frequency and rate of decay. 3) Single 'accent' bands may occur with the third column colour. 4) 'Bulges' may form with either rectangle, diamond, sin wave, or 'skirt' shapes.\n\nThere may also be horizontal bands that span the entire image, with a certain variability of height across columns.\n\nStrokes may be straight lines or Bezier curves. Bezier curves may be uniform for an iteration, where the control points of the curves are generated from a single formula for the whole image, or they may be random. Strokes may also have horizontal and/or vertical 'line fuzz', where the start and end points of the line are randomly offset in either direction.\n\nStraight strokes may or may not have a solid base-layer drawn underneath, which gives the image a more filled vs. sketched appearance. Top strokes may also be partially transparent, allowing for a layered effect.\n\nColumns are drawn in one of several possible orders, and once the initial drawing is complete, columns will be redrawn slowly and the image will evolve over time.\n\nPress '2', '4', '6', '8', or '0' to re-draw at 2K, 4K, 6K, 8K, or 10K resolution (shortest edge), which will also save an image when the initial draw is complete and before animation begins.\n\nPress 's' at any time to save an image at the current resolution.",
-            "tags": [
-              "generative",
-              "abstract",
-              "line art",
-              "color field",
-              "geometric"
-            ],
-            "generatorUri": "ipfs://Qmcnii9vPSCuDfEkdPtwxTJkiPHZtkdwH5d6x17MceVS8q",
-            "artifactUri": "ipfs://Qmcnii9vPSCuDfEkdPtwxTJkiPHZtkdwH5d6x17MceVS8q/?fxhash=onijCdUDx9mNsVC4A9wMjFA1hVDq3nPQpZcjbVdT7kFK9Eovn2C",
-            "displayUri": "ipfs://QmNVWmf3PzVh78Vrx8SvMMuSEK2UQxKQLtFDht6wG5tRMG",
-            "thumbnailUri": "ipfs://QmTHqKjXGTPdt2a2BkbqiUPXVYRG6U7DrsQ3q9i8JV3t26",
-            "authenticityHash": "de059d33a67b10e86d9e9fae1f6e34ea4bc5e3f1e34217850ad0c321cc2209ab",
-            "attributes": [
-              {
-                "name": "Palette",
-                "value": "Island Time"
-              },
-              {
-                "name": "Aspect",
-                "value": "A4 Wide"
-              },
-              {
-                "name": "Stroke Style",
-                "value": "Straight"
-              },
-              {
-                "name": "Top line alpha",
-                "value": "High"
-              },
-              {
-                "name": "Number of Columns",
-                "value": "Probably too many"
-              },
-              {
-                "name": "Draw Order",
-                "value": "Curtains"
-              },
-              {
-                "name": "Outer Border",
-                "value": "Small"
-              },
-              {
-                "name": "Inner Border",
-                "value": "Large"
-              },
-              {
-                "name": "Hidden Background",
-                "value": true
-              },
-              {
-                "name": "Baselayer",
-                "value": true
-              },
-              {
-                "name": "Vertical Line Fuzz",
-                "value": "Heavy"
-              },
-              {
-                "name": "Horizontal Line Fuzz",
-                "value": "Heavy"
-              },
-              {
-                "name": "Bulges",
-                "value": "Many"
-              },
-              {
-                "name": "Horizontal Bands",
-                "value": 6
-              }
-            ],
-            "decimals": 0,
-            "symbol": "GENTK",
-            "version": "0.2"
-          },
-          "duplicate": false,
-          "activeListing": {
-            "id": 942000,
-            "version": 1,
-            "price": 22000000,
-            "__typename": "Listing"
-          },
-          "owner": {
-            "id": "tz1eMrFPD7twjRUCMRnTwQmAZinbSWiLnCRL",
-            "name": "MEAMES.TEZ",
-            "flag": "NONE",
-            "avatarUri": "ipfs://QmT3teaxyLdm2o8zn6RvgC4LPrZjCZy9rMUgvBAi6ydLTV",
-            "__typename": "User"
-          },
-          "issuer": {
-            "flag": "NONE",
-            "name": "Chromalign",
-            "author": {
-              "id": "tz1RH5aJvuk7Qw4UYbwdjfahWHaKsVPgwBhk",
-              "name": "bleaker.art",
-              "type": "REGULAR",
-              "avatarUri": "ipfs://QmZ77A8tKbqSfuX8NRa7uDTA5jb7Et3aPeTNvQLebxE7iC",
-              "flag": "NONE",
               "collaborators": null,
               "__typename": "User"
             },
