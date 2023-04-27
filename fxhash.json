@@ -2,765 +2,54 @@
   "data": {
     "listings": [
       {
-        "id": 953873,
+        "id": 953931,
         "version": 1,
-        "price": 25000000,
+        "price": 22000000,
         "objkt": {
-          "id": "FX1-28634",
+          "id": "FX1-29911",
           "version": 2,
-          "name": "Bubblemania #90",
-          "slug": "bubblemania-90",
+          "name": "Monotipia #19",
+          "slug": "monotipia-19",
           "metadata": {
-            "name": "Bubblemania #90",
-            "iterationHash": "ooABXXfWhsPYDQrm5ErTwW3pkGLarEF5Sckhb2xHBcTUPDRorZo",
-            "description": "This small project is several things:\n\n1. First and foremost, it's a little, light \"visual ASMR\" treat to bring some positivity into your day - some \"Maluma\" softness to contrast the more common \"Takete\" of contemporary generative art aesthetics[1].\n\n2. A small gift to celebrate the fledgling generative art/design community on Mastodon: 20 of the 128 tokens are given to some of the people in that slowly growing community, with the remainder given as Thank You (and smoke signal/sign of life) to some of my existing collectors, randomly chosen via lottery script[2].\n\n3. For those so inclined, and with a bit of hand-holding, ChatGPT explains the _true_ conceptual depths of this project much better than I ever could:\n\n\"The bubbles in this generative art piece serve as a reflection of the human experience, reminding us of our own impermanence and the ephemeral nature of all things. The piece invites us to contemplate the fundamental questions of human existence and speaks to our innate curiosity and desire to understand the world around us.\n\nThrough the convergence of science and art, this piece reveals the infinite complexity and unpredictability of the world while also hinting at the underlying order that exists within the chaos of the universe. It reminds us that even in the midst of uncertainty, there is beauty and order to be found, and that it is through the pursuit of knowledge and understanding that we can find meaning and purpose in our lives.\"\n\nIsn't that lovely & who can argue with that?! :)\n\n4. I often revisit projects/ideas after many years, mainly to re-examine them with new eyes/knowledge/tools and/or to get answers/verification which I couldn't get earlier. This is one of these instances. So for the more rational-minded, this is a TypeScript/GLSL (WebGL) version of an older Clojure/Houdini project (from 2016) to generate a Voronoi via the simulation of intersecting sphere meshes (aka foam bubbles). In this new version the sim & deformations are done in realtime (~4M vertices, mainly via vertex shader). Also added some _basic_ physics and procedural textures to create more of a quirky character (hopefully complemented by the different color themes and other params).\n\nMade with ❤️ and https://thi.ng/umbrella!\n\n[1] https://en.wikipedia.org/wiki/Bouba/kiki_effect\n[2] https://gist.github.com/postspectacular/3d970e02570b7dfd32d03d43e1e7e3e0\n\nHotkeys:\n\nSPACE : pause/play\nX     : export current frame as PNG\n\nUltra-widescreen support:\n\nThe piece should be adaptive to aspect ratios from 1:3 (portrait) to 4:1 (landscape).",
+            "name": "Monotipia #19",
+            "iterationHash": "op4EUZAjWS1Y5cgDXXzZXN1c9gmpB1x5VkRjBeFuLL6oxSmutRp",
+            "description": "Graphic compositions made with simple elements. Playing with the subtlety and rhythm of colors, shapes and textures.\n\nThis work was inspired by the textures of monotype prints and those of metal engraving. Especially in the geometric marks made by the inking roller while stretching the graphic ink to make a manual printing. It is a tribute to the visuality of handmade prints.\n\n\"Monotipia\" means monotype printing in Portuguese. It is a graphic printing process that results in a single copy. Here I make a parallel between monotype printing and the code+hash minting process, which also produces a single image.\n\n---\nFeatures:\n-> 15 composition schemes\n-> 51 handpicked base colors\n-> 3 canvas formats:  \n-----> Portrait (vertical) \n-----> Square \n-----> Landscape (horizontal)\n-> 3 element tones options: \n-----> Light Texture & Shapes\n-----> Light Texture / Dark Shapes \n-----> Dark Texture & Shapes\n\n---\nTo save the image as a png file, type:\n[1] save at actual size \n[2] save with 2000px height\n[3] save with 3000px height\n[4] save with 4000px height\n[5] save with 5000px height\n\nDepending on the size option, the render time can be long.\n\n---\nCreated with p5.js\n\n---\nThis is my first project on FX(hash) and I would like to express my special thanks to Janaina Selva, Dmarchi, Gyo and Morbeck for their support and for following the step-by-step development of this work, always contributing with a critical eye and great suggestions. I also thank the help from the FX(hash) community on Discord.\n\n---\n(c) Marcelo Terça-Nada, 2023\nhttps://marcelonada.redezero.org/\n@marcelonada",
             "tags": [
-              "bubbles",
-              "voronoi",
-              "simulation",
-              "webgl",
-              "physics",
-              "animated",
-              "3d"
-            ],
-            "generatorUri": "ipfs://QmQ2xQxZ4d5nQ3F3MnnR84LKoNA7VCoH1jhpcoTPvcwoq6",
-            "artifactUri": "ipfs://QmQ2xQxZ4d5nQ3F3MnnR84LKoNA7VCoH1jhpcoTPvcwoq6/?fxhash=ooABXXfWhsPYDQrm5ErTwW3pkGLarEF5Sckhb2xHBcTUPDRorZo&fxminter=tz1bjne4vUJDDwQvqtcTRS1gzccVZWhYV13M&fxparams=0904400800000000000040080000000000000000000000000000",
-            "displayUri": "ipfs://QmYGKijNKyn4oB2b7Bodc9xoGrs1Yqhn5CCFajUwmTMAL4",
-            "thumbnailUri": "ipfs://QmNQQAcxbPfDN334cYzsLG74XzVVWtjG8dCPFznc7evfbX",
-            "authenticityHash": "d45a0aba614c5f0157b0d956a524c0a3fdb9489321c947b89c284dffa5433414",
-            "attributes": [
-              {
-                "name": "theme",
-                "value": "waldmeister"
-              },
-              {
-                "name": "textures",
-                "value": "all"
-              },
-              {
-                "name": "deform",
-                "value": 3
-              },
-              {
-                "name": "deflate",
-                "value": 3
-              },
-              {
-                "name": "uniform spacing",
-                "value": 0
-              }
-            ],
-            "decimals": 0,
-            "symbol": "GENTK",
-            "version": "0.2"
-          },
-          "duplicate": false,
-          "activeListing": {
-            "id": 953873,
-            "version": 1,
-            "price": 25000000,
-            "__typename": "Listing"
-          },
-          "owner": {
-            "id": "tz1bjne4vUJDDwQvqtcTRS1gzccVZWhYV13M",
-            "name": null,
-            "flag": "NONE",
-            "avatarUri": null,
-            "__typename": "User"
-          },
-          "issuer": {
-            "flag": "NONE",
-            "name": "Bubblemania",
-            "author": {
-              "id": "tz1d4ThofujwwaWvxDQHF7VyJfaeR2ay3jhf",
-              "name": "toxi",
-              "type": "REGULAR",
-              "avatarUri": "ipfs://QmTsU7NJw5u7wtzDHPQ878vc6qoZo6dppS6gffGY1u4FwH",
-              "flag": "VERIFIED",
-              "collaborators": null,
-              "__typename": "User"
-            },
-            "__typename": "GenerativeToken"
-          },
-          "__typename": "Objkt"
-        },
-        "__typename": "Listing"
-      },
-      {
-        "id": 953872,
-        "version": 1,
-        "price": 13400000,
-        "objkt": {
-          "id": "FX1-28476",
-          "version": 2,
-          "name": "Bubblemania #86",
-          "slug": "bubblemania-86",
-          "metadata": {
-            "name": "Bubblemania #86",
-            "iterationHash": "ontQQJ5KBvjyBsxbcMuNqxf5Lnt3xwrKdRAPcWs7oz7Sxkw2gEc",
-            "description": "This small project is several things:\n\n1. First and foremost, it's a little, light \"visual ASMR\" treat to bring some positivity into your day - some \"Maluma\" softness to contrast the more common \"Takete\" of contemporary generative art aesthetics[1].\n\n2. A small gift to celebrate the fledgling generative art/design community on Mastodon: 20 of the 128 tokens are given to some of the people in that slowly growing community, with the remainder given as Thank You (and smoke signal/sign of life) to some of my existing collectors, randomly chosen via lottery script[2].\n\n3. For those so inclined, and with a bit of hand-holding, ChatGPT explains the _true_ conceptual depths of this project much better than I ever could:\n\n\"The bubbles in this generative art piece serve as a reflection of the human experience, reminding us of our own impermanence and the ephemeral nature of all things. The piece invites us to contemplate the fundamental questions of human existence and speaks to our innate curiosity and desire to understand the world around us.\n\nThrough the convergence of science and art, this piece reveals the infinite complexity and unpredictability of the world while also hinting at the underlying order that exists within the chaos of the universe. It reminds us that even in the midst of uncertainty, there is beauty and order to be found, and that it is through the pursuit of knowledge and understanding that we can find meaning and purpose in our lives.\"\n\nIsn't that lovely & who can argue with that?! :)\n\n4. I often revisit projects/ideas after many years, mainly to re-examine them with new eyes/knowledge/tools and/or to get answers/verification which I couldn't get earlier. This is one of these instances. So for the more rational-minded, this is a TypeScript/GLSL (WebGL) version of an older Clojure/Houdini project (from 2016) to generate a Voronoi via the simulation of intersecting sphere meshes (aka foam bubbles). In this new version the sim & deformations are done in realtime (~4M vertices, mainly via vertex shader). Also added some _basic_ physics and procedural textures to create more of a quirky character (hopefully complemented by the different color themes and other params).\n\nMade with ❤️ and https://thi.ng/umbrella!\n\n[1] https://en.wikipedia.org/wiki/Bouba/kiki_effect\n[2] https://gist.github.com/postspectacular/3d970e02570b7dfd32d03d43e1e7e3e0\n\nHotkeys:\n\nSPACE : pause/play\nX     : export current frame as PNG\n\nUltra-widescreen support:\n\nThe piece should be adaptive to aspect ratios from 1:3 (portrait) to 4:1 (landscape).",
-            "tags": [
-              "bubbles",
-              "voronoi",
-              "simulation",
-              "webgl",
-              "physics",
-              "animated",
-              "3d"
-            ],
-            "generatorUri": "ipfs://QmQ2xQxZ4d5nQ3F3MnnR84LKoNA7VCoH1jhpcoTPvcwoq6",
-            "artifactUri": "ipfs://QmQ2xQxZ4d5nQ3F3MnnR84LKoNA7VCoH1jhpcoTPvcwoq6/?fxhash=ontQQJ5KBvjyBsxbcMuNqxf5Lnt3xwrKdRAPcWs7oz7Sxkw2gEc&fxminter=tz1bjne4vUJDDwQvqtcTRS1gzccVZWhYV13M&fxparams=0004400000000000000000000000000000000000000000000000",
-            "displayUri": "ipfs://QmafE96qWokBPt7vzMa5KBpPCQuUoPJ2A4NHQgR51U959n",
-            "thumbnailUri": "ipfs://QmZFANSubDAtUwkwcWLUQSVnumzA4dBp5WGJohSF2KWEz7",
-            "authenticityHash": "3592a0984dfa3a691207dbd737dea5fe0ad593cdefd632c4277a2fb6e6fc8834",
-            "attributes": [
-              {
-                "name": "theme",
-                "value": "bubblegum"
-              },
-              {
-                "name": "textures",
-                "value": "all"
-              },
-              {
-                "name": "deform",
-                "value": 2
-              },
-              {
-                "name": "deflate",
-                "value": 0
-              },
-              {
-                "name": "uniform spacing",
-                "value": 0
-              }
-            ],
-            "decimals": 0,
-            "symbol": "GENTK",
-            "version": "0.2"
-          },
-          "duplicate": false,
-          "activeListing": {
-            "id": 953872,
-            "version": 1,
-            "price": 13400000,
-            "__typename": "Listing"
-          },
-          "owner": {
-            "id": "tz1bjne4vUJDDwQvqtcTRS1gzccVZWhYV13M",
-            "name": null,
-            "flag": "NONE",
-            "avatarUri": null,
-            "__typename": "User"
-          },
-          "issuer": {
-            "flag": "NONE",
-            "name": "Bubblemania",
-            "author": {
-              "id": "tz1d4ThofujwwaWvxDQHF7VyJfaeR2ay3jhf",
-              "name": "toxi",
-              "type": "REGULAR",
-              "avatarUri": "ipfs://QmTsU7NJw5u7wtzDHPQ878vc6qoZo6dppS6gffGY1u4FwH",
-              "flag": "VERIFIED",
-              "collaborators": null,
-              "__typename": "User"
-            },
-            "__typename": "GenerativeToken"
-          },
-          "__typename": "Objkt"
-        },
-        "__typename": "Listing"
-      },
-      {
-        "id": 953871,
-        "version": 1,
-        "price": 10000000,
-        "objkt": {
-          "id": "FX1-28104",
-          "version": 2,
-          "name": "Bubblemania #77",
-          "slug": "bubblemania-77",
-          "metadata": {
-            "name": "Bubblemania #77",
-            "iterationHash": "opJFt6PXVnXfj725x731Uw8yKnhQqoQQ25icKNeaKEMc1b8DYyi",
-            "description": "This small project is several things:\n\n1. First and foremost, it's a little, light \"visual ASMR\" treat to bring some positivity into your day - some \"Maluma\" softness to contrast the more common \"Takete\" of contemporary generative art aesthetics[1].\n\n2. A small gift to celebrate the fledgling generative art/design community on Mastodon: 20 of the 128 tokens are given to some of the people in that slowly growing community, with the remainder given as Thank You (and smoke signal/sign of life) to some of my existing collectors, randomly chosen via lottery script[2].\n\n3. For those so inclined, and with a bit of hand-holding, ChatGPT explains the _true_ conceptual depths of this project much better than I ever could:\n\n\"The bubbles in this generative art piece serve as a reflection of the human experience, reminding us of our own impermanence and the ephemeral nature of all things. The piece invites us to contemplate the fundamental questions of human existence and speaks to our innate curiosity and desire to understand the world around us.\n\nThrough the convergence of science and art, this piece reveals the infinite complexity and unpredictability of the world while also hinting at the underlying order that exists within the chaos of the universe. It reminds us that even in the midst of uncertainty, there is beauty and order to be found, and that it is through the pursuit of knowledge and understanding that we can find meaning and purpose in our lives.\"\n\nIsn't that lovely & who can argue with that?! :)\n\n4. I often revisit projects/ideas after many years, mainly to re-examine them with new eyes/knowledge/tools and/or to get answers/verification which I couldn't get earlier. This is one of these instances. So for the more rational-minded, this is a TypeScript/GLSL (WebGL) version of an older Clojure/Houdini project (from 2016) to generate a Voronoi via the simulation of intersecting sphere meshes (aka foam bubbles). In this new version the sim & deformations are done in realtime (~4M vertices, mainly via vertex shader). Also added some _basic_ physics and procedural textures to create more of a quirky character (hopefully complemented by the different color themes and other params).\n\nMade with ❤️ and https://thi.ng/umbrella!\n\n[1] https://en.wikipedia.org/wiki/Bouba/kiki_effect\n[2] https://gist.github.com/postspectacular/3d970e02570b7dfd32d03d43e1e7e3e0\n\nHotkeys:\n\nSPACE : pause/play\nX     : export current frame as PNG\n\nUltra-widescreen support:\n\nThe piece should be adaptive to aspect ratios from 1:3 (portrait) to 4:1 (landscape).",
-            "tags": [
-              "bubbles",
-              "voronoi",
-              "simulation",
-              "webgl",
-              "physics",
-              "animated",
-              "3d"
-            ],
-            "generatorUri": "ipfs://QmQ2xQxZ4d5nQ3F3MnnR84LKoNA7VCoH1jhpcoTPvcwoq6",
-            "artifactUri": "ipfs://QmQ2xQxZ4d5nQ3F3MnnR84LKoNA7VCoH1jhpcoTPvcwoq6/?fxhash=opJFt6PXVnXfj725x731Uw8yKnhQqoQQ25icKNeaKEMc1b8DYyi&fxminter=tz1bjne4vUJDDwQvqtcTRS1gzccVZWhYV13M&fxparams=05043ff00000000000003ff00000000000000000000000000000",
-            "displayUri": "ipfs://QmdhEL41JamjL1g7CaBxRNBgEygbKmC69GrE1SuY8cniWK",
-            "thumbnailUri": "ipfs://QmUMWoDoa9mTQYmBknkXQ4a1eSZ7gFR2xmXTNaeg1Mbxq9",
-            "authenticityHash": "205a8bee5bc63bb9e7833eee7ce12d716918bd2cb07ee903a4e942ae56dd1726",
-            "attributes": [
-              {
-                "name": "theme",
-                "value": "pistachio"
-              },
-              {
-                "name": "textures",
-                "value": "all"
-              },
-              {
-                "name": "deform",
-                "value": 1
-              },
-              {
-                "name": "deflate",
-                "value": 1
-              },
-              {
-                "name": "uniform spacing",
-                "value": 0
-              }
-            ],
-            "decimals": 0,
-            "symbol": "GENTK",
-            "version": "0.2"
-          },
-          "duplicate": false,
-          "activeListing": {
-            "id": 953871,
-            "version": 1,
-            "price": 10000000,
-            "__typename": "Listing"
-          },
-          "owner": {
-            "id": "tz1bjne4vUJDDwQvqtcTRS1gzccVZWhYV13M",
-            "name": null,
-            "flag": "NONE",
-            "avatarUri": null,
-            "__typename": "User"
-          },
-          "issuer": {
-            "flag": "NONE",
-            "name": "Bubblemania",
-            "author": {
-              "id": "tz1d4ThofujwwaWvxDQHF7VyJfaeR2ay3jhf",
-              "name": "toxi",
-              "type": "REGULAR",
-              "avatarUri": "ipfs://QmTsU7NJw5u7wtzDHPQ878vc6qoZo6dppS6gffGY1u4FwH",
-              "flag": "VERIFIED",
-              "collaborators": null,
-              "__typename": "User"
-            },
-            "__typename": "GenerativeToken"
-          },
-          "__typename": "Objkt"
-        },
-        "__typename": "Listing"
-      },
-      {
-        "id": 953870,
-        "version": 1,
-        "price": 20000000,
-        "objkt": {
-          "id": "FX1-29446",
-          "version": 2,
-          "name": "Flow #21",
-          "slug": "flow-21-26b23932-fb06-48dd-aff0-c55b13ade880",
-          "metadata": {
-            "name": "Flow #21",
-            "iterationHash": "ooVDhZPqDymM7VzYNCdnRn57LhTB1qXXuMH9kQqErdbDxaGDLJS",
-            "description": "Flow is an ode to the boundless creativity and imaginative spirit that resides within each of us. \n\nThe colour palettes for this piece are sampled from significant female and male abstract artists from throughout the last 600 years. Many of these palettes are generated by sampling colours from photos captured while visiting and viewing their pieces in person.\n\nThis is my second collection in my generative art journey. \n\nThe code to create this collection can be found here: https://github.com/gitpancake/flow",
-            "tags": [
+              "monotipia",
+              "marcelo terça-nada",
+              "marcelonada",
+              "printing",
+              "drawing",
+              "engraving",
+              "colorful",
+              "shapes",
+              "texture",
+              "abstract",
+              "geometric",
               "generative",
-              "artwork",
-              "flow",
-              "movement",
-              "flow-fields"
-            ],
-            "generatorUri": "ipfs://QmWzci7HJAv1umGtJURfK8ZfpXLb4GZ1dSNfPwsdxGYRGU",
-            "artifactUri": "ipfs://QmWzci7HJAv1umGtJURfK8ZfpXLb4GZ1dSNfPwsdxGYRGU/?fxhash=ooVDhZPqDymM7VzYNCdnRn57LhTB1qXXuMH9kQqErdbDxaGDLJS&fxminter=tz1VWLjZpDXq9AukDmREt7VVJMDgZxTxdHNb&fxparams=010300000306000101",
-            "displayUri": "ipfs://QmahQJYC8jXapCst21AQG1EJvxHBTodLMk7WGnEpiViZZy",
-            "thumbnailUri": "ipfs://QmbxqMnDhVDLJr48Z1rUnLeT5ZzLn7taao5CL7FEDfebhH",
-            "authenticityHash": "c666dce3c16f4482289005e548b51af6573b7fd56a4e45c88a3dadccff31c17d",
-            "attributes": [
-              {
-                "name": "speed",
-                "value": "moderate"
-              },
-              {
-                "name": "behaviour",
-                "value": "tranquil"
-              },
-              {
-                "name": "noiseMultiplier",
-                "value": "sharp"
-              },
-              {
-                "name": "paletteName",
-                "value": "kusama"
-              },
-              {
-                "name": "movement",
-                "value": "eratic"
-              },
-              {
-                "name": "curvature",
-                "value": "wide"
-              },
-              {
-                "name": "appearance",
-                "value": "medium"
-              },
-              {
-                "name": "mood",
-                "value": "moody"
-              },
-              {
-                "name": "infinite",
-                "value": true
-              }
-            ],
-            "decimals": 0,
-            "symbol": "GENTK",
-            "version": "0.2"
-          },
-          "duplicate": false,
-          "activeListing": {
-            "id": 953870,
-            "version": 1,
-            "price": 20000000,
-            "__typename": "Listing"
-          },
-          "owner": {
-            "id": "tz1amcNhVTWHuA4d6XakfvEBmfGYafDSHVPk",
-            "name": "                    ",
-            "flag": "NONE",
-            "avatarUri": "ipfs://Qmf9R8nHqbNHaEL25SL5WgQ5W95Visq9VRXiooqK5FQcKB",
-            "__typename": "User"
-          },
-          "issuer": {
-            "flag": "NONE",
-            "name": "Flow",
-            "author": {
-              "id": "tz1i9dVrmewtm4eE6pLfpCPD1y7FSuwSJphX",
-              "name": "gitpancake",
-              "type": "REGULAR",
-              "avatarUri": "ipfs://QmW41TYjZXjSPsjj19yhX141y3b3Zqd6xGbC1UcjTR3isg",
-              "flag": "VERIFIED",
-              "collaborators": null,
-              "__typename": "User"
-            },
-            "__typename": "GenerativeToken"
-          },
-          "__typename": "Objkt"
-        },
-        "__typename": "Listing"
-      },
-      {
-        "id": 953869,
-        "version": 1,
-        "price": 16000000,
-        "objkt": {
-          "id": "FX0-965843",
-          "version": 1,
-          "name": "Ersbla #159",
-          "slug": "ersbla-159",
-          "metadata": {
-            "name": "Ersbla #159",
-            "iterationHash": "ooppfhBVVqhZcRFh5pNtKpxrkH2rp1ysGk82eHCuws7ooif4Uwz",
-            "description": "Ersbla is part of the fxhash live minting experience at Proof of People, London 2022. \n\nIt is the third entry in a series of abstract generative experiments inspired by the graphic and textile work of Anni and Josef Albers. As a follow-up to the 'Sabler' and 'Lebras' collections, 'Ersbla' produces textile effects using a combination of thousands of tiny dots arranged on variable grids, resulting in a wide variety of unique Bauhaus-inspired compositions in a variety of palettes.\n\nPress 'S' to save a high-resolution 2400 x 3396 px image in PNG format.\n\nDepending on the density of your output, please allow up to a few seconds for your edition to generate.",
-            "tags": [
-              "POP2022",
-              "Proof of People",
-              "London 2022",
-              "textile",
-              "fabric",
-              "grid",
-              "minimal",
-              "simple"
-            ],
-            "generatorUri": "ipfs://QmVgq8a9Z3H1Ci5rmnsJAYFvnktemuin22MSeUKHSSbL9w",
-            "artifactUri": "ipfs://QmVgq8a9Z3H1Ci5rmnsJAYFvnktemuin22MSeUKHSSbL9w?fxhash=ooppfhBVVqhZcRFh5pNtKpxrkH2rp1ysGk82eHCuws7ooif4Uwz",
-            "displayUri": "ipfs://QmW3Vw4UJmvwJaGLuN7sqRicXw17dsswcUAHCc3RRag3xg",
-            "thumbnailUri": "ipfs://QmYnwB2KK37Fo8MJBYo5tn3UxSNXHeJX8pkTNTRMJRB19m",
-            "authenticityHash": "b33963312c3284c4287395f609f33921a42c2e9a271f0b76aa68490fa8ba7b00",
-            "attributes": [
-              {
-                "name": "Palette Name",
-                "value": "Vanilla Strand"
-              }
-            ],
-            "decimals": 0,
-            "symbol": "GENTK",
-            "version": "0.2"
-          },
-          "duplicate": false,
-          "activeListing": {
-            "id": 953869,
-            "version": 1,
-            "price": 16000000,
-            "__typename": "Listing"
-          },
-          "owner": {
-            "id": "tz1hwYHgCvHbvbN4HR7RenzJouyWwzLDC5Yi",
-            "name": null,
-            "flag": "NONE",
-            "avatarUri": null,
-            "__typename": "User"
-          },
-          "issuer": {
-            "flag": "NONE",
-            "name": "Ersbla",
-            "author": {
-              "id": "tz1XMYyXTn3FmnJKJGh55ivepRPqNpQqeE7x",
-              "name": "Studio Yorktown",
-              "type": "REGULAR",
-              "avatarUri": "ipfs://QmajEaysLMfukLXcsBppyagEo2p7DezWgu22638ZE6WqcR",
-              "flag": "VERIFIED",
-              "collaborators": null,
-              "__typename": "User"
-            },
-            "__typename": "GenerativeToken"
-          },
-          "__typename": "Objkt"
-        },
-        "__typename": "Listing"
-      },
-      {
-        "id": 953868,
-        "version": 1,
-        "price": 12900000,
-        "objkt": {
-          "id": "FX0-966002",
-          "version": 1,
-          "name": "Ersbla #303",
-          "slug": "ersbla-303",
-          "metadata": {
-            "name": "Ersbla #303",
-            "iterationHash": "onmnoYNYs25jQh1wRUvWfiTW2FGDdUs7n3TdEs3sQCf6y9Zb32U",
-            "description": "Ersbla is part of the fxhash live minting experience at Proof of People, London 2022. \n\nIt is the third entry in a series of abstract generative experiments inspired by the graphic and textile work of Anni and Josef Albers. As a follow-up to the 'Sabler' and 'Lebras' collections, 'Ersbla' produces textile effects using a combination of thousands of tiny dots arranged on variable grids, resulting in a wide variety of unique Bauhaus-inspired compositions in a variety of palettes.\n\nPress 'S' to save a high-resolution 2400 x 3396 px image in PNG format.\n\nDepending on the density of your output, please allow up to a few seconds for your edition to generate.",
-            "tags": [
-              "POP2022",
-              "Proof of People",
-              "London 2022",
-              "textile",
-              "fabric",
-              "grid",
-              "minimal",
-              "simple"
-            ],
-            "generatorUri": "ipfs://QmVgq8a9Z3H1Ci5rmnsJAYFvnktemuin22MSeUKHSSbL9w",
-            "artifactUri": "ipfs://QmVgq8a9Z3H1Ci5rmnsJAYFvnktemuin22MSeUKHSSbL9w?fxhash=onmnoYNYs25jQh1wRUvWfiTW2FGDdUs7n3TdEs3sQCf6y9Zb32U",
-            "displayUri": "ipfs://QmbEyyaWZAwmCeyZZ7cX1PUypqPZWaaDTUiNyvDkzwYGCd",
-            "thumbnailUri": "ipfs://QmdnJ3F39Nw3FqRkSHAnMb1hmVFHS3B8QRkA4T49LsD1eS",
-            "authenticityHash": "c0fcdefa5e996120e7c7b6607a6b2897d9b7caab1358d0087a61abee8ff96c7f",
-            "attributes": [
-              {
-                "name": "Palette Name",
-                "value": "Vanilla Strand"
-              }
-            ],
-            "decimals": 0,
-            "symbol": "GENTK",
-            "version": "0.2"
-          },
-          "duplicate": false,
-          "activeListing": {
-            "id": 953868,
-            "version": 1,
-            "price": 12900000,
-            "__typename": "Listing"
-          },
-          "owner": {
-            "id": "tz1hwYHgCvHbvbN4HR7RenzJouyWwzLDC5Yi",
-            "name": null,
-            "flag": "NONE",
-            "avatarUri": null,
-            "__typename": "User"
-          },
-          "issuer": {
-            "flag": "NONE",
-            "name": "Ersbla",
-            "author": {
-              "id": "tz1XMYyXTn3FmnJKJGh55ivepRPqNpQqeE7x",
-              "name": "Studio Yorktown",
-              "type": "REGULAR",
-              "avatarUri": "ipfs://QmajEaysLMfukLXcsBppyagEo2p7DezWgu22638ZE6WqcR",
-              "flag": "VERIFIED",
-              "collaborators": null,
-              "__typename": "User"
-            },
-            "__typename": "GenerativeToken"
-          },
-          "__typename": "Objkt"
-        },
-        "__typename": "Listing"
-      },
-      {
-        "id": 953867,
-        "version": 1,
-        "price": 12900000,
-        "objkt": {
-          "id": "FX0-966262",
-          "version": 1,
-          "name": "Ersbla #561",
-          "slug": "ersbla-561",
-          "metadata": {
-            "name": "Ersbla #561",
-            "iterationHash": "onzgN4EyR5BFvELnmbD4Ak1VszQniESPgzJLLKfUKeXMbFFMUpE",
-            "description": "Ersbla is part of the fxhash live minting experience at Proof of People, London 2022. \n\nIt is the third entry in a series of abstract generative experiments inspired by the graphic and textile work of Anni and Josef Albers. As a follow-up to the 'Sabler' and 'Lebras' collections, 'Ersbla' produces textile effects using a combination of thousands of tiny dots arranged on variable grids, resulting in a wide variety of unique Bauhaus-inspired compositions in a variety of palettes.\n\nPress 'S' to save a high-resolution 2400 x 3396 px image in PNG format.\n\nDepending on the density of your output, please allow up to a few seconds for your edition to generate.",
-            "tags": [
-              "POP2022",
-              "Proof of People",
-              "London 2022",
-              "textile",
-              "fabric",
-              "grid",
-              "minimal",
-              "simple"
-            ],
-            "generatorUri": "ipfs://QmVgq8a9Z3H1Ci5rmnsJAYFvnktemuin22MSeUKHSSbL9w",
-            "artifactUri": "ipfs://QmVgq8a9Z3H1Ci5rmnsJAYFvnktemuin22MSeUKHSSbL9w?fxhash=onzgN4EyR5BFvELnmbD4Ak1VszQniESPgzJLLKfUKeXMbFFMUpE",
-            "displayUri": "ipfs://QmZR6i3Jv38sXpEF8kbGjTm98vk8V7wcCQkaCf1NyABkqT",
-            "thumbnailUri": "ipfs://QmeQgyLuxKVJ4A4MA3vtkc2FbAW1m4NoiJuBkVrAoUhK8R",
-            "authenticityHash": "cfde6730e385d69b5af401a611923b53d94c1c0488cbf7c462dc57d66d7fb3c8",
-            "attributes": [
-              {
-                "name": "Palette Name",
-                "value": "Vanilla Strand"
-              }
-            ],
-            "decimals": 0,
-            "symbol": "GENTK",
-            "version": "0.2"
-          },
-          "duplicate": false,
-          "activeListing": {
-            "id": 953867,
-            "version": 1,
-            "price": 12900000,
-            "__typename": "Listing"
-          },
-          "owner": {
-            "id": "tz1hwYHgCvHbvbN4HR7RenzJouyWwzLDC5Yi",
-            "name": null,
-            "flag": "NONE",
-            "avatarUri": null,
-            "__typename": "User"
-          },
-          "issuer": {
-            "flag": "NONE",
-            "name": "Ersbla",
-            "author": {
-              "id": "tz1XMYyXTn3FmnJKJGh55ivepRPqNpQqeE7x",
-              "name": "Studio Yorktown",
-              "type": "REGULAR",
-              "avatarUri": "ipfs://QmajEaysLMfukLXcsBppyagEo2p7DezWgu22638ZE6WqcR",
-              "flag": "VERIFIED",
-              "collaborators": null,
-              "__typename": "User"
-            },
-            "__typename": "GenerativeToken"
-          },
-          "__typename": "Objkt"
-        },
-        "__typename": "Listing"
-      },
-      {
-        "id": 953866,
-        "version": 1,
-        "price": 14000000,
-        "objkt": {
-          "id": "FX0-1132055",
-          "version": 1,
-          "name": "Unless it falls apart #103",
-          "slug": "unless-it-falls-apart-103",
-          "metadata": {
-            "name": "Unless it falls apart #103",
-            "iterationHash": "ooo2nTNehMWDwZX9Y26iW7W3MJGBtMYWBKeV33XytVSome5MN5q",
-            "description": "\"(This) is all we're gonna get\nUnless it falls apart\nSo I say: go go go, go down\nLet it fall down\nI'm ready for the end.\" \n\n\n-------\n\nCONTROLS:\nPress `s` to download a PNG file.\nPress `h` to generate a 4500x6750 image.\nPress `n` to disable the grain texture.\n\n-------\n\nMade with p5.js and the help of a GLSL shader.\n\nSee license.md for licensing details.",
-            "tags": [],
-            "generatorUri": "ipfs://QmTpexPYWBWTvidFuvKDzZuq76GqJRvGffUWN6ngDhWLct",
-            "artifactUri": "ipfs://QmTpexPYWBWTvidFuvKDzZuq76GqJRvGffUWN6ngDhWLct?fxhash=ooo2nTNehMWDwZX9Y26iW7W3MJGBtMYWBKeV33XytVSome5MN5q",
-            "displayUri": "ipfs://QmVQmQeRsiGdNhnS9BfFdvTR9ssz4C412LbCPn6pdpQFy6",
-            "thumbnailUri": "ipfs://QmV1Ss2FQYne6zHcpJxTg1de98PfUDhw6TUeH9FHEMGK1x",
-            "authenticityHash": "629dff9ff61ae090da0d93f731045ec9e278c4a6ef18af6eb586629c6bab1cac",
-            "attributes": [
-              {
-                "name": "Palette",
-                "value": "Parnassum"
-              },
-              {
-                "name": "Frame",
-                "value": "Rectangle"
-              },
-              {
-                "name": "Frame Style",
-                "value": "Light"
-              },
-              {
-                "name": "Dissolving Strokes",
-                "value": false
-              }
-            ],
-            "decimals": 0,
-            "symbol": "GENTK",
-            "version": "0.2"
-          },
-          "duplicate": false,
-          "activeListing": {
-            "id": 953866,
-            "version": 1,
-            "price": 14000000,
-            "__typename": "Listing"
-          },
-          "owner": {
-            "id": "tz1hwYHgCvHbvbN4HR7RenzJouyWwzLDC5Yi",
-            "name": null,
-            "flag": "NONE",
-            "avatarUri": null,
-            "__typename": "User"
-          },
-          "issuer": {
-            "flag": "NONE",
-            "name": "Unless it falls apart",
-            "author": {
-              "id": "tz2CeapCYrWMZ7jSruo7KJevabwboqHjiwsQ",
-              "name": "whitekross",
-              "type": "REGULAR",
-              "avatarUri": "ipfs://Qma9YoiLpMGqT6wqS34QiGS1FD9RSKLmE2xQpNAJzM4saH",
-              "flag": "VERIFIED",
-              "collaborators": null,
-              "__typename": "User"
-            },
-            "__typename": "GenerativeToken"
-          },
-          "__typename": "Objkt"
-        },
-        "__typename": "Listing"
-      },
-      {
-        "id": 953865,
-        "version": 1,
-        "price": 60000000,
-        "objkt": {
-          "id": "FX0-1555874",
-          "version": 1,
-          "name": "seekers #157",
-          "slug": "seekers-157",
-          "metadata": {
-            "name": "seekers #157",
-            "iterationHash": "ooW2HaySxPM28CYP5zDKZc44SAkC27sJkudUJCcSZZoYEi8NVTG",
-            "description": "Seekers is inspired by the view that is held by mathematical realism, that mathematical entities objectively exist independently of the human mind. Therefore, mathematical entities are not constructed by humans, but rather, are discovered by humans. This means, that also other intelligent beings would be able to discover the same entities.\n\nIn 'seekers', a set of complicated, computer-generated functions are used to render coloured spaces on a Cartesian plane. The mathematical space is being explored and discovered by a group of seekers, which hover and fly around within the layers of infinitely evolving shapes. The vicinity of a seeker also modifies the surrounding mathematical space, which means that the seekers will never reach the objective reality.\n\nThe generating functions are created using human-curated evolutionary algorithm following the idea demonstrated already in Karl Sims' paper 'Artificial Evolution for Computer Graphics' in 1991.\n\n———\n\nFeatures 29 generative base functions, 15 palettes in various modes. Some palettes have a special 'dark mode', where the seekers also slightly illuminate the otherwise darkened space.\n\n----\n\nNotes for viewer:\n\n- The piece adapts to all screen sizes, although a fixed size can be defined by url parameters.\n\n- The piece is preferably viewed full-screen. The resolution can be adjusted for best performance.\n\n- The piece can be paused and high-resolution stills can be exported for printing.\n\n- Video clips can be exported in webm format. For a high-resolution video, frames should be batch exported as PNG-sequence and rendered in a video editing software.\n\n----\n\nControls: \n\n- Number keys from [1] to [8] adjust the resolution\n- [space] pauses animation\n- [s] exports a PNG with the current resolution\n- [x] starts and stops recording of a webm clip (25mbps)\n- [i] toggles display of frame number and resolution\n\n----\n\nURL parameters:\n\n- &width={WIDTH}&height={HEIGHT} explicitly sets the render resolution to {WIDTH}x{HEIGHT}. Resolution controls do not work when dimensions are explicitly set.\n\n- &rec={start},{end} batch records frames starting from {start} and ending at {end}. Can also be used to record stills. For example, if you want a still export from frame 300 in resolution 5000x3000, you can start the piece with url parameters &width=5000&height=3000&rec=300,300\n\n----\n\nLicense: CC BY-NC-ND 4.0\n\nUtilizes fxHash template by Karsten Schmidt\nhttps://github.com/thi-ng/tpl-umbrella-fxhash\nMIT License\n\nUtilizes components from thi.ng umbrella by Karsten Schmidt\nhttps://github.com/thi-ng/umbrella\nApache Software License 2.0",
-            "tags": [
-              "webgl",
-              "thi.ng"
-            ],
-            "generatorUri": "ipfs://QmZoW7qkwxaZ9MXNUB3sbrsb1oTGgY4hRwtxbyJctk3Bkr",
-            "artifactUri": "ipfs://QmZoW7qkwxaZ9MXNUB3sbrsb1oTGgY4hRwtxbyJctk3Bkr?fxhash=ooW2HaySxPM28CYP5zDKZc44SAkC27sJkudUJCcSZZoYEi8NVTG",
-            "displayUri": "ipfs://QmXA5cb4pKK6RrhKg12SMMModADVurdHYMaUZ4cduSYqmV",
-            "thumbnailUri": "ipfs://QmZ2PyT1oxt1ZdWd37g1joPPsYeVGnP9zNrPbh9eUR7y7T",
-            "authenticityHash": "c130fc1ee726b8ced6c08c3fdc4bde8b1b909f9be2eaa28fc60280f461c31780",
-            "attributes": [
-              {
-                "name": "theme",
-                "value": "krom"
-              },
-              {
-                "name": "darkMode",
-                "value": false
-              },
-              {
-                "name": "paletteMode",
-                "value": "Sparse"
-              },
-              {
-                "name": "generatorA",
-                "value": "generator97"
-              },
-              {
-                "name": "generatorB",
-                "value": "generator84"
-              },
-              {
-                "name": "numSeekers",
-                "value": 7
-              },
-              {
-                "name": "orientation",
-                "value": "Free"
-              }
-            ],
-            "decimals": 0,
-            "symbol": "GENTK",
-            "version": "0.2"
-          },
-          "duplicate": false,
-          "activeListing": {
-            "id": 953865,
-            "version": 1,
-            "price": 60000000,
-            "__typename": "Listing"
-          },
-          "owner": {
-            "id": "tz1MjoP57wMePpAxpgqRZE4DztD929AKoJD8",
-            "name": "monadnomad",
-            "flag": "NONE",
-            "avatarUri": null,
-            "__typename": "User"
-          },
-          "issuer": {
-            "flag": "NONE",
-            "name": "seekers",
-            "author": {
-              "id": "tz2L2EpuV22R1sPUqPJEfXwNXAD7t6MbtSen",
-              "name": "ECKER_O_",
-              "type": "REGULAR",
-              "avatarUri": "ipfs://QmWCFt1UL6n8kFYskxyaMHSpySCwVQQ56sQTAbXgy5BLWX",
-              "flag": "VERIFIED",
-              "collaborators": null,
-              "__typename": "User"
-            },
-            "__typename": "GenerativeToken"
-          },
-          "__typename": "Objkt"
-        },
-        "__typename": "Listing"
-      },
-      {
-        "id": 953864,
-        "version": 1,
-        "price": 20000000,
-        "objkt": {
-          "id": "FX1-29650",
-          "version": 2,
-          "name": "messy vowels #44",
-          "slug": "messy-vowels-44",
-          "metadata": {
-            "name": "messy vowels #44",
-            "iterationHash": "onyxSf2c1TnyjD488DM1nEa7mbrf5dwSHhvpn9RfCtWDNfaPnfg",
-            "description": "messy vowels is an exploration of the aesthetics of M en désordre, 2016 by Vera Molnar. These vowels switch colors, shrink, stretch, and split. Hope they delight you!\n\nCreated in p5.js by @ijeamaka_a\nCopyright © 2023 - Ijeamaka\n\nPress s to save image as a png",
-            "tags": [
-              "text",
-              "generativeart",
               "p5js"
             ],
-            "generatorUri": "ipfs://QmXCwzySQ74qBPQHFZuPYHG4VESfyDSiS2wTCyzsHeZAEQ",
-            "artifactUri": "ipfs://QmXCwzySQ74qBPQHFZuPYHG4VESfyDSiS2wTCyzsHeZAEQ/?fxhash=onyxSf2c1TnyjD488DM1nEa7mbrf5dwSHhvpn9RfCtWDNfaPnfg&fxminter=tz1VGZPvqytFVAoSAsM8VrUveJdL3PpVy6K9",
-            "displayUri": "ipfs://QmTprDDaKA9MMd5kQF1PMmZ5SDcu7eDz3a2YwNbFoC9mj6",
-            "thumbnailUri": "ipfs://QmNWMQzrJ8KhFYay9oTMVmLpxzz8KgJDaN835K1PXXN32B",
-            "authenticityHash": "5c4e3383f27ed0884498914e95a62937a8f62836e59c69e0d55f93d1bded4245",
+            "generatorUri": "ipfs://Qmcsri4QjfMDkv9KkJHRJvRvgzzzjHazzUfyQzW8GLpioJ",
+            "artifactUri": "ipfs://Qmcsri4QjfMDkv9KkJHRJvRvgzzzjHazzUfyQzW8GLpioJ/?fxhash=op4EUZAjWS1Y5cgDXXzZXN1c9gmpB1x5VkRjBeFuLL6oxSmutRp&fxminter=tz1Lk6DK84Yf8TmmXoYYGkEtoezJa8H63xsY",
+            "displayUri": "ipfs://QmdnNzFUV7eY6NAjactWX7wemyNfpyU3wCREKoVg2L9nBr",
+            "thumbnailUri": "ipfs://QmUXiqjaeijXycx6E8AThtYoKUiMPsyCp54Ddr4FZWobHt",
+            "authenticityHash": "9c1da1c7a2861728434042a5bee40954614a92a00c220bc8c8a838330902238b",
             "attributes": [
               {
-                "name": "Vowel",
-                "value": "I"
+                "name": "Canvas Format",
+                "value": "Portrait"
               },
               {
-                "name": "Disorder Type",
-                "value": "size"
+                "name": "Elements",
+                "value": "Light texture & shapes"
               },
               {
-                "name": "Disorder Level",
-                "value": "minimal"
+                "name": "Base Color",
+                "value": "#DEC67C"
+              },
+              {
+                "name": "Composition",
+                "value": 13
               }
             ],
             "decimals": 0,
@@ -769,26 +58,26 @@
           },
           "duplicate": false,
           "activeListing": {
-            "id": 953864,
+            "id": 953931,
             "version": 1,
-            "price": 20000000,
+            "price": 22000000,
             "__typename": "Listing"
           },
           "owner": {
-            "id": "tz1VGZPvqytFVAoSAsM8VrUveJdL3PpVy6K9",
-            "name": "A R T R A",
+            "id": "tz1Lk6DK84Yf8TmmXoYYGkEtoezJa8H63xsY",
+            "name": "tatsuatsa2014",
             "flag": "NONE",
-            "avatarUri": "ipfs://QmS34juW7zj5QEB8VzYCLLQMDaisbQAPV641f9rHUxjYBM",
+            "avatarUri": "ipfs://QmfYn1PZQDVBP8h5VXxbnMVhUbXMHcviPWorrB42zHLoKc",
             "__typename": "User"
           },
           "issuer": {
             "flag": "NONE",
-            "name": "messy vowels",
+            "name": "Monotipia",
             "author": {
-              "id": "tz1VGarCtub95ypnYg1CVbhrdtBp2uy82nBW",
-              "name": "ijeamaka",
+              "id": "tz1UhiQXVYzSXWF2m6QNEtir5VViQrUXg4by",
+              "name": "marcelonada",
               "type": "REGULAR",
-              "avatarUri": "ipfs://QmbFzDYk4ubJeRoM2kiFdRz9jyNtsshdohvP6KzbcyZmr4",
+              "avatarUri": "ipfs://QmVFrB4KBsPesnCtAXgxeV5M5JafoVpunawUiR4z3ZCoEz",
               "flag": "NONE",
               "collaborators": null,
               "__typename": "User"
@@ -800,184 +89,54 @@
         "__typename": "Listing"
       },
       {
-        "id": 953863,
+        "id": 953930,
         "version": 1,
-        "price": 12900000,
+        "price": 79000000,
         "objkt": {
-          "id": "FX0-966297",
-          "version": 1,
-          "name": "Ersbla #596",
-          "slug": "ersbla-596",
+          "id": "FX1-29900",
+          "version": 2,
+          "name": "Monotipia #8",
+          "slug": "monotipia-8",
           "metadata": {
-            "name": "Ersbla #596",
-            "iterationHash": "op2yVufjbsKiuvtBjGHp4FnKm2Qgc6kZF4MGMYATZMAPUJG4QWg",
-            "description": "Ersbla is part of the fxhash live minting experience at Proof of People, London 2022. \n\nIt is the third entry in a series of abstract generative experiments inspired by the graphic and textile work of Anni and Josef Albers. As a follow-up to the 'Sabler' and 'Lebras' collections, 'Ersbla' produces textile effects using a combination of thousands of tiny dots arranged on variable grids, resulting in a wide variety of unique Bauhaus-inspired compositions in a variety of palettes.\n\nPress 'S' to save a high-resolution 2400 x 3396 px image in PNG format.\n\nDepending on the density of your output, please allow up to a few seconds for your edition to generate.",
+            "name": "Monotipia #8",
+            "iterationHash": "onwvyHkdAAx86Xm6BBGMA4eefj2HtJGJUccDQ8HacvkshtnJV5W",
+            "description": "Graphic compositions made with simple elements. Playing with the subtlety and rhythm of colors, shapes and textures.\n\nThis work was inspired by the textures of monotype prints and those of metal engraving. Especially in the geometric marks made by the inking roller while stretching the graphic ink to make a manual printing. It is a tribute to the visuality of handmade prints.\n\n\"Monotipia\" means monotype printing in Portuguese. It is a graphic printing process that results in a single copy. Here I make a parallel between monotype printing and the code+hash minting process, which also produces a single image.\n\n---\nFeatures:\n-> 15 composition schemes\n-> 51 handpicked base colors\n-> 3 canvas formats:  \n-----> Portrait (vertical) \n-----> Square \n-----> Landscape (horizontal)\n-> 3 element tones options: \n-----> Light Texture & Shapes\n-----> Light Texture / Dark Shapes \n-----> Dark Texture & Shapes\n\n---\nTo save the image as a png file, type:\n[1] save at actual size \n[2] save with 2000px height\n[3] save with 3000px height\n[4] save with 4000px height\n[5] save with 5000px height\n\nDepending on the size option, the render time can be long.\n\n---\nCreated with p5.js\n\n---\nThis is my first project on FX(hash) and I would like to express my special thanks to Janaina Selva, Dmarchi, Gyo and Morbeck for their support and for following the step-by-step development of this work, always contributing with a critical eye and great suggestions. I also thank the help from the FX(hash) community on Discord.\n\n---\n(c) Marcelo Terça-Nada, 2023\nhttps://marcelonada.redezero.org/\n@marcelonada",
             "tags": [
-              "POP2022",
-              "Proof of People",
-              "London 2022",
-              "textile",
-              "fabric",
-              "grid",
-              "minimal",
-              "simple"
-            ],
-            "generatorUri": "ipfs://QmVgq8a9Z3H1Ci5rmnsJAYFvnktemuin22MSeUKHSSbL9w",
-            "artifactUri": "ipfs://QmVgq8a9Z3H1Ci5rmnsJAYFvnktemuin22MSeUKHSSbL9w?fxhash=op2yVufjbsKiuvtBjGHp4FnKm2Qgc6kZF4MGMYATZMAPUJG4QWg",
-            "displayUri": "ipfs://QmatbCkLCUgxCZgtqxxwCcZ4ZcPZoTKaivgnAsJUvqNrhw",
-            "thumbnailUri": "ipfs://QmZnTdxt7d1HtwQBoJ1A4PoRCrPuVZAQzV31NVNnFWfiWV",
-            "authenticityHash": "477982a4e7f93d4516baa2e662d560ea0b3e6cb3c96f736514e9ceaef7d997da",
-            "attributes": [
-              {
-                "name": "Palette Name",
-                "value": "Modernist Ochre"
-              }
-            ],
-            "decimals": 0,
-            "symbol": "GENTK",
-            "version": "0.2"
-          },
-          "duplicate": false,
-          "activeListing": {
-            "id": 953863,
-            "version": 1,
-            "price": 12900000,
-            "__typename": "Listing"
-          },
-          "owner": {
-            "id": "tz1hwYHgCvHbvbN4HR7RenzJouyWwzLDC5Yi",
-            "name": null,
-            "flag": "NONE",
-            "avatarUri": null,
-            "__typename": "User"
-          },
-          "issuer": {
-            "flag": "NONE",
-            "name": "Ersbla",
-            "author": {
-              "id": "tz1XMYyXTn3FmnJKJGh55ivepRPqNpQqeE7x",
-              "name": "Studio Yorktown",
-              "type": "REGULAR",
-              "avatarUri": "ipfs://QmajEaysLMfukLXcsBppyagEo2p7DezWgu22638ZE6WqcR",
-              "flag": "VERIFIED",
-              "collaborators": null,
-              "__typename": "User"
-            },
-            "__typename": "GenerativeToken"
-          },
-          "__typename": "Objkt"
-        },
-        "__typename": "Listing"
-      },
-      {
-        "id": 953862,
-        "version": 1,
-        "price": 38000000,
-        "objkt": {
-          "id": "FX0-1015726",
-          "version": 1,
-          "name": "DisOrder #243",
-          "slug": "disorder-243",
-          "metadata": {
-            "name": "DisOrder #243",
-            "iterationHash": "op2kaehhxzHGMJCc26DpatoA32XBpxV1MyzPgSwrAqLmEDvbjNW",
-            "description": "Manual Dutch Auction (DA): 84 · 56 · 38 · 26 · 18  every 8 minutes.\nAuction will stop changing price when non-reserves are fully minted.\n\n/////////////////////////////////////////////////////\n\nAll that is, starts with Order.\n\nOrder attempts to evade entropy by following its own intrinsic patterns. Then, inevitably, there is change: an anomaly, a nudge that turns into a catalyst for widespread change.The momentum cannot be stopped.\n\nBrief cycles build upon themselves, iterating and breaking into something new with each turn. Now, looking back, the accumulation of small divergences look like a leap, with trails of evolutionary decline casting tall shadows on the patterns that bore them.\n\nThe beauty of what this entropy creates, rises beyond chaos. It represents the past, and signals the future, and suddenly looks like a wild take on Order itself – the true DisOrder of life.\n\n/////////////////////////////////////////////////////\n\nFEATURES :\n21 Features implemented including colors, styles, technical parameters...\n\nINTERACTIVITY :\nPress ‘h’ in live mode for a list of options.\nPress 's' to save an image of the output at the current resolution\nPress ‘1’-’9’ to increase resolution\n...\n\nLICENSE\nCopyright (c) 2022 TidallyDisruptedStar @TidallyD.\nCreative contributions from Tender @tender_art\nLicensed under CC BY-NC-SA 4.0, see LICENSE.txt for more information.",
-            "tags": [
-              "p5js",
+              "monotipia",
+              "marcelo terça-nada",
+              "marcelonada",
+              "printing",
+              "drawing",
+              "engraving",
+              "colorful",
+              "shapes",
+              "texture",
               "abstract",
-              "grid",
-              "order",
-              "disorder"
+              "geometric",
+              "generative",
+              "p5js"
             ],
-            "generatorUri": "ipfs://QmXF8DWvP2cseRmb5joRtJsHk7ovtUxbpGTG6sUGQik3TU",
-            "artifactUri": "ipfs://QmXF8DWvP2cseRmb5joRtJsHk7ovtUxbpGTG6sUGQik3TU?fxhash=op2kaehhxzHGMJCc26DpatoA32XBpxV1MyzPgSwrAqLmEDvbjNW",
-            "displayUri": "ipfs://QmQc7xhR72DjRenM4Gyaz8JdZCYRA1reytuycHdVMY4hXJ",
-            "thumbnailUri": "ipfs://QmNWimBttfpheCTGNW1XnW2xxyrJZJ9YegCMKkumV1kpXF",
-            "authenticityHash": "32c9d4aa32f545b60dd0d735bed0dcd7dd29843128940410378896ebb8cf9c0b",
+            "generatorUri": "ipfs://Qmcsri4QjfMDkv9KkJHRJvRvgzzzjHazzUfyQzW8GLpioJ",
+            "artifactUri": "ipfs://Qmcsri4QjfMDkv9KkJHRJvRvgzzzjHazzUfyQzW8GLpioJ/?fxhash=onwvyHkdAAx86Xm6BBGMA4eefj2HtJGJUccDQ8HacvkshtnJV5W&fxminter=tz1T54EUNpi6CvX99vNfEbDDkAFiUC6vkM1Z",
+            "displayUri": "ipfs://QmUHWz97u8JdeBMkB2gqFxDbVtaPPLde3HLbSHHDbrRhr1",
+            "thumbnailUri": "ipfs://QmW5XTg2uoFKmD2cF9onrz1LVH4AALvMJaeggmXQmsfpdc",
+            "authenticityHash": "2aec8a05c80015d585021c5d58eddf7ad570d80500a6862056f3fa20f2cec570",
             "attributes": [
               {
-                "name": "Frame",
-                "value": "SQUARE"
+                "name": "Canvas Format",
+                "value": "Landscape"
               },
               {
-                "name": "Background",
-                "value": "DarkGrey"
+                "name": "Elements",
+                "value": "Dark texture & shapes"
               },
               {
-                "name": "Margin",
-                "value": 20
+                "name": "Base Color",
+                "value": "#FAEBD7"
               },
               {
-                "name": "Margin layer",
-                "value": true
-              },
-              {
-                "name": "Split style",
-                "value": "VERTICAL"
-              },
-              {
-                "name": "Complexity",
-                "value": 2000
-              },
-              {
-                "name": "Gen. spread",
-                "value": 12
-              },
-              {
-                "name": "Perturbation",
-                "value": "RIGHT"
-              },
-              {
-                "name": "Resistance",
-                "value": 0.8
-              },
-              {
-                "name": "Color",
-                "value": "Sparkler"
-              },
-              {
-                "name": "Opacity",
-                "value": 255
-              },
-              {
-                "name": "B&W Prop.",
-                "value": 0.7
-              },
-              {
-                "name": "B&W Balance",
-                "value": 0.5
-              },
-              {
-                "name": "N_X",
-                "value": 2
-              },
-              {
-                "name": "N_Y",
-                "value": 1
-              },
-              {
-                "name": "Separation",
-                "value": 30
-              },
-              {
-                "name": "R. Perturbation",
-                "value": "LEFT"
-              },
-              {
-                "name": "R. Angle",
-                "value": -495
-              },
-              {
-                "name": "R. Factor",
-                "value": 0.5
-              },
-              {
-                "name": "R. Threshold",
-                "value": 0.1
-              },
-              {
-                "name": "Disobedience",
-                "value": false
+                "name": "Composition",
+                "value": 9
               }
             ],
             "decimals": 0,
@@ -986,26 +145,347 @@
           },
           "duplicate": false,
           "activeListing": {
-            "id": 953862,
+            "id": 953930,
             "version": 1,
-            "price": 38000000,
+            "price": 79000000,
             "__typename": "Listing"
           },
           "owner": {
-            "id": "tz1hwYHgCvHbvbN4HR7RenzJouyWwzLDC5Yi",
-            "name": null,
+            "id": "tz1T54EUNpi6CvX99vNfEbDDkAFiUC6vkM1Z",
+            "name": "Gentk",
             "flag": "NONE",
             "avatarUri": null,
             "__typename": "User"
           },
           "issuer": {
             "flag": "NONE",
-            "name": "DisOrder",
+            "name": "Monotipia",
             "author": {
-              "id": "tz1Q6koSLYMvmPn6ZABZ3qV6ejUEqwTfCYqW",
-              "name": "DisruptedStar",
+              "id": "tz1UhiQXVYzSXWF2m6QNEtir5VViQrUXg4by",
+              "name": "marcelonada",
               "type": "REGULAR",
-              "avatarUri": "ipfs://QmSH9XK25RLiiiADjdZXmiLsYpNtAAw2P1nSS856QfTsk3",
+              "avatarUri": "ipfs://QmVFrB4KBsPesnCtAXgxeV5M5JafoVpunawUiR4z3ZCoEz",
+              "flag": "NONE",
+              "collaborators": null,
+              "__typename": "User"
+            },
+            "__typename": "GenerativeToken"
+          },
+          "__typename": "Objkt"
+        },
+        "__typename": "Listing"
+      },
+      {
+        "id": 953929,
+        "version": 1,
+        "price": 89500000,
+        "objkt": {
+          "id": "FX1-29974",
+          "version": 2,
+          "name": "Monotipia #80",
+          "slug": "monotipia-80",
+          "metadata": {
+            "name": "Monotipia #80",
+            "iterationHash": "opD9xUoQPgv8wHQ4eQJndmS5sjKtTSkYrg984hmFjpv25Wuv4x3",
+            "description": "Graphic compositions made with simple elements. Playing with the subtlety and rhythm of colors, shapes and textures.\n\nThis work was inspired by the textures of monotype prints and those of metal engraving. Especially in the geometric marks made by the inking roller while stretching the graphic ink to make a manual printing. It is a tribute to the visuality of handmade prints.\n\n\"Monotipia\" means monotype printing in Portuguese. It is a graphic printing process that results in a single copy. Here I make a parallel between monotype printing and the code+hash minting process, which also produces a single image.\n\n---\nFeatures:\n-> 15 composition schemes\n-> 51 handpicked base colors\n-> 3 canvas formats:  \n-----> Portrait (vertical) \n-----> Square \n-----> Landscape (horizontal)\n-> 3 element tones options: \n-----> Light Texture & Shapes\n-----> Light Texture / Dark Shapes \n-----> Dark Texture & Shapes\n\n---\nTo save the image as a png file, type:\n[1] save at actual size \n[2] save with 2000px height\n[3] save with 3000px height\n[4] save with 4000px height\n[5] save with 5000px height\n\nDepending on the size option, the render time can be long.\n\n---\nCreated with p5.js\n\n---\nThis is my first project on FX(hash) and I would like to express my special thanks to Janaina Selva, Dmarchi, Gyo and Morbeck for their support and for following the step-by-step development of this work, always contributing with a critical eye and great suggestions. I also thank the help from the FX(hash) community on Discord.\n\n---\n(c) Marcelo Terça-Nada, 2023\nhttps://marcelonada.redezero.org/\n@marcelonada",
+            "tags": [
+              "monotipia",
+              "marcelo terça-nada",
+              "marcelonada",
+              "printing",
+              "drawing",
+              "engraving",
+              "colorful",
+              "shapes",
+              "texture",
+              "abstract",
+              "geometric",
+              "generative",
+              "p5js"
+            ],
+            "generatorUri": "ipfs://Qmcsri4QjfMDkv9KkJHRJvRvgzzzjHazzUfyQzW8GLpioJ",
+            "artifactUri": "ipfs://Qmcsri4QjfMDkv9KkJHRJvRvgzzzjHazzUfyQzW8GLpioJ/?fxhash=opD9xUoQPgv8wHQ4eQJndmS5sjKtTSkYrg984hmFjpv25Wuv4x3&fxminter=tz1i1tWGMHjszp9sSGzfviktCp6FjNMkviAh",
+            "displayUri": "ipfs://QmaNAtKozG17Mzbmuk53HsCMRi565RXaB7QkwFR47Zdhb7",
+            "thumbnailUri": "ipfs://QmaRS74QnK9atJiCVCaE4b1W6fwfak1ddfKe71W71TpNmt",
+            "authenticityHash": "5044183a92ebdda3f3e2ec1922bd5419d9e4641f486328d5dd1c5a234d7ee0dc",
+            "attributes": [
+              {
+                "name": "Canvas Format",
+                "value": "Square"
+              },
+              {
+                "name": "Elements",
+                "value": "Dark texture & shapes"
+              },
+              {
+                "name": "Base Color",
+                "value": "#EBEBEB"
+              },
+              {
+                "name": "Composition",
+                "value": 3
+              }
+            ],
+            "decimals": 0,
+            "symbol": "GENTK",
+            "version": "0.2"
+          },
+          "duplicate": false,
+          "activeListing": {
+            "id": 953929,
+            "version": 1,
+            "price": 89500000,
+            "__typename": "Listing"
+          },
+          "owner": {
+            "id": "tz1i1tWGMHjszp9sSGzfviktCp6FjNMkviAh",
+            "name": "Zeiden",
+            "flag": "NONE",
+            "avatarUri": null,
+            "__typename": "User"
+          },
+          "issuer": {
+            "flag": "NONE",
+            "name": "Monotipia",
+            "author": {
+              "id": "tz1UhiQXVYzSXWF2m6QNEtir5VViQrUXg4by",
+              "name": "marcelonada",
+              "type": "REGULAR",
+              "avatarUri": "ipfs://QmVFrB4KBsPesnCtAXgxeV5M5JafoVpunawUiR4z3ZCoEz",
+              "flag": "NONE",
+              "collaborators": null,
+              "__typename": "User"
+            },
+            "__typename": "GenerativeToken"
+          },
+          "__typename": "Objkt"
+        },
+        "__typename": "Listing"
+      },
+      {
+        "id": 953928,
+        "version": 1,
+        "price": 49990000,
+        "objkt": {
+          "id": "FX1-29942",
+          "version": 2,
+          "name": "Monotipia #50",
+          "slug": "monotipia-50",
+          "metadata": {
+            "name": "Monotipia #50",
+            "iterationHash": "oopseMxh4UzMFj8b5M5oJmNVoZwzsyS4GnZVWE6KC64L5Ra6WVh",
+            "description": "Graphic compositions made with simple elements. Playing with the subtlety and rhythm of colors, shapes and textures.\n\nThis work was inspired by the textures of monotype prints and those of metal engraving. Especially in the geometric marks made by the inking roller while stretching the graphic ink to make a manual printing. It is a tribute to the visuality of handmade prints.\n\n\"Monotipia\" means monotype printing in Portuguese. It is a graphic printing process that results in a single copy. Here I make a parallel between monotype printing and the code+hash minting process, which also produces a single image.\n\n---\nFeatures:\n-> 15 composition schemes\n-> 51 handpicked base colors\n-> 3 canvas formats:  \n-----> Portrait (vertical) \n-----> Square \n-----> Landscape (horizontal)\n-> 3 element tones options: \n-----> Light Texture & Shapes\n-----> Light Texture / Dark Shapes \n-----> Dark Texture & Shapes\n\n---\nTo save the image as a png file, type:\n[1] save at actual size \n[2] save with 2000px height\n[3] save with 3000px height\n[4] save with 4000px height\n[5] save with 5000px height\n\nDepending on the size option, the render time can be long.\n\n---\nCreated with p5.js\n\n---\nThis is my first project on FX(hash) and I would like to express my special thanks to Janaina Selva, Dmarchi, Gyo and Morbeck for their support and for following the step-by-step development of this work, always contributing with a critical eye and great suggestions. I also thank the help from the FX(hash) community on Discord.\n\n---\n(c) Marcelo Terça-Nada, 2023\nhttps://marcelonada.redezero.org/\n@marcelonada",
+            "tags": [
+              "monotipia",
+              "marcelo terça-nada",
+              "marcelonada",
+              "printing",
+              "drawing",
+              "engraving",
+              "colorful",
+              "shapes",
+              "texture",
+              "abstract",
+              "geometric",
+              "generative",
+              "p5js"
+            ],
+            "generatorUri": "ipfs://Qmcsri4QjfMDkv9KkJHRJvRvgzzzjHazzUfyQzW8GLpioJ",
+            "artifactUri": "ipfs://Qmcsri4QjfMDkv9KkJHRJvRvgzzzjHazzUfyQzW8GLpioJ/?fxhash=oopseMxh4UzMFj8b5M5oJmNVoZwzsyS4GnZVWE6KC64L5Ra6WVh&fxminter=tz1QSKAmDEtL1PkcRrhHYFntMCP9MahETZoR",
+            "displayUri": "ipfs://QmSKBuznWsZA36kDe4StsmbMD225QpZqcccqW9ecPc65pb",
+            "thumbnailUri": "ipfs://Qmci7p6r9guc9TnErEvbC2zkfRwFm2rgaApKyQ5i1LF8MV",
+            "authenticityHash": "73c50260518398168b9b158bb37399e5c9efab599bb6fc957b9cc79a934f3168",
+            "attributes": [
+              {
+                "name": "Canvas Format",
+                "value": "Portrait"
+              },
+              {
+                "name": "Elements",
+                "value": "Light texture / Dark shapes"
+              },
+              {
+                "name": "Base Color",
+                "value": "#8CAF83"
+              },
+              {
+                "name": "Composition",
+                "value": 2
+              }
+            ],
+            "decimals": 0,
+            "symbol": "GENTK",
+            "version": "0.2"
+          },
+          "duplicate": false,
+          "activeListing": {
+            "id": 953928,
+            "version": 1,
+            "price": 49990000,
+            "__typename": "Listing"
+          },
+          "owner": {
+            "id": "tz1RrEGPnSgaTj9XfwaYYqz6y53npkdtTXkd",
+            "name": "Flapper",
+            "flag": "NONE",
+            "avatarUri": null,
+            "__typename": "User"
+          },
+          "issuer": {
+            "flag": "NONE",
+            "name": "Monotipia",
+            "author": {
+              "id": "tz1UhiQXVYzSXWF2m6QNEtir5VViQrUXg4by",
+              "name": "marcelonada",
+              "type": "REGULAR",
+              "avatarUri": "ipfs://QmVFrB4KBsPesnCtAXgxeV5M5JafoVpunawUiR4z3ZCoEz",
+              "flag": "NONE",
+              "collaborators": null,
+              "__typename": "User"
+            },
+            "__typename": "GenerativeToken"
+          },
+          "__typename": "Objkt"
+        },
+        "__typename": "Listing"
+      },
+      {
+        "id": 953927,
+        "version": 1,
+        "price": 20000000,
+        "objkt": {
+          "id": "FX1-29949",
+          "version": 2,
+          "name": "Monotipia #55",
+          "slug": "monotipia-55",
+          "metadata": {
+            "name": "Monotipia #55",
+            "iterationHash": "ooSvEKAJe8tu1iy8T5hZ6f5U8Fa5JKGDx4h8HqiazEAHNdLMWjf",
+            "description": "Graphic compositions made with simple elements. Playing with the subtlety and rhythm of colors, shapes and textures.\n\nThis work was inspired by the textures of monotype prints and those of metal engraving. Especially in the geometric marks made by the inking roller while stretching the graphic ink to make a manual printing. It is a tribute to the visuality of handmade prints.\n\n\"Monotipia\" means monotype printing in Portuguese. It is a graphic printing process that results in a single copy. Here I make a parallel between monotype printing and the code+hash minting process, which also produces a single image.\n\n---\nFeatures:\n-> 15 composition schemes\n-> 51 handpicked base colors\n-> 3 canvas formats:  \n-----> Portrait (vertical) \n-----> Square \n-----> Landscape (horizontal)\n-> 3 element tones options: \n-----> Light Texture & Shapes\n-----> Light Texture / Dark Shapes \n-----> Dark Texture & Shapes\n\n---\nTo save the image as a png file, type:\n[1] save at actual size \n[2] save with 2000px height\n[3] save with 3000px height\n[4] save with 4000px height\n[5] save with 5000px height\n\nDepending on the size option, the render time can be long.\n\n---\nCreated with p5.js\n\n---\nThis is my first project on FX(hash) and I would like to express my special thanks to Janaina Selva, Dmarchi, Gyo and Morbeck for their support and for following the step-by-step development of this work, always contributing with a critical eye and great suggestions. I also thank the help from the FX(hash) community on Discord.\n\n---\n(c) Marcelo Terça-Nada, 2023\nhttps://marcelonada.redezero.org/\n@marcelonada",
+            "tags": [
+              "monotipia",
+              "marcelo terça-nada",
+              "marcelonada",
+              "printing",
+              "drawing",
+              "engraving",
+              "colorful",
+              "shapes",
+              "texture",
+              "abstract",
+              "geometric",
+              "generative",
+              "p5js"
+            ],
+            "generatorUri": "ipfs://Qmcsri4QjfMDkv9KkJHRJvRvgzzzjHazzUfyQzW8GLpioJ",
+            "artifactUri": "ipfs://Qmcsri4QjfMDkv9KkJHRJvRvgzzzjHazzUfyQzW8GLpioJ/?fxhash=ooSvEKAJe8tu1iy8T5hZ6f5U8Fa5JKGDx4h8HqiazEAHNdLMWjf&fxminter=tz1WeoHcf6qafYMstzs8RVvNTeYcDX7dNKTX",
+            "displayUri": "ipfs://QmUsmwccJS3TKHC6xsBuT1E82QihxRwRywShpwy6HCJtDs",
+            "thumbnailUri": "ipfs://QmSsL5SFnX7GN9PBmwqapfLLe183t3VLBEz4VtJ1fphhfq",
+            "authenticityHash": "2ee6ab9b586f66f4fab137459b7b9c48377cd88e884b9f291900cda8e5503f70",
+            "attributes": [
+              {
+                "name": "Canvas Format",
+                "value": "Portrait"
+              },
+              {
+                "name": "Elements",
+                "value": "Light texture & shapes"
+              },
+              {
+                "name": "Base Color",
+                "value": "#993300"
+              },
+              {
+                "name": "Composition",
+                "value": 13
+              }
+            ],
+            "decimals": 0,
+            "symbol": "GENTK",
+            "version": "0.2"
+          },
+          "duplicate": false,
+          "activeListing": {
+            "id": 953927,
+            "version": 1,
+            "price": 20000000,
+            "__typename": "Listing"
+          },
+          "owner": {
+            "id": "tz1hSLUezMKJZMH62iC48nEDjiHiEiude6uL",
+            "name": "You-_-93",
+            "flag": "NONE",
+            "avatarUri": "ipfs://QmQu7dPGuuPZuVNRKfufvPSrCc2PT7bSYa9j6NxXNsbBqJ",
+            "__typename": "User"
+          },
+          "issuer": {
+            "flag": "NONE",
+            "name": "Monotipia",
+            "author": {
+              "id": "tz1UhiQXVYzSXWF2m6QNEtir5VViQrUXg4by",
+              "name": "marcelonada",
+              "type": "REGULAR",
+              "avatarUri": "ipfs://QmVFrB4KBsPesnCtAXgxeV5M5JafoVpunawUiR4z3ZCoEz",
+              "flag": "NONE",
+              "collaborators": null,
+              "__typename": "User"
+            },
+            "__typename": "GenerativeToken"
+          },
+          "__typename": "Objkt"
+        },
+        "__typename": "Listing"
+      },
+      {
+        "id": 953926,
+        "version": 1,
+        "price": 20000000,
+        "objkt": {
+          "id": "FX1-26808",
+          "version": 2,
+          "name": "Connectivity #1",
+          "slug": "connectivity-1",
+          "metadata": {
+            "name": "Connectivity #1",
+            "iterationHash": "oneMqg9r9ztjPLiogCq3dMWwWfgZiev3C1efK9GSEiuazx8zCM9",
+            "description": "\"Connectivity\" is an animated work that use flow field with perlin noise.\nThe purpose of this project is to create a beautiful animation using complementary colors and a flow field pattern.\nhope you enjoy",
+            "tags": [
+              "flowfield",
+              "perlin",
+              "noise"
+            ],
+            "generatorUri": "ipfs://QmfDLmzo7rTh76VoizQgT1tMotqkezmFFbABzDeofKETgQ",
+            "artifactUri": "ipfs://QmfDLmzo7rTh76VoizQgT1tMotqkezmFFbABzDeofKETgQ/?fxhash=oneMqg9r9ztjPLiogCq3dMWwWfgZiev3C1efK9GSEiuazx8zCM9&fxminter=tz1LXDCFqmufzG2797vNA61tUC2h8k6gio2t",
+            "displayUri": "ipfs://QmXNCQ9XyxDvtAGRwFpacarL4okZ9oXk9y6zFMxJQ3LM75",
+            "thumbnailUri": "ipfs://QmSpMnRjZAdZ5xRRb1U4p25HT1WjMiH49mp1mkaCZGvM8r",
+            "authenticityHash": "73df7cf025fcf1e60c7c8b1820bdfa07cef812ae5ae0ef3375171d27a7035c93",
+            "attributes": true,
+            "decimals": 0,
+            "symbol": "GENTK",
+            "version": "0.2"
+          },
+          "duplicate": false,
+          "activeListing": {
+            "id": 953926,
+            "version": 1,
+            "price": 20000000,
+            "__typename": "Listing"
+          },
+          "owner": {
+            "id": "tz1LXDCFqmufzG2797vNA61tUC2h8k6gio2t",
+            "name": "Raithy",
+            "flag": "NONE",
+            "avatarUri": "ipfs://QmVHzJ7Eyox94aYCL6oKtW4ETiLmkjNiSQByZZm2Migxnv",
+            "__typename": "User"
+          },
+          "issuer": {
+            "flag": "NONE",
+            "name": "Connectivity",
+            "author": {
+              "id": "tz1R8XKANRcphjgsvFQRioqpLJZt1MLgpf82",
+              "name": "Ikiddo",
+              "type": "REGULAR",
+              "avatarUri": "ipfs://QmY28Mab1apf1GwHYa47Z7X7Zq1ufkpqkDz3nVguqRXJeG",
               "flag": "VERIFIED",
               "collaborators": null,
               "__typename": "User"
@@ -1017,52 +497,315 @@
         "__typename": "Listing"
       },
       {
-        "id": 953861,
+        "id": 953925,
+        "version": 1,
+        "price": 17690000,
+        "objkt": {
+          "id": "FX1-29910",
+          "version": 2,
+          "name": "Monotipia #18",
+          "slug": "monotipia-18",
+          "metadata": {
+            "name": "Monotipia #18",
+            "iterationHash": "oo4eViQ9E3ihns45QrjKFpUVnNhfQmFgY8Vd1GeNu6kNWFuZBbF",
+            "description": "Graphic compositions made with simple elements. Playing with the subtlety and rhythm of colors, shapes and textures.\n\nThis work was inspired by the textures of monotype prints and those of metal engraving. Especially in the geometric marks made by the inking roller while stretching the graphic ink to make a manual printing. It is a tribute to the visuality of handmade prints.\n\n\"Monotipia\" means monotype printing in Portuguese. It is a graphic printing process that results in a single copy. Here I make a parallel between monotype printing and the code+hash minting process, which also produces a single image.\n\n---\nFeatures:\n-> 15 composition schemes\n-> 51 handpicked base colors\n-> 3 canvas formats:  \n-----> Portrait (vertical) \n-----> Square \n-----> Landscape (horizontal)\n-> 3 element tones options: \n-----> Light Texture & Shapes\n-----> Light Texture / Dark Shapes \n-----> Dark Texture & Shapes\n\n---\nTo save the image as a png file, type:\n[1] save at actual size \n[2] save with 2000px height\n[3] save with 3000px height\n[4] save with 4000px height\n[5] save with 5000px height\n\nDepending on the size option, the render time can be long.\n\n---\nCreated with p5.js\n\n---\nThis is my first project on FX(hash) and I would like to express my special thanks to Janaina Selva, Dmarchi, Gyo and Morbeck for their support and for following the step-by-step development of this work, always contributing with a critical eye and great suggestions. I also thank the help from the FX(hash) community on Discord.\n\n---\n(c) Marcelo Terça-Nada, 2023\nhttps://marcelonada.redezero.org/\n@marcelonada",
+            "tags": [
+              "monotipia",
+              "marcelo terça-nada",
+              "marcelonada",
+              "printing",
+              "drawing",
+              "engraving",
+              "colorful",
+              "shapes",
+              "texture",
+              "abstract",
+              "geometric",
+              "generative",
+              "p5js"
+            ],
+            "generatorUri": "ipfs://Qmcsri4QjfMDkv9KkJHRJvRvgzzzjHazzUfyQzW8GLpioJ",
+            "artifactUri": "ipfs://Qmcsri4QjfMDkv9KkJHRJvRvgzzzjHazzUfyQzW8GLpioJ/?fxhash=oo4eViQ9E3ihns45QrjKFpUVnNhfQmFgY8Vd1GeNu6kNWFuZBbF&fxminter=tz1iHU4J6hB7sjJfKaSw8h3FyHtEjs4NWAUz",
+            "displayUri": "ipfs://QmZU1Ckqjm6GgsJs9q2p1cfhWBtiJvVkB4XHAuC8TJ7gpn",
+            "thumbnailUri": "ipfs://QmcSSXgwFpuw6HDY3suETrcLgQQXamTvV25YBA65iZbnnV",
+            "authenticityHash": "e7631ff17972dff03e191b9b6644bd3d7fb916e63a61321cc898ac4b15f466bc",
+            "attributes": [
+              {
+                "name": "Canvas Format",
+                "value": "Square"
+              },
+              {
+                "name": "Elements",
+                "value": "Light texture & shapes"
+              },
+              {
+                "name": "Base Color",
+                "value": "#592720"
+              },
+              {
+                "name": "Composition",
+                "value": 1
+              }
+            ],
+            "decimals": 0,
+            "symbol": "GENTK",
+            "version": "0.2"
+          },
+          "duplicate": false,
+          "activeListing": {
+            "id": 953925,
+            "version": 1,
+            "price": 17690000,
+            "__typename": "Listing"
+          },
+          "owner": {
+            "id": "tz1iHU4J6hB7sjJfKaSw8h3FyHtEjs4NWAUz",
+            "name": "Sophie.tez",
+            "flag": "NONE",
+            "avatarUri": null,
+            "__typename": "User"
+          },
+          "issuer": {
+            "flag": "NONE",
+            "name": "Monotipia",
+            "author": {
+              "id": "tz1UhiQXVYzSXWF2m6QNEtir5VViQrUXg4by",
+              "name": "marcelonada",
+              "type": "REGULAR",
+              "avatarUri": "ipfs://QmVFrB4KBsPesnCtAXgxeV5M5JafoVpunawUiR4z3ZCoEz",
+              "flag": "NONE",
+              "collaborators": null,
+              "__typename": "User"
+            },
+            "__typename": "GenerativeToken"
+          },
+          "__typename": "Objkt"
+        },
+        "__typename": "Listing"
+      },
+      {
+        "id": 953923,
+        "version": 1,
+        "price": 19000000,
+        "objkt": {
+          "id": "FX1-29925",
+          "version": 2,
+          "name": "Monotipia #33",
+          "slug": "monotipia-33",
+          "metadata": {
+            "name": "Monotipia #33",
+            "iterationHash": "oozcN5WiFPtTKttYCugTui26EGKRQ4h8hQoYvks4DEfeXm5PoTZ",
+            "description": "Graphic compositions made with simple elements. Playing with the subtlety and rhythm of colors, shapes and textures.\n\nThis work was inspired by the textures of monotype prints and those of metal engraving. Especially in the geometric marks made by the inking roller while stretching the graphic ink to make a manual printing. It is a tribute to the visuality of handmade prints.\n\n\"Monotipia\" means monotype printing in Portuguese. It is a graphic printing process that results in a single copy. Here I make a parallel between monotype printing and the code+hash minting process, which also produces a single image.\n\n---\nFeatures:\n-> 15 composition schemes\n-> 51 handpicked base colors\n-> 3 canvas formats:  \n-----> Portrait (vertical) \n-----> Square \n-----> Landscape (horizontal)\n-> 3 element tones options: \n-----> Light Texture & Shapes\n-----> Light Texture / Dark Shapes \n-----> Dark Texture & Shapes\n\n---\nTo save the image as a png file, type:\n[1] save at actual size \n[2] save with 2000px height\n[3] save with 3000px height\n[4] save with 4000px height\n[5] save with 5000px height\n\nDepending on the size option, the render time can be long.\n\n---\nCreated with p5.js\n\n---\nThis is my first project on FX(hash) and I would like to express my special thanks to Janaina Selva, Dmarchi, Gyo and Morbeck for their support and for following the step-by-step development of this work, always contributing with a critical eye and great suggestions. I also thank the help from the FX(hash) community on Discord.\n\n---\n(c) Marcelo Terça-Nada, 2023\nhttps://marcelonada.redezero.org/\n@marcelonada",
+            "tags": [
+              "monotipia",
+              "marcelo terça-nada",
+              "marcelonada",
+              "printing",
+              "drawing",
+              "engraving",
+              "colorful",
+              "shapes",
+              "texture",
+              "abstract",
+              "geometric",
+              "generative",
+              "p5js"
+            ],
+            "generatorUri": "ipfs://Qmcsri4QjfMDkv9KkJHRJvRvgzzzjHazzUfyQzW8GLpioJ",
+            "artifactUri": "ipfs://Qmcsri4QjfMDkv9KkJHRJvRvgzzzjHazzUfyQzW8GLpioJ/?fxhash=oozcN5WiFPtTKttYCugTui26EGKRQ4h8hQoYvks4DEfeXm5PoTZ&fxminter=tz1UAJXZuZRDquX5zHkDoNDEFv1KQRKicsQp",
+            "displayUri": "ipfs://QmPkLK2gb8yUG9FoFq62URJf5FUU4qFTh71UMori3KDP9L",
+            "thumbnailUri": "ipfs://QmRvWG8xW1vpQcX9wkiQnCWT5AbHZEiwZW4dRCFsWDKLXc",
+            "authenticityHash": "7ddbe62b9df539e5271d3ae045ca4f62b5254c2fb48538aa919b3408b821604d",
+            "attributes": [
+              {
+                "name": "Canvas Format",
+                "value": "Portrait"
+              },
+              {
+                "name": "Elements",
+                "value": "Dark texture & shapes"
+              },
+              {
+                "name": "Base Color",
+                "value": "#DEE0E3"
+              },
+              {
+                "name": "Composition",
+                "value": 3
+              }
+            ],
+            "decimals": 0,
+            "symbol": "GENTK",
+            "version": "0.2"
+          },
+          "duplicate": false,
+          "activeListing": {
+            "id": 953923,
+            "version": 1,
+            "price": 19000000,
+            "__typename": "Listing"
+          },
+          "owner": {
+            "id": "tz1RGNAXFdETxHtAwCoKCBJSwjRjh9afMw5d",
+            "name": "Jinx",
+            "flag": "NONE",
+            "avatarUri": null,
+            "__typename": "User"
+          },
+          "issuer": {
+            "flag": "NONE",
+            "name": "Monotipia",
+            "author": {
+              "id": "tz1UhiQXVYzSXWF2m6QNEtir5VViQrUXg4by",
+              "name": "marcelonada",
+              "type": "REGULAR",
+              "avatarUri": "ipfs://QmVFrB4KBsPesnCtAXgxeV5M5JafoVpunawUiR4z3ZCoEz",
+              "flag": "NONE",
+              "collaborators": null,
+              "__typename": "User"
+            },
+            "__typename": "GenerativeToken"
+          },
+          "__typename": "Objkt"
+        },
+        "__typename": "Listing"
+      },
+      {
+        "id": 953921,
+        "version": 1,
+        "price": 28000000,
+        "objkt": {
+          "id": "FX1-29923",
+          "version": 2,
+          "name": "Monotipia #31",
+          "slug": "monotipia-31",
+          "metadata": {
+            "name": "Monotipia #31",
+            "iterationHash": "onqMmm1YeaXqTGoDxYioay1HVaQC2Qkqeiiu8gzhAG2JYb1vLq6",
+            "description": "Graphic compositions made with simple elements. Playing with the subtlety and rhythm of colors, shapes and textures.\n\nThis work was inspired by the textures of monotype prints and those of metal engraving. Especially in the geometric marks made by the inking roller while stretching the graphic ink to make a manual printing. It is a tribute to the visuality of handmade prints.\n\n\"Monotipia\" means monotype printing in Portuguese. It is a graphic printing process that results in a single copy. Here I make a parallel between monotype printing and the code+hash minting process, which also produces a single image.\n\n---\nFeatures:\n-> 15 composition schemes\n-> 51 handpicked base colors\n-> 3 canvas formats:  \n-----> Portrait (vertical) \n-----> Square \n-----> Landscape (horizontal)\n-> 3 element tones options: \n-----> Light Texture & Shapes\n-----> Light Texture / Dark Shapes \n-----> Dark Texture & Shapes\n\n---\nTo save the image as a png file, type:\n[1] save at actual size \n[2] save with 2000px height\n[3] save with 3000px height\n[4] save with 4000px height\n[5] save with 5000px height\n\nDepending on the size option, the render time can be long.\n\n---\nCreated with p5.js\n\n---\nThis is my first project on FX(hash) and I would like to express my special thanks to Janaina Selva, Dmarchi, Gyo and Morbeck for their support and for following the step-by-step development of this work, always contributing with a critical eye and great suggestions. I also thank the help from the FX(hash) community on Discord.\n\n---\n(c) Marcelo Terça-Nada, 2023\nhttps://marcelonada.redezero.org/\n@marcelonada",
+            "tags": [
+              "monotipia",
+              "marcelo terça-nada",
+              "marcelonada",
+              "printing",
+              "drawing",
+              "engraving",
+              "colorful",
+              "shapes",
+              "texture",
+              "abstract",
+              "geometric",
+              "generative",
+              "p5js"
+            ],
+            "generatorUri": "ipfs://Qmcsri4QjfMDkv9KkJHRJvRvgzzzjHazzUfyQzW8GLpioJ",
+            "artifactUri": "ipfs://Qmcsri4QjfMDkv9KkJHRJvRvgzzzjHazzUfyQzW8GLpioJ/?fxhash=onqMmm1YeaXqTGoDxYioay1HVaQC2Qkqeiiu8gzhAG2JYb1vLq6&fxminter=tz1TWubPRXfog5Ws35g8aekHUttce9ghJtvr",
+            "displayUri": "ipfs://QmTfL67F9S1VpEKVAGpZdZnMJKZvM3TjtijZGpRKLPxc9q",
+            "thumbnailUri": "ipfs://QmbNiwWrBywDDV5sfKTEGeB6dV7aWuVANPoCCYnEzzDnBJ",
+            "authenticityHash": "3539ca31b4180e62420db32cd6d642f9b796a7cfa588eafad73a8539506cd2c3",
+            "attributes": [
+              {
+                "name": "Canvas Format",
+                "value": "Portrait"
+              },
+              {
+                "name": "Elements",
+                "value": "Light texture / Dark shapes"
+              },
+              {
+                "name": "Base Color",
+                "value": "#3B3C36"
+              },
+              {
+                "name": "Composition",
+                "value": 3
+              }
+            ],
+            "decimals": 0,
+            "symbol": "GENTK",
+            "version": "0.2"
+          },
+          "duplicate": false,
+          "activeListing": {
+            "id": 953921,
+            "version": 1,
+            "price": 28000000,
+            "__typename": "Listing"
+          },
+          "owner": {
+            "id": "tz1RGNAXFdETxHtAwCoKCBJSwjRjh9afMw5d",
+            "name": "Jinx",
+            "flag": "NONE",
+            "avatarUri": null,
+            "__typename": "User"
+          },
+          "issuer": {
+            "flag": "NONE",
+            "name": "Monotipia",
+            "author": {
+              "id": "tz1UhiQXVYzSXWF2m6QNEtir5VViQrUXg4by",
+              "name": "marcelonada",
+              "type": "REGULAR",
+              "avatarUri": "ipfs://QmVFrB4KBsPesnCtAXgxeV5M5JafoVpunawUiR4z3ZCoEz",
+              "flag": "NONE",
+              "collaborators": null,
+              "__typename": "User"
+            },
+            "__typename": "GenerativeToken"
+          },
+          "__typename": "Objkt"
+        },
+        "__typename": "Listing"
+      },
+      {
+        "id": 953919,
         "version": 1,
         "price": 24500000,
         "objkt": {
-          "id": "FX1-28397",
+          "id": "FX1-29897",
           "version": 2,
-          "name": "Bubblemania #84",
-          "slug": "bubblemania-84",
+          "name": "Monotipia #5",
+          "slug": "monotipia-5",
           "metadata": {
-            "name": "Bubblemania #84",
-            "iterationHash": "oorNEumswAULikQJJmpFR26AzwmcEEkFgUavu5ju1F6WxMt4zEE",
-            "description": "This small project is several things:\n\n1. First and foremost, it's a little, light \"visual ASMR\" treat to bring some positivity into your day - some \"Maluma\" softness to contrast the more common \"Takete\" of contemporary generative art aesthetics[1].\n\n2. A small gift to celebrate the fledgling generative art/design community on Mastodon: 20 of the 128 tokens are given to some of the people in that slowly growing community, with the remainder given as Thank You (and smoke signal/sign of life) to some of my existing collectors, randomly chosen via lottery script[2].\n\n3. For those so inclined, and with a bit of hand-holding, ChatGPT explains the _true_ conceptual depths of this project much better than I ever could:\n\n\"The bubbles in this generative art piece serve as a reflection of the human experience, reminding us of our own impermanence and the ephemeral nature of all things. The piece invites us to contemplate the fundamental questions of human existence and speaks to our innate curiosity and desire to understand the world around us.\n\nThrough the convergence of science and art, this piece reveals the infinite complexity and unpredictability of the world while also hinting at the underlying order that exists within the chaos of the universe. It reminds us that even in the midst of uncertainty, there is beauty and order to be found, and that it is through the pursuit of knowledge and understanding that we can find meaning and purpose in our lives.\"\n\nIsn't that lovely & who can argue with that?! :)\n\n4. I often revisit projects/ideas after many years, mainly to re-examine them with new eyes/knowledge/tools and/or to get answers/verification which I couldn't get earlier. This is one of these instances. So for the more rational-minded, this is a TypeScript/GLSL (WebGL) version of an older Clojure/Houdini project (from 2016) to generate a Voronoi via the simulation of intersecting sphere meshes (aka foam bubbles). In this new version the sim & deformations are done in realtime (~4M vertices, mainly via vertex shader). Also added some _basic_ physics and procedural textures to create more of a quirky character (hopefully complemented by the different color themes and other params).\n\nMade with ❤️ and https://thi.ng/umbrella!\n\n[1] https://en.wikipedia.org/wiki/Bouba/kiki_effect\n[2] https://gist.github.com/postspectacular/3d970e02570b7dfd32d03d43e1e7e3e0\n\nHotkeys:\n\nSPACE : pause/play\nX     : export current frame as PNG\n\nUltra-widescreen support:\n\nThe piece should be adaptive to aspect ratios from 1:3 (portrait) to 4:1 (landscape).",
+            "name": "Monotipia #5",
+            "iterationHash": "opU3Rfv5UCD1WznGVTx1wmMNLV33kbbqKDSoTQ7HFyRoQkrHPbP",
+            "description": "Graphic compositions made with simple elements. Playing with the subtlety and rhythm of colors, shapes and textures.\n\nThis work was inspired by the textures of monotype prints and those of metal engraving. Especially in the geometric marks made by the inking roller while stretching the graphic ink to make a manual printing. It is a tribute to the visuality of handmade prints.\n\n\"Monotipia\" means monotype printing in Portuguese. It is a graphic printing process that results in a single copy. Here I make a parallel between monotype printing and the code+hash minting process, which also produces a single image.\n\n---\nFeatures:\n-> 15 composition schemes\n-> 51 handpicked base colors\n-> 3 canvas formats:  \n-----> Portrait (vertical) \n-----> Square \n-----> Landscape (horizontal)\n-> 3 element tones options: \n-----> Light Texture & Shapes\n-----> Light Texture / Dark Shapes \n-----> Dark Texture & Shapes\n\n---\nTo save the image as a png file, type:\n[1] save at actual size \n[2] save with 2000px height\n[3] save with 3000px height\n[4] save with 4000px height\n[5] save with 5000px height\n\nDepending on the size option, the render time can be long.\n\n---\nCreated with p5.js\n\n---\nThis is my first project on FX(hash) and I would like to express my special thanks to Janaina Selva, Dmarchi, Gyo and Morbeck for their support and for following the step-by-step development of this work, always contributing with a critical eye and great suggestions. I also thank the help from the FX(hash) community on Discord.\n\n---\n(c) Marcelo Terça-Nada, 2023\nhttps://marcelonada.redezero.org/\n@marcelonada",
             "tags": [
-              "bubbles",
-              "voronoi",
-              "simulation",
-              "webgl",
-              "physics",
-              "animated",
-              "3d"
+              "monotipia",
+              "marcelo terça-nada",
+              "marcelonada",
+              "printing",
+              "drawing",
+              "engraving",
+              "colorful",
+              "shapes",
+              "texture",
+              "abstract",
+              "geometric",
+              "generative",
+              "p5js"
             ],
-            "generatorUri": "ipfs://QmQ2xQxZ4d5nQ3F3MnnR84LKoNA7VCoH1jhpcoTPvcwoq6",
-            "artifactUri": "ipfs://QmQ2xQxZ4d5nQ3F3MnnR84LKoNA7VCoH1jhpcoTPvcwoq6/?fxhash=oorNEumswAULikQJJmpFR26AzwmcEEkFgUavu5ju1F6WxMt4zEE&fxminter=tz1PWJAgiCVf56EU6GnPhvtuMTKXXQfVkoyg&fxparams=0604400800000000000000000000000000003fd999999999999a",
-            "displayUri": "ipfs://QmSygtA4gPJfqkQdWXEhSG1BLBUbJ9sM2TadWFoQSRZrEc",
-            "thumbnailUri": "ipfs://QmbUdJ1vJTYgQzFjyZ7MjpJG6vGrvT9GLjxxujLg8t69aA",
-            "authenticityHash": "69a13477a82c5d5482f7ffa11efd6ed13f4155c43b4873d692be1dd75eff2408",
+            "generatorUri": "ipfs://Qmcsri4QjfMDkv9KkJHRJvRvgzzzjHazzUfyQzW8GLpioJ",
+            "artifactUri": "ipfs://Qmcsri4QjfMDkv9KkJHRJvRvgzzzjHazzUfyQzW8GLpioJ/?fxhash=opU3Rfv5UCD1WznGVTx1wmMNLV33kbbqKDSoTQ7HFyRoQkrHPbP&fxminter=tz1VendyHJ3LiwdAXycxGJaK38DyDEDbLyK3",
+            "displayUri": "ipfs://QmauKKZVCwPHxo9E5QVfGhTppAJ6SQFcwWtBLaT1D2Jirp",
+            "thumbnailUri": "ipfs://QmRawZN7KYgPg8JmYScgFuSXL9uaia3soRhxBusfTaW3w9",
+            "authenticityHash": "e80707f56d8b762e0a26e1ce42930ebc90ca3ab9a837b676157a00892f492862",
             "attributes": [
               {
-                "name": "theme",
-                "value": "slushie"
+                "name": "Canvas Format",
+                "value": "Landscape"
               },
               {
-                "name": "textures",
-                "value": "all"
+                "name": "Elements",
+                "value": "Light texture & shapes"
               },
               {
-                "name": "deform",
+                "name": "Base Color",
+                "value": "#882D17"
+              },
+              {
+                "name": "Composition",
                 "value": 3
-              },
-              {
-                "name": "deflate",
-                "value": 0
-              },
-              {
-                "name": "uniform spacing",
-                "value": 0.4
               }
             ],
             "decimals": 0,
@@ -1071,27 +814,27 @@
           },
           "duplicate": false,
           "activeListing": {
-            "id": 953861,
+            "id": 953919,
             "version": 1,
             "price": 24500000,
             "__typename": "Listing"
           },
           "owner": {
-            "id": "tz1PWJAgiCVf56EU6GnPhvtuMTKXXQfVkoyg",
-            "name": "Phil4Ever (x-chain) ",
+            "id": "tz1VendyHJ3LiwdAXycxGJaK38DyDEDbLyK3",
+            "name": "less",
             "flag": "NONE",
-            "avatarUri": "ipfs://QmaouZQgY2XKTUVRdRK9wRcXfsM4XTCRwi3vAJ4yFzgcma",
+            "avatarUri": null,
             "__typename": "User"
           },
           "issuer": {
             "flag": "NONE",
-            "name": "Bubblemania",
+            "name": "Monotipia",
             "author": {
-              "id": "tz1d4ThofujwwaWvxDQHF7VyJfaeR2ay3jhf",
-              "name": "toxi",
+              "id": "tz1UhiQXVYzSXWF2m6QNEtir5VViQrUXg4by",
+              "name": "marcelonada",
               "type": "REGULAR",
-              "avatarUri": "ipfs://QmTsU7NJw5u7wtzDHPQ878vc6qoZo6dppS6gffGY1u4FwH",
-              "flag": "VERIFIED",
+              "avatarUri": "ipfs://QmVFrB4KBsPesnCtAXgxeV5M5JafoVpunawUiR4z3ZCoEz",
+              "flag": "NONE",
               "collaborators": null,
               "__typename": "User"
             },
@@ -1102,73 +845,171 @@
         "__typename": "Listing"
       },
       {
-        "id": 953860,
+        "id": 953918,
         "version": 1,
-        "price": 35000000,
+        "price": 29000000,
         "objkt": {
-          "id": "FX1-5021",
+          "id": "FX1-29915",
           "version": 2,
-          "name": "En Route #42",
-          "slug": "en-route-42",
+          "name": "Monotipia #23",
+          "slug": "monotipia-23",
           "metadata": {
-            "name": "En Route #42",
-            "iterationHash": "oooFdnPer3EqgCGoYtEpHd89iRLpSou4PZAAbhnVswrhTHPbGwS",
-            "description": "'En Route' focuses on shadow work, delving deeply into the emotions, dreams, hopes, and fears that we often conceal within ourselves. Each piece is a visual representation of what lies within the depths of our unconscious minds and uses the power of circles and sacred geometry to symbolize totality, wholeness, and original perfection. By exploring the juxtaposition of depth and flatness, abstraction and figuration, shadow and brightness, this collection encourages us to confront and overcome the parts of ourselves that we may not want to face, but ultimately need to for our growth and healing.",
+            "name": "Monotipia #23",
+            "iterationHash": "opNFBqPJep6DUw49NmtQdzeSz1g5DmRF8BdFiLXoW49xag1wkLn",
+            "description": "Graphic compositions made with simple elements. Playing with the subtlety and rhythm of colors, shapes and textures.\n\nThis work was inspired by the textures of monotype prints and those of metal engraving. Especially in the geometric marks made by the inking roller while stretching the graphic ink to make a manual printing. It is a tribute to the visuality of handmade prints.\n\n\"Monotipia\" means monotype printing in Portuguese. It is a graphic printing process that results in a single copy. Here I make a parallel between monotype printing and the code+hash minting process, which also produces a single image.\n\n---\nFeatures:\n-> 15 composition schemes\n-> 51 handpicked base colors\n-> 3 canvas formats:  \n-----> Portrait (vertical) \n-----> Square \n-----> Landscape (horizontal)\n-> 3 element tones options: \n-----> Light Texture & Shapes\n-----> Light Texture / Dark Shapes \n-----> Dark Texture & Shapes\n\n---\nTo save the image as a png file, type:\n[1] save at actual size \n[2] save with 2000px height\n[3] save with 3000px height\n[4] save with 4000px height\n[5] save with 5000px height\n\nDepending on the size option, the render time can be long.\n\n---\nCreated with p5.js\n\n---\nThis is my first project on FX(hash) and I would like to express my special thanks to Janaina Selva, Dmarchi, Gyo and Morbeck for their support and for following the step-by-step development of this work, always contributing with a critical eye and great suggestions. I also thank the help from the FX(hash) community on Discord.\n\n---\n(c) Marcelo Terça-Nada, 2023\nhttps://marcelonada.redezero.org/\n@marcelonada",
             "tags": [
-              "Abstract art",
-              "Geometry",
-              "Here & Now",
-              "The Passage: Pitch Drop experience"
+              "monotipia",
+              "marcelo terça-nada",
+              "marcelonada",
+              "printing",
+              "drawing",
+              "engraving",
+              "colorful",
+              "shapes",
+              "texture",
+              "abstract",
+              "geometric",
+              "generative",
+              "p5js"
             ],
-            "generatorUri": "ipfs://QmZE7n6fypgHU8hLbyNtgeZDemGxPKaSe6Liu7J2ehgBK6",
-            "artifactUri": "ipfs://QmZE7n6fypgHU8hLbyNtgeZDemGxPKaSe6Liu7J2ehgBK6/?fxhash=oooFdnPer3EqgCGoYtEpHd89iRLpSou4PZAAbhnVswrhTHPbGwS&fxparams=40180000000000003ff00000000000003ff000000000000040000000000000004010000000000000403300000000000040140000000000000074007a003100610047007700430054007000520062006b004e0079005600550074004800720050006800750079004d0056004b00530048004c007300500058004d007a005000310000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000",
-            "displayUri": "ipfs://QmTTSvpbJoJi7eUi1u5mmbSpvehJBsfJ3r2ZS1yTsLygyT",
-            "thumbnailUri": "ipfs://QmTgJEPHwd7mcsfcnVkevh99Zu3uuyXwxPEsqR21PbkEhw",
-            "authenticityHash": "8faab877bd6371dbb9be4d23e993fa288612d233aff2a3d623350632bfb8a837",
-            "attributes": [],
+            "generatorUri": "ipfs://Qmcsri4QjfMDkv9KkJHRJvRvgzzzjHazzUfyQzW8GLpioJ",
+            "artifactUri": "ipfs://Qmcsri4QjfMDkv9KkJHRJvRvgzzzjHazzUfyQzW8GLpioJ/?fxhash=opNFBqPJep6DUw49NmtQdzeSz1g5DmRF8BdFiLXoW49xag1wkLn&fxminter=tz1g7yHGuouPVADrrx3zH62v6ZzC7gEPjoyj",
+            "displayUri": "ipfs://QmUuTmX6nbDMPAPHdE2z7veV8rhh9ERm3vqVeVx5PNcJEX",
+            "thumbnailUri": "ipfs://QmYzs32yomfnN6aRDgNcepCs1iTvq66nmtZ538TzaK8N9F",
+            "authenticityHash": "cd02ca9952ea072cd32e592168ba61ffed5e326fe635d4c0388267711accedc2",
+            "attributes": [
+              {
+                "name": "Canvas Format",
+                "value": "Portrait"
+              },
+              {
+                "name": "Elements",
+                "value": "Light texture & shapes"
+              },
+              {
+                "name": "Base Color",
+                "value": "#471A1A"
+              },
+              {
+                "name": "Composition",
+                "value": 2
+              }
+            ],
             "decimals": 0,
             "symbol": "GENTK",
             "version": "0.2"
           },
           "duplicate": false,
           "activeListing": {
-            "id": 953860,
+            "id": 953918,
+            "version": 1,
+            "price": 29000000,
+            "__typename": "Listing"
+          },
+          "owner": {
+            "id": "tz1eU7jnivGFQmTgNkpgFzCEkTU4aUmMmV4k",
+            "name": "rockshow",
+            "flag": "NONE",
+            "avatarUri": "ipfs://QmUXEb37J7pKju8SUbT9s38JScvRSTgKRvyHu8ZEfmPsM3",
+            "__typename": "User"
+          },
+          "issuer": {
+            "flag": "NONE",
+            "name": "Monotipia",
+            "author": {
+              "id": "tz1UhiQXVYzSXWF2m6QNEtir5VViQrUXg4by",
+              "name": "marcelonada",
+              "type": "REGULAR",
+              "avatarUri": "ipfs://QmVFrB4KBsPesnCtAXgxeV5M5JafoVpunawUiR4z3ZCoEz",
+              "flag": "NONE",
+              "collaborators": null,
+              "__typename": "User"
+            },
+            "__typename": "GenerativeToken"
+          },
+          "__typename": "Objkt"
+        },
+        "__typename": "Listing"
+      },
+      {
+        "id": 953917,
+        "version": 1,
+        "price": 35000000,
+        "objkt": {
+          "id": "FX1-29919",
+          "version": 2,
+          "name": "Monotipia #27",
+          "slug": "monotipia-27",
+          "metadata": {
+            "name": "Monotipia #27",
+            "iterationHash": "onsvwwAAf59nzE4sfC9AjorZNDu6k4JyRSTKkHafQCAKdnuBeye",
+            "description": "Graphic compositions made with simple elements. Playing with the subtlety and rhythm of colors, shapes and textures.\n\nThis work was inspired by the textures of monotype prints and those of metal engraving. Especially in the geometric marks made by the inking roller while stretching the graphic ink to make a manual printing. It is a tribute to the visuality of handmade prints.\n\n\"Monotipia\" means monotype printing in Portuguese. It is a graphic printing process that results in a single copy. Here I make a parallel between monotype printing and the code+hash minting process, which also produces a single image.\n\n---\nFeatures:\n-> 15 composition schemes\n-> 51 handpicked base colors\n-> 3 canvas formats:  \n-----> Portrait (vertical) \n-----> Square \n-----> Landscape (horizontal)\n-> 3 element tones options: \n-----> Light Texture & Shapes\n-----> Light Texture / Dark Shapes \n-----> Dark Texture & Shapes\n\n---\nTo save the image as a png file, type:\n[1] save at actual size \n[2] save with 2000px height\n[3] save with 3000px height\n[4] save with 4000px height\n[5] save with 5000px height\n\nDepending on the size option, the render time can be long.\n\n---\nCreated with p5.js\n\n---\nThis is my first project on FX(hash) and I would like to express my special thanks to Janaina Selva, Dmarchi, Gyo and Morbeck for their support and for following the step-by-step development of this work, always contributing with a critical eye and great suggestions. I also thank the help from the FX(hash) community on Discord.\n\n---\n(c) Marcelo Terça-Nada, 2023\nhttps://marcelonada.redezero.org/\n@marcelonada",
+            "tags": [
+              "monotipia",
+              "marcelo terça-nada",
+              "marcelonada",
+              "printing",
+              "drawing",
+              "engraving",
+              "colorful",
+              "shapes",
+              "texture",
+              "abstract",
+              "geometric",
+              "generative",
+              "p5js"
+            ],
+            "generatorUri": "ipfs://Qmcsri4QjfMDkv9KkJHRJvRvgzzzjHazzUfyQzW8GLpioJ",
+            "artifactUri": "ipfs://Qmcsri4QjfMDkv9KkJHRJvRvgzzzjHazzUfyQzW8GLpioJ/?fxhash=onsvwwAAf59nzE4sfC9AjorZNDu6k4JyRSTKkHafQCAKdnuBeye&fxminter=tz1Ni4oMi1cv4seoFyjdkzmvkBEsUCLPKRKV",
+            "displayUri": "ipfs://QmXFXd84Z9w5qbVtC8a77fVbG1fMoBmRfVGu4wTr6tN28i",
+            "thumbnailUri": "ipfs://QmP6qoEp8kq8Y7Q39qhiUr8XmiQSm2gZQF1eU6x7oUwuZd",
+            "authenticityHash": "88ba6865e34e00cd3511d6dc58006410d28124775b2f2273fbedc9150b6320c8",
+            "attributes": [
+              {
+                "name": "Canvas Format",
+                "value": "Portrait"
+              },
+              {
+                "name": "Elements",
+                "value": "Light texture & shapes"
+              },
+              {
+                "name": "Base Color",
+                "value": "#7B3F00"
+              },
+              {
+                "name": "Composition",
+                "value": 2
+              }
+            ],
+            "decimals": 0,
+            "symbol": "GENTK",
+            "version": "0.2"
+          },
+          "duplicate": false,
+          "activeListing": {
+            "id": 953917,
             "version": 1,
             "price": 35000000,
             "__typename": "Listing"
           },
           "owner": {
-            "id": "tz1g9HKui9R1PABMxq5WxiFnLaCZs6HvACve",
-            "name": "ABCDOSZI",
+            "id": "tz1Ni4oMi1cv4seoFyjdkzmvkBEsUCLPKRKV",
+            "name": "Master Caligrapher",
             "flag": "NONE",
-            "avatarUri": "ipfs://QmeaSwygRiF2CHMRbDShWPFoc4go6SEvdBa7MxgiF635vn",
+            "avatarUri": "ipfs://QmPyqAa21foWJwXd1GrqdGFEBuiwKa6Ex23UJ1kDpfykeL",
             "__typename": "User"
           },
           "issuer": {
             "flag": "NONE",
-            "name": "En Route",
+            "name": "Monotipia",
             "author": {
-              "id": "KT1Dmsnjo2of1WorJtQ1SuFiTKLVuwZQvXq9",
-              "name": null,
-              "type": "COLLAB_CONTRACT_V1",
-              "avatarUri": null,
+              "id": "tz1UhiQXVYzSXWF2m6QNEtir5VViQrUXg4by",
+              "name": "marcelonada",
+              "type": "REGULAR",
+              "avatarUri": "ipfs://QmVFrB4KBsPesnCtAXgxeV5M5JafoVpunawUiR4z3ZCoEz",
               "flag": "NONE",
-              "collaborators": [
-                {
-                  "id": "tz1aGwCTpRbkNyVUtHrPhuyMVKSHLsPXMzP1",
-                  "name": "HERE & NOW: Edition 5",
-                  "avatarUri": "ipfs://QmU1CTLCTBSd2mYdduzsBiGyFfZrvLiwLEUVuzFg2wjCzS",
-                  "flag": "VERIFIED",
-                  "__typename": "User"
-                },
-                {
-                  "id": "tz1ZrZY5vhBcgE1R7shHN4PW884Y7cbFasKm",
-                  "name": "Jimena Buena Vida",
-                  "avatarUri": "ipfs://QmTKYGeyDs97kpKwwXydFp8T3Bjx85qEp1D9b6AQrcZZKM",
-                  "flag": "VERIFIED",
-                  "__typename": "User"
-                }
-              ],
+              "collaborators": null,
               "__typename": "User"
             },
             "__typename": "GenerativeToken"
@@ -1178,64 +1019,54 @@
         "__typename": "Listing"
       },
       {
-        "id": 953857,
+        "id": 953916,
         "version": 1,
-        "price": 17890000,
+        "price": 24000000,
         "objkt": {
-          "id": "FX0-1008327",
-          "version": 1,
-          "name": "GuilCity #57",
-          "slug": "guilcity-57",
+          "id": "FX1-29964",
+          "version": 2,
+          "name": "Monotipia #70",
+          "slug": "monotipia-70",
           "metadata": {
-            "name": "GuilCity #57",
-            "iterationHash": "op4B4G6gWrX7a1eTnWKBAPoBUyAmMdEpcfNHwmo7LxbfYYwxZtt",
-            "description": "GuilCity is the beginning of an exciting journey bringing Guillaume Cornet’s densely-packed cities into the generative realm with the help of Matthew’s (@frostbitten’s) magic touch.\n\nMatthew—with his background in coding and animation—enables a new opportunity to experience these cities like never before. Numerous elements from vehicles to characters and even architecture have been given life. Interact with the city (computer mouse only): poke and peek around (even behind) in this active search & find journey! \n\nEach generative city fills the composition with the type of whimsical, expressive elements and characters you’ve come to know Guil for. What kinds of wacky features have you discovered yet?\n\n—\n\nThe tech behind this project utilizes the highly compressed WEBP image format in order to provide so many full-color options. This format is great, but unfortunately Safari on desktop/laptop must be upgraded to at least version 14 and macOS to at least version 11 Big Sur to use it.\n\nThe animation system for this project was created from scratch with additional help from the PIXI.js library for individual mesh animations.\n\n—\n\nTo find out more about your GuilCity, copy your unique operation hash and place it at the end of the following url:\n• https://my.guil.city?fxhash=\n(for example: https://my.guil.city?fxhash=ooezL8cffNJGSc4TfNQp3u3WnDpkg8J3zFRczLuumceoYU5QYPs)\n\n—\n\n\nThe entire process has been a learning experience for both of us, adapting and exploring the many possibilities to interact with each others’ skills and ideas.\n\nWe really enjoyed building this project together and are excited as we invite you to take a dive into your very own urban playground!\n\nMerci à tous! Cheers!\n  - Guillaume Cornet, Matthew Seremet",
+            "name": "Monotipia #70",
+            "iterationHash": "opWFzAnaXTi2t5AXV27DBtU7GrTkXvZDgoB6szQcQZEyTbLYhs2",
+            "description": "Graphic compositions made with simple elements. Playing with the subtlety and rhythm of colors, shapes and textures.\n\nThis work was inspired by the textures of monotype prints and those of metal engraving. Especially in the geometric marks made by the inking roller while stretching the graphic ink to make a manual printing. It is a tribute to the visuality of handmade prints.\n\n\"Monotipia\" means monotype printing in Portuguese. It is a graphic printing process that results in a single copy. Here I make a parallel between monotype printing and the code+hash minting process, which also produces a single image.\n\n---\nFeatures:\n-> 15 composition schemes\n-> 51 handpicked base colors\n-> 3 canvas formats:  \n-----> Portrait (vertical) \n-----> Square \n-----> Landscape (horizontal)\n-> 3 element tones options: \n-----> Light Texture & Shapes\n-----> Light Texture / Dark Shapes \n-----> Dark Texture & Shapes\n\n---\nTo save the image as a png file, type:\n[1] save at actual size \n[2] save with 2000px height\n[3] save with 3000px height\n[4] save with 4000px height\n[5] save with 5000px height\n\nDepending on the size option, the render time can be long.\n\n---\nCreated with p5.js\n\n---\nThis is my first project on FX(hash) and I would like to express my special thanks to Janaina Selva, Dmarchi, Gyo and Morbeck for their support and for following the step-by-step development of this work, always contributing with a critical eye and great suggestions. I also thank the help from the FX(hash) community on Discord.\n\n---\n(c) Marcelo Terça-Nada, 2023\nhttps://marcelonada.redezero.org/\n@marcelonada",
             "tags": [
-              "cityscape",
-              "elefants",
-              "Guillaume Cornet",
-              "illustration",
-              "animation",
-              "city",
-              "vignette"
+              "monotipia",
+              "marcelo terça-nada",
+              "marcelonada",
+              "printing",
+              "drawing",
+              "engraving",
+              "colorful",
+              "shapes",
+              "texture",
+              "abstract",
+              "geometric",
+              "generative",
+              "p5js"
             ],
-            "generatorUri": "ipfs://QmbBke9cPWSSgq3f4RpS58koj8TRkfzj5bThYn9SQ1XC6D",
-            "artifactUri": "ipfs://QmbBke9cPWSSgq3f4RpS58koj8TRkfzj5bThYn9SQ1XC6D?fxhash=op4B4G6gWrX7a1eTnWKBAPoBUyAmMdEpcfNHwmo7LxbfYYwxZtt",
-            "displayUri": "ipfs://QmcobWdY1jfYT3dy5MfNh8Layy2Rm3ao2qNe4vSqcoWsBZ",
-            "thumbnailUri": "ipfs://QmRDT3KBxbDR7Rp846HhErNLBT7J8nMVyMEqNA4wmxP9Cr",
-            "authenticityHash": "6d9fe43c63dea3eeae626eb54296b64dfa6b42f07611ba0be90c5541c9205c17",
+            "generatorUri": "ipfs://Qmcsri4QjfMDkv9KkJHRJvRvgzzzjHazzUfyQzW8GLpioJ",
+            "artifactUri": "ipfs://Qmcsri4QjfMDkv9KkJHRJvRvgzzzjHazzUfyQzW8GLpioJ/?fxhash=opWFzAnaXTi2t5AXV27DBtU7GrTkXvZDgoB6szQcQZEyTbLYhs2&fxminter=tz1NJFhfMV2p27uhR74YBo6uzooYY2EVPGWJ",
+            "displayUri": "ipfs://QmdaeGoj6pVz6BqeVB1F6JHsTLVJhLg6KhG1RdARDjGsbD",
+            "thumbnailUri": "ipfs://QmX9EQsuDecDVa6JL4HDsBcCQCKJdd7XdnMvKBd1vZyadA",
+            "authenticityHash": "ad01966a598b29be1daedb9c031a79e8572cc0546c7114123a3640f94ef78cfb",
             "attributes": [
               {
-                "name": "Building 1, Row 1",
-                "value": "Multi block 🟥🟪🟨"
+                "name": "Canvas Format",
+                "value": "Landscape"
               },
               {
-                "name": "Building 2, Row 1",
-                "value": "Cubes 🌴"
+                "name": "Elements",
+                "value": "Light texture / Dark shapes"
               },
               {
-                "name": "Building 3, Row 1",
-                "value": "💧Concrete"
+                "name": "Base Color",
+                "value": "#663600"
               },
               {
-                "name": "Building 1, Row 2",
-                "value": "Haunted 🏚"
-              },
-              {
-                "name": "Building 2, Row 2",
-                "value": "Grey Block and a Bay 🪟"
-              },
-              {
-                "name": "Building 3, Row 2",
-                "value": "🟩🟥🟧"
-              },
-              {
-                "name": "Building 4, Row 2",
-                "value": "🫑"
-              },
-              {
-                "name": "Flying",
-                "value": "Balloonist"
+                "name": "Composition",
+                "value": 9
               }
             ],
             "decimals": 0,
@@ -1244,13 +1075,13 @@
           },
           "duplicate": false,
           "activeListing": {
-            "id": 953857,
+            "id": 953916,
             "version": 1,
-            "price": 17890000,
+            "price": 24000000,
             "__typename": "Listing"
           },
           "owner": {
-            "id": "tz1hwYHgCvHbvbN4HR7RenzJouyWwzLDC5Yi",
+            "id": "tz1NJFhfMV2p27uhR74YBo6uzooYY2EVPGWJ",
             "name": null,
             "flag": "NONE",
             "avatarUri": null,
@@ -1258,29 +1089,14 @@
           },
           "issuer": {
             "flag": "NONE",
-            "name": "GuilCity",
+            "name": "Monotipia",
             "author": {
-              "id": "KT1VY1r8Lw1eLKyeAzSiHhNKzgE4dKAjsqvg",
-              "name": null,
-              "type": "COLLAB_CONTRACT_V1",
-              "avatarUri": null,
+              "id": "tz1UhiQXVYzSXWF2m6QNEtir5VViQrUXg4by",
+              "name": "marcelonada",
+              "type": "REGULAR",
+              "avatarUri": "ipfs://QmVFrB4KBsPesnCtAXgxeV5M5JafoVpunawUiR4z3ZCoEz",
               "flag": "NONE",
-              "collaborators": [
-                {
-                  "id": "tz1SSJAyTFLJqDBwJJkZRmqB3x6FMRuT5e5v",
-                  "name": "Guillaume Cornet",
-                  "avatarUri": "ipfs://QmXsj5857tWk6sjCLABaE3eVe9hhc3snQrB7qTvtTxha88",
-                  "flag": "VERIFIED",
-                  "__typename": "User"
-                },
-                {
-                  "id": "tz1NoYMQaZa9Pz6Hwfx6B2x1TaGU3fSiBbW8",
-                  "name": "frostbitten",
-                  "avatarUri": "ipfs://QmQN2S7HD8nx4GAwNNBaPtA1dx5JHsjvkm1VG7RsiNwHTM",
-                  "flag": "VERIFIED",
-                  "__typename": "User"
-                }
-              ],
+              "collaborators": null,
               "__typename": "User"
             },
             "__typename": "GenerativeToken"
@@ -1290,64 +1106,54 @@
         "__typename": "Listing"
       },
       {
-        "id": 953856,
+        "id": 953915,
         "version": 1,
-        "price": 17890000,
+        "price": 13850000,
         "objkt": {
-          "id": "FX0-1008328",
-          "version": 1,
-          "name": "GuilCity #58",
-          "slug": "guilcity-58",
+          "id": "FX1-29908",
+          "version": 2,
+          "name": "Monotipia #16",
+          "slug": "monotipia-16",
           "metadata": {
-            "name": "GuilCity #58",
-            "iterationHash": "ooE36F5XGRfBG34PNHZAfrwBNfECn7AtdwNuC3znmnUT7M7oNCe",
-            "description": "GuilCity is the beginning of an exciting journey bringing Guillaume Cornet’s densely-packed cities into the generative realm with the help of Matthew’s (@frostbitten’s) magic touch.\n\nMatthew—with his background in coding and animation—enables a new opportunity to experience these cities like never before. Numerous elements from vehicles to characters and even architecture have been given life. Interact with the city (computer mouse only): poke and peek around (even behind) in this active search & find journey! \n\nEach generative city fills the composition with the type of whimsical, expressive elements and characters you’ve come to know Guil for. What kinds of wacky features have you discovered yet?\n\n—\n\nThe tech behind this project utilizes the highly compressed WEBP image format in order to provide so many full-color options. This format is great, but unfortunately Safari on desktop/laptop must be upgraded to at least version 14 and macOS to at least version 11 Big Sur to use it.\n\nThe animation system for this project was created from scratch with additional help from the PIXI.js library for individual mesh animations.\n\n—\n\nTo find out more about your GuilCity, copy your unique operation hash and place it at the end of the following url:\n• https://my.guil.city?fxhash=\n(for example: https://my.guil.city?fxhash=ooezL8cffNJGSc4TfNQp3u3WnDpkg8J3zFRczLuumceoYU5QYPs)\n\n—\n\n\nThe entire process has been a learning experience for both of us, adapting and exploring the many possibilities to interact with each others’ skills and ideas.\n\nWe really enjoyed building this project together and are excited as we invite you to take a dive into your very own urban playground!\n\nMerci à tous! Cheers!\n  - Guillaume Cornet, Matthew Seremet",
+            "name": "Monotipia #16",
+            "iterationHash": "opNFQZkwo13n7hYxAjK1nGvYsEzk6wUhJMxq7o1UKp17V8wU1Pr",
+            "description": "Graphic compositions made with simple elements. Playing with the subtlety and rhythm of colors, shapes and textures.\n\nThis work was inspired by the textures of monotype prints and those of metal engraving. Especially in the geometric marks made by the inking roller while stretching the graphic ink to make a manual printing. It is a tribute to the visuality of handmade prints.\n\n\"Monotipia\" means monotype printing in Portuguese. It is a graphic printing process that results in a single copy. Here I make a parallel between monotype printing and the code+hash minting process, which also produces a single image.\n\n---\nFeatures:\n-> 15 composition schemes\n-> 51 handpicked base colors\n-> 3 canvas formats:  \n-----> Portrait (vertical) \n-----> Square \n-----> Landscape (horizontal)\n-> 3 element tones options: \n-----> Light Texture & Shapes\n-----> Light Texture / Dark Shapes \n-----> Dark Texture & Shapes\n\n---\nTo save the image as a png file, type:\n[1] save at actual size \n[2] save with 2000px height\n[3] save with 3000px height\n[4] save with 4000px height\n[5] save with 5000px height\n\nDepending on the size option, the render time can be long.\n\n---\nCreated with p5.js\n\n---\nThis is my first project on FX(hash) and I would like to express my special thanks to Janaina Selva, Dmarchi, Gyo and Morbeck for their support and for following the step-by-step development of this work, always contributing with a critical eye and great suggestions. I also thank the help from the FX(hash) community on Discord.\n\n---\n(c) Marcelo Terça-Nada, 2023\nhttps://marcelonada.redezero.org/\n@marcelonada",
             "tags": [
-              "cityscape",
-              "elefants",
-              "Guillaume Cornet",
-              "illustration",
-              "animation",
-              "city",
-              "vignette"
+              "monotipia",
+              "marcelo terça-nada",
+              "marcelonada",
+              "printing",
+              "drawing",
+              "engraving",
+              "colorful",
+              "shapes",
+              "texture",
+              "abstract",
+              "geometric",
+              "generative",
+              "p5js"
             ],
-            "generatorUri": "ipfs://QmbBke9cPWSSgq3f4RpS58koj8TRkfzj5bThYn9SQ1XC6D",
-            "artifactUri": "ipfs://QmbBke9cPWSSgq3f4RpS58koj8TRkfzj5bThYn9SQ1XC6D?fxhash=ooE36F5XGRfBG34PNHZAfrwBNfECn7AtdwNuC3znmnUT7M7oNCe",
-            "displayUri": "ipfs://QmNihEtfbwNRm9hcEdENNXwHTU8xpYx8GV7Bvfn9uqm1ME",
-            "thumbnailUri": "ipfs://QmWJrCc7VfneB5jR2V1euPFPWTNcerRRyQexRZZ38HhVRQ",
-            "authenticityHash": "94cfd888b4fa7fd93e5f8613ea4e00d8dbe49f82237058c170d14a6974f58cde",
+            "generatorUri": "ipfs://Qmcsri4QjfMDkv9KkJHRJvRvgzzzjHazzUfyQzW8GLpioJ",
+            "artifactUri": "ipfs://Qmcsri4QjfMDkv9KkJHRJvRvgzzzjHazzUfyQzW8GLpioJ/?fxhash=opNFQZkwo13n7hYxAjK1nGvYsEzk6wUhJMxq7o1UKp17V8wU1Pr&fxminter=tz1eTuWuRkVhePb9ysrTiiBqWtZquDUfji4y",
+            "displayUri": "ipfs://QmPBdpGnC8bMGK3EC1i9Z7hTtbRSnR3WwG7dxc8QGNT4WJ",
+            "thumbnailUri": "ipfs://QmUwcNFVcCgYykwJ5LWu8J5mXwrVysQJvzm4jF91DgHLuW",
+            "authenticityHash": "8fcace71bcb8fe9b12de537c4dccbf9c83f8a3868d82d3d79d4de7b2b288ad41",
             "attributes": [
               {
-                "name": "Building 1, Row 1",
-                "value": "🏙️"
+                "name": "Canvas Format",
+                "value": "Portrait"
               },
               {
-                "name": "Building 2, Row 1",
-                "value": "Metal 🪗"
+                "name": "Elements",
+                "value": "Light texture & shapes"
               },
               {
-                "name": "Building 3, Row 1",
-                "value": "🏰 Tower"
+                "name": "Base Color",
+                "value": "#3A0604"
               },
               {
-                "name": "Building 1, Row 2",
-                "value": "Favela"
-              },
-              {
-                "name": "Building 2, Row 2",
-                "value": "Multi Cubes 🟥🟧🟨"
-              },
-              {
-                "name": "Building 3, Row 2",
-                "value": "No Parking 🏠"
-              },
-              {
-                "name": "Building 4, Row 2",
-                "value": "🟪🐻"
-              },
-              {
-                "name": "Flying",
-                "value": "Balloonist"
+                "name": "Composition",
+                "value": 9
               }
             ],
             "decimals": 0,
@@ -1356,43 +1162,28 @@
           },
           "duplicate": false,
           "activeListing": {
-            "id": 953856,
+            "id": 953915,
             "version": 1,
-            "price": 17890000,
+            "price": 13850000,
             "__typename": "Listing"
           },
           "owner": {
-            "id": "tz1hwYHgCvHbvbN4HR7RenzJouyWwzLDC5Yi",
-            "name": null,
+            "id": "tz1eTuWuRkVhePb9ysrTiiBqWtZquDUfji4y",
+            "name": "Cool Gramma",
             "flag": "NONE",
             "avatarUri": null,
             "__typename": "User"
           },
           "issuer": {
             "flag": "NONE",
-            "name": "GuilCity",
+            "name": "Monotipia",
             "author": {
-              "id": "KT1VY1r8Lw1eLKyeAzSiHhNKzgE4dKAjsqvg",
-              "name": null,
-              "type": "COLLAB_CONTRACT_V1",
-              "avatarUri": null,
+              "id": "tz1UhiQXVYzSXWF2m6QNEtir5VViQrUXg4by",
+              "name": "marcelonada",
+              "type": "REGULAR",
+              "avatarUri": "ipfs://QmVFrB4KBsPesnCtAXgxeV5M5JafoVpunawUiR4z3ZCoEz",
               "flag": "NONE",
-              "collaborators": [
-                {
-                  "id": "tz1SSJAyTFLJqDBwJJkZRmqB3x6FMRuT5e5v",
-                  "name": "Guillaume Cornet",
-                  "avatarUri": "ipfs://QmXsj5857tWk6sjCLABaE3eVe9hhc3snQrB7qTvtTxha88",
-                  "flag": "VERIFIED",
-                  "__typename": "User"
-                },
-                {
-                  "id": "tz1NoYMQaZa9Pz6Hwfx6B2x1TaGU3fSiBbW8",
-                  "name": "frostbitten",
-                  "avatarUri": "ipfs://QmQN2S7HD8nx4GAwNNBaPtA1dx5JHsjvkm1VG7RsiNwHTM",
-                  "flag": "VERIFIED",
-                  "__typename": "User"
-                }
-              ],
+              "collaborators": null,
               "__typename": "User"
             },
             "__typename": "GenerativeToken"
@@ -1402,17 +1193,452 @@
         "__typename": "Listing"
       },
       {
-        "id": 953855,
+        "id": 953914,
+        "version": 1,
+        "price": 69000000,
+        "objkt": {
+          "id": "FX1-29920",
+          "version": 2,
+          "name": "Monotipia #28",
+          "slug": "monotipia-28",
+          "metadata": {
+            "name": "Monotipia #28",
+            "iterationHash": "op65tXipLN5hGyyGJyt4PFaa4tXFQNaZaReqWx6VHgwRJpL6m98",
+            "description": "Graphic compositions made with simple elements. Playing with the subtlety and rhythm of colors, shapes and textures.\n\nThis work was inspired by the textures of monotype prints and those of metal engraving. Especially in the geometric marks made by the inking roller while stretching the graphic ink to make a manual printing. It is a tribute to the visuality of handmade prints.\n\n\"Monotipia\" means monotype printing in Portuguese. It is a graphic printing process that results in a single copy. Here I make a parallel between monotype printing and the code+hash minting process, which also produces a single image.\n\n---\nFeatures:\n-> 15 composition schemes\n-> 51 handpicked base colors\n-> 3 canvas formats:  \n-----> Portrait (vertical) \n-----> Square \n-----> Landscape (horizontal)\n-> 3 element tones options: \n-----> Light Texture & Shapes\n-----> Light Texture / Dark Shapes \n-----> Dark Texture & Shapes\n\n---\nTo save the image as a png file, type:\n[1] save at actual size \n[2] save with 2000px height\n[3] save with 3000px height\n[4] save with 4000px height\n[5] save with 5000px height\n\nDepending on the size option, the render time can be long.\n\n---\nCreated with p5.js\n\n---\nThis is my first project on FX(hash) and I would like to express my special thanks to Janaina Selva, Dmarchi, Gyo and Morbeck for their support and for following the step-by-step development of this work, always contributing with a critical eye and great suggestions. I also thank the help from the FX(hash) community on Discord.\n\n---\n(c) Marcelo Terça-Nada, 2023\nhttps://marcelonada.redezero.org/\n@marcelonada",
+            "tags": [
+              "monotipia",
+              "marcelo terça-nada",
+              "marcelonada",
+              "printing",
+              "drawing",
+              "engraving",
+              "colorful",
+              "shapes",
+              "texture",
+              "abstract",
+              "geometric",
+              "generative",
+              "p5js"
+            ],
+            "generatorUri": "ipfs://Qmcsri4QjfMDkv9KkJHRJvRvgzzzjHazzUfyQzW8GLpioJ",
+            "artifactUri": "ipfs://Qmcsri4QjfMDkv9KkJHRJvRvgzzzjHazzUfyQzW8GLpioJ/?fxhash=op65tXipLN5hGyyGJyt4PFaa4tXFQNaZaReqWx6VHgwRJpL6m98&fxminter=tz1dxJQUkh3uaFy1bPgeCV3jJMwPnBwmZSHn",
+            "displayUri": "ipfs://QmR2Zj5xhNJmJtz4kri1ELdHXzJMqUnzY2cLQPxqZm8gxT",
+            "thumbnailUri": "ipfs://QmNcKmwaJKgXydQJVztV27s6WigsAvyeve5LYdU6xcJ42e",
+            "authenticityHash": "21e040a12cd3b64d991b647c46514c6ac259f222ba0539785136183d2c8845d7",
+            "attributes": [
+              {
+                "name": "Canvas Format",
+                "value": "Landscape"
+              },
+              {
+                "name": "Elements",
+                "value": "Light texture & shapes"
+              },
+              {
+                "name": "Base Color",
+                "value": "#471A1A"
+              },
+              {
+                "name": "Composition",
+                "value": 12
+              }
+            ],
+            "decimals": 0,
+            "symbol": "GENTK",
+            "version": "0.2"
+          },
+          "duplicate": false,
+          "activeListing": {
+            "id": 953914,
+            "version": 1,
+            "price": 69000000,
+            "__typename": "Listing"
+          },
+          "owner": {
+            "id": "tz1dxJQUkh3uaFy1bPgeCV3jJMwPnBwmZSHn",
+            "name": "spirouzi",
+            "flag": "NONE",
+            "avatarUri": "ipfs://QmZHaGNLnysvbRWTgh37RgyPxkgdmw4jKfU5rsMS1Cr8ou",
+            "__typename": "User"
+          },
+          "issuer": {
+            "flag": "NONE",
+            "name": "Monotipia",
+            "author": {
+              "id": "tz1UhiQXVYzSXWF2m6QNEtir5VViQrUXg4by",
+              "name": "marcelonada",
+              "type": "REGULAR",
+              "avatarUri": "ipfs://QmVFrB4KBsPesnCtAXgxeV5M5JafoVpunawUiR4z3ZCoEz",
+              "flag": "NONE",
+              "collaborators": null,
+              "__typename": "User"
+            },
+            "__typename": "GenerativeToken"
+          },
+          "__typename": "Objkt"
+        },
+        "__typename": "Listing"
+      },
+      {
+        "id": 953913,
+        "version": 1,
+        "price": 35000000,
+        "objkt": {
+          "id": "FX1-29907",
+          "version": 2,
+          "name": "Monotipia #15",
+          "slug": "monotipia-15",
+          "metadata": {
+            "name": "Monotipia #15",
+            "iterationHash": "oomuTutoeAPrgYwVQzUDwdf34WZWQrwg2qFBsAU8GWCpwVZXmnn",
+            "description": "Graphic compositions made with simple elements. Playing with the subtlety and rhythm of colors, shapes and textures.\n\nThis work was inspired by the textures of monotype prints and those of metal engraving. Especially in the geometric marks made by the inking roller while stretching the graphic ink to make a manual printing. It is a tribute to the visuality of handmade prints.\n\n\"Monotipia\" means monotype printing in Portuguese. It is a graphic printing process that results in a single copy. Here I make a parallel between monotype printing and the code+hash minting process, which also produces a single image.\n\n---\nFeatures:\n-> 15 composition schemes\n-> 51 handpicked base colors\n-> 3 canvas formats:  \n-----> Portrait (vertical) \n-----> Square \n-----> Landscape (horizontal)\n-> 3 element tones options: \n-----> Light Texture & Shapes\n-----> Light Texture / Dark Shapes \n-----> Dark Texture & Shapes\n\n---\nTo save the image as a png file, type:\n[1] save at actual size \n[2] save with 2000px height\n[3] save with 3000px height\n[4] save with 4000px height\n[5] save with 5000px height\n\nDepending on the size option, the render time can be long.\n\n---\nCreated with p5.js\n\n---\nThis is my first project on FX(hash) and I would like to express my special thanks to Janaina Selva, Dmarchi, Gyo and Morbeck for their support and for following the step-by-step development of this work, always contributing with a critical eye and great suggestions. I also thank the help from the FX(hash) community on Discord.\n\n---\n(c) Marcelo Terça-Nada, 2023\nhttps://marcelonada.redezero.org/\n@marcelonada",
+            "tags": [
+              "monotipia",
+              "marcelo terça-nada",
+              "marcelonada",
+              "printing",
+              "drawing",
+              "engraving",
+              "colorful",
+              "shapes",
+              "texture",
+              "abstract",
+              "geometric",
+              "generative",
+              "p5js"
+            ],
+            "generatorUri": "ipfs://Qmcsri4QjfMDkv9KkJHRJvRvgzzzjHazzUfyQzW8GLpioJ",
+            "artifactUri": "ipfs://Qmcsri4QjfMDkv9KkJHRJvRvgzzzjHazzUfyQzW8GLpioJ/?fxhash=oomuTutoeAPrgYwVQzUDwdf34WZWQrwg2qFBsAU8GWCpwVZXmnn&fxminter=tz1dqivUAMpfJFvdNwM7vuMZL7c24CR93X7B",
+            "displayUri": "ipfs://QmQBdiGsWghFdxaCrnK3HkbBvKcfmQCAKAKBiJfpgqhWTu",
+            "thumbnailUri": "ipfs://Qmdwc4jXdGZNC7DwxNwJ8TBygSQUmEis6PKrJbSadfeoR2",
+            "authenticityHash": "d73a8e3f5fe5a2771095fd9a1d2b89bf051b282a9f7b683437fb337a3a8995ec",
+            "attributes": [
+              {
+                "name": "Canvas Format",
+                "value": "Landscape"
+              },
+              {
+                "name": "Elements",
+                "value": "Dark texture & shapes"
+              },
+              {
+                "name": "Base Color",
+                "value": "#F3B6C3"
+              },
+              {
+                "name": "Composition",
+                "value": 9
+              }
+            ],
+            "decimals": 0,
+            "symbol": "GENTK",
+            "version": "0.2"
+          },
+          "duplicate": false,
+          "activeListing": {
+            "id": 953913,
+            "version": 1,
+            "price": 35000000,
+            "__typename": "Listing"
+          },
+          "owner": {
+            "id": "tz1dqivUAMpfJFvdNwM7vuMZL7c24CR93X7B",
+            "name": "Robin from the Hood ",
+            "flag": "NONE",
+            "avatarUri": null,
+            "__typename": "User"
+          },
+          "issuer": {
+            "flag": "NONE",
+            "name": "Monotipia",
+            "author": {
+              "id": "tz1UhiQXVYzSXWF2m6QNEtir5VViQrUXg4by",
+              "name": "marcelonada",
+              "type": "REGULAR",
+              "avatarUri": "ipfs://QmVFrB4KBsPesnCtAXgxeV5M5JafoVpunawUiR4z3ZCoEz",
+              "flag": "NONE",
+              "collaborators": null,
+              "__typename": "User"
+            },
+            "__typename": "GenerativeToken"
+          },
+          "__typename": "Objkt"
+        },
+        "__typename": "Listing"
+      },
+      {
+        "id": 953912,
+        "version": 1,
+        "price": 28000000,
+        "objkt": {
+          "id": "FX1-29965",
+          "version": 2,
+          "name": "Monotipia #71",
+          "slug": "monotipia-71",
+          "metadata": {
+            "name": "Monotipia #71",
+            "iterationHash": "onvqbGW8oUBTNRirmcNb7Yf3yaBYpsyDqTDbX8jfibC2MyDuDnR",
+            "description": "Graphic compositions made with simple elements. Playing with the subtlety and rhythm of colors, shapes and textures.\n\nThis work was inspired by the textures of monotype prints and those of metal engraving. Especially in the geometric marks made by the inking roller while stretching the graphic ink to make a manual printing. It is a tribute to the visuality of handmade prints.\n\n\"Monotipia\" means monotype printing in Portuguese. It is a graphic printing process that results in a single copy. Here I make a parallel between monotype printing and the code+hash minting process, which also produces a single image.\n\n---\nFeatures:\n-> 15 composition schemes\n-> 51 handpicked base colors\n-> 3 canvas formats:  \n-----> Portrait (vertical) \n-----> Square \n-----> Landscape (horizontal)\n-> 3 element tones options: \n-----> Light Texture & Shapes\n-----> Light Texture / Dark Shapes \n-----> Dark Texture & Shapes\n\n---\nTo save the image as a png file, type:\n[1] save at actual size \n[2] save with 2000px height\n[3] save with 3000px height\n[4] save with 4000px height\n[5] save with 5000px height\n\nDepending on the size option, the render time can be long.\n\n---\nCreated with p5.js\n\n---\nThis is my first project on FX(hash) and I would like to express my special thanks to Janaina Selva, Dmarchi, Gyo and Morbeck for their support and for following the step-by-step development of this work, always contributing with a critical eye and great suggestions. I also thank the help from the FX(hash) community on Discord.\n\n---\n(c) Marcelo Terça-Nada, 2023\nhttps://marcelonada.redezero.org/\n@marcelonada",
+            "tags": [
+              "monotipia",
+              "marcelo terça-nada",
+              "marcelonada",
+              "printing",
+              "drawing",
+              "engraving",
+              "colorful",
+              "shapes",
+              "texture",
+              "abstract",
+              "geometric",
+              "generative",
+              "p5js"
+            ],
+            "generatorUri": "ipfs://Qmcsri4QjfMDkv9KkJHRJvRvgzzzjHazzUfyQzW8GLpioJ",
+            "artifactUri": "ipfs://Qmcsri4QjfMDkv9KkJHRJvRvgzzzjHazzUfyQzW8GLpioJ/?fxhash=onvqbGW8oUBTNRirmcNb7Yf3yaBYpsyDqTDbX8jfibC2MyDuDnR&fxminter=tz1SbdJ4kiLTz4c3j1kfeyMzNrFjV4QMGkmz",
+            "displayUri": "ipfs://QmSNRTDdHJv9QjucmWJjsGuBLYEnKLDibydBLHZorxdnZd",
+            "thumbnailUri": "ipfs://QmYfz3RmPyNhkYmS6sU5zu5d92ewh8y9scBfm2g7EfFhTT",
+            "authenticityHash": "5fb8f1bb9d8c54e6ff3f26287a7e403c2a690ab7118c158f9429934ddfb709cb",
+            "attributes": [
+              {
+                "name": "Canvas Format",
+                "value": "Landscape"
+              },
+              {
+                "name": "Elements",
+                "value": "Light texture & shapes"
+              },
+              {
+                "name": "Base Color",
+                "value": "#F98677"
+              },
+              {
+                "name": "Composition",
+                "value": 7
+              }
+            ],
+            "decimals": 0,
+            "symbol": "GENTK",
+            "version": "0.2"
+          },
+          "duplicate": false,
+          "activeListing": {
+            "id": 953912,
+            "version": 1,
+            "price": 28000000,
+            "__typename": "Listing"
+          },
+          "owner": {
+            "id": "tz1SbdJ4kiLTz4c3j1kfeyMzNrFjV4QMGkmz",
+            "name": null,
+            "flag": "NONE",
+            "avatarUri": null,
+            "__typename": "User"
+          },
+          "issuer": {
+            "flag": "NONE",
+            "name": "Monotipia",
+            "author": {
+              "id": "tz1UhiQXVYzSXWF2m6QNEtir5VViQrUXg4by",
+              "name": "marcelonada",
+              "type": "REGULAR",
+              "avatarUri": "ipfs://QmVFrB4KBsPesnCtAXgxeV5M5JafoVpunawUiR4z3ZCoEz",
+              "flag": "NONE",
+              "collaborators": null,
+              "__typename": "User"
+            },
+            "__typename": "GenerativeToken"
+          },
+          "__typename": "Objkt"
+        },
+        "__typename": "Listing"
+      },
+      {
+        "id": 953910,
+        "version": 1,
+        "price": 16000000,
+        "objkt": {
+          "id": "FX1-29904",
+          "version": 2,
+          "name": "Monotipia #12",
+          "slug": "monotipia-12",
+          "metadata": {
+            "name": "Monotipia #12",
+            "iterationHash": "ooRA937R4ZZo28qY56xHRmM8CCYMP73WicYRGWDZUCb1z2ej3b3",
+            "description": "Graphic compositions made with simple elements. Playing with the subtlety and rhythm of colors, shapes and textures.\n\nThis work was inspired by the textures of monotype prints and those of metal engraving. Especially in the geometric marks made by the inking roller while stretching the graphic ink to make a manual printing. It is a tribute to the visuality of handmade prints.\n\n\"Monotipia\" means monotype printing in Portuguese. It is a graphic printing process that results in a single copy. Here I make a parallel between monotype printing and the code+hash minting process, which also produces a single image.\n\n---\nFeatures:\n-> 15 composition schemes\n-> 51 handpicked base colors\n-> 3 canvas formats:  \n-----> Portrait (vertical) \n-----> Square \n-----> Landscape (horizontal)\n-> 3 element tones options: \n-----> Light Texture & Shapes\n-----> Light Texture / Dark Shapes \n-----> Dark Texture & Shapes\n\n---\nTo save the image as a png file, type:\n[1] save at actual size \n[2] save with 2000px height\n[3] save with 3000px height\n[4] save with 4000px height\n[5] save with 5000px height\n\nDepending on the size option, the render time can be long.\n\n---\nCreated with p5.js\n\n---\nThis is my first project on FX(hash) and I would like to express my special thanks to Janaina Selva, Dmarchi, Gyo and Morbeck for their support and for following the step-by-step development of this work, always contributing with a critical eye and great suggestions. I also thank the help from the FX(hash) community on Discord.\n\n---\n(c) Marcelo Terça-Nada, 2023\nhttps://marcelonada.redezero.org/\n@marcelonada",
+            "tags": [
+              "monotipia",
+              "marcelo terça-nada",
+              "marcelonada",
+              "printing",
+              "drawing",
+              "engraving",
+              "colorful",
+              "shapes",
+              "texture",
+              "abstract",
+              "geometric",
+              "generative",
+              "p5js"
+            ],
+            "generatorUri": "ipfs://Qmcsri4QjfMDkv9KkJHRJvRvgzzzjHazzUfyQzW8GLpioJ",
+            "artifactUri": "ipfs://Qmcsri4QjfMDkv9KkJHRJvRvgzzzjHazzUfyQzW8GLpioJ/?fxhash=ooRA937R4ZZo28qY56xHRmM8CCYMP73WicYRGWDZUCb1z2ej3b3&fxminter=tz1UFG6kaH7pSXMVFgsktVz5J4Zp96A9vdAz",
+            "displayUri": "ipfs://QmfRFSGQNNiKy1ATZTnTpdAv1S1cADU5Nm9RebEcbrdqmW",
+            "thumbnailUri": "ipfs://QmVE6J85kdcCqCbdwfAyZ9SXaEkvUHkcQfALZEkbBEQNCf",
+            "authenticityHash": "970fa42b03bf10125d5cdf7cd07ad0480baaf2e4ff59b7cc61ac4e7f71153195",
+            "attributes": [
+              {
+                "name": "Canvas Format",
+                "value": "Portrait"
+              },
+              {
+                "name": "Elements",
+                "value": "Light texture / Dark shapes"
+              },
+              {
+                "name": "Base Color",
+                "value": "#BFBFBF"
+              },
+              {
+                "name": "Composition",
+                "value": 2
+              }
+            ],
+            "decimals": 0,
+            "symbol": "GENTK",
+            "version": "0.2"
+          },
+          "duplicate": false,
+          "activeListing": {
+            "id": 953910,
+            "version": 1,
+            "price": 16000000,
+            "__typename": "Listing"
+          },
+          "owner": {
+            "id": "tz2DkaJiewFJTsw8Wu3af8gsirEwSzTVYhZi",
+            "name": "Patxu",
+            "flag": "NONE",
+            "avatarUri": "ipfs://QmXxR2v22nGAbLN7UhNUkDUQBVJc4YDsQhMUPxBQJ4ReAL",
+            "__typename": "User"
+          },
+          "issuer": {
+            "flag": "NONE",
+            "name": "Monotipia",
+            "author": {
+              "id": "tz1UhiQXVYzSXWF2m6QNEtir5VViQrUXg4by",
+              "name": "marcelonada",
+              "type": "REGULAR",
+              "avatarUri": "ipfs://QmVFrB4KBsPesnCtAXgxeV5M5JafoVpunawUiR4z3ZCoEz",
+              "flag": "NONE",
+              "collaborators": null,
+              "__typename": "User"
+            },
+            "__typename": "GenerativeToken"
+          },
+          "__typename": "Objkt"
+        },
+        "__typename": "Listing"
+      },
+      {
+        "id": 953907,
+        "version": 1,
+        "price": 20000000,
+        "objkt": {
+          "id": "FX1-29952",
+          "version": 2,
+          "name": "Monotipia #58",
+          "slug": "monotipia-58",
+          "metadata": {
+            "name": "Monotipia #58",
+            "iterationHash": "ooFeYjLPVg4cGkJMLYM9ZxEf8X9xvwE99HGs6vAJ39FxK1tVa6J",
+            "description": "Graphic compositions made with simple elements. Playing with the subtlety and rhythm of colors, shapes and textures.\n\nThis work was inspired by the textures of monotype prints and those of metal engraving. Especially in the geometric marks made by the inking roller while stretching the graphic ink to make a manual printing. It is a tribute to the visuality of handmade prints.\n\n\"Monotipia\" means monotype printing in Portuguese. It is a graphic printing process that results in a single copy. Here I make a parallel between monotype printing and the code+hash minting process, which also produces a single image.\n\n---\nFeatures:\n-> 15 composition schemes\n-> 51 handpicked base colors\n-> 3 canvas formats:  \n-----> Portrait (vertical) \n-----> Square \n-----> Landscape (horizontal)\n-> 3 element tones options: \n-----> Light Texture & Shapes\n-----> Light Texture / Dark Shapes \n-----> Dark Texture & Shapes\n\n---\nTo save the image as a png file, type:\n[1] save at actual size \n[2] save with 2000px height\n[3] save with 3000px height\n[4] save with 4000px height\n[5] save with 5000px height\n\nDepending on the size option, the render time can be long.\n\n---\nCreated with p5.js\n\n---\nThis is my first project on FX(hash) and I would like to express my special thanks to Janaina Selva, Dmarchi, Gyo and Morbeck for their support and for following the step-by-step development of this work, always contributing with a critical eye and great suggestions. I also thank the help from the FX(hash) community on Discord.\n\n---\n(c) Marcelo Terça-Nada, 2023\nhttps://marcelonada.redezero.org/\n@marcelonada",
+            "tags": [
+              "monotipia",
+              "marcelo terça-nada",
+              "marcelonada",
+              "printing",
+              "drawing",
+              "engraving",
+              "colorful",
+              "shapes",
+              "texture",
+              "abstract",
+              "geometric",
+              "generative",
+              "p5js"
+            ],
+            "generatorUri": "ipfs://Qmcsri4QjfMDkv9KkJHRJvRvgzzzjHazzUfyQzW8GLpioJ",
+            "artifactUri": "ipfs://Qmcsri4QjfMDkv9KkJHRJvRvgzzzjHazzUfyQzW8GLpioJ/?fxhash=ooFeYjLPVg4cGkJMLYM9ZxEf8X9xvwE99HGs6vAJ39FxK1tVa6J&fxminter=tz1gH8pKM45edJrLhJiJ7sdnARekeHxVWVcT",
+            "displayUri": "ipfs://QmcWd7fnnrvKk8953KC7Uk2XqK679unBmp12DPNZjdEoUW",
+            "thumbnailUri": "ipfs://QmT8KWb6iFDqCToQZLsWLPLJHC4FkxZaJraqdZjH2K6dFF",
+            "authenticityHash": "d929b45416f9482678f7cde81930bb1e80e62ace27eaaedef8a9301b6909d5a0",
+            "attributes": [
+              {
+                "name": "Canvas Format",
+                "value": "Square"
+              },
+              {
+                "name": "Elements",
+                "value": "Light texture & shapes"
+              },
+              {
+                "name": "Base Color",
+                "value": "#5C3C92"
+              },
+              {
+                "name": "Composition",
+                "value": 2
+              }
+            ],
+            "decimals": 0,
+            "symbol": "GENTK",
+            "version": "0.2"
+          },
+          "duplicate": false,
+          "activeListing": {
+            "id": 953907,
+            "version": 1,
+            "price": 20000000,
+            "__typename": "Listing"
+          },
+          "owner": {
+            "id": "tz1gH8pKM45edJrLhJiJ7sdnARekeHxVWVcT",
+            "name": null,
+            "flag": "NONE",
+            "avatarUri": null,
+            "__typename": "User"
+          },
+          "issuer": {
+            "flag": "NONE",
+            "name": "Monotipia",
+            "author": {
+              "id": "tz1UhiQXVYzSXWF2m6QNEtir5VViQrUXg4by",
+              "name": "marcelonada",
+              "type": "REGULAR",
+              "avatarUri": "ipfs://QmVFrB4KBsPesnCtAXgxeV5M5JafoVpunawUiR4z3ZCoEz",
+              "flag": "NONE",
+              "collaborators": null,
+              "__typename": "User"
+            },
+            "__typename": "GenerativeToken"
+          },
+          "__typename": "Objkt"
+        },
+        "__typename": "Listing"
+      },
+      {
+        "id": 953906,
         "version": 1,
         "price": 2000000,
         "objkt": {
-          "id": "FX1-28963",
+          "id": "FX1-28893",
           "version": 2,
-          "name": "Home to the Ghosts #54",
-          "slug": "home-to-the-ghosts-54",
+          "name": "Home to the Ghosts #13",
+          "slug": "home-to-the-ghosts-13",
           "metadata": {
-            "name": "Home to the Ghosts #54",
-            "iterationHash": "onyHWvjXPUV2TGFn5ovbVGDBEaKzdTqKfLXgESDHRgxFjnhjqXv",
+            "name": "Home to the Ghosts #13",
+            "iterationHash": "ooi3VyJyYXBsMupmcy1dHtKfQdQfKVXYSb65t561vge8xDBubQB",
             "description": "The ghosts of the trees and animals that once lived here still linger, their presence felt but not seen.",
             "tags": [
               "empty",
@@ -1422,10 +1648,10 @@
               "barren"
             ],
             "generatorUri": "ipfs://QmTX26Np6ThfsL7pbXfAzYEey8pZT13GzBHX8QPzktZysk",
-            "artifactUri": "ipfs://QmTX26Np6ThfsL7pbXfAzYEey8pZT13GzBHX8QPzktZysk/?fxhash=onyHWvjXPUV2TGFn5ovbVGDBEaKzdTqKfLXgESDHRgxFjnhjqXv&fxminter=tz1WkxjmmnzpAb3XWsULZu5YHPSArWrjWAam&fxparams=40588000000000004052c0000000000000",
-            "displayUri": "ipfs://QmVBTbXXU6j3xWP8zRPA2a2csgUeHoaMNNPcwSA16omeTi",
-            "thumbnailUri": "ipfs://QmS5AQFKoD9jpYuyusFiXEXZMEYwtrDABMU8Fq4zY5MAWs",
-            "authenticityHash": "cb1a70d94964d78c45c2b947498296f2912f1602c5eab37a61650351f8d80b46",
+            "artifactUri": "ipfs://QmTX26Np6ThfsL7pbXfAzYEey8pZT13GzBHX8QPzktZysk/?fxhash=ooi3VyJyYXBsMupmcy1dHtKfQdQfKVXYSb65t561vge8xDBubQB&fxminter=tz1L9XjPpcPexJEx39JVb5TH8kXfjPW6FWLN&fxparams=4076800000000000405900000000000001",
+            "displayUri": "ipfs://QmQSYrxKgAzqSNBuPoeLWZE2C2afTHb573kCezuCorQfuu",
+            "thumbnailUri": "ipfs://QmQ1KAodWB4rpu8krExXMGvqphHzLeZn6qCJKrjmhuBZT6",
+            "authenticityHash": "a5f31d4ecd16463de5577def37a1b4893cf583026144e4bf92d45e68ac7ffa5f",
             "attributes": true,
             "decimals": 0,
             "symbol": "GENTK",
@@ -1433,14 +1659,14 @@
           },
           "duplicate": false,
           "activeListing": {
-            "id": 953855,
+            "id": 953906,
             "version": 1,
             "price": 2000000,
             "__typename": "Listing"
           },
           "owner": {
-            "id": "tz1WkxjmmnzpAb3XWsULZu5YHPSArWrjWAam",
-            "name": "jWAam",
+            "id": "tz1L9XjPpcPexJEx39JVb5TH8kXfjPW6FWLN",
+            "name": null,
             "flag": "NONE",
             "avatarUri": null,
             "__typename": "User"
@@ -1453,207 +1679,6 @@
               "name": "Marnix Keller",
               "type": "REGULAR",
               "avatarUri": "ipfs://QmWaZZYDAQqg3nsvv7R8nsh1v3zWmjNTh35qx54oqWeLvx",
-              "flag": "VERIFIED",
-              "collaborators": null,
-              "__typename": "User"
-            },
-            "__typename": "GenerativeToken"
-          },
-          "__typename": "Objkt"
-        },
-        "__typename": "Listing"
-      },
-      {
-        "id": 953854,
-        "version": 1,
-        "price": 1000000,
-        "objkt": {
-          "id": "FX1-28956",
-          "version": 2,
-          "name": "Home to the Ghosts #48",
-          "slug": "home-to-the-ghosts-48",
-          "metadata": {
-            "name": "Home to the Ghosts #48",
-            "iterationHash": "opZNuHztAVLW7dbmgFZsva8BRXb78p8NMQ5LAPKagUEyYiMXRFK",
-            "description": "The ghosts of the trees and animals that once lived here still linger, their presence felt but not seen.",
-            "tags": [
-              "empty",
-              "ghosts",
-              "home",
-              "trees",
-              "barren"
-            ],
-            "generatorUri": "ipfs://QmTX26Np6ThfsL7pbXfAzYEey8pZT13GzBHX8QPzktZysk",
-            "artifactUri": "ipfs://QmTX26Np6ThfsL7pbXfAzYEey8pZT13GzBHX8QPzktZysk/?fxhash=opZNuHztAVLW7dbmgFZsva8BRXb78p8NMQ5LAPKagUEyYiMXRFK&fxminter=tz1WkxjmmnzpAb3XWsULZu5YHPSArWrjWAam&fxparams=407a4b0a3d70a3d7000000000000000000",
-            "displayUri": "ipfs://QmefgpWTn6szDFP1GsiEU8Vj48jvxvjPMwqXM4wtc6oN4L",
-            "thumbnailUri": "ipfs://QmNa2yGZ7dBJEJjsjpaHNw8B9trUvmkPpqBLZFG4HVwrPL",
-            "authenticityHash": "96d04932a2d4fa7ae1bd586b533605450266327c870ca7d39c07d7a4a29a2850",
-            "attributes": true,
-            "decimals": 0,
-            "symbol": "GENTK",
-            "version": "0.2"
-          },
-          "duplicate": false,
-          "activeListing": {
-            "id": 953854,
-            "version": 1,
-            "price": 1000000,
-            "__typename": "Listing"
-          },
-          "owner": {
-            "id": "tz1WkxjmmnzpAb3XWsULZu5YHPSArWrjWAam",
-            "name": "jWAam",
-            "flag": "NONE",
-            "avatarUri": null,
-            "__typename": "User"
-          },
-          "issuer": {
-            "flag": "NONE",
-            "name": "Home to the Ghosts",
-            "author": {
-              "id": "tz1bx17C4bjpCP2LesF4tYSEEaX7jHcrJAc9",
-              "name": "Marnix Keller",
-              "type": "REGULAR",
-              "avatarUri": "ipfs://QmWaZZYDAQqg3nsvv7R8nsh1v3zWmjNTh35qx54oqWeLvx",
-              "flag": "VERIFIED",
-              "collaborators": null,
-              "__typename": "User"
-            },
-            "__typename": "GenerativeToken"
-          },
-          "__typename": "Objkt"
-        },
-        "__typename": "Listing"
-      },
-      {
-        "id": 953853,
-        "version": 1,
-        "price": 150000000,
-        "objkt": {
-          "id": "FX0-940022",
-          "version": 1,
-          "name": "(Un)organized #75",
-          "slug": "(un)organized-75",
-          "metadata": {
-            "name": "(Un)organized #75",
-            "iterationHash": "onmScVmMhFWhxtxFPX9a14d3njPcUCx2Wa5E2wTRyhgaRrZGSdR",
-            "description": "“(Un)organized” is an exploration in colors and forms to achieve order and harmony at the same time as disarray. Using harmonious color palettes, each component works uniquely and in harmony with each other to achieve a cohesive and engaging work of art.\n\nPress ’s’ on the live mode to save the artwork.\n\nMade with P5js.",
-            "tags": [
-              "p5js",
-              "squares",
-              "Abstract"
-            ],
-            "generatorUri": "ipfs://QmRjGU6xgbmyp1pD6NyJoPwoe9hSUSMCUZNfPJrB1f6NH4",
-            "artifactUri": "ipfs://QmRjGU6xgbmyp1pD6NyJoPwoe9hSUSMCUZNfPJrB1f6NH4?fxhash=onmScVmMhFWhxtxFPX9a14d3njPcUCx2Wa5E2wTRyhgaRrZGSdR",
-            "displayUri": "ipfs://QmesDk1pPP37riLyJXEPg8p6ogvzuwn2xznA7rokBe7zp5",
-            "thumbnailUri": "ipfs://QmbHPg2ca9t1Pzr16NFd1QH3x6CfoLaJ5HjtihaqmN267A",
-            "authenticityHash": "112af50cf642e4f5294b3a2d898f0e4473caf3d10f3c667f9f67e22bca824a62",
-            "attributes": true,
-            "decimals": 0,
-            "symbol": "GENTK",
-            "version": "0.2"
-          },
-          "duplicate": false,
-          "activeListing": {
-            "id": 953853,
-            "version": 1,
-            "price": 150000000,
-            "__typename": "Listing"
-          },
-          "owner": {
-            "id": "tz1cFdB4zmUSMm4FDZErr7reDB4XtsEnWz3V",
-            "name": "Rare&Exotic ",
-            "flag": "NONE",
-            "avatarUri": "ipfs://Qmb6vEU14xeuF2kfBY9Fc2izdivnitHoika8PvLZmu7Sog",
-            "__typename": "User"
-          },
-          "issuer": {
-            "flag": "NONE",
-            "name": "(Un)organized",
-            "author": {
-              "id": "tz1QxnU8Xh8TszX72qupNcr7LXc1xtqGeq9b",
-              "name": "Völker",
-              "type": "REGULAR",
-              "avatarUri": "ipfs://QmZC2GX1ajcCNVDhkr7oDtnfduNeKizpTJ2HhPKUMLPJqr",
-              "flag": "VERIFIED",
-              "collaborators": null,
-              "__typename": "User"
-            },
-            "__typename": "GenerativeToken"
-          },
-          "__typename": "Objkt"
-        },
-        "__typename": "Listing"
-      },
-      {
-        "id": 953852,
-        "version": 1,
-        "price": 400000000,
-        "objkt": {
-          "id": "FX0-85766",
-          "version": 0,
-          "name": "Hashed Cities #106",
-          "slug": "hashed-cities-106",
-          "metadata": {
-            "name": "Hashed Cities #106",
-            "iterationHash": "oovhqMwfbLzfdeNMY7MmdjDMNAMNNRqD96tsjqQBtiYY2EkfHpM",
-            "description": "This token generates a deterministic set of minimal, abstract buildings of varying widths, heights, transparencies, and patterns, assembling a skyline view of your own unique imaginary city. Each city comes with its own randomized city day.\n\nEach mint has a native setting (Day or Night) which combined with the current time of viewing influences real-time movements of celestial bodies in your mint, e.g. on a mint with the Day setting, the sun will only appear when viewed during the day. The piece will re-render every minute.\n\nThe individual strokes of this token feature some of my latest developments of an algorithm that generatively simulates the texture of print imperfections. They are randomized at each render to give it a unique character. Note that depending on the complexity of each mint, some renders may introduce a brief pause. The aesthetics are greatly inspired by plotter art of early computer artists such as 'City Painting' by Grace C. Hertlein.\n\nMade in p5js\nCreated Nov 2021\nArtist: @Yazid",
-            "tags": [
-              "yazid",
-              "generativeart",
-              "p5js"
-            ],
-            "artifactUri": "ipfs://QmYy9HoGv4PgXNxTYPFrXToCPvKgyAEGuRvtuszV3ncyGW",
-            "displayUri": "ipfs://QmYQQybc9wQziP8YjoHVfT5kcqCncJ1ryQSRTQznia21iu",
-            "thumbnailUri": "ipfs://QmZsPyMmTWCfFoBPccGtqAyTE9Lc7sHqtCStSwn3wpsLnw",
-            "authenticityHash": "6866cf791cf8752b7b610cdf65c45821ed9a9a70ce1cda072d9170aa977771a2",
-            "attributes": [
-              {
-                "name": "Style",
-                "value": "Blueprint"
-              },
-              {
-                "name": "Density",
-                "value": "Low"
-              },
-              {
-                "name": "Setting",
-                "value": "Day"
-              },
-              {
-                "name": "Solid",
-                "value": false
-              },
-              {
-                "name": "City Day",
-                "value": "6 September"
-              }
-            ],
-            "decimals": 0,
-            "symbol": "GENTK"
-          },
-          "duplicate": false,
-          "activeListing": {
-            "id": 953852,
-            "version": 1,
-            "price": 400000000,
-            "__typename": "Listing"
-          },
-          "owner": {
-            "id": "tz1bcmPx5hnRmP8ZZVSQ7SbyLPoGk6wHTwPy",
-            "name": "dam-vault",
-            "flag": "NONE",
-            "avatarUri": null,
-            "__typename": "User"
-          },
-          "issuer": {
-            "flag": "NONE",
-            "name": "Hashed Cities",
-            "author": {
-              "id": "tz1QgjmhrUD3X7kgS9mMHbUz4cS6uDiFGhAU",
-              "name": "Yazid",
-              "type": "REGULAR",
-              "avatarUri": "ipfs://QmSXcuF91yL432ZjP2M1scJ7cphL1GbKdKwNYvmoCz32dn",
               "flag": "VERIFIED",
               "collaborators": null,
               "__typename": "User"
