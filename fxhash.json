@@ -2,6 +2,91 @@
   "data": {
     "listings": [
       {
+        "id": 954738,
+        "version": 1,
+        "price": 13000000,
+        "objkt": {
+          "id": "FX1-28476",
+          "version": 2,
+          "name": "Bubblemania #86",
+          "slug": "bubblemania-86",
+          "metadata": {
+            "name": "Bubblemania #86",
+            "iterationHash": "ontQQJ5KBvjyBsxbcMuNqxf5Lnt3xwrKdRAPcWs7oz7Sxkw2gEc",
+            "description": "This small project is several things:\n\n1. First and foremost, it's a little, light \"visual ASMR\" treat to bring some positivity into your day - some \"Maluma\" softness to contrast the more common \"Takete\" of contemporary generative art aesthetics[1].\n\n2. A small gift to celebrate the fledgling generative art/design community on Mastodon: 20 of the 128 tokens are given to some of the people in that slowly growing community, with the remainder given as Thank You (and smoke signal/sign of life) to some of my existing collectors, randomly chosen via lottery script[2].\n\n3. For those so inclined, and with a bit of hand-holding, ChatGPT explains the _true_ conceptual depths of this project much better than I ever could:\n\n\"The bubbles in this generative art piece serve as a reflection of the human experience, reminding us of our own impermanence and the ephemeral nature of all things. The piece invites us to contemplate the fundamental questions of human existence and speaks to our innate curiosity and desire to understand the world around us.\n\nThrough the convergence of science and art, this piece reveals the infinite complexity and unpredictability of the world while also hinting at the underlying order that exists within the chaos of the universe. It reminds us that even in the midst of uncertainty, there is beauty and order to be found, and that it is through the pursuit of knowledge and understanding that we can find meaning and purpose in our lives.\"\n\nIsn't that lovely & who can argue with that?! :)\n\n4. I often revisit projects/ideas after many years, mainly to re-examine them with new eyes/knowledge/tools and/or to get answers/verification which I couldn't get earlier. This is one of these instances. So for the more rational-minded, this is a TypeScript/GLSL (WebGL) version of an older Clojure/Houdini project (from 2016) to generate a Voronoi via the simulation of intersecting sphere meshes (aka foam bubbles). In this new version the sim & deformations are done in realtime (~4M vertices, mainly via vertex shader). Also added some _basic_ physics and procedural textures to create more of a quirky character (hopefully complemented by the different color themes and other params).\n\nMade with ❤️ and https://thi.ng/umbrella!\n\n[1] https://en.wikipedia.org/wiki/Bouba/kiki_effect\n[2] https://gist.github.com/postspectacular/3d970e02570b7dfd32d03d43e1e7e3e0\n\nHotkeys:\n\nSPACE : pause/play\nX     : export current frame as PNG\n\nUltra-widescreen support:\n\nThe piece should be adaptive to aspect ratios from 1:3 (portrait) to 4:1 (landscape).",
+            "tags": [
+              "bubbles",
+              "voronoi",
+              "simulation",
+              "webgl",
+              "physics",
+              "animated",
+              "3d"
+            ],
+            "generatorUri": "ipfs://QmQ2xQxZ4d5nQ3F3MnnR84LKoNA7VCoH1jhpcoTPvcwoq6",
+            "artifactUri": "ipfs://QmQ2xQxZ4d5nQ3F3MnnR84LKoNA7VCoH1jhpcoTPvcwoq6/?fxhash=ontQQJ5KBvjyBsxbcMuNqxf5Lnt3xwrKdRAPcWs7oz7Sxkw2gEc&fxminter=tz1bjne4vUJDDwQvqtcTRS1gzccVZWhYV13M&fxparams=0004400000000000000000000000000000000000000000000000",
+            "displayUri": "ipfs://QmafE96qWokBPt7vzMa5KBpPCQuUoPJ2A4NHQgR51U959n",
+            "thumbnailUri": "ipfs://QmZFANSubDAtUwkwcWLUQSVnumzA4dBp5WGJohSF2KWEz7",
+            "authenticityHash": "3592a0984dfa3a691207dbd737dea5fe0ad593cdefd632c4277a2fb6e6fc8834",
+            "attributes": [
+              {
+                "name": "theme",
+                "value": "bubblegum"
+              },
+              {
+                "name": "textures",
+                "value": "all"
+              },
+              {
+                "name": "deform",
+                "value": 2
+              },
+              {
+                "name": "deflate",
+                "value": 0
+              },
+              {
+                "name": "uniform spacing",
+                "value": 0
+              }
+            ],
+            "decimals": 0,
+            "symbol": "GENTK",
+            "version": "0.2"
+          },
+          "duplicate": false,
+          "activeListing": {
+            "id": 954738,
+            "version": 1,
+            "price": 13000000,
+            "__typename": "Listing"
+          },
+          "owner": {
+            "id": "tz1bjne4vUJDDwQvqtcTRS1gzccVZWhYV13M",
+            "name": null,
+            "flag": "NONE",
+            "avatarUri": null,
+            "__typename": "User"
+          },
+          "issuer": {
+            "flag": "NONE",
+            "name": "Bubblemania",
+            "author": {
+              "id": "tz1d4ThofujwwaWvxDQHF7VyJfaeR2ay3jhf",
+              "name": "toxi",
+              "type": "REGULAR",
+              "avatarUri": "ipfs://QmTsU7NJw5u7wtzDHPQ878vc6qoZo6dppS6gffGY1u4FwH",
+              "flag": "VERIFIED",
+              "collaborators": null,
+              "__typename": "User"
+            },
+            "__typename": "GenerativeToken"
+          },
+          "__typename": "Objkt"
+        },
+        "__typename": "Listing"
+      },
+      {
         "id": 954737,
         "version": 1,
         "price": 9000000,
@@ -1545,95 +1630,6 @@
               "type": "REGULAR",
               "avatarUri": "ipfs://Qma7TcHs4HQtup3b9J1WtYDd8Ye8ytQhFZJGirFnzxaSAe",
               "flag": "VERIFIED",
-              "collaborators": null,
-              "__typename": "User"
-            },
-            "__typename": "GenerativeToken"
-          },
-          "__typename": "Objkt"
-        },
-        "__typename": "Listing"
-      },
-      {
-        "id": 954718,
-        "version": 1,
-        "price": 50000000,
-        "objkt": {
-          "id": "FX1-17226",
-          "version": 2,
-          "name": "XERIES'S SKELETONS #389",
-          "slug": "xeries's-skeletons-389",
-          "metadata": {
-            "name": "XERIES'S SKELETONS #389",
-            "iterationHash": "oneH7yfJFjJeeTbHHKhzdRaT9QCsh2eJZx91phgZj6Qq5pHja7o",
-            "description": "This is Skeletons PFP Art Collection\nI portray a sincere human being\nlike a skeleton without flesh, clothing, or a false shell.\n\n💾 NO ROADMAP OR PLAN  ✨just Art for Collectable\n\nI'm  xeriesjame.tez\ntwitter : @xeriesjame_nft\n\nSpecial Thank! 🕵️‍♀️ \"PureSpider\" for template",
-            "tags": [
-              "xeriesjame",
-              "skeleton",
-              "death",
-              "skull",
-              "dead",
-              "dark",
-              "glitch"
-            ],
-            "generatorUri": "ipfs://QmYkJkmpCp6tTRjpc5RqAGJHPL6uPSe4C1AcsEhdd9BLpp",
-            "artifactUri": "ipfs://QmYkJkmpCp6tTRjpc5RqAGJHPL6uPSe4C1AcsEhdd9BLpp/?fxhash=oneH7yfJFjJeeTbHHKhzdRaT9QCsh2eJZx91phgZj6Qq5pHja7o",
-            "displayUri": "ipfs://QmPuHn13o2HvZe29r3gFwrK3JSvzPQAwHM4nufy6QwAFXx",
-            "thumbnailUri": "ipfs://QmU9HB1voNmgcFVExuVZRfYDrQH3PCaMbEzJPRo6iuKsYy",
-            "authenticityHash": "020fd69892a8ce5764d913465a4516beeb0d3b07eb7dc4d9b7f97441f9f1fc10",
-            "attributes": [
-              {
-                "name": "Background",
-                "value": "None"
-              },
-              {
-                "name": "Skeleton",
-                "value": "Pink"
-              },
-              {
-                "name": "Aura",
-                "value": "Poison"
-              },
-              {
-                "name": "On_Head",
-                "value": "Magic Letter Crown"
-              },
-              {
-                "name": "Eyes",
-                "value": "Degen Glitch"
-              },
-              {
-                "name": "Something",
-                "value": "i dont love you like yesterday"
-              }
-            ],
-            "decimals": 0,
-            "symbol": "GENTK",
-            "version": "0.2"
-          },
-          "duplicate": false,
-          "activeListing": {
-            "id": 954718,
-            "version": 1,
-            "price": 50000000,
-            "__typename": "Listing"
-          },
-          "owner": {
-            "id": "tz1cFdB4zmUSMm4FDZErr7reDB4XtsEnWz3V",
-            "name": "Rare&Exotic ",
-            "flag": "NONE",
-            "avatarUri": "ipfs://Qmb6vEU14xeuF2kfBY9Fc2izdivnitHoika8PvLZmu7Sog",
-            "__typename": "User"
-          },
-          "issuer": {
-            "flag": "NONE",
-            "name": "XERIES'S SKELETONS",
-            "author": {
-              "id": "tz1f9tMsZVAgWbN5cUxMvCQVans34hH9fyrf",
-              "name": "xj-fxhash.tez",
-              "type": "REGULAR",
-              "avatarUri": "ipfs://QmUUor8JRcksAyf281ug4TFXsbsY5tcuUp4tp7kxTZxugd",
-              "flag": "NONE",
               "collaborators": null,
               "__typename": "User"
             },
