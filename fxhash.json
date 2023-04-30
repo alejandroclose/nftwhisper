@@ -2,52 +2,230 @@
   "data": {
     "listings": [
       {
-        "id": 955101,
+        "id": 955120,
         "version": 1,
-        "price": 9000000,
+        "price": 59000000,
         "objkt": {
-          "id": "FX1-28061",
-          "version": 2,
-          "name": "Bubblemania #74",
-          "slug": "bubblemania-74",
+          "id": "FX0-189243",
+          "version": 0,
+          "name": "overloaded #372",
+          "slug": "overloaded-372",
           "metadata": {
-            "name": "Bubblemania #74",
-            "iterationHash": "onvwDdjtYe41uooXhxWTyt24FtFuqYbFZVCsteDW4drRF3QKRrv",
-            "description": "This small project is several things:\n\n1. First and foremost, it's a little, light \"visual ASMR\" treat to bring some positivity into your day - some \"Maluma\" softness to contrast the more common \"Takete\" of contemporary generative art aesthetics[1].\n\n2. A small gift to celebrate the fledgling generative art/design community on Mastodon: 20 of the 128 tokens are given to some of the people in that slowly growing community, with the remainder given as Thank You (and smoke signal/sign of life) to some of my existing collectors, randomly chosen via lottery script[2].\n\n3. For those so inclined, and with a bit of hand-holding, ChatGPT explains the _true_ conceptual depths of this project much better than I ever could:\n\n\"The bubbles in this generative art piece serve as a reflection of the human experience, reminding us of our own impermanence and the ephemeral nature of all things. The piece invites us to contemplate the fundamental questions of human existence and speaks to our innate curiosity and desire to understand the world around us.\n\nThrough the convergence of science and art, this piece reveals the infinite complexity and unpredictability of the world while also hinting at the underlying order that exists within the chaos of the universe. It reminds us that even in the midst of uncertainty, there is beauty and order to be found, and that it is through the pursuit of knowledge and understanding that we can find meaning and purpose in our lives.\"\n\nIsn't that lovely & who can argue with that?! :)\n\n4. I often revisit projects/ideas after many years, mainly to re-examine them with new eyes/knowledge/tools and/or to get answers/verification which I couldn't get earlier. This is one of these instances. So for the more rational-minded, this is a TypeScript/GLSL (WebGL) version of an older Clojure/Houdini project (from 2016) to generate a Voronoi via the simulation of intersecting sphere meshes (aka foam bubbles). In this new version the sim & deformations are done in realtime (~4M vertices, mainly via vertex shader). Also added some _basic_ physics and procedural textures to create more of a quirky character (hopefully complemented by the different color themes and other params).\n\nMade with ❤️ and https://thi.ng/umbrella!\n\n[1] https://en.wikipedia.org/wiki/Bouba/kiki_effect\n[2] https://gist.github.com/postspectacular/3d970e02570b7dfd32d03d43e1e7e3e0\n\nHotkeys:\n\nSPACE : pause/play\nX     : export current frame as PNG\n\nUltra-widescreen support:\n\nThe piece should be adaptive to aspect ratios from 1:3 (portrait) to 4:1 (landscape).",
+            "name": "overloaded #372",
+            "iterationHash": "op5XrbZ7EPtDmEPaxX6SGdnfiPcoppnJfHA2MMoGefmWXuHsBTv",
+            "description": "Overloaded attempts to be a system to explore time perception, through non-representative images, while still representing pixels as upscaled forms. It plays with permanence and non-permanence.",
             "tags": [
-              "bubbles",
-              "voronoi",
-              "simulation",
-              "webgl",
-              "physics",
-              "animated",
-              "3d"
+              "time",
+              "pixel",
+              "grid",
+              "movement"
             ],
-            "generatorUri": "ipfs://QmQ2xQxZ4d5nQ3F3MnnR84LKoNA7VCoH1jhpcoTPvcwoq6",
-            "artifactUri": "ipfs://QmQ2xQxZ4d5nQ3F3MnnR84LKoNA7VCoH1jhpcoTPvcwoq6/?fxhash=onvwDdjtYe41uooXhxWTyt24FtFuqYbFZVCsteDW4drRF3QKRrv&fxminter=tz1RGNAXFdETxHtAwCoKCBJSwjRjh9afMw5d&fxparams=0104000000000000000000000000000000003fe999999999999a",
-            "displayUri": "ipfs://QmNq9hdtJzBmhG299JJGVEPAbQEmduY18YkyvzRwv9GAus",
-            "thumbnailUri": "ipfs://QmX84RJs7MFXLDZzbr4NCaRJZPysCvKNAW9PNeMna6qweK",
-            "authenticityHash": "a1ef605e9f6ea6e45e6f85b0dd1fb0a8286018f9c5d5ad24b797755a01329825",
+            "artifactUri": "ipfs://QmQsrzoHpAzZ4peUnFgbT8uSphSHye9on3A4mRWnhfvyiY",
+            "displayUri": "ipfs://QmcydHerbqg1EDj14S9CnNMwsSby5NSkzf4AVJ2b3ayJ24",
+            "thumbnailUri": "ipfs://QmPR8kJ9S98JgXdq2A24PXLtSsjSxX4A6PBdrLh8m54iPf",
+            "authenticityHash": "84cc8deeb56a8a125c6b6853336d4af1d95c20dd1fd2649f62d7ee1e0726c433",
             "attributes": [
               {
-                "name": "theme",
-                "value": "forestberry"
+                "name": "Background",
+                "value": "Black"
               },
               {
-                "name": "textures",
-                "value": "all"
+                "name": "Grid",
+                "value": "72x72"
               },
               {
-                "name": "deform",
-                "value": 0
+                "name": "Frequency",
+                "value": "20x0.5"
               },
               {
-                "name": "deflate",
-                "value": 0
+                "name": "Gradient",
+                "value": "No"
               },
               {
-                "name": "uniform spacing",
-                "value": 0.8
+                "name": "Flashing",
+                "value": "No"
+              },
+              {
+                "name": "Striped",
+                "value": "No"
+              },
+              {
+                "name": "Layer0",
+                "value": "Yes"
+              },
+              {
+                "name": "Palette",
+                "value": "80x0"
+              },
+              {
+                "name": "Overloaded",
+                "value": "No"
+              }
+            ],
+            "decimals": 0,
+            "symbol": "GENTK"
+          },
+          "duplicate": false,
+          "activeListing": {
+            "id": 955120,
+            "version": 1,
+            "price": 59000000,
+            "__typename": "Listing"
+          },
+          "owner": {
+            "id": "tz1StrHwuLFbQZEerekdUeAg43MyZaBXmgBC",
+            "name": "bobbydiggs",
+            "flag": "NONE",
+            "avatarUri": null,
+            "__typename": "User"
+          },
+          "issuer": {
+            "flag": "NONE",
+            "name": "overloaded",
+            "author": {
+              "id": "tz1TxDL7npfYDSyvrZFC4deUPMySvsL6xARU",
+              "name": "p1xelfool",
+              "type": "REGULAR",
+              "avatarUri": "ipfs://QmauKxc2y9Pg2EXBq91hYNocPRZQ1sYfPA5yMJtK3QfRFi",
+              "flag": "VERIFIED",
+              "collaborators": null,
+              "__typename": "User"
+            },
+            "__typename": "GenerativeToken"
+          },
+          "__typename": "Objkt"
+        },
+        "__typename": "Listing"
+      },
+      {
+        "id": 955119,
+        "version": 1,
+        "price": 95000000,
+        "objkt": {
+          "id": "FX0-189342",
+          "version": 0,
+          "name": "impossible cathedrals #380",
+          "slug": "impossible-cathedrals-380",
+          "metadata": {
+            "name": "impossible cathedrals #380",
+            "iterationHash": "oonFB3reL8cJdFm8jEHxDryPgxxGS9gNZmrGpwh2f7tVcsf3HcG",
+            "description": "When the Impressionists first exhibited their work, they derided as lunatics by the art establishment. The vitriol then -- \"wallpaper in its embryonic state is more finished than that seascape\" (referring to Impression: sunrise by Monet) -- reminds me of criticism that generative art, and the NFT world more generally, are subject to now. \"Impossible cathedrals\" is a tribute to rebels who dare to see the world differently. \n\nSince generative art is often criticized as cold and austere, I took this as a challenge to reproduce the spirit of impressionism. Impossible cathedrals -- interwoven arches that cannot exist in reality -- hint at some of the favorite subjects of the impressionists.\n\nThe title alludes to Italo Calvino's novel Invisible Cities, a rebel in another context. Other artists who I had in mind during creation: the Japanese woodblock printing artists Kawase Hasui and Hiroshi Yoshida; American painter JAM Whistler.\n\nImpossible cathedrals was written in p5.js using elements of code by eeedg (thanks)",
+            "tags": [
+              "impressionism",
+              "generative",
+              "p5.js"
+            ],
+            "artifactUri": "ipfs://QmQnSiQLNzw43VntJVmh23T23DGVcJQeqcSVNd2L71Ymnx",
+            "displayUri": "ipfs://QmRBZBi8veWXyk67CAEZoDKoMJSSBoWBMiQmjYCtJ8wsTU",
+            "thumbnailUri": "ipfs://QmZQpH5Fs28FziEKVuZQshTSBZiJhacxhptMQwdBChBisf",
+            "authenticityHash": "d2a67fe64616bcc2a2e07d9208f91cc6f7979456ad501e63e2f27de7d82e1996",
+            "attributes": [
+              {
+                "name": "Time",
+                "value": "Morning"
+              },
+              {
+                "name": "Number of columns",
+                "value": 7
+              },
+              {
+                "name": "Number of arches",
+                "value": 5
+              },
+              {
+                "name": "Palette",
+                "value": "Amber"
+              },
+              {
+                "name": "Brush",
+                "value": "Triangle"
+              }
+            ],
+            "decimals": 0,
+            "symbol": "GENTK"
+          },
+          "duplicate": false,
+          "activeListing": {
+            "id": 955119,
+            "version": 1,
+            "price": 95000000,
+            "__typename": "Listing"
+          },
+          "owner": {
+            "id": "tz1QVvTNBH8D5Y3br7a1W9qvLepseCMDa8he",
+            "name": "PapaBearded",
+            "flag": "NONE",
+            "avatarUri": "ipfs://QmXZizWf1HpZGRxCPaKPsGHUv7pacNcrzokBUto4FFMHv1",
+            "__typename": "User"
+          },
+          "issuer": {
+            "flag": "NONE",
+            "name": "impossible cathedrals",
+            "author": {
+              "id": "tz1XsSNeMumEDkdoUWhZw6yko1LXHGviRPoF",
+              "name": "pepe__xyz",
+              "type": "REGULAR",
+              "avatarUri": "ipfs://Qmdv6wEeobZYAE98Sr1TExpwMF91YYKdRkqrN3zF6JNA8U",
+              "flag": "VERIFIED",
+              "collaborators": null,
+              "__typename": "User"
+            },
+            "__typename": "GenerativeToken"
+          },
+          "__typename": "Objkt"
+        },
+        "__typename": "Listing"
+      },
+      {
+        "id": 955118,
+        "version": 1,
+        "price": 20000000,
+        "objkt": {
+          "id": "FX1-24245",
+          "version": 2,
+          "name": "WTBS.TXT #119",
+          "slug": "wtbs.txt-119",
+          "metadata": {
+            "name": "WTBS.TXT #119",
+            "iterationHash": "ooEqh35KJVquNZUBvipMKudfKJtHdX4sF8bpRnzVdLcjitiqiLP",
+            "description": "*WTBS.TXT* is the first collaboration between Thomas Noya and the Waiting To Be Signed podcast crew. Using the first year of episodes as training data, Thomas trained a GPT-2 model to generate text strings from seed words, phrases, or at random; over 3000 strings were curated from the model over several months. The strings are then randomly selected from the curated set and displayed in various fonts and patterns, evoking a retro-PC style inspired by 90s net.art.\n\nAn advantage of using so little data to train a model (yes, a year of content is nothing in AI terms) is that it allows the model to run wild and create funny and fantastical diversions. We used an AI service to transcribe the episodes, which introduced many spelling variations around fx(hash)-specific terms and artist names. All of this adds up to something that we are collectively excited to share with you.\n\nFrom WTBS: A year went by fast... so fast that we fully missed doing anything to celebrate. Please think of this token as a belated celebration of the first year of Waiting To Be Signed. This project could not be possible without the hours of content we produce each week. If you have enjoyed the show, we hope you will enjoy this as well. Please collect to support the continued creation of WTBS. Collect because you are a fan (of Thomas, us or both). Collect because it is a really cool project. Huge thanks to Thomas for volunteering his time to work with us on this, and thank you to everyone who listened and supported us as we move into our second year of the show.\n\n\nControls:\n[s] save as PNG\n\n\nWTBS ⫸ GPT-2 ⫸ p5.js ⫸ Blockchain\n\n\nCopyright (©) 2023 Thomas Noya and Waiting to be Signed\n\n◉_◉",
+            "tags": [
+              "WTBS",
+              "Waiting to be Signed",
+              "Thomas Noya",
+              "AI",
+              "GPT",
+              "\"At the end of the day like we just want quality art for the podcast and we want it to be accessible for people\""
+            ],
+            "generatorUri": "ipfs://QmR9QdRSTYDMEii3q1tjNbcqRqjXo9Dtvr4DFytyrArXRW",
+            "artifactUri": "ipfs://QmR9QdRSTYDMEii3q1tjNbcqRqjXo9Dtvr4DFytyrArXRW/?fxhash=ooEqh35KJVquNZUBvipMKudfKJtHdX4sF8bpRnzVdLcjitiqiLP&fxminter=tz1RXGvDExXwnAgz94f9V272Qhhmq8LSdnzp",
+            "displayUri": "ipfs://QmbTsDdv58cbSqk3v9LSSZBrrpFPzb9vVMKTo7Zsn3AeXU",
+            "thumbnailUri": "ipfs://QmQe9JqmMVrxXvVcJMgLN9erDUxPMaLdEhcKLUqq3yDhYr",
+            "authenticityHash": "dacae1b4cb925537a9e3cbaf2f28ae82bb72a310744214f41b56b1ef25bb6251",
+            "attributes": [
+              {
+                "name": "PALETTE",
+                "value": "PAL–3 (SOFT VAPEZ)"
+              },
+              {
+                "name": "FONT",
+                "value": "MODERN DOS"
+              },
+              {
+                "name": "SIZE TYPE",
+                "value": "FIXED"
+              },
+              {
+                "name": "LEADING TYPE",
+                "value": "STATIC"
+              },
+              {
+                "name": "GRID TYPE",
+                "value": "STANDARD"
+              },
+              {
+                "name": "ʕっ•ᴥ•ʔっ",
+                "value": "Ø/º "
               }
             ],
             "decimals": 0,
@@ -56,9 +234,1067 @@
           },
           "duplicate": false,
           "activeListing": {
-            "id": 955101,
+            "id": 955118,
             "version": 1,
-            "price": 9000000,
+            "price": 20000000,
+            "__typename": "Listing"
+          },
+          "owner": {
+            "id": "tz1RXGvDExXwnAgz94f9V272Qhhmq8LSdnzp",
+            "name": "earlreno.tez",
+            "flag": "NONE",
+            "avatarUri": "ipfs://QmYgcBah9ojHA5KQAiq26EjfPakjr7k9zGkvGFG5ox2kVA",
+            "__typename": "User"
+          },
+          "issuer": {
+            "flag": "NONE",
+            "name": "WTBS.TXT",
+            "author": {
+              "id": "KT1Sve5LDEs4Ug7UmN638LSYEUuXSZff1gkK",
+              "name": null,
+              "type": "COLLAB_CONTRACT_V1",
+              "avatarUri": null,
+              "flag": "NONE",
+              "collaborators": [
+                {
+                  "id": "tz1TSpZVzTtaaJyfSsnEzjXRyoCuiHwv826Z",
+                  "name": "Waiting To Be Signed",
+                  "avatarUri": "ipfs://QmcJUmovrpndP8N9SLU6Ld2YPDNwSkbJo5N6oiaDausVBi",
+                  "flag": "VERIFIED",
+                  "__typename": "User"
+                },
+                {
+                  "id": "tz1d45wFbpZLqS4SPoMRnEbhLopFt7zBhW3g",
+                  "name": "Thomas Noya",
+                  "avatarUri": "ipfs://QmT2Hp4ko6n2eavQuka5D6dxQmzEQDdAJ3nmTL3C99AHik",
+                  "flag": "VERIFIED",
+                  "__typename": "User"
+                }
+              ],
+              "__typename": "User"
+            },
+            "__typename": "GenerativeToken"
+          },
+          "__typename": "Objkt"
+        },
+        "__typename": "Listing"
+      },
+      {
+        "id": 955117,
+        "version": 1,
+        "price": 980000,
+        "objkt": {
+          "id": "FX0-1561788",
+          "version": 1,
+          "name": "Wildflowers #157",
+          "slug": "wildflowers-157",
+          "metadata": {
+            "name": "Wildflowers #157",
+            "iterationHash": "ootFjFzS9E1Lvp8HUZpibV21QDovNo6Eh9sdJ36wR6eMFnEFAM7",
+            "description": "Generative still life created entirely with pure code in p5.js\n\nThe idea was to develop a more fluid composition of wild flowers, with the appearance of a painting or aged sketches.",
+            "tags": [
+              "fxhash",
+              "landscape",
+              "generativeart",
+              "p5js"
+            ],
+            "generatorUri": "ipfs://QmYqrAmssRWZRsybLvFpfX32M15siBs3rBokaXacJMwMmd",
+            "artifactUri": "ipfs://QmYqrAmssRWZRsybLvFpfX32M15siBs3rBokaXacJMwMmd?fxhash=ootFjFzS9E1Lvp8HUZpibV21QDovNo6Eh9sdJ36wR6eMFnEFAM7",
+            "displayUri": "ipfs://QmRiu3h7UntTG3ocqtiajEqUPCmUNJiEqeGWUGqrSuSPxB",
+            "thumbnailUri": "ipfs://QmRg2D8UxPcLLpeu1THb76gTMnFKQAcvCJcs8UqmwUyhZi",
+            "authenticityHash": "7b64d01a681694882ca0505798bf5d60608f692116d8f5aaa8caddbafca199ac",
+            "attributes": true,
+            "decimals": 0,
+            "symbol": "GENTK",
+            "version": "0.2"
+          },
+          "duplicate": false,
+          "activeListing": {
+            "id": 955117,
+            "version": 1,
+            "price": 980000,
+            "__typename": "Listing"
+          },
+          "owner": {
+            "id": "tz1bRqUkHBpqWmaN8t11oei2d8QK5yToRbBo",
+            "name": "Amir",
+            "flag": "NONE",
+            "avatarUri": "ipfs://QmUWw7sPLqDb9c9AELU6haQJqZJqYe1CnXX7XBtX6TbQWN",
+            "__typename": "User"
+          },
+          "issuer": {
+            "flag": "NONE",
+            "name": "Wildflowers",
+            "author": {
+              "id": "tz1eqcruUAez6PASNd9Z5oHT2rqoTPqWGFsU",
+              "name": "Stonn",
+              "type": "REGULAR",
+              "avatarUri": "ipfs://QmdWSzimeyN5VWzuSVzRQpMvYadcwH2uptZ75WaNw88m6j",
+              "flag": "NONE",
+              "collaborators": null,
+              "__typename": "User"
+            },
+            "__typename": "GenerativeToken"
+          },
+          "__typename": "Objkt"
+        },
+        "__typename": "Listing"
+      },
+      {
+        "id": 955116,
+        "version": 1,
+        "price": 3500000,
+        "objkt": {
+          "id": "FX1-30276",
+          "version": 2,
+          "name": "Glows #13",
+          "slug": "glows-13",
+          "metadata": {
+            "name": "Glows #13",
+            "iterationHash": "ooJpZhC4nwWWo8ULwyYwr69GJ8HWrZ1E2W83eLUzz7bcCPx4zx2",
+            "description": "Glows is the third installment of the work \"The Shining\".",
+            "tags": [
+              "generative",
+              "artwork",
+              "door",
+              "glow",
+              "light",
+              "colorimmersive",
+              "fascinating",
+              "atmosphere"
+            ],
+            "generatorUri": "ipfs://QmW3PYCEiRd2iLdR2QhcCTBw4T8yYK8RQvpFake7RA6p9Z",
+            "artifactUri": "ipfs://QmW3PYCEiRd2iLdR2QhcCTBw4T8yYK8RQvpFake7RA6p9Z/?fxhash=ooJpZhC4nwWWo8ULwyYwr69GJ8HWrZ1E2W83eLUzz7bcCPx4zx2&fxminter=tz1ZjEwXyHtcnD48WfYy9YRpkkc7dSP3Nh4W",
+            "displayUri": "ipfs://QmTwkojN6HBwYYx4T1Umct2TEfrkEfauAwi8DpgHx4e6YL",
+            "thumbnailUri": "ipfs://QmTBEngJdNzhK5rVTL4bS5vqpiPmrJcFsZFSsLrPWCtoX4",
+            "authenticityHash": "93cbe1664c5377dbe38d61d4d3acd6ed26f0ae10b5381c150491f83b7e6c5d89",
+            "attributes": true,
+            "decimals": 0,
+            "symbol": "GENTK",
+            "version": "0.2"
+          },
+          "duplicate": false,
+          "activeListing": {
+            "id": 955116,
+            "version": 1,
+            "price": 3500000,
+            "__typename": "Listing"
+          },
+          "owner": {
+            "id": "tz1ZjEwXyHtcnD48WfYy9YRpkkc7dSP3Nh4W",
+            "name": null,
+            "flag": "NONE",
+            "avatarUri": null,
+            "__typename": "User"
+          },
+          "issuer": {
+            "flag": "NONE",
+            "name": "Glows",
+            "author": {
+              "id": "tz1PyCveTVuCwEWan7zEkWzHXdAtukunH3nK",
+              "name": "Jeff_Tezos",
+              "type": "REGULAR",
+              "avatarUri": "ipfs://QmUH6CtnpeYv8bHfF2t49naGfnrxszPgZjVKWpGfkyKS4a",
+              "flag": "NONE",
+              "collaborators": null,
+              "__typename": "User"
+            },
+            "__typename": "GenerativeToken"
+          },
+          "__typename": "Objkt"
+        },
+        "__typename": "Listing"
+      },
+      {
+        "id": 955115,
+        "version": 1,
+        "price": 3500000,
+        "objkt": {
+          "id": "FX1-30280",
+          "version": 2,
+          "name": "Glows #16",
+          "slug": "glows-16",
+          "metadata": {
+            "name": "Glows #16",
+            "iterationHash": "oo2V5cEZJNaXyvzqAG78gkPWJBNgbHW7CjE219FyeJKuv7LrfcU",
+            "description": "Glows is the third installment of the work \"The Shining\".",
+            "tags": [
+              "generative",
+              "artwork",
+              "door",
+              "glow",
+              "light",
+              "colorimmersive",
+              "fascinating",
+              "atmosphere"
+            ],
+            "generatorUri": "ipfs://QmW3PYCEiRd2iLdR2QhcCTBw4T8yYK8RQvpFake7RA6p9Z",
+            "artifactUri": "ipfs://QmW3PYCEiRd2iLdR2QhcCTBw4T8yYK8RQvpFake7RA6p9Z/?fxhash=oo2V5cEZJNaXyvzqAG78gkPWJBNgbHW7CjE219FyeJKuv7LrfcU&fxminter=tz1ZjEwXyHtcnD48WfYy9YRpkkc7dSP3Nh4W",
+            "displayUri": "ipfs://QmbPNru9ChVHHe7aC31eVNE2unEvFEuaCxXmUiPWHGtxag",
+            "thumbnailUri": "ipfs://QmWZsS7S33k5LKCnFx93c4QUjLxURYuZDqhmkQQBtREf84",
+            "authenticityHash": "e03314e8de09d6fd5c85ad223520b3f3beb1e25d25c17c05d0a9d45dcfbaa01d",
+            "attributes": true,
+            "decimals": 0,
+            "symbol": "GENTK",
+            "version": "0.2"
+          },
+          "duplicate": false,
+          "activeListing": {
+            "id": 955115,
+            "version": 1,
+            "price": 3500000,
+            "__typename": "Listing"
+          },
+          "owner": {
+            "id": "tz1ZjEwXyHtcnD48WfYy9YRpkkc7dSP3Nh4W",
+            "name": null,
+            "flag": "NONE",
+            "avatarUri": null,
+            "__typename": "User"
+          },
+          "issuer": {
+            "flag": "NONE",
+            "name": "Glows",
+            "author": {
+              "id": "tz1PyCveTVuCwEWan7zEkWzHXdAtukunH3nK",
+              "name": "Jeff_Tezos",
+              "type": "REGULAR",
+              "avatarUri": "ipfs://QmUH6CtnpeYv8bHfF2t49naGfnrxszPgZjVKWpGfkyKS4a",
+              "flag": "NONE",
+              "collaborators": null,
+              "__typename": "User"
+            },
+            "__typename": "GenerativeToken"
+          },
+          "__typename": "Objkt"
+        },
+        "__typename": "Listing"
+      },
+      {
+        "id": 955114,
+        "version": 1,
+        "price": 7700000,
+        "objkt": {
+          "id": "FX1-30289",
+          "version": 2,
+          "name": "Glows #17",
+          "slug": "glows-17",
+          "metadata": {
+            "name": "Glows #17",
+            "iterationHash": "oo44AVoqHpr2YrQ9rxAmZ7yK6YiuEHtmrA8THD8FujeUGGUBxwS",
+            "description": "Glows is the third installment of the work \"The Shining\".",
+            "tags": [
+              "generative",
+              "artwork",
+              "door",
+              "glow",
+              "light",
+              "colorimmersive",
+              "fascinating",
+              "atmosphere"
+            ],
+            "generatorUri": "ipfs://QmW3PYCEiRd2iLdR2QhcCTBw4T8yYK8RQvpFake7RA6p9Z",
+            "artifactUri": "ipfs://QmW3PYCEiRd2iLdR2QhcCTBw4T8yYK8RQvpFake7RA6p9Z/?fxhash=oo44AVoqHpr2YrQ9rxAmZ7yK6YiuEHtmrA8THD8FujeUGGUBxwS&fxminter=tz1ZjEwXyHtcnD48WfYy9YRpkkc7dSP3Nh4W",
+            "displayUri": "ipfs://QmTCETi1hyBDp3uEp9vFZgmLU8Lku7NVwTYMEwUCX5r266",
+            "thumbnailUri": "ipfs://Qmb2QnceDVYsKz73SJfiWYsKLTNyci9cQEnxmz5GTmU8SN",
+            "authenticityHash": "de43f5425bc52cb28b4c03dce4876e24f3f6f3ed7d864974a3a64c44748ac8d5",
+            "attributes": true,
+            "decimals": 0,
+            "symbol": "GENTK",
+            "version": "0.2"
+          },
+          "duplicate": false,
+          "activeListing": {
+            "id": 955114,
+            "version": 1,
+            "price": 7700000,
+            "__typename": "Listing"
+          },
+          "owner": {
+            "id": "tz1ZjEwXyHtcnD48WfYy9YRpkkc7dSP3Nh4W",
+            "name": null,
+            "flag": "NONE",
+            "avatarUri": null,
+            "__typename": "User"
+          },
+          "issuer": {
+            "flag": "NONE",
+            "name": "Glows",
+            "author": {
+              "id": "tz1PyCveTVuCwEWan7zEkWzHXdAtukunH3nK",
+              "name": "Jeff_Tezos",
+              "type": "REGULAR",
+              "avatarUri": "ipfs://QmUH6CtnpeYv8bHfF2t49naGfnrxszPgZjVKWpGfkyKS4a",
+              "flag": "NONE",
+              "collaborators": null,
+              "__typename": "User"
+            },
+            "__typename": "GenerativeToken"
+          },
+          "__typename": "Objkt"
+        },
+        "__typename": "Listing"
+      },
+      {
+        "id": 955113,
+        "version": 1,
+        "price": 9900000,
+        "objkt": {
+          "id": "FX1-30293",
+          "version": 2,
+          "name": "Glows #18",
+          "slug": "glows-18",
+          "metadata": {
+            "name": "Glows #18",
+            "iterationHash": "ooWPvCA5HUzt5KvU3Xx7e7HQ2M1Up5SF5hHVCSdq7WjJ4ChH8Xj",
+            "description": "Glows is the third installment of the work \"The Shining\".",
+            "tags": [
+              "generative",
+              "artwork",
+              "door",
+              "glow",
+              "light",
+              "colorimmersive",
+              "fascinating",
+              "atmosphere"
+            ],
+            "generatorUri": "ipfs://QmW3PYCEiRd2iLdR2QhcCTBw4T8yYK8RQvpFake7RA6p9Z",
+            "artifactUri": "ipfs://QmW3PYCEiRd2iLdR2QhcCTBw4T8yYK8RQvpFake7RA6p9Z/?fxhash=ooWPvCA5HUzt5KvU3Xx7e7HQ2M1Up5SF5hHVCSdq7WjJ4ChH8Xj&fxminter=tz1ZjEwXyHtcnD48WfYy9YRpkkc7dSP3Nh4W",
+            "displayUri": "ipfs://QmUdCP4qPZAcG3EbJrRaL7khobFC11zro4TBEM4MLL5fXk",
+            "thumbnailUri": "ipfs://QmWRDSfZ4YdRk6d5k1taMLJ6fMiJPFe3aoWsqDtcqxGkfX",
+            "authenticityHash": "ad26b689e2cc0b79addc61df1558743f5a5d909520708afe8036b872852f7d79",
+            "attributes": true,
+            "decimals": 0,
+            "symbol": "GENTK",
+            "version": "0.2"
+          },
+          "duplicate": false,
+          "activeListing": {
+            "id": 955113,
+            "version": 1,
+            "price": 9900000,
+            "__typename": "Listing"
+          },
+          "owner": {
+            "id": "tz1ZjEwXyHtcnD48WfYy9YRpkkc7dSP3Nh4W",
+            "name": null,
+            "flag": "NONE",
+            "avatarUri": null,
+            "__typename": "User"
+          },
+          "issuer": {
+            "flag": "NONE",
+            "name": "Glows",
+            "author": {
+              "id": "tz1PyCveTVuCwEWan7zEkWzHXdAtukunH3nK",
+              "name": "Jeff_Tezos",
+              "type": "REGULAR",
+              "avatarUri": "ipfs://QmUH6CtnpeYv8bHfF2t49naGfnrxszPgZjVKWpGfkyKS4a",
+              "flag": "NONE",
+              "collaborators": null,
+              "__typename": "User"
+            },
+            "__typename": "GenerativeToken"
+          },
+          "__typename": "Objkt"
+        },
+        "__typename": "Listing"
+      },
+      {
+        "id": 955112,
+        "version": 1,
+        "price": 4000000,
+        "objkt": {
+          "id": "FX1-30278",
+          "version": 2,
+          "name": "Glows #15",
+          "slug": "glows-15",
+          "metadata": {
+            "name": "Glows #15",
+            "iterationHash": "opKqwRaVtuScpXT4GLr7MwB3kphyuEPspUcfXBU5Q2geVZPy6FZ",
+            "description": "Glows is the third installment of the work \"The Shining\".",
+            "tags": [
+              "generative",
+              "artwork",
+              "door",
+              "glow",
+              "light",
+              "colorimmersive",
+              "fascinating",
+              "atmosphere"
+            ],
+            "generatorUri": "ipfs://QmW3PYCEiRd2iLdR2QhcCTBw4T8yYK8RQvpFake7RA6p9Z",
+            "artifactUri": "ipfs://QmW3PYCEiRd2iLdR2QhcCTBw4T8yYK8RQvpFake7RA6p9Z/?fxhash=opKqwRaVtuScpXT4GLr7MwB3kphyuEPspUcfXBU5Q2geVZPy6FZ&fxminter=tz1ZjEwXyHtcnD48WfYy9YRpkkc7dSP3Nh4W",
+            "displayUri": "ipfs://QmXcwj5mESh5taUtZEQY2Ru9XbyDBHaJs75sP6PAQVTWJ1",
+            "thumbnailUri": "ipfs://QmRdzmuaNy6gviwFAHR4xRoUvAxoR8k9bRRm53NcrrNi2b",
+            "authenticityHash": "0a1ad77b5d8ed36fa75065518bc38923773c18bc9cf885c1adebbda094037c04",
+            "attributes": true,
+            "decimals": 0,
+            "symbol": "GENTK",
+            "version": "0.2"
+          },
+          "duplicate": false,
+          "activeListing": {
+            "id": 955112,
+            "version": 1,
+            "price": 4000000,
+            "__typename": "Listing"
+          },
+          "owner": {
+            "id": "tz1ZjEwXyHtcnD48WfYy9YRpkkc7dSP3Nh4W",
+            "name": null,
+            "flag": "NONE",
+            "avatarUri": null,
+            "__typename": "User"
+          },
+          "issuer": {
+            "flag": "NONE",
+            "name": "Glows",
+            "author": {
+              "id": "tz1PyCveTVuCwEWan7zEkWzHXdAtukunH3nK",
+              "name": "Jeff_Tezos",
+              "type": "REGULAR",
+              "avatarUri": "ipfs://QmUH6CtnpeYv8bHfF2t49naGfnrxszPgZjVKWpGfkyKS4a",
+              "flag": "NONE",
+              "collaborators": null,
+              "__typename": "User"
+            },
+            "__typename": "GenerativeToken"
+          },
+          "__typename": "Objkt"
+        },
+        "__typename": "Listing"
+      },
+      {
+        "id": 955111,
+        "version": 1,
+        "price": 4000000,
+        "objkt": {
+          "id": "FX1-30269",
+          "version": 2,
+          "name": "Glows #10",
+          "slug": "glows-10",
+          "metadata": {
+            "name": "Glows #10",
+            "iterationHash": "ooJtqrdPcz5YryRRXhgzzx3LkhMSYRHVxLeah8y1KPzMdV4QkDP",
+            "description": "Glows is the third installment of the work \"The Shining\".",
+            "tags": [
+              "generative",
+              "artwork",
+              "door",
+              "glow",
+              "light",
+              "colorimmersive",
+              "fascinating",
+              "atmosphere"
+            ],
+            "generatorUri": "ipfs://QmW3PYCEiRd2iLdR2QhcCTBw4T8yYK8RQvpFake7RA6p9Z",
+            "artifactUri": "ipfs://QmW3PYCEiRd2iLdR2QhcCTBw4T8yYK8RQvpFake7RA6p9Z/?fxhash=ooJtqrdPcz5YryRRXhgzzx3LkhMSYRHVxLeah8y1KPzMdV4QkDP&fxminter=tz1ZjEwXyHtcnD48WfYy9YRpkkc7dSP3Nh4W",
+            "displayUri": "ipfs://Qme9jrq5x2JDVmctSjEaZL28ENbCGY8zAnAtq4TskmTYEN",
+            "thumbnailUri": "ipfs://QmZ3ECxETb1zjmrerxv6hNnD5NnwqGBUVdt17D3X4f9sQM",
+            "authenticityHash": "2fcbc4508f9681420c4821c48c5c1ac4846835c1c81d4fc49f2b35173767e730",
+            "attributes": true,
+            "decimals": 0,
+            "symbol": "GENTK",
+            "version": "0.2"
+          },
+          "duplicate": false,
+          "activeListing": {
+            "id": 955111,
+            "version": 1,
+            "price": 4000000,
+            "__typename": "Listing"
+          },
+          "owner": {
+            "id": "tz1ZjEwXyHtcnD48WfYy9YRpkkc7dSP3Nh4W",
+            "name": null,
+            "flag": "NONE",
+            "avatarUri": null,
+            "__typename": "User"
+          },
+          "issuer": {
+            "flag": "NONE",
+            "name": "Glows",
+            "author": {
+              "id": "tz1PyCveTVuCwEWan7zEkWzHXdAtukunH3nK",
+              "name": "Jeff_Tezos",
+              "type": "REGULAR",
+              "avatarUri": "ipfs://QmUH6CtnpeYv8bHfF2t49naGfnrxszPgZjVKWpGfkyKS4a",
+              "flag": "NONE",
+              "collaborators": null,
+              "__typename": "User"
+            },
+            "__typename": "GenerativeToken"
+          },
+          "__typename": "Objkt"
+        },
+        "__typename": "Listing"
+      },
+      {
+        "id": 955110,
+        "version": 1,
+        "price": 4000000,
+        "objkt": {
+          "id": "FX1-30273",
+          "version": 2,
+          "name": "Glows #11",
+          "slug": "glows-11",
+          "metadata": {
+            "name": "Glows #11",
+            "iterationHash": "ooHgznw9EYX9UR4p7oZKuR3jbDRfKFrVmyQ7RNLYvdgGsLTQqCR",
+            "description": "Glows is the third installment of the work \"The Shining\".",
+            "tags": [
+              "generative",
+              "artwork",
+              "door",
+              "glow",
+              "light",
+              "colorimmersive",
+              "fascinating",
+              "atmosphere"
+            ],
+            "generatorUri": "ipfs://QmW3PYCEiRd2iLdR2QhcCTBw4T8yYK8RQvpFake7RA6p9Z",
+            "artifactUri": "ipfs://QmW3PYCEiRd2iLdR2QhcCTBw4T8yYK8RQvpFake7RA6p9Z/?fxhash=ooHgznw9EYX9UR4p7oZKuR3jbDRfKFrVmyQ7RNLYvdgGsLTQqCR&fxminter=tz1ZjEwXyHtcnD48WfYy9YRpkkc7dSP3Nh4W",
+            "displayUri": "ipfs://QmSyLhXgMFsm8KEDDiB1GxKoCaRB1tdkQvDQt5GkbkrkLR",
+            "thumbnailUri": "ipfs://QmYLm5bMTENqSXXU5uaSyDe8FTgoJqMRy6Aet71hoWNyLp",
+            "authenticityHash": "8a629b2d37c3fca327bfe8cead8297a0db4ffaa3dd7e88cdbde12945531c282c",
+            "attributes": true,
+            "decimals": 0,
+            "symbol": "GENTK",
+            "version": "0.2"
+          },
+          "duplicate": false,
+          "activeListing": {
+            "id": 955110,
+            "version": 1,
+            "price": 4000000,
+            "__typename": "Listing"
+          },
+          "owner": {
+            "id": "tz1ZjEwXyHtcnD48WfYy9YRpkkc7dSP3Nh4W",
+            "name": null,
+            "flag": "NONE",
+            "avatarUri": null,
+            "__typename": "User"
+          },
+          "issuer": {
+            "flag": "NONE",
+            "name": "Glows",
+            "author": {
+              "id": "tz1PyCveTVuCwEWan7zEkWzHXdAtukunH3nK",
+              "name": "Jeff_Tezos",
+              "type": "REGULAR",
+              "avatarUri": "ipfs://QmUH6CtnpeYv8bHfF2t49naGfnrxszPgZjVKWpGfkyKS4a",
+              "flag": "NONE",
+              "collaborators": null,
+              "__typename": "User"
+            },
+            "__typename": "GenerativeToken"
+          },
+          "__typename": "Objkt"
+        },
+        "__typename": "Listing"
+      },
+      {
+        "id": 955109,
+        "version": 1,
+        "price": 3500000,
+        "objkt": {
+          "id": "FX1-30264",
+          "version": 2,
+          "name": "Glows #8",
+          "slug": "glows-8",
+          "metadata": {
+            "name": "Glows #8",
+            "iterationHash": "opCmP5wTj2KuFXq9AByZCVuHuPXDUGeNLFCwqkYD2Uvcro7eXet",
+            "description": "Glows is the third installment of the work \"The Shining\".",
+            "tags": [
+              "generative",
+              "artwork",
+              "door",
+              "glow",
+              "light",
+              "colorimmersive",
+              "fascinating",
+              "atmosphere"
+            ],
+            "generatorUri": "ipfs://QmW3PYCEiRd2iLdR2QhcCTBw4T8yYK8RQvpFake7RA6p9Z",
+            "artifactUri": "ipfs://QmW3PYCEiRd2iLdR2QhcCTBw4T8yYK8RQvpFake7RA6p9Z/?fxhash=opCmP5wTj2KuFXq9AByZCVuHuPXDUGeNLFCwqkYD2Uvcro7eXet&fxminter=tz1ZjEwXyHtcnD48WfYy9YRpkkc7dSP3Nh4W",
+            "displayUri": "ipfs://QmejoPJH54S1gZu1YbifBTpn4TJXMvD9ggazPr2a93zxH5",
+            "thumbnailUri": "ipfs://Qman4Zp6MKMHFZqKyjYmqmuZPYFRdn7Y6bkq4LtSgDfCKq",
+            "authenticityHash": "e29523701e297cc7358a566ce0c12f04c48171e44b88f5a0eaf4b3459b3ba4de",
+            "attributes": true,
+            "decimals": 0,
+            "symbol": "GENTK",
+            "version": "0.2"
+          },
+          "duplicate": false,
+          "activeListing": {
+            "id": 955109,
+            "version": 1,
+            "price": 3500000,
+            "__typename": "Listing"
+          },
+          "owner": {
+            "id": "tz1ZjEwXyHtcnD48WfYy9YRpkkc7dSP3Nh4W",
+            "name": null,
+            "flag": "NONE",
+            "avatarUri": null,
+            "__typename": "User"
+          },
+          "issuer": {
+            "flag": "NONE",
+            "name": "Glows",
+            "author": {
+              "id": "tz1PyCveTVuCwEWan7zEkWzHXdAtukunH3nK",
+              "name": "Jeff_Tezos",
+              "type": "REGULAR",
+              "avatarUri": "ipfs://QmUH6CtnpeYv8bHfF2t49naGfnrxszPgZjVKWpGfkyKS4a",
+              "flag": "NONE",
+              "collaborators": null,
+              "__typename": "User"
+            },
+            "__typename": "GenerativeToken"
+          },
+          "__typename": "Objkt"
+        },
+        "__typename": "Listing"
+      },
+      {
+        "id": 955108,
+        "version": 1,
+        "price": 4500000,
+        "objkt": {
+          "id": "FX1-30267",
+          "version": 2,
+          "name": "Glows #9",
+          "slug": "glows-9",
+          "metadata": {
+            "name": "Glows #9",
+            "iterationHash": "ontMccikzHkrGciSC9hWgbuvZ1nMYz1zo7moxQppCVHxkwpvPh4",
+            "description": "Glows is the third installment of the work \"The Shining\".",
+            "tags": [
+              "generative",
+              "artwork",
+              "door",
+              "glow",
+              "light",
+              "colorimmersive",
+              "fascinating",
+              "atmosphere"
+            ],
+            "generatorUri": "ipfs://QmW3PYCEiRd2iLdR2QhcCTBw4T8yYK8RQvpFake7RA6p9Z",
+            "artifactUri": "ipfs://QmW3PYCEiRd2iLdR2QhcCTBw4T8yYK8RQvpFake7RA6p9Z/?fxhash=ontMccikzHkrGciSC9hWgbuvZ1nMYz1zo7moxQppCVHxkwpvPh4&fxminter=tz1ZjEwXyHtcnD48WfYy9YRpkkc7dSP3Nh4W",
+            "displayUri": "ipfs://QmUCbB8hw6d2gPNVZ8idnspDvQVQbQmPfZKpCpRF8N4v5G",
+            "thumbnailUri": "ipfs://QmSR3PJuchfABZDZwdanuhcsr28wHsAwF95BTMYQmEFnu1",
+            "authenticityHash": "2148fec765acb49b31096e06ea69a22cdd4c248356db199e50e02809653c3576",
+            "attributes": true,
+            "decimals": 0,
+            "symbol": "GENTK",
+            "version": "0.2"
+          },
+          "duplicate": false,
+          "activeListing": {
+            "id": 955108,
+            "version": 1,
+            "price": 4500000,
+            "__typename": "Listing"
+          },
+          "owner": {
+            "id": "tz1ZjEwXyHtcnD48WfYy9YRpkkc7dSP3Nh4W",
+            "name": null,
+            "flag": "NONE",
+            "avatarUri": null,
+            "__typename": "User"
+          },
+          "issuer": {
+            "flag": "NONE",
+            "name": "Glows",
+            "author": {
+              "id": "tz1PyCveTVuCwEWan7zEkWzHXdAtukunH3nK",
+              "name": "Jeff_Tezos",
+              "type": "REGULAR",
+              "avatarUri": "ipfs://QmUH6CtnpeYv8bHfF2t49naGfnrxszPgZjVKWpGfkyKS4a",
+              "flag": "NONE",
+              "collaborators": null,
+              "__typename": "User"
+            },
+            "__typename": "GenerativeToken"
+          },
+          "__typename": "Objkt"
+        },
+        "__typename": "Listing"
+      },
+      {
+        "id": 955107,
+        "version": 1,
+        "price": 500000,
+        "objkt": {
+          "id": "FX1-31372",
+          "version": 2,
+          "name": "Backgrounds #21",
+          "slug": "backgrounds-21",
+          "metadata": {
+            "name": "[WAITING TO BE SIGNED]",
+            "description": "This Gentk is waiting to be signed by Fxhash Signer module",
+            "artifactUri": "ipfs://QmdGV3UqJqX4v5x9nFcDYeekCEAm3SDXUG5SHdjKQKn4Pe",
+            "displayUri": "ipfs://QmYwSwa5hP4346GqD7hAjutwJSmeYTdiLQ7Wec2C7Cez1D",
+            "thumbnailUri": "ipfs://QmbvEAn7FLMeYBDroYwBP8qWc3d3VVWbk19tTB83LCMB5S",
+            "symbol": "GENTK",
+            "decimals": 0
+          },
+          "duplicate": false,
+          "activeListing": {
+            "id": 955107,
+            "version": 1,
+            "price": 500000,
+            "__typename": "Listing"
+          },
+          "owner": {
+            "id": "tz1ZjEwXyHtcnD48WfYy9YRpkkc7dSP3Nh4W",
+            "name": null,
+            "flag": "NONE",
+            "avatarUri": null,
+            "__typename": "User"
+          },
+          "issuer": {
+            "flag": "NONE",
+            "name": "Backgrounds",
+            "author": {
+              "id": "tz1PyCveTVuCwEWan7zEkWzHXdAtukunH3nK",
+              "name": "Jeff_Tezos",
+              "type": "REGULAR",
+              "avatarUri": "ipfs://QmUH6CtnpeYv8bHfF2t49naGfnrxszPgZjVKWpGfkyKS4a",
+              "flag": "NONE",
+              "collaborators": null,
+              "__typename": "User"
+            },
+            "__typename": "GenerativeToken"
+          },
+          "__typename": "Objkt"
+        },
+        "__typename": "Listing"
+      },
+      {
+        "id": 955106,
+        "version": 1,
+        "price": 3300000,
+        "objkt": {
+          "id": "FX1-30064",
+          "version": 2,
+          "name": "Aura #69",
+          "slug": "aura-69-ea08b223-be47-443b-923e-57daa2509695",
+          "metadata": {
+            "name": "Aura #69",
+            "iterationHash": "ooYDUzoThc8MLFzankb9ag4ULd2vtx7ZDnAwbvkuQRnXnNf5W5x",
+            "description": "Mint your aura",
+            "tags": [
+              "generative",
+              "artwork",
+              "aura",
+              "glow",
+              "light",
+              "colorimmersive",
+              "fascinating",
+              "atmosphere"
+            ],
+            "generatorUri": "ipfs://QmZebKEViAMvGZqFnAH2Qpgo6sCc8wTAX69iGSAzNCuGZQ",
+            "artifactUri": "ipfs://QmZebKEViAMvGZqFnAH2Qpgo6sCc8wTAX69iGSAzNCuGZQ/?fxhash=ooYDUzoThc8MLFzankb9ag4ULd2vtx7ZDnAwbvkuQRnXnNf5W5x&fxminter=tz1ZjEwXyHtcnD48WfYy9YRpkkc7dSP3Nh4W",
+            "displayUri": "ipfs://QmcNwbjve12zKw7QZjdgXn84Mmy74XUx7B2VmJSDELpWjV",
+            "thumbnailUri": "ipfs://QmQ4ZkehAbhnXL5gzonJt9LG2YHYcK9m2nrqaVH7BbFnLt",
+            "authenticityHash": "9fc94793d7b817655422646b4b57c621d81d060abc7f5dd8ab85390a18c32459",
+            "attributes": true,
+            "decimals": 0,
+            "symbol": "GENTK",
+            "version": "0.2"
+          },
+          "duplicate": false,
+          "activeListing": {
+            "id": 955106,
+            "version": 1,
+            "price": 3300000,
+            "__typename": "Listing"
+          },
+          "owner": {
+            "id": "tz1ZjEwXyHtcnD48WfYy9YRpkkc7dSP3Nh4W",
+            "name": null,
+            "flag": "NONE",
+            "avatarUri": null,
+            "__typename": "User"
+          },
+          "issuer": {
+            "flag": "NONE",
+            "name": "Aura",
+            "author": {
+              "id": "tz1PyCveTVuCwEWan7zEkWzHXdAtukunH3nK",
+              "name": "Jeff_Tezos",
+              "type": "REGULAR",
+              "avatarUri": "ipfs://QmUH6CtnpeYv8bHfF2t49naGfnrxszPgZjVKWpGfkyKS4a",
+              "flag": "NONE",
+              "collaborators": null,
+              "__typename": "User"
+            },
+            "__typename": "GenerativeToken"
+          },
+          "__typename": "Objkt"
+        },
+        "__typename": "Listing"
+      },
+      {
+        "id": 955105,
+        "version": 1,
+        "price": 4400000,
+        "objkt": {
+          "id": "FX1-30065",
+          "version": 2,
+          "name": "Aura #70",
+          "slug": "aura-70-1ca8a40c-f8e0-4f9c-9555-5b4fa97d2d3b",
+          "metadata": {
+            "name": "Aura #70",
+            "iterationHash": "ooHQQ6k4Etb9QbRvvEDn6nzgK21WWVKELSD6YKPN3P19BaKES1k",
+            "description": "Mint your aura",
+            "tags": [
+              "generative",
+              "artwork",
+              "aura",
+              "glow",
+              "light",
+              "colorimmersive",
+              "fascinating",
+              "atmosphere"
+            ],
+            "generatorUri": "ipfs://QmZebKEViAMvGZqFnAH2Qpgo6sCc8wTAX69iGSAzNCuGZQ",
+            "artifactUri": "ipfs://QmZebKEViAMvGZqFnAH2Qpgo6sCc8wTAX69iGSAzNCuGZQ/?fxhash=ooHQQ6k4Etb9QbRvvEDn6nzgK21WWVKELSD6YKPN3P19BaKES1k&fxminter=tz1ZjEwXyHtcnD48WfYy9YRpkkc7dSP3Nh4W",
+            "displayUri": "ipfs://QmSh4ue9KvoMtr8eDecPhwCsccGKEZLkjaPY3g8s3RLXbJ",
+            "thumbnailUri": "ipfs://QmUrRkK1Pu2d2LKUtEDUAKxEidEo11n4wrNCzzFDEYtXGz",
+            "authenticityHash": "3f0e161a17f5256d25b530c806dd0bbe9b74b2ce1fdfab9d86116eaa1f3a5e4f",
+            "attributes": true,
+            "decimals": 0,
+            "symbol": "GENTK",
+            "version": "0.2"
+          },
+          "duplicate": false,
+          "activeListing": {
+            "id": 955105,
+            "version": 1,
+            "price": 4400000,
+            "__typename": "Listing"
+          },
+          "owner": {
+            "id": "tz1ZjEwXyHtcnD48WfYy9YRpkkc7dSP3Nh4W",
+            "name": null,
+            "flag": "NONE",
+            "avatarUri": null,
+            "__typename": "User"
+          },
+          "issuer": {
+            "flag": "NONE",
+            "name": "Aura",
+            "author": {
+              "id": "tz1PyCveTVuCwEWan7zEkWzHXdAtukunH3nK",
+              "name": "Jeff_Tezos",
+              "type": "REGULAR",
+              "avatarUri": "ipfs://QmUH6CtnpeYv8bHfF2t49naGfnrxszPgZjVKWpGfkyKS4a",
+              "flag": "NONE",
+              "collaborators": null,
+              "__typename": "User"
+            },
+            "__typename": "GenerativeToken"
+          },
+          "__typename": "Objkt"
+        },
+        "__typename": "Listing"
+      },
+      {
+        "id": 955104,
+        "version": 1,
+        "price": 4000000,
+        "objkt": {
+          "id": "FX1-30037",
+          "version": 2,
+          "name": "Aura #46",
+          "slug": "aura-46-f4727584-ac74-4882-8c91-69d584b2fc5c",
+          "metadata": {
+            "name": "Aura #46",
+            "iterationHash": "oodQF2jN6V93bEoUieSeS1ND1p6FijoanfMtav7c2ca7NXX4ncu",
+            "description": "Mint your aura",
+            "tags": [
+              "generative",
+              "artwork",
+              "aura",
+              "glow",
+              "light",
+              "colorimmersive",
+              "fascinating",
+              "atmosphere"
+            ],
+            "generatorUri": "ipfs://QmZebKEViAMvGZqFnAH2Qpgo6sCc8wTAX69iGSAzNCuGZQ",
+            "artifactUri": "ipfs://QmZebKEViAMvGZqFnAH2Qpgo6sCc8wTAX69iGSAzNCuGZQ/?fxhash=oodQF2jN6V93bEoUieSeS1ND1p6FijoanfMtav7c2ca7NXX4ncu&fxminter=tz1ZjEwXyHtcnD48WfYy9YRpkkc7dSP3Nh4W",
+            "displayUri": "ipfs://QmR5dczV9wzn4gajRdrU3V81GZGVjHkoA7dxeTc6o8GExR",
+            "thumbnailUri": "ipfs://QmeQwJutzJW3269o11cW4t4sBmTYnGJts8DJtCf69Be1Pw",
+            "authenticityHash": "26fd40df5e8a5ba21b5a817618d060cff55965af0b927bdc14268c00804b64e4",
+            "attributes": true,
+            "decimals": 0,
+            "symbol": "GENTK",
+            "version": "0.2"
+          },
+          "duplicate": false,
+          "activeListing": {
+            "id": 955104,
+            "version": 1,
+            "price": 4000000,
+            "__typename": "Listing"
+          },
+          "owner": {
+            "id": "tz1ZjEwXyHtcnD48WfYy9YRpkkc7dSP3Nh4W",
+            "name": null,
+            "flag": "NONE",
+            "avatarUri": null,
+            "__typename": "User"
+          },
+          "issuer": {
+            "flag": "NONE",
+            "name": "Aura",
+            "author": {
+              "id": "tz1PyCveTVuCwEWan7zEkWzHXdAtukunH3nK",
+              "name": "Jeff_Tezos",
+              "type": "REGULAR",
+              "avatarUri": "ipfs://QmUH6CtnpeYv8bHfF2t49naGfnrxszPgZjVKWpGfkyKS4a",
+              "flag": "NONE",
+              "collaborators": null,
+              "__typename": "User"
+            },
+            "__typename": "GenerativeToken"
+          },
+          "__typename": "Objkt"
+        },
+        "__typename": "Listing"
+      },
+      {
+        "id": 955103,
+        "version": 1,
+        "price": 2000000,
+        "objkt": {
+          "id": "FX1-30053",
+          "version": 2,
+          "name": "Aura #58",
+          "slug": "aura-58-81ae565d-fdee-487c-a1d0-cb40051c5bbd",
+          "metadata": {
+            "name": "Aura #58",
+            "iterationHash": "op8xH9WWniisUyn5RAx49ci7AJrLiwi1tBnyi8Usicd9PBMqdQV",
+            "description": "Mint your aura",
+            "tags": [
+              "generative",
+              "artwork",
+              "aura",
+              "glow",
+              "light",
+              "colorimmersive",
+              "fascinating",
+              "atmosphere"
+            ],
+            "generatorUri": "ipfs://QmZebKEViAMvGZqFnAH2Qpgo6sCc8wTAX69iGSAzNCuGZQ",
+            "artifactUri": "ipfs://QmZebKEViAMvGZqFnAH2Qpgo6sCc8wTAX69iGSAzNCuGZQ/?fxhash=op8xH9WWniisUyn5RAx49ci7AJrLiwi1tBnyi8Usicd9PBMqdQV&fxminter=tz1ZjEwXyHtcnD48WfYy9YRpkkc7dSP3Nh4W",
+            "displayUri": "ipfs://QmPqH7poGFUJeT3kpsuD5J5VLkxa32NRks5Qcj5KmKuMuV",
+            "thumbnailUri": "ipfs://QmU739V5ZdgqUViDgd38PDVvwHQAuSrKdPf1tc8ZRWf9CG",
+            "authenticityHash": "b9e319852a6309ffe32f585eabaae659b5ce585c32f39d2522286f51f3a00e65",
+            "attributes": true,
+            "decimals": 0,
+            "symbol": "GENTK",
+            "version": "0.2"
+          },
+          "duplicate": false,
+          "activeListing": {
+            "id": 955103,
+            "version": 1,
+            "price": 2000000,
+            "__typename": "Listing"
+          },
+          "owner": {
+            "id": "tz1ZjEwXyHtcnD48WfYy9YRpkkc7dSP3Nh4W",
+            "name": null,
+            "flag": "NONE",
+            "avatarUri": null,
+            "__typename": "User"
+          },
+          "issuer": {
+            "flag": "NONE",
+            "name": "Aura",
+            "author": {
+              "id": "tz1PyCveTVuCwEWan7zEkWzHXdAtukunH3nK",
+              "name": "Jeff_Tezos",
+              "type": "REGULAR",
+              "avatarUri": "ipfs://QmUH6CtnpeYv8bHfF2t49naGfnrxszPgZjVKWpGfkyKS4a",
+              "flag": "NONE",
+              "collaborators": null,
+              "__typename": "User"
+            },
+            "__typename": "GenerativeToken"
+          },
+          "__typename": "Objkt"
+        },
+        "__typename": "Listing"
+      },
+      {
+        "id": 955102,
+        "version": 1,
+        "price": 19000000,
+        "objkt": {
+          "id": "FX1-29921",
+          "version": 2,
+          "name": "Monotipia #29",
+          "slug": "monotipia-29",
+          "metadata": {
+            "name": "Monotipia #29",
+            "iterationHash": "ooFbNU6EEgem5yT1Xd1amjbrBok4ckMX38Yf1zVU67hS2Vacrme",
+            "description": "Graphic compositions made with simple elements. Playing with the subtlety and rhythm of colors, shapes and textures.\n\nThis work was inspired by the textures of monotype prints and those of metal engraving. Especially in the geometric marks made by the inking roller while stretching the graphic ink to make a manual printing. It is a tribute to the visuality of handmade prints.\n\n\"Monotipia\" means monotype printing in Portuguese. It is a graphic printing process that results in a single copy. Here I make a parallel between monotype printing and the code+hash minting process, which also produces a single image.\n\n---\nFeatures:\n-> 15 composition schemes\n-> 51 handpicked base colors\n-> 3 canvas formats:  \n-----> Portrait (vertical) \n-----> Square \n-----> Landscape (horizontal)\n-> 3 element tones options: \n-----> Light Texture & Shapes\n-----> Light Texture / Dark Shapes \n-----> Dark Texture & Shapes\n\n---\nTo save the image as a png file, type:\n[1] save at actual size \n[2] save with 2000px height\n[3] save with 3000px height\n[4] save with 4000px height\n[5] save with 5000px height\n\nDepending on the size option, the render time can be long.\n\n---\nCreated with p5.js\n\n---\nThis is my first project on FX(hash) and I would like to express my special thanks to Janaina Selva, Dmarchi, Gyo and Morbeck for their support and for following the step-by-step development of this work, always contributing with a critical eye and great suggestions. I also thank the help from the FX(hash) community on Discord.\n\n---\n(c) Marcelo Terça-Nada, 2023\nhttps://marcelonada.redezero.org/\n@marcelonada",
+            "tags": [
+              "monotipia",
+              "marcelo terça-nada",
+              "marcelonada",
+              "printing",
+              "drawing",
+              "engraving",
+              "colorful",
+              "shapes",
+              "texture",
+              "abstract",
+              "geometric",
+              "generative",
+              "p5js"
+            ],
+            "generatorUri": "ipfs://Qmcsri4QjfMDkv9KkJHRJvRvgzzzjHazzUfyQzW8GLpioJ",
+            "artifactUri": "ipfs://Qmcsri4QjfMDkv9KkJHRJvRvgzzzjHazzUfyQzW8GLpioJ/?fxhash=ooFbNU6EEgem5yT1Xd1amjbrBok4ckMX38Yf1zVU67hS2Vacrme&fxminter=tz1N7N8CY6Vq7CpA2HhgGi7vWSXEN1s6ZB6i",
+            "displayUri": "ipfs://QmcrAAktNtjfonjxwahnW4f2vbE2Mu3VhyZJnBKdtR4476",
+            "thumbnailUri": "ipfs://QmRDeMtpmaoq3Tqc8T9oYaXi5Z6grMToPnyufxiu8YLE26",
+            "authenticityHash": "9a3ee41705643b4df8702f3391b8b7faf358d5390086aafecc619e597619b8ed",
+            "attributes": [
+              {
+                "name": "Canvas Format",
+                "value": "Square"
+              },
+              {
+                "name": "Elements",
+                "value": "Light texture & shapes"
+              },
+              {
+                "name": "Base Color",
+                "value": "#D2691E"
+              },
+              {
+                "name": "Composition",
+                "value": 5
+              }
+            ],
+            "decimals": 0,
+            "symbol": "GENTK",
+            "version": "0.2"
+          },
+          "duplicate": false,
+          "activeListing": {
+            "id": 955102,
+            "version": 1,
+            "price": 19000000,
             "__typename": "Listing"
           },
           "owner": {
@@ -70,13 +1306,13 @@
           },
           "issuer": {
             "flag": "NONE",
-            "name": "Bubblemania",
+            "name": "Monotipia",
             "author": {
-              "id": "tz1d4ThofujwwaWvxDQHF7VyJfaeR2ay3jhf",
-              "name": "toxi",
+              "id": "tz1UhiQXVYzSXWF2m6QNEtir5VViQrUXg4by",
+              "name": "marcelonada",
               "type": "REGULAR",
-              "avatarUri": "ipfs://QmTsU7NJw5u7wtzDHPQ878vc6qoZo6dppS6gffGY1u4FwH",
-              "flag": "VERIFIED",
+              "avatarUri": "ipfs://QmVFrB4KBsPesnCtAXgxeV5M5JafoVpunawUiR4z3ZCoEz",
+              "flag": "NONE",
               "collaborators": null,
               "__typename": "User"
             },
@@ -172,16 +1408,16 @@
               "flag": "NONE",
               "collaborators": [
                 {
-                  "id": "tz1bmUi5SXy4KdoeQoqcg5dWdcnbVHzFGE6u",
-                  "name": "xDeads Collection",
-                  "avatarUri": "ipfs://QmeYSNuCnsE9AhMr4mZs37TG1CJ6gdBzdkqtBDwDEm9Se5",
+                  "id": "tz1V1WKxhK9g5UFbhRNUnQMmDnnL2vtBzoZJ",
+                  "name": "hydra",
+                  "avatarUri": null,
                   "flag": "NONE",
                   "__typename": "User"
                 },
                 {
-                  "id": "tz1V1WKxhK9g5UFbhRNUnQMmDnnL2vtBzoZJ",
-                  "name": "hydra",
-                  "avatarUri": null,
+                  "id": "tz1bmUi5SXy4KdoeQoqcg5dWdcnbVHzFGE6u",
+                  "name": "xDeads Collection",
+                  "avatarUri": "ipfs://QmeYSNuCnsE9AhMr4mZs37TG1CJ6gdBzdkqtBDwDEm9Se5",
                   "flag": "NONE",
                   "__typename": "User"
                 },
@@ -221,1174 +1457,6 @@
                   "__typename": "User"
                 }
               ],
-              "__typename": "User"
-            },
-            "__typename": "GenerativeToken"
-          },
-          "__typename": "Objkt"
-        },
-        "__typename": "Listing"
-      },
-      {
-        "id": 955099,
-        "version": 1,
-        "price": 89000000,
-        "objkt": {
-          "id": "FX0-34458",
-          "version": 0,
-          "name": "NervousGrid 01 #5",
-          "slug": "nervousgrid-01-5",
-          "metadata": {
-            "name": "NervousGrid 01 #5",
-            "iterationHash": "ootDKft9YcLAGRct31jkJ2PSzh6oGG2S1SW7Urs74uKsqeJp72T",
-            "description": "Generates a nervous grid that varies according to different randomised parameters: .Grid Mode (2, 3 or 4 column);\n.Number of lines on each column (between 1 to 50);\n.color Hue ( random between 360 hue); .color Saturation (between 0 and 80);",
-            "tags": [
-              "lines",
-              "minimal",
-              "grid",
-              "generative",
-              "p5js"
-            ],
-            "artifactUri": "ipfs://QmapwpTitG8XGWNrWsVqxaeRepNPYYQYTjnPawM8oUtEjy",
-            "displayUri": "ipfs://QmcnJAEdZpqvUXdPb1Yg31YsaM7qMKhMzhYCmSsn3z8Js2",
-            "thumbnailUri": "ipfs://QmYWbsMLo4zUSC8tBHB7M5u9sHg4cQ4e3KpePYSgVo71UF",
-            "authenticityHash": "c77f3f3fc94c1d3f958b4e6ca8f468d8521d9d8f535313891e3d87fd521eebcc",
-            "attributes": [],
-            "decimals": 0,
-            "symbol": "GENTK"
-          },
-          "duplicate": false,
-          "activeListing": {
-            "id": 955099,
-            "version": 1,
-            "price": 89000000,
-            "__typename": "Listing"
-          },
-          "owner": {
-            "id": "tz1ZhimgHgutqRAy229UuadFCnYCtybjrJpL",
-            "name": "TOCA ME",
-            "flag": "VERIFIED",
-            "avatarUri": "ipfs://QmXvcAVTLoNnmbBnvZTPeSKDPHmH9U7t4CRwoLjspCbY38",
-            "__typename": "User"
-          },
-          "issuer": {
-            "flag": "NONE",
-            "name": "NervousGrid 01",
-            "author": {
-              "id": "tz1V84gmD8MsmLuCfT9M1LDaTjpJb4eAejvM",
-              "name": "visiophone",
-              "type": "REGULAR",
-              "avatarUri": "ipfs://QmXLYTqDBUFsDtE7rzNBM3LgPrrdaRXSmLYUZZnrPiSGPr",
-              "flag": "VERIFIED",
-              "collaborators": null,
-              "__typename": "User"
-            },
-            "__typename": "GenerativeToken"
-          },
-          "__typename": "Objkt"
-        },
-        "__typename": "Listing"
-      },
-      {
-        "id": 955098,
-        "version": 1,
-        "price": 3000000,
-        "objkt": {
-          "id": "FX1-30062",
-          "version": 2,
-          "name": "Aura #67",
-          "slug": "aura-67-bd2a2c4c-aa3a-46be-9a32-ae71e733e10b",
-          "metadata": {
-            "name": "Aura #67",
-            "iterationHash": "oojKyRcS7vxFn3pNRiXsRWaMwRVzo1g8FSpnBdYC2ruMYaMicKH",
-            "description": "Mint your aura",
-            "tags": [
-              "generative",
-              "artwork",
-              "aura",
-              "glow",
-              "light",
-              "colorimmersive",
-              "fascinating",
-              "atmosphere"
-            ],
-            "generatorUri": "ipfs://QmZebKEViAMvGZqFnAH2Qpgo6sCc8wTAX69iGSAzNCuGZQ",
-            "artifactUri": "ipfs://QmZebKEViAMvGZqFnAH2Qpgo6sCc8wTAX69iGSAzNCuGZQ/?fxhash=oojKyRcS7vxFn3pNRiXsRWaMwRVzo1g8FSpnBdYC2ruMYaMicKH&fxminter=tz1ZjEwXyHtcnD48WfYy9YRpkkc7dSP3Nh4W",
-            "displayUri": "ipfs://QmbdrPDzG4WJfjD58GMZe489G1WqPoB4JoZ5nQm3se2uFV",
-            "thumbnailUri": "ipfs://QmdaCcbM7xN4Gj8LBmjKu6nZgs9y2uKs1LnLRxSZ7ed1RS",
-            "authenticityHash": "eb0039afd3ecb2ccfa7a2c810145d475faf20781b6ea4f7c9f620ca47608cd90",
-            "attributes": true,
-            "decimals": 0,
-            "symbol": "GENTK",
-            "version": "0.2"
-          },
-          "duplicate": false,
-          "activeListing": {
-            "id": 955098,
-            "version": 1,
-            "price": 3000000,
-            "__typename": "Listing"
-          },
-          "owner": {
-            "id": "tz1ZjEwXyHtcnD48WfYy9YRpkkc7dSP3Nh4W",
-            "name": null,
-            "flag": "NONE",
-            "avatarUri": null,
-            "__typename": "User"
-          },
-          "issuer": {
-            "flag": "NONE",
-            "name": "Aura",
-            "author": {
-              "id": "tz1PyCveTVuCwEWan7zEkWzHXdAtukunH3nK",
-              "name": "Jeff_Tezos",
-              "type": "REGULAR",
-              "avatarUri": "ipfs://QmUH6CtnpeYv8bHfF2t49naGfnrxszPgZjVKWpGfkyKS4a",
-              "flag": "NONE",
-              "collaborators": null,
-              "__typename": "User"
-            },
-            "__typename": "GenerativeToken"
-          },
-          "__typename": "Objkt"
-        },
-        "__typename": "Listing"
-      },
-      {
-        "id": 955097,
-        "version": 1,
-        "price": 480000,
-        "objkt": {
-          "id": "FX1-30138",
-          "version": 2,
-          "name": "Aura #88",
-          "slug": "aura-88-5a3c4c8c-d4f6-4645-b0ac-f62876932265",
-          "metadata": {
-            "name": "Aura #88",
-            "iterationHash": "opSpazFShPMWVZdB3Hyazh2PAMkzRETLTk2Ers4hGapANa4fYfM",
-            "description": "Mint your aura",
-            "tags": [
-              "generative",
-              "artwork",
-              "aura",
-              "glow",
-              "light",
-              "colorimmersive",
-              "fascinating",
-              "atmosphere"
-            ],
-            "generatorUri": "ipfs://QmZebKEViAMvGZqFnAH2Qpgo6sCc8wTAX69iGSAzNCuGZQ",
-            "artifactUri": "ipfs://QmZebKEViAMvGZqFnAH2Qpgo6sCc8wTAX69iGSAzNCuGZQ/?fxhash=opSpazFShPMWVZdB3Hyazh2PAMkzRETLTk2Ers4hGapANa4fYfM&fxminter=tz1ZjEwXyHtcnD48WfYy9YRpkkc7dSP3Nh4W",
-            "displayUri": "ipfs://QmTfsVamup3wpaUQPj3Qt81KE9JNQbPHJf4uuNDoKJFKWa",
-            "thumbnailUri": "ipfs://QmYN4qT9rXdWrLqfcrqSK43guS3qgsULsUDtwTzziwijV5",
-            "authenticityHash": "e4a78b0373ac2b7289ea1879043b6c19987d872ef8ce7a2c83a9512777d74427",
-            "attributes": true,
-            "decimals": 0,
-            "symbol": "GENTK",
-            "version": "0.2"
-          },
-          "duplicate": false,
-          "activeListing": {
-            "id": 955097,
-            "version": 1,
-            "price": 480000,
-            "__typename": "Listing"
-          },
-          "owner": {
-            "id": "tz1ZjEwXyHtcnD48WfYy9YRpkkc7dSP3Nh4W",
-            "name": null,
-            "flag": "NONE",
-            "avatarUri": null,
-            "__typename": "User"
-          },
-          "issuer": {
-            "flag": "NONE",
-            "name": "Aura",
-            "author": {
-              "id": "tz1PyCveTVuCwEWan7zEkWzHXdAtukunH3nK",
-              "name": "Jeff_Tezos",
-              "type": "REGULAR",
-              "avatarUri": "ipfs://QmUH6CtnpeYv8bHfF2t49naGfnrxszPgZjVKWpGfkyKS4a",
-              "flag": "NONE",
-              "collaborators": null,
-              "__typename": "User"
-            },
-            "__typename": "GenerativeToken"
-          },
-          "__typename": "Objkt"
-        },
-        "__typename": "Listing"
-      },
-      {
-        "id": 955096,
-        "version": 1,
-        "price": 15000000,
-        "objkt": {
-          "id": "FX0-404166",
-          "version": 0,
-          "name": "Perspective Construct I #243",
-          "slug": "perspective-construct-i-243",
-          "metadata": {
-            "name": "Perspective Construct I #243",
-            "iterationHash": "ooXE4rFmcaQWqk3J5yTeKbPBvvR15jhWWCYNHGY7uwynQDwhmyH",
-            "description": "Rebuilding linear perspective from the ground up to generate improbable structures. Variations use one-point, two-point or three-point perspective, structures are rendered as lines, planes and volumes, colors are limited to ⬛🟥⬜!\n\n(might not work on mobile)",
-            "tags": [
-              "perspective",
-              "p5js",
-              "processing",
-              "projection",
-              "abstract",
-              "black",
-              "white",
-              "red"
-            ],
-            "generatorUri": "ipfs://QmUGHBEGmZGHGUEjkXVR8CggQsbAWAJakT7ECM7MJUGPxD",
-            "artifactUri": "ipfs://QmUGHBEGmZGHGUEjkXVR8CggQsbAWAJakT7ECM7MJUGPxD?fxhash=ooXE4rFmcaQWqk3J5yTeKbPBvvR15jhWWCYNHGY7uwynQDwhmyH",
-            "displayUri": "ipfs://QmQNAe6yffKFYszfHrfDR8nT8mtxz1T3yHZkWfuWSE4KhG",
-            "thumbnailUri": "ipfs://QmaLS7fNeiF79VY6uzbXuff2yEt3Uc7nQ25xfoCosjLgMR",
-            "authenticityHash": "a2d7bbbe0b0235b24c7d96cc3a689463c170d251cae1fca40ce940db627a8d23",
-            "attributes": [],
-            "decimals": 0,
-            "symbol": "GENTK",
-            "version": "0.2"
-          },
-          "duplicate": false,
-          "activeListing": {
-            "id": 955096,
-            "version": 1,
-            "price": 15000000,
-            "__typename": "Listing"
-          },
-          "owner": {
-            "id": "tz1ZhimgHgutqRAy229UuadFCnYCtybjrJpL",
-            "name": "TOCA ME",
-            "flag": "VERIFIED",
-            "avatarUri": "ipfs://QmXvcAVTLoNnmbBnvZTPeSKDPHmH9U7t4CRwoLjspCbY38",
-            "__typename": "User"
-          },
-          "issuer": {
-            "flag": "NONE",
-            "name": "Perspective Construct I",
-            "author": {
-              "id": "tz1MqkL7XBXDkjoFvgD2kJ8pQiHRjwpRvTak",
-              "name": "Cannaerts",
-              "type": "REGULAR",
-              "avatarUri": "ipfs://QmbtorX9nMcpf1p98z7qD67G5KzNbNTszGqGAxHr6GV7Rt",
-              "flag": "VERIFIED",
-              "collaborators": null,
-              "__typename": "User"
-            },
-            "__typename": "GenerativeToken"
-          },
-          "__typename": "Objkt"
-        },
-        "__typename": "Listing"
-      },
-      {
-        "id": 955095,
-        "version": 1,
-        "price": 900000,
-        "objkt": {
-          "id": "FX1-30039",
-          "version": 2,
-          "name": "Aura #47",
-          "slug": "aura-47-17e76363-0c44-4f1f-aa7d-fa60ac75c9e6",
-          "metadata": {
-            "name": "Aura #47",
-            "iterationHash": "op5Ma45VHtF5UKZV3aLerVbqwasTbV2cUrbiftZJKFejMC1m17V",
-            "description": "Mint your aura",
-            "tags": [
-              "generative",
-              "artwork",
-              "aura",
-              "glow",
-              "light",
-              "colorimmersive",
-              "fascinating",
-              "atmosphere"
-            ],
-            "generatorUri": "ipfs://QmZebKEViAMvGZqFnAH2Qpgo6sCc8wTAX69iGSAzNCuGZQ",
-            "artifactUri": "ipfs://QmZebKEViAMvGZqFnAH2Qpgo6sCc8wTAX69iGSAzNCuGZQ/?fxhash=op5Ma45VHtF5UKZV3aLerVbqwasTbV2cUrbiftZJKFejMC1m17V&fxminter=tz1ZjEwXyHtcnD48WfYy9YRpkkc7dSP3Nh4W",
-            "displayUri": "ipfs://QmbvN8XZ7SJGHRE9yqoCDGasYbnDcJUhMnihqiFq9razzT",
-            "thumbnailUri": "ipfs://QmaHdhnbY1NSsqR829kCtkF5K2RtTQV2NUL6c4EbHvaoFe",
-            "authenticityHash": "6fdadd9440925e830195f8a3aff1f995a0d6bd6076530b5260486b5322d416c2",
-            "attributes": true,
-            "decimals": 0,
-            "symbol": "GENTK",
-            "version": "0.2"
-          },
-          "duplicate": false,
-          "activeListing": {
-            "id": 955095,
-            "version": 1,
-            "price": 900000,
-            "__typename": "Listing"
-          },
-          "owner": {
-            "id": "tz1ZjEwXyHtcnD48WfYy9YRpkkc7dSP3Nh4W",
-            "name": null,
-            "flag": "NONE",
-            "avatarUri": null,
-            "__typename": "User"
-          },
-          "issuer": {
-            "flag": "NONE",
-            "name": "Aura",
-            "author": {
-              "id": "tz1PyCveTVuCwEWan7zEkWzHXdAtukunH3nK",
-              "name": "Jeff_Tezos",
-              "type": "REGULAR",
-              "avatarUri": "ipfs://QmUH6CtnpeYv8bHfF2t49naGfnrxszPgZjVKWpGfkyKS4a",
-              "flag": "NONE",
-              "collaborators": null,
-              "__typename": "User"
-            },
-            "__typename": "GenerativeToken"
-          },
-          "__typename": "Objkt"
-        },
-        "__typename": "Listing"
-      },
-      {
-        "id": 955094,
-        "version": 1,
-        "price": 990000,
-        "objkt": {
-          "id": "FX1-30063",
-          "version": 2,
-          "name": "Aura #68",
-          "slug": "aura-68-8cb03c4b-b8c2-450e-9e5c-2aea7dfe356d",
-          "metadata": {
-            "name": "Aura #68",
-            "iterationHash": "opDJAVLTTaWHh2iUoUH9RgjLGHGt2xRqxQUv51BuvKiaDUg3e5L",
-            "description": "Mint your aura",
-            "tags": [
-              "generative",
-              "artwork",
-              "aura",
-              "glow",
-              "light",
-              "colorimmersive",
-              "fascinating",
-              "atmosphere"
-            ],
-            "generatorUri": "ipfs://QmZebKEViAMvGZqFnAH2Qpgo6sCc8wTAX69iGSAzNCuGZQ",
-            "artifactUri": "ipfs://QmZebKEViAMvGZqFnAH2Qpgo6sCc8wTAX69iGSAzNCuGZQ/?fxhash=opDJAVLTTaWHh2iUoUH9RgjLGHGt2xRqxQUv51BuvKiaDUg3e5L&fxminter=tz1ZjEwXyHtcnD48WfYy9YRpkkc7dSP3Nh4W",
-            "displayUri": "ipfs://QmZKbBGL7VifHwnoDj8zSNvT9dJzYPULynKTLMaFkPEpjv",
-            "thumbnailUri": "ipfs://QmNhsaKrmFua91vrM3LA1DrttmkefU4p5nxQXATBNv45sH",
-            "authenticityHash": "70c00950fee7e51e76c58a22b93efb485dfe8b1c0f57f11f0cf11bf4b8d6af8e",
-            "attributes": true,
-            "decimals": 0,
-            "symbol": "GENTK",
-            "version": "0.2"
-          },
-          "duplicate": false,
-          "activeListing": {
-            "id": 955094,
-            "version": 1,
-            "price": 990000,
-            "__typename": "Listing"
-          },
-          "owner": {
-            "id": "tz1ZjEwXyHtcnD48WfYy9YRpkkc7dSP3Nh4W",
-            "name": null,
-            "flag": "NONE",
-            "avatarUri": null,
-            "__typename": "User"
-          },
-          "issuer": {
-            "flag": "NONE",
-            "name": "Aura",
-            "author": {
-              "id": "tz1PyCveTVuCwEWan7zEkWzHXdAtukunH3nK",
-              "name": "Jeff_Tezos",
-              "type": "REGULAR",
-              "avatarUri": "ipfs://QmUH6CtnpeYv8bHfF2t49naGfnrxszPgZjVKWpGfkyKS4a",
-              "flag": "NONE",
-              "collaborators": null,
-              "__typename": "User"
-            },
-            "__typename": "GenerativeToken"
-          },
-          "__typename": "Objkt"
-        },
-        "__typename": "Listing"
-      },
-      {
-        "id": 955093,
-        "version": 1,
-        "price": 1280000,
-        "objkt": {
-          "id": "FX1-30054",
-          "version": 2,
-          "name": "Aura #59",
-          "slug": "aura-59-2b454619-fc19-48a0-bc81-147d2541200b",
-          "metadata": {
-            "name": "Aura #59",
-            "iterationHash": "ooNYGTCcmuaxTgEd3uHQuEsu4yw8AwUYQmb8fX6hpmPpERSvriN",
-            "description": "Mint your aura",
-            "tags": [
-              "generative",
-              "artwork",
-              "aura",
-              "glow",
-              "light",
-              "colorimmersive",
-              "fascinating",
-              "atmosphere"
-            ],
-            "generatorUri": "ipfs://QmZebKEViAMvGZqFnAH2Qpgo6sCc8wTAX69iGSAzNCuGZQ",
-            "artifactUri": "ipfs://QmZebKEViAMvGZqFnAH2Qpgo6sCc8wTAX69iGSAzNCuGZQ/?fxhash=ooNYGTCcmuaxTgEd3uHQuEsu4yw8AwUYQmb8fX6hpmPpERSvriN&fxminter=tz1ZjEwXyHtcnD48WfYy9YRpkkc7dSP3Nh4W",
-            "displayUri": "ipfs://Qmae1WML3VRQPGCqoTyVzhu6yEx9KDQ9Ve47JjgqLuVgiR",
-            "thumbnailUri": "ipfs://QmT1Smvfxmyvr9FENVdEHggg4WU1rBUHk2xtkKJbQeFD1W",
-            "authenticityHash": "96a843b30e65fab5eacf771627105e02a101420616ed96bc3b9406fb5b0d08a6",
-            "attributes": true,
-            "decimals": 0,
-            "symbol": "GENTK",
-            "version": "0.2"
-          },
-          "duplicate": false,
-          "activeListing": {
-            "id": 955093,
-            "version": 1,
-            "price": 1280000,
-            "__typename": "Listing"
-          },
-          "owner": {
-            "id": "tz1ZjEwXyHtcnD48WfYy9YRpkkc7dSP3Nh4W",
-            "name": null,
-            "flag": "NONE",
-            "avatarUri": null,
-            "__typename": "User"
-          },
-          "issuer": {
-            "flag": "NONE",
-            "name": "Aura",
-            "author": {
-              "id": "tz1PyCveTVuCwEWan7zEkWzHXdAtukunH3nK",
-              "name": "Jeff_Tezos",
-              "type": "REGULAR",
-              "avatarUri": "ipfs://QmUH6CtnpeYv8bHfF2t49naGfnrxszPgZjVKWpGfkyKS4a",
-              "flag": "NONE",
-              "collaborators": null,
-              "__typename": "User"
-            },
-            "__typename": "GenerativeToken"
-          },
-          "__typename": "Objkt"
-        },
-        "__typename": "Listing"
-      },
-      {
-        "id": 955092,
-        "version": 1,
-        "price": 3600000,
-        "objkt": {
-          "id": "FX1-31368",
-          "version": 2,
-          "name": "Glory Hole #50",
-          "slug": "glory-hole-50",
-          "metadata": {
-            "name": "Glory Hole #50",
-            "iterationHash": "ontqxEprs9hHrzyy1DhSq3KXEUogXjzv5EfPTVzdQrdBXaavKPF",
-            "description": "where the light cumming from",
-            "tags": [
-              "generative",
-              "artwork",
-              "glory",
-              "hole",
-              "glow",
-              "light",
-              "colorimmersive",
-              "fascinating",
-              "atmosphere"
-            ],
-            "generatorUri": "ipfs://QmWV2b2sFagL5NDWhuLCjQMKb9HLXCg3qCQWYu4cB8iqXJ",
-            "artifactUri": "ipfs://QmWV2b2sFagL5NDWhuLCjQMKb9HLXCg3qCQWYu4cB8iqXJ/?fxhash=ontqxEprs9hHrzyy1DhSq3KXEUogXjzv5EfPTVzdQrdBXaavKPF&fxminter=tz1ZjEwXyHtcnD48WfYy9YRpkkc7dSP3Nh4W",
-            "displayUri": "ipfs://QmNmyrbxNrU7pTyodNR74EZiKscW8Yk88Mnf4yacQmgSxJ",
-            "thumbnailUri": "ipfs://QmfWgE7dKDTViYzn2sLsUT61CieR1mtwHzfeLdemyUL6Wd",
-            "authenticityHash": "31e802cf0cedac41506aae165bb6b89070f05d351ca365e7372b950c9a7537e3",
-            "attributes": true,
-            "decimals": 0,
-            "symbol": "GENTK",
-            "version": "0.2"
-          },
-          "duplicate": false,
-          "activeListing": {
-            "id": 955092,
-            "version": 1,
-            "price": 3600000,
-            "__typename": "Listing"
-          },
-          "owner": {
-            "id": "tz1ZjEwXyHtcnD48WfYy9YRpkkc7dSP3Nh4W",
-            "name": null,
-            "flag": "NONE",
-            "avatarUri": null,
-            "__typename": "User"
-          },
-          "issuer": {
-            "flag": "NONE",
-            "name": "Glory Hole",
-            "author": {
-              "id": "tz1PyCveTVuCwEWan7zEkWzHXdAtukunH3nK",
-              "name": "Jeff_Tezos",
-              "type": "REGULAR",
-              "avatarUri": "ipfs://QmUH6CtnpeYv8bHfF2t49naGfnrxszPgZjVKWpGfkyKS4a",
-              "flag": "NONE",
-              "collaborators": null,
-              "__typename": "User"
-            },
-            "__typename": "GenerativeToken"
-          },
-          "__typename": "Objkt"
-        },
-        "__typename": "Listing"
-      },
-      {
-        "id": 955091,
-        "version": 1,
-        "price": 2500000,
-        "objkt": {
-          "id": "FX1-30527",
-          "version": 2,
-          "name": "Glory Hole #19",
-          "slug": "glory-hole-19",
-          "metadata": {
-            "name": "Glory Hole #19",
-            "iterationHash": "opQ24khsDk38dD7zBR79BYbzSPJXg2cXEn4xKpN5SbTYj57mhSV",
-            "description": "where the light cumming from",
-            "tags": [
-              "generative",
-              "artwork",
-              "glory",
-              "hole",
-              "glow",
-              "light",
-              "colorimmersive",
-              "fascinating",
-              "atmosphere"
-            ],
-            "generatorUri": "ipfs://QmWV2b2sFagL5NDWhuLCjQMKb9HLXCg3qCQWYu4cB8iqXJ",
-            "artifactUri": "ipfs://QmWV2b2sFagL5NDWhuLCjQMKb9HLXCg3qCQWYu4cB8iqXJ/?fxhash=opQ24khsDk38dD7zBR79BYbzSPJXg2cXEn4xKpN5SbTYj57mhSV&fxminter=tz1ZjEwXyHtcnD48WfYy9YRpkkc7dSP3Nh4W",
-            "displayUri": "ipfs://QmSDs3C2EPrWyhEo38Ltx2MjRVScKDEuk5eF9VfvaMpL6N",
-            "thumbnailUri": "ipfs://QmP1N94sAkUFf9YEqP5H877AUoh5G2xZh8BsS46zr7aApW",
-            "authenticityHash": "38d85ebdd37b8a2e9c136f49e277c2c9b0227e6811cfdcb713143d02c901b1d1",
-            "attributes": true,
-            "decimals": 0,
-            "symbol": "GENTK",
-            "version": "0.2"
-          },
-          "duplicate": false,
-          "activeListing": {
-            "id": 955091,
-            "version": 1,
-            "price": 2500000,
-            "__typename": "Listing"
-          },
-          "owner": {
-            "id": "tz1ZjEwXyHtcnD48WfYy9YRpkkc7dSP3Nh4W",
-            "name": null,
-            "flag": "NONE",
-            "avatarUri": null,
-            "__typename": "User"
-          },
-          "issuer": {
-            "flag": "NONE",
-            "name": "Glory Hole",
-            "author": {
-              "id": "tz1PyCveTVuCwEWan7zEkWzHXdAtukunH3nK",
-              "name": "Jeff_Tezos",
-              "type": "REGULAR",
-              "avatarUri": "ipfs://QmUH6CtnpeYv8bHfF2t49naGfnrxszPgZjVKWpGfkyKS4a",
-              "flag": "NONE",
-              "collaborators": null,
-              "__typename": "User"
-            },
-            "__typename": "GenerativeToken"
-          },
-          "__typename": "Objkt"
-        },
-        "__typename": "Listing"
-      },
-      {
-        "id": 955090,
-        "version": 1,
-        "price": 8000000,
-        "objkt": {
-          "id": "FX1-31366",
-          "version": 2,
-          "name": "Glory Hole #49",
-          "slug": "glory-hole-49",
-          "metadata": {
-            "name": "Glory Hole #49",
-            "iterationHash": "ooghsXwFWyQFk2ENGM6nLM1CQxb1MoW9tPxkXSyQoUTae6rv1U8",
-            "description": "where the light cumming from",
-            "tags": [
-              "generative",
-              "artwork",
-              "glory",
-              "hole",
-              "glow",
-              "light",
-              "colorimmersive",
-              "fascinating",
-              "atmosphere"
-            ],
-            "generatorUri": "ipfs://QmWV2b2sFagL5NDWhuLCjQMKb9HLXCg3qCQWYu4cB8iqXJ",
-            "artifactUri": "ipfs://QmWV2b2sFagL5NDWhuLCjQMKb9HLXCg3qCQWYu4cB8iqXJ/?fxhash=ooghsXwFWyQFk2ENGM6nLM1CQxb1MoW9tPxkXSyQoUTae6rv1U8&fxminter=tz1ZjEwXyHtcnD48WfYy9YRpkkc7dSP3Nh4W",
-            "displayUri": "ipfs://QmaUj9bjVruusfCWTBijXTycGqxfTkLkP6zGoMSNmyeBu6",
-            "thumbnailUri": "ipfs://QmdGXGjqWB2s55NSTMsTRkZZ3VvDqmJBcqH73CcKMZeq9c",
-            "authenticityHash": "82dffc35cd6abf786af25d77fc116f89f223d3185cbec512004b6951f5dfaf6b",
-            "attributes": true,
-            "decimals": 0,
-            "symbol": "GENTK",
-            "version": "0.2"
-          },
-          "duplicate": false,
-          "activeListing": {
-            "id": 955090,
-            "version": 1,
-            "price": 8000000,
-            "__typename": "Listing"
-          },
-          "owner": {
-            "id": "tz1ZjEwXyHtcnD48WfYy9YRpkkc7dSP3Nh4W",
-            "name": null,
-            "flag": "NONE",
-            "avatarUri": null,
-            "__typename": "User"
-          },
-          "issuer": {
-            "flag": "NONE",
-            "name": "Glory Hole",
-            "author": {
-              "id": "tz1PyCveTVuCwEWan7zEkWzHXdAtukunH3nK",
-              "name": "Jeff_Tezos",
-              "type": "REGULAR",
-              "avatarUri": "ipfs://QmUH6CtnpeYv8bHfF2t49naGfnrxszPgZjVKWpGfkyKS4a",
-              "flag": "NONE",
-              "collaborators": null,
-              "__typename": "User"
-            },
-            "__typename": "GenerativeToken"
-          },
-          "__typename": "Objkt"
-        },
-        "__typename": "Listing"
-      },
-      {
-        "id": 955089,
-        "version": 1,
-        "price": 6900000,
-        "objkt": {
-          "id": "FX1-30265",
-          "version": 2,
-          "name": "The Shining #13",
-          "slug": "the-shining-13-954cb827-9c24-4bd9-9c13-686d4f9df697",
-          "metadata": {
-            "name": "The Shining #13",
-            "iterationHash": "ooNPmUNJ6kkc56zHsvQNh1pDCjnF5wtYhtVnfRSLhjxuXp6quMT",
-            "description": "This generative artwork is a door that emits a glow of light, generating random patterns and color combinations. The light emanating from the door creates an immersive and fascinating atmosphere, inviting the viewer to contemplate and experience its hypnotic effect.",
-            "tags": [
-              "generative",
-              "artwork",
-              "door",
-              "glow",
-              "light",
-              "colorimmersive",
-              "fascinating",
-              "atmosphere"
-            ],
-            "generatorUri": "ipfs://QmdU3Ki3qPyQ1W85F5YfBuv6QPKRsA9FNtZqg1DGauniYx",
-            "artifactUri": "ipfs://QmdU3Ki3qPyQ1W85F5YfBuv6QPKRsA9FNtZqg1DGauniYx/?fxhash=ooNPmUNJ6kkc56zHsvQNh1pDCjnF5wtYhtVnfRSLhjxuXp6quMT&fxminter=tz1ZjEwXyHtcnD48WfYy9YRpkkc7dSP3Nh4W",
-            "displayUri": "ipfs://QmVTBp6a4Nho55zqMQ9TAqnGQWvkDqEtDP9Js9hpBLpPS4",
-            "thumbnailUri": "ipfs://QmWj4SvmKmaWbsnHD5YbYQTn2u1hDKXHLFENGasmcSoumz",
-            "authenticityHash": "e28e83fddc8d4f126d045c292e0b2ea5c5538479bea03cdcf087fe82acc8d2dc",
-            "attributes": true,
-            "decimals": 0,
-            "symbol": "GENTK",
-            "version": "0.2"
-          },
-          "duplicate": false,
-          "activeListing": {
-            "id": 955089,
-            "version": 1,
-            "price": 6900000,
-            "__typename": "Listing"
-          },
-          "owner": {
-            "id": "tz1ZjEwXyHtcnD48WfYy9YRpkkc7dSP3Nh4W",
-            "name": null,
-            "flag": "NONE",
-            "avatarUri": null,
-            "__typename": "User"
-          },
-          "issuer": {
-            "flag": "NONE",
-            "name": "The Shining",
-            "author": {
-              "id": "tz1PyCveTVuCwEWan7zEkWzHXdAtukunH3nK",
-              "name": "Jeff_Tezos",
-              "type": "REGULAR",
-              "avatarUri": "ipfs://QmUH6CtnpeYv8bHfF2t49naGfnrxszPgZjVKWpGfkyKS4a",
-              "flag": "NONE",
-              "collaborators": null,
-              "__typename": "User"
-            },
-            "__typename": "GenerativeToken"
-          },
-          "__typename": "Objkt"
-        },
-        "__typename": "Listing"
-      },
-      {
-        "id": 955088,
-        "version": 1,
-        "price": 8800000,
-        "objkt": {
-          "id": "FX1-30268",
-          "version": 2,
-          "name": "The Shining #15",
-          "slug": "the-shining-15-ffcfef16-7d0e-42fa-8086-c830711f2422",
-          "metadata": {
-            "name": "The Shining #15",
-            "iterationHash": "opa1GCRVFn9Y3M9eBBA83UW8u1KQjP7UCuESoAsHstukQnBDt7j",
-            "description": "This generative artwork is a door that emits a glow of light, generating random patterns and color combinations. The light emanating from the door creates an immersive and fascinating atmosphere, inviting the viewer to contemplate and experience its hypnotic effect.",
-            "tags": [
-              "generative",
-              "artwork",
-              "door",
-              "glow",
-              "light",
-              "colorimmersive",
-              "fascinating",
-              "atmosphere"
-            ],
-            "generatorUri": "ipfs://QmdU3Ki3qPyQ1W85F5YfBuv6QPKRsA9FNtZqg1DGauniYx",
-            "artifactUri": "ipfs://QmdU3Ki3qPyQ1W85F5YfBuv6QPKRsA9FNtZqg1DGauniYx/?fxhash=opa1GCRVFn9Y3M9eBBA83UW8u1KQjP7UCuESoAsHstukQnBDt7j&fxminter=tz1ZjEwXyHtcnD48WfYy9YRpkkc7dSP3Nh4W",
-            "displayUri": "ipfs://QmdNJmQd81ncCh9eGKaHZ6B5TtUyGXh1oCgm2BKwyooJ3P",
-            "thumbnailUri": "ipfs://QmXH4SJsvunDHN1MutZwpXdySpS7ZAaWDHwSciwyaZa8cQ",
-            "authenticityHash": "23866e6a41ccd051cc32ba03fdfb838753d3d121bda9871cf558eb4171349d0f",
-            "attributes": true,
-            "decimals": 0,
-            "symbol": "GENTK",
-            "version": "0.2"
-          },
-          "duplicate": false,
-          "activeListing": {
-            "id": 955088,
-            "version": 1,
-            "price": 8800000,
-            "__typename": "Listing"
-          },
-          "owner": {
-            "id": "tz1ZjEwXyHtcnD48WfYy9YRpkkc7dSP3Nh4W",
-            "name": null,
-            "flag": "NONE",
-            "avatarUri": null,
-            "__typename": "User"
-          },
-          "issuer": {
-            "flag": "NONE",
-            "name": "The Shining",
-            "author": {
-              "id": "tz1PyCveTVuCwEWan7zEkWzHXdAtukunH3nK",
-              "name": "Jeff_Tezos",
-              "type": "REGULAR",
-              "avatarUri": "ipfs://QmUH6CtnpeYv8bHfF2t49naGfnrxszPgZjVKWpGfkyKS4a",
-              "flag": "NONE",
-              "collaborators": null,
-              "__typename": "User"
-            },
-            "__typename": "GenerativeToken"
-          },
-          "__typename": "Objkt"
-        },
-        "__typename": "Listing"
-      },
-      {
-        "id": 955087,
-        "version": 1,
-        "price": 4800000,
-        "objkt": {
-          "id": "FX1-30290",
-          "version": 2,
-          "name": "The Shining #21",
-          "slug": "the-shining-21",
-          "metadata": {
-            "name": "The Shining #21",
-            "iterationHash": "opGE2teCdYCtkKcUWDwN4ppoxifUBnxsNDHsV42VDfxFgKWHPdZ",
-            "description": "This generative artwork is a door that emits a glow of light, generating random patterns and color combinations. The light emanating from the door creates an immersive and fascinating atmosphere, inviting the viewer to contemplate and experience its hypnotic effect.",
-            "tags": [
-              "generative",
-              "artwork",
-              "door",
-              "glow",
-              "light",
-              "colorimmersive",
-              "fascinating",
-              "atmosphere"
-            ],
-            "generatorUri": "ipfs://QmdU3Ki3qPyQ1W85F5YfBuv6QPKRsA9FNtZqg1DGauniYx",
-            "artifactUri": "ipfs://QmdU3Ki3qPyQ1W85F5YfBuv6QPKRsA9FNtZqg1DGauniYx/?fxhash=opGE2teCdYCtkKcUWDwN4ppoxifUBnxsNDHsV42VDfxFgKWHPdZ&fxminter=tz1ZjEwXyHtcnD48WfYy9YRpkkc7dSP3Nh4W",
-            "displayUri": "ipfs://QmTdCUU7eh6kSpnxxP2mY8FfKg7yWMJe1YnmJXfeiXdMoW",
-            "thumbnailUri": "ipfs://QmcqA8BigoGoY9rLpMcr17TS5xkVhzQdEvAhgs2hjbpGJ5",
-            "authenticityHash": "f37c13b2c7f8657f723592beb4e95677154e97c357216e03c6c958e87b3626ea",
-            "attributes": true,
-            "decimals": 0,
-            "symbol": "GENTK",
-            "version": "0.2"
-          },
-          "duplicate": false,
-          "activeListing": {
-            "id": 955087,
-            "version": 1,
-            "price": 4800000,
-            "__typename": "Listing"
-          },
-          "owner": {
-            "id": "tz1ZjEwXyHtcnD48WfYy9YRpkkc7dSP3Nh4W",
-            "name": null,
-            "flag": "NONE",
-            "avatarUri": null,
-            "__typename": "User"
-          },
-          "issuer": {
-            "flag": "NONE",
-            "name": "The Shining",
-            "author": {
-              "id": "tz1PyCveTVuCwEWan7zEkWzHXdAtukunH3nK",
-              "name": "Jeff_Tezos",
-              "type": "REGULAR",
-              "avatarUri": "ipfs://QmUH6CtnpeYv8bHfF2t49naGfnrxszPgZjVKWpGfkyKS4a",
-              "flag": "NONE",
-              "collaborators": null,
-              "__typename": "User"
-            },
-            "__typename": "GenerativeToken"
-          },
-          "__typename": "Objkt"
-        },
-        "__typename": "Listing"
-      },
-      {
-        "id": 955086,
-        "version": 1,
-        "price": 3000000,
-        "objkt": {
-          "id": "FX1-30274",
-          "version": 2,
-          "name": "The Shining #18",
-          "slug": "the-shining-18-2eb97948-8ada-4964-81fa-999a2fa9114c",
-          "metadata": {
-            "name": "The Shining #18",
-            "iterationHash": "ooDmCkRfzeMebDvkCmJ4GAHCrgajCu8TkhFoVoguybGsLeH4Jso",
-            "description": "This generative artwork is a door that emits a glow of light, generating random patterns and color combinations. The light emanating from the door creates an immersive and fascinating atmosphere, inviting the viewer to contemplate and experience its hypnotic effect.",
-            "tags": [
-              "generative",
-              "artwork",
-              "door",
-              "glow",
-              "light",
-              "colorimmersive",
-              "fascinating",
-              "atmosphere"
-            ],
-            "generatorUri": "ipfs://QmdU3Ki3qPyQ1W85F5YfBuv6QPKRsA9FNtZqg1DGauniYx",
-            "artifactUri": "ipfs://QmdU3Ki3qPyQ1W85F5YfBuv6QPKRsA9FNtZqg1DGauniYx/?fxhash=ooDmCkRfzeMebDvkCmJ4GAHCrgajCu8TkhFoVoguybGsLeH4Jso&fxminter=tz1ZjEwXyHtcnD48WfYy9YRpkkc7dSP3Nh4W",
-            "displayUri": "ipfs://QmeD8ihKxnqerrDFvxMXQaysvJ8HawuqWxHxAx9PqPjkoP",
-            "thumbnailUri": "ipfs://QmPqhzbKBxSvJ1mYf2fvAbZ5NNRBE2w9gKUMLguo5wRKSa",
-            "authenticityHash": "9cec460eb1fe2794132549c790eab77ce35a899051b49cd83e8e5b484d33025a",
-            "attributes": true,
-            "decimals": 0,
-            "symbol": "GENTK",
-            "version": "0.2"
-          },
-          "duplicate": false,
-          "activeListing": {
-            "id": 955086,
-            "version": 1,
-            "price": 3000000,
-            "__typename": "Listing"
-          },
-          "owner": {
-            "id": "tz1ZjEwXyHtcnD48WfYy9YRpkkc7dSP3Nh4W",
-            "name": null,
-            "flag": "NONE",
-            "avatarUri": null,
-            "__typename": "User"
-          },
-          "issuer": {
-            "flag": "NONE",
-            "name": "The Shining",
-            "author": {
-              "id": "tz1PyCveTVuCwEWan7zEkWzHXdAtukunH3nK",
-              "name": "Jeff_Tezos",
-              "type": "REGULAR",
-              "avatarUri": "ipfs://QmUH6CtnpeYv8bHfF2t49naGfnrxszPgZjVKWpGfkyKS4a",
-              "flag": "NONE",
-              "collaborators": null,
-              "__typename": "User"
-            },
-            "__typename": "GenerativeToken"
-          },
-          "__typename": "Objkt"
-        },
-        "__typename": "Listing"
-      },
-      {
-        "id": 955085,
-        "version": 1,
-        "price": 7500000,
-        "objkt": {
-          "id": "FX1-30270",
-          "version": 2,
-          "name": "The Shining #16",
-          "slug": "the-shining-16-0a5a095a-141a-4192-a72e-56ecae6ffbe2",
-          "metadata": {
-            "name": "The Shining #16",
-            "iterationHash": "ooL36djp5yEEzKAbjho98uf8zZoFNVLn7n3xhswCq4DN5RzomJ9",
-            "description": "This generative artwork is a door that emits a glow of light, generating random patterns and color combinations. The light emanating from the door creates an immersive and fascinating atmosphere, inviting the viewer to contemplate and experience its hypnotic effect.",
-            "tags": [
-              "generative",
-              "artwork",
-              "door",
-              "glow",
-              "light",
-              "colorimmersive",
-              "fascinating",
-              "atmosphere"
-            ],
-            "generatorUri": "ipfs://QmdU3Ki3qPyQ1W85F5YfBuv6QPKRsA9FNtZqg1DGauniYx",
-            "artifactUri": "ipfs://QmdU3Ki3qPyQ1W85F5YfBuv6QPKRsA9FNtZqg1DGauniYx/?fxhash=ooL36djp5yEEzKAbjho98uf8zZoFNVLn7n3xhswCq4DN5RzomJ9&fxminter=tz1ZjEwXyHtcnD48WfYy9YRpkkc7dSP3Nh4W",
-            "displayUri": "ipfs://QmX8e5jyUDMTUbjzkDeDobH6pAuKaDqAZeg76RGwwAhy7e",
-            "thumbnailUri": "ipfs://QmfYaQaa3XZqzRn4ygC1FR1AgzCYsmvcKZRLuDmvqoBbLx",
-            "authenticityHash": "3770dc6670d4a9bb7422d046b022c8fad641222f540b6e676f3ece0fe171dfa5",
-            "attributes": true,
-            "decimals": 0,
-            "symbol": "GENTK",
-            "version": "0.2"
-          },
-          "duplicate": false,
-          "activeListing": {
-            "id": 955085,
-            "version": 1,
-            "price": 7500000,
-            "__typename": "Listing"
-          },
-          "owner": {
-            "id": "tz1ZjEwXyHtcnD48WfYy9YRpkkc7dSP3Nh4W",
-            "name": null,
-            "flag": "NONE",
-            "avatarUri": null,
-            "__typename": "User"
-          },
-          "issuer": {
-            "flag": "NONE",
-            "name": "The Shining",
-            "author": {
-              "id": "tz1PyCveTVuCwEWan7zEkWzHXdAtukunH3nK",
-              "name": "Jeff_Tezos",
-              "type": "REGULAR",
-              "avatarUri": "ipfs://QmUH6CtnpeYv8bHfF2t49naGfnrxszPgZjVKWpGfkyKS4a",
-              "flag": "NONE",
-              "collaborators": null,
-              "__typename": "User"
-            },
-            "__typename": "GenerativeToken"
-          },
-          "__typename": "Objkt"
-        },
-        "__typename": "Listing"
-      },
-      {
-        "id": 955084,
-        "version": 1,
-        "price": 3500000,
-        "objkt": {
-          "id": "FX1-31371",
-          "version": 2,
-          "name": "The Shining #50",
-          "slug": "the-shining-50",
-          "metadata": {
-            "name": "The Shining #50",
-            "iterationHash": "opZEXDFKNqvnowaQmeehChGhPLbveYQCdxEpT2xBBcaweBUYxcN",
-            "description": "This generative artwork is a door that emits a glow of light, generating random patterns and color combinations. The light emanating from the door creates an immersive and fascinating atmosphere, inviting the viewer to contemplate and experience its hypnotic effect.",
-            "tags": [
-              "generative",
-              "artwork",
-              "door",
-              "glow",
-              "light",
-              "colorimmersive",
-              "fascinating",
-              "atmosphere"
-            ],
-            "generatorUri": "ipfs://QmdU3Ki3qPyQ1W85F5YfBuv6QPKRsA9FNtZqg1DGauniYx",
-            "artifactUri": "ipfs://QmdU3Ki3qPyQ1W85F5YfBuv6QPKRsA9FNtZqg1DGauniYx/?fxhash=opZEXDFKNqvnowaQmeehChGhPLbveYQCdxEpT2xBBcaweBUYxcN&fxminter=tz1ZjEwXyHtcnD48WfYy9YRpkkc7dSP3Nh4W",
-            "displayUri": "ipfs://QmSX7xkU53GuzZVsTxbfSpnMuHaYHqMcZmtPuNQeL1ke2F",
-            "thumbnailUri": "ipfs://Qma8DCHS9vmcmcFs4ULTabFrdnTFNzK4R226aurWN56Zwm",
-            "authenticityHash": "917fe6c3c03188c9d3b2dcd8d457dfeff25ed232075ae14a329bb2cd5b48ac40",
-            "attributes": true,
-            "decimals": 0,
-            "symbol": "GENTK",
-            "version": "0.2"
-          },
-          "duplicate": false,
-          "activeListing": {
-            "id": 955084,
-            "version": 1,
-            "price": 3500000,
-            "__typename": "Listing"
-          },
-          "owner": {
-            "id": "tz1ZjEwXyHtcnD48WfYy9YRpkkc7dSP3Nh4W",
-            "name": null,
-            "flag": "NONE",
-            "avatarUri": null,
-            "__typename": "User"
-          },
-          "issuer": {
-            "flag": "NONE",
-            "name": "The Shining",
-            "author": {
-              "id": "tz1PyCveTVuCwEWan7zEkWzHXdAtukunH3nK",
-              "name": "Jeff_Tezos",
-              "type": "REGULAR",
-              "avatarUri": "ipfs://QmUH6CtnpeYv8bHfF2t49naGfnrxszPgZjVKWpGfkyKS4a",
-              "flag": "NONE",
-              "collaborators": null,
-              "__typename": "User"
-            },
-            "__typename": "GenerativeToken"
-          },
-          "__typename": "Objkt"
-        },
-        "__typename": "Listing"
-      },
-      {
-        "id": 955083,
-        "version": 1,
-        "price": 4500000,
-        "objkt": {
-          "id": "FX1-31356",
-          "version": 2,
-          "name": "The Shining #42",
-          "slug": "the-shining-42",
-          "metadata": {
-            "name": "The Shining #42",
-            "iterationHash": "op8XxbceeQjzEgwqkP48RstfWn8GMutBeqQMvDKNHeqqxLLu2jy",
-            "description": "This generative artwork is a door that emits a glow of light, generating random patterns and color combinations. The light emanating from the door creates an immersive and fascinating atmosphere, inviting the viewer to contemplate and experience its hypnotic effect.",
-            "tags": [
-              "generative",
-              "artwork",
-              "door",
-              "glow",
-              "light",
-              "colorimmersive",
-              "fascinating",
-              "atmosphere"
-            ],
-            "generatorUri": "ipfs://QmdU3Ki3qPyQ1W85F5YfBuv6QPKRsA9FNtZqg1DGauniYx",
-            "artifactUri": "ipfs://QmdU3Ki3qPyQ1W85F5YfBuv6QPKRsA9FNtZqg1DGauniYx/?fxhash=op8XxbceeQjzEgwqkP48RstfWn8GMutBeqQMvDKNHeqqxLLu2jy&fxminter=tz1ZjEwXyHtcnD48WfYy9YRpkkc7dSP3Nh4W",
-            "displayUri": "ipfs://QmUjbHWYRoVM34YS2K8sYbLdgcMRLP2J5YSfN1vTVaNjCs",
-            "thumbnailUri": "ipfs://QmXtzh5CtnGDb6YUCCUUUtTDudrwQSRAKpovx7uuEntFZf",
-            "authenticityHash": "2e93e5657105bd9edd211d725151746ae6c410e8593250582de477401eaec271",
-            "attributes": true,
-            "decimals": 0,
-            "symbol": "GENTK",
-            "version": "0.2"
-          },
-          "duplicate": false,
-          "activeListing": {
-            "id": 955083,
-            "version": 1,
-            "price": 4500000,
-            "__typename": "Listing"
-          },
-          "owner": {
-            "id": "tz1ZjEwXyHtcnD48WfYy9YRpkkc7dSP3Nh4W",
-            "name": null,
-            "flag": "NONE",
-            "avatarUri": null,
-            "__typename": "User"
-          },
-          "issuer": {
-            "flag": "NONE",
-            "name": "The Shining",
-            "author": {
-              "id": "tz1PyCveTVuCwEWan7zEkWzHXdAtukunH3nK",
-              "name": "Jeff_Tezos",
-              "type": "REGULAR",
-              "avatarUri": "ipfs://QmUH6CtnpeYv8bHfF2t49naGfnrxszPgZjVKWpGfkyKS4a",
-              "flag": "NONE",
-              "collaborators": null,
-              "__typename": "User"
-            },
-            "__typename": "GenerativeToken"
-          },
-          "__typename": "Objkt"
-        },
-        "__typename": "Listing"
-      },
-      {
-        "id": 955082,
-        "version": 1,
-        "price": 3000000,
-        "objkt": {
-          "id": "FX1-31360",
-          "version": 2,
-          "name": "The Shining #44",
-          "slug": "the-shining-44",
-          "metadata": {
-            "name": "The Shining #44",
-            "iterationHash": "opXnPAyg3ezjMgDAMWSwwTqEkkw6BQMRatVRJYWrzEahgqhcLQQ",
-            "description": "This generative artwork is a door that emits a glow of light, generating random patterns and color combinations. The light emanating from the door creates an immersive and fascinating atmosphere, inviting the viewer to contemplate and experience its hypnotic effect.",
-            "tags": [
-              "generative",
-              "artwork",
-              "door",
-              "glow",
-              "light",
-              "colorimmersive",
-              "fascinating",
-              "atmosphere"
-            ],
-            "generatorUri": "ipfs://QmdU3Ki3qPyQ1W85F5YfBuv6QPKRsA9FNtZqg1DGauniYx",
-            "artifactUri": "ipfs://QmdU3Ki3qPyQ1W85F5YfBuv6QPKRsA9FNtZqg1DGauniYx/?fxhash=opXnPAyg3ezjMgDAMWSwwTqEkkw6BQMRatVRJYWrzEahgqhcLQQ&fxminter=tz1ZjEwXyHtcnD48WfYy9YRpkkc7dSP3Nh4W",
-            "displayUri": "ipfs://QmQt75qBwJK8Eo45XkySzs3h14PAsRpyB78YCR5eHwqNZ8",
-            "thumbnailUri": "ipfs://QmT7XNDnf2x8FuQtVSRP8Phi146qbGk7yshLcdfiyiTEHy",
-            "authenticityHash": "56f093f6e8a42b8b8c317dfafc44f294234edb4396a6ae7f4bdfa572a846e26b",
-            "attributes": true,
-            "decimals": 0,
-            "symbol": "GENTK",
-            "version": "0.2"
-          },
-          "duplicate": false,
-          "activeListing": {
-            "id": 955082,
-            "version": 1,
-            "price": 3000000,
-            "__typename": "Listing"
-          },
-          "owner": {
-            "id": "tz1ZjEwXyHtcnD48WfYy9YRpkkc7dSP3Nh4W",
-            "name": null,
-            "flag": "NONE",
-            "avatarUri": null,
-            "__typename": "User"
-          },
-          "issuer": {
-            "flag": "NONE",
-            "name": "The Shining",
-            "author": {
-              "id": "tz1PyCveTVuCwEWan7zEkWzHXdAtukunH3nK",
-              "name": "Jeff_Tezos",
-              "type": "REGULAR",
-              "avatarUri": "ipfs://QmUH6CtnpeYv8bHfF2t49naGfnrxszPgZjVKWpGfkyKS4a",
-              "flag": "NONE",
-              "collaborators": null,
               "__typename": "User"
             },
             "__typename": "GenerativeToken"
