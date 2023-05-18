@@ -2,6 +2,661 @@
   "data": {
     "listings": [
       {
+        "id": 963007,
+        "version": 1,
+        "price": 750000000,
+        "objkt": {
+          "id": "FX1-38688",
+          "version": 2,
+          "name": "The Paradox of Choice #171",
+          "slug": "the-paradox-of-choice-171",
+          "metadata": {
+            "name": "The Paradox of Choice #171",
+            "iterationHash": "oomfWJscVDBWDNXGZT2xAAvLNuB8aE2qPYoyHLvnuqLtWao1wSB",
+            "description": "### OVERVIEW ###\nThis project revisits some of the foundational ideas in my previous work \"Above (The Infinite)\" and makes them available in a parameterized form for your exploration.\n\nThis project both rewards and requires exploration. I intentionally left the parameter space very broad so that edge case configurations would be possible. In practice this means that additional curation beyond the initial random parameters will very likely be required, in a way that mimics my day to day experience as a generative artist.\n\nThanks to Karsten Schmidt for his excellent thi.ng libraries (https://thi.ng/), which form the technical foundation upon which this work was built.\n\n### CONTROLS ###\ne - Save the current frame as a PNG\nspace - Pause/Resume animation\n\n### PARAMETERS ###\nNOTE: Some combinations of parameters will cause flashing/strobing, which is why I have attached the \"Epileptic Seizure\" label to the project.\n\n* Color Palette: The color palette to apply to the output.\n* Merge Technique: The method used to combine the different patterns.\n* Patterns: The various patterns that can be combined to form the overall resulting tiled pattern.\n* Pattern Scales: The scales used to combine patterns. Higher scale values provide more visible pattern repetition.\n* Deformers: An optional additional spatial deformation of a pattern.\n* Deformer Scales: The scale of the deformation itself. Lower values use less of the deformation space, while higher values include more.\n* Detail: Acts as a filter on the visual complexity of the overall tiled pattern. Lower values will reduce visual complexity, while higher values will increase it.\n* Rotation Rate/Scroll Rates: How fast should the image rotate or scroll. Note: adjusting these parameters may result in visuals that trigger motion sickness.\n* Zoom: Lower values zoom in, higher values zoom out.\n* Round Scales Up?: When checked the pattern scales are rounded up to the nearest integer.\n* Animate?: Should some parameters be adjusted with the passing of time?\n* Low Res?: When checked, force device pixel density to 1, which reduces strain on the GPU, but may result in graphical artifacts. I usually keep this unchecked unless I want to lighten the load on the GPU.\n* Anti-alias?: When checked each pixel will be sampled multiple times to attempt to smooth out possible aliasing. This will put more load on the GPU, and will typically be slower. Can be useful when \"Low Res?\" is enabled.\n\n### HOWTO ###\nHere's how I find interesting things.\n\nFirst, I lock all of the parameters below \"Pattern 3\" at their default values. I will also usually lock both Deformers to \"Empty\", as they can sometimes hide interesting patterns while exploring, and then I experiment with enabling one or both once I have found something interesting.\n\nYou can also explore the options individually (to a certain degree) by setting other patterns to \"Empty\". This can make how patterns affect one another more obvious when you set them.\n\nAt this point I'll randomize the parameters, and then do one of the following:\n\n- If I see something that's extremely noisy/detailed, I'll turn down the \"Detail\" level, which can sometimes smooth things out.\n\n- If a tiling is very tight, I'll lower the \"Zoom\" to see more of the pattern, or the reverse if I want to see more overview.\n\n- If there's still a lot of aliasing/noise in the image, sometimes enabling anti-aliasing will help, but that will affect performance. I usually try to adjust the Scale/Detail/Zoom before resorting to anti-aliasing.\n\n- Interesting patterns are formed by the scale factors controlling how pattern overlap happens. Sometimes enabling \"Round Scales Up?\" will introduce some appealing visual symmetry.\n\n- Enable one or both of the deformers to see what impact they have on the pattern.\n\nFinally, once I've found a pattern that's interesting, I may enable scrolling or rotation. Note that enabling additional movement can increase graphical aliasing, so anti-aliasing may be required depending on the pattern.\n\nI hope you enjoy the exploration process!\n\n- Jeff Palmer\n",
+            "tags": [
+              "generative",
+              "genartclub",
+              "abstract",
+              "tiling",
+              "glsl",
+              "shader",
+              "webgl"
+            ],
+            "generatorUri": "ipfs://QmbzFf7ktp2vMbo31vfUGiXjfLW3CtDN8WyN9UwLMTN9Wq",
+            "artifactUri": "ipfs://QmbzFf7ktp2vMbo31vfUGiXjfLW3CtDN8WyN9UwLMTN9Wq/?fxhash=oomfWJscVDBWDNXGZT2xAAvLNuB8aE2qPYoyHLvnuqLtWao1wSB&fxminter=tz1cFdB4zmUSMm4FDZErr7reDB4XtsEnWz3V&fxparams=03000701402399999999999a3ff28f5c28f5c28f070140026666666666663ffc51eb851eb8520f3fe8f5c28f5c28f60000000000000000000000000000000000000000000000003fa999999999999a00010000",
+            "displayUri": "ipfs://QmSe6Vj77x8Znfza2GhcL324VqYbTXYH6Butw7okyiVwCT",
+            "thumbnailUri": "ipfs://QmU1LMvmrBsMi5bcPTXkvz56wTY8bDSinh6iF5FzpD857X",
+            "authenticityHash": "8da7019d9cfd71673bd61c0bfebd60889898f97e42bb5b0cfacaf1c1602e3d98",
+            "attributes": [
+              {
+                "name": "Merge Technique",
+                "value": "Warp"
+              },
+              {
+                "name": "Palette",
+                "value": "Glacier"
+              },
+              {
+                "name": "Pattern 1",
+                "value": "Seven"
+              },
+              {
+                "name": "Deformer 1",
+                "value": "Clover"
+              },
+              {
+                "name": "Pattern 2",
+                "value": "Seven"
+              },
+              {
+                "name": "Deformer 2",
+                "value": "Clover"
+              },
+              {
+                "name": "Pattern 3",
+                "value": "Worley Two"
+              },
+              {
+                "name": "Animated",
+                "value": "Yes"
+              }
+            ],
+            "decimals": 0,
+            "symbol": "GENTK",
+            "version": "0.2"
+          },
+          "duplicate": false,
+          "activeListing": {
+            "id": 963007,
+            "version": 1,
+            "price": 750000000,
+            "__typename": "Listing"
+          },
+          "owner": {
+            "id": "tz1cFdB4zmUSMm4FDZErr7reDB4XtsEnWz3V",
+            "name": "ORBITOR.TEZ",
+            "flag": "NONE",
+            "avatarUri": "ipfs://QmcvvZCAVF2jwDTaHf9GergBAyXL3ngH2eztvoXvtG4iUJ",
+            "__typename": "User"
+          },
+          "issuer": {
+            "flag": "NONE",
+            "name": "The Paradox of Choice",
+            "author": {
+              "id": "tz1PhYXjxJJovmLLuajAa4kYACQXE2eVEF5k",
+              "name": "Jeff Palmer",
+              "type": "REGULAR",
+              "avatarUri": "ipfs://QmfVaGosxmDJfHhJuf9B4AcgvrxTHUNXAfjqTCqb2C9BtV",
+              "flag": "VERIFIED",
+              "collaborators": null,
+              "__typename": "User"
+            },
+            "__typename": "GenerativeToken"
+          },
+          "__typename": "Objkt"
+        },
+        "__typename": "Listing"
+      },
+      {
+        "id": 963006,
+        "version": 1,
+        "price": 750000000,
+        "objkt": {
+          "id": "FX1-38752",
+          "version": 2,
+          "name": "The Paradox of Choice #184",
+          "slug": "the-paradox-of-choice-184",
+          "metadata": {
+            "name": "The Paradox of Choice #184",
+            "iterationHash": "onroJmvdK4dxqM11LNHNTbLiVt74FoswaASViUXXzKQk7XtWMgv",
+            "description": "### OVERVIEW ###\nThis project revisits some of the foundational ideas in my previous work \"Above (The Infinite)\" and makes them available in a parameterized form for your exploration.\n\nThis project both rewards and requires exploration. I intentionally left the parameter space very broad so that edge case configurations would be possible. In practice this means that additional curation beyond the initial random parameters will very likely be required, in a way that mimics my day to day experience as a generative artist.\n\nThanks to Karsten Schmidt for his excellent thi.ng libraries (https://thi.ng/), which form the technical foundation upon which this work was built.\n\n### CONTROLS ###\ne - Save the current frame as a PNG\nspace - Pause/Resume animation\n\n### PARAMETERS ###\nNOTE: Some combinations of parameters will cause flashing/strobing, which is why I have attached the \"Epileptic Seizure\" label to the project.\n\n* Color Palette: The color palette to apply to the output.\n* Merge Technique: The method used to combine the different patterns.\n* Patterns: The various patterns that can be combined to form the overall resulting tiled pattern.\n* Pattern Scales: The scales used to combine patterns. Higher scale values provide more visible pattern repetition.\n* Deformers: An optional additional spatial deformation of a pattern.\n* Deformer Scales: The scale of the deformation itself. Lower values use less of the deformation space, while higher values include more.\n* Detail: Acts as a filter on the visual complexity of the overall tiled pattern. Lower values will reduce visual complexity, while higher values will increase it.\n* Rotation Rate/Scroll Rates: How fast should the image rotate or scroll. Note: adjusting these parameters may result in visuals that trigger motion sickness.\n* Zoom: Lower values zoom in, higher values zoom out.\n* Round Scales Up?: When checked the pattern scales are rounded up to the nearest integer.\n* Animate?: Should some parameters be adjusted with the passing of time?\n* Low Res?: When checked, force device pixel density to 1, which reduces strain on the GPU, but may result in graphical artifacts. I usually keep this unchecked unless I want to lighten the load on the GPU.\n* Anti-alias?: When checked each pixel will be sampled multiple times to attempt to smooth out possible aliasing. This will put more load on the GPU, and will typically be slower. Can be useful when \"Low Res?\" is enabled.\n\n### HOWTO ###\nHere's how I find interesting things.\n\nFirst, I lock all of the parameters below \"Pattern 3\" at their default values. I will also usually lock both Deformers to \"Empty\", as they can sometimes hide interesting patterns while exploring, and then I experiment with enabling one or both once I have found something interesting.\n\nYou can also explore the options individually (to a certain degree) by setting other patterns to \"Empty\". This can make how patterns affect one another more obvious when you set them.\n\nAt this point I'll randomize the parameters, and then do one of the following:\n\n- If I see something that's extremely noisy/detailed, I'll turn down the \"Detail\" level, which can sometimes smooth things out.\n\n- If a tiling is very tight, I'll lower the \"Zoom\" to see more of the pattern, or the reverse if I want to see more overview.\n\n- If there's still a lot of aliasing/noise in the image, sometimes enabling anti-aliasing will help, but that will affect performance. I usually try to adjust the Scale/Detail/Zoom before resorting to anti-aliasing.\n\n- Interesting patterns are formed by the scale factors controlling how pattern overlap happens. Sometimes enabling \"Round Scales Up?\" will introduce some appealing visual symmetry.\n\n- Enable one or both of the deformers to see what impact they have on the pattern.\n\nFinally, once I've found a pattern that's interesting, I may enable scrolling or rotation. Note that enabling additional movement can increase graphical aliasing, so anti-aliasing may be required depending on the pattern.\n\nI hope you enjoy the exploration process!\n\n- Jeff Palmer\n",
+            "tags": [
+              "generative",
+              "genartclub",
+              "abstract",
+              "tiling",
+              "glsl",
+              "shader",
+              "webgl"
+            ],
+            "generatorUri": "ipfs://QmbzFf7ktp2vMbo31vfUGiXjfLW3CtDN8WyN9UwLMTN9Wq",
+            "artifactUri": "ipfs://QmbzFf7ktp2vMbo31vfUGiXjfLW3CtDN8WyN9UwLMTN9Wq/?fxhash=onroJmvdK4dxqM11LNHNTbLiVt74FoswaASViUXXzKQk7XtWMgv&fxminter=tz1cFdB4zmUSMm4FDZErr7reDB4XtsEnWz3V&fxparams=020001034012cccccccccccd3f847ae147ae147b070240140000000000004000000000000000013ff00000000000000000000000000000000000000000000000000000000000003fa999999999999a01010001",
+            "displayUri": "ipfs://Qmf48Tu8HS2Vt14ZfWzx2dmezhpWht9oTuCHgdRRAiqSQ6",
+            "thumbnailUri": "ipfs://QmRWU4fjP8kUeqq8Q4A93tDDF1hWSpFDoJ6SWVLrzqoMVa",
+            "authenticityHash": "68461a3fee1fa4c6ee35b223efa44b761146b11ce7df698bdb1bc7aa75509e96",
+            "attributes": [
+              {
+                "name": "Merge Technique",
+                "value": "Warp"
+              },
+              {
+                "name": "Palette",
+                "value": "Copper"
+              },
+              {
+                "name": "Pattern 1",
+                "value": "One"
+              },
+              {
+                "name": "Deformer 1",
+                "value": "Spiral"
+              },
+              {
+                "name": "Pattern 2",
+                "value": "Seven"
+              },
+              {
+                "name": "Deformer 2",
+                "value": "Sphere"
+              },
+              {
+                "name": "Pattern 3",
+                "value": "One"
+              },
+              {
+                "name": "Animated",
+                "value": "Yes"
+              }
+            ],
+            "decimals": 0,
+            "symbol": "GENTK",
+            "version": "0.2"
+          },
+          "duplicate": false,
+          "activeListing": {
+            "id": 963006,
+            "version": 1,
+            "price": 750000000,
+            "__typename": "Listing"
+          },
+          "owner": {
+            "id": "tz1cFdB4zmUSMm4FDZErr7reDB4XtsEnWz3V",
+            "name": "ORBITOR.TEZ",
+            "flag": "NONE",
+            "avatarUri": "ipfs://QmcvvZCAVF2jwDTaHf9GergBAyXL3ngH2eztvoXvtG4iUJ",
+            "__typename": "User"
+          },
+          "issuer": {
+            "flag": "NONE",
+            "name": "The Paradox of Choice",
+            "author": {
+              "id": "tz1PhYXjxJJovmLLuajAa4kYACQXE2eVEF5k",
+              "name": "Jeff Palmer",
+              "type": "REGULAR",
+              "avatarUri": "ipfs://QmfVaGosxmDJfHhJuf9B4AcgvrxTHUNXAfjqTCqb2C9BtV",
+              "flag": "VERIFIED",
+              "collaborators": null,
+              "__typename": "User"
+            },
+            "__typename": "GenerativeToken"
+          },
+          "__typename": "Objkt"
+        },
+        "__typename": "Listing"
+      },
+      {
+        "id": 963005,
+        "version": 1,
+        "price": 235000000,
+        "objkt": {
+          "id": "FX1-28743",
+          "version": 2,
+          "name": "Awaiting Yesterday (SoC: Apr) #57",
+          "slug": "awaiting-yesterday-(soc:-apr)-57",
+          "metadata": {
+            "name": "Awaiting Yesterday (SoC: Apr) #57",
+            "iterationHash": "ooTSbUxrUo6kc5A9biqBxvLq1ohx5smifectezpgfExjrVTiDmq",
+            "description": "Awaiting Yesterday On A Foggy Morning (SoC: Apr)\n\nThis is the memory of my childhood hometown,\nmountains, trees, high sky and wet air, \nall of them are mixed in a silence and foggy morning, \nonly birds fly out of woods.\n\n--------------------------\n\nThis is also the third work of a larger portfolio of work 'State of Coherence' (SoC) which explores and describes the coherence of people, cultures and the objective world.\n\n--------------------------\n\nThis is a generation artwork made by pure code.\nIn live mode, press 's' or 'S' to save a high resolution png.\n\nPlease be patient with drawing process (it'll take about 15s in my computer).\nEnjoy~\n\nEndlessworld\nApril, 2023",
+            "tags": [
+              "Soc",
+              "ink painting"
+            ],
+            "generatorUri": "ipfs://QmNhnXTp3AXhBUj9zX1Vw7aNgcUkJm5ZrRHgpxm4mtoXjS",
+            "artifactUri": "ipfs://QmNhnXTp3AXhBUj9zX1Vw7aNgcUkJm5ZrRHgpxm4mtoXjS/?fxhash=ooTSbUxrUo6kc5A9biqBxvLq1ohx5smifectezpgfExjrVTiDmq&fxminter=tz1cFdB4zmUSMm4FDZErr7reDB4XtsEnWz3V",
+            "displayUri": "ipfs://Qmd7acUvWmWMXi6RwP6mJcmQxUp5v994MDNxL2TNCuQiod",
+            "thumbnailUri": "ipfs://QmYfAnuhszSRQGe5ZsdwSuULaDJKSxhYAH3WGGU8QvK2Ku",
+            "authenticityHash": "c9909bbac766fbda5502314aafba618413f6150f3f95cc48f16e2ddae403ee04",
+            "attributes": [],
+            "decimals": 0,
+            "symbol": "GENTK",
+            "version": "0.2"
+          },
+          "duplicate": false,
+          "activeListing": {
+            "id": 963005,
+            "version": 1,
+            "price": 235000000,
+            "__typename": "Listing"
+          },
+          "owner": {
+            "id": "tz1cFdB4zmUSMm4FDZErr7reDB4XtsEnWz3V",
+            "name": "ORBITOR.TEZ",
+            "flag": "NONE",
+            "avatarUri": "ipfs://QmcvvZCAVF2jwDTaHf9GergBAyXL3ngH2eztvoXvtG4iUJ",
+            "__typename": "User"
+          },
+          "issuer": {
+            "flag": "NONE",
+            "name": "Awaiting Yesterday (SoC: Apr)",
+            "author": {
+              "id": "tz1SCXPTyW57fXfztj6DCJvCtuS8U1MQvGFT",
+              "name": "EndlessWorld",
+              "type": "REGULAR",
+              "avatarUri": "ipfs://QmNScbFuLZuoahUwWajs7JCktjRcSYTFBQR74W77jbArfB",
+              "flag": "VERIFIED",
+              "collaborators": null,
+              "__typename": "User"
+            },
+            "__typename": "GenerativeToken"
+          },
+          "__typename": "Objkt"
+        },
+        "__typename": "Listing"
+      },
+      {
+        "id": 963004,
+        "version": 1,
+        "price": 14500000000,
+        "objkt": {
+          "id": "FX0-820194",
+          "version": 1,
+          "name": "Crude Acceptance #85",
+          "slug": "crude-acceptance-85",
+          "metadata": {
+            "name": "Crude Acceptance #85",
+            "iterationHash": "ony2bRkCBYCVVDxmwsDiSH4sD3KsuaS9mQGzzuYUcRmJfsmFDeh",
+            "description": "    It was there when we arrived\n    No owners, no gatekeepers\n    The opportunity to explore\n    The chance to transform\n    What we are\n    What we see\n    And a trace will came with us\n    And that way it will multiply\n    As long as we allow\n    To leave here a part of us\n    It will be there when we leave\n    No owners, no gatekeepers\n    But itself\n\n\n\n  Controls\n  Format:\n  'f' - switch square/full screen format\n\n  View:\n\n  'Arrow Up/Down' - Decrease/Increase distance to origin\n  'Mouse Drag' - View Rotation\n\n\n  Export:\n  'x' - show/hide export menu\n  'm' - quick canvas save\n\n\nCreated with p5.js (Javascript + GLSL) by Victor Doval @vicdoval (2022)\nDesigned to be seen in Google Chrome 102.0.5005.63 ",
+            "tags": [
+              "interactive",
+              "abstract",
+              "geometric",
+              "victor doval",
+              "architecture",
+              "retro",
+              "sketch",
+              "shaded",
+              "lines",
+              "ray-marching"
+            ],
+            "generatorUri": "ipfs://QmXTgn8VHmBcNPC5Kqn2masac68RbBfbZxBucgVemA3CTY",
+            "artifactUri": "ipfs://QmXTgn8VHmBcNPC5Kqn2masac68RbBfbZxBucgVemA3CTY?fxhash=ony2bRkCBYCVVDxmwsDiSH4sD3KsuaS9mQGzzuYUcRmJfsmFDeh",
+            "displayUri": "ipfs://Qmf6vrGCbKnP1FCBLWEPJQvK1V2G9CpPgpuHncpQeazC9i",
+            "thumbnailUri": "ipfs://Qmddb9Ykv3EpwGJQVc7TRjbt6MVuN8MHXsxFd8kKYTpC4G",
+            "authenticityHash": "038af3a144fb5f323ffaa02640b0657e83183755ee3af60fc32956cc265b29b7",
+            "attributes": [
+              {
+                "name": "Sky Light",
+                "value": 0.9500000000000001
+              },
+              {
+                "name": "Focal Dist",
+                "value": 2.5
+              },
+              {
+                "name": "Ortho",
+                "value": false
+              },
+              {
+                "name": "Back Sun",
+                "value": true
+              },
+              {
+                "name": "Temple",
+                "value": false
+              },
+              {
+                "name": "Box Number",
+                "value": 11
+              },
+              {
+                "name": "Hatching Mode",
+                "value": 1
+              }
+            ],
+            "decimals": 0,
+            "symbol": "GENTK",
+            "version": "0.2"
+          },
+          "duplicate": false,
+          "activeListing": {
+            "id": 963004,
+            "version": 1,
+            "price": 14500000000,
+            "__typename": "Listing"
+          },
+          "owner": {
+            "id": "tz1cFdB4zmUSMm4FDZErr7reDB4XtsEnWz3V",
+            "name": "ORBITOR.TEZ",
+            "flag": "NONE",
+            "avatarUri": "ipfs://QmcvvZCAVF2jwDTaHf9GergBAyXL3ngH2eztvoXvtG4iUJ",
+            "__typename": "User"
+          },
+          "issuer": {
+            "flag": "NONE",
+            "name": "Crude Acceptance",
+            "author": {
+              "id": "tz1WEWrGbRzrdarqxGNLruVmgX4bj3sVXQkT",
+              "name": "Victor Doval",
+              "type": "REGULAR",
+              "avatarUri": "ipfs://QmR1B4gCa6SSKo9JoZJXmEZNxBTXCdcVBNChaARmDSTYzR",
+              "flag": "VERIFIED",
+              "collaborators": null,
+              "__typename": "User"
+            },
+            "__typename": "GenerativeToken"
+          },
+          "__typename": "Objkt"
+        },
+        "__typename": "Listing"
+      },
+      {
+        "id": 963003,
+        "version": 1,
+        "price": 8000000000,
+        "objkt": {
+          "id": "FX1-32668",
+          "version": 2,
+          "name": "Turtle Vision #203",
+          "slug": "turtle-vision-203",
+          "metadata": {
+            "name": "Turtle Vision #203",
+            "iterationHash": "opV2H3KYY9x5GLUV31iydtSpD3kgufiyvRUdyPdjNnnYYjYHwoS",
+            "description": "## PROJECT DESCRIPTION\n\nWhat is it like to be a sea turtle in the age of plastic?\n\nOur global addiction to single-use plastic is destroying our marine environment. Over 11 million metric tons of waste plastic enter our oceans every year. Thankfully, there is a growing force of ocean defenders rising to combat this crisis. Activists and non-profit organizations around the world are working diligently to solve the ocean plastic problem — but they don’t have nearly enough resources to succeed. This project aims to help.\n\nTurtle Vision uses code, chaos, and regl.js to offer us a glimpse into the experience of a sea turtle in 2023, struggling to survive in an ailing ocean. Turtles prey heavily on jellyfish, but have trouble distinguishing them from the countless plastic bags clogging our oceans given their similar shapes and movement patterns. Because of this, we are finding more and more sea turtles dead on beaches, having starved to death with bellies full of plastic bags.\n\nWe believe that generative art can help to reverse this trend and restore sea turtle populations to pre-plastic levels. Turtle Vision aims to raise money for 5 Gyres, one of the foremost nonprofit groups in the war on single-use plastic. 5 Gyres has a storied pedigree in this space, and has also emerged as a leader amongst conservation organizations in its embrace of blockchain technology.\n\nThis project is a collaboration between renowned generative artist @s_r_r_z, the creator of the iconic Generative Octopuses, and @Casson.tez, a professional ocean conservation activist who works at the intersection of environmentalism and web3.\n\nWe are grateful for the support of Tender.art, fx(hash), TZAPAC, the Tezos Foundation, and the entire Tezos community.\n\n\n## EDITION\n\n- Series size: 534 (it's SEA)\n- Price: 111-99-77-55-33\n- Charity share: 40% of primaries, 5% of secondaries\n\n\n## TECHNICALS\n\nVisuals:\nThis artwork portrays jellyfish intermixed with litter in the ocean, such as plastic bags and masks. The outputs offer variance in color, species, clarity, ratio, motion pattern, framing, and additional variables.\n\nSpecies:\n- Moon Jellyfish (Aurelia aurita)\n- Crystal Jellyfish (Aequorea victoria)\n- Sea Nettle (Chrysaora quinquecirrha)\n- Spotted Jellyfish (Phyllorhiza punctata)\n- Flower Hat (Olindias formosa)\n- Pink Meanie (Drymonema larsoni)\n\nScenes:\n- “Do You Feel Lucky?” (1 jellyfish + 1 bag)\n- “Unwrap Before Eating” (1 jellyfish + 1 bag)\n- “It’s In Here Somewhere” (1 jellyfish + n bags)\n- “Two Bites Left” (2 jellyfish + n bags)\n- “Fugu” (n jellyfish + 1 bag)\n- “Omakase” (n jellyfish + n bags)\n- “Feast” (no trash)\n- “Famine” (trash only)\n\nControls:\n- Drag to rotate\n- Hold alt + Drag to pan\n- Scroll to zoom\n- Press the spacebar to pause/play (in\n- Press R to toggle auto-rotation\n- Press S to take a screenshot\n- Hold the up/down arrow to adjust visibility\n\nThe work was made with JavaScript by s_r_r_z_, except for the following:\n- regl (MIT License)\n- glsl-random by mattdesl (BSD-3-Clause)\n- glsl-lut by mattdesl (MIT license)\n- glsl-noise by hughsk (MIT license)\n- glsl-fbm by yiwen lin (MIT license)\n- glsl-rotate (MIT license)\n- simplex-noise (MIT license)\n- alea (MIT license)\n- hsv2rgb (MIT license)\n- canvas-orbit-camera by hughsk (MIT license)\n- hueShiftYIQ by MISAKI NAKANO (public domain)\n- waterCaustics function adapted from jaybird (public domain)\n- Compiled using fxhash-boilerplate-webpack by fxhash (MIT License).\n\n2023. Licensed under CC BY-NC-SA 4.0. See LICENSE.txt for more information.\n\nThe rendering process is quite CPU/GPU intensive. It was tested on various browsers and devices, but please make sure it works on your device before minting.",
+            "tags": [
+              "jellyfish",
+              "regl",
+              "webgl"
+            ],
+            "generatorUri": "ipfs://QmbASYG7Ge7c8bR2EjTBTZ7oaSk7DGz1g67gD95NgodEan",
+            "artifactUri": "ipfs://QmbASYG7Ge7c8bR2EjTBTZ7oaSk7DGz1g67gD95NgodEan/?fxhash=opV2H3KYY9x5GLUV31iydtSpD3kgufiyvRUdyPdjNnnYYjYHwoS&fxminter=tz1cFdB4zmUSMm4FDZErr7reDB4XtsEnWz3V",
+            "displayUri": "ipfs://QmYsYJVDfw9febzsxcr9ZN6kSgmMBspB9BJuifLAUSQ38K",
+            "thumbnailUri": "ipfs://QmVU5kuRVvnB31S2bMKkVpUDUN3GU7QZGZcissUPCrizm9",
+            "authenticityHash": "a0cf5edaf13d41ce173bd6ec271d0cd5baee558c4a13bf834157322eec197b71",
+            "attributes": [
+              {
+                "name": "Scene",
+                "value": "Unwrap Before Eating"
+              },
+              {
+                "name": "Species",
+                "value": "Sea Nettle Jellyfish"
+              },
+              {
+                "name": "Color Palette",
+                "value": "Bronze"
+              },
+              {
+                "name": "Render Mode",
+                "value": "Firework"
+              },
+              {
+                "name": "Jellyfish Count",
+                "value": 1
+              },
+              {
+                "name": "Bag Count",
+                "value": 1
+              },
+              {
+                "name": "Mask Count",
+                "value": 0
+              }
+            ],
+            "decimals": 0,
+            "symbol": "GENTK",
+            "version": "0.2"
+          },
+          "duplicate": false,
+          "activeListing": {
+            "id": 963003,
+            "version": 1,
+            "price": 8000000000,
+            "__typename": "Listing"
+          },
+          "owner": {
+            "id": "tz1cFdB4zmUSMm4FDZErr7reDB4XtsEnWz3V",
+            "name": "ORBITOR.TEZ",
+            "flag": "NONE",
+            "avatarUri": "ipfs://QmcvvZCAVF2jwDTaHf9GergBAyXL3ngH2eztvoXvtG4iUJ",
+            "__typename": "User"
+          },
+          "issuer": {
+            "flag": "NONE",
+            "name": "Turtle Vision",
+            "author": {
+              "id": "KT1UXSjsJWVRaU2jFHh8ET662cckd8CbYd99",
+              "name": null,
+              "type": "COLLAB_CONTRACT_V1",
+              "avatarUri": null,
+              "flag": "NONE",
+              "collaborators": [
+                {
+                  "id": "tz1iEvkELJMSgfn2WJRR9HPg5U2vppAF1eLS",
+                  "name": "Casson.tez",
+                  "avatarUri": "ipfs://QmSWJVdQpJEDPcxnroAQXBsAq7T4K5XU47hBtW98rfRDCN",
+                  "flag": "VERIFIED",
+                  "__typename": "User"
+                },
+                {
+                  "id": "tz1QUUkPE6oGJa9e8mucQ3kJw9qj5prvzvPq",
+                  "name": "s_r_r_z_",
+                  "avatarUri": "ipfs://QmWvovseC8UER8HBxJSwnYecGHTCmA7GtMuPFynap92UYY",
+                  "flag": "VERIFIED",
+                  "__typename": "User"
+                }
+              ],
+              "__typename": "User"
+            },
+            "__typename": "GenerativeToken"
+          },
+          "__typename": "Objkt"
+        },
+        "__typename": "Listing"
+      },
+      {
+        "id": 963002,
+        "version": 1,
+        "price": 88000000,
+        "objkt": {
+          "id": "FX1-37652",
+          "version": 2,
+          "name": "Circunvoluciones #25",
+          "slug": "circunvoluciones-25",
+          "metadata": {
+            "name": "Circunvoluciones #25",
+            "iterationHash": "oopYCz4juxNau1R555nF2dAtdi1heHT8A4taR8XUNAx9xUDbrVZ",
+            "description": "In this work I mainly concentrated on the use of color, the construction of the palettes and the light contrasts that can be generated. To do this, I analyzed various works by some abstract artists, especially some by Paul Klee. \n\nIn my recent previous works I looked for an exploration through learning new algorithms, but for this one I decided to take the classic flowfield as a starting point, trying to find a personal style from it through color.\n\nThe title “Circunvoluciones” (Circumvolutions) refers to those very characteristic shapes that can be achieved with the flowfield, by means of layers that surround each other.\n\n10 palettes with different background combinations\n1332 x 2000 pixels\n\nPress \"S\" to save a png image\nPress \"T\" to save a tiff image (may take time, canvastotiff.js)\n\ncreated by @mdollinger using p5js",
+            "tags": [
+              "flowfield",
+              "abstract",
+              "generative",
+              "p5js",
+              "circunvoluciones"
+            ],
+            "generatorUri": "ipfs://QmXxJyCusw5PLBnWoSupeMH4PMYscX1VscXqP9v4sHczbH",
+            "artifactUri": "ipfs://QmXxJyCusw5PLBnWoSupeMH4PMYscX1VscXqP9v4sHczbH/?fxhash=oopYCz4juxNau1R555nF2dAtdi1heHT8A4taR8XUNAx9xUDbrVZ&fxminter=tz1cFdB4zmUSMm4FDZErr7reDB4XtsEnWz3V&fxparams=40140000000000004065a00000000000",
+            "displayUri": "ipfs://QmRPAFsk4QpwWqRc75HHiq4F3kFEYFtme8PepRTypHsd91",
+            "thumbnailUri": "ipfs://QmWtTDe1HdtAPeQyUTPD2BJRZYmFvLsiWwz3jNxn5f9Vp4",
+            "authenticityHash": "58a559aafbc2740846f69a7c9bed4e203275cc11fb4fa91d77ae2344045fe5af",
+            "attributes": [
+              {
+                "name": "Palette name",
+                "value": "Terra"
+              },
+              {
+                "name": "Layers",
+                "value": 173
+              }
+            ],
+            "decimals": 0,
+            "symbol": "GENTK",
+            "version": "0.2"
+          },
+          "duplicate": false,
+          "activeListing": {
+            "id": 963002,
+            "version": 1,
+            "price": 88000000,
+            "__typename": "Listing"
+          },
+          "owner": {
+            "id": "tz1cFdB4zmUSMm4FDZErr7reDB4XtsEnWz3V",
+            "name": "ORBITOR.TEZ",
+            "flag": "NONE",
+            "avatarUri": "ipfs://QmcvvZCAVF2jwDTaHf9GergBAyXL3ngH2eztvoXvtG4iUJ",
+            "__typename": "User"
+          },
+          "issuer": {
+            "flag": "NONE",
+            "name": "Circunvoluciones",
+            "author": {
+              "id": "tz1TfDwzin8K55zxWMBxFqNM9cimFYEH7LFA",
+              "name": "mdollinger",
+              "type": "REGULAR",
+              "avatarUri": "ipfs://QmeF1qZXiPVAcB44exigmjDiRxqKa2Q3A9wFnRX6Nn1dyS",
+              "flag": "VERIFIED",
+              "collaborators": null,
+              "__typename": "User"
+            },
+            "__typename": "GenerativeToken"
+          },
+          "__typename": "Objkt"
+        },
+        "__typename": "Listing"
+      },
+      {
+        "id": 963001,
+        "version": 1,
+        "price": 135000000,
+        "objkt": {
+          "id": "FX1-38446",
+          "version": 2,
+          "name": "INSUFFICIENT DATA FOR MEANINGFUL ANSWER #58",
+          "slug": "insufficient-data-for-meaningful-answer-58",
+          "metadata": {
+            "name": "INSUFFICIENT DATA FOR MEANINGFUL ANSWER #58",
+            "iterationHash": "onwyULfokaunArwA8heQHdftP41XWKKA7oECWieeFRbb46qKDrK",
+            "description": "Qotonana Old School release for bear market :)\n\nThank You!\n\nPress ‘s’ to save canvas or ‘2’ for 2x and ‘4’ for 4x image resolution png\nCreated with love for p5js and generative art\n\n@Qotonana\nMay, 2023.",
+            "tags": [
+              "generative",
+              "abstract",
+              "light",
+              "spark",
+              "data",
+              "creation",
+              "inner",
+              "space",
+              "p5js"
+            ],
+            "generatorUri": "ipfs://QmPDeZ5iwxmpxbygPURCvWErQ7UZWEiV3KoQB6zQr9e6ci",
+            "artifactUri": "ipfs://QmPDeZ5iwxmpxbygPURCvWErQ7UZWEiV3KoQB6zQr9e6ci/?fxhash=onwyULfokaunArwA8heQHdftP41XWKKA7oECWieeFRbb46qKDrK&fxminter=tz1cFdB4zmUSMm4FDZErr7reDB4XtsEnWz3V",
+            "displayUri": "ipfs://QmQ3PgkdayrbL541C2kyyJFFgJiJnkrunZdeHQ9kJ7E8Pw",
+            "thumbnailUri": "ipfs://QmdXzRHqzdDo2ggtHfCy1KgGGdDcFrJEvjxh7e42qEb5Cn",
+            "authenticityHash": "6388d862fc8c657544ff124c0794f1af9508163c1daf91b52f0a4a403e5aaf89",
+            "attributes": true,
+            "decimals": 0,
+            "symbol": "GENTK",
+            "version": "0.2"
+          },
+          "duplicate": false,
+          "activeListing": {
+            "id": 963001,
+            "version": 1,
+            "price": 135000000,
+            "__typename": "Listing"
+          },
+          "owner": {
+            "id": "tz1cFdB4zmUSMm4FDZErr7reDB4XtsEnWz3V",
+            "name": "ORBITOR.TEZ",
+            "flag": "NONE",
+            "avatarUri": "ipfs://QmcvvZCAVF2jwDTaHf9GergBAyXL3ngH2eztvoXvtG4iUJ",
+            "__typename": "User"
+          },
+          "issuer": {
+            "flag": "NONE",
+            "name": "INSUFFICIENT DATA FOR MEANINGFUL ANSWER",
+            "author": {
+              "id": "tz1MasNk7isvDHDxVuN9eCecgXGm6trZceGb",
+              "name": "Qotonana",
+              "type": "REGULAR",
+              "avatarUri": "ipfs://QmcpB1PnzexzgBnkLFCHKwfx6KaGHFFMgiiuHVp1jKm2tW",
+              "flag": "VERIFIED",
+              "collaborators": null,
+              "__typename": "User"
+            },
+            "__typename": "GenerativeToken"
+          },
+          "__typename": "Objkt"
+        },
+        "__typename": "Listing"
+      },
+      {
+        "id": 963000,
+        "version": 1,
+        "price": 15000000,
+        "objkt": {
+          "id": "FX1-40296",
+          "version": 2,
+          "name": "Expectação II #10",
+          "slug": "expectacao-ii-10",
+          "metadata": {
+            "name": "Expectação II #10",
+            "iterationHash": "onnSLghrJJWCsRoeknBBmPRM4UE5ZxtNiBSqA3Py3mmHuQVJuUr",
+            "description": "\"Think that it is likely to happen or be\"\n\nSubjective lines and squads on the noise canvas.",
+            "tags": [
+              "generative",
+              "creativecode",
+              "p5",
+              "p5.js",
+              "art",
+              "simple",
+              "lines",
+              "minimalist"
+            ],
+            "generatorUri": "ipfs://QmWrebTtXiVX4n158ufKemRmaqqEx1gCqSHAQT3FVg5AGC",
+            "artifactUri": "ipfs://QmWrebTtXiVX4n158ufKemRmaqqEx1gCqSHAQT3FVg5AGC/?fxhash=onnSLghrJJWCsRoeknBBmPRM4UE5ZxtNiBSqA3Py3mmHuQVJuUr&fxminter=tz1cFdB4zmUSMm4FDZErr7reDB4XtsEnWz3V",
+            "displayUri": "ipfs://QmPBHpWbduaAXSoJ5rDZ2sjknSBjc1kQpvoNqhfdo4CZiw",
+            "thumbnailUri": "ipfs://QmSSSkFkFa9HfcpJfHLSTWjWTtH7LDSVhRt8b7Y1ZB9Zc4",
+            "authenticityHash": "eb278f60a1d8380ce9c29bb4eae4cb32f3d98616b5d047d2ec579cdd7c829fca",
+            "attributes": true,
+            "decimals": 0,
+            "symbol": "GENTK",
+            "version": "0.2"
+          },
+          "duplicate": false,
+          "activeListing": {
+            "id": 963000,
+            "version": 1,
+            "price": 15000000,
+            "__typename": "Listing"
+          },
+          "owner": {
+            "id": "tz1cFdB4zmUSMm4FDZErr7reDB4XtsEnWz3V",
+            "name": "ORBITOR.TEZ",
+            "flag": "NONE",
+            "avatarUri": "ipfs://QmcvvZCAVF2jwDTaHf9GergBAyXL3ngH2eztvoXvtG4iUJ",
+            "__typename": "User"
+          },
+          "issuer": {
+            "flag": "NONE",
+            "name": "Expectação II",
+            "author": {
+              "id": "tz1iJSdZUBe6Hq9MLmyyvCm8JHYuQ4k6MzY7",
+              "name": "SubjectiveDev",
+              "type": "REGULAR",
+              "avatarUri": "ipfs://QmYRcvpXCF6enRmaNxD3WnxMmvxU5bAvjt8DJgZd9s9oth",
+              "flag": "VERIFIED",
+              "collaborators": null,
+              "__typename": "User"
+            },
+            "__typename": "GenerativeToken"
+          },
+          "__typename": "Objkt"
+        },
+        "__typename": "Listing"
+      },
+      {
         "id": 962999,
         "version": 1,
         "price": 2000000000,
@@ -1116,612 +1771,6 @@
               "name": "teaboswell",
               "type": "REGULAR",
               "avatarUri": "ipfs://QmdmGJZtPmbXxUDLscKNf1qheqKGSUk7HxzfMgE2PJU2QP",
-              "flag": "VERIFIED",
-              "collaborators": null,
-              "__typename": "User"
-            },
-            "__typename": "GenerativeToken"
-          },
-          "__typename": "Objkt"
-        },
-        "__typename": "Listing"
-      },
-      {
-        "id": 962987,
-        "version": 1,
-        "price": 900000,
-        "objkt": {
-          "id": "FX1-36015",
-          "version": 2,
-          "name": "ˢ ᵐ ᵃ ˡ #21",
-          "slug": "21-5c369afe-b259-4451-ad86-4d59e0aa1f60",
-          "metadata": {
-            "name": "ˢ ᵐ ᵃ ˡ #21",
-            "iterationHash": "op7XtgW6kcZXPnHh73s6rDVcTFWEHVkAsWKbZz8szzL5HNzodRb",
-            "description": "a little project",
-            "tags": [
-              "'~'",
-              "ty and yw"
-            ],
-            "generatorUri": "ipfs://QmVkSU4ZKvMGK8fKNRRsinX3fhd3xFxgczYZZeV4xc7Xhw",
-            "artifactUri": "ipfs://QmVkSU4ZKvMGK8fKNRRsinX3fhd3xFxgczYZZeV4xc7Xhw/?fxhash=op7XtgW6kcZXPnHh73s6rDVcTFWEHVkAsWKbZz8szzL5HNzodRb&fxminter=tz1fT8u4PVrhbGMMT9HTrxyGFfYn2F1gGrqB",
-            "displayUri": "ipfs://QmSbcVrYS1FpdW1ghX4aepsKEymjz73vZ3CPt2LtMxqQvd",
-            "thumbnailUri": "ipfs://QmQkQ6hPeGKRN8okyhEMnafnjeAZTGXY5WhupNxVyEowSm",
-            "authenticityHash": "985e5ebeb1014a30a4c069c77e62ebed9ef9dc97f654264ceeef165fcbf18276",
-            "attributes": [
-              {
-                "name": "small?",
-                "value": "sure"
-              },
-              {
-                "name": "size",
-                "value": "smallish"
-              },
-              {
-                "name": "'~'",
-                "value": "'~'"
-              },
-              {
-                "name": "important number",
-                "value": 136.21668133884668
-              },
-              {
-                "name": "important number 2",
-                "value": 1.8073578815441578
-              }
-            ],
-            "decimals": 0,
-            "symbol": "GENTK",
-            "version": "0.2"
-          },
-          "duplicate": false,
-          "activeListing": {
-            "id": 962987,
-            "version": 1,
-            "price": 900000,
-            "__typename": "Listing"
-          },
-          "owner": {
-            "id": "tz1fT8u4PVrhbGMMT9HTrxyGFfYn2F1gGrqB",
-            "name": "tz1fT8...gGrqB",
-            "flag": "NONE",
-            "avatarUri": "ipfs://QmfREwbd2rT5u2VXJHAAPnXZsEr8qN6RyigvrDHURkhVA9",
-            "__typename": "User"
-          },
-          "issuer": {
-            "flag": "NONE",
-            "name": "ˢ ᵐ ᵃ ˡ",
-            "author": {
-              "id": "tz1SawhUHXWjiGK8gPK6QPmn95G8PkkSjA3S",
-              "name": "punevyr",
-              "type": "REGULAR",
-              "avatarUri": "ipfs://QmXNMVeGcYDWjvdsubieoSm8dcer4Pdi6CFWemmDprwpaS",
-              "flag": "VERIFIED",
-              "collaborators": null,
-              "__typename": "User"
-            },
-            "__typename": "GenerativeToken"
-          },
-          "__typename": "Objkt"
-        },
-        "__typename": "Listing"
-      },
-      {
-        "id": 962986,
-        "version": 1,
-        "price": 84000000,
-        "objkt": {
-          "id": "FX0-935525",
-          "version": 1,
-          "name": "outside.views #6",
-          "slug": "outside.views-6",
-          "metadata": {
-            "name": "outside.views #6",
-            "iterationHash": "opFMpWedcNYwBc34bbAocEfeSXRf9qQhmp2hiQsrdaTvz3W8BD4",
-            "description": "Generative art by Mark Knol (@mknol)",
-            "tags": [
-              "abstract",
-              "generative",
-              "generativeart",
-              "markknol",
-              "dithering",
-              "pattern"
-            ],
-            "generatorUri": "ipfs://QmeKTKJx25cE5XXXNRihSscWpoizNEb5A4EtSFurjLHVKA",
-            "artifactUri": "ipfs://QmeKTKJx25cE5XXXNRihSscWpoizNEb5A4EtSFurjLHVKA?fxhash=opFMpWedcNYwBc34bbAocEfeSXRf9qQhmp2hiQsrdaTvz3W8BD4",
-            "displayUri": "ipfs://QmbtpiqGub5cPyJYfLJmmNAGFExzpAzsrpcdvS2cBiqCjo",
-            "thumbnailUri": "ipfs://QmZM3Le3bCrraZcsS49bycupRQzoqiCHdpFrbwimKksDx6",
-            "authenticityHash": "d49248ed86ee3e3d37ce7a160ecb20cc6e9c2de7055bceac2dbcce8c82ee892b",
-            "attributes": [
-              {
-                "name": "preset",
-                "value": "purply"
-              }
-            ],
-            "decimals": 0,
-            "symbol": "GENTK",
-            "version": "0.2"
-          },
-          "duplicate": false,
-          "activeListing": {
-            "id": 962986,
-            "version": 1,
-            "price": 84000000,
-            "__typename": "Listing"
-          },
-          "owner": {
-            "id": "tz1VGZPvqytFVAoSAsM8VrUveJdL3PpVy6K9",
-            "name": "A R T R A",
-            "flag": "NONE",
-            "avatarUri": "ipfs://QmS34juW7zj5QEB8VzYCLLQMDaisbQAPV641f9rHUxjYBM",
-            "__typename": "User"
-          },
-          "issuer": {
-            "flag": "NONE",
-            "name": "outside.views",
-            "author": {
-              "id": "tz1XrutuvkFRG15HmV2gdon86F38NMMGMAXr",
-              "name": "markknol",
-              "type": "REGULAR",
-              "avatarUri": "ipfs://QmWm1hDLBXnUZ831FqQeKo2MLE1LPtp3hcwXdq2Y6YTr2C",
-              "flag": "VERIFIED",
-              "collaborators": null,
-              "__typename": "User"
-            },
-            "__typename": "GenerativeToken"
-          },
-          "__typename": "Objkt"
-        },
-        "__typename": "Listing"
-      },
-      {
-        "id": 962985,
-        "version": 1,
-        "price": 1950000000,
-        "objkt": {
-          "id": "FX0-51434",
-          "version": 0,
-          "name": "contrapuntos #677",
-          "slug": "contrapuntos-677",
-          "metadata": {
-            "name": "contrapuntos #677",
-            "iterationHash": "opHJSh9aQWjFLVpW1szTRqSZZN2eXUHcW1YY3oRqBVPkP3rxfGG",
-            "description": "Musical counterpoint is to me an abstraction of the layered, intertwining rhythms of every activity we carry on in our lives. With a global tempo typically set in days, we fit all sorts of temporal structures where our joys and fears live and play out over the span of our lives. This series is a metaphorical transposition of the musical counterpoint into a visual space, sometimes with repeating patterns, sometimes with broken structures, sometimes isolated notes / hours / souls.\n\nArtwork by Marcelo Soria-Rodríguez, @msoriaro. Made with p5js & glsl.",
-            "tags": [
-              "geometric",
-              "counterpoint",
-              "iillucid",
-              "glsl",
-              "p5"
-            ],
-            "artifactUri": "ipfs://QmNn6UjBGeDM4PkQAuUkrC7ekcrrPsjiKb24nzPamJWD1T",
-            "displayUri": "ipfs://QmSNwWYpqXJv8yky4RPEFXfuvwETxQdeof7dNf4XkP65ad",
-            "thumbnailUri": "ipfs://QmacwxwVy4xSAqhpNDR2V8QzLtjEPmztdND7dSAi5L4ARw",
-            "authenticityHash": "1e2212f4c11b0cbb6188eced051f8ebfe8478d42846002e1004f9a52dbcd5e8c",
-            "attributes": [],
-            "decimals": 0,
-            "symbol": "GENTK"
-          },
-          "duplicate": false,
-          "activeListing": {
-            "id": 962985,
-            "version": 1,
-            "price": 1950000000,
-            "__typename": "Listing"
-          },
-          "owner": {
-            "id": "tz1MH7vTRc4yXkttnoU93CYqiZfhEzk7C17a",
-            "name": "lonli lonli lonli ",
-            "flag": "NONE",
-            "avatarUri": null,
-            "__typename": "User"
-          },
-          "issuer": {
-            "flag": "NONE",
-            "name": "contrapuntos",
-            "author": {
-              "id": "tz1eCX4smQ3LbxwDR3pqNoLQvNNKiHJtpwYz",
-              "name": "msoriaro",
-              "type": "REGULAR",
-              "avatarUri": "ipfs://QmU9cPLFmtqhRZUXxJywGZwuy62kXiwzmgQFsqwgzub8f8",
-              "flag": "VERIFIED",
-              "collaborators": null,
-              "__typename": "User"
-            },
-            "__typename": "GenerativeToken"
-          },
-          "__typename": "Objkt"
-        },
-        "__typename": "Listing"
-      },
-      {
-        "id": 962984,
-        "version": 1,
-        "price": 1800000000,
-        "objkt": {
-          "id": "FX0-33312",
-          "version": 0,
-          "name": "contrapuntos #413",
-          "slug": "contrapuntos-413",
-          "metadata": {
-            "name": "contrapuntos #413",
-            "iterationHash": "oob8Nns8GWo1XVweWh3k9ENYY65AosZQu69UBa2Fd4nUTmDcWwG",
-            "description": "Musical counterpoint is to me an abstraction of the layered, intertwining rhythms of every activity we carry on in our lives. With a global tempo typically set in days, we fit all sorts of temporal structures where our joys and fears live and play out over the span of our lives. This series is a metaphorical transposition of the musical counterpoint into a visual space, sometimes with repeating patterns, sometimes with broken structures, sometimes isolated notes / hours / souls.\n\nArtwork by Marcelo Soria-Rodríguez, @msoriaro. Made with p5js & glsl.",
-            "tags": [
-              "geometric",
-              "counterpoint",
-              "iillucid",
-              "glsl",
-              "p5"
-            ],
-            "artifactUri": "ipfs://QmUFZHHY5E1Xr9ffaWpfya49EEbmAUVoWn4PTDmWU57m1i",
-            "displayUri": "ipfs://QmVXqCTLDjfBGqYZq2JzUUo4XpcHXQRH8ntzbLLXeVvENj",
-            "thumbnailUri": "ipfs://QmUwumM79R6dWGy1amaKgkspufDYASVsoZsHndAURf9aU6",
-            "authenticityHash": "6ed967f3a18dd0dfb98e202bb0d73d2181b05a984a9e993e8c0ed0923d24b695",
-            "attributes": [],
-            "decimals": 0,
-            "symbol": "GENTK"
-          },
-          "duplicate": false,
-          "activeListing": {
-            "id": 962984,
-            "version": 1,
-            "price": 1800000000,
-            "__typename": "Listing"
-          },
-          "owner": {
-            "id": "tz1MH7vTRc4yXkttnoU93CYqiZfhEzk7C17a",
-            "name": "lonli lonli lonli ",
-            "flag": "NONE",
-            "avatarUri": null,
-            "__typename": "User"
-          },
-          "issuer": {
-            "flag": "NONE",
-            "name": "contrapuntos",
-            "author": {
-              "id": "tz1eCX4smQ3LbxwDR3pqNoLQvNNKiHJtpwYz",
-              "name": "msoriaro",
-              "type": "REGULAR",
-              "avatarUri": "ipfs://QmU9cPLFmtqhRZUXxJywGZwuy62kXiwzmgQFsqwgzub8f8",
-              "flag": "VERIFIED",
-              "collaborators": null,
-              "__typename": "User"
-            },
-            "__typename": "GenerativeToken"
-          },
-          "__typename": "Objkt"
-        },
-        "__typename": "Listing"
-      },
-      {
-        "id": 962983,
-        "version": 1,
-        "price": 685000000,
-        "objkt": {
-          "id": "FX0-1117557",
-          "version": 1,
-          "name": "Toccata #222",
-          "slug": "toccata-222",
-          "metadata": {
-            "name": "Toccata #222",
-            "iterationHash": "oocMhtcs7nFmYQP46khkAy1UtRbvhMajcync5KRkxdd1Twf1Jao",
-            "description": "Toccata is a piece about decay, about the impermanent. The emergence over time or, rather, progression of entropy is a key characteristic of our universe. Everything evolves to nothing. We as mortal beings have sometimes trouble reconciling with this idea. Humans have sought immortality for millennia, be it through ancient potions or modern medicine, be it from leaving a legacy that we feel will stand the test of time. It will, only to decay later than us.\n\nToccata is a piece about change. Change lies at the heart of human cognition and human nature. Our thoughts and our emotions happen over time, and are a function of the change that is both around us and at the very core of our selves. Change comes in nature in cycles. Seasons of growth, seasons of ripe fruits of life, seasons of decay, of death, rebirth.\n\nToccata is music. We find music to convey some of the deepest streams of human condition, connecting it to some other form of being. Music also happens over time, and music happens because of change. Music encodes our feelings better than any other aid we may have. Toccata incorporates this at its very core, as the main sound is Andreas' family piano where he learned to play, sampled this past July.\n\nRead more about the piece, and the collaboration between Marcelo and Andreas on andreasrau.eu/toccata\n\n---\n\nBasic controls:\n- Click on the piece or press spacebar to start it (WebAudio requires user intervention for the music to start). Once the music has started, again click or press spacebar to play/pause.\n- Press “s” to save a still at the current resolution\n- Press “r” to start recording a video at the current resolution, then “r” again to stop.\n\n---\n\nWebM audio-video recording performed using the library RecordRTC by https://muazkhan.com/, MIT licence.",
-            "tags": [
-              "msoriaro",
-              "andreasrau",
-              "music",
-              "generative"
-            ],
-            "generatorUri": "ipfs://QmZkvLoqqAdR8B6DrGsri9TpYE7716dZYkc5UKDfCnVwF6",
-            "artifactUri": "ipfs://QmZkvLoqqAdR8B6DrGsri9TpYE7716dZYkc5UKDfCnVwF6?fxhash=oocMhtcs7nFmYQP46khkAy1UtRbvhMajcync5KRkxdd1Twf1Jao",
-            "displayUri": "ipfs://QmYf6DpssxbAKZCkzNHXZ5LKKGg1e73hb1cH5s8S2EfFq2",
-            "thumbnailUri": "ipfs://QmRkpBCvamdjSXVRHhRhJxnXcG2yCNngtSu5H8BxogW3gz",
-            "authenticityHash": "3f37acb1e40c6aad07529b1718dc70c5038c5212ead8f7f905e90c8487c63249",
-            "attributes": [
-              {
-                "name": "Artists",
-                "value": "Marcelo Soria-Rodríguez × Andreas Rau"
-              },
-              {
-                "name": "Year",
-                "value": "2022"
-              },
-              {
-                "name": "Medium",
-                "value": "p5.js, tone.js, html, css"
-              },
-              {
-                "name": "Variation",
-                "value": "Moderato maestoso"
-              },
-              {
-                "name": "Decay",
-                "value": "weeks"
-              }
-            ],
-            "decimals": 0,
-            "symbol": "GENTK",
-            "version": "0.2"
-          },
-          "duplicate": false,
-          "activeListing": {
-            "id": 962983,
-            "version": 1,
-            "price": 685000000,
-            "__typename": "Listing"
-          },
-          "owner": {
-            "id": "tz1MH7vTRc4yXkttnoU93CYqiZfhEzk7C17a",
-            "name": "lonli lonli lonli ",
-            "flag": "NONE",
-            "avatarUri": null,
-            "__typename": "User"
-          },
-          "issuer": {
-            "flag": "NONE",
-            "name": "Toccata",
-            "author": {
-              "id": "KT1EFMocGZ3Hgw23LMRnGHj6f4E6X2M6cXJp",
-              "name": null,
-              "type": "COLLAB_CONTRACT_V1",
-              "avatarUri": null,
-              "flag": "NONE",
-              "collaborators": [
-                {
-                  "id": "tz1eCX4smQ3LbxwDR3pqNoLQvNNKiHJtpwYz",
-                  "name": "msoriaro",
-                  "avatarUri": "ipfs://QmU9cPLFmtqhRZUXxJywGZwuy62kXiwzmgQFsqwgzub8f8",
-                  "flag": "VERIFIED",
-                  "__typename": "User"
-                },
-                {
-                  "id": "tz1Roq6end2LFtkpGrmuyRZH82xsWfaRCat1",
-                  "name": "andreasrau",
-                  "avatarUri": "ipfs://QmVpDdbgepazjzkcRc3MJpex46QRFKRdDZMdKpY53XzJ1s",
-                  "flag": "VERIFIED",
-                  "__typename": "User"
-                }
-              ],
-              "__typename": "User"
-            },
-            "__typename": "GenerativeToken"
-          },
-          "__typename": "Objkt"
-        },
-        "__typename": "Listing"
-      },
-      {
-        "id": 962981,
-        "version": 1,
-        "price": 320000000,
-        "objkt": {
-          "id": "FX0-1508657",
-          "version": 1,
-          "name": "Perpendicular Inhabitation #199",
-          "slug": "perpendicular-inhabitation-199",
-          "metadata": {
-            "name": "Perpendicular Inhabitation #199",
-            "iterationHash": "onvqnQfBKeyP2f4ZifPwkTpwgTjbj3vAiS5zJ3yXaprV7iNS6it",
-            "description": "'Perpendicular Inhabitation' is a generative collection exploring the relationship between the urban landscape and the human experience, particularly feelings of nostalgia and more specifically 'anemoia' : the feeling of nostalgia for a time or place that we may not have actually experienced first hand. \n\nDespite depicting a stylised modern architectural language, at its core the collection serves as a homage to 1980s Japan, an era of unprecedented prosperity that left a lasting impression on the music and artwork of the time. Through the use of carefully created palettes and composition, the outputs intend to evoke feelings of optimism, while guiding viewers to consider why the essence of this era is so alluring in the present day as it continues to influence and inspire contemporary art.\n\nThe use of exaggerated perpendicular verticals, as well as the heavily foreshortened mountain ranges present in some outputs, convey a sense of hope and possibility for the future. What does it feel like to hope and dream in the city? To look up and be filled with a sense of wonder from the built environment around you?\n\nThis project has been created with print in mind at a ratio of 3:4\n\nIt is recommended to examine your outputs at full size in order to enjoy them to the fullest.\n\nYou are encouraged to return often to notice things you may not have seen previously.\n\nGenerated with code using p5.js\n\nImages are generated at 2400 x 3200 px. \n\nTo save a PNG file, please press 'S'.\n\nDepending on the complexity of each output, please wait up to 10 seconds for the image generation to complete.",
-            "tags": [
-              "generative",
-              "architectural",
-              "abstract",
-              "minimal",
-              "illustration",
-              "urban",
-              "colorful"
-            ],
-            "generatorUri": "ipfs://QmbKavVizViFsmn4Viiqgf3BpvAFctk7gKoZpDNo4w8oE7",
-            "artifactUri": "ipfs://QmbKavVizViFsmn4Viiqgf3BpvAFctk7gKoZpDNo4w8oE7?fxhash=onvqnQfBKeyP2f4ZifPwkTpwgTjbj3vAiS5zJ3yXaprV7iNS6it",
-            "displayUri": "ipfs://QmZ4PKQw1sgfgK1tmhV9NhoDjKfZ8XNAHqBMmRUbp846Q4",
-            "thumbnailUri": "ipfs://QmPxH5FAnzk7TFroJeWrktV34Lusj3VGh6g2gY7QihGRvD",
-            "authenticityHash": "19e216018c9817c499a16c09c21e55ad7e0d6df774957005a8da7a39633be02a",
-            "attributes": [
-              {
-                "name": "Palette Type",
-                "value": "Standard"
-              },
-              {
-                "name": "Palette Name",
-                "value": "Natural"
-              },
-              {
-                "name": "Time of Day",
-                "value": "Day"
-              },
-              {
-                "name": "Mountainous",
-                "value": false
-              },
-              {
-                "name": "Weather",
-                "value": "Snow"
-              }
-            ],
-            "decimals": 0,
-            "symbol": "GENTK",
-            "version": "0.2"
-          },
-          "duplicate": false,
-          "activeListing": {
-            "id": 962981,
-            "version": 1,
-            "price": 320000000,
-            "__typename": "Listing"
-          },
-          "owner": {
-            "id": "tz1MH7vTRc4yXkttnoU93CYqiZfhEzk7C17a",
-            "name": "lonli lonli lonli ",
-            "flag": "NONE",
-            "avatarUri": null,
-            "__typename": "User"
-          },
-          "issuer": {
-            "flag": "NONE",
-            "name": "Perpendicular Inhabitation",
-            "author": {
-              "id": "tz1XMYyXTn3FmnJKJGh55ivepRPqNpQqeE7x",
-              "name": "Studio Yorktown",
-              "type": "REGULAR",
-              "avatarUri": "ipfs://QmajEaysLMfukLXcsBppyagEo2p7DezWgu22638ZE6WqcR",
-              "flag": "VERIFIED",
-              "collaborators": null,
-              "__typename": "User"
-            },
-            "__typename": "GenerativeToken"
-          },
-          "__typename": "Objkt"
-        },
-        "__typename": "Listing"
-      },
-      {
-        "id": 962980,
-        "version": 1,
-        "price": 4800000,
-        "objkt": {
-          "id": "FX1-35150",
-          "version": 2,
-          "name": "Pensado a mano #121",
-          "slug": "pensado-a-mano-121",
-          "metadata": {
-            "name": "Pensado a mano #121",
-            "iterationHash": "oocRD6orzefv3ARukfhbsnS2XqY66VHZMfAb8Yzk47zrYkiRyBr",
-            "description": "WARNING: Read instructions so you don’t get a broken token!!\n----\n\n\nQ: Why haven’t you tried fx(params)?\nA: Pff.. Sliders?\n\n\n“Pensado a mano” explores the intersection of Generative Art and Hand Drawing. The collector, by drawing a predefined number of shapes on canvas, creates a unique hand-crafted seed that generates the final artwork. That is the only customisable param, thought by hand, which interacts with various random attributes to produce a unique composition.\n\n“…the time we spend doing and making things, the process…”\n\nAnd yet the process continues. On the background, the code generates a plottable svg.\nAn artificially extended process, from hand to screen, from screen to paper, that creates a new kind of mixed media.\n\nSigned plots will soon be claimable via Artfora (tbd price + shipping)\n\n\nINSTRUCTIONS\n\n1 - Draw the requested shapes and wait to see the result. You can change the Seed Nr. slider if you don't like the selected mode.\n2 - Press “C” to copy drawing to Clipboard\n3 - Copy the clipboard contents to the text-input on the fx(params) sidebar\n\n***Important. If you buy several tickets, make sure you don't mint the same Seed Nr. twice (slider)\n\npress “S” to save the PNG, press “P” to plot the SVG\n\n\nDISCLAIMER\n\nThis is a high-supply token minted during a bear market. Have Fun.",
-            "tags": [
-              "params",
-              "hand-drawn",
-              "drawing",
-              "co-creation",
-              "p5js"
-            ],
-            "generatorUri": "ipfs://QmW96HwKDLsinp8Jog3T8UchR2Xa47zibdiJ2FaQUYuSeY",
-            "artifactUri": "ipfs://QmW96HwKDLsinp8Jog3T8UchR2Xa47zibdiJ2FaQUYuSeY/?fxhash=oocRD6orzefv3ARukfhbsnS2XqY66VHZMfAb8Yzk47zrYkiRyBr&fxminter=tz1ekbNT76bv74SSPZ1pX6m9koqmXwtxPzjG&fxparams=40580000000000000064007200610077006e004d007a0041007a004c006a00410079004d005400410079004e004400670078004e006a00450033004e006a00510032004c0044004d0031004e007900340034004d007a00630079004d004400450079004f004400590033004e006a00510033004c004400490034004c004400550034004c004400410073004e006a004d0073004c0054004d0030004c004400490035004c004300300032004e00430077007a004d006900770074004f004400590073004e004400510073004d006a00450031004c0044004d0035004c004400450035004e007900770032004d007900770078004f005400670073004e005400670073004d006a00490078004c0044004d0033004c004300300034004d007900770030004d005300770074004e005400550073004e0044004d0073004c0054004d0077004c004400510034004c004300300031004c004400510035004c004400490035004c004400510035004c0044004d0079004c004400630033004c004400490033004c004400590077004c004400410073004e004400450073004c005400510078004c004400510035004c004300300033004e00530077007a004f004300770079004e005400490073004e004400410073004d006a0045007a004c004400550077004c004400490078004e006900770031004d005300770079004d006a00550073004d006a00670073004c005400670034004c004400550031004c004300300031004e00690077007a004d007900770074004d005400510073004e005400410073004d006900770033004f004300770078004f005300770031004e005300770078004e005300770033004d004300770079004c0044004d0030004c004300300031004d007900770079004f004300770074004f004400670073004e004400630073004d006a00490031004c0044004d0035004c004400490078004d007900770031004d004300770079004d007a00450073004d006a006b0073004d006a00590077004c004400490034004c004300300032004d006900770079004f005300770074004d005400590073004d007a00490073004d00430077007a004d006900770078004e00430077007a004d004300770078004f005300770031004e004300770030004c004400630079004c004400410073004d006a006b0073004d006a00550032004c004400510033004c004400490079004e007900770079004e005300770074004f0044004d0073004d006a00630073004c00540059007a004c00480067003d00200020002000200020002000200020002000200020002000200020002000200020002000200020002000200020002000200020002000200020002000200020002000200020002000200020002000200020002000200020002000200020002000200020002000200020002000200020002000200020002000200020002000200020002000200020002000200020002000200020002000200020002000200020002000200020002000200020002000200020002000200020002000200020002000200020002000200020002000200020002000200020002000200020002000200020002000200020002000200020002000200020002000200020002000200020002000200020002000200020002000200020002000200020002000200020002000200020002000200020002000200020002000200020002000200020002000200020002000200020002000200020002000200020002000200020002000200020002000200020002000200020002000200020002000200020002000200020002000200020002000200020002000200020002000200020002000200020002000200020002000200020002000200020002000200020002000200020002000200020002000200020002000200020002000200020002000200020002000200020002000200020002000200020002000200020002000200020002000200020002000200020002000200020002000200020002000200020002000200020002000200020002000200020002000200020002000200020002000200020002000200020002000200020002000200000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000",
-            "displayUri": "ipfs://QmXP92AnTmUnFeuS8Kry91WNaydviuRNAa7WvmfHvcoWKP",
-            "thumbnailUri": "ipfs://QmZrCnnBfdHaXDnJc2XhkLRoPrgcNx652JuWNQr9QnCLNs",
-            "authenticityHash": "117d75a90a70f75307552832b02c9c6e2e49d4616d9acc9bb098d3ce65b14306",
-            "attributes": [
-              {
-                "name": "Type",
-                "value": "Repetition"
-              },
-              {
-                "name": "Brush",
-                "value": "charcoal"
-              }
-            ],
-            "decimals": 0,
-            "symbol": "GENTK",
-            "version": "0.2"
-          },
-          "duplicate": false,
-          "activeListing": {
-            "id": 962980,
-            "version": 1,
-            "price": 4800000,
-            "__typename": "Listing"
-          },
-          "owner": {
-            "id": "tz1ekbNT76bv74SSPZ1pX6m9koqmXwtxPzjG",
-            "name": null,
-            "flag": "NONE",
-            "avatarUri": null,
-            "__typename": "User"
-          },
-          "issuer": {
-            "flag": "NONE",
-            "name": "Pensado a mano",
-            "author": {
-              "id": "tz1Z3A438AD3qZFNvoJBD5LQUYbomErw716Q",
-              "name": "Alejandro",
-              "type": "REGULAR",
-              "avatarUri": "ipfs://QmXWsQaRTEuupqxKw5C676mSTz11W3eE1nqftShu3SfRMH",
-              "flag": "VERIFIED",
-              "collaborators": null,
-              "__typename": "User"
-            },
-            "__typename": "GenerativeToken"
-          },
-          "__typename": "Objkt"
-        },
-        "__typename": "Listing"
-      },
-      {
-        "id": 962979,
-        "version": 1,
-        "price": 232000000,
-        "objkt": {
-          "id": "FX0-1508643",
-          "version": 1,
-          "name": "Perpendicular Inhabitation #185",
-          "slug": "perpendicular-inhabitation-185",
-          "metadata": {
-            "name": "Perpendicular Inhabitation #185",
-            "iterationHash": "onhucC842TEXSme1VLqjTJTjrYKtKUZ1JpRf8Pf9kJyMr3zu7Ej",
-            "description": "'Perpendicular Inhabitation' is a generative collection exploring the relationship between the urban landscape and the human experience, particularly feelings of nostalgia and more specifically 'anemoia' : the feeling of nostalgia for a time or place that we may not have actually experienced first hand. \n\nDespite depicting a stylised modern architectural language, at its core the collection serves as a homage to 1980s Japan, an era of unprecedented prosperity that left a lasting impression on the music and artwork of the time. Through the use of carefully created palettes and composition, the outputs intend to evoke feelings of optimism, while guiding viewers to consider why the essence of this era is so alluring in the present day as it continues to influence and inspire contemporary art.\n\nThe use of exaggerated perpendicular verticals, as well as the heavily foreshortened mountain ranges present in some outputs, convey a sense of hope and possibility for the future. What does it feel like to hope and dream in the city? To look up and be filled with a sense of wonder from the built environment around you?\n\nThis project has been created with print in mind at a ratio of 3:4\n\nIt is recommended to examine your outputs at full size in order to enjoy them to the fullest.\n\nYou are encouraged to return often to notice things you may not have seen previously.\n\nGenerated with code using p5.js\n\nImages are generated at 2400 x 3200 px. \n\nTo save a PNG file, please press 'S'.\n\nDepending on the complexity of each output, please wait up to 10 seconds for the image generation to complete.",
-            "tags": [
-              "generative",
-              "architectural",
-              "abstract",
-              "minimal",
-              "illustration",
-              "urban",
-              "colorful"
-            ],
-            "generatorUri": "ipfs://QmbKavVizViFsmn4Viiqgf3BpvAFctk7gKoZpDNo4w8oE7",
-            "artifactUri": "ipfs://QmbKavVizViFsmn4Viiqgf3BpvAFctk7gKoZpDNo4w8oE7?fxhash=onhucC842TEXSme1VLqjTJTjrYKtKUZ1JpRf8Pf9kJyMr3zu7Ej",
-            "displayUri": "ipfs://QmdhX6oQ2wV6HTHfHP8mxfveHCGXWBZ42K8KXEtjddNwHn",
-            "thumbnailUri": "ipfs://QmayxDoKA9fscVnarSHfqJ7cWKkSu3DBWVa8yMzWjEHovo",
-            "authenticityHash": "22e335053f0e876300f56a2ddcc824e0be46fc95e675c9d655b66bfbe1ede162",
-            "attributes": [
-              {
-                "name": "Palette Type",
-                "value": "Stylized"
-              },
-              {
-                "name": "Palette Name",
-                "value": "Anri"
-              },
-              {
-                "name": "Time of Day",
-                "value": "Day"
-              },
-              {
-                "name": "Mountainous",
-                "value": true
-              },
-              {
-                "name": "Weather",
-                "value": "Clear"
-              }
-            ],
-            "decimals": 0,
-            "symbol": "GENTK",
-            "version": "0.2"
-          },
-          "duplicate": false,
-          "activeListing": {
-            "id": 962979,
-            "version": 1,
-            "price": 232000000,
-            "__typename": "Listing"
-          },
-          "owner": {
-            "id": "tz1MH7vTRc4yXkttnoU93CYqiZfhEzk7C17a",
-            "name": "lonli lonli lonli ",
-            "flag": "NONE",
-            "avatarUri": null,
-            "__typename": "User"
-          },
-          "issuer": {
-            "flag": "NONE",
-            "name": "Perpendicular Inhabitation",
-            "author": {
-              "id": "tz1XMYyXTn3FmnJKJGh55ivepRPqNpQqeE7x",
-              "name": "Studio Yorktown",
-              "type": "REGULAR",
-              "avatarUri": "ipfs://QmajEaysLMfukLXcsBppyagEo2p7DezWgu22638ZE6WqcR",
               "flag": "VERIFIED",
               "collaborators": null,
               "__typename": "User"
