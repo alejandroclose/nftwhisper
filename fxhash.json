@@ -2,42 +2,41 @@
   "data": {
     "listings": [
       {
-        "id": 969469,
+        "id": 969492,
         "version": 1,
-        "price": 69690000,
+        "price": 19000000,
         "objkt": {
-          "id": "FX0-1183681",
-          "version": 1,
-          "name": "COMPUTERS #21",
-          "slug": "computers-21",
+          "id": "FX1-48789",
+          "version": 2,
+          "name": "Blockchain Automaton #138",
+          "slug": "blockchain-automaton-138",
           "metadata": {
-            "name": "COMPUTERS #21",
-            "iterationHash": "opLsmWxSjpGGCdFRRgzUKajmmCt1Bd1cQApHdopFBwrDWTfhCjy",
-            "description": "Generative animated painting made from pixel array computations and classic noise algorithms.\n\nCOMPUTERS is a meditation on the aesthetics of computing in all of its forms. It recalls the types of computation required to build temples, write complex texts, weave detailed textiles, and program computer games. Pixels have always existed in some form or another, before and after the screen. Every iteration of COMPUTERS suggests that computation is both contemporary and ancient.\n\nPress 'p' or click to pause the animation.\nPress 's' to capture a single frame.\nMade with P5.js and GLSL. By @galoandstuff.",
+            "name": "Blockchain Automaton #138",
+            "iterationHash": "opHXPWmnBvuPgeWxm7U5dSvnERcNEJDnJZCrVm5oZDPdeacBr54",
+            "description": "This experimental project involves an on-chain cellular automaton. The features and cellular automaton rules are derived from the minter's address. Being the first (unto my knowledge) project on fxhash that generates the artwork completely on chain, it seemed fitting to draw inspiration from one of the first projects on fxhash, \"RGB Elementary Cellular Automaton\".\n\nWhat is this?\n\nAn experimental generative token that integrates on-chain generation, and on-chain storage of the artwork. This is accomplished using a custom smart contract. The artwork is generated using the generate_on_chain entrypoint in KT1GRFujk5m6feK7gJcqCU7ijJkFgx5JigEt, and the generated image is subsequently stored on-chain as a byte-string of pixels (row-major order) in the tokens bigmap in KT1GRFujk5m6feK7gJcqCU7ijJkFgx5JigEt.\n\nHow does this work?\n\nSmart contracts have a default entrypoint which is automatically called when XTZ is sent to the contract. By using a smart contract as the primary address, the default entrypoint will be called every time a token is minted. Of course, to prevent accounts from bypassing the fxhash contracts and sending XTZ directly to the smart contract, generating and storing the artwork on-chain, the smart contract checks that an fxhash contract is the account sending XTZ. In this smart contract, the default entrypoint immediately calls the generate_on_chain entrypoint for the sole purpose of making the generation process more apparent on indexers like tzkt.\n\nIn order to make this project compatible with fxhash, the artwork produced by the code submitted to fxhash must be identical to that which is produced by the generative algorithm within the smart contract. At the time of development, the minter's address is the only piece of information which is readily accessible via the fxhash snippet API and in the smart contract. As a result, each account can only generate a single unique artwork (this is enforced by the contract). In the future, this issue could be solved if the fxhash snippet API provided access to the iteration number, as the smart contract could also keep track of this information quite easily.\n\nConsequently, collectors who wish to collect more than one iteration must create additional accounts to mint. The tokens can then be subsequently transferred as per usual.\n\nWhy is the variations preview disabled?\n\nBecause the minter's address is the source of randomness for the generated artwork, not the hash provided by fxhash, changing the hash in the variations preview will have no effect. To see different variations of the artwork you need to modify the fxminter URL parameter in live preview mode.\n\nWhy does the mint button not work on the fxhash frontend?\n\nCurrently, the fxhash frontend has a default storage limit for mint operations that is less than what is required to store the generated image on chain. As a result, the mint button will fail on the fxhash frontend. To get around this, you can mint this token on a mini-website I created (https://blockchain-automaton.netlify.app/), or on Better Call Dev, or by injecting the transaction directly onto the blockchain.\n\nBut Why?\n\nBecause experimentation is fun.",
             "tags": [
-              "dithering",
-              "animated",
-              "p5js",
-              "low-res",
-              "pixels"
+              "onchain",
+              "cellular automaton",
+              "blockchain",
+              "pixelart"
             ],
-            "generatorUri": "ipfs://QmYvCeE1Kfy5nYgQNx582A7gSoBSoufqKYHTjzSqCYjkDn",
-            "artifactUri": "ipfs://QmYvCeE1Kfy5nYgQNx582A7gSoBSoufqKYHTjzSqCYjkDn?fxhash=opLsmWxSjpGGCdFRRgzUKajmmCt1Bd1cQApHdopFBwrDWTfhCjy",
-            "displayUri": "ipfs://QmbiFqpQkALApMjLGmneeXC5KTHBjMMemmNgjtTc9DAacs",
-            "thumbnailUri": "ipfs://QmReRun4XSuDuAPjXynLfRPvTXJPyLrzDjv7yhRtt7QbPg",
-            "authenticityHash": "0e1090ec1b0e37150167ab3f39a8442e60daf6d2eb9e730d17ba6d0f7a935470",
+            "generatorUri": "ipfs://Qmeb7huzBQZ5KTo2qqc48Kg5GEumYDKbXMN9UQXkD5Zz5Y",
+            "artifactUri": "ipfs://Qmeb7huzBQZ5KTo2qqc48Kg5GEumYDKbXMN9UQXkD5Zz5Y/?fxhash=opHXPWmnBvuPgeWxm7U5dSvnERcNEJDnJZCrVm5oZDPdeacBr54&fxminter=tz1VK7vQHbgdqPs4PVnwReDhV6rfpPBqXqKP",
+            "displayUri": "ipfs://QmYjis7By5faM4AocM3FAuoJunf58wZ935gVfVLAkeAbZ6",
+            "thumbnailUri": "ipfs://Qme9ANmANjdp7DfYi53TansXty788TAaoqEJ3U6MWANcSM",
+            "authenticityHash": "8ce11d3e1fab6b10d6db4037055d801a488ace71ba0c7bd6bae6286111e5c3fc",
             "attributes": [
               {
+                "name": "mode",
+                "value": "Horizontal"
+              },
+              {
                 "name": "palette",
-                "value": "poster"
+                "value": 10
               },
               {
-                "name": "computation",
-                "value": "backus"
-              },
-              {
-                "name": "panels",
-                "value": "thirds"
+                "name": "size",
+                "value": "16x16"
               }
             ],
             "decimals": 0,
@@ -46,7 +45,1188 @@
           },
           "duplicate": false,
           "activeListing": {
-            "id": 969469,
+            "id": 969492,
+            "version": 1,
+            "price": 19000000,
+            "__typename": "Listing"
+          },
+          "owner": {
+            "id": "tz1VK7vQHbgdqPs4PVnwReDhV6rfpPBqXqKP",
+            "name": null,
+            "flag": "NONE",
+            "avatarUri": null,
+            "__typename": "User"
+          },
+          "issuer": {
+            "flag": "NONE",
+            "name": "Blockchain Automaton",
+            "author": {
+              "id": "tz1QvV3jVPWrJSdDy9ePZBnhGL8bAoQFFBPv",
+              "name": "Extracurricular Activities",
+              "type": "REGULAR",
+              "avatarUri": "ipfs://QmahpnFUbW9NWQjUzNLUxxYLszZC2eeNo5mmRPikJLYge5",
+              "flag": "VERIFIED",
+              "collaborators": null,
+              "__typename": "User"
+            },
+            "__typename": "GenerativeToken"
+          },
+          "__typename": "Objkt"
+        },
+        "__typename": "Listing"
+      },
+      {
+        "id": 969491,
+        "version": 1,
+        "price": 16500000,
+        "objkt": {
+          "id": "FX1-48759",
+          "version": 2,
+          "name": "Blockchain Automaton #109",
+          "slug": "blockchain-automaton-109",
+          "metadata": {
+            "name": "Blockchain Automaton #109",
+            "iterationHash": "opKoYxxFmkbpsSEVrrQDtvRZ2kqNF3ZSkLRRPYCvpwnozaaDWNq",
+            "description": "This experimental project involves an on-chain cellular automaton. The features and cellular automaton rules are derived from the minter's address. Being the first (unto my knowledge) project on fxhash that generates the artwork completely on chain, it seemed fitting to draw inspiration from one of the first projects on fxhash, \"RGB Elementary Cellular Automaton\".\n\nWhat is this?\n\nAn experimental generative token that integrates on-chain generation, and on-chain storage of the artwork. This is accomplished using a custom smart contract. The artwork is generated using the generate_on_chain entrypoint in KT1GRFujk5m6feK7gJcqCU7ijJkFgx5JigEt, and the generated image is subsequently stored on-chain as a byte-string of pixels (row-major order) in the tokens bigmap in KT1GRFujk5m6feK7gJcqCU7ijJkFgx5JigEt.\n\nHow does this work?\n\nSmart contracts have a default entrypoint which is automatically called when XTZ is sent to the contract. By using a smart contract as the primary address, the default entrypoint will be called every time a token is minted. Of course, to prevent accounts from bypassing the fxhash contracts and sending XTZ directly to the smart contract, generating and storing the artwork on-chain, the smart contract checks that an fxhash contract is the account sending XTZ. In this smart contract, the default entrypoint immediately calls the generate_on_chain entrypoint for the sole purpose of making the generation process more apparent on indexers like tzkt.\n\nIn order to make this project compatible with fxhash, the artwork produced by the code submitted to fxhash must be identical to that which is produced by the generative algorithm within the smart contract. At the time of development, the minter's address is the only piece of information which is readily accessible via the fxhash snippet API and in the smart contract. As a result, each account can only generate a single unique artwork (this is enforced by the contract). In the future, this issue could be solved if the fxhash snippet API provided access to the iteration number, as the smart contract could also keep track of this information quite easily.\n\nConsequently, collectors who wish to collect more than one iteration must create additional accounts to mint. The tokens can then be subsequently transferred as per usual.\n\nWhy is the variations preview disabled?\n\nBecause the minter's address is the source of randomness for the generated artwork, not the hash provided by fxhash, changing the hash in the variations preview will have no effect. To see different variations of the artwork you need to modify the fxminter URL parameter in live preview mode.\n\nWhy does the mint button not work on the fxhash frontend?\n\nCurrently, the fxhash frontend has a default storage limit for mint operations that is less than what is required to store the generated image on chain. As a result, the mint button will fail on the fxhash frontend. To get around this, you can mint this token on a mini-website I created (https://blockchain-automaton.netlify.app/), or on Better Call Dev, or by injecting the transaction directly onto the blockchain.\n\nBut Why?\n\nBecause experimentation is fun.",
+            "tags": [
+              "onchain",
+              "cellular automaton",
+              "blockchain",
+              "pixelart"
+            ],
+            "generatorUri": "ipfs://Qmeb7huzBQZ5KTo2qqc48Kg5GEumYDKbXMN9UQXkD5Zz5Y",
+            "artifactUri": "ipfs://Qmeb7huzBQZ5KTo2qqc48Kg5GEumYDKbXMN9UQXkD5Zz5Y/?fxhash=opKoYxxFmkbpsSEVrrQDtvRZ2kqNF3ZSkLRRPYCvpwnozaaDWNq&fxminter=tz1V9sCKFosrDPrFbThPce4JPzvg3dHzouvf",
+            "displayUri": "ipfs://QmRqk4aPkcgHQMB3NqBGQpcSr6u7bXgzfieEn8zdrM3YxS",
+            "thumbnailUri": "ipfs://Qmdrt7sZGY9JxrAZttsYviKaZ1ZpqMC2jBPctqwVhEW9Le",
+            "authenticityHash": "e21bc000095151eec3250a78f17c78ae667164280e46892e7a5b60f78a602543",
+            "attributes": [
+              {
+                "name": "mode",
+                "value": "Vertical"
+              },
+              {
+                "name": "palette",
+                "value": 17
+              },
+              {
+                "name": "size",
+                "value": "16x16"
+              }
+            ],
+            "decimals": 0,
+            "symbol": "GENTK",
+            "version": "0.2"
+          },
+          "duplicate": false,
+          "activeListing": {
+            "id": 969491,
+            "version": 1,
+            "price": 16500000,
+            "__typename": "Listing"
+          },
+          "owner": {
+            "id": "tz29kBPKt2LwcjC7vSLichgD9zyJAF52Uous",
+            "name": "poperbu",
+            "flag": "VERIFIED",
+            "avatarUri": "ipfs://QmcRFgfM1BmM2p8kX2JQai4KoKAVCSGCnoGBjdvcM8vgpw",
+            "__typename": "User"
+          },
+          "issuer": {
+            "flag": "NONE",
+            "name": "Blockchain Automaton",
+            "author": {
+              "id": "tz1QvV3jVPWrJSdDy9ePZBnhGL8bAoQFFBPv",
+              "name": "Extracurricular Activities",
+              "type": "REGULAR",
+              "avatarUri": "ipfs://QmahpnFUbW9NWQjUzNLUxxYLszZC2eeNo5mmRPikJLYge5",
+              "flag": "VERIFIED",
+              "collaborators": null,
+              "__typename": "User"
+            },
+            "__typename": "GenerativeToken"
+          },
+          "__typename": "Objkt"
+        },
+        "__typename": "Listing"
+      },
+      {
+        "id": 969490,
+        "version": 1,
+        "price": 2000000,
+        "objkt": {
+          "id": "FX1-49357",
+          "version": 2,
+          "name": "Escape #59",
+          "slug": "escape-59-64b4a98a-d6b5-44a7-a02f-c815a63f5f6d",
+          "metadata": {
+            "name": "Escape #59",
+            "iterationHash": "ooT73rPGsmEBVTxQT4GAo63MWkqDW1xd5cA8wRGgQnJTXPVf7ob",
+            "description": "\"Escape\"\n\n\nSENNA\nJan, 2023",
+            "tags": [
+              "color",
+              "abstract",
+              "chaos",
+              "p5js",
+              "pixel",
+              "Escape"
+            ],
+            "generatorUri": "ipfs://QmYUmBrGF8b3XzXfu27JTRYTPYX8DAnA5jrUy6q8fZTCJX",
+            "artifactUri": "ipfs://QmYUmBrGF8b3XzXfu27JTRYTPYX8DAnA5jrUy6q8fZTCJX/?fxhash=ooT73rPGsmEBVTxQT4GAo63MWkqDW1xd5cA8wRGgQnJTXPVf7ob&fxminter=tz1ZqdghLzLt6D3FGBtN6CdgymAiD7Yc1nyn",
+            "displayUri": "ipfs://QmUfEinEF7h8o9qgArXwjxYkNp2i78fGBQvBmPFNDX6ebU",
+            "thumbnailUri": "ipfs://QmZP3QS5cNMbtkiVm6jfJgpJdDWqWCkanrnKbuTrTLDzFs",
+            "authenticityHash": "ae39dc6d37e56b5bead247ea68316227d03fa0a9595c0a109da647e9e3ce3ac7",
+            "attributes": true,
+            "decimals": 0,
+            "symbol": "GENTK",
+            "version": "0.2"
+          },
+          "duplicate": false,
+          "activeListing": {
+            "id": 969490,
+            "version": 1,
+            "price": 2000000,
+            "__typename": "Listing"
+          },
+          "owner": {
+            "id": "tz1ZqdghLzLt6D3FGBtN6CdgymAiD7Yc1nyn",
+            "name": "NftsRubim",
+            "flag": "NONE",
+            "avatarUri": "ipfs://QmXpfCVstyVahE4W7k47K4SVsA91syAzPB58y7WX3LvKiT",
+            "__typename": "User"
+          },
+          "issuer": {
+            "flag": "NONE",
+            "name": "Escape",
+            "author": {
+              "id": "tz1YZGeo2GtFibz8FfPW9ce1xtHKNBtK5drq",
+              "name": "SENNA",
+              "type": "REGULAR",
+              "avatarUri": "ipfs://QmRqgJUffNB7ZYqg8n1CpRAGZj95hUcVCUVh9dnidwMkpw",
+              "flag": "NONE",
+              "collaborators": null,
+              "__typename": "User"
+            },
+            "__typename": "GenerativeToken"
+          },
+          "__typename": "Objkt"
+        },
+        "__typename": "Listing"
+      },
+      {
+        "id": 969489,
+        "version": 1,
+        "price": 150000000,
+        "objkt": {
+          "id": "FX1-48801",
+          "version": 2,
+          "name": "Blockchain Automaton #149",
+          "slug": "blockchain-automaton-149",
+          "metadata": {
+            "name": "Blockchain Automaton #149",
+            "iterationHash": "ooq6C7C8tEojQpKs9cFedzQiaQKXi96jGTtttGmmiw5KLap5wjU",
+            "description": "This experimental project involves an on-chain cellular automaton. The features and cellular automaton rules are derived from the minter's address. Being the first (unto my knowledge) project on fxhash that generates the artwork completely on chain, it seemed fitting to draw inspiration from one of the first projects on fxhash, \"RGB Elementary Cellular Automaton\".\n\nWhat is this?\n\nAn experimental generative token that integrates on-chain generation, and on-chain storage of the artwork. This is accomplished using a custom smart contract. The artwork is generated using the generate_on_chain entrypoint in KT1GRFujk5m6feK7gJcqCU7ijJkFgx5JigEt, and the generated image is subsequently stored on-chain as a byte-string of pixels (row-major order) in the tokens bigmap in KT1GRFujk5m6feK7gJcqCU7ijJkFgx5JigEt.\n\nHow does this work?\n\nSmart contracts have a default entrypoint which is automatically called when XTZ is sent to the contract. By using a smart contract as the primary address, the default entrypoint will be called every time a token is minted. Of course, to prevent accounts from bypassing the fxhash contracts and sending XTZ directly to the smart contract, generating and storing the artwork on-chain, the smart contract checks that an fxhash contract is the account sending XTZ. In this smart contract, the default entrypoint immediately calls the generate_on_chain entrypoint for the sole purpose of making the generation process more apparent on indexers like tzkt.\n\nIn order to make this project compatible with fxhash, the artwork produced by the code submitted to fxhash must be identical to that which is produced by the generative algorithm within the smart contract. At the time of development, the minter's address is the only piece of information which is readily accessible via the fxhash snippet API and in the smart contract. As a result, each account can only generate a single unique artwork (this is enforced by the contract). In the future, this issue could be solved if the fxhash snippet API provided access to the iteration number, as the smart contract could also keep track of this information quite easily.\n\nConsequently, collectors who wish to collect more than one iteration must create additional accounts to mint. The tokens can then be subsequently transferred as per usual.\n\nWhy is the variations preview disabled?\n\nBecause the minter's address is the source of randomness for the generated artwork, not the hash provided by fxhash, changing the hash in the variations preview will have no effect. To see different variations of the artwork you need to modify the fxminter URL parameter in live preview mode.\n\nWhy does the mint button not work on the fxhash frontend?\n\nCurrently, the fxhash frontend has a default storage limit for mint operations that is less than what is required to store the generated image on chain. As a result, the mint button will fail on the fxhash frontend. To get around this, you can mint this token on a mini-website I created (https://blockchain-automaton.netlify.app/), or on Better Call Dev, or by injecting the transaction directly onto the blockchain.\n\nBut Why?\n\nBecause experimentation is fun.",
+            "tags": [
+              "onchain",
+              "cellular automaton",
+              "blockchain",
+              "pixelart"
+            ],
+            "generatorUri": "ipfs://Qmeb7huzBQZ5KTo2qqc48Kg5GEumYDKbXMN9UQXkD5Zz5Y",
+            "artifactUri": "ipfs://Qmeb7huzBQZ5KTo2qqc48Kg5GEumYDKbXMN9UQXkD5Zz5Y/?fxhash=ooq6C7C8tEojQpKs9cFedzQiaQKXi96jGTtttGmmiw5KLap5wjU&fxminter=tz1hvfkpf7HbnE1Rroi7JbyegVjZzu97Yqw6",
+            "displayUri": "ipfs://QmZJRdUYuyxuC3shHDUjcFH1MLdUTgFByG7NrEPtoyEzdA",
+            "thumbnailUri": "ipfs://QmRH9DNCTeotKhy5rKu1VmUDtXwJewz6NXPUg3kzi616Kj",
+            "authenticityHash": "d01336849f9d6abbf7621312fbb2706d8ae6efee99ee3e5a92584c98ec5244bd",
+            "attributes": [
+              {
+                "name": "mode",
+                "value": "Horizontal"
+              },
+              {
+                "name": "palette",
+                "value": 6
+              },
+              {
+                "name": "size",
+                "value": "16x16"
+              }
+            ],
+            "decimals": 0,
+            "symbol": "GENTK",
+            "version": "0.2"
+          },
+          "duplicate": false,
+          "activeListing": {
+            "id": 969489,
+            "version": 1,
+            "price": 150000000,
+            "__typename": "Listing"
+          },
+          "owner": {
+            "id": "tz1hvfkpf7HbnE1Rroi7JbyegVjZzu97Yqw6",
+            "name": "NftBiker",
+            "flag": "VERIFIED",
+            "avatarUri": "ipfs://QmQAvhaeivtivEj8qxMjYVASq7UBmnkN1J22jH8ZpsBQAX",
+            "__typename": "User"
+          },
+          "issuer": {
+            "flag": "NONE",
+            "name": "Blockchain Automaton",
+            "author": {
+              "id": "tz1QvV3jVPWrJSdDy9ePZBnhGL8bAoQFFBPv",
+              "name": "Extracurricular Activities",
+              "type": "REGULAR",
+              "avatarUri": "ipfs://QmahpnFUbW9NWQjUzNLUxxYLszZC2eeNo5mmRPikJLYge5",
+              "flag": "VERIFIED",
+              "collaborators": null,
+              "__typename": "User"
+            },
+            "__typename": "GenerativeToken"
+          },
+          "__typename": "Objkt"
+        },
+        "__typename": "Listing"
+      },
+      {
+        "id": 969488,
+        "version": 1,
+        "price": 250000000,
+        "objkt": {
+          "id": "FX1-48917",
+          "version": 2,
+          "name": "Blockchain Automaton #253",
+          "slug": "blockchain-automaton-253",
+          "metadata": {
+            "name": "Blockchain Automaton #253",
+            "iterationHash": "onqXMQAVrt1RDLwZy9B5UAa4zWYvLHgf2RktayN5fRK94VUzQ2o",
+            "description": "This experimental project involves an on-chain cellular automaton. The features and cellular automaton rules are derived from the minter's address. Being the first (unto my knowledge) project on fxhash that generates the artwork completely on chain, it seemed fitting to draw inspiration from one of the first projects on fxhash, \"RGB Elementary Cellular Automaton\".\n\nWhat is this?\n\nAn experimental generative token that integrates on-chain generation, and on-chain storage of the artwork. This is accomplished using a custom smart contract. The artwork is generated using the generate_on_chain entrypoint in KT1GRFujk5m6feK7gJcqCU7ijJkFgx5JigEt, and the generated image is subsequently stored on-chain as a byte-string of pixels (row-major order) in the tokens bigmap in KT1GRFujk5m6feK7gJcqCU7ijJkFgx5JigEt.\n\nHow does this work?\n\nSmart contracts have a default entrypoint which is automatically called when XTZ is sent to the contract. By using a smart contract as the primary address, the default entrypoint will be called every time a token is minted. Of course, to prevent accounts from bypassing the fxhash contracts and sending XTZ directly to the smart contract, generating and storing the artwork on-chain, the smart contract checks that an fxhash contract is the account sending XTZ. In this smart contract, the default entrypoint immediately calls the generate_on_chain entrypoint for the sole purpose of making the generation process more apparent on indexers like tzkt.\n\nIn order to make this project compatible with fxhash, the artwork produced by the code submitted to fxhash must be identical to that which is produced by the generative algorithm within the smart contract. At the time of development, the minter's address is the only piece of information which is readily accessible via the fxhash snippet API and in the smart contract. As a result, each account can only generate a single unique artwork (this is enforced by the contract). In the future, this issue could be solved if the fxhash snippet API provided access to the iteration number, as the smart contract could also keep track of this information quite easily.\n\nConsequently, collectors who wish to collect more than one iteration must create additional accounts to mint. The tokens can then be subsequently transferred as per usual.\n\nWhy is the variations preview disabled?\n\nBecause the minter's address is the source of randomness for the generated artwork, not the hash provided by fxhash, changing the hash in the variations preview will have no effect. To see different variations of the artwork you need to modify the fxminter URL parameter in live preview mode.\n\nWhy does the mint button not work on the fxhash frontend?\n\nCurrently, the fxhash frontend has a default storage limit for mint operations that is less than what is required to store the generated image on chain. As a result, the mint button will fail on the fxhash frontend. To get around this, you can mint this token on a mini-website I created (https://blockchain-automaton.netlify.app/), or on Better Call Dev, or by injecting the transaction directly onto the blockchain.\n\nBut Why?\n\nBecause experimentation is fun.",
+            "tags": [
+              "onchain",
+              "cellular automaton",
+              "blockchain",
+              "pixelart"
+            ],
+            "generatorUri": "ipfs://Qmeb7huzBQZ5KTo2qqc48Kg5GEumYDKbXMN9UQXkD5Zz5Y",
+            "artifactUri": "ipfs://Qmeb7huzBQZ5KTo2qqc48Kg5GEumYDKbXMN9UQXkD5Zz5Y/?fxhash=onqXMQAVrt1RDLwZy9B5UAa4zWYvLHgf2RktayN5fRK94VUzQ2o&fxminter=tz1NNJCiknQUowNe7ikYYEy1X6XTGaKbHxdn",
+            "displayUri": "ipfs://QmY1gHkhkXJwwtaMtTi1HjuE5SrjgRopHUJzW8u1MwRZQE",
+            "thumbnailUri": "ipfs://QmdmXDgEKWowe2e38Pp5NgqzjyHgGfYQNvNqhq7L2Hwk45",
+            "authenticityHash": "3d2fec854e675f7cd5188ea630591777d0f91adf3a5208e1bee21ed0c5f476f9",
+            "attributes": [
+              {
+                "name": "mode",
+                "value": "Horizontal"
+              },
+              {
+                "name": "palette",
+                "value": 10
+              },
+              {
+                "name": "size",
+                "value": "32x32"
+              }
+            ],
+            "decimals": 0,
+            "symbol": "GENTK",
+            "version": "0.2"
+          },
+          "duplicate": false,
+          "activeListing": {
+            "id": 969488,
+            "version": 1,
+            "price": 250000000,
+            "__typename": "Listing"
+          },
+          "owner": {
+            "id": "tz1hvfkpf7HbnE1Rroi7JbyegVjZzu97Yqw6",
+            "name": "NftBiker",
+            "flag": "VERIFIED",
+            "avatarUri": "ipfs://QmQAvhaeivtivEj8qxMjYVASq7UBmnkN1J22jH8ZpsBQAX",
+            "__typename": "User"
+          },
+          "issuer": {
+            "flag": "NONE",
+            "name": "Blockchain Automaton",
+            "author": {
+              "id": "tz1QvV3jVPWrJSdDy9ePZBnhGL8bAoQFFBPv",
+              "name": "Extracurricular Activities",
+              "type": "REGULAR",
+              "avatarUri": "ipfs://QmahpnFUbW9NWQjUzNLUxxYLszZC2eeNo5mmRPikJLYge5",
+              "flag": "VERIFIED",
+              "collaborators": null,
+              "__typename": "User"
+            },
+            "__typename": "GenerativeToken"
+          },
+          "__typename": "Objkt"
+        },
+        "__typename": "Listing"
+      },
+      {
+        "id": 969487,
+        "version": 1,
+        "price": 300000000,
+        "objkt": {
+          "id": "FX1-48927",
+          "version": 2,
+          "name": "Blockchain Automaton #261",
+          "slug": "blockchain-automaton-261",
+          "metadata": {
+            "name": "Blockchain Automaton #261",
+            "iterationHash": "oo9JKBFk1FgSsCBNzRm5FNBwomDfvpyWRJWUZDHmkx5mdYosALZ",
+            "description": "This experimental project involves an on-chain cellular automaton. The features and cellular automaton rules are derived from the minter's address. Being the first (unto my knowledge) project on fxhash that generates the artwork completely on chain, it seemed fitting to draw inspiration from one of the first projects on fxhash, \"RGB Elementary Cellular Automaton\".\n\nWhat is this?\n\nAn experimental generative token that integrates on-chain generation, and on-chain storage of the artwork. This is accomplished using a custom smart contract. The artwork is generated using the generate_on_chain entrypoint in KT1GRFujk5m6feK7gJcqCU7ijJkFgx5JigEt, and the generated image is subsequently stored on-chain as a byte-string of pixels (row-major order) in the tokens bigmap in KT1GRFujk5m6feK7gJcqCU7ijJkFgx5JigEt.\n\nHow does this work?\n\nSmart contracts have a default entrypoint which is automatically called when XTZ is sent to the contract. By using a smart contract as the primary address, the default entrypoint will be called every time a token is minted. Of course, to prevent accounts from bypassing the fxhash contracts and sending XTZ directly to the smart contract, generating and storing the artwork on-chain, the smart contract checks that an fxhash contract is the account sending XTZ. In this smart contract, the default entrypoint immediately calls the generate_on_chain entrypoint for the sole purpose of making the generation process more apparent on indexers like tzkt.\n\nIn order to make this project compatible with fxhash, the artwork produced by the code submitted to fxhash must be identical to that which is produced by the generative algorithm within the smart contract. At the time of development, the minter's address is the only piece of information which is readily accessible via the fxhash snippet API and in the smart contract. As a result, each account can only generate a single unique artwork (this is enforced by the contract). In the future, this issue could be solved if the fxhash snippet API provided access to the iteration number, as the smart contract could also keep track of this information quite easily.\n\nConsequently, collectors who wish to collect more than one iteration must create additional accounts to mint. The tokens can then be subsequently transferred as per usual.\n\nWhy is the variations preview disabled?\n\nBecause the minter's address is the source of randomness for the generated artwork, not the hash provided by fxhash, changing the hash in the variations preview will have no effect. To see different variations of the artwork you need to modify the fxminter URL parameter in live preview mode.\n\nWhy does the mint button not work on the fxhash frontend?\n\nCurrently, the fxhash frontend has a default storage limit for mint operations that is less than what is required to store the generated image on chain. As a result, the mint button will fail on the fxhash frontend. To get around this, you can mint this token on a mini-website I created (https://blockchain-automaton.netlify.app/), or on Better Call Dev, or by injecting the transaction directly onto the blockchain.\n\nBut Why?\n\nBecause experimentation is fun.",
+            "tags": [
+              "onchain",
+              "cellular automaton",
+              "blockchain",
+              "pixelart"
+            ],
+            "generatorUri": "ipfs://Qmeb7huzBQZ5KTo2qqc48Kg5GEumYDKbXMN9UQXkD5Zz5Y",
+            "artifactUri": "ipfs://Qmeb7huzBQZ5KTo2qqc48Kg5GEumYDKbXMN9UQXkD5Zz5Y/?fxhash=oo9JKBFk1FgSsCBNzRm5FNBwomDfvpyWRJWUZDHmkx5mdYosALZ&fxminter=tz1Vpfrg1QdEB2GgPgf4FoGAjNUaoxs7HbqU",
+            "displayUri": "ipfs://QmQiF5s9HaCsQaZbYR98JjhrPX2jzWFvtiacDky6hMEEhh",
+            "thumbnailUri": "ipfs://Qmdx9u74urTJL2MpDhiBCoavRHUZ2WakzZjZpnmqiih4UV",
+            "authenticityHash": "1fe19a121772b7f0e27ba4da7a46a83ac5d17f1147cce754d5c7adf8182679fa",
+            "attributes": [
+              {
+                "name": "mode",
+                "value": "Diagonal"
+              },
+              {
+                "name": "palette",
+                "value": 9
+              },
+              {
+                "name": "size",
+                "value": "16x16"
+              }
+            ],
+            "decimals": 0,
+            "symbol": "GENTK",
+            "version": "0.2"
+          },
+          "duplicate": false,
+          "activeListing": {
+            "id": 969487,
+            "version": 1,
+            "price": 300000000,
+            "__typename": "Listing"
+          },
+          "owner": {
+            "id": "tz1hvfkpf7HbnE1Rroi7JbyegVjZzu97Yqw6",
+            "name": "NftBiker",
+            "flag": "VERIFIED",
+            "avatarUri": "ipfs://QmQAvhaeivtivEj8qxMjYVASq7UBmnkN1J22jH8ZpsBQAX",
+            "__typename": "User"
+          },
+          "issuer": {
+            "flag": "NONE",
+            "name": "Blockchain Automaton",
+            "author": {
+              "id": "tz1QvV3jVPWrJSdDy9ePZBnhGL8bAoQFFBPv",
+              "name": "Extracurricular Activities",
+              "type": "REGULAR",
+              "avatarUri": "ipfs://QmahpnFUbW9NWQjUzNLUxxYLszZC2eeNo5mmRPikJLYge5",
+              "flag": "VERIFIED",
+              "collaborators": null,
+              "__typename": "User"
+            },
+            "__typename": "GenerativeToken"
+          },
+          "__typename": "Objkt"
+        },
+        "__typename": "Listing"
+      },
+      {
+        "id": 969486,
+        "version": 1,
+        "price": 24000000,
+        "objkt": {
+          "id": "FX1-48948",
+          "version": 2,
+          "name": "Blockchain Automaton #282",
+          "slug": "blockchain-automaton-282",
+          "metadata": {
+            "name": "Blockchain Automaton #282",
+            "iterationHash": "ont5NfQ2Kq9BdSW7Rr8jNPa8Ah3Thu4ANuzpmTdo7624Xmh8Lrm",
+            "description": "This experimental project involves an on-chain cellular automaton. The features and cellular automaton rules are derived from the minter's address. Being the first (unto my knowledge) project on fxhash that generates the artwork completely on chain, it seemed fitting to draw inspiration from one of the first projects on fxhash, \"RGB Elementary Cellular Automaton\".\n\nWhat is this?\n\nAn experimental generative token that integrates on-chain generation, and on-chain storage of the artwork. This is accomplished using a custom smart contract. The artwork is generated using the generate_on_chain entrypoint in KT1GRFujk5m6feK7gJcqCU7ijJkFgx5JigEt, and the generated image is subsequently stored on-chain as a byte-string of pixels (row-major order) in the tokens bigmap in KT1GRFujk5m6feK7gJcqCU7ijJkFgx5JigEt.\n\nHow does this work?\n\nSmart contracts have a default entrypoint which is automatically called when XTZ is sent to the contract. By using a smart contract as the primary address, the default entrypoint will be called every time a token is minted. Of course, to prevent accounts from bypassing the fxhash contracts and sending XTZ directly to the smart contract, generating and storing the artwork on-chain, the smart contract checks that an fxhash contract is the account sending XTZ. In this smart contract, the default entrypoint immediately calls the generate_on_chain entrypoint for the sole purpose of making the generation process more apparent on indexers like tzkt.\n\nIn order to make this project compatible with fxhash, the artwork produced by the code submitted to fxhash must be identical to that which is produced by the generative algorithm within the smart contract. At the time of development, the minter's address is the only piece of information which is readily accessible via the fxhash snippet API and in the smart contract. As a result, each account can only generate a single unique artwork (this is enforced by the contract). In the future, this issue could be solved if the fxhash snippet API provided access to the iteration number, as the smart contract could also keep track of this information quite easily.\n\nConsequently, collectors who wish to collect more than one iteration must create additional accounts to mint. The tokens can then be subsequently transferred as per usual.\n\nWhy is the variations preview disabled?\n\nBecause the minter's address is the source of randomness for the generated artwork, not the hash provided by fxhash, changing the hash in the variations preview will have no effect. To see different variations of the artwork you need to modify the fxminter URL parameter in live preview mode.\n\nWhy does the mint button not work on the fxhash frontend?\n\nCurrently, the fxhash frontend has a default storage limit for mint operations that is less than what is required to store the generated image on chain. As a result, the mint button will fail on the fxhash frontend. To get around this, you can mint this token on a mini-website I created (https://blockchain-automaton.netlify.app/), or on Better Call Dev, or by injecting the transaction directly onto the blockchain.\n\nBut Why?\n\nBecause experimentation is fun.",
+            "tags": [
+              "onchain",
+              "cellular automaton",
+              "blockchain",
+              "pixelart"
+            ],
+            "generatorUri": "ipfs://Qmeb7huzBQZ5KTo2qqc48Kg5GEumYDKbXMN9UQXkD5Zz5Y",
+            "artifactUri": "ipfs://Qmeb7huzBQZ5KTo2qqc48Kg5GEumYDKbXMN9UQXkD5Zz5Y/?fxhash=ont5NfQ2Kq9BdSW7Rr8jNPa8Ah3Thu4ANuzpmTdo7624Xmh8Lrm&fxminter=tz1WNkfTG9935zXV2UrFHN7DPzXGa1t2n7W1",
+            "displayUri": "ipfs://QmNudjC1Tt3F7rYUWNEPZZxEXTkn6UzZZ7i3kNjcVqLy6v",
+            "thumbnailUri": "ipfs://QmQmpjiN7HWuZdAvCuv8ezrSpSQLJU822X5m6RB1hrgqwC",
+            "authenticityHash": "bdf581b7dbb2c84ad7068660857027004f1f91bec79627749c1dea6660d5cda7",
+            "attributes": [
+              {
+                "name": "mode",
+                "value": "Horizontal"
+              },
+              {
+                "name": "palette",
+                "value": 7
+              },
+              {
+                "name": "size",
+                "value": "32x32"
+              }
+            ],
+            "decimals": 0,
+            "symbol": "GENTK",
+            "version": "0.2"
+          },
+          "duplicate": false,
+          "activeListing": {
+            "id": 969486,
+            "version": 1,
+            "price": 24000000,
+            "__typename": "Listing"
+          },
+          "owner": {
+            "id": "tz1WNkfTG9935zXV2UrFHN7DPzXGa1t2n7W1",
+            "name": "Denver XlX",
+            "flag": "NONE",
+            "avatarUri": "ipfs://QmU93b8horJoSjZRFAUDH4JZ9YSK5YCELWtYeniVbrE4RY",
+            "__typename": "User"
+          },
+          "issuer": {
+            "flag": "NONE",
+            "name": "Blockchain Automaton",
+            "author": {
+              "id": "tz1QvV3jVPWrJSdDy9ePZBnhGL8bAoQFFBPv",
+              "name": "Extracurricular Activities",
+              "type": "REGULAR",
+              "avatarUri": "ipfs://QmahpnFUbW9NWQjUzNLUxxYLszZC2eeNo5mmRPikJLYge5",
+              "flag": "VERIFIED",
+              "collaborators": null,
+              "__typename": "User"
+            },
+            "__typename": "GenerativeToken"
+          },
+          "__typename": "Objkt"
+        },
+        "__typename": "Listing"
+      },
+      {
+        "id": 969485,
+        "version": 1,
+        "price": 300000000,
+        "objkt": {
+          "id": "FX1-48861",
+          "version": 2,
+          "name": "Blockchain Automaton #200",
+          "slug": "blockchain-automaton-200",
+          "metadata": {
+            "name": "Blockchain Automaton #200",
+            "iterationHash": "op5o3SVH5tjmPRq68dCmhYb6gLQHR3Be4UXVx6B8nFyVDiaUPwj",
+            "description": "This experimental project involves an on-chain cellular automaton. The features and cellular automaton rules are derived from the minter's address. Being the first (unto my knowledge) project on fxhash that generates the artwork completely on chain, it seemed fitting to draw inspiration from one of the first projects on fxhash, \"RGB Elementary Cellular Automaton\".\n\nWhat is this?\n\nAn experimental generative token that integrates on-chain generation, and on-chain storage of the artwork. This is accomplished using a custom smart contract. The artwork is generated using the generate_on_chain entrypoint in KT1GRFujk5m6feK7gJcqCU7ijJkFgx5JigEt, and the generated image is subsequently stored on-chain as a byte-string of pixels (row-major order) in the tokens bigmap in KT1GRFujk5m6feK7gJcqCU7ijJkFgx5JigEt.\n\nHow does this work?\n\nSmart contracts have a default entrypoint which is automatically called when XTZ is sent to the contract. By using a smart contract as the primary address, the default entrypoint will be called every time a token is minted. Of course, to prevent accounts from bypassing the fxhash contracts and sending XTZ directly to the smart contract, generating and storing the artwork on-chain, the smart contract checks that an fxhash contract is the account sending XTZ. In this smart contract, the default entrypoint immediately calls the generate_on_chain entrypoint for the sole purpose of making the generation process more apparent on indexers like tzkt.\n\nIn order to make this project compatible with fxhash, the artwork produced by the code submitted to fxhash must be identical to that which is produced by the generative algorithm within the smart contract. At the time of development, the minter's address is the only piece of information which is readily accessible via the fxhash snippet API and in the smart contract. As a result, each account can only generate a single unique artwork (this is enforced by the contract). In the future, this issue could be solved if the fxhash snippet API provided access to the iteration number, as the smart contract could also keep track of this information quite easily.\n\nConsequently, collectors who wish to collect more than one iteration must create additional accounts to mint. The tokens can then be subsequently transferred as per usual.\n\nWhy is the variations preview disabled?\n\nBecause the minter's address is the source of randomness for the generated artwork, not the hash provided by fxhash, changing the hash in the variations preview will have no effect. To see different variations of the artwork you need to modify the fxminter URL parameter in live preview mode.\n\nWhy does the mint button not work on the fxhash frontend?\n\nCurrently, the fxhash frontend has a default storage limit for mint operations that is less than what is required to store the generated image on chain. As a result, the mint button will fail on the fxhash frontend. To get around this, you can mint this token on a mini-website I created (https://blockchain-automaton.netlify.app/), or on Better Call Dev, or by injecting the transaction directly onto the blockchain.\n\nBut Why?\n\nBecause experimentation is fun.",
+            "tags": [
+              "onchain",
+              "cellular automaton",
+              "blockchain",
+              "pixelart"
+            ],
+            "generatorUri": "ipfs://Qmeb7huzBQZ5KTo2qqc48Kg5GEumYDKbXMN9UQXkD5Zz5Y",
+            "artifactUri": "ipfs://Qmeb7huzBQZ5KTo2qqc48Kg5GEumYDKbXMN9UQXkD5Zz5Y/?fxhash=op5o3SVH5tjmPRq68dCmhYb6gLQHR3Be4UXVx6B8nFyVDiaUPwj&fxminter=tz1gffH1rsj44zsSUHq57d9gvCisaVDmdAqV",
+            "displayUri": "ipfs://QmPgkrvR42igomSMJNBLFSHFHtNZtumwem9EJZf5m5PGQn",
+            "thumbnailUri": "ipfs://QmXumGS6fzMNQrVM2PYG7YafC9cXq59J6Nnt95Tt1Tn7vq",
+            "authenticityHash": "8bf1b9c92345c1d13e07c0d771ca341221d287196c57dfda80d3036bb95ebd5e",
+            "attributes": [
+              {
+                "name": "mode",
+                "value": "Diagonal"
+              },
+              {
+                "name": "palette",
+                "value": 17
+              },
+              {
+                "name": "size",
+                "value": "16x16"
+              }
+            ],
+            "decimals": 0,
+            "symbol": "GENTK",
+            "version": "0.2"
+          },
+          "duplicate": false,
+          "activeListing": {
+            "id": 969485,
+            "version": 1,
+            "price": 300000000,
+            "__typename": "Listing"
+          },
+          "owner": {
+            "id": "tz1hvfkpf7HbnE1Rroi7JbyegVjZzu97Yqw6",
+            "name": "NftBiker",
+            "flag": "VERIFIED",
+            "avatarUri": "ipfs://QmQAvhaeivtivEj8qxMjYVASq7UBmnkN1J22jH8ZpsBQAX",
+            "__typename": "User"
+          },
+          "issuer": {
+            "flag": "NONE",
+            "name": "Blockchain Automaton",
+            "author": {
+              "id": "tz1QvV3jVPWrJSdDy9ePZBnhGL8bAoQFFBPv",
+              "name": "Extracurricular Activities",
+              "type": "REGULAR",
+              "avatarUri": "ipfs://QmahpnFUbW9NWQjUzNLUxxYLszZC2eeNo5mmRPikJLYge5",
+              "flag": "VERIFIED",
+              "collaborators": null,
+              "__typename": "User"
+            },
+            "__typename": "GenerativeToken"
+          },
+          "__typename": "Objkt"
+        },
+        "__typename": "Listing"
+      },
+      {
+        "id": 969483,
+        "version": 1,
+        "price": 30000000,
+        "objkt": {
+          "id": "FX1-49008",
+          "version": 2,
+          "name": "Blockchain Automaton #336",
+          "slug": "blockchain-automaton-336",
+          "metadata": {
+            "name": "Blockchain Automaton #336",
+            "iterationHash": "opWZXnqNifsLdfXBdo1KF11G2Y6yGNVSsqwNwQ2YTp7BVpLqtL7",
+            "description": "This experimental project involves an on-chain cellular automaton. The features and cellular automaton rules are derived from the minter's address. Being the first (unto my knowledge) project on fxhash that generates the artwork completely on chain, it seemed fitting to draw inspiration from one of the first projects on fxhash, \"RGB Elementary Cellular Automaton\".\n\nWhat is this?\n\nAn experimental generative token that integrates on-chain generation, and on-chain storage of the artwork. This is accomplished using a custom smart contract. The artwork is generated using the generate_on_chain entrypoint in KT1GRFujk5m6feK7gJcqCU7ijJkFgx5JigEt, and the generated image is subsequently stored on-chain as a byte-string of pixels (row-major order) in the tokens bigmap in KT1GRFujk5m6feK7gJcqCU7ijJkFgx5JigEt.\n\nHow does this work?\n\nSmart contracts have a default entrypoint which is automatically called when XTZ is sent to the contract. By using a smart contract as the primary address, the default entrypoint will be called every time a token is minted. Of course, to prevent accounts from bypassing the fxhash contracts and sending XTZ directly to the smart contract, generating and storing the artwork on-chain, the smart contract checks that an fxhash contract is the account sending XTZ. In this smart contract, the default entrypoint immediately calls the generate_on_chain entrypoint for the sole purpose of making the generation process more apparent on indexers like tzkt.\n\nIn order to make this project compatible with fxhash, the artwork produced by the code submitted to fxhash must be identical to that which is produced by the generative algorithm within the smart contract. At the time of development, the minter's address is the only piece of information which is readily accessible via the fxhash snippet API and in the smart contract. As a result, each account can only generate a single unique artwork (this is enforced by the contract). In the future, this issue could be solved if the fxhash snippet API provided access to the iteration number, as the smart contract could also keep track of this information quite easily.\n\nConsequently, collectors who wish to collect more than one iteration must create additional accounts to mint. The tokens can then be subsequently transferred as per usual.\n\nWhy is the variations preview disabled?\n\nBecause the minter's address is the source of randomness for the generated artwork, not the hash provided by fxhash, changing the hash in the variations preview will have no effect. To see different variations of the artwork you need to modify the fxminter URL parameter in live preview mode.\n\nWhy does the mint button not work on the fxhash frontend?\n\nCurrently, the fxhash frontend has a default storage limit for mint operations that is less than what is required to store the generated image on chain. As a result, the mint button will fail on the fxhash frontend. To get around this, you can mint this token on a mini-website I created (https://blockchain-automaton.netlify.app/), or on Better Call Dev, or by injecting the transaction directly onto the blockchain.\n\nBut Why?\n\nBecause experimentation is fun.",
+            "tags": [
+              "onchain",
+              "cellular automaton",
+              "blockchain",
+              "pixelart"
+            ],
+            "generatorUri": "ipfs://Qmeb7huzBQZ5KTo2qqc48Kg5GEumYDKbXMN9UQXkD5Zz5Y",
+            "artifactUri": "ipfs://Qmeb7huzBQZ5KTo2qqc48Kg5GEumYDKbXMN9UQXkD5Zz5Y/?fxhash=opWZXnqNifsLdfXBdo1KF11G2Y6yGNVSsqwNwQ2YTp7BVpLqtL7&fxminter=tz1RQeTBaWuvF9tTkwSAKyyUwvuDkYvYTYZJ",
+            "displayUri": "ipfs://QmauiJLxFxF21Gp9kN61p34qvsWzcHPGk4BRzShZ2XJ6rE",
+            "thumbnailUri": "ipfs://QmSBXDh24RvFtMW8R73if4PhUP8tBMRMe8X8Uea6TeRTAm",
+            "authenticityHash": "7532223131d8fadf64db6c487a70736f209854486b3f0e5d3610fc1462303652",
+            "attributes": [
+              {
+                "name": "mode",
+                "value": "Horizontal"
+              },
+              {
+                "name": "palette",
+                "value": 15
+              },
+              {
+                "name": "size",
+                "value": "16x16"
+              }
+            ],
+            "decimals": 0,
+            "symbol": "GENTK",
+            "version": "0.2"
+          },
+          "duplicate": false,
+          "activeListing": {
+            "id": 969483,
+            "version": 1,
+            "price": 30000000,
+            "__typename": "Listing"
+          },
+          "owner": {
+            "id": "tz1PwWW4u7Za75dJPquycECdKojh4TpKEHfE",
+            "name": "1000Landz",
+            "flag": "NONE",
+            "avatarUri": "ipfs://QmaNCWMXE3UtSHaxa6xXnGghJPKr1tSuYVrTg1mahZLQEE",
+            "__typename": "User"
+          },
+          "issuer": {
+            "flag": "NONE",
+            "name": "Blockchain Automaton",
+            "author": {
+              "id": "tz1QvV3jVPWrJSdDy9ePZBnhGL8bAoQFFBPv",
+              "name": "Extracurricular Activities",
+              "type": "REGULAR",
+              "avatarUri": "ipfs://QmahpnFUbW9NWQjUzNLUxxYLszZC2eeNo5mmRPikJLYge5",
+              "flag": "VERIFIED",
+              "collaborators": null,
+              "__typename": "User"
+            },
+            "__typename": "GenerativeToken"
+          },
+          "__typename": "Objkt"
+        },
+        "__typename": "Listing"
+      },
+      {
+        "id": 969482,
+        "version": 1,
+        "price": 34000000,
+        "objkt": {
+          "id": "FX1-49175",
+          "version": 2,
+          "name": "Blockchain Automaton #485",
+          "slug": "blockchain-automaton-485",
+          "metadata": {
+            "name": "Blockchain Automaton #485",
+            "iterationHash": "onjKhVT1yV9fuBYQRLQVtY9qu9LjsgcU2PYyMqr8dJkyiSU82zb",
+            "description": "This experimental project involves an on-chain cellular automaton. The features and cellular automaton rules are derived from the minter's address. Being the first (unto my knowledge) project on fxhash that generates the artwork completely on chain, it seemed fitting to draw inspiration from one of the first projects on fxhash, \"RGB Elementary Cellular Automaton\".\n\nWhat is this?\n\nAn experimental generative token that integrates on-chain generation, and on-chain storage of the artwork. This is accomplished using a custom smart contract. The artwork is generated using the generate_on_chain entrypoint in KT1GRFujk5m6feK7gJcqCU7ijJkFgx5JigEt, and the generated image is subsequently stored on-chain as a byte-string of pixels (row-major order) in the tokens bigmap in KT1GRFujk5m6feK7gJcqCU7ijJkFgx5JigEt.\n\nHow does this work?\n\nSmart contracts have a default entrypoint which is automatically called when XTZ is sent to the contract. By using a smart contract as the primary address, the default entrypoint will be called every time a token is minted. Of course, to prevent accounts from bypassing the fxhash contracts and sending XTZ directly to the smart contract, generating and storing the artwork on-chain, the smart contract checks that an fxhash contract is the account sending XTZ. In this smart contract, the default entrypoint immediately calls the generate_on_chain entrypoint for the sole purpose of making the generation process more apparent on indexers like tzkt.\n\nIn order to make this project compatible with fxhash, the artwork produced by the code submitted to fxhash must be identical to that which is produced by the generative algorithm within the smart contract. At the time of development, the minter's address is the only piece of information which is readily accessible via the fxhash snippet API and in the smart contract. As a result, each account can only generate a single unique artwork (this is enforced by the contract). In the future, this issue could be solved if the fxhash snippet API provided access to the iteration number, as the smart contract could also keep track of this information quite easily.\n\nConsequently, collectors who wish to collect more than one iteration must create additional accounts to mint. The tokens can then be subsequently transferred as per usual.\n\nWhy is the variations preview disabled?\n\nBecause the minter's address is the source of randomness for the generated artwork, not the hash provided by fxhash, changing the hash in the variations preview will have no effect. To see different variations of the artwork you need to modify the fxminter URL parameter in live preview mode.\n\nWhy does the mint button not work on the fxhash frontend?\n\nCurrently, the fxhash frontend has a default storage limit for mint operations that is less than what is required to store the generated image on chain. As a result, the mint button will fail on the fxhash frontend. To get around this, you can mint this token on a mini-website I created (https://blockchain-automaton.netlify.app/), or on Better Call Dev, or by injecting the transaction directly onto the blockchain.\n\nBut Why?\n\nBecause experimentation is fun.",
+            "tags": [
+              "onchain",
+              "cellular automaton",
+              "blockchain",
+              "pixelart"
+            ],
+            "generatorUri": "ipfs://Qmeb7huzBQZ5KTo2qqc48Kg5GEumYDKbXMN9UQXkD5Zz5Y",
+            "artifactUri": "ipfs://Qmeb7huzBQZ5KTo2qqc48Kg5GEumYDKbXMN9UQXkD5Zz5Y/?fxhash=onjKhVT1yV9fuBYQRLQVtY9qu9LjsgcU2PYyMqr8dJkyiSU82zb&fxminter=tz1avbrn6uWhu4DxxURPm4aiGHa9SDUXpYK8",
+            "displayUri": "ipfs://Qmf71MT11giuSvx1FbooZTfM7bUfgpsPvKUL98zii9byBs",
+            "thumbnailUri": "ipfs://QmfQpocSMosyJPitjBbvoYZdgTyEcJ5qRqQoPybRKkPqau",
+            "authenticityHash": "5ab41816a1b443d0493d275d572724ad583d3bd5e0bdbdc49092a20fbfc1ba1a",
+            "attributes": [
+              {
+                "name": "mode",
+                "value": "Horizontal"
+              },
+              {
+                "name": "palette",
+                "value": 1
+              },
+              {
+                "name": "size",
+                "value": "16x16"
+              }
+            ],
+            "decimals": 0,
+            "symbol": "GENTK",
+            "version": "0.2"
+          },
+          "duplicate": false,
+          "activeListing": {
+            "id": 969482,
+            "version": 1,
+            "price": 34000000,
+            "__typename": "Listing"
+          },
+          "owner": {
+            "id": "tz1avbrn6uWhu4DxxURPm4aiGHa9SDUXpYK8",
+            "name": "LiliAna",
+            "flag": "NONE",
+            "avatarUri": "ipfs://QmU2vdQBdNwycjkMzmwc7wnMUaKQZTJBWpGDQr84Xf5K5N",
+            "__typename": "User"
+          },
+          "issuer": {
+            "flag": "NONE",
+            "name": "Blockchain Automaton",
+            "author": {
+              "id": "tz1QvV3jVPWrJSdDy9ePZBnhGL8bAoQFFBPv",
+              "name": "Extracurricular Activities",
+              "type": "REGULAR",
+              "avatarUri": "ipfs://QmahpnFUbW9NWQjUzNLUxxYLszZC2eeNo5mmRPikJLYge5",
+              "flag": "VERIFIED",
+              "collaborators": null,
+              "__typename": "User"
+            },
+            "__typename": "GenerativeToken"
+          },
+          "__typename": "Objkt"
+        },
+        "__typename": "Listing"
+      },
+      {
+        "id": 969481,
+        "version": 1,
+        "price": 6900000,
+        "objkt": {
+          "id": "FX1-48470",
+          "version": 2,
+          "name": "pathFlow v2 #57",
+          "slug": "pathflow-v2-57",
+          "metadata": {
+            "name": "pathFlow v2 #57",
+            "iterationHash": "opHfBY1v8jaaB1L3GfkfWnQxBcZb9C4WonQKqbGvYnMLKGSzvgZ",
+            "description": "created using p5.js\n\n\nTwisted path with changing colors and overlapping. The line consists of six pieces, one after the other, to form a long and intertwined path\n\n** params has a default values for change is only from fx(params)\n\ntwitter: https://twitter.com/WSwetat\n[s]...save png",
+            "tags": [
+              "generative javascript p5js generativeart"
+            ],
+            "generatorUri": "ipfs://QmSVzFoQHBNdVxVpuPGXc8GD43N5r2d8LvLQ34rQHVfSx3",
+            "artifactUri": "ipfs://QmSVzFoQHBNdVxVpuPGXc8GD43N5r2d8LvLQ34rQHVfSx3/?fxhash=opHfBY1v8jaaB1L3GfkfWnQxBcZb9C4WonQKqbGvYnMLKGSzvgZ&fxminter=tz2LBpXnAQ9ZWuCoUUoeWEY8VD917P9GmyyT&fxparams=0500401400000000000040b3230000000000053ff00000000000003ff000000000000006",
+            "displayUri": "ipfs://QmUg3EeQbsBTRBXXd7c9NrDvnQ8nUTqvJU2rvLkJ33ZQZi",
+            "thumbnailUri": "ipfs://QmarsJdiD5S8UXH34KzHgWdnch8A1CiD17yc9EaibjsML1",
+            "authenticityHash": "02984ba8b91656ad1ea0d4087155860107677f0cd1af9fd59a2d5d25dc83c6d3",
+            "attributes": [
+              {
+                "name": "size relative to the screen **",
+                "value": "3.5:2.5"
+              },
+              {
+                "name": "style",
+                "value": "style 1"
+              },
+              {
+                "name": "number of blocks to draw on row",
+                "value": 5
+              },
+              {
+                "name": "number of blocks to draw on canvas",
+                "value": 4899
+              },
+              {
+                "name": "color pallet category name",
+                "value": "Old"
+              },
+              {
+                "name": "colors array",
+                "value": 1
+              },
+              {
+                "name": "sub color pallets to include on shape **",
+                "value": 1
+              },
+              {
+                "name": "sub color pallets change every **",
+                "value": "100"
+              },
+              {
+                "name": "**",
+                "value": "only for fx(params)"
+              }
+            ],
+            "decimals": 0,
+            "symbol": "GENTK",
+            "version": "0.2"
+          },
+          "duplicate": false,
+          "activeListing": {
+            "id": 969481,
+            "version": 1,
+            "price": 6900000,
+            "__typename": "Listing"
+          },
+          "owner": {
+            "id": "tz2LBpXnAQ9ZWuCoUUoeWEY8VD917P9GmyyT",
+            "name": "Chinmi",
+            "flag": "NONE",
+            "avatarUri": "ipfs://Qmb4e2Zy2jEATtbxV2GQzWwexrQQCsB7n7gQ6UC7jM18x7",
+            "__typename": "User"
+          },
+          "issuer": {
+            "flag": "NONE",
+            "name": "pathFlow v2",
+            "author": {
+              "id": "tz1KedwSM1ehLwTwXWaTmifmz6SXrRBQcHBw",
+              "name": "Ves M S",
+              "type": "REGULAR",
+              "avatarUri": "ipfs://Qmd8ZTkkLWyHtxjkLRmTLfGV61NHEJ6rwRreFXpTnZ5YsX",
+              "flag": "NONE",
+              "collaborators": null,
+              "__typename": "User"
+            },
+            "__typename": "GenerativeToken"
+          },
+          "__typename": "Objkt"
+        },
+        "__typename": "Listing"
+      },
+      {
+        "id": 969480,
+        "version": 1,
+        "price": 12000000,
+        "objkt": {
+          "id": "FX1-49330",
+          "version": 2,
+          "name": "Streaming #159",
+          "slug": "streaming-159",
+          "metadata": {
+            "name": "Streaming #159",
+            "iterationHash": "ooheJmiVeScBGpQJaQiw2Xk2L7DX4xinpEPzC9S8FPdE9cX1t4i",
+            "description": "Streaming is an exploration of curl noise and rounding errors, using fx(params) to shape the piece.\n\nMy own method for producing pieces of interest is to randomise all parameters, then lock favourable aspects and experiment with altering one or two parameters. If the piece is too dark, reduce the render length or increase the stroke weight. If the piece seems too light, alter the volatility of the noise, or slow it down with increased friction. Each parameter can, of course, be explained in great detail, but in reality the best way to work with the piece is to play.\n\nThe random numbers for the piece are generated using the minter's address, meaning that what you see as a live preview will be the exact mint received.",
+            "tags": [
+              "fxparams",
+              "params",
+              "curl noise",
+              "p5js",
+              "rounding"
+            ],
+            "generatorUri": "ipfs://QmXTQkTafhk1CV5eS7Bn1kHRwWhjFc2468kwPSSfSwo7Cs",
+            "artifactUri": "ipfs://QmXTQkTafhk1CV5eS7Bn1kHRwWhjFc2468kwPSSfSwo7Cs/?fxhash=ooheJmiVeScBGpQJaQiw2Xk2L7DX4xinpEPzC9S8FPdE9cX1t4i&fxminter=tz1PwWW4u7Za75dJPquycECdKojh4TpKEHfE&fxparams=04030202010101000000040003010201401800000000000001",
+            "displayUri": "ipfs://QmWozTBrYVzeLSxXTN4EQXH5QaCiZvjiqB6wgNEyH6r4o8",
+            "thumbnailUri": "ipfs://QmUPQP3R5piG2jTbVY368Yn5iqTRM5dnJLErn8HmKEg9KS",
+            "authenticityHash": "4efbdf2680aa2aa6a8ac5525b28623de401ee1167dc02f987dcff50f12f6c508",
+            "attributes": [
+              {
+                "name": "Grid type",
+                "value": "RandomWeighted"
+              },
+              {
+                "name": "Density",
+                "value": "High"
+              },
+              {
+                "name": "Stroke weight",
+                "value": "Granulated"
+              },
+              {
+                "name": "Render mode",
+                "value": "Points"
+              },
+              {
+                "name": "Aspect ratio",
+                "value": "3:2"
+              },
+              {
+                "name": "Background",
+                "value": "Dark"
+              },
+              {
+                "name": "Colour mode",
+                "value": "Particolour"
+              },
+              {
+                "name": "Render length",
+                "value": "90 frames"
+              },
+              {
+                "name": "Noise volatility",
+                "value": "Rapid"
+              },
+              {
+                "name": "Noise accuracy",
+                "value": "Accurate"
+              },
+              {
+                "name": "Noise variability",
+                "value": "Normal"
+              },
+              {
+                "name": "Noise friction",
+                "value": "Scaled"
+              },
+              {
+                "name": "Noise granularity",
+                "value": 6
+              },
+              {
+                "name": "Granularity ratio",
+                "value": "Mostly granular"
+              }
+            ],
+            "decimals": 0,
+            "symbol": "GENTK",
+            "version": "0.2"
+          },
+          "duplicate": false,
+          "activeListing": {
+            "id": 969480,
+            "version": 1,
+            "price": 12000000,
+            "__typename": "Listing"
+          },
+          "owner": {
+            "id": "tz1PwWW4u7Za75dJPquycECdKojh4TpKEHfE",
+            "name": "1000Landz",
+            "flag": "NONE",
+            "avatarUri": "ipfs://QmaNCWMXE3UtSHaxa6xXnGghJPKr1tSuYVrTg1mahZLQEE",
+            "__typename": "User"
+          },
+          "issuer": {
+            "flag": "NONE",
+            "name": "Streaming",
+            "author": {
+              "id": "tz1VjCS2jiBTVPSEoYzJ79KkbYV5QbFJxuf3",
+              "name": "mandybrigwell",
+              "type": "REGULAR",
+              "avatarUri": "ipfs://Qme1qhZAHcqy5vEwAdPmX5jFw1hi6Ra6cXGjYTubTgtJ7c",
+              "flag": "VERIFIED",
+              "collaborators": null,
+              "__typename": "User"
+            },
+            "__typename": "GenerativeToken"
+          },
+          "__typename": "Objkt"
+        },
+        "__typename": "Listing"
+      },
+      {
+        "id": 969479,
+        "version": 1,
+        "price": 14000000,
+        "objkt": {
+          "id": "FX1-49095",
+          "version": 2,
+          "name": "Blockchain Automaton #412",
+          "slug": "blockchain-automaton-412",
+          "metadata": {
+            "name": "Blockchain Automaton #412",
+            "iterationHash": "oo88ufMZkpTxrPxb32R5x1nq47AEckQziwZn3NdadQj9u4pmygX",
+            "description": "This experimental project involves an on-chain cellular automaton. The features and cellular automaton rules are derived from the minter's address. Being the first (unto my knowledge) project on fxhash that generates the artwork completely on chain, it seemed fitting to draw inspiration from one of the first projects on fxhash, \"RGB Elementary Cellular Automaton\".\n\nWhat is this?\n\nAn experimental generative token that integrates on-chain generation, and on-chain storage of the artwork. This is accomplished using a custom smart contract. The artwork is generated using the generate_on_chain entrypoint in KT1GRFujk5m6feK7gJcqCU7ijJkFgx5JigEt, and the generated image is subsequently stored on-chain as a byte-string of pixels (row-major order) in the tokens bigmap in KT1GRFujk5m6feK7gJcqCU7ijJkFgx5JigEt.\n\nHow does this work?\n\nSmart contracts have a default entrypoint which is automatically called when XTZ is sent to the contract. By using a smart contract as the primary address, the default entrypoint will be called every time a token is minted. Of course, to prevent accounts from bypassing the fxhash contracts and sending XTZ directly to the smart contract, generating and storing the artwork on-chain, the smart contract checks that an fxhash contract is the account sending XTZ. In this smart contract, the default entrypoint immediately calls the generate_on_chain entrypoint for the sole purpose of making the generation process more apparent on indexers like tzkt.\n\nIn order to make this project compatible with fxhash, the artwork produced by the code submitted to fxhash must be identical to that which is produced by the generative algorithm within the smart contract. At the time of development, the minter's address is the only piece of information which is readily accessible via the fxhash snippet API and in the smart contract. As a result, each account can only generate a single unique artwork (this is enforced by the contract). In the future, this issue could be solved if the fxhash snippet API provided access to the iteration number, as the smart contract could also keep track of this information quite easily.\n\nConsequently, collectors who wish to collect more than one iteration must create additional accounts to mint. The tokens can then be subsequently transferred as per usual.\n\nWhy is the variations preview disabled?\n\nBecause the minter's address is the source of randomness for the generated artwork, not the hash provided by fxhash, changing the hash in the variations preview will have no effect. To see different variations of the artwork you need to modify the fxminter URL parameter in live preview mode.\n\nWhy does the mint button not work on the fxhash frontend?\n\nCurrently, the fxhash frontend has a default storage limit for mint operations that is less than what is required to store the generated image on chain. As a result, the mint button will fail on the fxhash frontend. To get around this, you can mint this token on a mini-website I created (https://blockchain-automaton.netlify.app/), or on Better Call Dev, or by injecting the transaction directly onto the blockchain.\n\nBut Why?\n\nBecause experimentation is fun.",
+            "tags": [
+              "onchain",
+              "cellular automaton",
+              "blockchain",
+              "pixelart"
+            ],
+            "generatorUri": "ipfs://Qmeb7huzBQZ5KTo2qqc48Kg5GEumYDKbXMN9UQXkD5Zz5Y",
+            "artifactUri": "ipfs://Qmeb7huzBQZ5KTo2qqc48Kg5GEumYDKbXMN9UQXkD5Zz5Y/?fxhash=oo88ufMZkpTxrPxb32R5x1nq47AEckQziwZn3NdadQj9u4pmygX&fxminter=tz1gbMAwJtWAe6rzGZsPiumETVGxDq1LghAy",
+            "displayUri": "ipfs://QmXFSYzkCxqJZXZYUUXNrGSzPkAEggaohkXvJx2x6JkKAQ",
+            "thumbnailUri": "ipfs://QmYUfs4szkoiCjS4iSyTLZMPSBiFpZ9oXeNrBaMN6c1Hiz",
+            "authenticityHash": "bc17ad2c97bd24ea7a24067f9869f6b79438e7c53a31331182c2d68358fa8f3a",
+            "attributes": [
+              {
+                "name": "mode",
+                "value": "Vertical"
+              },
+              {
+                "name": "palette",
+                "value": 7
+              },
+              {
+                "name": "size",
+                "value": "32x32"
+              }
+            ],
+            "decimals": 0,
+            "symbol": "GENTK",
+            "version": "0.2"
+          },
+          "duplicate": false,
+          "activeListing": {
+            "id": 969479,
+            "version": 1,
+            "price": 14000000,
+            "__typename": "Listing"
+          },
+          "owner": {
+            "id": "tz1gbMAwJtWAe6rzGZsPiumETVGxDq1LghAy",
+            "name": null,
+            "flag": "NONE",
+            "avatarUri": null,
+            "__typename": "User"
+          },
+          "issuer": {
+            "flag": "NONE",
+            "name": "Blockchain Automaton",
+            "author": {
+              "id": "tz1QvV3jVPWrJSdDy9ePZBnhGL8bAoQFFBPv",
+              "name": "Extracurricular Activities",
+              "type": "REGULAR",
+              "avatarUri": "ipfs://QmahpnFUbW9NWQjUzNLUxxYLszZC2eeNo5mmRPikJLYge5",
+              "flag": "VERIFIED",
+              "collaborators": null,
+              "__typename": "User"
+            },
+            "__typename": "GenerativeToken"
+          },
+          "__typename": "Objkt"
+        },
+        "__typename": "Listing"
+      },
+      {
+        "id": 969476,
+        "version": 1,
+        "price": 14000000,
+        "objkt": {
+          "id": "FX1-49142",
+          "version": 2,
+          "name": "Blockchain Automaton #455",
+          "slug": "blockchain-automaton-455",
+          "metadata": {
+            "name": "Blockchain Automaton #455",
+            "iterationHash": "onmGWgPR5HZVTZFPt7odfu2WVYbeKr2y647U1kAW98kKd5uk5pi",
+            "description": "This experimental project involves an on-chain cellular automaton. The features and cellular automaton rules are derived from the minter's address. Being the first (unto my knowledge) project on fxhash that generates the artwork completely on chain, it seemed fitting to draw inspiration from one of the first projects on fxhash, \"RGB Elementary Cellular Automaton\".\n\nWhat is this?\n\nAn experimental generative token that integrates on-chain generation, and on-chain storage of the artwork. This is accomplished using a custom smart contract. The artwork is generated using the generate_on_chain entrypoint in KT1GRFujk5m6feK7gJcqCU7ijJkFgx5JigEt, and the generated image is subsequently stored on-chain as a byte-string of pixels (row-major order) in the tokens bigmap in KT1GRFujk5m6feK7gJcqCU7ijJkFgx5JigEt.\n\nHow does this work?\n\nSmart contracts have a default entrypoint which is automatically called when XTZ is sent to the contract. By using a smart contract as the primary address, the default entrypoint will be called every time a token is minted. Of course, to prevent accounts from bypassing the fxhash contracts and sending XTZ directly to the smart contract, generating and storing the artwork on-chain, the smart contract checks that an fxhash contract is the account sending XTZ. In this smart contract, the default entrypoint immediately calls the generate_on_chain entrypoint for the sole purpose of making the generation process more apparent on indexers like tzkt.\n\nIn order to make this project compatible with fxhash, the artwork produced by the code submitted to fxhash must be identical to that which is produced by the generative algorithm within the smart contract. At the time of development, the minter's address is the only piece of information which is readily accessible via the fxhash snippet API and in the smart contract. As a result, each account can only generate a single unique artwork (this is enforced by the contract). In the future, this issue could be solved if the fxhash snippet API provided access to the iteration number, as the smart contract could also keep track of this information quite easily.\n\nConsequently, collectors who wish to collect more than one iteration must create additional accounts to mint. The tokens can then be subsequently transferred as per usual.\n\nWhy is the variations preview disabled?\n\nBecause the minter's address is the source of randomness for the generated artwork, not the hash provided by fxhash, changing the hash in the variations preview will have no effect. To see different variations of the artwork you need to modify the fxminter URL parameter in live preview mode.\n\nWhy does the mint button not work on the fxhash frontend?\n\nCurrently, the fxhash frontend has a default storage limit for mint operations that is less than what is required to store the generated image on chain. As a result, the mint button will fail on the fxhash frontend. To get around this, you can mint this token on a mini-website I created (https://blockchain-automaton.netlify.app/), or on Better Call Dev, or by injecting the transaction directly onto the blockchain.\n\nBut Why?\n\nBecause experimentation is fun.",
+            "tags": [
+              "onchain",
+              "cellular automaton",
+              "blockchain",
+              "pixelart"
+            ],
+            "generatorUri": "ipfs://Qmeb7huzBQZ5KTo2qqc48Kg5GEumYDKbXMN9UQXkD5Zz5Y",
+            "artifactUri": "ipfs://Qmeb7huzBQZ5KTo2qqc48Kg5GEumYDKbXMN9UQXkD5Zz5Y/?fxhash=onmGWgPR5HZVTZFPt7odfu2WVYbeKr2y647U1kAW98kKd5uk5pi&fxminter=tz1QCoSsTPLny7U4drzVQ2XD14rwSpjuSntJ",
+            "displayUri": "ipfs://QmViPbtsmu3a6E43EBKUmvu6He5jt51dgqJH4h9j68zzym",
+            "thumbnailUri": "ipfs://Qmb1qRHYXXqNvkaeCQwkAdjfjqeqtGNxGsTxVuKFJJzUjQ",
+            "authenticityHash": "95c5c0484c4647b34456c20c0f713e1f4f5adb5f03fef7765049364aa6aa4164",
+            "attributes": [
+              {
+                "name": "mode",
+                "value": "Horizontal"
+              },
+              {
+                "name": "palette",
+                "value": 0
+              },
+              {
+                "name": "size",
+                "value": "16x16"
+              }
+            ],
+            "decimals": 0,
+            "symbol": "GENTK",
+            "version": "0.2"
+          },
+          "duplicate": false,
+          "activeListing": {
+            "id": 969476,
+            "version": 1,
+            "price": 14000000,
+            "__typename": "Listing"
+          },
+          "owner": {
+            "id": "tz1QCoSsTPLny7U4drzVQ2XD14rwSpjuSntJ",
+            "name": null,
+            "flag": "NONE",
+            "avatarUri": null,
+            "__typename": "User"
+          },
+          "issuer": {
+            "flag": "NONE",
+            "name": "Blockchain Automaton",
+            "author": {
+              "id": "tz1QvV3jVPWrJSdDy9ePZBnhGL8bAoQFFBPv",
+              "name": "Extracurricular Activities",
+              "type": "REGULAR",
+              "avatarUri": "ipfs://QmahpnFUbW9NWQjUzNLUxxYLszZC2eeNo5mmRPikJLYge5",
+              "flag": "VERIFIED",
+              "collaborators": null,
+              "__typename": "User"
+            },
+            "__typename": "GenerativeToken"
+          },
+          "__typename": "Objkt"
+        },
+        "__typename": "Listing"
+      },
+      {
+        "id": 969475,
+        "version": 1,
+        "price": 99990000,
+        "objkt": {
+          "id": "FX0-1582424",
+          "version": 1,
+          "name": "BLOCK PARTY #242",
+          "slug": "block-party-242",
+          "metadata": {
+            "name": "BLOCK PARTY #242",
+            "iterationHash": "oo4n689vwBPPFGN82QfceesrKz9yMwpmfeZTqEH8mobEk8V3tc2",
+            "description": "A generative algorithm exploring isometric grids and recursive divisions with an emphasis on contrasting colors.\n\nA random rectange division is so simple yet creates vastly different and interesting outputs.\n\nAn isometric grid provides a unique perspective to the recursion giving each piece a certain depth and contrast.\n\nWhen does chaotic randomness become beauty and what interesting patterns may emerge?\n\nPress 's' in live mode to save image. Best viewed after save.\n\n* Original code by Matt Lehoullier with p5.js",
+            "tags": [
+              "Isometric",
+              "Grid",
+              "Recursion",
+              "p5js"
+            ],
+            "generatorUri": "ipfs://QmRFUzbEG9cnd8VHfiBoXZzqCqJUN486vPAavABRky3rTo",
+            "artifactUri": "ipfs://QmRFUzbEG9cnd8VHfiBoXZzqCqJUN486vPAavABRky3rTo?fxhash=oo4n689vwBPPFGN82QfceesrKz9yMwpmfeZTqEH8mobEk8V3tc2",
+            "displayUri": "ipfs://QmW3NcKP5VJzCb99QVtBxwp1DjrQ2PB8NPMJNWugXVvu8k",
+            "thumbnailUri": "ipfs://QmcXWVKAH9oDuvDd2kKfMWy6JeuR6FsATWcCQVduFsqBv9",
+            "authenticityHash": "d3fa15d3a8c1154fba4eb25226f8574de1b4a58499dca47cbbb0819ca7294f6f",
+            "attributes": [
+              {
+                "name": "Style",
+                "value": "Mono"
+              },
+              {
+                "name": "Palette",
+                "value": "Trampoline"
+              },
+              {
+                "name": "Size",
+                "value": "Medium"
+              },
+              {
+                "name": "Distribution",
+                "value": "Uniform"
+              },
+              {
+                "name": "Outline",
+                "value": "Black"
+              }
+            ],
+            "decimals": 0,
+            "symbol": "GENTK",
+            "version": "0.2"
+          },
+          "duplicate": false,
+          "activeListing": {
+            "id": 969475,
+            "version": 1,
+            "price": 99990000,
+            "__typename": "Listing"
+          },
+          "owner": {
+            "id": "tz1UBTA5zR9NQrBgLVA8nnhzb1wyAYXuZyUz",
+            "name": "bnell01",
+            "flag": "NONE",
+            "avatarUri": null,
+            "__typename": "User"
+          },
+          "issuer": {
+            "flag": "NONE",
+            "name": "BLOCK PARTY",
+            "author": {
+              "id": "tz1SVaPKWhrdQCfN4F7ZjCVQL4kvTCf9Bd6P",
+              "name": "Matt Lehoullier",
+              "type": "REGULAR",
+              "avatarUri": "ipfs://Qmdv7XMdEaqQ2VSpmRRh4KUNbeLuZKyUVmwEid3mEWVNV4",
+              "flag": "VERIFIED",
+              "collaborators": null,
+              "__typename": "User"
+            },
+            "__typename": "GenerativeToken"
+          },
+          "__typename": "Objkt"
+        },
+        "__typename": "Listing"
+      },
+      {
+        "id": 969474,
+        "version": 1,
+        "price": 69690000,
+        "objkt": {
+          "id": "FX0-1582426",
+          "version": 1,
+          "name": "BLOCK PARTY #244",
+          "slug": "block-party-244",
+          "metadata": {
+            "name": "BLOCK PARTY #244",
+            "iterationHash": "opDrS6ugm6QLKPnjqaxDw8TyV3mkB5Uf4EWUyHXgKQwFYtDX4Rk",
+            "description": "A generative algorithm exploring isometric grids and recursive divisions with an emphasis on contrasting colors.\n\nA random rectange division is so simple yet creates vastly different and interesting outputs.\n\nAn isometric grid provides a unique perspective to the recursion giving each piece a certain depth and contrast.\n\nWhen does chaotic randomness become beauty and what interesting patterns may emerge?\n\nPress 's' in live mode to save image. Best viewed after save.\n\n* Original code by Matt Lehoullier with p5.js",
+            "tags": [
+              "Isometric",
+              "Grid",
+              "Recursion",
+              "p5js"
+            ],
+            "generatorUri": "ipfs://QmRFUzbEG9cnd8VHfiBoXZzqCqJUN486vPAavABRky3rTo",
+            "artifactUri": "ipfs://QmRFUzbEG9cnd8VHfiBoXZzqCqJUN486vPAavABRky3rTo?fxhash=opDrS6ugm6QLKPnjqaxDw8TyV3mkB5Uf4EWUyHXgKQwFYtDX4Rk",
+            "displayUri": "ipfs://QmQvQCSMKq7tDgKD7PwhN6tbBNA2fUkym8Do8ifjdzeVER",
+            "thumbnailUri": "ipfs://QmWj14UufBJhCY35cgzQpL3FFrPYtrserzCFx2UZctLuXo",
+            "authenticityHash": "6a384aa29ba5189928641d1da5dad3383f0439754ec6186d2c97392d00164b0b",
+            "attributes": [
+              {
+                "name": "Style",
+                "value": "Assorted"
+              },
+              {
+                "name": "Palette",
+                "value": "Adventure"
+              },
+              {
+                "name": "Size",
+                "value": "Small"
+              },
+              {
+                "name": "Distribution",
+                "value": "Uniform"
+              },
+              {
+                "name": "Outline",
+                "value": "Black"
+              }
+            ],
+            "decimals": 0,
+            "symbol": "GENTK",
+            "version": "0.2"
+          },
+          "duplicate": false,
+          "activeListing": {
+            "id": 969474,
             "version": 1,
             "price": 69690000,
             "__typename": "Listing"
@@ -60,12 +1240,12 @@
           },
           "issuer": {
             "flag": "NONE",
-            "name": "COMPUTERS",
+            "name": "BLOCK PARTY",
             "author": {
-              "id": "tz1h5ggjuAGW33VPksGmpBru2B3Cn868uxsh",
-              "name": "itsgalo",
+              "id": "tz1SVaPKWhrdQCfN4F7ZjCVQL4kvTCf9Bd6P",
+              "name": "Matt Lehoullier",
               "type": "REGULAR",
-              "avatarUri": "ipfs://QmQSA6FgDoEao9j6nJ4o7VWtJyDAdp9Xugdv1M3TSx2GdZ",
+              "avatarUri": "ipfs://Qmdv7XMdEaqQ2VSpmRRh4KUNbeLuZKyUVmwEid3mEWVNV4",
               "flag": "VERIFIED",
               "collaborators": null,
               "__typename": "User"
@@ -77,345 +1257,193 @@
         "__typename": "Listing"
       },
       {
-        "id": 969468,
+        "id": 969473,
         "version": 1,
-        "price": 12340000,
+        "price": 88880000,
         "objkt": {
-          "id": "FX0-1525519",
-          "version": 1,
-          "name": "DIGITAL DISOBEDIENCE #7",
-          "slug": "digital-disobedience-7",
+          "id": "FX1-12300",
+          "version": 2,
+          "name": "Planetary #45",
+          "slug": "planetary-45",
           "metadata": {
-            "name": "DIGITAL DISOBEDIENCE #7",
-            "iterationHash": "opXrmGjJzqUwEY2PnBmw2yyhiD7Mqzzh8aFCjZNMVdvBQwTGC1t",
-            "description": "As artists, we believe it is our duty to use our skills to comment on the state of the world and the pressing issues facing humanity. Through our art, we aim to pre-empt the future and explore the potential consequences of our current actions. We use symmetry as a visual metaphor for the balance we must strive for in society, particularly in regards to human rights and the treatment of marginalized groups. In the age of technology and AI advancements, it is more important than ever to consider the impact these developments may have on our world and the diverse individuals and communities that inhabit it. Our work serves as a reminder that we must take responsibility for our actions and work towards creating a more just and equitable future for all.\n\nThis token is part of the Floor Exhibit co-curated by the NFT Museum of Newberry, SC and Fort Gallery NFT.",
+            "name": "Planetary #45",
+            "iterationHash": "ooTPcWRqd1VM2haH7ZbnEZFG5Tp6M4S8mRRyZJyR7gTT6R6eM55",
+            "description": "▪️ 42 Variables\n▪️ Features \n▪️▪️ Visual Style, System Name, Planet Name, Star Date, Planet Noise\n▪️▪️ Planet Ocean, Planet Coverage, Planet Rings, Orbital Prop\n▪️ [left mouse button] hold to rotate around [ Wide Camera ]\n▪️ [left mouse button double click] to reset the camera view [ Wide Camera ]\n▪️ [mouse scroll wheel] to zoom in and out [ Wide and Side Follow Camera ]\n▪️ [c] to switch between cameras [ Follow | Side Follow | Wide | Flythrough ]\n▪️ [a] to toggle the complete animation [ off by default ]\n▪️ [i] to toggle planet information popup [ off by default ]\n▪️ [p] to capture an image with current width and height [IPFS]\n▪️ [s] to open the image capture popup on the top right [IPFS]\n▪️▪️ On mobile tap top right of the screen to open the popup\n▪️ The piece does not stretch but instead it adjusts to the screen size and ratio\n▪️ Designed to have a strong visual impact so might not be suitable for mobile\n▪️ There's a little easter egg in the console ;)",
             "tags": [
-              "ai",
-              "ai art",
-              "antiai",
-              "anti ai",
-              "banai",
-              "ban ai",
-              "genart",
-              "grafitti",
-              "konstant",
-              "flux",
-              "konstant flux",
-              "nftmuseum",
-              "nftmuseumsc",
-              "fortgallerynft",
-              "nevglov",
-              "neville glover",
-              "the floor",
-              "flux tribe"
-            ],
-            "generatorUri": "ipfs://QmNX7TATLBSxnHEXf23YFfvZDHkW8gLc1vVcQkh5MNFKUn",
-            "artifactUri": "ipfs://QmNX7TATLBSxnHEXf23YFfvZDHkW8gLc1vVcQkh5MNFKUn?fxhash=opXrmGjJzqUwEY2PnBmw2yyhiD7Mqzzh8aFCjZNMVdvBQwTGC1t",
-            "displayUri": "ipfs://QmbfbnkoAiFvH7qCiRRjqdJuCMumu6yTVLyS7gPropHy3C",
-            "thumbnailUri": "ipfs://QmVSeGLSjgK7WDKE365YBNaXoVTJY7wxciCrFgnjX8jkyW",
-            "authenticityHash": "7bb95e1ab00d152a4d514a5df2f07bec445af6e4dc0a04c2db75f9447efb1de0",
-            "attributes": true,
-            "decimals": 0,
-            "symbol": "GENTK",
-            "version": "0.2"
-          },
-          "duplicate": false,
-          "activeListing": {
-            "id": 969468,
-            "version": 1,
-            "price": 12340000,
-            "__typename": "Listing"
-          },
-          "owner": {
-            "id": "tz1UBTA5zR9NQrBgLVA8nnhzb1wyAYXuZyUz",
-            "name": "bnell01",
-            "flag": "NONE",
-            "avatarUri": null,
-            "__typename": "User"
-          },
-          "issuer": {
-            "flag": "NONE",
-            "name": "DIGITAL DISOBEDIENCE",
-            "author": {
-              "id": "KT1X1zZKjHd3RbZbQL2u69nyEiAD2GFUJehn",
-              "name": null,
-              "type": "COLLAB_CONTRACT_V1",
-              "avatarUri": null,
-              "flag": "NONE",
-              "collaborators": [
-                {
-                  "id": "tz1SJMRU5jFee7CiH62ZREjszkK36ZSV9nTP",
-                  "name": "KONFLUX",
-                  "avatarUri": "ipfs://QmQG7dTaLVFicqza9QU6Xf22zDAKimeb9RsrF4HKib4nP4",
-                  "flag": "VERIFIED",
-                  "__typename": "User"
-                },
-                {
-                  "id": "tz1SiJbBaDPbgKf3ZnKicgzGxiHipTUYu8bV",
-                  "name": "Nevglov",
-                  "avatarUri": "ipfs://QmbLmwCw2LBuuRjai7Uns61AZnvVTGW7AcLJXHxD45x3Gs",
-                  "flag": "NONE",
-                  "__typename": "User"
-                },
-                {
-                  "id": "tz1QCdJJCDsF4Bgmu76kFbuGW8UCCNM2t7wJ",
-                  "name": "NFTMuseumSC",
-                  "avatarUri": "ipfs://QmSrcgaW1WzEtkY5cCgtPJQQBcYsHaCSW736Mm6uKndqkw",
-                  "flag": "VERIFIED",
-                  "__typename": "User"
-                },
-                {
-                  "id": "tz1KqWXcYeqPKsxKEbMEnZKSGmnB8EhPHdYJ",
-                  "name": "Fort Gallery NFT",
-                  "avatarUri": "ipfs://QmY2HssVyDJxs2bdHrfpih6Yp1JYratoTDux8JDVsCXb6p",
-                  "flag": "VERIFIED",
-                  "__typename": "User"
-                }
-              ],
-              "__typename": "User"
-            },
-            "__typename": "GenerativeToken"
-          },
-          "__typename": "Objkt"
-        },
-        "__typename": "Listing"
-      },
-      {
-        "id": 969467,
-        "version": 1,
-        "price": 10600000,
-        "objkt": {
-          "id": "FX0-1561327",
-          "version": 1,
-          "name": "Organic Oeuvre #106",
-          "slug": "organic-oeuvre-106",
-          "metadata": {
-            "name": "Organic Oeuvre #106",
-            "iterationHash": "opR2J12eZDsL5EVoML2Ku8BvMMmSf9DFfS7V1TLyrGTnYbgCN2z",
-            "description": "First project on FXHash.\n\nEntirely coded in p5js.\n\nStochastic strokes while ensuring randomness is consistent; uses 500+ color palettes.\n\nThe pieces created by this project are dynamic and change based on the size of the viewing window (\"organic\"), making each viewing experience unique. \n\nIn case you find a bug, please consider it an easter egg! Write to me on twitter if you think it's a bug and I'll send another couple your way from my reserved :)\n\nPress s to save the image in fullscreen.",
-            "tags": [
-              "random psjs generative"
-            ],
-            "generatorUri": "ipfs://QmeoSMWKLYAk11CXjtYKKYfYZTxzB9Z4Ckn5KFSs816Nob",
-            "artifactUri": "ipfs://QmeoSMWKLYAk11CXjtYKKYfYZTxzB9Z4Ckn5KFSs816Nob?fxhash=opR2J12eZDsL5EVoML2Ku8BvMMmSf9DFfS7V1TLyrGTnYbgCN2z",
-            "displayUri": "ipfs://Qmb6QEmATQdFkCERPaMuP8452bHrVdNqjTVTWajs3i7Ew2",
-            "thumbnailUri": "ipfs://QmPzr1jY5pY7KHoiz3GHx5f2cpYC3YwnjZskT7ztG6Db7u",
-            "authenticityHash": "6576329810e86e153a9c70f1654cb6e2dfcdc40e666946824968433a31e00289",
-            "attributes": true,
-            "decimals": 0,
-            "symbol": "GENTK",
-            "version": "0.2"
-          },
-          "duplicate": false,
-          "activeListing": {
-            "id": 969467,
-            "version": 1,
-            "price": 10600000,
-            "__typename": "Listing"
-          },
-          "owner": {
-            "id": "tz1UBTA5zR9NQrBgLVA8nnhzb1wyAYXuZyUz",
-            "name": "bnell01",
-            "flag": "NONE",
-            "avatarUri": null,
-            "__typename": "User"
-          },
-          "issuer": {
-            "flag": "NONE",
-            "name": "Organic Oeuvre",
-            "author": {
-              "id": "tz1ZgYi3qUbN99xEhqSZfdwuwxZwAdR5fT75",
-              "name": "Pixel Symphony",
-              "type": "REGULAR",
-              "avatarUri": "ipfs://QmNVhcsgWVDP2NtnxQYTbe8VsoaYt5KK3WodizhCJjyQCR",
-              "flag": "NONE",
-              "collaborators": null,
-              "__typename": "User"
-            },
-            "__typename": "GenerativeToken"
-          },
-          "__typename": "Objkt"
-        },
-        "__typename": "Listing"
-      },
-      {
-        "id": 969466,
-        "version": 1,
-        "price": 10700000,
-        "objkt": {
-          "id": "FX0-1561329",
-          "version": 1,
-          "name": "Organic Oeuvre #107",
-          "slug": "organic-oeuvre-107",
-          "metadata": {
-            "name": "Organic Oeuvre #107",
-            "iterationHash": "opafEe7MYWh6KDCLMJCsU65HMpcveAF5awtjyqRvoexYJEErzkY",
-            "description": "First project on FXHash.\n\nEntirely coded in p5js.\n\nStochastic strokes while ensuring randomness is consistent; uses 500+ color palettes.\n\nThe pieces created by this project are dynamic and change based on the size of the viewing window (\"organic\"), making each viewing experience unique. \n\nIn case you find a bug, please consider it an easter egg! Write to me on twitter if you think it's a bug and I'll send another couple your way from my reserved :)\n\nPress s to save the image in fullscreen.",
-            "tags": [
-              "random psjs generative"
-            ],
-            "generatorUri": "ipfs://QmeoSMWKLYAk11CXjtYKKYfYZTxzB9Z4Ckn5KFSs816Nob",
-            "artifactUri": "ipfs://QmeoSMWKLYAk11CXjtYKKYfYZTxzB9Z4Ckn5KFSs816Nob?fxhash=opafEe7MYWh6KDCLMJCsU65HMpcveAF5awtjyqRvoexYJEErzkY",
-            "displayUri": "ipfs://QmQ4V8rTmyAaGBoZKU7bqsVNnratkiCbw2eYJZpfCB5ijn",
-            "thumbnailUri": "ipfs://QmZ6KKuYQSV8YgYNX6x3YZNZuegNUN9PBMB9ghyT6q6qT3",
-            "authenticityHash": "4cfa05de635c2288638dde698b77848557534b3cf5c347ccf4ec62275f1c6538",
-            "attributes": true,
-            "decimals": 0,
-            "symbol": "GENTK",
-            "version": "0.2"
-          },
-          "duplicate": false,
-          "activeListing": {
-            "id": 969466,
-            "version": 1,
-            "price": 10700000,
-            "__typename": "Listing"
-          },
-          "owner": {
-            "id": "tz1UBTA5zR9NQrBgLVA8nnhzb1wyAYXuZyUz",
-            "name": "bnell01",
-            "flag": "NONE",
-            "avatarUri": null,
-            "__typename": "User"
-          },
-          "issuer": {
-            "flag": "NONE",
-            "name": "Organic Oeuvre",
-            "author": {
-              "id": "tz1ZgYi3qUbN99xEhqSZfdwuwxZwAdR5fT75",
-              "name": "Pixel Symphony",
-              "type": "REGULAR",
-              "avatarUri": "ipfs://QmNVhcsgWVDP2NtnxQYTbe8VsoaYt5KK3WodizhCJjyQCR",
-              "flag": "NONE",
-              "collaborators": null,
-              "__typename": "User"
-            },
-            "__typename": "GenerativeToken"
-          },
-          "__typename": "Objkt"
-        },
-        "__typename": "Listing"
-      },
-      {
-        "id": 969465,
-        "version": 1,
-        "price": 17000000,
-        "objkt": {
-          "id": "FX0-1561848",
-          "version": 1,
-          "name": "This is Not an Image #170",
-          "slug": "this-is-not-an-image-170",
-          "metadata": {
-            "name": "This is Not an Image #170",
-            "iterationHash": "onoL9FX2TQL7aQtNmSNvxMA15ivTKVCi4xsLU45yBPT6jcTzLea",
-            "description": "When you see a piece of generative art, you are looking at a meta-message, an image whose value is not of form but of subtext. These images are a collision and reformation of ideas and conceptual histories between artists Nudoru and Sub Net. This dichotomy reminds us of the painting \"The Treachery of Images\" by René Magritte, where he paints a picture of a pipe but states underneath, \"ceci n'est pas une pipe\" (This is not a pipe), meaning that there is a schism between what a thing is and what it represents. What is unique about these works go beyond the images and text combinations themselves. It is about how images create new thoughts not by not pretending to be completely novel but that builds upon one another in a system of complex synthesis.\n\nThis token is part of the Floor Exhibit co-curated by the NFT Museum of Newberry, SC and Fort Gallery NFT.\n\nViewing in desktop Chrome is recommended for the best results.\nPress' p' to pause/resume.\nPress' s' to save a screenshot. The image size is 2357 × 3000px.\n\nCopyright (c) 2023 Matt Perkins (@nudoru) and Sub Net (@whoissubnet). Licensed under CC BY-NC-SA 4.0, see LICENSE.txt for more information.",
-            "tags": [
-              "thefloor",
-              "the floor",
+              "interactive",
               "animated",
-              "noise",
-              "glitch",
-              "collab",
-              "collaboration",
-              "nudoru",
-              "whoissubnet",
-              "sub net",
-              "nftmuseumsc",
-              "fortgalleryftp"
+              "greyscale",
+              "monochrome",
+              "shapes",
+              "edges",
+              "strong",
+              "black and white",
+              "greyscale",
+              "space",
+              "planets",
+              "planetary",
+              "orbit",
+              "sci-fi",
+              "vectorz3r0"
             ],
-            "generatorUri": "ipfs://QmdGXZThrctD3VGyUCMaX3DdPr9jJdnpGTNb8efSadziJH",
-            "artifactUri": "ipfs://QmdGXZThrctD3VGyUCMaX3DdPr9jJdnpGTNb8efSadziJH?fxhash=onoL9FX2TQL7aQtNmSNvxMA15ivTKVCi4xsLU45yBPT6jcTzLea",
-            "displayUri": "ipfs://QmX3CURtEY52tRm8HRT224vskxhEDGHysVuW6hjxK6Fv68",
-            "thumbnailUri": "ipfs://QmbwTaLeMkCiFpPQisHH7fFCDtJgXaxLyiVtaZzEfohkzr",
-            "authenticityHash": "64a395d268fb0dceb75fc3f4660bed8bd45e18fc8de0a81ecc6516b659be3014",
+            "generatorUri": "ipfs://QmV5AmvqfgMw1Addjz2SyXJpm3nZNKeSvWVjxRNW7AQQzU",
+            "artifactUri": "ipfs://QmV5AmvqfgMw1Addjz2SyXJpm3nZNKeSvWVjxRNW7AQQzU/?fxhash=ooTPcWRqd1VM2haH7ZbnEZFG5Tp6M4S8mRRyZJyR7gTT6R6eM55",
+            "displayUri": "ipfs://QmUiuXZno1wK4SjSafQvvadj9MhygZJETdKmckW3WxTZMq",
+            "thumbnailUri": "ipfs://QmatTs8swe1CnSJvdbiYZLJdQFfYeqASrZGFrxQFmHfB6W",
+            "authenticityHash": "a821fc0dd08e0d94a5a5ffc0ccc5dc158d0023476462b5a13c029719d4767cf8",
             "attributes": [
               {
-                "name": "Pixel width",
-                "value": 6
+                "name": "Visual Style",
+                "value": "Bold"
               },
               {
-                "name": "Pixel height",
-                "value": 9
+                "name": "System Name",
+                "value": "Rana Union"
               },
               {
-                "name": "Offscreen update frequency",
-                "value": 260
+                "name": "Planet Name",
+                "value": "Ran-1621"
               },
               {
-                "name": "Round pixels",
-                "value": false
+                "name": "Star Date",
+                "value": "3111.08.04"
               },
               {
-                "name": "Fracture lines chance",
-                "value": 750
+                "name": "Planet Noise",
+                "value": "Fractal"
               },
               {
-                "name": "Noise Z time step",
-                "value": 10
+                "name": "Planet Extrusion",
+                "value": "Inward"
               },
               {
-                "name": "Noise X Damping",
-                "value": 0.5
+                "name": "Planet Ocean",
+                "value": "No"
               },
               {
-                "name": "Noise Y Damping",
-                "value": 0.75
+                "name": "Planet Coverage",
+                "value": "Shield"
               },
               {
-                "name": "Image pixel size",
-                "value": 19
+                "name": "Planet Rings",
+                "value": "None"
               },
               {
-                "name": "Image collection",
-                "value": 2
+                "name": "Orbital Prop",
+                "value": "Capsule"
+              }
+            ],
+            "decimals": 0,
+            "symbol": "GENTK",
+            "version": "0.2"
+          },
+          "duplicate": false,
+          "activeListing": {
+            "id": 969473,
+            "version": 1,
+            "price": 88880000,
+            "__typename": "Listing"
+          },
+          "owner": {
+            "id": "tz1UBTA5zR9NQrBgLVA8nnhzb1wyAYXuZyUz",
+            "name": "bnell01",
+            "flag": "NONE",
+            "avatarUri": null,
+            "__typename": "User"
+          },
+          "issuer": {
+            "flag": "NONE",
+            "name": "Planetary",
+            "author": {
+              "id": "tz1SrA7UpvzPmxp6NymuzDzaRfxDSJaz6ebF",
+              "name": "vectorz3r0",
+              "type": "REGULAR",
+              "avatarUri": "ipfs://QmdeUpNJEedQGFHr73xrp1oNdV4X1mKaNuT5hoRoemJHp4",
+              "flag": "VERIFIED",
+              "collaborators": null,
+              "__typename": "User"
+            },
+            "__typename": "GenerativeToken"
+          },
+          "__typename": "Objkt"
+        },
+        "__typename": "Listing"
+      },
+      {
+        "id": 969472,
+        "version": 1,
+        "price": 88880000,
+        "objkt": {
+          "id": "FX1-11993",
+          "version": 2,
+          "name": "Planetary #41",
+          "slug": "planetary-41",
+          "metadata": {
+            "name": "Planetary #41",
+            "iterationHash": "oo98R5iot9AYZWHiFqSuH67bCbWqDYK7zZbfW23nEkWQhwmGiFJ",
+            "description": "▪️ 42 Variables\n▪️ Features \n▪️▪️ Visual Style, System Name, Planet Name, Star Date, Planet Noise\n▪️▪️ Planet Ocean, Planet Coverage, Planet Rings, Orbital Prop\n▪️ [left mouse button] hold to rotate around [ Wide Camera ]\n▪️ [left mouse button double click] to reset the camera view [ Wide Camera ]\n▪️ [mouse scroll wheel] to zoom in and out [ Wide and Side Follow Camera ]\n▪️ [c] to switch between cameras [ Follow | Side Follow | Wide | Flythrough ]\n▪️ [a] to toggle the complete animation [ off by default ]\n▪️ [i] to toggle planet information popup [ off by default ]\n▪️ [p] to capture an image with current width and height [IPFS]\n▪️ [s] to open the image capture popup on the top right [IPFS]\n▪️▪️ On mobile tap top right of the screen to open the popup\n▪️ The piece does not stretch but instead it adjusts to the screen size and ratio\n▪️ Designed to have a strong visual impact so might not be suitable for mobile\n▪️ There's a little easter egg in the console ;)",
+            "tags": [
+              "interactive",
+              "animated",
+              "greyscale",
+              "monochrome",
+              "shapes",
+              "edges",
+              "strong",
+              "black and white",
+              "greyscale",
+              "space",
+              "planets",
+              "planetary",
+              "orbit",
+              "sci-fi",
+              "vectorz3r0"
+            ],
+            "generatorUri": "ipfs://QmV5AmvqfgMw1Addjz2SyXJpm3nZNKeSvWVjxRNW7AQQzU",
+            "artifactUri": "ipfs://QmV5AmvqfgMw1Addjz2SyXJpm3nZNKeSvWVjxRNW7AQQzU/?fxhash=oo98R5iot9AYZWHiFqSuH67bCbWqDYK7zZbfW23nEkWQhwmGiFJ",
+            "displayUri": "ipfs://QmVxCqMRqzD2oxxbRvjD3yEXU61KqMuhgZ9ZCp74B6rp1q",
+            "thumbnailUri": "ipfs://QmTUGor8m4WCxXFSY6smAFp2fKzRuUzTZNiajhsxXEj5Wq",
+            "authenticityHash": "df6b8c9a60a1b438a20e61f9de3fee5f266a83bdd034c1a297c4f5f3c3c47158",
+            "attributes": [
+              {
+                "name": "Visual Style",
+                "value": "Bold"
               },
               {
-                "name": "Num images to use",
-                "value": 8
+                "name": "System Name",
+                "value": "Xiphias Sphere"
               },
               {
-                "name": "Image columns",
-                "value": 3
+                "name": "Planet Name",
+                "value": "Xip-2887"
               },
               {
-                "name": "Image rows",
+                "name": "Star Date",
+                "value": "3243.01.10"
+              },
+              {
+                "name": "Planet Noise",
+                "value": "Fractal"
+              },
+              {
+                "name": "Planet Extrusion",
+                "value": "Inward"
+              },
+              {
+                "name": "Planet Ocean",
+                "value": "No"
+              },
+              {
+                "name": "Planet Coverage",
+                "value": "Atmosphere"
+              },
+              {
+                "name": "Planet Rings",
                 "value": 1
               },
               {
-                "name": "Image pixel shape",
-                "value": "Circle"
-              },
-              {
-                "name": "Phrase",
-                "value": "The metaphor is not the material."
-              },
-              {
-                "name": "Phrase word 1",
-                "value": "metaphor"
-              },
-              {
-                "name": "Phrase word join",
-                "value": "is not"
-              },
-              {
-                "name": "Phrase word 2",
-                "value": "material"
-              },
-              {
-                "name": "Phrase location",
-                "value": "bottom right"
-              },
-              {
-                "name": "Pixel angele on noise",
-                "value": "Yes"
-              },
-              {
-                "name": "Monochrome",
-                "value": "No"
-              },
-              {
-                "name": "Palette",
-                "value": 3
+                "name": "Orbital Prop",
+                "value": "Satellite"
               }
             ],
             "decimals": 0,
@@ -424,9 +1452,9 @@
           },
           "duplicate": false,
           "activeListing": {
-            "id": 969465,
+            "id": 969472,
             "version": 1,
-            "price": 17000000,
+            "price": 88880000,
             "__typename": "Listing"
           },
           "owner": {
@@ -438,43 +1466,14 @@
           },
           "issuer": {
             "flag": "NONE",
-            "name": "This is Not an Image",
+            "name": "Planetary",
             "author": {
-              "id": "KT1JkcPVQzHhp6q9TKf7nNAB8A3EbcP3is5u",
-              "name": null,
-              "type": "COLLAB_CONTRACT_V1",
-              "avatarUri": null,
-              "flag": "NONE",
-              "collaborators": [
-                {
-                  "id": "tz1e45WFwPjo1fJAn4KP8B9HGMzVvuXSQ93T",
-                  "name": "SubNet",
-                  "avatarUri": "ipfs://QmQRZjhM8YbWnnHerFoMYEdP8wpZ3myvuchJQXS63o8ZAt",
-                  "flag": "NONE",
-                  "__typename": "User"
-                },
-                {
-                  "id": "tz1QCdJJCDsF4Bgmu76kFbuGW8UCCNM2t7wJ",
-                  "name": "NFTMuseumSC",
-                  "avatarUri": "ipfs://QmSrcgaW1WzEtkY5cCgtPJQQBcYsHaCSW736Mm6uKndqkw",
-                  "flag": "VERIFIED",
-                  "__typename": "User"
-                },
-                {
-                  "id": "tz1hf7a8ueUyHvjAZ4VhxUGAnGfhvTmnffyw",
-                  "name": "nudoru",
-                  "avatarUri": "ipfs://QmbjS3S4kwnmkvfK9VKJnwpZQxH8uV4a4gaG8hXYcBGeHT",
-                  "flag": "VERIFIED",
-                  "__typename": "User"
-                },
-                {
-                  "id": "tz1KqWXcYeqPKsxKEbMEnZKSGmnB8EhPHdYJ",
-                  "name": "Fort Gallery NFT",
-                  "avatarUri": "ipfs://QmY2HssVyDJxs2bdHrfpih6Yp1JYratoTDux8JDVsCXb6p",
-                  "flag": "VERIFIED",
-                  "__typename": "User"
-                }
-              ],
+              "id": "tz1SrA7UpvzPmxp6NymuzDzaRfxDSJaz6ebF",
+              "name": "vectorz3r0",
+              "type": "REGULAR",
+              "avatarUri": "ipfs://QmdeUpNJEedQGFHr73xrp1oNdV4X1mKaNuT5hoRoemJHp4",
+              "flag": "VERIFIED",
+              "collaborators": null,
               "__typename": "User"
             },
             "__typename": "GenerativeToken"
@@ -484,102 +1483,70 @@
         "__typename": "Listing"
       },
       {
-        "id": 969464,
+        "id": 969471,
         "version": 1,
-        "price": 150000000,
+        "price": 7100000,
         "objkt": {
-          "id": "FX1-47666",
-          "version": 2,
-          "name": "🌸🌍💮🌏🏵️🌎🌺 #85",
-          "slug": "85-f5ba6cfa-ec1b-47bf-8df6-5ea7504d3fb0",
+          "id": "FX0-1463674",
+          "version": 1,
+          "name": "Afterlife #71",
+          "slug": "afterlife-71",
           "metadata": {
-            "name": "🌸🌍💮🌏🏵️🌎🌺 #85",
-            "iterationHash": "onucV6XQ1UGv4E2PP9PH8SsiHbbiAUEVg9PBRHPyoMahaoPkWuM",
-            "description": "2023",
+            "name": "Afterlife #71",
+            "iterationHash": "ooD7vLs7jEX9CBCwnQYftAuikZ5qRetBGHckLmR2g5ZkwqvgDZK",
+            "description": "I feel like my files have been corrupted, in this mess I can't find what's missing.\n\nLike a puzzle, I try to fit my memories together to make me feel alive again.\n\n--------------------------------------------------------\nFeatures:\n\"Size\": Small, Large\n\"Shadow\": False, True\n\"Palette\": 17 palettes with countless possibilities in each one\n\"Ball Grid Array\": False, True\n\"Stroke\": No Stroke, Black, Colorful\n\"Angle\": False, True\n\"Memory Density\": High, Low\n\"Irregular Memories\": False, True\n\n--------------------------------------------------------\nConstrols in live mode:\nOn desktop: Press 's' to save as PNG (2934x3894)\nOn mobile: Touch the screen to save as PNG (2934x3894)\n\nArtwork created with p5.js and love.\nOctober-November 2022\n\nCC BY-NC-SA 4.0 License",
             "tags": [
               "p5js",
-              "chroma",
-              "geometric.js"
+              "javascript"
             ],
-            "generatorUri": "ipfs://QmZq4SqAxBDrYPU8Ckjo1EFRnXdAKcwGaigjpdoNpL6XYQ",
-            "artifactUri": "ipfs://QmZq4SqAxBDrYPU8Ckjo1EFRnXdAKcwGaigjpdoNpL6XYQ/?fxhash=onucV6XQ1UGv4E2PP9PH8SsiHbbiAUEVg9PBRHPyoMahaoPkWuM&fxminter=tz1YnNFJygJXoCXMDebgj3dK4zozr1ZfxNWw",
-            "displayUri": "ipfs://QmUoTyYZrbwmsfaxSEMXc94ACDeWmddsma1E3pLcePAJw3",
-            "thumbnailUri": "ipfs://Qmdcukjf2McYZHN9nPUagTfR2Zcfzzv7WughjFRGyfX6GU",
-            "authenticityHash": "45e3e92680e5999e62c11b8bbc37e15d8c637153b5b3c78a318acf7a304b7463",
-            "attributes": true,
+            "generatorUri": "ipfs://QmPfdpbBqpV7BJk7B7wvzA8kQQmyM8pdA4RQpsAgDbQEWb",
+            "artifactUri": "ipfs://QmPfdpbBqpV7BJk7B7wvzA8kQQmyM8pdA4RQpsAgDbQEWb?fxhash=ooD7vLs7jEX9CBCwnQYftAuikZ5qRetBGHckLmR2g5ZkwqvgDZK",
+            "displayUri": "ipfs://QmWwoMQP781i9Lh6y2CDDtkdY9fDdfBEhshtJq2vse41Qz",
+            "thumbnailUri": "ipfs://Qmbg22eqiRvnLhSuN2M9xLH5ZMoCUxB5AivbGtoYNYfc7f",
+            "authenticityHash": "9359a2ace131030eae484d7bd8ebba9061a09860d5fd0d8be2095ce420a4d0cf",
+            "attributes": [
+              {
+                "name": "Size",
+                "value": "Large"
+              },
+              {
+                "name": "Shadow",
+                "value": false
+              },
+              {
+                "name": "Palette",
+                "value": "Nitrogen"
+              },
+              {
+                "name": "Ball Grid Array",
+                "value": true
+              },
+              {
+                "name": "Stroke",
+                "value": "Colorful"
+              },
+              {
+                "name": "Angle",
+                "value": true
+              },
+              {
+                "name": "Memory Density",
+                "value": "High"
+              },
+              {
+                "name": "Irregular Memories",
+                "value": true
+              }
+            ],
             "decimals": 0,
             "symbol": "GENTK",
             "version": "0.2"
           },
           "duplicate": false,
           "activeListing": {
-            "id": 969464,
+            "id": 969471,
             "version": 1,
-            "price": 150000000,
-            "__typename": "Listing"
-          },
-          "owner": {
-            "id": "tz1YnNFJygJXoCXMDebgj3dK4zozr1ZfxNWw",
-            "name": "Lollieverbiest.tez",
-            "flag": "NONE",
-            "avatarUri": null,
-            "__typename": "User"
-          },
-          "issuer": {
-            "flag": "NONE",
-            "name": "🌸🌍💮🌏🏵️🌎🌺",
-            "author": {
-              "id": "tz1aDZAWqvQ3KekbwA5fPHSJZiPkfpR2gmQ9",
-              "name": "OCM#5965",
-              "type": "REGULAR",
-              "avatarUri": "ipfs://QmPcn8SaNdG2Vznt6XPYB7RauKCCy58kUFakyUWpHMpfqR",
-              "flag": "NONE",
-              "collaborators": null,
-              "__typename": "User"
-            },
-            "__typename": "GenerativeToken"
-          },
-          "__typename": "Objkt"
-        },
-        "__typename": "Listing"
-      },
-      {
-        "id": 969463,
-        "version": 1,
-        "price": 333330000,
-        "objkt": {
-          "id": "FX1-2565",
-          "version": 2,
-          "name": "Insight of Architect #5",
-          "slug": "insight-of-architect-5",
-          "metadata": {
-            "name": "Insight of Architect #5",
-            "iterationHash": "onjviYX2ZteFNHk24isKVgG1Fuh55UNqtMijw3Sm4wifWpLUwQK",
-            "description": "The insight that came during the work captures and absorbs completely, tightens more and more until the work is completed. It is at such moments that ideal works of art, high technologies are born, scientific breakthroughs are carried out. And it is people who are passionate about their work who will be able to rotate this world with their genius. It is they who allow us to bring the future closer - beautiful and limitless.\n\nLet this work find its dreamer and slightly move the world for the better\n\n---\nThere are a lot of amazing generations in this work, try to find your own\n\nRare: \"black and white\"\n\nWhen creating the work, images, shaders, webgl were not used. 100% code, p5js\n---",
-            "tags": [
-              "microchips",
-              "city",
-              "cities",
-              "architecture",
-              "sci-fi",
-              "blueprint",
-              "valeenglx"
-            ],
-            "generatorUri": "ipfs://QmRp4rXMxxvDTD7CbuN29TkZoPiMaeozfxas8P6VgQqe8o",
-            "artifactUri": "ipfs://QmRp4rXMxxvDTD7CbuN29TkZoPiMaeozfxas8P6VgQqe8o/?fxhash=onjviYX2ZteFNHk24isKVgG1Fuh55UNqtMijw3Sm4wifWpLUwQK&fxparams=0040340000000000004034000000000000406320000000000040000000000000000101",
-            "displayUri": "ipfs://QmWUdYb8daw2QLvxHbBGrHXB9syvJwvhnJS6c7Q15y4HzT",
-            "thumbnailUri": "ipfs://QmbRGsfxbCbJYBNZZrWnv1HrkygHuYtpUjhckhb2LQrrUv",
-            "authenticityHash": "4350386bdd0d1187f13242be44058c93e8247f4388707f4e79f970bac0282f42",
-            "attributes": true,
-            "decimals": 0,
-            "symbol": "GENTK",
-            "version": "0.2"
-          },
-          "duplicate": false,
-          "activeListing": {
-            "id": 969463,
-            "version": 1,
-            "price": 333330000,
+            "price": 7100000,
             "__typename": "Listing"
           },
           "owner": {
@@ -591,12 +1558,12 @@
           },
           "issuer": {
             "flag": "NONE",
-            "name": "Insight of Architect",
+            "name": "Afterlife",
             "author": {
-              "id": "tz1i9tsuekNFp8VsAu6xEyet16yb7t9b4PZP",
-              "name": "ValeenGLX",
+              "id": "tz1cmN3L3SUkU19WecfEx7EKxgvYcLHg5tmU",
+              "name": "Tendenzy",
               "type": "REGULAR",
-              "avatarUri": "ipfs://QmVWY1u7mn9X8erNrsRJv48rX2e1vbVezscVjqoTELrxow",
+              "avatarUri": "ipfs://QmTspAit692XfmzSLdDDkSvzFjXCjLYNo1dyFNppkPZFMv",
               "flag": "VERIFIED",
               "collaborators": null,
               "__typename": "User"
@@ -608,931 +1575,95 @@
         "__typename": "Listing"
       },
       {
-        "id": 969462,
+        "id": 969470,
         "version": 1,
-        "price": 28000000,
+        "price": 123450000,
         "objkt": {
-          "id": "FX1-49096",
-          "version": 2,
-          "name": "Blockchain Automaton #413",
-          "slug": "blockchain-automaton-413",
+          "id": "FX0-11878",
+          "version": 0,
+          "name": "Glipsian Early Warning Collision Detection #30",
+          "slug": "glipsian-early-warning-collision-detection-30",
           "metadata": {
-            "name": "[WAITING TO BE SIGNED]",
-            "description": "This Gentk is waiting to be signed by Fxhash Signer module",
-            "artifactUri": "ipfs://QmdGV3UqJqX4v5x9nFcDYeekCEAm3SDXUG5SHdjKQKn4Pe",
-            "displayUri": "ipfs://QmYwSwa5hP4346GqD7hAjutwJSmeYTdiLQ7Wec2C7Cez1D",
-            "thumbnailUri": "ipfs://QmbvEAn7FLMeYBDroYwBP8qWc3d3VVWbk19tTB83LCMB5S",
-            "symbol": "GENTK",
-            "decimals": 0
-          },
-          "duplicate": false,
-          "activeListing": {
-            "id": 969462,
-            "version": 1,
-            "price": 28000000,
-            "__typename": "Listing"
-          },
-          "owner": {
-            "id": "tz1ZGNZqmzwBt2DrYUrX5xorMrCpagd4Q5j2",
-            "name": null,
-            "flag": "NONE",
-            "avatarUri": null,
-            "__typename": "User"
-          },
-          "issuer": {
-            "flag": "NONE",
-            "name": "Blockchain Automaton",
-            "author": {
-              "id": "tz1QvV3jVPWrJSdDy9ePZBnhGL8bAoQFFBPv",
-              "name": "Extracurricular Activities",
-              "type": "REGULAR",
-              "avatarUri": "ipfs://QmahpnFUbW9NWQjUzNLUxxYLszZC2eeNo5mmRPikJLYge5",
-              "flag": "VERIFIED",
-              "collaborators": null,
-              "__typename": "User"
-            },
-            "__typename": "GenerativeToken"
-          },
-          "__typename": "Objkt"
-        },
-        "__typename": "Listing"
-      },
-      {
-        "id": 969461,
-        "version": 1,
-        "price": 18000000,
-        "objkt": {
-          "id": "FX1-49136",
-          "version": 2,
-          "name": "Blockchain Automaton #450",
-          "slug": "blockchain-automaton-450",
-          "metadata": {
-            "name": "[WAITING TO BE SIGNED]",
-            "description": "This Gentk is waiting to be signed by Fxhash Signer module",
-            "artifactUri": "ipfs://QmdGV3UqJqX4v5x9nFcDYeekCEAm3SDXUG5SHdjKQKn4Pe",
-            "displayUri": "ipfs://QmYwSwa5hP4346GqD7hAjutwJSmeYTdiLQ7Wec2C7Cez1D",
-            "thumbnailUri": "ipfs://QmbvEAn7FLMeYBDroYwBP8qWc3d3VVWbk19tTB83LCMB5S",
-            "symbol": "GENTK",
-            "decimals": 0
-          },
-          "duplicate": false,
-          "activeListing": {
-            "id": 969461,
-            "version": 1,
-            "price": 18000000,
-            "__typename": "Listing"
-          },
-          "owner": {
-            "id": "tz1YVHQFRbmDN3LNdbFzPrSvmBYR7VdYKce8",
-            "name": null,
-            "flag": "NONE",
-            "avatarUri": null,
-            "__typename": "User"
-          },
-          "issuer": {
-            "flag": "NONE",
-            "name": "Blockchain Automaton",
-            "author": {
-              "id": "tz1QvV3jVPWrJSdDy9ePZBnhGL8bAoQFFBPv",
-              "name": "Extracurricular Activities",
-              "type": "REGULAR",
-              "avatarUri": "ipfs://QmahpnFUbW9NWQjUzNLUxxYLszZC2eeNo5mmRPikJLYge5",
-              "flag": "VERIFIED",
-              "collaborators": null,
-              "__typename": "User"
-            },
-            "__typename": "GenerativeToken"
-          },
-          "__typename": "Objkt"
-        },
-        "__typename": "Listing"
-      },
-      {
-        "id": 969459,
-        "version": 1,
-        "price": 17000000,
-        "objkt": {
-          "id": "FX1-49106",
-          "version": 2,
-          "name": "Blockchain Automaton #421",
-          "slug": "blockchain-automaton-421",
-          "metadata": {
-            "name": "[WAITING TO BE SIGNED]",
-            "description": "This Gentk is waiting to be signed by Fxhash Signer module",
-            "artifactUri": "ipfs://QmdGV3UqJqX4v5x9nFcDYeekCEAm3SDXUG5SHdjKQKn4Pe",
-            "displayUri": "ipfs://QmYwSwa5hP4346GqD7hAjutwJSmeYTdiLQ7Wec2C7Cez1D",
-            "thumbnailUri": "ipfs://QmbvEAn7FLMeYBDroYwBP8qWc3d3VVWbk19tTB83LCMB5S",
-            "symbol": "GENTK",
-            "decimals": 0
-          },
-          "duplicate": false,
-          "activeListing": {
-            "id": 969459,
-            "version": 1,
-            "price": 17000000,
-            "__typename": "Listing"
-          },
-          "owner": {
-            "id": "tz1cFSHZtVxwKHu7Tg2Km9MeVY5Xxfe7ZY1f",
-            "name": null,
-            "flag": "NONE",
-            "avatarUri": null,
-            "__typename": "User"
-          },
-          "issuer": {
-            "flag": "NONE",
-            "name": "Blockchain Automaton",
-            "author": {
-              "id": "tz1QvV3jVPWrJSdDy9ePZBnhGL8bAoQFFBPv",
-              "name": "Extracurricular Activities",
-              "type": "REGULAR",
-              "avatarUri": "ipfs://QmahpnFUbW9NWQjUzNLUxxYLszZC2eeNo5mmRPikJLYge5",
-              "flag": "VERIFIED",
-              "collaborators": null,
-              "__typename": "User"
-            },
-            "__typename": "GenerativeToken"
-          },
-          "__typename": "Objkt"
-        },
-        "__typename": "Listing"
-      },
-      {
-        "id": 969458,
-        "version": 1,
-        "price": 22000000,
-        "objkt": {
-          "id": "FX1-49103",
-          "version": 2,
-          "name": "Blockchain Automaton #419",
-          "slug": "blockchain-automaton-419",
-          "metadata": {
-            "name": "[WAITING TO BE SIGNED]",
-            "description": "This Gentk is waiting to be signed by Fxhash Signer module",
-            "artifactUri": "ipfs://QmdGV3UqJqX4v5x9nFcDYeekCEAm3SDXUG5SHdjKQKn4Pe",
-            "displayUri": "ipfs://QmYwSwa5hP4346GqD7hAjutwJSmeYTdiLQ7Wec2C7Cez1D",
-            "thumbnailUri": "ipfs://QmbvEAn7FLMeYBDroYwBP8qWc3d3VVWbk19tTB83LCMB5S",
-            "symbol": "GENTK",
-            "decimals": 0
-          },
-          "duplicate": false,
-          "activeListing": {
-            "id": 969458,
-            "version": 1,
-            "price": 22000000,
-            "__typename": "Listing"
-          },
-          "owner": {
-            "id": "tz1Tbxzph5Xjd26HE3YDgB7P6gBZVbgL7EXf",
-            "name": null,
-            "flag": "NONE",
-            "avatarUri": null,
-            "__typename": "User"
-          },
-          "issuer": {
-            "flag": "NONE",
-            "name": "Blockchain Automaton",
-            "author": {
-              "id": "tz1QvV3jVPWrJSdDy9ePZBnhGL8bAoQFFBPv",
-              "name": "Extracurricular Activities",
-              "type": "REGULAR",
-              "avatarUri": "ipfs://QmahpnFUbW9NWQjUzNLUxxYLszZC2eeNo5mmRPikJLYge5",
-              "flag": "VERIFIED",
-              "collaborators": null,
-              "__typename": "User"
-            },
-            "__typename": "GenerativeToken"
-          },
-          "__typename": "Objkt"
-        },
-        "__typename": "Listing"
-      },
-      {
-        "id": 969456,
-        "version": 1,
-        "price": 320000000,
-        "objkt": {
-          "id": "FX0-1234521",
-          "version": 1,
-          "name": "Ephemera #15",
-          "slug": "ephemera-15",
-          "metadata": {
-            "name": "Ephemera #15",
-            "iterationHash": "onvGN4foh3vwzu2douHQ85abaPY3LdoySpJEpZ6BJeZME8WDvZR",
-            "description": "Reflecting on fleeting things. A study of light, wildflowers, and wind.\n\nThis project is best viewed using Chrome on a computer with a modern GPU.\n\nA special thanks to the creators of p5.js and color.js whose excellent tools helped make this project possible.",
-            "tags": [
-              "landscape",
-              "GPU",
-              "wildflowers"
-            ],
-            "generatorUri": "ipfs://QmehtzupdzuRcAoLoUgxbHEvBmbyzuv3iwrE7iEv3SmjQr",
-            "artifactUri": "ipfs://QmehtzupdzuRcAoLoUgxbHEvBmbyzuv3iwrE7iEv3SmjQr?fxhash=onvGN4foh3vwzu2douHQ85abaPY3LdoySpJEpZ6BJeZME8WDvZR",
-            "displayUri": "ipfs://QmaYRUUffJjGKUrR9fAAscxjKaDog8kFhb6SRfcVXiN1cc",
-            "thumbnailUri": "ipfs://QmYZZWyy5erzh4SjrwpJ61FEPnei433TrfaUrvAAUKo1tN",
-            "authenticityHash": "9094be54e4f0931f7c4360adbb688f39e9d297f3efed44b0cdbe469fc440e111",
-            "attributes": [
-              {
-                "name": "Palette",
-                "value": "6:30 AM"
-              },
-              {
-                "name": "Frame Style",
-                "value": "Filled"
-              },
-              {
-                "name": "Layout",
-                "value": "Diagonal"
-              }
-            ],
-            "decimals": 0,
-            "symbol": "GENTK",
-            "version": "0.2"
-          },
-          "duplicate": false,
-          "activeListing": {
-            "id": 969456,
-            "version": 1,
-            "price": 320000000,
-            "__typename": "Listing"
-          },
-          "owner": {
-            "id": "tz1PwWW4u7Za75dJPquycECdKojh4TpKEHfE",
-            "name": "1000Landz",
-            "flag": "NONE",
-            "avatarUri": "ipfs://QmaNCWMXE3UtSHaxa6xXnGghJPKr1tSuYVrTg1mahZLQEE",
-            "__typename": "User"
-          },
-          "issuer": {
-            "flag": "NONE",
-            "name": "Ephemera",
-            "author": {
-              "id": "tz1bzg9xNB4heuF41sLfrdt1QmqrJTDQqDwN",
-              "name": "mjlindow",
-              "type": "REGULAR",
-              "avatarUri": "ipfs://QmaoXfG6mAJfve8v4DnM7ZtaZf3Qn9PSDyoyYHNSkEcpLz",
-              "flag": "VERIFIED",
-              "collaborators": null,
-              "__typename": "User"
-            },
-            "__typename": "GenerativeToken"
-          },
-          "__typename": "Objkt"
-        },
-        "__typename": "Listing"
-      },
-      {
-        "id": 969455,
-        "version": 1,
-        "price": 600000000,
-        "objkt": {
-          "id": "FX0-1067979",
-          "version": 1,
-          "name": "Southern Gothic #51",
-          "slug": "southern-gothic-51",
-          "metadata": {
-            "name": "Southern Gothic #51",
-            "iterationHash": "oo1GYTob5avTyymFyrrVFeMjgg7xrsdtWgqrJWoDf5uRJBvQVm3",
-            "description": "“Southern Gothic” is my debut release on the fxhash platform. The project is created entirely through code. All copyrights are released to the holder of each image output, even for commercial purposes.\n\n“Southern Gothic” borrows its name from the literary genre made famous by writers like Flannery O’Connor and Carson McCullers. Rather than illustrating a singular setting, the code generates an entire rural townscape, thereby, blurring the boundaries between representation and narrative. The individual scenes are framed frontally with an intentionally flat aesthetic character, referencing traditional folk art of the American South. The absence of human figures within these scenes adds to their overwhelming sense of darkness and forlorn. Observing multiple scenes side-by-side, one may even get the strange feeling that something terrible has happened (or is about to happen) in this rural landscape.\n\nPressing the down arrow saves the coded output as a .png image.\n",
-            "tags": [
-              "Southern Gothic",
-              "narrative",
-              "folk art",
-              "generative",
-              "abstraction"
-            ],
-            "generatorUri": "ipfs://QmeWRLS57ykfBNZiotoX1UEhkTJcPAfUMit8FfCHjrx2BZ",
-            "artifactUri": "ipfs://QmeWRLS57ykfBNZiotoX1UEhkTJcPAfUMit8FfCHjrx2BZ?fxhash=oo1GYTob5avTyymFyrrVFeMjgg7xrsdtWgqrJWoDf5uRJBvQVm3",
-            "displayUri": "ipfs://QmQc9ZiqKsxdyHjL9D7C2x1AGNK9qvPW1v1dsS1kb1zqhP",
-            "thumbnailUri": "ipfs://QmVKtqXcE3d5zfWtio9JdTbTXsgr7S8t2mbCw5RDBxkH5d",
-            "authenticityHash": "3525e9169e2881d821e8da231bb9ea549609b177f56fafdaaade7e24f38dd260",
-            "attributes": [
-              {
-                "name": "Subject",
-                "value": "A House"
-              },
-              {
-                "name": "Time of Day",
-                "value": "Morning"
-              },
-              {
-                "name": "Weather",
-                "value": "Clear"
-              },
-              {
-                "name": "Condition",
-                "value": "Overgrown"
-              }
-            ],
-            "decimals": 0,
-            "symbol": "GENTK",
-            "version": "0.2"
-          },
-          "duplicate": false,
-          "activeListing": {
-            "id": 969455,
-            "version": 1,
-            "price": 600000000,
-            "__typename": "Listing"
-          },
-          "owner": {
-            "id": "tz1PwWW4u7Za75dJPquycECdKojh4TpKEHfE",
-            "name": "1000Landz",
-            "flag": "NONE",
-            "avatarUri": "ipfs://QmaNCWMXE3UtSHaxa6xXnGghJPKr1tSuYVrTg1mahZLQEE",
-            "__typename": "User"
-          },
-          "issuer": {
-            "flag": "NONE",
-            "name": "Southern Gothic",
-            "author": {
-              "id": "tz1dKF66FyMMfhBtrMhZdEcZi3XnqA9HQ3BW",
-              "name": "WILLARD",
-              "type": "REGULAR",
-              "avatarUri": "ipfs://QmasxUynAHz1APf8juSVrEMFriFf4BNr95XPDxnvj6jpA6",
-              "flag": "VERIFIED",
-              "collaborators": null,
-              "__typename": "User"
-            },
-            "__typename": "GenerativeToken"
-          },
-          "__typename": "Objkt"
-        },
-        "__typename": "Listing"
-      },
-      {
-        "id": 969454,
-        "version": 1,
-        "price": 120000000,
-        "objkt": {
-          "id": "FX0-1400620",
-          "version": 1,
-          "name": "BWEEPS  #211",
-          "slug": "bweeps-211",
-          "metadata": {
-            "name": "BWEEPS  #211",
-            "iterationHash": "ooLkogMi79gFs1nuRgXkhaQeDgCHwKGk3Phy6j8WG62Fo5Zr47w",
-            "description": "A minimalist, black-and-white generative profile picture (PFP) created to commemorate one-year anniversary of Bwople project by Gengoya. The artwork is derived from an initial sketch of Bwople which, despite being not the one that was chosen, still managed to captivate interests. The project provides a unique glimpse into an alternate universe in which Bwople could have been represented.\n\nAll images are hand-drawn work by Gengoya and composed by Vector Recite using PureSpider's fxhash-pfp maker tool.\n\nTo download the full size image on fx(hash):\n- Click \"open\" below the image\n- Left click on the image, a \"Download image\" button will appear on the bottom right.\n- Click the \"Download image\" button.",
-            "tags": [
-              "black and white",
-              "gengoya",
-              "vectorrecite",
-              "minimalism",
-              "image composition",
-              "pfp"
-            ],
-            "generatorUri": "ipfs://QmcDr2S1fLFzoFCV7GgDKGUhcCjeeZ4Ts6sCNuRXwM35fW",
-            "artifactUri": "ipfs://QmcDr2S1fLFzoFCV7GgDKGUhcCjeeZ4Ts6sCNuRXwM35fW?fxhash=ooLkogMi79gFs1nuRgXkhaQeDgCHwKGk3Phy6j8WG62Fo5Zr47w",
-            "displayUri": "ipfs://QmQvGjcm9nGLFZSdoJVtZtew6FJusirfwXfUX1v8EfANfA",
-            "thumbnailUri": "ipfs://QmUybUawF9hKtaidroaeC575wy3syYhoYtWiDi7kkQLs1e",
-            "authenticityHash": "5b5806e99e36744f49100533370d73b79a304727bc2ddaf56ee7bf07b1854c52",
-            "attributes": [
-              {
-                "name": "hyojo",
-                "value": "fukigen"
-              },
-              {
-                "name": "kamigata",
-                "value": "kuro no tsuinteru"
-              },
-              {
-                "name": "fuku",
-                "value": "shiro no choiwaru"
-              },
-              {
-                "name": "megane",
-                "value": "paripi sangurasu"
-              },
-              {
-                "name": "te",
-                "value": "iine"
-              }
-            ],
-            "decimals": 0,
-            "symbol": "GENTK",
-            "version": "0.2"
-          },
-          "duplicate": false,
-          "activeListing": {
-            "id": 969454,
-            "version": 1,
-            "price": 120000000,
-            "__typename": "Listing"
-          },
-          "owner": {
-            "id": "tz1PwWW4u7Za75dJPquycECdKojh4TpKEHfE",
-            "name": "1000Landz",
-            "flag": "NONE",
-            "avatarUri": "ipfs://QmaNCWMXE3UtSHaxa6xXnGghJPKr1tSuYVrTg1mahZLQEE",
-            "__typename": "User"
-          },
-          "issuer": {
-            "flag": "NONE",
-            "name": "BWEEPS ",
-            "author": {
-              "id": "KT1KozmsoxMea5F8HXC71diZr2wsWRLrfgaa",
-              "name": null,
-              "type": "COLLAB_CONTRACT_V1",
-              "avatarUri": null,
-              "flag": "NONE",
-              "collaborators": [
-                {
-                  "id": "tz1iSnzy4PFSKmCAtQ5xpg6wygRnrh1qFe2v",
-                  "name": "VectorRecite",
-                  "avatarUri": "ipfs://QmRomjfYKRVMfE87nLDfMLy2TajzvWZNA6N9gEjdw6DiVg",
-                  "flag": "NONE",
-                  "__typename": "User"
-                },
-                {
-                  "id": "tz1VzJiBisSuQe3V9o12VSNkxJ5L4QKMUf1J",
-                  "name": "Gengoya",
-                  "avatarUri": "ipfs://QmTXHUoJcLUpqAqeqvVCJaQkrmj427VjPswehdRYS3LXzA",
-                  "flag": "VERIFIED",
-                  "__typename": "User"
-                }
-              ],
-              "__typename": "User"
-            },
-            "__typename": "GenerativeToken"
-          },
-          "__typename": "Objkt"
-        },
-        "__typename": "Listing"
-      },
-      {
-        "id": 969453,
-        "version": 1,
-        "price": 10000000,
-        "objkt": {
-          "id": "FX1-32604",
-          "version": 2,
-          "name": "Living Structures #5",
-          "slug": "living-structures-5",
-          "metadata": {
-            "name": "Living Structures #5",
-            "iterationHash": "ooUKswALtKhuFSsfGZsTXmd4rRdAsdVY4CCgYrcu3Y3YqyuC7vM",
-            "description": "As I immerse myself more deeply into working with code, the structural mathematical approach becomes increasingly valuable to me, and the minimalist vision grows more attractive. However, I prefer solutions that are not purely formal, but rather filled with nervous energy and sensuality. By adding layer after layer, I discover living emotional textures that soften the strict geometry of my structures. Nevertheless, I deliberately keep my choice of palette limited and concise.\n\n\nPress 1 or \"s\" to download a 2250x2250 picture.\nPress 2 to download a 3000x3000 picture\nPress 3 to download a 3750x3750 picture\nPress 4 to download a 4500x4500 picture\nPress 5 to download a 5250x5250 picture\nPress 6 to download a 6000x6000 picture\nPress 7 to download a 6750x6750 picture\n\nPlease note that some browsers may have difficulty working with large resolutions.\n\nMade with p5.js.\nApril 2023.",
-            "tags": [
-              "minimalism",
-              "drawing",
-              "rectangles",
-              "grid",
-              "abstract",
-              "monochrome"
-            ],
-            "generatorUri": "ipfs://QmQs83rVc3DRYX4K6snvkqYjNJmMXVghxk4JU3XUXbNCpU",
-            "artifactUri": "ipfs://QmQs83rVc3DRYX4K6snvkqYjNJmMXVghxk4JU3XUXbNCpU/?fxhash=ooUKswALtKhuFSsfGZsTXmd4rRdAsdVY4CCgYrcu3Y3YqyuC7vM&fxminter=tz1PwWW4u7Za75dJPquycECdKojh4TpKEHfE",
-            "displayUri": "ipfs://QmUweoPHZL9KnT87qHdTJS7P2meRthLpz9dDzBxsyF8vCp",
-            "thumbnailUri": "ipfs://QmRRXT3mpgXabUpKVt7rH6B3iBtHo4dEbFV9XinhRC3W3x",
-            "authenticityHash": "de75109402f7a12a941955ed60e0d36dfa4b92608f7d333390edaef79cf67c47",
-            "attributes": true,
-            "decimals": 0,
-            "symbol": "GENTK",
-            "version": "0.2"
-          },
-          "duplicate": false,
-          "activeListing": {
-            "id": 969453,
-            "version": 1,
-            "price": 10000000,
-            "__typename": "Listing"
-          },
-          "owner": {
-            "id": "tz1PwWW4u7Za75dJPquycECdKojh4TpKEHfE",
-            "name": "1000Landz",
-            "flag": "NONE",
-            "avatarUri": "ipfs://QmaNCWMXE3UtSHaxa6xXnGghJPKr1tSuYVrTg1mahZLQEE",
-            "__typename": "User"
-          },
-          "issuer": {
-            "flag": "NONE",
-            "name": "Living Structures",
-            "author": {
-              "id": "tz1VucF8ERhwdabMd2epn6MEzmxwfU7HWaaX",
-              "name": "Olga.F",
-              "type": "REGULAR",
-              "avatarUri": "ipfs://QmVZcqZ8mgrtZetZ9o31B6V95JFF4FHkk3ktt7FwGWvkH1",
-              "flag": "NONE",
-              "collaborators": null,
-              "__typename": "User"
-            },
-            "__typename": "GenerativeToken"
-          },
-          "__typename": "Objkt"
-        },
-        "__typename": "Listing"
-      },
-      {
-        "id": 969452,
-        "version": 1,
-        "price": 15000000,
-        "objkt": {
-          "id": "FX1-42788",
-          "version": 2,
-          "name": "APERIODIC #12",
-          "slug": "aperiodic-12",
-          "metadata": {
-            "name": "APERIODIC #12",
-            "iterationHash": "oneiYbCUn91Wi2BtBHpLnwZdUgQdM5M735BSdkV4Eno4EX2mpCW",
-            "description": "APERIODIC is an exploration of waves in nature\n\nWorks can be downloaded in higher resolution by appending the `scale` parameter to the URL. For example: `&scale=1.5`. Default scale is .5\n\nWorks can be downloaded as an SVG by pressing the S key. ",
-            "tags": [
-              "wave",
-              "geometric",
-              "generative",
-              "svg"
-            ],
-            "generatorUri": "ipfs://QmbgpNWBFMY9gRFi16HZ5PSVkaFDj8iUnPafhYYtu2yzyv",
-            "artifactUri": "ipfs://QmbgpNWBFMY9gRFi16HZ5PSVkaFDj8iUnPafhYYtu2yzyv/?fxhash=oneiYbCUn91Wi2BtBHpLnwZdUgQdM5M735BSdkV4Eno4EX2mpCW&fxminter=tz1PwWW4u7Za75dJPquycECdKojh4TpKEHfE",
-            "displayUri": "ipfs://QmVzj4DMxaGjAUxcW2EFSZo3VXGEPw8qRhFotc9ybGYDk2",
-            "thumbnailUri": "ipfs://QmRKH1AAn8BUhL3kSbW8isKYTAjfWUmKHDdtW2AsKGPL43",
-            "authenticityHash": "afadf63a5208d4f0a894c29bf15d7e239048bb1a10cb6feff48585ceeec44da7",
-            "attributes": [
-              {
-                "name": "theme",
-                "value": "mono"
-              },
-              {
-                "name": "border",
-                "value": "Small"
-              },
-              {
-                "name": "wave variant",
-                "value": "Standard"
-              },
-              {
-                "name": "wave type",
-                "value": "River"
-              },
-              {
-                "name": "coloring",
-                "value": "Random"
-              },
-              {
-                "name": "clouds",
-                "value": 0.5
-              },
-              {
-                "name": "format",
-                "value": "Portrait"
-              },
-              {
-                "name": "subdivision probability",
-                "value": 0.9
-              }
-            ],
-            "decimals": 0,
-            "symbol": "GENTK",
-            "version": "0.2"
-          },
-          "duplicate": false,
-          "activeListing": {
-            "id": 969452,
-            "version": 1,
-            "price": 15000000,
-            "__typename": "Listing"
-          },
-          "owner": {
-            "id": "tz1PwWW4u7Za75dJPquycECdKojh4TpKEHfE",
-            "name": "1000Landz",
-            "flag": "NONE",
-            "avatarUri": "ipfs://QmaNCWMXE3UtSHaxa6xXnGghJPKr1tSuYVrTg1mahZLQEE",
-            "__typename": "User"
-          },
-          "issuer": {
-            "flag": "NONE",
-            "name": "APERIODIC",
-            "author": {
-              "id": "tz1QnBdcdVBxrJXuAFXwnaZyHTijU7gjQF3E",
-              "name": "Kyle",
-              "type": "REGULAR",
-              "avatarUri": "ipfs://QmPd9fLuGfHcBSRZvLBPXCVY11Y5VbjJgmLArb7B4N6iox",
-              "flag": "VERIFIED",
-              "collaborators": null,
-              "__typename": "User"
-            },
-            "__typename": "GenerativeToken"
-          },
-          "__typename": "Objkt"
-        },
-        "__typename": "Listing"
-      },
-      {
-        "id": 969451,
-        "version": 1,
-        "price": 45000000,
-        "objkt": {
-          "id": "FX1-44031",
-          "version": 2,
-          "name": "Destructures #477",
-          "slug": "destructures-477",
-          "metadata": {
-            "name": "Destructures #477",
-            "iterationHash": "opWqw4NaZHcL12hf93CHfatS1UJNxJTVMswPuqMsn49B46wbWqV",
-            "description": "Deconstructed structure built from many blocks in isometric view.\n\n\n——\n\n- Press [s] in live mode to export a PNG file.\n\n- By adding a ‘scale’ parameter in the live URL, you can generate a higher resolution image. The scale ranges from 1 to 4 with a default value of 1.",
+            "name": "Glipsian Early Warning Collision Detection #30",
+            "iterationHash": "oo9oxAAucdcVsvbHrnffDe3KpEJDnK4JdkSWvxckkMyt6JrQRn4",
+            "description": "Terminal GUI of a Standard Issue Glipsian Early Warning Collision Detection System used by Glipsite's of Spectra B (N-09-07) to track collision paths of interplanetary waste & debris for safe interstellar travel. \n\nMade with p5.js ✨",
             "tags": [
               "generative",
-              "structure",
-              "deconstruction",
-              "grid"
-            ],
-            "generatorUri": "ipfs://QmVe76YX5Rk3YKzFWbEdoJYBNjrJJNgv5BnZmKntTjR8tg",
-            "artifactUri": "ipfs://QmVe76YX5Rk3YKzFWbEdoJYBNjrJJNgv5BnZmKntTjR8tg/?fxhash=opWqw4NaZHcL12hf93CHfatS1UJNxJTVMswPuqMsn49B46wbWqV&fxminter=tz1QCoSsTPLny7U4drzVQ2XD14rwSpjuSntJ",
-            "displayUri": "ipfs://QmVs7Vehvo8zJbWpEY2ewDwijQ5dw3m4NLLxodwjVyJyp3",
-            "thumbnailUri": "ipfs://QmfAg3pcYPcahsPzGWkfBhV5DbsGiArJUpN9AYsSwy5p7g",
-            "authenticityHash": "42650471950099455d3227e72c2c0b24a6864954740a9aa179dd529f4153f369",
-            "attributes": [
-              {
-                "name": "Style",
-                "value": "Brut"
-              },
-              {
-                "name": "Structure",
-                "value": "Unstable lines"
-              },
-              {
-                "name": "Scale",
-                "value": "Light"
-              },
-              {
-                "name": "Palette",
-                "value": "Electric"
-              },
-              {
-                "name": "Chromaticity",
-                "value": "Polychrome"
-              },
-              {
-                "name": "Coloring",
-                "value": "Sequence"
-              },
-              {
-                "name": "Height",
-                "value": "Small"
-              },
-              {
-                "name": "Surface",
-                "value": "Random"
-              },
-              {
-                "name": "Turbulences",
-                "value": "Variable"
-              },
-              {
-                "name": "Orientation",
-                "value": "Horizontal"
-              },
-              {
-                "name": "Frame",
-                "value": "Yes"
-              },
-              {
-                "name": "Cracks",
-                "value": "No"
-              }
-            ],
-            "decimals": 0,
-            "symbol": "GENTK",
-            "version": "0.2"
-          },
-          "duplicate": false,
-          "activeListing": {
-            "id": 969451,
-            "version": 1,
-            "price": 45000000,
-            "__typename": "Listing"
-          },
-          "owner": {
-            "id": "tz1PwWW4u7Za75dJPquycECdKojh4TpKEHfE",
-            "name": "1000Landz",
-            "flag": "NONE",
-            "avatarUri": "ipfs://QmaNCWMXE3UtSHaxa6xXnGghJPKr1tSuYVrTg1mahZLQEE",
-            "__typename": "User"
-          },
-          "issuer": {
-            "flag": "NONE",
-            "name": "Destructures",
-            "author": {
-              "id": "tz1cheU7H24zYYiP5eR1iSQ7ucihcX5YZAck",
-              "name": "nicolasdnl",
-              "type": "REGULAR",
-              "avatarUri": "ipfs://QmNiyQE1smCfuvnaS4xZWrNZe347AfAXr4DzmD71mKi4Xw",
-              "flag": "VERIFIED",
-              "collaborators": null,
-              "__typename": "User"
-            },
-            "__typename": "GenerativeToken"
-          },
-          "__typename": "Objkt"
-        },
-        "__typename": "Listing"
-      },
-      {
-        "id": 969450,
-        "version": 1,
-        "price": 26000000,
-        "objkt": {
-          "id": "FX1-39282",
-          "version": 2,
-          "name": "TEMPEST #1",
-          "slug": "tempest-1-7bb973b0-a5ee-454c-8cfa-de21cbac5823",
-          "metadata": {
-            "name": "TEMPEST #1",
-            "iterationHash": "ooYVmQb81Pdgo3r1cHvB9FdYdNZh1H1PEd1DYDq8sV4bRHJewV4",
-            "description": "Press '1', '2', or '3' to render the image at different sizes\nPress 's' to save a .png\n\nCreated with p5.js, chroma.js, and GLSL",
-            "tags": [
-              "tempest",
-              "storm",
-              "ship",
-              "wave",
-              "cloud",
-              "flying",
+              "animated",
+              "console",
+              "terminal",
+              "window",
               "p5",
-              "glsl",
-              "painting"
+              "RGB",
+              "graph"
             ],
-            "generatorUri": "ipfs://QmUUnGGNkCHse61WfexTsr4i4SJoAeAL7eYVaJHRgAGXns",
-            "artifactUri": "ipfs://QmUUnGGNkCHse61WfexTsr4i4SJoAeAL7eYVaJHRgAGXns/?fxhash=ooYVmQb81Pdgo3r1cHvB9FdYdNZh1H1PEd1DYDq8sV4bRHJewV4&fxminter=tz1PwWW4u7Za75dJPquycECdKojh4TpKEHfE",
-            "displayUri": "ipfs://QmXsEo48XeS7ddL6ibcR3iEsDGwXKqsWhba7JgGwwPjQ6U",
-            "thumbnailUri": "ipfs://Qma1FPbQLyELa5SHCLcCZTetqCTXkPBrz3Q9hC8xnMqErQ",
-            "authenticityHash": "8ce0a199b5d40a60f9e3a9fc6cd9a30c17cc2870cc7f36dc1de0e2f0df7b3d65",
+            "artifactUri": "ipfs://QmaB34n6rrtaC6e98oPQa3wsWbeYThMzeRmH56QQXSR4Zd",
+            "displayUri": "ipfs://QmXXCpy9cqB24pViaEf5bzAsxm39k3TpznJBNVhFt573mS",
+            "thumbnailUri": "ipfs://QmRofneA8sP4LMSfrZWvqTYwNWgcvPL8TRCYi4fDy5ZoBa",
+            "authenticityHash": "59d706ed66a96f5a69d8e853843adfd5cd5ba846a98bba5a8e98606ffa9ded14",
             "attributes": [
               {
-                "name": "Palette",
-                "value": "Soft"
+                "name": "Number of Lines",
+                "value": 10
               },
               {
-                "name": "Origin",
-                "value": "Below"
+                "name": "Inverted",
+                "value": true
               },
               {
-                "name": "# Ships",
-                "value": 8
+                "name": "Grid Division",
+                "value": 0
+              },
+              {
+                "name": "Line Style",
+                "value": "Dot"
+              },
+              {
+                "name": "Line Colour",
+                "value": "green"
+              },
+              {
+                "name": "Crosshair Type",
+                "value": "Circled Square"
+              },
+              {
+                "name": "Marker Type",
+                "value": "Circled Square"
+              },
+              {
+                "name": "Marker color",
+                "value": "red"
+              },
+              {
+                "name": "Crosshair color",
+                "value": "red"
               }
             ],
             "decimals": 0,
-            "symbol": "GENTK",
-            "version": "0.2"
+            "symbol": "GENTK"
           },
           "duplicate": false,
           "activeListing": {
-            "id": 969450,
+            "id": 969470,
             "version": 1,
-            "price": 26000000,
+            "price": 123450000,
             "__typename": "Listing"
           },
           "owner": {
-            "id": "tz1PwWW4u7Za75dJPquycECdKojh4TpKEHfE",
-            "name": "1000Landz",
+            "id": "tz1UBTA5zR9NQrBgLVA8nnhzb1wyAYXuZyUz",
+            "name": "bnell01",
             "flag": "NONE",
-            "avatarUri": "ipfs://QmaNCWMXE3UtSHaxa6xXnGghJPKr1tSuYVrTg1mahZLQEE",
+            "avatarUri": null,
             "__typename": "User"
           },
           "issuer": {
             "flag": "NONE",
-            "name": "TEMPEST",
+            "name": "Glipsian Early Warning Collision Detection",
             "author": {
-              "id": "tz1LGRo4e3ke7kiCvJHGtmQSfPvLK5zhEHAR",
-              "name": "Chris McCully",
+              "id": "tz1VMSfs6sxfv94puiVB7xPvtYgiX6L31bmF",
+              "name": "09-07",
               "type": "REGULAR",
-              "avatarUri": "ipfs://QmW9su6C9tNsqVbSvdPDEbrGdLHs4xiwqprcmQkDxLbBjF",
-              "flag": "VERIFIED",
-              "collaborators": null,
-              "__typename": "User"
-            },
-            "__typename": "GenerativeToken"
-          },
-          "__typename": "Objkt"
-        },
-        "__typename": "Listing"
-      },
-      {
-        "id": 969449,
-        "version": 1,
-        "price": 8000000,
-        "objkt": {
-          "id": "FX1-45562",
-          "version": 2,
-          "name": "Shortcut #32",
-          "slug": "shortcut-32-720d5b9e-f681-4d8d-aadd-e3f0d24cb3ab",
-          "metadata": {
-            "name": "Shortcut #32",
-            "iterationHash": "opHR2vnpzqA5ZsTfDNnSKcezC4w1TK567Sx9L4kHY8JnwLayXUm",
-            "description": "Shortcuts are an invitation to embrace the uncharted, to question established norms, and to embark on a voyage of discovery. They remind us that the journey itself holds immeasurable value, challenging us to reconsider possibilities and find our true selves along the way.\n\nPress 's' to save high resolution png\n\nCreated using p5js.\n\n@bubicart, May, 2023\n",
-            "tags": [
-              "generative",
-              "art",
-              "abstract",
-              "black",
-              "white",
-              "monochrome",
-              "bubic",
-              "shortcut"
-            ],
-            "generatorUri": "ipfs://QmU76M8vSSTttVef7by11PXonKQUPouxziDbhAr8UcQ5aw",
-            "artifactUri": "ipfs://QmU76M8vSSTttVef7by11PXonKQUPouxziDbhAr8UcQ5aw/?fxhash=opHR2vnpzqA5ZsTfDNnSKcezC4w1TK567Sx9L4kHY8JnwLayXUm&fxminter=tz1PwWW4u7Za75dJPquycECdKojh4TpKEHfE",
-            "displayUri": "ipfs://QmNrmkUmLdgvrjSAWm5PUoQinqs7KRyfnyuazjbJRb52ti",
-            "thumbnailUri": "ipfs://Qmaij41yUWx8LUw7w46BVkThpRwFPEBemzAX3Q5LSguKTa",
-            "authenticityHash": "03ac84e19095147e9f046b574ae4eea89a225cbe1345ea9b835b25b5b96aae44",
-            "attributes": true,
-            "decimals": 0,
-            "symbol": "GENTK",
-            "version": "0.2"
-          },
-          "duplicate": false,
-          "activeListing": {
-            "id": 969449,
-            "version": 1,
-            "price": 8000000,
-            "__typename": "Listing"
-          },
-          "owner": {
-            "id": "tz1PwWW4u7Za75dJPquycECdKojh4TpKEHfE",
-            "name": "1000Landz",
-            "flag": "NONE",
-            "avatarUri": "ipfs://QmaNCWMXE3UtSHaxa6xXnGghJPKr1tSuYVrTg1mahZLQEE",
-            "__typename": "User"
-          },
-          "issuer": {
-            "flag": "NONE",
-            "name": "Shortcut",
-            "author": {
-              "id": "tz1fVsgcpcYwzGSCYJCAdwnHVdJaSLwSNWxr",
-              "name": "Bubic",
-              "type": "REGULAR",
-              "avatarUri": "ipfs://QmfHfRWRc1yBkhyoU62LWBeUnkrCWX9XtgHkpiZWTL6RCD",
-              "flag": "NONE",
-              "collaborators": null,
-              "__typename": "User"
-            },
-            "__typename": "GenerativeToken"
-          },
-          "__typename": "Objkt"
-        },
-        "__typename": "Listing"
-      },
-      {
-        "id": 969448,
-        "version": 1,
-        "price": 33000000,
-        "objkt": {
-          "id": "FX1-48808",
-          "version": 2,
-          "name": "Blockchain Automaton #156",
-          "slug": "blockchain-automaton-156",
-          "metadata": {
-            "name": "Blockchain Automaton #156",
-            "iterationHash": "oosJp2qumMM7XHqnwLCTE8CTGwj57pf5RwhcchGPCw1CFPPsF27",
-            "description": "This experimental project involves an on-chain cellular automaton. The features and cellular automaton rules are derived from the minter's address. Being the first (unto my knowledge) project on fxhash that generates the artwork completely on chain, it seemed fitting to draw inspiration from one of the first projects on fxhash, \"RGB Elementary Cellular Automaton\".\n\nWhat is this?\n\nAn experimental generative token that integrates on-chain generation, and on-chain storage of the artwork. This is accomplished using a custom smart contract. The artwork is generated using the generate_on_chain entrypoint in KT1GRFujk5m6feK7gJcqCU7ijJkFgx5JigEt, and the generated image is subsequently stored on-chain as a byte-string of pixels (row-major order) in the tokens bigmap in KT1GRFujk5m6feK7gJcqCU7ijJkFgx5JigEt.\n\nHow does this work?\n\nSmart contracts have a default entrypoint which is automatically called when XTZ is sent to the contract. By using a smart contract as the primary address, the default entrypoint will be called every time a token is minted. Of course, to prevent accounts from bypassing the fxhash contracts and sending XTZ directly to the smart contract, generating and storing the artwork on-chain, the smart contract checks that an fxhash contract is the account sending XTZ. In this smart contract, the default entrypoint immediately calls the generate_on_chain entrypoint for the sole purpose of making the generation process more apparent on indexers like tzkt.\n\nIn order to make this project compatible with fxhash, the artwork produced by the code submitted to fxhash must be identical to that which is produced by the generative algorithm within the smart contract. At the time of development, the minter's address is the only piece of information which is readily accessible via the fxhash snippet API and in the smart contract. As a result, each account can only generate a single unique artwork (this is enforced by the contract). In the future, this issue could be solved if the fxhash snippet API provided access to the iteration number, as the smart contract could also keep track of this information quite easily.\n\nConsequently, collectors who wish to collect more than one iteration must create additional accounts to mint. The tokens can then be subsequently transferred as per usual.\n\nWhy is the variations preview disabled?\n\nBecause the minter's address is the source of randomness for the generated artwork, not the hash provided by fxhash, changing the hash in the variations preview will have no effect. To see different variations of the artwork you need to modify the fxminter URL parameter in live preview mode.\n\nWhy does the mint button not work on the fxhash frontend?\n\nCurrently, the fxhash frontend has a default storage limit for mint operations that is less than what is required to store the generated image on chain. As a result, the mint button will fail on the fxhash frontend. To get around this, you can mint this token on a mini-website I created (https://blockchain-automaton.netlify.app/), or on Better Call Dev, or by injecting the transaction directly onto the blockchain.\n\nBut Why?\n\nBecause experimentation is fun.",
-            "tags": [
-              "onchain",
-              "cellular automaton",
-              "blockchain",
-              "pixelart"
-            ],
-            "generatorUri": "ipfs://Qmeb7huzBQZ5KTo2qqc48Kg5GEumYDKbXMN9UQXkD5Zz5Y",
-            "artifactUri": "ipfs://Qmeb7huzBQZ5KTo2qqc48Kg5GEumYDKbXMN9UQXkD5Zz5Y/?fxhash=oosJp2qumMM7XHqnwLCTE8CTGwj57pf5RwhcchGPCw1CFPPsF27&fxminter=tz2UNjBYVQrtNaKJCsgLQAtmRzhXENV5un8n",
-            "displayUri": "ipfs://QmZcnRMbBXX2sizpzMxbZp6rU13Kb1W2L9n7qDi6krrvmW",
-            "thumbnailUri": "ipfs://QmYkFPMgXqtjtPiacvC2LCh8McVBqK4RuDzYW64gHbqhbY",
-            "authenticityHash": "f31e096c079d89a5fc2c3fe07c8b3ab19d6ebd039bd9323d1186f09905371c4e",
-            "attributes": [
-              {
-                "name": "mode",
-                "value": "Horizontal"
-              },
-              {
-                "name": "palette",
-                "value": 11
-              },
-              {
-                "name": "size",
-                "value": "16x16"
-              }
-            ],
-            "decimals": 0,
-            "symbol": "GENTK",
-            "version": "0.2"
-          },
-          "duplicate": false,
-          "activeListing": {
-            "id": 969448,
-            "version": 1,
-            "price": 33000000,
-            "__typename": "Listing"
-          },
-          "owner": {
-            "id": "tz2UNjBYVQrtNaKJCsgLQAtmRzhXENV5un8n",
-            "name": "drichar.tez",
-            "flag": "NONE",
-            "avatarUri": "ipfs://QmTxaRWR5zFwDe3LhQcEmjEX1QZHB6gMNUjju4gGpMq4yh",
-            "__typename": "User"
-          },
-          "issuer": {
-            "flag": "NONE",
-            "name": "Blockchain Automaton",
-            "author": {
-              "id": "tz1QvV3jVPWrJSdDy9ePZBnhGL8bAoQFFBPv",
-              "name": "Extracurricular Activities",
-              "type": "REGULAR",
-              "avatarUri": "ipfs://QmahpnFUbW9NWQjUzNLUxxYLszZC2eeNo5mmRPikJLYge5",
+              "avatarUri": "ipfs://QmPvdgoqWkRnw83p3SeZeZ9iCjF5BmgSCLAjFEv7iX3pM5",
               "flag": "VERIFIED",
               "collaborators": null,
               "__typename": "User"
