@@ -2,6 +2,324 @@
   "data": {
     "listings": [
       {
+        "id": 971657,
+        "version": 1,
+        "price": 11000000,
+        "objkt": {
+          "id": "FX1-48804",
+          "version": 2,
+          "name": "Blockchain Automaton #152",
+          "slug": "blockchain-automaton-152",
+          "metadata": {
+            "name": "Blockchain Automaton #152",
+            "iterationHash": "oo2FAbQvj3CgmAqXuzGZTnYmNjkTrdV25zoszfVp6J9iKQMqDMV",
+            "description": "This experimental project involves an on-chain cellular automaton. The features and cellular automaton rules are derived from the minter's address. Being the first (unto my knowledge) project on fxhash that generates the artwork completely on chain, it seemed fitting to draw inspiration from one of the first projects on fxhash, \"RGB Elementary Cellular Automaton\".\n\nWhat is this?\n\nAn experimental generative token that integrates on-chain generation, and on-chain storage of the artwork. This is accomplished using a custom smart contract. The artwork is generated using the generate_on_chain entrypoint in KT1GRFujk5m6feK7gJcqCU7ijJkFgx5JigEt, and the generated image is subsequently stored on-chain as a byte-string of pixels (row-major order) in the tokens bigmap in KT1GRFujk5m6feK7gJcqCU7ijJkFgx5JigEt.\n\nHow does this work?\n\nSmart contracts have a default entrypoint which is automatically called when XTZ is sent to the contract. By using a smart contract as the primary address, the default entrypoint will be called every time a token is minted. Of course, to prevent accounts from bypassing the fxhash contracts and sending XTZ directly to the smart contract, generating and storing the artwork on-chain, the smart contract checks that an fxhash contract is the account sending XTZ. In this smart contract, the default entrypoint immediately calls the generate_on_chain entrypoint for the sole purpose of making the generation process more apparent on indexers like tzkt.\n\nIn order to make this project compatible with fxhash, the artwork produced by the code submitted to fxhash must be identical to that which is produced by the generative algorithm within the smart contract. At the time of development, the minter's address is the only piece of information which is readily accessible via the fxhash snippet API and in the smart contract. As a result, each account can only generate a single unique artwork (this is enforced by the contract). In the future, this issue could be solved if the fxhash snippet API provided access to the iteration number, as the smart contract could also keep track of this information quite easily.\n\nConsequently, collectors who wish to collect more than one iteration must create additional accounts to mint. The tokens can then be subsequently transferred as per usual.\n\nWhy is the variations preview disabled?\n\nBecause the minter's address is the source of randomness for the generated artwork, not the hash provided by fxhash, changing the hash in the variations preview will have no effect. To see different variations of the artwork you need to modify the fxminter URL parameter in live preview mode.\n\nWhy does the mint button not work on the fxhash frontend?\n\nCurrently, the fxhash frontend has a default storage limit for mint operations that is less than what is required to store the generated image on chain. As a result, the mint button will fail on the fxhash frontend. To get around this, you can mint this token on a mini-website I created (https://blockchain-automaton.netlify.app/), or on Better Call Dev, or by injecting the transaction directly onto the blockchain.\n\nBut Why?\n\nBecause experimentation is fun.",
+            "tags": [
+              "onchain",
+              "cellular automaton",
+              "blockchain",
+              "pixelart"
+            ],
+            "generatorUri": "ipfs://Qmeb7huzBQZ5KTo2qqc48Kg5GEumYDKbXMN9UQXkD5Zz5Y",
+            "artifactUri": "ipfs://Qmeb7huzBQZ5KTo2qqc48Kg5GEumYDKbXMN9UQXkD5Zz5Y/?fxhash=oo2FAbQvj3CgmAqXuzGZTnYmNjkTrdV25zoszfVp6J9iKQMqDMV&fxminter=tz1QEiVSX2m1DGUZEfJUGZBRXtx4aZszmXfk",
+            "displayUri": "ipfs://QmcYjeFXxWW3H2eirPSYVu13Qk3u3P2btrfcBEwjLSxQtk",
+            "thumbnailUri": "ipfs://QmYUMFrj4h2o1NgVBeHw6q1SzSmKnaWTyR6qyybw84HwCp",
+            "authenticityHash": "ac9d817b42d31be65f14a50616cc4fa7a89cf165aea6ad3b44e700045f84a581",
+            "attributes": [
+              {
+                "name": "mode",
+                "value": "Vertical"
+              },
+              {
+                "name": "palette",
+                "value": 16
+              },
+              {
+                "name": "size",
+                "value": "16x16"
+              }
+            ],
+            "decimals": 0,
+            "symbol": "GENTK",
+            "version": "0.2"
+          },
+          "duplicate": false,
+          "activeListing": {
+            "id": 971657,
+            "version": 1,
+            "price": 11000000,
+            "__typename": "Listing"
+          },
+          "owner": {
+            "id": "tz1QEiVSX2m1DGUZEfJUGZBRXtx4aZszmXfk",
+            "name": "ABRI",
+            "flag": "NONE",
+            "avatarUri": "ipfs://QmYzQ9cLrSHNKsSTuc9BWdcrXG32n3uvrZB5R8teQ27tHK",
+            "__typename": "User"
+          },
+          "issuer": {
+            "flag": "NONE",
+            "name": "Blockchain Automaton",
+            "author": {
+              "id": "tz1QvV3jVPWrJSdDy9ePZBnhGL8bAoQFFBPv",
+              "name": "Extracurricular Activities",
+              "type": "REGULAR",
+              "avatarUri": "ipfs://QmahpnFUbW9NWQjUzNLUxxYLszZC2eeNo5mmRPikJLYge5",
+              "flag": "VERIFIED",
+              "collaborators": null,
+              "__typename": "User"
+            },
+            "__typename": "GenerativeToken"
+          },
+          "__typename": "Objkt"
+        },
+        "__typename": "Listing"
+      },
+      {
+        "id": 971656,
+        "version": 1,
+        "price": 175000000,
+        "objkt": {
+          "id": "FX1-49194",
+          "version": 2,
+          "name": "Universal Rayhatcher #347",
+          "slug": "universal-rayhatcher-347",
+          "metadata": {
+            "name": "Universal Rayhatcher #347",
+            "iterationHash": "op8j39ut2UJnLGPoR3KZYGRaFMN9iFyubU7mg3u2dzVLtVQ2Qy5",
+            "description": "# What is this?\n\nThis is 6942 characters of highly experimental code.\n\nThis is a version of my rayhatcher framework (see https://www.fxhash.xyz/article/rayhatching-evolution) that can do literally everything. Or, at least anything you can do within 512 characters of Javascript code. Which is slightly more than a mortal brain can comprehend.\n\nThis is my answer to the question: What is the least restrictive set of parameters for fx(params)?\n\n# Should I be minting this?\n\nDepends if you know and like building SDF formulas. Otherwise probably not. Like I said, this is highly experimental code. But it's definitely worth checking the collection and/or secondary for cool stuff that is already minted.\n\n# How does it work?\n\nThe minter designs an SDF (Signed Distance Function) which is rendered using my rayhatcher algorithm. They then use the SDF formula in the SDF Code parameter. It's not very complicated, just efficient.\n\nYou can press \"h\" to load the documentation and read about how everything works. Or you can press \"d\" to read the dev docs. \n\n# Anything else?\n\nDon't forget that the \"Title Seed\" param also becomes the \"Title\" feature of the mint, so make it count.\n\nThe params, including the SDF code actually get saved on-chain. Even better, all params and the entire code required to reproduce the image are included in the SVG when saved. See https://twitter.com/piterpasma/status/1649071912742420482 .\n\n(c) 2023 by Piter Pasma // https://piterpasma.nl",
+            "tags": [
+              "generative",
+              "javascript",
+              "genartclub",
+              "svg",
+              "3d",
+              "hatching",
+              "rayhatching",
+              "raymarching",
+              "fxparams",
+              "universal"
+            ],
+            "generatorUri": "ipfs://QmdEV5vBcYDBcZGHKfdZbRHgrkgbu7KRzf9JWYc5SaBNV4",
+            "artifactUri": "ipfs://QmdEV5vBcYDBcZGHKfdZbRHgrkgbu7KRzf9JWYc5SaBNV4/?fxhash=op8j39ut2UJnLGPoR3KZYGRaFMN9iFyubU7mg3u2dzVLtVQ2Qy5&fxminter=tz1MGXFh1CgiFL5p3dhLWiAabe9tkjjfrEdF&fxparams=3fe80000000000003fe70a3d70a3d70a0041007700610079000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000030043004c003d00280078002c0079002c007a002c0068002c00720031002c007200320029003d003e004c00280078002c0079002d0068002a0063006c00280079002f0068002c0030002c00310029002c007a0029002d006d00690078002800720031002c00720032002c0063006c00280079002f0068002c0030002c003100290029003b0079002b003d0039002c0078002d003d00320035002c005b0078002c0079005d003d0072003000280078002c00790029002c005b0078002c007a005d003d0072003100280078002c007a0029002c0066003d00310036002c0072003d0032002b0079002a002e00300033002c0071003d0042002800780029002b0034002c005b0071002c0079005d003d0072006f007400280071002c0079002c0063006f00730028002d00500049002a002e00310029002c00730069006e0028002d00500049002a002e003100290029002c0064003d005500280072005500280047002800420028004c00280078002f0072002c0079002f0066002c007a002f00720029002a0028004c00280078002f0072002c0079002f0066002c007a002f00720029002d00310029002f004c00280078002f0072002a0072002c0079002f0066002a0066002c007a002f0072002a007200290029002c002d0028004c00280078002d0031002e0037002c00460052002800790029002c007a002b00310029002d002e003500290029002c004700280043004c00280079002c0071002c007a002c00320035002c0037002c00300029002c00420028007a002d0053004d002800310038002c00310039002c00710029002a00730069006e00280037002d0071002a002e00310029002a00320029002d002e0031002c002d00790029002c002e00320029002c004700280043004c00280079002b00310037002c0071002c007a002c00310036002c0037002c00300029002c00420028007a0029002d002e0031002c002d0079002d003100360029002c004700280043004c00280078002c0079002b00320032002c007a002c0038002c00320035002c00300029002c0042002800780029002d002e0031002c002d0079002d00310036002c007a00290029002c0071003d0071002d0038002c005b006a002c0069005d003d0072006f007400280071002c0079002c0063006f0073002800500049002a002e00310029002c00730069006e002800500049002a002e003100290029002c0055002800470028004c0028006a002d0034002c007a0029002b0079002a002e00300032002c0079002b003100350029002d006e007a00280078002c0079002c007a002c0032002c0030002c00320029002c0043004c00280071002c0079002d0033002c007a002d0031002c0033002c0031002c00310029002c00640029000000000000000000000000000040100000000000003ff4cccccccccccd406900000000000000000000000000003fe0000000000000000000000000000000000000000000007381ffffffffffff3fc999999999999a",
+            "displayUri": "ipfs://QmZXMTRMKHzH3d7crmypv92fCaUqArumrt9yc9aFBtg6nG",
+            "thumbnailUri": "ipfs://QmTcnxK6WzSfEMpCG6sF2HsuFuzcKSoPrZP6kpWEXXJjrY",
+            "authenticityHash": "8e3e4e28b47e50f7b08fe041ef108d5ecf4284ffd69832c6e64330e561d930cf",
+            "attributes": [
+              {
+                "name": "Title",
+                "value": "Away"
+              }
+            ],
+            "decimals": 0,
+            "symbol": "GENTK",
+            "version": "0.2"
+          },
+          "duplicate": false,
+          "activeListing": {
+            "id": 971656,
+            "version": 1,
+            "price": 175000000,
+            "__typename": "Listing"
+          },
+          "owner": {
+            "id": "tz1MGXFh1CgiFL5p3dhLWiAabe9tkjjfrEdF",
+            "name": "superbialux",
+            "flag": "VERIFIED",
+            "avatarUri": "ipfs://QmTmaorcuxwGShkAE2yiuVY12yay9AAyjv98XT4UCfBMy5",
+            "__typename": "User"
+          },
+          "issuer": {
+            "flag": "NONE",
+            "name": "Universal Rayhatcher",
+            "author": {
+              "id": "tz1Kw8cEFuNLj21e5b42NBn1ANW7hupmbDbo",
+              "name": "Piter Pasma",
+              "type": "REGULAR",
+              "avatarUri": "ipfs://QmUzcNxvddv1CLtiML1DLpduupP2FnUQsy7xg3Lb3SvSMh",
+              "flag": "VERIFIED",
+              "collaborators": null,
+              "__typename": "User"
+            },
+            "__typename": "GenerativeToken"
+          },
+          "__typename": "Objkt"
+        },
+        "__typename": "Listing"
+      },
+      {
+        "id": 971655,
+        "version": 1,
+        "price": 180000000,
+        "objkt": {
+          "id": "FX1-44765",
+          "version": 2,
+          "name": "Universal Rayhatcher #271",
+          "slug": "universal-rayhatcher-271",
+          "metadata": {
+            "name": "Universal Rayhatcher #271",
+            "iterationHash": "ooKsbwRp6hXxk8oUMNGJfXUJoiwahtPPJcmPTyR1XmnirwYjQaG",
+            "description": "# What is this?\n\nThis is 6942 characters of highly experimental code.\n\nThis is a version of my rayhatcher framework (see https://www.fxhash.xyz/article/rayhatching-evolution) that can do literally everything. Or, at least anything you can do within 512 characters of Javascript code. Which is slightly more than a mortal brain can comprehend.\n\nThis is my answer to the question: What is the least restrictive set of parameters for fx(params)?\n\n# Should I be minting this?\n\nDepends if you know and like building SDF formulas. Otherwise probably not. Like I said, this is highly experimental code. But it's definitely worth checking the collection and/or secondary for cool stuff that is already minted.\n\n# How does it work?\n\nThe minter designs an SDF (Signed Distance Function) which is rendered using my rayhatcher algorithm. They then use the SDF formula in the SDF Code parameter. It's not very complicated, just efficient.\n\nYou can press \"h\" to load the documentation and read about how everything works. Or you can press \"d\" to read the dev docs. \n\n# Anything else?\n\nDon't forget that the \"Title Seed\" param also becomes the \"Title\" feature of the mint, so make it count.\n\nThe params, including the SDF code actually get saved on-chain. Even better, all params and the entire code required to reproduce the image are included in the SVG when saved. See https://twitter.com/piterpasma/status/1649071912742420482 .\n\n(c) 2023 by Piter Pasma // https://piterpasma.nl",
+            "tags": [
+              "generative",
+              "javascript",
+              "genartclub",
+              "svg",
+              "3d",
+              "hatching",
+              "rayhatching",
+              "raymarching",
+              "fxparams",
+              "universal"
+            ],
+            "generatorUri": "ipfs://QmdEV5vBcYDBcZGHKfdZbRHgrkgbu7KRzf9JWYc5SaBNV4",
+            "artifactUri": "ipfs://QmdEV5vBcYDBcZGHKfdZbRHgrkgbu7KRzf9JWYc5SaBNV4/?fxhash=ooKsbwRp6hXxk8oUMNGJfXUJoiwahtPPJcmPTyR1XmnirwYjQaG&fxminter=tz1MGXFh1CgiFL5p3dhLWiAabe9tkjjfrEdF&fxparams=3fb999999999999a3fc999999999999a0042006900720064006900650020004200690072006400690065000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000030045004c003d0028005b0078002c0079002c007a005d002c005b00720078002c00720079002c0072007a005d0029003d003e004c00280078002f00720078002c0079002f00720079002c007a002f0072007a0029002a0028004c00280078002f00720078002c0079002f00720079002c007a002f0072007a0029002d00310029002f004c00280078002f00720078002a00720078002c0079002f00720079002a00720079002c007a002f0072007a002a0072007a0029002c0043004c003d0028005b00630078002c00630079002c0063007a005d002c00630068002c00720031002c007200320029003d003e00470028004c002800630078002c00630079002d00630068002a0063006c002800630079002f00630068002c0030002c00310029002c0063007a0029002d006d00690078002800720031002c00720032002c0063006c002800630079002f00630068002c0030002c003100290029002c002d006300790029003b0064003d0072005500280045004c0028005b0078002c0079002d00320030002c007a005d002c005b0032002c0032002c002e0035002b0079002a002e00300037005d0029002c0045004c0028005b0078002c0079002d0039002c007a005d002c005b0035002c00310030002c0034002e0032002b0079002a002e0032005d0029002c002e00380029002c0079002d003d0038002c007a002b003d002e0037002c0064003d005500280064002c00620078003300280078002b0035002e0039002c0079002b0032002c00420028007a0029002b00730069006e00280034002e0035002b0079002a002e003100330029002a0035002e0031002c00310030002c0039002c002e003100290029002c0064003d0072005500280064002c00620078003300280078002d0032002e0035002c0079002b00310033002c007a002d002e0036002c0031002c0034002c002e00360029002b00730069006e0028007a002a003100330029002a002e0033002c00310029002c006a003d007a002d00730069006e00280034002b0079002a002e00310029002a002e0035002c0064003d0072005500280064002c0043004c0028005b0078002d002e0033002c006a002b0035002e0035002c0079002d00310033002d00730069006e00280034002e0033002b007a002a002e00360029002a002e0034005d002c0032002e0035002c0030002c002e00370029002c002e00350029002c0064003d005500280072004700280064002c002d0028004c00280078002d0033002e0035002c0079002d00310032002e0037002c007a002b002e00390029002d002e00350029002c002e00350029002c004c00280078002d0033002e0038002c0079002b00380029002d0031002d006a002a002e00300033002900000000000000000000000000000000000040140000000000003fe6666666666666404900000000000040490000000000003fe999999999999a00000000000000003ff0000000000000ffffffff000000ff3fd0000000000000",
+            "displayUri": "ipfs://QmSeaX5f9J2Qb3oQ1NyzUkXkyhNP6A9k1CCt222obQYqYB",
+            "thumbnailUri": "ipfs://QmdXT1JbcVnJTAJFqDee4xJo8bZjDQjbBiV4i5enRDAdxy",
+            "authenticityHash": "5008a7a010a6dcdede4543e45a8f3f773ea432d655e13075df2f231ee33aebf3",
+            "attributes": [
+              {
+                "name": "Title",
+                "value": "Birdie Birdie"
+              }
+            ],
+            "decimals": 0,
+            "symbol": "GENTK",
+            "version": "0.2"
+          },
+          "duplicate": false,
+          "activeListing": {
+            "id": 971655,
+            "version": 1,
+            "price": 180000000,
+            "__typename": "Listing"
+          },
+          "owner": {
+            "id": "tz1MGXFh1CgiFL5p3dhLWiAabe9tkjjfrEdF",
+            "name": "superbialux",
+            "flag": "VERIFIED",
+            "avatarUri": "ipfs://QmTmaorcuxwGShkAE2yiuVY12yay9AAyjv98XT4UCfBMy5",
+            "__typename": "User"
+          },
+          "issuer": {
+            "flag": "NONE",
+            "name": "Universal Rayhatcher",
+            "author": {
+              "id": "tz1Kw8cEFuNLj21e5b42NBn1ANW7hupmbDbo",
+              "name": "Piter Pasma",
+              "type": "REGULAR",
+              "avatarUri": "ipfs://QmUzcNxvddv1CLtiML1DLpduupP2FnUQsy7xg3Lb3SvSMh",
+              "flag": "VERIFIED",
+              "collaborators": null,
+              "__typename": "User"
+            },
+            "__typename": "GenerativeToken"
+          },
+          "__typename": "Objkt"
+        },
+        "__typename": "Listing"
+      },
+      {
+        "id": 971654,
+        "version": 1,
+        "price": 20000000,
+        "objkt": {
+          "id": "FX0-1585101",
+          "version": 1,
+          "name": "Supernal Memories #237",
+          "slug": "supernal-memories-237",
+          "metadata": {
+            "name": "Supernal Memories #237",
+            "iterationHash": "opQzAfGKVn84eDcyhmLAGY2GECAJ9jJXbA84PGT9y1VrMxo9XB4",
+            "description": "With its layered bursts of color, light, and shadow, Supernal Memories carries an underlying message of optimism through its harmony of seeming dualities – hard and soft, familiar and surprising, expression and introspection.\n\nEach newly generated circle brings its own energy, creating layered groups of light that sometimes resemble phenomena like nebula, lightning sprites, and auras – ethereal whispers of something remembered. \n\nSupernal Memories is an invitation to observe the forms & feel of each piece without labeling their qualities, to contemplate the infinite possibilities of the universe, and to explore the depths of your imagination.\n\n\n--\n\nCreated by Diego Pintos @DondiegoTez\nCreative collaboration with Tender @tender_art\n\nTo get a high resolution file, add \"&print=14000\" to the end of the live URL / hash, using any resolution number that fits your needs. Press 's' to save the file when it is done loading.\n\nPress 'p' to continue the animation for another variation.\n\n100% code, made with p5.js\nSee license.md ",
+            "tags": [
+              "Supernal",
+              "memories",
+              "tender",
+              "diego pintos",
+              "nebula",
+              "lightning sprites"
+            ],
+            "generatorUri": "ipfs://QmSENjPx1M5GRFgYVeC3iJ5gFsmc6dQY4LbAbaQpQ92phr",
+            "artifactUri": "ipfs://QmSENjPx1M5GRFgYVeC3iJ5gFsmc6dQY4LbAbaQpQ92phr?fxhash=opQzAfGKVn84eDcyhmLAGY2GECAJ9jJXbA84PGT9y1VrMxo9XB4",
+            "displayUri": "ipfs://QmWEyxGSaSHeA8FgzSPk1Ufxn5qGyeBvNpFe4n1gWZDzqt",
+            "thumbnailUri": "ipfs://QmbAurdsZCvDUwyzUkC1aKd5SGWycvGmmusJCg1JPGYKwG",
+            "authenticityHash": "7699884afef41f9496eaec92feb5ef2583515ee7a9ae8fb0d8148b0f35e327c8",
+            "attributes": [
+              {
+                "name": "palette",
+                "value": "Arrow"
+              },
+              {
+                "name": "centers",
+                "value": 1
+              },
+              {
+                "name": "anaglyph",
+                "value": false
+              },
+              {
+                "name": "fullcircles",
+                "value": true
+              },
+              {
+                "name": "moons",
+                "value": false
+              },
+              {
+                "name": "gotcircles",
+                "value": false
+              },
+              {
+                "name": "distribution",
+                "value": "ordered"
+              },
+              {
+                "name": "colorful",
+                "value": false
+              },
+              {
+                "name": "grain",
+                "value": true
+              }
+            ],
+            "decimals": 0,
+            "symbol": "GENTK",
+            "version": "0.2"
+          },
+          "duplicate": false,
+          "activeListing": {
+            "id": 971654,
+            "version": 1,
+            "price": 20000000,
+            "__typename": "Listing"
+          },
+          "owner": {
+            "id": "tz1eMrFPD7twjRUCMRnTwQmAZinbSWiLnCRL",
+            "name": "MEAMES.TEZ",
+            "flag": "NONE",
+            "avatarUri": "ipfs://QmT3teaxyLdm2o8zn6RvgC4LPrZjCZy9rMUgvBAi6ydLTV",
+            "__typename": "User"
+          },
+          "issuer": {
+            "flag": "NONE",
+            "name": "Supernal Memories",
+            "author": {
+              "id": "tz1gLrwunGDkA25gBojS7gLeHF3EonHSqN6r",
+              "name": "Diego Pintos",
+              "type": "REGULAR",
+              "avatarUri": "ipfs://QmTCjaTBQR1By3hfNFDmAfJphxpaoJrsE5BAdAGpWLSMBb",
+              "flag": "VERIFIED",
+              "collaborators": null,
+              "__typename": "User"
+            },
+            "__typename": "GenerativeToken"
+          },
+          "__typename": "Objkt"
+        },
+        "__typename": "Listing"
+      },
+      {
         "id": 971653,
         "version": 1,
         "price": 22000000,
@@ -1151,303 +1469,6 @@
               "type": "REGULAR",
               "avatarUri": "ipfs://QmRDmKAyQxcEdS92tcFZ1Jp8AhATrokYYxPiGNcFQEBTxp",
               "flag": "NONE",
-              "collaborators": null,
-              "__typename": "User"
-            },
-            "__typename": "GenerativeToken"
-          },
-          "__typename": "Objkt"
-        },
-        "__typename": "Listing"
-      },
-      {
-        "id": 971636,
-        "version": 1,
-        "price": 14000000,
-        "objkt": {
-          "id": "FX0-1509882",
-          "version": 1,
-          "name": "Automatic #422",
-          "slug": "automatic-422",
-          "metadata": {
-            "name": "Automatic #422",
-            "iterationHash": "oorVG77q7WawJ8MxRZTXjJhBuaCa7jW4G2knLe7FUPHG1rouLxn",
-            "description": "Cellular automata is fascinating :) Applications ranging from physics and biology to modeling and architecture, with artistic and aesthetic representation always following along. Perfect example for emergence, how simple even byte-size rules result in complex structures, forming patterns and unpredictable behaviors...\n\nThis one is simple, 1d elementary cellular automata and the 256 rules as the foundation, where each iteration consists of the following elements: base rules - 3 are selected and allocated into the start row compositions, a set of shapes is assigned to a grid of various sizes. Occasionally, dynamic rule set is added - where a rule is randomly transformed into another random rule on a random row of the grid. A vertical or horizontal alignment of the grid is chosen an a color set assigned. Sometimes, a simple 2d noise is applied to lighten (or well, darken) things a bit. The grid is finite and confined by the amount of cells in a row and amount of rows fitting the canvas given cell size.\n\nThe properties are recorded as features, more as a reference to the building blocks, rather then rarity indication. Probably be best viewed in live mode :)\n\nPressing 's' in live mode will save the png of the output.",
-            "tags": [
-              "ca",
-              "p5js",
-              "emergence"
-            ],
-            "generatorUri": "ipfs://QmZ6FHWL9XdUWcLnwVHxhL43fJaGtHVW92VtPhoh2LQZdh",
-            "artifactUri": "ipfs://QmZ6FHWL9XdUWcLnwVHxhL43fJaGtHVW92VtPhoh2LQZdh?fxhash=oorVG77q7WawJ8MxRZTXjJhBuaCa7jW4G2knLe7FUPHG1rouLxn",
-            "displayUri": "ipfs://QmZaRck91Mz1mVCFbpe83ccEfXcRPtZVJo7tPc5TP91aZt",
-            "thumbnailUri": "ipfs://QmSGG7ZhqSE9iAk4ZS3ZxmTsog6CwR2AXUrqKws7tVRR95",
-            "authenticityHash": "9fde0a8f396fa9f61f78c7881511d03c8fd11f9fcecf108c41c14f26a4f68c3c",
-            "attributes": [
-              {
-                "name": "Alignment",
-                "value": "vertical"
-              },
-              {
-                "name": "Cell count",
-                "value": 400
-              },
-              {
-                "name": "Shapes",
-                "value": "symbol"
-              },
-              {
-                "name": "Start row composition",
-                "value": "rare"
-              },
-              {
-                "name": "Rules",
-                "value": "86, 231, 239"
-              },
-              {
-                "name": "Dynamic rules enabled",
-                "value": false
-              },
-              {
-                "name": "Dynamic rules",
-                "value": "none"
-              },
-              {
-                "name": "Color set",
-                "value": "byg"
-              }
-            ],
-            "decimals": 0,
-            "symbol": "GENTK",
-            "version": "0.2"
-          },
-          "duplicate": false,
-          "activeListing": {
-            "id": 971636,
-            "version": 1,
-            "price": 14000000,
-            "__typename": "Listing"
-          },
-          "owner": {
-            "id": "tz1VGZPvqytFVAoSAsM8VrUveJdL3PpVy6K9",
-            "name": "A R T R A",
-            "flag": "NONE",
-            "avatarUri": "ipfs://QmS34juW7zj5QEB8VzYCLLQMDaisbQAPV641f9rHUxjYBM",
-            "__typename": "User"
-          },
-          "issuer": {
-            "flag": "NONE",
-            "name": "Automatic",
-            "author": {
-              "id": "tz1MPdgV6PJXMLwTN8cUu42XEhbZ1kfiXsFZ",
-              "name": "0x08",
-              "type": "REGULAR",
-              "avatarUri": "ipfs://QmcL7CoCJr2F92SJnaAWXowVPhjLNcvADwY4w1htqGVKrd",
-              "flag": "NONE",
-              "collaborators": null,
-              "__typename": "User"
-            },
-            "__typename": "GenerativeToken"
-          },
-          "__typename": "Objkt"
-        },
-        "__typename": "Listing"
-      },
-      {
-        "id": 971635,
-        "version": 1,
-        "price": 1000000,
-        "objkt": {
-          "id": "FX1-51065",
-          "version": 2,
-          "name": "Triangle Color Study #20",
-          "slug": "triangle-color-study-20",
-          "metadata": {
-            "name": "Triangle Color Study #20",
-            "iterationHash": "ooiBWurqun4E19DN2uQLftro4yY4CXRv7wwBgMRTb6DSnTJyjDG",
-            "description": "dot art\nRandomly generated color palette for both dot color and background with certain calculation.\nAnd have some rarity in different stroke weight.",
-            "tags": [],
-            "generatorUri": "ipfs://QmSrWeygJqHAxJ7CuaXujVmqtSmo7PiZffRAZoqWVdkrcB",
-            "artifactUri": "ipfs://QmSrWeygJqHAxJ7CuaXujVmqtSmo7PiZffRAZoqWVdkrcB/?fxhash=ooiBWurqun4E19DN2uQLftro4yY4CXRv7wwBgMRTb6DSnTJyjDG&fxminter=tz1dAVKwbGe1PVnPBkRZYmYFsecDtTLHjHLK",
-            "displayUri": "ipfs://QmbG56og5pLw5DZoAH2yRRYZL87ccaoiw1wNCtZqvG1oAR",
-            "thumbnailUri": "ipfs://QmckrzbnXV9NHxJECTz3FcHFNhTPGGyd2rorvXSnzKjFKP",
-            "authenticityHash": "769253dbcae69002d6b9a50b036b4cdb633e37506571464663fad9a64be8abc6",
-            "attributes": true,
-            "decimals": 0,
-            "symbol": "GENTK",
-            "version": "0.2"
-          },
-          "duplicate": false,
-          "activeListing": {
-            "id": 971635,
-            "version": 1,
-            "price": 1000000,
-            "__typename": "Listing"
-          },
-          "owner": {
-            "id": "tz1dAVKwbGe1PVnPBkRZYmYFsecDtTLHjHLK",
-            "name": "punk",
-            "flag": "VERIFIED",
-            "avatarUri": "ipfs://QmcZTEQyNHgKTeK1rkcd6b3RCcSbRLMBCqKA8xi3V7FgUT",
-            "__typename": "User"
-          },
-          "issuer": {
-            "flag": "NONE",
-            "name": "Triangle Color Study",
-            "author": {
-              "id": "tz1Qxc19rPrXMaRHMKCqndP9ASaDkqhc3R67",
-              "name": "NoWhere_Safe",
-              "type": "REGULAR",
-              "avatarUri": "ipfs://QmRDmKAyQxcEdS92tcFZ1Jp8AhATrokYYxPiGNcFQEBTxp",
-              "flag": "NONE",
-              "collaborators": null,
-              "__typename": "User"
-            },
-            "__typename": "GenerativeToken"
-          },
-          "__typename": "Objkt"
-        },
-        "__typename": "Listing"
-      },
-      {
-        "id": 971634,
-        "version": 1,
-        "price": 10000000,
-        "objkt": {
-          "id": "FX0-1050969",
-          "version": 1,
-          "name": "chromadynamics #20",
-          "slug": "chromadynamics-20",
-          "metadata": {
-            "name": "chromadynamics #20",
-            "iterationHash": "opHY9TAQ2qUSfPiTTabWLUx1EmhJdqeJXoEdkSQoCociomY7pPu",
-            "description": "click and drag to interact with the piece.\n\npress \"c\" to capture a screenshot (you will be prompted for resolution).",
-            "tags": [
-              "abstract",
-              "rgb",
-              "stigmergy",
-              "DSCL",
-              "fluid",
-              "particles"
-            ],
-            "generatorUri": "ipfs://QmS7A93DHkfhgsJEtr8m7KcrHbotBURXHj7gEEwoWDsrSH",
-            "artifactUri": "ipfs://QmS7A93DHkfhgsJEtr8m7KcrHbotBURXHj7gEEwoWDsrSH?fxhash=opHY9TAQ2qUSfPiTTabWLUx1EmhJdqeJXoEdkSQoCociomY7pPu",
-            "displayUri": "ipfs://QmWN7omxYMdMmvX81CRBojTU1nFvvKLGWiUf2taKComQzq",
-            "thumbnailUri": "ipfs://QmYD1aeWeneHpPM3YfYPHiPfD3ka9YZcTMLPHniheNFGcC",
-            "authenticityHash": "5ce503abc063503ff072b2b0978a84cc1089570026fc37d3417821aaf1df6e65",
-            "attributes": [],
-            "decimals": 0,
-            "symbol": "GENTK",
-            "version": "0.2"
-          },
-          "duplicate": false,
-          "activeListing": {
-            "id": 971634,
-            "version": 1,
-            "price": 10000000,
-            "__typename": "Listing"
-          },
-          "owner": {
-            "id": "tz1VGZPvqytFVAoSAsM8VrUveJdL3PpVy6K9",
-            "name": "A R T R A",
-            "flag": "NONE",
-            "avatarUri": "ipfs://QmS34juW7zj5QEB8VzYCLLQMDaisbQAPV641f9rHUxjYBM",
-            "__typename": "User"
-          },
-          "issuer": {
-            "flag": "NONE",
-            "name": "chromadynamics",
-            "author": {
-              "id": "tz1UYij1nnWT3tL11tuzSzfVm1RztTgTenCj",
-              "name": "ella",
-              "type": "REGULAR",
-              "avatarUri": "ipfs://Qma7TcHs4HQtup3b9J1WtYDd8Ye8ytQhFZJGirFnzxaSAe",
-              "flag": "VERIFIED",
-              "collaborators": null,
-              "__typename": "User"
-            },
-            "__typename": "GenerativeToken"
-          },
-          "__typename": "Objkt"
-        },
-        "__typename": "Listing"
-      },
-      {
-        "id": 971633,
-        "version": 1,
-        "price": 9600000,
-        "objkt": {
-          "id": "FX0-1469008",
-          "version": 1,
-          "name": "Sticks #309",
-          "slug": "sticks-309",
-          "metadata": {
-            "name": "Sticks #309",
-            "iterationHash": "onpsS7Aa8DJGk2qyhxwo94jfsZiEZWf64vya25c2MZ7qquBwyZC",
-            "description": "Francesco Forcellini, January 2023, Milano, Italy.\n\nTo save an image with the size of the window press S once the image is fully rendered.\nTo save a Hi-Resolution image 4500px x 6000px press H and wait, the page will reload and start to render.\n\nBuilt using p5js. Published under CC-BY-NC-4.0 license. Please see the License.md file for license details.\n",
-            "tags": [
-              "grid",
-              "composition",
-              "colors"
-            ],
-            "generatorUri": "ipfs://QmP8XKuAPYpZ6iALHqS4vSzGzTFTWwids2ybn1M6dHopdu",
-            "artifactUri": "ipfs://QmP8XKuAPYpZ6iALHqS4vSzGzTFTWwids2ybn1M6dHopdu?fxhash=onpsS7Aa8DJGk2qyhxwo94jfsZiEZWf64vya25c2MZ7qquBwyZC",
-            "displayUri": "ipfs://QmbZsyVKGMXcrEMXZJxuxYNF2He5Gi7xiqSwAxsxZ7N1VQ",
-            "thumbnailUri": "ipfs://QmRbgeAgkHY5eXYy8fz5CTPccHSNhb5v4igngUWWayfriE",
-            "authenticityHash": "764ae4ef323dc1f20f41986f9fc5260ff44485adc6d392f725659ab50bfa7abd",
-            "attributes": [
-              {
-                "name": "Strokes",
-                "value": "Water Lights"
-              },
-              {
-                "name": "Background",
-                "value": "Sand Grey"
-              },
-              {
-                "name": "Columns",
-                "value": 14
-              },
-              {
-                "name": "Rows",
-                "value": 24
-              },
-              {
-                "name": "Offset",
-                "value": "Full"
-              },
-              {
-                "name": "Rotate",
-                "value": "Off"
-              }
-            ],
-            "decimals": 0,
-            "symbol": "GENTK",
-            "version": "0.2"
-          },
-          "duplicate": false,
-          "activeListing": {
-            "id": 971633,
-            "version": 1,
-            "price": 9600000,
-            "__typename": "Listing"
-          },
-          "owner": {
-            "id": "tz1VGZPvqytFVAoSAsM8VrUveJdL3PpVy6K9",
-            "name": "A R T R A",
-            "flag": "NONE",
-            "avatarUri": "ipfs://QmS34juW7zj5QEB8VzYCLLQMDaisbQAPV641f9rHUxjYBM",
-            "__typename": "User"
-          },
-          "issuer": {
-            "flag": "NONE",
-            "name": "Sticks",
-            "author": {
-              "id": "tz1UDHE3K3CnxP3AqUwjK8EippPkRQhrn2oz",
-              "name": "Francesco Forcellini",
-              "type": "REGULAR",
-              "avatarUri": "ipfs://QmVNLaQxwDHSZxPZtvFF3FnHWxoRkUXcesH7o7oRzzFmEN",
-              "flag": "VERIFIED",
               "collaborators": null,
               "__typename": "User"
             },
