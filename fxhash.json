@@ -2,371 +2,78 @@
   "data": {
     "listings": [
       {
-        "id": 972066,
+        "id": 972165,
         "version": 1,
-        "price": 12000000,
+        "price": 28000000,
         "objkt": {
-          "id": "FX1-39608",
-          "version": 2,
-          "name": "The Paradox of Choice #243",
-          "slug": "the-paradox-of-choice-243",
+          "id": "FX0-1390516",
+          "version": 1,
+          "name": "EDDY #199",
+          "slug": "eddy-199",
           "metadata": {
-            "name": "The Paradox of Choice #243",
-            "iterationHash": "oo4S7W7G1EucsXi6HFX6DMbTjWwDxSwiGHQEDGFRd2KSBc4iLhb",
-            "description": "### OVERVIEW ###\nThis project revisits some of the foundational ideas in my previous work \"Above (The Infinite)\" and makes them available in a parameterized form for your exploration.\n\nThis project both rewards and requires exploration. I intentionally left the parameter space very broad so that edge case configurations would be possible. In practice this means that additional curation beyond the initial random parameters will very likely be required, in a way that mimics my day to day experience as a generative artist.\n\nThanks to Karsten Schmidt for his excellent thi.ng libraries (https://thi.ng/), which form the technical foundation upon which this work was built.\n\n### CONTROLS ###\ne - Save the current frame as a PNG\nspace - Pause/Resume animation\n\n### PARAMETERS ###\nNOTE: Some combinations of parameters will cause flashing/strobing, which is why I have attached the \"Epileptic Seizure\" label to the project.\n\n* Color Palette: The color palette to apply to the output.\n* Merge Technique: The method used to combine the different patterns.\n* Patterns: The various patterns that can be combined to form the overall resulting tiled pattern.\n* Pattern Scales: The scales used to combine patterns. Higher scale values provide more visible pattern repetition.\n* Deformers: An optional additional spatial deformation of a pattern.\n* Deformer Scales: The scale of the deformation itself. Lower values use less of the deformation space, while higher values include more.\n* Detail: Acts as a filter on the visual complexity of the overall tiled pattern. Lower values will reduce visual complexity, while higher values will increase it.\n* Rotation Rate/Scroll Rates: How fast should the image rotate or scroll. Note: adjusting these parameters may result in visuals that trigger motion sickness.\n* Zoom: Lower values zoom in, higher values zoom out.\n* Round Scales Up?: When checked the pattern scales are rounded up to the nearest integer.\n* Animate?: Should some parameters be adjusted with the passing of time?\n* Low Res?: When checked, force device pixel density to 1, which reduces strain on the GPU, but may result in graphical artifacts. I usually keep this unchecked unless I want to lighten the load on the GPU.\n* Anti-alias?: When checked each pixel will be sampled multiple times to attempt to smooth out possible aliasing. This will put more load on the GPU, and will typically be slower. Can be useful when \"Low Res?\" is enabled.\n\n### HOWTO ###\nHere's how I find interesting things.\n\nFirst, I lock all of the parameters below \"Pattern 3\" at their default values. I will also usually lock both Deformers to \"Empty\", as they can sometimes hide interesting patterns while exploring, and then I experiment with enabling one or both once I have found something interesting.\n\nYou can also explore the options individually (to a certain degree) by setting other patterns to \"Empty\". This can make how patterns affect one another more obvious when you set them.\n\nAt this point I'll randomize the parameters, and then do one of the following:\n\n- If I see something that's extremely noisy/detailed, I'll turn down the \"Detail\" level, which can sometimes smooth things out.\n\n- If a tiling is very tight, I'll lower the \"Zoom\" to see more of the pattern, or the reverse if I want to see more overview.\n\n- If there's still a lot of aliasing/noise in the image, sometimes enabling anti-aliasing will help, but that will affect performance. I usually try to adjust the Scale/Detail/Zoom before resorting to anti-aliasing.\n\n- Interesting patterns are formed by the scale factors controlling how pattern overlap happens. Sometimes enabling \"Round Scales Up?\" will introduce some appealing visual symmetry.\n\n- Enable one or both of the deformers to see what impact they have on the pattern.\n\nFinally, once I've found a pattern that's interesting, I may enable scrolling or rotation. Note that enabling additional movement can increase graphical aliasing, so anti-aliasing may be required depending on the pattern.\n\nI hope you enjoy the exploration process!\n\n- Jeff Palmer\n",
+            "name": "EDDY #199",
+            "iterationHash": "oo1HhPVmsu5xK3tmjR4UzJ3VWXpCyZSBVC7y1bMEK1r6w3Q4ZPY",
+            "description": "An eddy is a circular movement of water counter to a main current. It reminds me of innovations in art, like a small countercurrent to the mainstream, surfacing new techniques and aesthetics. \n\nI hope that EDDY will brighten your days with its playful swirl of colors, inspired by the sea, the sky, the birds, and post-impressionist paintings.\n\nKeyboard Controls:\n[F] Fill the window.\n[S] Save the current view in live mode as an image (default 1125x1500px).\n[1] [2] [4] [6] Change resolution, 1.5K to 9K.\n[R] Reverse course.\n\nMade with p5js and shaders.\n\nCreated by elsif, 2022.12.\n",
             "tags": [
-              "generative",
-              "genartclub",
               "abstract",
-              "tiling",
-              "glsl",
-              "shader",
-              "webgl"
+              "painting",
+              "colorful",
+              "playful",
+              "swirl"
             ],
-            "generatorUri": "ipfs://QmbzFf7ktp2vMbo31vfUGiXjfLW3CtDN8WyN9UwLMTN9Wq",
-            "artifactUri": "ipfs://QmbzFf7ktp2vMbo31vfUGiXjfLW3CtDN8WyN9UwLMTN9Wq/?fxhash=oo4S7W7G1EucsXi6HFX6DMbTjWwDxSwiGHQEDGFRd2KSBc4iLhb&fxminter=tz1WusSKVn2eN1S7MeFGe48P4fKjMbhFa5TU&fxparams=0000060040233333333333333ffd99999999999a0b003ff4cccccccccccd3feae147ae147ae1093fea8f5c28f5c28f00000000000000003f8eb851eb851eb83f8eb851eb851eb83fe800000000000000010000",
-            "displayUri": "ipfs://QmTZmHgLwL1ugiddHUebLUBsjoFnsBvXbsGSy3AwhBg1TN",
-            "thumbnailUri": "ipfs://QmYM5gBvQ4yb88GGNCjekb1gQ9ZabyfYytTjauSAP5jYgS",
-            "authenticityHash": "2e45e8903830d5ebf562eced0f3875a24d6279633f545e73b4b3afe6648319d9",
+            "generatorUri": "ipfs://QmTEkrz8mymPBkgGWYjSkoVq24uiCUXtHZgqgmrEPqokvz",
+            "artifactUri": "ipfs://QmTEkrz8mymPBkgGWYjSkoVq24uiCUXtHZgqgmrEPqokvz?fxhash=oo1HhPVmsu5xK3tmjR4UzJ3VWXpCyZSBVC7y1bMEK1r6w3Q4ZPY",
+            "displayUri": "ipfs://QmXaHhsUQaZUykMhmi5fFmqwqFK72LKJGFUbjT9JbBfAis",
+            "thumbnailUri": "ipfs://QmNoans3RDRJ9TYmJMtRErpruc4P3P443fHprvTrycaMLh",
+            "authenticityHash": "464c5b0b30a7120b614f3787775519d77f57d6cda138260d2d5f86ed3fd5463e",
             "attributes": [
-              {
-                "name": "Merge Technique",
-                "value": "Warp"
-              },
-              {
-                "name": "Palette",
-                "value": "Lunar"
-              },
-              {
-                "name": "Pattern 1",
-                "value": "Six"
-              },
-              {
-                "name": "Deformer 1",
-                "value": "Empty"
-              },
-              {
-                "name": "Pattern 2",
-                "value": "Eleven"
-              },
-              {
-                "name": "Deformer 2",
-                "value": "Empty"
-              },
-              {
-                "name": "Pattern 3",
-                "value": "Nine"
-              },
-              {
-                "name": "Animated",
-                "value": "Yes"
-              }
-            ],
-            "decimals": 0,
-            "symbol": "GENTK",
-            "version": "0.2"
-          },
-          "duplicate": false,
-          "activeListing": {
-            "id": 972066,
-            "version": 1,
-            "price": 12000000,
-            "__typename": "Listing"
-          },
-          "owner": {
-            "id": "tz1WusSKVn2eN1S7MeFGe48P4fKjMbhFa5TU",
-            "name": "fauxjebus",
-            "flag": "VERIFIED",
-            "avatarUri": "ipfs://QmZ31UHKm8qgCG5Z6eDuQodDiF4q9GCGBwtywX2LZfNZVZ",
-            "__typename": "User"
-          },
-          "issuer": {
-            "flag": "NONE",
-            "name": "The Paradox of Choice",
-            "author": {
-              "id": "tz1PhYXjxJJovmLLuajAa4kYACQXE2eVEF5k",
-              "name": "Jeff Palmer",
-              "type": "REGULAR",
-              "avatarUri": "ipfs://QmfVaGosxmDJfHhJuf9B4AcgvrxTHUNXAfjqTCqb2C9BtV",
-              "flag": "VERIFIED",
-              "collaborators": null,
-              "__typename": "User"
-            },
-            "__typename": "GenerativeToken"
-          },
-          "__typename": "Objkt"
-        },
-        "__typename": "Listing"
-      },
-      {
-        "id": 972065,
-        "version": 1,
-        "price": 9000000,
-        "objkt": {
-          "id": "FX1-39611",
-          "version": 2,
-          "name": "The Paradox of Choice #244",
-          "slug": "the-paradox-of-choice-244",
-          "metadata": {
-            "name": "The Paradox of Choice #244",
-            "iterationHash": "oobEZTgwLahGm7CfwX79gxc9fF1iKWBL7A9UoUWNboFHAud9Kcd",
-            "description": "### OVERVIEW ###\nThis project revisits some of the foundational ideas in my previous work \"Above (The Infinite)\" and makes them available in a parameterized form for your exploration.\n\nThis project both rewards and requires exploration. I intentionally left the parameter space very broad so that edge case configurations would be possible. In practice this means that additional curation beyond the initial random parameters will very likely be required, in a way that mimics my day to day experience as a generative artist.\n\nThanks to Karsten Schmidt for his excellent thi.ng libraries (https://thi.ng/), which form the technical foundation upon which this work was built.\n\n### CONTROLS ###\ne - Save the current frame as a PNG\nspace - Pause/Resume animation\n\n### PARAMETERS ###\nNOTE: Some combinations of parameters will cause flashing/strobing, which is why I have attached the \"Epileptic Seizure\" label to the project.\n\n* Color Palette: The color palette to apply to the output.\n* Merge Technique: The method used to combine the different patterns.\n* Patterns: The various patterns that can be combined to form the overall resulting tiled pattern.\n* Pattern Scales: The scales used to combine patterns. Higher scale values provide more visible pattern repetition.\n* Deformers: An optional additional spatial deformation of a pattern.\n* Deformer Scales: The scale of the deformation itself. Lower values use less of the deformation space, while higher values include more.\n* Detail: Acts as a filter on the visual complexity of the overall tiled pattern. Lower values will reduce visual complexity, while higher values will increase it.\n* Rotation Rate/Scroll Rates: How fast should the image rotate or scroll. Note: adjusting these parameters may result in visuals that trigger motion sickness.\n* Zoom: Lower values zoom in, higher values zoom out.\n* Round Scales Up?: When checked the pattern scales are rounded up to the nearest integer.\n* Animate?: Should some parameters be adjusted with the passing of time?\n* Low Res?: When checked, force device pixel density to 1, which reduces strain on the GPU, but may result in graphical artifacts. I usually keep this unchecked unless I want to lighten the load on the GPU.\n* Anti-alias?: When checked each pixel will be sampled multiple times to attempt to smooth out possible aliasing. This will put more load on the GPU, and will typically be slower. Can be useful when \"Low Res?\" is enabled.\n\n### HOWTO ###\nHere's how I find interesting things.\n\nFirst, I lock all of the parameters below \"Pattern 3\" at their default values. I will also usually lock both Deformers to \"Empty\", as they can sometimes hide interesting patterns while exploring, and then I experiment with enabling one or both once I have found something interesting.\n\nYou can also explore the options individually (to a certain degree) by setting other patterns to \"Empty\". This can make how patterns affect one another more obvious when you set them.\n\nAt this point I'll randomize the parameters, and then do one of the following:\n\n- If I see something that's extremely noisy/detailed, I'll turn down the \"Detail\" level, which can sometimes smooth things out.\n\n- If a tiling is very tight, I'll lower the \"Zoom\" to see more of the pattern, or the reverse if I want to see more overview.\n\n- If there's still a lot of aliasing/noise in the image, sometimes enabling anti-aliasing will help, but that will affect performance. I usually try to adjust the Scale/Detail/Zoom before resorting to anti-aliasing.\n\n- Interesting patterns are formed by the scale factors controlling how pattern overlap happens. Sometimes enabling \"Round Scales Up?\" will introduce some appealing visual symmetry.\n\n- Enable one or both of the deformers to see what impact they have on the pattern.\n\nFinally, once I've found a pattern that's interesting, I may enable scrolling or rotation. Note that enabling additional movement can increase graphical aliasing, so anti-aliasing may be required depending on the pattern.\n\nI hope you enjoy the exploration process!\n\n- Jeff Palmer\n",
-            "tags": [
-              "generative",
-              "genartclub",
-              "abstract",
-              "tiling",
-              "glsl",
-              "shader",
-              "webgl"
-            ],
-            "generatorUri": "ipfs://QmbzFf7ktp2vMbo31vfUGiXjfLW3CtDN8WyN9UwLMTN9Wq",
-            "artifactUri": "ipfs://QmbzFf7ktp2vMbo31vfUGiXjfLW3CtDN8WyN9UwLMTN9Wq/?fxhash=oobEZTgwLahGm7CfwX79gxc9fF1iKWBL7A9UoUWNboFHAud9Kcd&fxminter=tz1WusSKVn2eN1S7MeFGe48P4fKjMbhFa5TU&fxparams=03010d003feccccccccccccd3ffbd70a3d70a3d70e0040240000000000003ff4f5c28f5c28f60d3fea8f5c28f5c28f3f747ae147ae147b000000000000000000000000000000003fe4cccccccccccd00010000",
-            "displayUri": "ipfs://QmNpeUDK6Hk1D7Mt35V3VJwC61XckciXnWjbjJpEC88odL",
-            "thumbnailUri": "ipfs://QmTwd2hdnJHQ5AxzoXEZRC8ApjrirMKhKwPdVkSBf8DPbg",
-            "authenticityHash": "da6c3176fcbeb92e493c83573797c13d6a507915f8d6a3f45e666737cc742f45",
-            "attributes": [
-              {
-                "name": "Merge Technique",
-                "value": "Meld"
-              },
-              {
-                "name": "Palette",
-                "value": "Glacier"
-              },
-              {
-                "name": "Pattern 1",
-                "value": "Simplex"
-              },
-              {
-                "name": "Deformer 1",
-                "value": "Empty"
-              },
-              {
-                "name": "Pattern 2",
-                "value": "Worley One"
-              },
-              {
-                "name": "Deformer 2",
-                "value": "Empty"
-              },
-              {
-                "name": "Pattern 3",
-                "value": "Simplex"
-              },
-              {
-                "name": "Animated",
-                "value": "Yes"
-              }
-            ],
-            "decimals": 0,
-            "symbol": "GENTK",
-            "version": "0.2"
-          },
-          "duplicate": false,
-          "activeListing": {
-            "id": 972065,
-            "version": 1,
-            "price": 9000000,
-            "__typename": "Listing"
-          },
-          "owner": {
-            "id": "tz1WusSKVn2eN1S7MeFGe48P4fKjMbhFa5TU",
-            "name": "fauxjebus",
-            "flag": "VERIFIED",
-            "avatarUri": "ipfs://QmZ31UHKm8qgCG5Z6eDuQodDiF4q9GCGBwtywX2LZfNZVZ",
-            "__typename": "User"
-          },
-          "issuer": {
-            "flag": "NONE",
-            "name": "The Paradox of Choice",
-            "author": {
-              "id": "tz1PhYXjxJJovmLLuajAa4kYACQXE2eVEF5k",
-              "name": "Jeff Palmer",
-              "type": "REGULAR",
-              "avatarUri": "ipfs://QmfVaGosxmDJfHhJuf9B4AcgvrxTHUNXAfjqTCqb2C9BtV",
-              "flag": "VERIFIED",
-              "collaborators": null,
-              "__typename": "User"
-            },
-            "__typename": "GenerativeToken"
-          },
-          "__typename": "Objkt"
-        },
-        "__typename": "Listing"
-      },
-      {
-        "id": 972064,
-        "version": 1,
-        "price": 10000000,
-        "objkt": {
-          "id": "FX1-40631",
-          "version": 2,
-          "name": "The Beauty In Small Things #237",
-          "slug": "the-beauty-in-small-things-237",
-          "metadata": {
-            "name": "The Beauty In Small Things #237",
-            "iterationHash": "opYNBjHgdco8CrkU6YqM6XspFqyoNWJYeefzWJpzvWPJL2iAUpF",
-            "description": "\"The Beauty In Small Things\" marks a new page in my collection of rules-based emergent systems. Like my previous projects,it is based on millions of transparent lines interacting in unpredictable ways. This time, the following rules are applied:\n- Place N circles in the canvas and pick a random point on each circle.\n- Assign a color from the current palette to each point\n- At each step, rotate the point along its circle, and draw a segment between the 2 closest points in the set.\n\nFinding the closest points in a set is another classic computer science problem. This implementation uses the sweep line algorithm to avoid the O(n^2) complexity of the naive method. Rendering still requires a good GPU (with the density at its maximum, it draws 5.7 million lines)\n\nPlaying with the token parameters will reward collectors with very diverse and unexpected outputs.\n\nFor this token I have added 2 important parameters:\n- Hash Override: when set to a valid hash value, this forces using this value for the token generation. This allows collectors to mint the exact same output as the one they see while adjusting the parameters.\n- Micro Variation: one downside of using Hash Override is that the same output can be generated multiple time, by using the same hash. The Micro Variation parameters counterbalances that, by adding a variable amount of randomness taken from the original mint hash. This ensures the output\nwill be very similar to the one currently displayed, but not exactly identical.\n*** WARNING *** If Micro-Variation is set to 0, the output is 100% deterministic and other collectors will be able to generate the exact same output by copying the Hash Override value.\n\nLike \"The Traveling Salesman\", \"The Beauty In Small Things\" is an open edition that starts with 10.000 editions priced at 1tz. After 1 week, the supply will be halved and the price increased by 1tz every day.\n\n75% of the royalties will go to the minters, to reward their creative use of the parameters.\n\nIn Live view, you can use ?s=2 or ?s=3 to render at a higher resolution.\n?noise=0 will turn off the background noise texture.",
-            "tags": [
-              "#abstract",
-              "#color",
-              "#regl",
-              "#webgl",
-              "#lines"
-            ],
-            "generatorUri": "ipfs://QmfDxq2eh1H9Sbfq3zhv2w6J6xojWCPiNy5WaKK3ugB9Kg",
-            "artifactUri": "ipfs://QmfDxq2eh1H9Sbfq3zhv2w6J6xojWCPiNy5WaKK3ugB9Kg/?fxhash=opYNBjHgdco8CrkU6YqM6XspFqyoNWJYeefzWJpzvWPJL2iAUpF&fxminter=tz1WusSKVn2eN1S7MeFGe48P4fKjMbhFa5TU&fxparams=007900350037006f000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000002c2c2c732b2b2b083333336321212157212121d61616160d2c2c2ca6eaeeef800101403200000000000040340000000000004008000000000000400800000000000040510000000000004020000000000000401c000000000000403751eb851eb85240584000000000004054000000000000402e000000000000c02200000000000000000000000000000040440000000000000000000000000000",
-            "displayUri": "ipfs://QmXoHimGMQti8BXGWxPfbPTHndUBxRFNbYUfFibP9sabHX",
-            "thumbnailUri": "ipfs://QmSGkYttupsTNWWSbquJWTb3pkFx2sbesJY3G27DnrAjzH",
-            "authenticityHash": "03ea923568747dc69033a4cba3a5ff57d393a30257d529b53b31875ebcf8635b",
-            "attributes": true,
-            "decimals": 0,
-            "symbol": "GENTK",
-            "version": "0.2"
-          },
-          "duplicate": false,
-          "activeListing": {
-            "id": 972064,
-            "version": 1,
-            "price": 10000000,
-            "__typename": "Listing"
-          },
-          "owner": {
-            "id": "tz1WusSKVn2eN1S7MeFGe48P4fKjMbhFa5TU",
-            "name": "fauxjebus",
-            "flag": "VERIFIED",
-            "avatarUri": "ipfs://QmZ31UHKm8qgCG5Z6eDuQodDiF4q9GCGBwtywX2LZfNZVZ",
-            "__typename": "User"
-          },
-          "issuer": {
-            "flag": "NONE",
-            "name": "The Beauty In Small Things",
-            "author": {
-              "id": "tz2Q5AmNP45Z5KMmeK7ZYdXyLMkbhz82n6fd",
-              "name": "r1b2",
-              "type": "REGULAR",
-              "avatarUri": "ipfs://QmShWESZVs1zkcFds7npFU5ryGjKrE2ZPFn4zZEA8oMCm3",
-              "flag": "VERIFIED",
-              "collaborators": null,
-              "__typename": "User"
-            },
-            "__typename": "GenerativeToken"
-          },
-          "__typename": "Objkt"
-        },
-        "__typename": "Listing"
-      },
-      {
-        "id": 972063,
-        "version": 1,
-        "price": 13000000,
-        "objkt": {
-          "id": "FX1-49045",
-          "version": 2,
-          "name": "Blockchain Automaton #369",
-          "slug": "blockchain-automaton-369",
-          "metadata": {
-            "name": "Blockchain Automaton #369",
-            "iterationHash": "oopusYmASMUmevzZYRcF4ykbPFBJQMM39g5gtTkNDAZ5jyVmq6w",
-            "description": "This experimental project involves an on-chain cellular automaton. The features and cellular automaton rules are derived from the minter's address. Being the first (unto my knowledge) project on fxhash that generates the artwork completely on chain, it seemed fitting to draw inspiration from one of the first projects on fxhash, \"RGB Elementary Cellular Automaton\".\n\nWhat is this?\n\nAn experimental generative token that integrates on-chain generation, and on-chain storage of the artwork. This is accomplished using a custom smart contract. The artwork is generated using the generate_on_chain entrypoint in KT1GRFujk5m6feK7gJcqCU7ijJkFgx5JigEt, and the generated image is subsequently stored on-chain as a byte-string of pixels (row-major order) in the tokens bigmap in KT1GRFujk5m6feK7gJcqCU7ijJkFgx5JigEt.\n\nHow does this work?\n\nSmart contracts have a default entrypoint which is automatically called when XTZ is sent to the contract. By using a smart contract as the primary address, the default entrypoint will be called every time a token is minted. Of course, to prevent accounts from bypassing the fxhash contracts and sending XTZ directly to the smart contract, generating and storing the artwork on-chain, the smart contract checks that an fxhash contract is the account sending XTZ. In this smart contract, the default entrypoint immediately calls the generate_on_chain entrypoint for the sole purpose of making the generation process more apparent on indexers like tzkt.\n\nIn order to make this project compatible with fxhash, the artwork produced by the code submitted to fxhash must be identical to that which is produced by the generative algorithm within the smart contract. At the time of development, the minter's address is the only piece of information which is readily accessible via the fxhash snippet API and in the smart contract. As a result, each account can only generate a single unique artwork (this is enforced by the contract). In the future, this issue could be solved if the fxhash snippet API provided access to the iteration number, as the smart contract could also keep track of this information quite easily.\n\nConsequently, collectors who wish to collect more than one iteration must create additional accounts to mint. The tokens can then be subsequently transferred as per usual.\n\nWhy is the variations preview disabled?\n\nBecause the minter's address is the source of randomness for the generated artwork, not the hash provided by fxhash, changing the hash in the variations preview will have no effect. To see different variations of the artwork you need to modify the fxminter URL parameter in live preview mode.\n\nWhy does the mint button not work on the fxhash frontend?\n\nCurrently, the fxhash frontend has a default storage limit for mint operations that is less than what is required to store the generated image on chain. As a result, the mint button will fail on the fxhash frontend. To get around this, you can mint this token on a mini-website I created (https://blockchain-automaton.netlify.app/), or on Better Call Dev, or by injecting the transaction directly onto the blockchain.\n\nBut Why?\n\nBecause experimentation is fun.",
-            "tags": [
-              "onchain",
-              "cellular automaton",
-              "blockchain",
-              "pixelart"
-            ],
-            "generatorUri": "ipfs://Qmeb7huzBQZ5KTo2qqc48Kg5GEumYDKbXMN9UQXkD5Zz5Y",
-            "artifactUri": "ipfs://Qmeb7huzBQZ5KTo2qqc48Kg5GEumYDKbXMN9UQXkD5Zz5Y/?fxhash=oopusYmASMUmevzZYRcF4ykbPFBJQMM39g5gtTkNDAZ5jyVmq6w&fxminter=tz1gBWpH8GxFLid7e1VGE9CWaGYh5KjgkhuA",
-            "displayUri": "ipfs://Qmd6jQEGupkTJnaY154hNsJqTQGmcLcdFSEXbLgDLcuz8B",
-            "thumbnailUri": "ipfs://QmPxNydRpriaKj3c25om3JchVSQuVn2RzrjjdMuBYT74sH",
-            "authenticityHash": "8405fa969d30434c3f662a25c98d5d25916d68ed958a0b310eb0967410f5ec3f",
-            "attributes": [
-              {
-                "name": "mode",
-                "value": "Vertical"
-              },
               {
                 "name": "palette",
-                "value": 10
+                "value": "Vincent"
               },
               {
-                "name": "size",
-                "value": "32x32"
-              }
-            ],
-            "decimals": 0,
-            "symbol": "GENTK",
-            "version": "0.2"
-          },
-          "duplicate": false,
-          "activeListing": {
-            "id": 972063,
-            "version": 1,
-            "price": 13000000,
-            "__typename": "Listing"
-          },
-          "owner": {
-            "id": "tz1RnBLgZhKmpSqw5LsWjvVHtLW38yFGpLrH",
-            "name": "zhangyang.tez",
-            "flag": "NONE",
-            "avatarUri": "ipfs://QmSgCLwpUbqx6hvMwucn2HHJh76tsmaLwHX3d3M4xKtcrX",
-            "__typename": "User"
-          },
-          "issuer": {
-            "flag": "NONE",
-            "name": "Blockchain Automaton",
-            "author": {
-              "id": "tz1QvV3jVPWrJSdDy9ePZBnhGL8bAoQFFBPv",
-              "name": "Extracurricular Activities",
-              "type": "REGULAR",
-              "avatarUri": "ipfs://QmahpnFUbW9NWQjUzNLUxxYLszZC2eeNo5mmRPikJLYge5",
-              "flag": "VERIFIED",
-              "collaborators": null,
-              "__typename": "User"
-            },
-            "__typename": "GenerativeToken"
-          },
-          "__typename": "Objkt"
-        },
-        "__typename": "Listing"
-      },
-      {
-        "id": 972062,
-        "version": 1,
-        "price": 13000000,
-        "objkt": {
-          "id": "FX1-49030",
-          "version": 2,
-          "name": "Blockchain Automaton #356",
-          "slug": "blockchain-automaton-356",
-          "metadata": {
-            "name": "Blockchain Automaton #356",
-            "iterationHash": "ooCKHyW7h4vvDrhiqRGBuMok9dZR7E4FyeG7rWTW3sU9FjLk1Fw",
-            "description": "This experimental project involves an on-chain cellular automaton. The features and cellular automaton rules are derived from the minter's address. Being the first (unto my knowledge) project on fxhash that generates the artwork completely on chain, it seemed fitting to draw inspiration from one of the first projects on fxhash, \"RGB Elementary Cellular Automaton\".\n\nWhat is this?\n\nAn experimental generative token that integrates on-chain generation, and on-chain storage of the artwork. This is accomplished using a custom smart contract. The artwork is generated using the generate_on_chain entrypoint in KT1GRFujk5m6feK7gJcqCU7ijJkFgx5JigEt, and the generated image is subsequently stored on-chain as a byte-string of pixels (row-major order) in the tokens bigmap in KT1GRFujk5m6feK7gJcqCU7ijJkFgx5JigEt.\n\nHow does this work?\n\nSmart contracts have a default entrypoint which is automatically called when XTZ is sent to the contract. By using a smart contract as the primary address, the default entrypoint will be called every time a token is minted. Of course, to prevent accounts from bypassing the fxhash contracts and sending XTZ directly to the smart contract, generating and storing the artwork on-chain, the smart contract checks that an fxhash contract is the account sending XTZ. In this smart contract, the default entrypoint immediately calls the generate_on_chain entrypoint for the sole purpose of making the generation process more apparent on indexers like tzkt.\n\nIn order to make this project compatible with fxhash, the artwork produced by the code submitted to fxhash must be identical to that which is produced by the generative algorithm within the smart contract. At the time of development, the minter's address is the only piece of information which is readily accessible via the fxhash snippet API and in the smart contract. As a result, each account can only generate a single unique artwork (this is enforced by the contract). In the future, this issue could be solved if the fxhash snippet API provided access to the iteration number, as the smart contract could also keep track of this information quite easily.\n\nConsequently, collectors who wish to collect more than one iteration must create additional accounts to mint. The tokens can then be subsequently transferred as per usual.\n\nWhy is the variations preview disabled?\n\nBecause the minter's address is the source of randomness for the generated artwork, not the hash provided by fxhash, changing the hash in the variations preview will have no effect. To see different variations of the artwork you need to modify the fxminter URL parameter in live preview mode.\n\nWhy does the mint button not work on the fxhash frontend?\n\nCurrently, the fxhash frontend has a default storage limit for mint operations that is less than what is required to store the generated image on chain. As a result, the mint button will fail on the fxhash frontend. To get around this, you can mint this token on a mini-website I created (https://blockchain-automaton.netlify.app/), or on Better Call Dev, or by injecting the transaction directly onto the blockchain.\n\nBut Why?\n\nBecause experimentation is fun.",
-            "tags": [
-              "onchain",
-              "cellular automaton",
-              "blockchain",
-              "pixelart"
-            ],
-            "generatorUri": "ipfs://Qmeb7huzBQZ5KTo2qqc48Kg5GEumYDKbXMN9UQXkD5Zz5Y",
-            "artifactUri": "ipfs://Qmeb7huzBQZ5KTo2qqc48Kg5GEumYDKbXMN9UQXkD5Zz5Y/?fxhash=ooCKHyW7h4vvDrhiqRGBuMok9dZR7E4FyeG7rWTW3sU9FjLk1Fw&fxminter=tz1NXUsnVKFQyzCis2LAnJpSboPvtBuDD7xX",
-            "displayUri": "ipfs://QmUiBMJaaR1VNsvjh3bGSKTpDaqGQyPmUvY71pMtzYgoBB",
-            "thumbnailUri": "ipfs://QmZ9DtZ3XcDDfXoT91tPwhYMVnYAofaqpwPTY1gVkMYBkv",
-            "authenticityHash": "33c5dc11ab1b17bd6473af26f7f49353f0681ec52555930205b7f295670dd1fa",
-            "attributes": [
-              {
-                "name": "mode",
-                "value": "Horizontal"
+                "name": "numCells",
+                "value": 17
               },
               {
-                "name": "palette",
+                "name": "center",
+                "value": "0.50, 0.50"
+              },
+              {
+                "name": "swirlAngle",
+                "value": 180
+              },
+              {
+                "name": "pattern",
+                "value": false
+              },
+              {
+                "name": "style",
+                "value": "storybook"
+              },
+              {
+                "name": "outline",
+                "value": false
+              },
+              {
+                "name": "heading",
+                "value": "NW"
+              },
+              {
+                "name": "spin",
                 "value": 0
               },
               {
-                "name": "size",
-                "value": "16x16"
+                "name": "reduceColors",
+                "value": false
+              },
+              {
+                "name": "curve",
+                "value": false
+              },
+              {
+                "name": "glitch",
+                "value": false
               }
             ],
             "decimals": 0,
@@ -375,26 +82,26 @@
           },
           "duplicate": false,
           "activeListing": {
-            "id": 972062,
+            "id": 972165,
             "version": 1,
-            "price": 13000000,
+            "price": 28000000,
             "__typename": "Listing"
           },
           "owner": {
-            "id": "tz1RnBLgZhKmpSqw5LsWjvVHtLW38yFGpLrH",
-            "name": "zhangyang.tez",
+            "id": "tz1LJchBBMZNAjhJq5qGHNEyzPceRtFuHAqy",
+            "name": null,
             "flag": "NONE",
-            "avatarUri": "ipfs://QmSgCLwpUbqx6hvMwucn2HHJh76tsmaLwHX3d3M4xKtcrX",
+            "avatarUri": null,
             "__typename": "User"
           },
           "issuer": {
             "flag": "NONE",
-            "name": "Blockchain Automaton",
+            "name": "EDDY",
             "author": {
-              "id": "tz1QvV3jVPWrJSdDy9ePZBnhGL8bAoQFFBPv",
-              "name": "Extracurricular Activities",
+              "id": "tz2E2R7xBGTaDUpsERfZVLLY5nrswWAvp9xK",
+              "name": "elsif",
               "type": "REGULAR",
-              "avatarUri": "ipfs://QmahpnFUbW9NWQjUzNLUxxYLszZC2eeNo5mmRPikJLYge5",
+              "avatarUri": "ipfs://QmV5QS35YRhi9vbqkEZaS79ZJQG1fsFdHG6yapEbhxSQFs",
               "flag": "VERIFIED",
               "collaborators": null,
               "__typename": "User"
@@ -406,441 +113,55 @@
         "__typename": "Listing"
       },
       {
-        "id": 972061,
+        "id": 972164,
         "version": 1,
-        "price": 10000000,
+        "price": 3800000,
         "objkt": {
-          "id": "FX1-50812",
-          "version": 2,
-          "name": "The Paradox of Choice #523",
-          "slug": "the-paradox-of-choice-523",
+          "id": "FX0-162304",
+          "version": 0,
+          "name": "s l i d e #914",
+          "slug": "s-l-i-d-e-914",
           "metadata": {
-            "name": "The Paradox of Choice #523",
-            "iterationHash": "oo38cSRGPANzAcWFw5zcBhVXCfBgLQfMYRrBHLddmjT9uNYuzYY",
-            "description": "### OVERVIEW ###\nThis project revisits some of the foundational ideas in my previous work \"Above (The Infinite)\" and makes them available in a parameterized form for your exploration.\n\nThis project both rewards and requires exploration. I intentionally left the parameter space very broad so that edge case configurations would be possible. In practice this means that additional curation beyond the initial random parameters will very likely be required, in a way that mimics my day to day experience as a generative artist.\n\nThanks to Karsten Schmidt for his excellent thi.ng libraries (https://thi.ng/), which form the technical foundation upon which this work was built.\n\n### CONTROLS ###\ne - Save the current frame as a PNG\nspace - Pause/Resume animation\n\n### PARAMETERS ###\nNOTE: Some combinations of parameters will cause flashing/strobing, which is why I have attached the \"Epileptic Seizure\" label to the project.\n\n* Color Palette: The color palette to apply to the output.\n* Merge Technique: The method used to combine the different patterns.\n* Patterns: The various patterns that can be combined to form the overall resulting tiled pattern.\n* Pattern Scales: The scales used to combine patterns. Higher scale values provide more visible pattern repetition.\n* Deformers: An optional additional spatial deformation of a pattern.\n* Deformer Scales: The scale of the deformation itself. Lower values use less of the deformation space, while higher values include more.\n* Detail: Acts as a filter on the visual complexity of the overall tiled pattern. Lower values will reduce visual complexity, while higher values will increase it.\n* Rotation Rate/Scroll Rates: How fast should the image rotate or scroll. Note: adjusting these parameters may result in visuals that trigger motion sickness.\n* Zoom: Lower values zoom in, higher values zoom out.\n* Round Scales Up?: When checked the pattern scales are rounded up to the nearest integer.\n* Animate?: Should some parameters be adjusted with the passing of time?\n* Low Res?: When checked, force device pixel density to 1, which reduces strain on the GPU, but may result in graphical artifacts. I usually keep this unchecked unless I want to lighten the load on the GPU.\n* Anti-alias?: When checked each pixel will be sampled multiple times to attempt to smooth out possible aliasing. This will put more load on the GPU, and will typically be slower. Can be useful when \"Low Res?\" is enabled.\n\n### HOWTO ###\nHere's how I find interesting things.\n\nFirst, I lock all of the parameters below \"Pattern 3\" at their default values. I will also usually lock both Deformers to \"Empty\", as they can sometimes hide interesting patterns while exploring, and then I experiment with enabling one or both once I have found something interesting.\n\nYou can also explore the options individually (to a certain degree) by setting other patterns to \"Empty\". This can make how patterns affect one another more obvious when you set them.\n\nAt this point I'll randomize the parameters, and then do one of the following:\n\n- If I see something that's extremely noisy/detailed, I'll turn down the \"Detail\" level, which can sometimes smooth things out.\n\n- If a tiling is very tight, I'll lower the \"Zoom\" to see more of the pattern, or the reverse if I want to see more overview.\n\n- If there's still a lot of aliasing/noise in the image, sometimes enabling anti-aliasing will help, but that will affect performance. I usually try to adjust the Scale/Detail/Zoom before resorting to anti-aliasing.\n\n- Interesting patterns are formed by the scale factors controlling how pattern overlap happens. Sometimes enabling \"Round Scales Up?\" will introduce some appealing visual symmetry.\n\n- Enable one or both of the deformers to see what impact they have on the pattern.\n\nFinally, once I've found a pattern that's interesting, I may enable scrolling or rotation. Note that enabling additional movement can increase graphical aliasing, so anti-aliasing may be required depending on the pattern.\n\nI hope you enjoy the exploration process!\n\n- Jeff Palmer\n",
+            "name": "s l i d e #914",
+            "iterationHash": "onjjTyjGRFP9xuyW2nUXSEFtM6w2Yg1fEV7uDH7j4DkEsQRrLZc",
+            "description": "I made this instead of studying today ._.",
             "tags": [
-              "generative",
-              "genartclub",
-              "abstract",
-              "tiling",
-              "glsl",
-              "shader",
-              "webgl"
+              "dots",
+              "go",
+              "brrr"
             ],
-            "generatorUri": "ipfs://QmbzFf7ktp2vMbo31vfUGiXjfLW3CtDN8WyN9UwLMTN9Wq",
-            "artifactUri": "ipfs://QmbzFf7ktp2vMbo31vfUGiXjfLW3CtDN8WyN9UwLMTN9Wq/?fxhash=oo38cSRGPANzAcWFw5zcBhVXCfBgLQfMYRrBHLddmjT9uNYuzYY&fxminter=tz1WusSKVn2eN1S7MeFGe48P4fKjMbhFa5TU&fxparams=01000e00402400000000000040000000000000000e003ff4cccccccccccd3ffc7ae147ae147b003fe0a3d70a3d70a400000000000000003f689374bc6a7efa00000000000000003ff0cccccccccccd00010000",
-            "displayUri": "ipfs://QmbyZBF3ML8sX1dM3TzkumUA9YuAii8xaPQmcwwGSzTkdW",
-            "thumbnailUri": "ipfs://QmTrVP8coPzGCXuodLy2JmfH21wc58Dsu1c8aKGq3XoYj3",
-            "authenticityHash": "03fc7fc53bdab7d1865b250eec9c418f6455c4889244f33380b50f8b919a759c",
+            "artifactUri": "ipfs://QmSE6Caa2awwy9bJYHyb7VcKSZvCH25YUkK4prQ8zx9cPs",
+            "displayUri": "ipfs://QmfP2SQbxtCrwbrBKN9pwLAjXW1KG8NjW4823kw2hdCzg8",
+            "thumbnailUri": "ipfs://QmPFXPnKVXbjkM35s3F2mJPk6JKyAu97bBnhEvVXwMoby4",
+            "authenticityHash": "ab13cf3fe58430deecb51cd74a5c024666355fb9c7051d6b08627c84e3c03a57",
             "attributes": [
               {
-                "name": "Merge Technique",
-                "value": "Warp"
+                "name": "ur",
+                "value": "dum"
               },
               {
-                "name": "Palette",
-                "value": "Filigree"
-              },
-              {
-                "name": "Pattern 1",
-                "value": "Worley One"
-              },
-              {
-                "name": "Deformer 1",
-                "value": "Empty"
-              },
-              {
-                "name": "Pattern 2",
-                "value": "Worley One"
-              },
-              {
-                "name": "Deformer 2",
-                "value": "Empty"
-              },
-              {
-                "name": "Pattern 3",
-                "value": "Empty"
-              },
-              {
-                "name": "Animated",
-                "value": "Yes"
-              }
-            ],
-            "decimals": 0,
-            "symbol": "GENTK",
-            "version": "0.2"
-          },
-          "duplicate": false,
-          "activeListing": {
-            "id": 972061,
-            "version": 1,
-            "price": 10000000,
-            "__typename": "Listing"
-          },
-          "owner": {
-            "id": "tz1WusSKVn2eN1S7MeFGe48P4fKjMbhFa5TU",
-            "name": "fauxjebus",
-            "flag": "VERIFIED",
-            "avatarUri": "ipfs://QmZ31UHKm8qgCG5Z6eDuQodDiF4q9GCGBwtywX2LZfNZVZ",
-            "__typename": "User"
-          },
-          "issuer": {
-            "flag": "NONE",
-            "name": "The Paradox of Choice",
-            "author": {
-              "id": "tz1PhYXjxJJovmLLuajAa4kYACQXE2eVEF5k",
-              "name": "Jeff Palmer",
-              "type": "REGULAR",
-              "avatarUri": "ipfs://QmfVaGosxmDJfHhJuf9B4AcgvrxTHUNXAfjqTCqb2C9BtV",
-              "flag": "VERIFIED",
-              "collaborators": null,
-              "__typename": "User"
-            },
-            "__typename": "GenerativeToken"
-          },
-          "__typename": "Objkt"
-        },
-        "__typename": "Listing"
-      },
-      {
-        "id": 972060,
-        "version": 1,
-        "price": 13000000,
-        "objkt": {
-          "id": "FX1-49028",
-          "version": 2,
-          "name": "Blockchain Automaton #354",
-          "slug": "blockchain-automaton-354",
-          "metadata": {
-            "name": "Blockchain Automaton #354",
-            "iterationHash": "onvWvfTrEBfjj8V9SuYpaw4vyhhZhx9YNV3qJFrHdR1TeFJStF7",
-            "description": "This experimental project involves an on-chain cellular automaton. The features and cellular automaton rules are derived from the minter's address. Being the first (unto my knowledge) project on fxhash that generates the artwork completely on chain, it seemed fitting to draw inspiration from one of the first projects on fxhash, \"RGB Elementary Cellular Automaton\".\n\nWhat is this?\n\nAn experimental generative token that integrates on-chain generation, and on-chain storage of the artwork. This is accomplished using a custom smart contract. The artwork is generated using the generate_on_chain entrypoint in KT1GRFujk5m6feK7gJcqCU7ijJkFgx5JigEt, and the generated image is subsequently stored on-chain as a byte-string of pixels (row-major order) in the tokens bigmap in KT1GRFujk5m6feK7gJcqCU7ijJkFgx5JigEt.\n\nHow does this work?\n\nSmart contracts have a default entrypoint which is automatically called when XTZ is sent to the contract. By using a smart contract as the primary address, the default entrypoint will be called every time a token is minted. Of course, to prevent accounts from bypassing the fxhash contracts and sending XTZ directly to the smart contract, generating and storing the artwork on-chain, the smart contract checks that an fxhash contract is the account sending XTZ. In this smart contract, the default entrypoint immediately calls the generate_on_chain entrypoint for the sole purpose of making the generation process more apparent on indexers like tzkt.\n\nIn order to make this project compatible with fxhash, the artwork produced by the code submitted to fxhash must be identical to that which is produced by the generative algorithm within the smart contract. At the time of development, the minter's address is the only piece of information which is readily accessible via the fxhash snippet API and in the smart contract. As a result, each account can only generate a single unique artwork (this is enforced by the contract). In the future, this issue could be solved if the fxhash snippet API provided access to the iteration number, as the smart contract could also keep track of this information quite easily.\n\nConsequently, collectors who wish to collect more than one iteration must create additional accounts to mint. The tokens can then be subsequently transferred as per usual.\n\nWhy is the variations preview disabled?\n\nBecause the minter's address is the source of randomness for the generated artwork, not the hash provided by fxhash, changing the hash in the variations preview will have no effect. To see different variations of the artwork you need to modify the fxminter URL parameter in live preview mode.\n\nWhy does the mint button not work on the fxhash frontend?\n\nCurrently, the fxhash frontend has a default storage limit for mint operations that is less than what is required to store the generated image on chain. As a result, the mint button will fail on the fxhash frontend. To get around this, you can mint this token on a mini-website I created (https://blockchain-automaton.netlify.app/), or on Better Call Dev, or by injecting the transaction directly onto the blockchain.\n\nBut Why?\n\nBecause experimentation is fun.",
-            "tags": [
-              "onchain",
-              "cellular automaton",
-              "blockchain",
-              "pixelart"
-            ],
-            "generatorUri": "ipfs://Qmeb7huzBQZ5KTo2qqc48Kg5GEumYDKbXMN9UQXkD5Zz5Y",
-            "artifactUri": "ipfs://Qmeb7huzBQZ5KTo2qqc48Kg5GEumYDKbXMN9UQXkD5Zz5Y/?fxhash=onvWvfTrEBfjj8V9SuYpaw4vyhhZhx9YNV3qJFrHdR1TeFJStF7&fxminter=tz1VdZzEzUQzmYWh9NfRtWeGv5iiwXwBnyDE",
-            "displayUri": "ipfs://QmZSf63Lpkvq3xM1Bh4cC1RTAZzcevFjn3GVDCSyBUuRaE",
-            "thumbnailUri": "ipfs://QmWD15fop2W8v6uy624veudLa1LNkxLtaaCTDisY5VaAXU",
-            "authenticityHash": "560e2148693de65dd8f70a6526c434a2ff64482f0999c01281e3adedd3c0ca91",
-            "attributes": [
-              {
-                "name": "mode",
-                "value": "Vertical"
-              },
-              {
-                "name": "palette",
+                "name": "how much bread is in my pocket?",
                 "value": 2
               },
               {
-                "name": "size",
-                "value": "32x32"
-              }
-            ],
-            "decimals": 0,
-            "symbol": "GENTK",
-            "version": "0.2"
-          },
-          "duplicate": false,
-          "activeListing": {
-            "id": 972060,
-            "version": 1,
-            "price": 13000000,
-            "__typename": "Listing"
-          },
-          "owner": {
-            "id": "tz1RnBLgZhKmpSqw5LsWjvVHtLW38yFGpLrH",
-            "name": "zhangyang.tez",
-            "flag": "NONE",
-            "avatarUri": "ipfs://QmSgCLwpUbqx6hvMwucn2HHJh76tsmaLwHX3d3M4xKtcrX",
-            "__typename": "User"
-          },
-          "issuer": {
-            "flag": "NONE",
-            "name": "Blockchain Automaton",
-            "author": {
-              "id": "tz1QvV3jVPWrJSdDy9ePZBnhGL8bAoQFFBPv",
-              "name": "Extracurricular Activities",
-              "type": "REGULAR",
-              "avatarUri": "ipfs://QmahpnFUbW9NWQjUzNLUxxYLszZC2eeNo5mmRPikJLYge5",
-              "flag": "VERIFIED",
-              "collaborators": null,
-              "__typename": "User"
-            },
-            "__typename": "GenerativeToken"
-          },
-          "__typename": "Objkt"
-        },
-        "__typename": "Listing"
-      },
-      {
-        "id": 972059,
-        "version": 1,
-        "price": 20000000,
-        "objkt": {
-          "id": "FX1-50817",
-          "version": 2,
-          "name": "The Paradox of Choice #524",
-          "slug": "the-paradox-of-choice-524",
-          "metadata": {
-            "name": "The Paradox of Choice #524",
-            "iterationHash": "oop2fLp3Z4723yHZEhdczXHUtsbiB8dxjkxCVfrXRH7YVWnFLwA",
-            "description": "### OVERVIEW ###\nThis project revisits some of the foundational ideas in my previous work \"Above (The Infinite)\" and makes them available in a parameterized form for your exploration.\n\nThis project both rewards and requires exploration. I intentionally left the parameter space very broad so that edge case configurations would be possible. In practice this means that additional curation beyond the initial random parameters will very likely be required, in a way that mimics my day to day experience as a generative artist.\n\nThanks to Karsten Schmidt for his excellent thi.ng libraries (https://thi.ng/), which form the technical foundation upon which this work was built.\n\n### CONTROLS ###\ne - Save the current frame as a PNG\nspace - Pause/Resume animation\n\n### PARAMETERS ###\nNOTE: Some combinations of parameters will cause flashing/strobing, which is why I have attached the \"Epileptic Seizure\" label to the project.\n\n* Color Palette: The color palette to apply to the output.\n* Merge Technique: The method used to combine the different patterns.\n* Patterns: The various patterns that can be combined to form the overall resulting tiled pattern.\n* Pattern Scales: The scales used to combine patterns. Higher scale values provide more visible pattern repetition.\n* Deformers: An optional additional spatial deformation of a pattern.\n* Deformer Scales: The scale of the deformation itself. Lower values use less of the deformation space, while higher values include more.\n* Detail: Acts as a filter on the visual complexity of the overall tiled pattern. Lower values will reduce visual complexity, while higher values will increase it.\n* Rotation Rate/Scroll Rates: How fast should the image rotate or scroll. Note: adjusting these parameters may result in visuals that trigger motion sickness.\n* Zoom: Lower values zoom in, higher values zoom out.\n* Round Scales Up?: When checked the pattern scales are rounded up to the nearest integer.\n* Animate?: Should some parameters be adjusted with the passing of time?\n* Low Res?: When checked, force device pixel density to 1, which reduces strain on the GPU, but may result in graphical artifacts. I usually keep this unchecked unless I want to lighten the load on the GPU.\n* Anti-alias?: When checked each pixel will be sampled multiple times to attempt to smooth out possible aliasing. This will put more load on the GPU, and will typically be slower. Can be useful when \"Low Res?\" is enabled.\n\n### HOWTO ###\nHere's how I find interesting things.\n\nFirst, I lock all of the parameters below \"Pattern 3\" at their default values. I will also usually lock both Deformers to \"Empty\", as they can sometimes hide interesting patterns while exploring, and then I experiment with enabling one or both once I have found something interesting.\n\nYou can also explore the options individually (to a certain degree) by setting other patterns to \"Empty\". This can make how patterns affect one another more obvious when you set them.\n\nAt this point I'll randomize the parameters, and then do one of the following:\n\n- If I see something that's extremely noisy/detailed, I'll turn down the \"Detail\" level, which can sometimes smooth things out.\n\n- If a tiling is very tight, I'll lower the \"Zoom\" to see more of the pattern, or the reverse if I want to see more overview.\n\n- If there's still a lot of aliasing/noise in the image, sometimes enabling anti-aliasing will help, but that will affect performance. I usually try to adjust the Scale/Detail/Zoom before resorting to anti-aliasing.\n\n- Interesting patterns are formed by the scale factors controlling how pattern overlap happens. Sometimes enabling \"Round Scales Up?\" will introduce some appealing visual symmetry.\n\n- Enable one or both of the deformers to see what impact they have on the pattern.\n\nFinally, once I've found a pattern that's interesting, I may enable scrolling or rotation. Note that enabling additional movement can increase graphical aliasing, so anti-aliasing may be required depending on the pattern.\n\nI hope you enjoy the exploration process!\n\n- Jeff Palmer\n",
-            "tags": [
-              "generative",
-              "genartclub",
-              "abstract",
-              "tiling",
-              "glsl",
-              "shader",
-              "webgl"
-            ],
-            "generatorUri": "ipfs://QmbzFf7ktp2vMbo31vfUGiXjfLW3CtDN8WyN9UwLMTN9Wq",
-            "artifactUri": "ipfs://QmbzFf7ktp2vMbo31vfUGiXjfLW3CtDN8WyN9UwLMTN9Wq/?fxhash=oop2fLp3Z4723yHZEhdczXHUtsbiB8dxjkxCVfrXRH7YVWnFLwA&fxminter=tz1WusSKVn2eN1S7MeFGe48P4fKjMbhFa5TU&fxparams=0300080040100000000000003ff970a3d70a3d71080040240000000000003fdc28f5c28f5c290d3ff00000000000003f50624dd2f1a9fc000000000000000000000000000000003fe4cccccccccccd00010000",
-            "displayUri": "ipfs://QmZCJmTqzVFPHj8kKSWzu1AVoSYkhJ4LaRSxQwLgGhh4r5",
-            "thumbnailUri": "ipfs://QmXVu2g2foYxL2BskuG53HRvVYmWErt8ova7jXkhrs3Zcu",
-            "authenticityHash": "1b47b11fdf333f4f68e7ceb9c35f6bca241fa9baea53a32801ba359050981968",
-            "attributes": [
-              {
-                "name": "Merge Technique",
-                "value": "Warp"
+                "name": "Bubbles?",
+                "value": ".........technically?"
               },
               {
-                "name": "Palette",
-                "value": "Glacier"
+                "name": "Color type",
+                "value": "rand"
               },
               {
-                "name": "Pattern 1",
-                "value": "Eight"
+                "name": "Colors",
+                "value": "mono"
               },
               {
-                "name": "Deformer 1",
-                "value": "Empty"
+                "name": "Inverse",
+                "value": false
               },
               {
-                "name": "Pattern 2",
-                "value": "Eight"
-              },
-              {
-                "name": "Deformer 2",
-                "value": "Empty"
-              },
-              {
-                "name": "Pattern 3",
-                "value": "Simplex"
-              },
-              {
-                "name": "Animated",
-                "value": "Yes"
-              }
-            ],
-            "decimals": 0,
-            "symbol": "GENTK",
-            "version": "0.2"
-          },
-          "duplicate": false,
-          "activeListing": {
-            "id": 972059,
-            "version": 1,
-            "price": 20000000,
-            "__typename": "Listing"
-          },
-          "owner": {
-            "id": "tz1WusSKVn2eN1S7MeFGe48P4fKjMbhFa5TU",
-            "name": "fauxjebus",
-            "flag": "VERIFIED",
-            "avatarUri": "ipfs://QmZ31UHKm8qgCG5Z6eDuQodDiF4q9GCGBwtywX2LZfNZVZ",
-            "__typename": "User"
-          },
-          "issuer": {
-            "flag": "NONE",
-            "name": "The Paradox of Choice",
-            "author": {
-              "id": "tz1PhYXjxJJovmLLuajAa4kYACQXE2eVEF5k",
-              "name": "Jeff Palmer",
-              "type": "REGULAR",
-              "avatarUri": "ipfs://QmfVaGosxmDJfHhJuf9B4AcgvrxTHUNXAfjqTCqb2C9BtV",
-              "flag": "VERIFIED",
-              "collaborators": null,
-              "__typename": "User"
-            },
-            "__typename": "GenerativeToken"
-          },
-          "__typename": "Objkt"
-        },
-        "__typename": "Listing"
-      },
-      {
-        "id": 972058,
-        "version": 1,
-        "price": 1500000,
-        "objkt": {
-          "id": "FX0-1599992",
-          "version": 1,
-          "name": "The Unrealized Painting #68",
-          "slug": "the-unrealized-painting-68",
-          "metadata": {
-            "name": "The Unrealized Painting #68",
-            "iterationHash": "op12nrX3Ha7MwkWGZYGSkCJxFfAGz1BfMzBXiEumiXXgCeAjK3u",
-            "description": "Click to start.\n\nThe size of the canvas is proportional to the monitor. You can scale up using 1,2,3 and 4 of you keyboard to increase the quality of resolution (it may create some variations on the art itself, and it should be done before clicking on canvas)\n\nThe preview is only a sketch of the artwork, since the livecoding functions vary depending on the interaction.\n\nThis project was designed in Hydra.js for Desktop computers on Chrome.\n\nSince it is a livecoding library there may be small differences in each code execution, but the deterministic character remains.\n\nThe machine waits for your command to start drawing - there is no plan or goal, sometimes the values assigned to the variables would lead to the construction of a visually recognizable work, but the fact that these values are randomized 4 times during the duration of the interaction breaks the logical line of visual conduction.\n\nI can only appeal to Gestalt, and beg you to make the effort to see the whole divided between 4 apparently disconnected patterns. This is not just a code that generates noises, I am here making a testament to push once again the limit of abstraction, to perhaps convince you that there is immense beauty in discontinuity.\n\nAnd it is worth commenting once again that without your click/command, the machine will be eternally lodged in the server waiting - and not knowing what it is waiting for. And this waiting is the most beautiful thing in the world, because the art is already determined to happen, its strokes and patterns were defined when the hash was tied to the code, the art was already made and already exists in the moment preceding this one - but for a computer time does not exist.\n\nThe Unrealized Painting has come to remind you that we, the ones with souls and who feel time, control the realizable and the unrealizable - and it will never stop being that way.",
-            "tags": [
-              "abstract",
-              "glitch",
-              "noise",
-              "hydra"
-            ],
-            "generatorUri": "ipfs://QmdCKbC5vWveZejtgyztajx7ZHNYMHU7TPBFcrTh4FRN2M",
-            "artifactUri": "ipfs://QmdCKbC5vWveZejtgyztajx7ZHNYMHU7TPBFcrTh4FRN2M/?fxhash=op12nrX3Ha7MwkWGZYGSkCJxFfAGz1BfMzBXiEumiXXgCeAjK3u&fxminter=tz1WusSKVn2eN1S7MeFGe48P4fKjMbhFa5TU",
-            "displayUri": "ipfs://QmPEcUBLjDhtadbgH8pLFwMKoJqowUFnC2HFVaHomgrXnM",
-            "thumbnailUri": "ipfs://QmTJznN6MwAU6htSW5d13LUs6x58dxJb8juVv9kJiYgquX",
-            "authenticityHash": "8aa1cf5d4fc74d3b635a3bac464c88ae233921cd11724ecc774feb3b7ad38c9a",
-            "attributes": [
-              {
-                "name": "Interaction time",
-                "value": "22 seconds"
-              }
-            ],
-            "decimals": 0,
-            "symbol": "GENTK",
-            "version": "0.2"
-          },
-          "duplicate": false,
-          "activeListing": {
-            "id": 972058,
-            "version": 1,
-            "price": 1500000,
-            "__typename": "Listing"
-          },
-          "owner": {
-            "id": "tz1WusSKVn2eN1S7MeFGe48P4fKjMbhFa5TU",
-            "name": "fauxjebus",
-            "flag": "VERIFIED",
-            "avatarUri": "ipfs://QmZ31UHKm8qgCG5Z6eDuQodDiF4q9GCGBwtywX2LZfNZVZ",
-            "__typename": "User"
-          },
-          "issuer": {
-            "flag": "NONE",
-            "name": "The Unrealized Painting",
-            "author": {
-              "id": "tz1du7JyqkpAWrQf7kspXS383wpMxkVWCoqQ",
-              "name": "nt_worm",
-              "type": "REGULAR",
-              "avatarUri": "ipfs://QmbeXJg8orYvdVBnLF89foFeDZq38Nnbzx7JGz3CDKp8gt",
-              "flag": "VERIFIED",
-              "collaborators": null,
-              "__typename": "User"
-            },
-            "__typename": "GenerativeToken"
-          },
-          "__typename": "Objkt"
-        },
-        "__typename": "Listing"
-      },
-      {
-        "id": 972057,
-        "version": 1,
-        "price": 2000000,
-        "objkt": {
-          "id": "FX0-1599993",
-          "version": 1,
-          "name": "The Unrealized Painting #69",
-          "slug": "the-unrealized-painting-69",
-          "metadata": {
-            "name": "The Unrealized Painting #69",
-            "iterationHash": "ooVB2eW5FPfUqyh3BEzy7tsXQoKDhYoqRf6H71eZxa3pZUfDeZe",
-            "description": "Click to start.\n\nThe size of the canvas is proportional to the monitor. You can scale up using 1,2,3 and 4 of you keyboard to increase the quality of resolution (it may create some variations on the art itself, and it should be done before clicking on canvas)\n\nThe preview is only a sketch of the artwork, since the livecoding functions vary depending on the interaction.\n\nThis project was designed in Hydra.js for Desktop computers on Chrome.\n\nSince it is a livecoding library there may be small differences in each code execution, but the deterministic character remains.\n\nThe machine waits for your command to start drawing - there is no plan or goal, sometimes the values assigned to the variables would lead to the construction of a visually recognizable work, but the fact that these values are randomized 4 times during the duration of the interaction breaks the logical line of visual conduction.\n\nI can only appeal to Gestalt, and beg you to make the effort to see the whole divided between 4 apparently disconnected patterns. This is not just a code that generates noises, I am here making a testament to push once again the limit of abstraction, to perhaps convince you that there is immense beauty in discontinuity.\n\nAnd it is worth commenting once again that without your click/command, the machine will be eternally lodged in the server waiting - and not knowing what it is waiting for. And this waiting is the most beautiful thing in the world, because the art is already determined to happen, its strokes and patterns were defined when the hash was tied to the code, the art was already made and already exists in the moment preceding this one - but for a computer time does not exist.\n\nThe Unrealized Painting has come to remind you that we, the ones with souls and who feel time, control the realizable and the unrealizable - and it will never stop being that way.",
-            "tags": [
-              "abstract",
-              "glitch",
-              "noise",
-              "hydra"
-            ],
-            "generatorUri": "ipfs://QmdCKbC5vWveZejtgyztajx7ZHNYMHU7TPBFcrTh4FRN2M",
-            "artifactUri": "ipfs://QmdCKbC5vWveZejtgyztajx7ZHNYMHU7TPBFcrTh4FRN2M/?fxhash=ooVB2eW5FPfUqyh3BEzy7tsXQoKDhYoqRf6H71eZxa3pZUfDeZe&fxminter=tz1WusSKVn2eN1S7MeFGe48P4fKjMbhFa5TU",
-            "displayUri": "ipfs://QmPQZ7ra8FLTayGN98deQp5vqfWh2ifsT1nvWZLBMKLqLf",
-            "thumbnailUri": "ipfs://QmXA1q8cdRuYvvmd6pQBfJ5h2y4U7EGebr3MDAF6uq5my1",
-            "authenticityHash": "c815382ba48f3e665662c2987e11e28d8f09be06cc12b0f3cc6478bcf0150bf6",
-            "attributes": [
-              {
-                "name": "Interaction time",
-                "value": "22 seconds"
-              }
-            ],
-            "decimals": 0,
-            "symbol": "GENTK",
-            "version": "0.2"
-          },
-          "duplicate": false,
-          "activeListing": {
-            "id": 972057,
-            "version": 1,
-            "price": 2000000,
-            "__typename": "Listing"
-          },
-          "owner": {
-            "id": "tz1WusSKVn2eN1S7MeFGe48P4fKjMbhFa5TU",
-            "name": "fauxjebus",
-            "flag": "VERIFIED",
-            "avatarUri": "ipfs://QmZ31UHKm8qgCG5Z6eDuQodDiF4q9GCGBwtywX2LZfNZVZ",
-            "__typename": "User"
-          },
-          "issuer": {
-            "flag": "NONE",
-            "name": "The Unrealized Painting",
-            "author": {
-              "id": "tz1du7JyqkpAWrQf7kspXS383wpMxkVWCoqQ",
-              "name": "nt_worm",
-              "type": "REGULAR",
-              "avatarUri": "ipfs://QmbeXJg8orYvdVBnLF89foFeDZq38Nnbzx7JGz3CDKp8gt",
-              "flag": "VERIFIED",
-              "collaborators": null,
-              "__typename": "User"
-            },
-            "__typename": "GenerativeToken"
-          },
-          "__typename": "Objkt"
-        },
-        "__typename": "Listing"
-      },
-      {
-        "id": 972056,
-        "version": 1,
-        "price": 3000000,
-        "objkt": {
-          "id": "FX0-157439",
-          "version": 0,
-          "name": "a r b i t r a r y #985",
-          "slug": "a-r-b-i-t-r-a-r-y-985",
-          "metadata": {
-            "name": "a r b i t r a r y #985",
-            "iterationHash": "opLufxJ9MRL1VbFJJE3CqBFv4BsRGpB7VxtLSa2BYR77GUi9Ye1",
-            "description": "idk its a bunch of random shapes?",
-            "tags": [
-              "shapes"
-            ],
-            "artifactUri": "ipfs://QmcNgpi24ERTetE6aMRD7G8CaxipDnMTZCNRjqKnNNnndU",
-            "displayUri": "ipfs://QmbBAsEi8ZHvY3hXGHAw3MsHQ1QEvdsJ5fmUszMYbptsUJ",
-            "thumbnailUri": "ipfs://QmXASkJe27g3XzAu9NUhinybDK2Y7cyjENHbUo3GFLVfYg",
-            "authenticityHash": "97b916dab513c68a09a396fc4adc0c8dc7cccf70ef0c5ad0084fe29cf6f378c9",
-            "attributes": [
-              {
-                "name": "Grocery list:",
-                "value": "more mayo"
-              },
-              {
-                "name": "Amount of stuff present",
-                "value": "at least like 5"
-              },
-              {
-                "name": "why?",
-                "value": "idk it looked cool"
-              },
-              {
-                "name": "You should probably",
-                "value": "get some help"
+                "name": "Shape type",
+                "value": "Round"
               }
             ],
             "decimals": 0,
@@ -848,13 +169,13 @@
           },
           "duplicate": false,
           "activeListing": {
-            "id": 972056,
+            "id": 972164,
             "version": 1,
-            "price": 3000000,
+            "price": 3800000,
             "__typename": "Listing"
           },
           "owner": {
-            "id": "tz1czo5Atnd4thof15kLVcDrK4puvCYV3C3L",
+            "id": "tz1Vfmwu4E1Hh8SGMR3bEvaBkVkfbBNDGh1S",
             "name": null,
             "flag": "NONE",
             "avatarUri": null,
@@ -862,7 +183,7 @@
           },
           "issuer": {
             "flag": "NONE",
-            "name": "a r b i t r a r y",
+            "name": "s l i d e",
             "author": {
               "id": "tz1SawhUHXWjiGK8gPK6QPmn95G8PkkSjA3S",
               "name": "punevyr",
@@ -879,199 +200,29 @@
         "__typename": "Listing"
       },
       {
-        "id": 972055,
+        "id": 972163,
         "version": 1,
-        "price": 18200000,
+        "price": 800000,
         "objkt": {
-          "id": "FX1-42871",
-          "version": 2,
-          "name": "APERIODIC #40",
-          "slug": "aperiodic-40",
+          "id": "FX0-1346005",
+          "version": 1,
+          "name": "Parasola #17",
+          "slug": "parasola-17",
           "metadata": {
-            "name": "APERIODIC #40",
-            "iterationHash": "oo6KiocsSLjDNMNQi3Ty1LJeo9QdkAbMrEXnhZoWMnsVQqbGonw",
-            "description": "APERIODIC is an exploration of waves in nature\n\nWorks can be downloaded in higher resolution by appending the `scale` parameter to the URL. For example: `&scale=1.5`. Default scale is .5\n\nWorks can be downloaded as an SVG by pressing the S key. ",
+            "name": "Parasola #17",
+            "iterationHash": "onhcgR3remSJuSrMtZdHbAzr8ZmVh6dLwPgbBEanJCXxfVJWv4u",
+            "description": "2022",
             "tags": [
-              "wave",
-              "geometric",
-              "generative",
-              "svg"
-            ],
-            "generatorUri": "ipfs://QmbgpNWBFMY9gRFi16HZ5PSVkaFDj8iUnPafhYYtu2yzyv",
-            "artifactUri": "ipfs://QmbgpNWBFMY9gRFi16HZ5PSVkaFDj8iUnPafhYYtu2yzyv/?fxhash=oo6KiocsSLjDNMNQi3Ty1LJeo9QdkAbMrEXnhZoWMnsVQqbGonw&fxminter=tz1WusSKVn2eN1S7MeFGe48P4fKjMbhFa5TU",
-            "displayUri": "ipfs://QmZzv6donwsEF48Vo7EbTGgujHhzgvsAgmeWn35WpV2LbB",
-            "thumbnailUri": "ipfs://QmZrLRbk2PKks4fSSY5rin9gU7xrdEH2TnotPvpicBXvLP",
-            "authenticityHash": "9d45c32092453f81f4ccad03afba260e4dbef8d7fcb57346b1654963043ccec9",
-            "attributes": [
-              {
-                "name": "theme",
-                "value": "sky and ground"
-              },
-              {
-                "name": "border",
-                "value": "Small"
-              },
-              {
-                "name": "wave variant",
-                "value": "Standard"
-              },
-              {
-                "name": "wave type",
-                "value": "Rolling Hills"
-              },
-              {
-                "name": "coloring",
-                "value": "Random"
-              },
-              {
-                "name": "clouds",
-                "value": 0.04
-              },
-              {
-                "name": "format",
-                "value": "Square"
-              },
-              {
-                "name": "subdivision probability",
-                "value": 1
-              }
-            ],
-            "decimals": 0,
-            "symbol": "GENTK",
-            "version": "0.2"
-          },
-          "duplicate": false,
-          "activeListing": {
-            "id": 972055,
-            "version": 1,
-            "price": 18200000,
-            "__typename": "Listing"
-          },
-          "owner": {
-            "id": "tz1WusSKVn2eN1S7MeFGe48P4fKjMbhFa5TU",
-            "name": "fauxjebus",
-            "flag": "VERIFIED",
-            "avatarUri": "ipfs://QmZ31UHKm8qgCG5Z6eDuQodDiF4q9GCGBwtywX2LZfNZVZ",
-            "__typename": "User"
-          },
-          "issuer": {
-            "flag": "NONE",
-            "name": "APERIODIC",
-            "author": {
-              "id": "tz1QnBdcdVBxrJXuAFXwnaZyHTijU7gjQF3E",
-              "name": "Kyle",
-              "type": "REGULAR",
-              "avatarUri": "ipfs://QmPd9fLuGfHcBSRZvLBPXCVY11Y5VbjJgmLArb7B4N6iox",
-              "flag": "VERIFIED",
-              "collaborators": null,
-              "__typename": "User"
-            },
-            "__typename": "GenerativeToken"
-          },
-          "__typename": "Objkt"
-        },
-        "__typename": "Listing"
-      },
-      {
-        "id": 972054,
-        "version": 1,
-        "price": 3400000,
-        "objkt": {
-          "id": "FX0-157427",
-          "version": 0,
-          "name": "a r b i t r a r y #984",
-          "slug": "a-r-b-i-t-r-a-r-y-984",
-          "metadata": {
-            "name": "a r b i t r a r y #984",
-            "iterationHash": "ontEYgiZYgMuJgcxWY3Ue42XWDqjtd65zt66hgp2rWU3AFdBoA8",
-            "description": "idk its a bunch of random shapes?",
-            "tags": [
-              "shapes"
-            ],
-            "artifactUri": "ipfs://QmSyajh1SfrZuw5oLqaqqjFZCL8JsLqUnWKFgThckHCxYS",
-            "displayUri": "ipfs://QmQ4RaEEAxhowZxxBy1aA1ibn13eYnPKn1Tvqxmih4zRFF",
-            "thumbnailUri": "ipfs://QmdDvTfnp1eUiTXtyEUrh4cJQNp2z2XZ4eHC9GcBGM56Q7",
-            "authenticityHash": "3388ccf7fef39396b8608f4f0c4c5cfe6aa83d1afe200ae088a48b26d6825aa9",
-            "attributes": [
-              {
-                "name": "Grocery list:",
-                "value": "3 lbs of mayo"
-              },
-              {
-                "name": "Amount of stuff present",
-                "value": "at least like 6"
-              },
-              {
-                "name": "why?",
-                "value": "idk it looked cool"
-              },
-              {
-                "name": "You should probably",
-                "value": "cry a little, it might help"
-              }
-            ],
-            "decimals": 0,
-            "symbol": "GENTK"
-          },
-          "duplicate": false,
-          "activeListing": {
-            "id": 972054,
-            "version": 1,
-            "price": 3400000,
-            "__typename": "Listing"
-          },
-          "owner": {
-            "id": "tz1QA1Us4rSwdXyZGE2TLDKe9P42hZ8Ex2M1",
-            "name": null,
-            "flag": "NONE",
-            "avatarUri": null,
-            "__typename": "User"
-          },
-          "issuer": {
-            "flag": "NONE",
-            "name": "a r b i t r a r y",
-            "author": {
-              "id": "tz1SawhUHXWjiGK8gPK6QPmn95G8PkkSjA3S",
-              "name": "punevyr",
-              "type": "REGULAR",
-              "avatarUri": "ipfs://QmXNMVeGcYDWjvdsubieoSm8dcer4Pdi6CFWemmDprwpaS",
-              "flag": "VERIFIED",
-              "collaborators": null,
-              "__typename": "User"
-            },
-            "__typename": "GenerativeToken"
-          },
-          "__typename": "Objkt"
-        },
-        "__typename": "Listing"
-      },
-      {
-        "id": 972053,
-        "version": 1,
-        "price": 3000000,
-        "objkt": {
-          "id": "FX1-50827",
-          "version": 2,
-          "name": "high maintenance #14",
-          "slug": "high-maintenance-14",
-          "metadata": {
-            "name": "high maintenance #14",
-            "iterationHash": "oonvZpYt48La4gc3RLGuB9KTJLkijEuZ6s8g6BfXX9GQMdngJUc",
-            "description": "Made in p5.js\n\nPress 's' to save as a jpeg.",
-            "tags": [
-              "geometric",
-              "grid",
-              "irregular",
               "abstract",
-              "generative",
-              "p5",
-              "shapes"
+              "line",
+              "drawing",
+              "p5js"
             ],
-            "generatorUri": "ipfs://Qmf3FZU6nh52nzdYU85STTcFgUwWWEwAsbnyyyMHkWeyqY",
-            "artifactUri": "ipfs://Qmf3FZU6nh52nzdYU85STTcFgUwWWEwAsbnyyyMHkWeyqY/?fxhash=oonvZpYt48La4gc3RLGuB9KTJLkijEuZ6s8g6BfXX9GQMdngJUc&fxminter=tz1WusSKVn2eN1S7MeFGe48P4fKjMbhFa5TU",
-            "displayUri": "ipfs://QmaQdBejUpNh5M6wsLzzEs8Lbi15d5gjvttPMrBPvon9Vo",
-            "thumbnailUri": "ipfs://QmNYuDf6D8T9rKAEq7ewcNoA5fQq2hRLSuAGyY6SSndxng",
-            "authenticityHash": "09b3c1034d2c8851fad03ca785b3c59a5be57668ded72edef534112c2aa6ecd4",
+            "generatorUri": "ipfs://Qmb8eZY2cn9zt5mMsJGKfWukkesRaDanerV9Gfkq5fQCzZ",
+            "artifactUri": "ipfs://Qmb8eZY2cn9zt5mMsJGKfWukkesRaDanerV9Gfkq5fQCzZ?fxhash=onhcgR3remSJuSrMtZdHbAzr8ZmVh6dLwPgbBEanJCXxfVJWv4u",
+            "displayUri": "ipfs://QmbqrTW6k6x1iP3kZ3dKQgEoFd3ZVBcXTnJjBf7LsJCZf5",
+            "thumbnailUri": "ipfs://QmVougm1gHR5wsLeoffSi6rTTZTNybG4Kb9kb4YUxDzxh7",
+            "authenticityHash": "5c92e2747ded8c4a85793268b1adb1afbe35e59ba27aa161a05bac2c914171fd",
             "attributes": true,
             "decimals": 0,
             "symbol": "GENTK",
@@ -1079,27 +230,27 @@
           },
           "duplicate": false,
           "activeListing": {
-            "id": 972053,
+            "id": 972163,
             "version": 1,
-            "price": 3000000,
+            "price": 800000,
             "__typename": "Listing"
           },
           "owner": {
-            "id": "tz1WusSKVn2eN1S7MeFGe48P4fKjMbhFa5TU",
-            "name": "fauxjebus",
-            "flag": "VERIFIED",
-            "avatarUri": "ipfs://QmZ31UHKm8qgCG5Z6eDuQodDiF4q9GCGBwtywX2LZfNZVZ",
+            "id": "tz1VGZPvqytFVAoSAsM8VrUveJdL3PpVy6K9",
+            "name": "A R T R A",
+            "flag": "NONE",
+            "avatarUri": "ipfs://QmS34juW7zj5QEB8VzYCLLQMDaisbQAPV641f9rHUxjYBM",
             "__typename": "User"
           },
           "issuer": {
-            "flag": "NONE",
-            "name": "high maintenance",
+            "flag": "REPORTED",
+            "name": "Parasola",
             "author": {
-              "id": "tz1ay3RK9Uxahc3N8hfcimM6G8rekFjfJq5y",
-              "name": "sapiverbum",
+              "id": "tz1aDZAWqvQ3KekbwA5fPHSJZiPkfpR2gmQ9",
+              "name": "OCM#5965",
               "type": "REGULAR",
-              "avatarUri": null,
-              "flag": "NONE",
+              "avatarUri": "ipfs://QmPcn8SaNdG2Vznt6XPYB7RauKCCy58kUFakyUWpHMpfqR",
+              "flag": "MALICIOUS",
               "collaborators": null,
               "__typename": "User"
             },
@@ -1110,195 +261,35 @@
         "__typename": "Listing"
       },
       {
-        "id": 972052,
+        "id": 972162,
         "version": 1,
-        "price": 15000000,
+        "price": 3500000,
         "objkt": {
-          "id": "FX1-47307",
-          "version": 2,
-          "name": "2D or not 2D #63",
-          "slug": "2d-or-not-2d-63",
-          "metadata": {
-            "name": "2D or not 2D #63",
-            "iterationHash": "oo4Broo9gG3CQTq3XgS48rCsU6oWK1JgvUw5cf6DGQkN6mSws14",
-            "description": "2D or not to 2D is a project about geometry, motion and perspective. It began as a simple idea where a rectangule is partitioned into several slices, which in turn are vertically offset by using the same partitioning function.\n\n  Later I added offsets, fake 2D shadows and other elements to convey a sense of dimensionality, where the blocks now occupy a space between 2D and 3D.\n\n  Params:\n    - Number of Slices - Controls the number of individual slices. Sometimes two adjacent slices are merged.\n    - Slant Randomness - Controls the slantedness of the slices.\n    - Vertical Randomness - Controls the difference in height between the slices.\n    - Space Between - Controls the size of the gap between slices.\n    - Motion - The type of motion that the slices follow.\n    - Color Combo - The stroke and background colors of the token.\n    - Invert Colors - Flips the background and stroke color. You can still flip the colors later.\n\n  Controls:\n    - Press S to save an animated GIF of the token - this can take a bit of time, just wait until the indicator says that it's complete.\n    - Press F to invert the current colors.\n    - Press the spacebar to cycle between 5 different modes that control the rotation of the blocks:\n      1. Rotating in tandem\n      2. Rotating in a wave pattern\n      3. Flat\n      4. Rotated\n      5. Interactive based on mouse coordinates\n\n  Shoutouts:\n    - To Tom aka pumaparded for suggesting the awesome title\n    - To Jesús Rascón for his amazing work on p5's saveGif function\n    - P5JS for being such a cool library",
-            "tags": [
-              "p5js",
-              "p5",
-              "gorilla sun",
-              "motion",
-              "animated",
-              "interactive"
-            ],
-            "generatorUri": "ipfs://QmbTv4Tr8Azn9zDqEbbyqwqBeVYigZx2JJfMERCpwnnku4",
-            "artifactUri": "ipfs://QmbTv4Tr8Azn9zDqEbbyqwqBeVYigZx2JJfMERCpwnnku4/?fxhash=oo4Broo9gG3CQTq3XgS48rCsU6oWK1JgvUw5cf6DGQkN6mSws14&fxminter=tz1WusSKVn2eN1S7MeFGe48P4fKjMbhFa5TU&fxparams=4010000000000000000000000000000000000000000000000000000000000000030301",
-            "displayUri": "ipfs://QmZZGiL4PdjKwFTx98ZYmSqeNycdS5KC4ij3hjSdurPcG1",
-            "thumbnailUri": "ipfs://QmafQhsuw73JoSdxE2dugDYfziUfhXi9ZsEv9cLiEytd6X",
-            "authenticityHash": "e1bc7ede33d7deeafaec0d243767b2c088993571168a0e8ea99b7dbd30536e6e",
-            "attributes": [
-              {
-                "name": "SLICES",
-                "value": 4
-              },
-              {
-                "name": "COLORS",
-                "value": "BLACK/RED"
-              },
-              {
-                "name": "INVERT",
-                "value": true
-              },
-              {
-                "name": "MOTION",
-                "value": "SINUSOIDAL"
-              }
-            ],
-            "decimals": 0,
-            "symbol": "GENTK",
-            "version": "0.2"
-          },
-          "duplicate": false,
-          "activeListing": {
-            "id": 972052,
-            "version": 1,
-            "price": 15000000,
-            "__typename": "Listing"
-          },
-          "owner": {
-            "id": "tz1WusSKVn2eN1S7MeFGe48P4fKjMbhFa5TU",
-            "name": "fauxjebus",
-            "flag": "VERIFIED",
-            "avatarUri": "ipfs://QmZ31UHKm8qgCG5Z6eDuQodDiF4q9GCGBwtywX2LZfNZVZ",
-            "__typename": "User"
-          },
-          "issuer": {
-            "flag": "NONE",
-            "name": "2D or not 2D",
-            "author": {
-              "id": "tz1hXx6tvTV3kzxpBR6E4hDYcxdgcRGHUTFj",
-              "name": "Gorilla Sun",
-              "type": "REGULAR",
-              "avatarUri": "ipfs://QmUjK9mtLNg7wvffayYEHhmJFJwTBtG9fP6tZCiHSMRzta",
-              "flag": "VERIFIED",
-              "collaborators": null,
-              "__typename": "User"
-            },
-            "__typename": "GenerativeToken"
-          },
-          "__typename": "Objkt"
-        },
-        "__typename": "Listing"
-      },
-      {
-        "id": 972051,
-        "version": 1,
-        "price": 4000000,
-        "objkt": {
-          "id": "FX1-47305",
-          "version": 2,
-          "name": "Living Life, Lo-Fi #9",
-          "slug": "living-life-lo-fi-9",
-          "metadata": {
-            "name": "Living Life, Lo-Fi #9",
-            "iterationHash": "opWNTEtakV52Bw9H2iMHnehithRRU5YaCQpWweDVqCw1DBsGTGJ",
-            "description": "Is this a portrait of life very up close (its essence in motion)? Have breadcrumbs fallen into the microscope? Or has reality already started its inevitable dance into dust?\n\nAt least we know that we have some pixels; the result of two passes through fragment shaders.\n\nThere are four different colour pairings which traverse the hue landscape over time. Look out for the occasional symmetrical versions with varying degrees of symmetry. And the rarer vertical cellular mode.\n\n## Controls\n\nPress [space] to toggle pause on the animation.\n\nPress the keys [1] - [8] to generate a PNG export at various resolutions:\n\n[1] => 1080px × 1920px\n[2] => 2160px × 3840px\n[3] => 3240px × 5760px\n[4] => 4320px × 7680px\n[5] => 5400px × 9600px\n[6] => 6480px × 11520px\n[7] => 7560px × 13440px\n[8] => 8640px × 15360px \n\n\nTested in Chrome on Apple silicon and on windows PC with an Intel chip.",
-            "tags": [
-              "life",
-              "cells",
-              "lofi",
-              "blur",
-              "grain",
-              "animation",
-              "fragment",
-              "glsl",
-              "shaders",
-              "webgl"
-            ],
-            "generatorUri": "ipfs://QmYU8SBQ79EZW59kY9H7Me4TSfBNKSfqZJRBYUjVAX8vST",
-            "artifactUri": "ipfs://QmYU8SBQ79EZW59kY9H7Me4TSfBNKSfqZJRBYUjVAX8vST/?fxhash=opWNTEtakV52Bw9H2iMHnehithRRU5YaCQpWweDVqCw1DBsGTGJ&fxminter=tz1WusSKVn2eN1S7MeFGe48P4fKjMbhFa5TU",
-            "displayUri": "ipfs://QmcJLvLeZVmoJMV7NtNpnN5RumwUZaKDQLunTyM7UQEMrL",
-            "thumbnailUri": "ipfs://Qmdewv19RTL7m7HdsYySfh4qkGxkMTR6BX8yDYCRyREYBZ",
-            "authenticityHash": "d3c05185b986d0622e1cde4cc262faa3588aa3516cb59b333a95cdb0e269aae4",
-            "attributes": [
-              {
-                "name": "Color Pair Type",
-                "value": "Split-Complementary"
-              },
-              {
-                "name": "Cellular Mode",
-                "value": "Horizontal"
-              },
-              {
-                "name": "Symmetry",
-                "value": "None"
-              }
-            ],
-            "decimals": 0,
-            "symbol": "GENTK",
-            "version": "0.2"
-          },
-          "duplicate": false,
-          "activeListing": {
-            "id": 972051,
-            "version": 1,
-            "price": 4000000,
-            "__typename": "Listing"
-          },
-          "owner": {
-            "id": "tz1WusSKVn2eN1S7MeFGe48P4fKjMbhFa5TU",
-            "name": "fauxjebus",
-            "flag": "VERIFIED",
-            "avatarUri": "ipfs://QmZ31UHKm8qgCG5Z6eDuQodDiF4q9GCGBwtywX2LZfNZVZ",
-            "__typename": "User"
-          },
-          "issuer": {
-            "flag": "NONE",
-            "name": "Living Life, Lo-Fi",
-            "author": {
-              "id": "tz1MkSZU3E4i3FhetNNan48sAASzaXDxd9SM",
-              "name": "bravokiloecho",
-              "type": "REGULAR",
-              "avatarUri": "ipfs://QmPrJVZjYeikPmaizhtsoHauM61gsdkb1UwvmAunibucMh",
-              "flag": "VERIFIED",
-              "collaborators": null,
-              "__typename": "User"
-            },
-            "__typename": "GenerativeToken"
-          },
-          "__typename": "Objkt"
-        },
-        "__typename": "Listing"
-      },
-      {
-        "id": 972050,
-        "version": 1,
-        "price": 3300000,
-        "objkt": {
-          "id": "FX0-154603",
+          "id": "FX0-154630",
           "version": 0,
-          "name": "s h i f t #971",
-          "slug": "s-h-i-f-t-971",
+          "name": "s h i f t #974",
+          "slug": "s-h-i-f-t-974",
           "metadata": {
-            "name": "s h i f t #971",
-            "iterationHash": "oou8yKRDsHrTHy7TUDeSw24TWRrB2BLSwr66qZ21baNENRa1ibL",
+            "name": "s h i f t #974",
+            "iterationHash": "onkbLGK2t76tCzH11Ca6dWgeyygTnfGr4MfrpvwHtcSC4jfc6hA",
             "description": "lines that move ",
             "tags": [
               "lines",
               "that",
               "move"
             ],
-            "artifactUri": "ipfs://QmRDPxv8S8CH4adgkHUJZbC4absaGUTKcxQTzVr8L2NVPV",
-            "displayUri": "ipfs://QmSJAjMCdnB7gwTcFv3pyCCK6to3hsoTXVarNAvxdmKBp7",
-            "thumbnailUri": "ipfs://QmecBx6FbWtjhykQcRSSDRHo1kWdKzf9CsnHwXcE7hPKwg",
-            "authenticityHash": "7927b7f3bb8a8444c10c3898e012b616d98a4d00bd43c3e2504f2f8addeec9be",
+            "artifactUri": "ipfs://QmQgiHqNam69ba4sTwh33QvYjDPiQUQCofts26WBkBGQeF",
+            "displayUri": "ipfs://QmRSSSspo3bvLoyaFdEPa6XV3PqsNqA8GehanQRVsr2zQb",
+            "thumbnailUri": "ipfs://QmQM3kPn4Arg5iaQtdpJpeQCJcsu5r9zPAMsocVJvFAno9",
+            "authenticityHash": "a70174ea2ae1a556595b9108b1b4693c4dd7fc43daeb73010d0b7fd115a4e9f2",
             "attributes": [
               {
                 "name": "rows",
-                "value": 12
+                "value": 4
               },
               {
                 "name": "amount of stupid u are",
-                "value": 40
+                "value": 53
               },
               {
                 "name": "Bubbles?",
@@ -1306,7 +297,7 @@
               },
               {
                 "name": "Style",
-                "value": "Scribble"
+                "value": "Scratch"
               },
               {
                 "name": "Inverse",
@@ -1318,13 +309,13 @@
           },
           "duplicate": false,
           "activeListing": {
-            "id": 972050,
+            "id": 972162,
             "version": 1,
-            "price": 3300000,
+            "price": 3500000,
             "__typename": "Listing"
           },
           "owner": {
-            "id": "tz1iiMHnCr5rKzT3Xe8c7o3aBraY3EAV9a3T",
+            "id": "tz1cDqRgFQ23SK7aN1ZSkrWQfEEmUmtHUysf",
             "name": null,
             "flag": "NONE",
             "avatarUri": null,
@@ -1349,51 +340,324 @@
         "__typename": "Listing"
       },
       {
-        "id": 972049,
+        "id": 972161,
         "version": 1,
-        "price": 3700000,
+        "price": 1500000,
         "objkt": {
-          "id": "FX0-157126",
-          "version": 0,
-          "name": "f l u c t u a t e #685",
-          "slug": "f-l-u-c-t-u-a-t-e-685",
+          "id": "FX0-1572999",
+          "version": 1,
+          "name": "Tuxedo #17",
+          "slug": "tuxedo-17",
           "metadata": {
-            "name": "f l u c t u a t e #685",
-            "iterationHash": "oniqkn21j4SSGhyKM5Mxp5XS4b97oTLkBZfzeY6KC832gRYaZfr",
-            "description": "lines and other things do stuff...(?)",
+            "name": "Tuxedo #17",
+            "iterationHash": "ooXHffCdx3Tkdpyj825FGH1kxZBeBDc6CcK6cHyzRkDU7sBwpEh",
+            "description": "Inspired by the freedom and optimism of art.\n___________________________________________\n\nPress 's' in live mode to download the SVG file.",
             "tags": [
-              "lines",
-              "colors",
-              "fluctuate"
+              "svg",
+              "p5js"
             ],
-            "artifactUri": "ipfs://QmToZkHkqjH3CnokctSG5jQyMStR6VdRnuD7PrycHmBxgm",
-            "displayUri": "ipfs://QmQrRR6PJnqwfx4FCc8P1e3okhk5w5DHWdKQjWVA1RjGYa",
-            "thumbnailUri": "ipfs://QmPBVUwEca2nWagHbmMpUi8g4UCEYTZw48rdAAo1qvHF48",
-            "authenticityHash": "affe73fb21d98c287955b21243b517d28a5181b9c46a6b37b72eac1e33b3a9b0",
+            "generatorUri": "ipfs://QmNprTFj5FYppt6cQjDeNzgdxuqsXNCUoQSP9MmrDM3ABx",
+            "artifactUri": "ipfs://QmNprTFj5FYppt6cQjDeNzgdxuqsXNCUoQSP9MmrDM3ABx?fxhash=ooXHffCdx3Tkdpyj825FGH1kxZBeBDc6CcK6cHyzRkDU7sBwpEh",
+            "displayUri": "ipfs://Qmb4zdwFo9Gvj6K8K2NZ5fRnYDqbaFiUgH98Scf4ovGArR",
+            "thumbnailUri": "ipfs://QmRmRPBgHLpMD93rbBpJKuQ1WLx95aq5rwxUyACn2o6758",
+            "authenticityHash": "4495a2b3c4070f07090ee18efc81ab0917e61140a405cad912ba3587545ddcba",
+            "attributes": true,
+            "decimals": 0,
+            "symbol": "GENTK",
+            "version": "0.2"
+          },
+          "duplicate": false,
+          "activeListing": {
+            "id": 972161,
+            "version": 1,
+            "price": 1500000,
+            "__typename": "Listing"
+          },
+          "owner": {
+            "id": "tz1VGZPvqytFVAoSAsM8VrUveJdL3PpVy6K9",
+            "name": "A R T R A",
+            "flag": "NONE",
+            "avatarUri": "ipfs://QmS34juW7zj5QEB8VzYCLLQMDaisbQAPV641f9rHUxjYBM",
+            "__typename": "User"
+          },
+          "issuer": {
+            "flag": "REPORTED",
+            "name": "Tuxedo",
+            "author": {
+              "id": "tz1aDZAWqvQ3KekbwA5fPHSJZiPkfpR2gmQ9",
+              "name": "OCM#5965",
+              "type": "REGULAR",
+              "avatarUri": "ipfs://QmPcn8SaNdG2Vznt6XPYB7RauKCCy58kUFakyUWpHMpfqR",
+              "flag": "MALICIOUS",
+              "collaborators": null,
+              "__typename": "User"
+            },
+            "__typename": "GenerativeToken"
+          },
+          "__typename": "Objkt"
+        },
+        "__typename": "Listing"
+      },
+      {
+        "id": 972160,
+        "version": 1,
+        "price": 15000000,
+        "objkt": {
+          "id": "FX1-24115",
+          "version": 2,
+          "name": "WTBS.TXT #8",
+          "slug": "wtbs.txt-8",
+          "metadata": {
+            "name": "WTBS.TXT #8",
+            "iterationHash": "ooF5216DTYqYMsRmSUbnbJivH4oApPUnjr6ruSJe4y9rRkSJWiY",
+            "description": "*WTBS.TXT* is the first collaboration between Thomas Noya and the Waiting To Be Signed podcast crew. Using the first year of episodes as training data, Thomas trained a GPT-2 model to generate text strings from seed words, phrases, or at random; over 3000 strings were curated from the model over several months. The strings are then randomly selected from the curated set and displayed in various fonts and patterns, evoking a retro-PC style inspired by 90s net.art.\n\nAn advantage of using so little data to train a model (yes, a year of content is nothing in AI terms) is that it allows the model to run wild and create funny and fantastical diversions. We used an AI service to transcribe the episodes, which introduced many spelling variations around fx(hash)-specific terms and artist names. All of this adds up to something that we are collectively excited to share with you.\n\nFrom WTBS: A year went by fast... so fast that we fully missed doing anything to celebrate. Please think of this token as a belated celebration of the first year of Waiting To Be Signed. This project could not be possible without the hours of content we produce each week. If you have enjoyed the show, we hope you will enjoy this as well. Please collect to support the continued creation of WTBS. Collect because you are a fan (of Thomas, us or both). Collect because it is a really cool project. Huge thanks to Thomas for volunteering his time to work with us on this, and thank you to everyone who listened and supported us as we move into our second year of the show.\n\n\nControls:\n[s] save as PNG\n\n\nWTBS ⫸ GPT-2 ⫸ p5.js ⫸ Blockchain\n\n\nCopyright (©) 2023 Thomas Noya and Waiting to be Signed\n\n◉_◉",
+            "tags": [
+              "WTBS",
+              "Waiting to be Signed",
+              "Thomas Noya",
+              "AI",
+              "GPT",
+              "\"At the end of the day like we just want quality art for the podcast and we want it to be accessible for people\""
+            ],
+            "generatorUri": "ipfs://QmR9QdRSTYDMEii3q1tjNbcqRqjXo9Dtvr4DFytyrArXRW",
+            "artifactUri": "ipfs://QmR9QdRSTYDMEii3q1tjNbcqRqjXo9Dtvr4DFytyrArXRW/?fxhash=ooF5216DTYqYMsRmSUbnbJivH4oApPUnjr6ruSJe4y9rRkSJWiY&fxminter=tz1WusSKVn2eN1S7MeFGe48P4fKjMbhFa5TU",
+            "displayUri": "ipfs://QmdjpwCGsPHJV2m62cnJXT3QnW7UKvE2eY6BkDAa4XC7FT",
+            "thumbnailUri": "ipfs://QmRVQe5V5iuwqNLPAXc6b4k9z8YzmNdy6HJZRQyaPuZqyt",
+            "authenticityHash": "96dfd9deb7db3df9973501ae419be6b4fbb1e3fd5f8afffeb5058964321d9c0f",
             "attributes": [
               {
-                "name": "ur",
-                "value": "an ok person"
+                "name": "PALETTE",
+                "value": "PAL–1 (NORMAL)"
               },
               {
-                "name": "Number of Katy Perry songs i listened to today",
-                "value": 5
+                "name": "FONT",
+                "value": "MODERN DOS"
+              },
+              {
+                "name": "SIZE TYPE",
+                "value": "MULTI: RAND"
+              },
+              {
+                "name": "LEADING TYPE",
+                "value": "STATIC"
+              },
+              {
+                "name": "GRID TYPE",
+                "value": "LEGACY"
+              },
+              {
+                "name": "ʕっ•ᴥ•ʔっ",
+                "value": "° "
+              }
+            ],
+            "decimals": 0,
+            "symbol": "GENTK",
+            "version": "0.2"
+          },
+          "duplicate": false,
+          "activeListing": {
+            "id": 972160,
+            "version": 1,
+            "price": 15000000,
+            "__typename": "Listing"
+          },
+          "owner": {
+            "id": "tz1WusSKVn2eN1S7MeFGe48P4fKjMbhFa5TU",
+            "name": "fauxjebus",
+            "flag": "VERIFIED",
+            "avatarUri": "ipfs://QmZ31UHKm8qgCG5Z6eDuQodDiF4q9GCGBwtywX2LZfNZVZ",
+            "__typename": "User"
+          },
+          "issuer": {
+            "flag": "NONE",
+            "name": "WTBS.TXT",
+            "author": {
+              "id": "KT1Sve5LDEs4Ug7UmN638LSYEUuXSZff1gkK",
+              "name": null,
+              "type": "COLLAB_CONTRACT_V1",
+              "avatarUri": null,
+              "flag": "NONE",
+              "collaborators": [
+                {
+                  "id": "tz1TSpZVzTtaaJyfSsnEzjXRyoCuiHwv826Z",
+                  "name": "Waiting To Be Signed",
+                  "avatarUri": "ipfs://QmcJUmovrpndP8N9SLU6Ld2YPDNwSkbJo5N6oiaDausVBi",
+                  "flag": "VERIFIED",
+                  "__typename": "User"
+                },
+                {
+                  "id": "tz1d45wFbpZLqS4SPoMRnEbhLopFt7zBhW3g",
+                  "name": "Thomas Noya",
+                  "avatarUri": "ipfs://QmT2Hp4ko6n2eavQuka5D6dxQmzEQDdAJ3nmTL3C99AHik",
+                  "flag": "VERIFIED",
+                  "__typename": "User"
+                }
+              ],
+              "__typename": "User"
+            },
+            "__typename": "GenerativeToken"
+          },
+          "__typename": "Objkt"
+        },
+        "__typename": "Listing"
+      },
+      {
+        "id": 972159,
+        "version": 1,
+        "price": 1500000,
+        "objkt": {
+          "id": "FX0-1601210",
+          "version": 1,
+          "name": "Infinity Repeating #142",
+          "slug": "infinity-repeating-142",
+          "metadata": {
+            "name": "Infinity Repeating #142",
+            "iterationHash": "ootFTe3HSF61RJByuz7daJqRDWfWHfj86Q9M56HKoqF7oHqPj7w",
+            "description": "Press 's' in live mode to download SVG file",
+            "tags": [],
+            "generatorUri": "ipfs://Qmby9Rzy3JsTRDyWL8qkeq9THvvADxpASFrpUWVZ1vjLVg",
+            "artifactUri": "ipfs://Qmby9Rzy3JsTRDyWL8qkeq9THvvADxpASFrpUWVZ1vjLVg/?fxhash=ootFTe3HSF61RJByuz7daJqRDWfWHfj86Q9M56HKoqF7oHqPj7w&fxminter=tz1VGZPvqytFVAoSAsM8VrUveJdL3PpVy6K9",
+            "displayUri": "ipfs://QmYCQZuHJP8dL91PUvn2DJvhZBHt71LDFRtAMzdfJzxhAD",
+            "thumbnailUri": "ipfs://QmZZr1eJBPnjCXaSHbyr6Y1KmBVZPQ1CzSgefb4xkmk7e8",
+            "authenticityHash": "42bdbc476aedbc42e88c2a18d175e4ee90f58f209e85011cd34d99d73bbbd86c",
+            "attributes": true,
+            "decimals": 0,
+            "symbol": "GENTK",
+            "version": "0.2"
+          },
+          "duplicate": false,
+          "activeListing": {
+            "id": 972159,
+            "version": 1,
+            "price": 1500000,
+            "__typename": "Listing"
+          },
+          "owner": {
+            "id": "tz1VGZPvqytFVAoSAsM8VrUveJdL3PpVy6K9",
+            "name": "A R T R A",
+            "flag": "NONE",
+            "avatarUri": "ipfs://QmS34juW7zj5QEB8VzYCLLQMDaisbQAPV641f9rHUxjYBM",
+            "__typename": "User"
+          },
+          "issuer": {
+            "flag": "REPORTED",
+            "name": "Infinity Repeating",
+            "author": {
+              "id": "tz1aDZAWqvQ3KekbwA5fPHSJZiPkfpR2gmQ9",
+              "name": "OCM#5965",
+              "type": "REGULAR",
+              "avatarUri": "ipfs://QmPcn8SaNdG2Vznt6XPYB7RauKCCy58kUFakyUWpHMpfqR",
+              "flag": "MALICIOUS",
+              "collaborators": null,
+              "__typename": "User"
+            },
+            "__typename": "GenerativeToken"
+          },
+          "__typename": "Objkt"
+        },
+        "__typename": "Listing"
+      },
+      {
+        "id": 972158,
+        "version": 1,
+        "price": 1500000,
+        "objkt": {
+          "id": "FX0-1601211",
+          "version": 1,
+          "name": "Tuxedo #108",
+          "slug": "tuxedo-108",
+          "metadata": {
+            "name": "Tuxedo #108",
+            "iterationHash": "ooFegHJ4ZEEsoYPMnFoT63MxvwXZn6PBaJ83ktGJ6VunkFRG4vC",
+            "description": "Inspired by the freedom and optimism of art.\n___________________________________________\n\nPress 's' in live mode to download the SVG file.",
+            "tags": [
+              "svg",
+              "p5js"
+            ],
+            "generatorUri": "ipfs://QmNprTFj5FYppt6cQjDeNzgdxuqsXNCUoQSP9MmrDM3ABx",
+            "artifactUri": "ipfs://QmNprTFj5FYppt6cQjDeNzgdxuqsXNCUoQSP9MmrDM3ABx/?fxhash=ooFegHJ4ZEEsoYPMnFoT63MxvwXZn6PBaJ83ktGJ6VunkFRG4vC&fxminter=tz1VGZPvqytFVAoSAsM8VrUveJdL3PpVy6K9",
+            "displayUri": "ipfs://QmNxHdwgXeRSmmXHfmA9mM8Qj6qJ1vamKgDrxfhkxPXxkY",
+            "thumbnailUri": "ipfs://QmUQHDDMeNSJfQwWAqsTfjLUsNzC1TQykVatsaSfGc27U6",
+            "authenticityHash": "b3b6c07caabf0bcc1419816e0abb1bf0a192605699fc54a3bcd09deae2959a77",
+            "attributes": true,
+            "decimals": 0,
+            "symbol": "GENTK",
+            "version": "0.2"
+          },
+          "duplicate": false,
+          "activeListing": {
+            "id": 972158,
+            "version": 1,
+            "price": 1500000,
+            "__typename": "Listing"
+          },
+          "owner": {
+            "id": "tz1VGZPvqytFVAoSAsM8VrUveJdL3PpVy6K9",
+            "name": "A R T R A",
+            "flag": "NONE",
+            "avatarUri": "ipfs://QmS34juW7zj5QEB8VzYCLLQMDaisbQAPV641f9rHUxjYBM",
+            "__typename": "User"
+          },
+          "issuer": {
+            "flag": "REPORTED",
+            "name": "Tuxedo",
+            "author": {
+              "id": "tz1aDZAWqvQ3KekbwA5fPHSJZiPkfpR2gmQ9",
+              "name": "OCM#5965",
+              "type": "REGULAR",
+              "avatarUri": "ipfs://QmPcn8SaNdG2Vznt6XPYB7RauKCCy58kUFakyUWpHMpfqR",
+              "flag": "MALICIOUS",
+              "collaborators": null,
+              "__typename": "User"
+            },
+            "__typename": "GenerativeToken"
+          },
+          "__typename": "Objkt"
+        },
+        "__typename": "Listing"
+      },
+      {
+        "id": 972157,
+        "version": 1,
+        "price": 3400000,
+        "objkt": {
+          "id": "FX0-154608",
+          "version": 0,
+          "name": "s h i f t #972",
+          "slug": "s-h-i-f-t-972",
+          "metadata": {
+            "name": "s h i f t #972",
+            "iterationHash": "opZsWSpozfr69JJd1KwyH7wbHP2RvY5znr89BvEQgNHKdzXRd7o",
+            "description": "lines that move ",
+            "tags": [
+              "lines",
+              "that",
+              "move"
+            ],
+            "artifactUri": "ipfs://QmNVQaejDQ2FdAG4XfWuTX8WafUBKGG82pDBoCA99n8zNW",
+            "displayUri": "ipfs://Qma1DFW7VyuH9jSraqCqdA35eqptqgvdcnX9JzGeW4PM4R",
+            "thumbnailUri": "ipfs://QmZ2EiV3paqNVefusmUDD16DhBdabdd6oiPjBhsBzh7V9N",
+            "authenticityHash": "d0a20cf514e766c54cf0f435cb02d17d741e725ec535c4112c2fa0e4fa2c2dc3",
+            "attributes": [
+              {
+                "name": "rows",
+                "value": 6
+              },
+              {
+                "name": "amount of stupid u are",
+                "value": 28
               },
               {
                 "name": "Bubbles?",
-                "value": "again, no....."
+                "value": "stop asking pls"
               },
               {
                 "name": "Style",
-                "value": "Thing and Long"
+                "value": "Scratch"
               },
               {
-                "name": "Angle modifier",
-                "value": -29
-              },
-              {
-                "name": "Shapes present",
-                "value": 4993
+                "name": "Inverse",
+                "value": false
               }
             ],
             "decimals": 0,
@@ -1401,13 +665,13 @@
           },
           "duplicate": false,
           "activeListing": {
-            "id": 972049,
+            "id": 972157,
             "version": 1,
-            "price": 3700000,
+            "price": 3400000,
             "__typename": "Listing"
           },
           "owner": {
-            "id": "tz1UNhoePhFaqPzBoVnADX39Qk35Gzb98mpA",
+            "id": "tz1NH5yNRF7kxqEisSGGL279FBvoEKSA79AC",
             "name": null,
             "flag": "NONE",
             "avatarUri": null,
@@ -1415,7 +679,7 @@
           },
           "issuer": {
             "flag": "NONE",
-            "name": "f l u c t u a t e",
+            "name": "s h i f t",
             "author": {
               "id": "tz1SawhUHXWjiGK8gPK6QPmn95G8PkkSjA3S",
               "name": "punevyr",
@@ -1432,61 +696,92 @@
         "__typename": "Listing"
       },
       {
-        "id": 972048,
+        "id": 972156,
         "version": 1,
-        "price": 5500000,
+        "price": 1500000,
         "objkt": {
-          "id": "FX1-51917",
-          "version": 2,
-          "name": "g a t e #495",
-          "slug": "g-a-t-e-495",
+          "id": "FX0-1601463",
+          "version": 1,
+          "name": "Infinity Repeating #156",
+          "slug": "infinity-repeating-156",
           "metadata": {
-            "name": "g a t e #495",
-            "iterationHash": "oopdT5a4Fq4cwrzLDKZdV9bJWPjiSmoiV9wiFsgU3WYaExSAMSV",
-            "description": "The capture misses some detail, for full res open in live mode and press \"s\" to download full detail and high quality",
-            "tags": [
-              "egg",
-              "salad",
-              "sandwiches",
-              "slap"
-            ],
-            "generatorUri": "ipfs://QmTBNcXxJnc8UjsCjVf9sfRYsrkjPAwiPh1W8TgHfurG8v",
-            "artifactUri": "ipfs://QmTBNcXxJnc8UjsCjVf9sfRYsrkjPAwiPh1W8TgHfurG8v/?fxhash=oopdT5a4Fq4cwrzLDKZdV9bJWPjiSmoiV9wiFsgU3WYaExSAMSV&fxminter=tz1QWLmRaGSz6WkXwo2kBtR4x2HV4jTq5xMd",
-            "displayUri": "ipfs://Qmc5ZzjqNaGkHK2QkuiMxpabZQf5BbpvfLr1RcNRcCh41T",
-            "thumbnailUri": "ipfs://QmfX1RSXAZLCeV74MXQkaafyATWpTZGD7JKdE7moDyyQ4h",
-            "authenticityHash": "80298c806e08b7bcdeea7a0969c80c8fae1556f00bddf975d4e551b7499bc642",
+            "name": "Infinity Repeating #156",
+            "iterationHash": "op7xiDyCnsjcN9eeBymawoaKbVNeodb1EwvxhJt1reWjhJmZtiF",
+            "description": "Press 's' in live mode to download SVG file",
+            "tags": [],
+            "generatorUri": "ipfs://Qmby9Rzy3JsTRDyWL8qkeq9THvvADxpASFrpUWVZ1vjLVg",
+            "artifactUri": "ipfs://Qmby9Rzy3JsTRDyWL8qkeq9THvvADxpASFrpUWVZ1vjLVg/?fxhash=op7xiDyCnsjcN9eeBymawoaKbVNeodb1EwvxhJt1reWjhJmZtiF&fxminter=tz1VGZPvqytFVAoSAsM8VrUveJdL3PpVy6K9",
+            "displayUri": "ipfs://QmVzu7gXL36J5sdpt6o8FJg8HHdTJGFRaxxQ2DLXWu14Hv",
+            "thumbnailUri": "ipfs://QmddYjLcJD3QtbpVpTdLaTs3bEttcgKBk7pLUsTHxEJJGR",
+            "authenticityHash": "8d6ca96a761033f86e3c6b28d7129f7702000936addd2e9a68c6b78b25afae61",
+            "attributes": true,
+            "decimals": 0,
+            "symbol": "GENTK",
+            "version": "0.2"
+          },
+          "duplicate": false,
+          "activeListing": {
+            "id": 972156,
+            "version": 1,
+            "price": 1500000,
+            "__typename": "Listing"
+          },
+          "owner": {
+            "id": "tz1VGZPvqytFVAoSAsM8VrUveJdL3PpVy6K9",
+            "name": "A R T R A",
+            "flag": "NONE",
+            "avatarUri": "ipfs://QmS34juW7zj5QEB8VzYCLLQMDaisbQAPV641f9rHUxjYBM",
+            "__typename": "User"
+          },
+          "issuer": {
+            "flag": "REPORTED",
+            "name": "Infinity Repeating",
+            "author": {
+              "id": "tz1aDZAWqvQ3KekbwA5fPHSJZiPkfpR2gmQ9",
+              "name": "OCM#5965",
+              "type": "REGULAR",
+              "avatarUri": "ipfs://QmPcn8SaNdG2Vznt6XPYB7RauKCCy58kUFakyUWpHMpfqR",
+              "flag": "MALICIOUS",
+              "collaborators": null,
+              "__typename": "User"
+            },
+            "__typename": "GenerativeToken"
+          },
+          "__typename": "Objkt"
+        },
+        "__typename": "Listing"
+      },
+      {
+        "id": 972155,
+        "version": 1,
+        "price": 1000000,
+        "objkt": {
+          "id": "FX0-516636",
+          "version": 0,
+          "name": "Helianthus #69",
+          "slug": "helianthus-69",
+          "metadata": {
+            "name": "Helianthus #69",
+            "iterationHash": "oowXx4KTVwxN4tTnmX3C3zXDGMMLNJceotpTwSuUBfWW5rLLuH6",
+            "description": "To see a World in a Grain of Sand\nAnd a Heaven in a Wild Flower \nHold Infinity in the palm of your hand \nAnd Eternity in an hour\n\nWILLIAM BLAKE",
+            "tags": [],
+            "generatorUri": "ipfs://QmPNgEhf7vQJwGMM9jPf6fjRdovy9Dnuh16NC6DtsmMGqm",
+            "artifactUri": "ipfs://QmPNgEhf7vQJwGMM9jPf6fjRdovy9Dnuh16NC6DtsmMGqm?fxhash=oowXx4KTVwxN4tTnmX3C3zXDGMMLNJceotpTwSuUBfWW5rLLuH6",
+            "displayUri": "ipfs://QmaTnZenPuf3PqJuX2C6BLf89JniNGt73wMd4XGR1bHTwm",
+            "thumbnailUri": "ipfs://QmZREMvUNqxqQqBtBdn2UY5Xn9HyPCVmRdLaQmjGpeuy4h",
+            "authenticityHash": "9e126bd4229c288a7a2cedfce7e5aeb98d8196640294cb5bf59c8a72d310bc9a",
             "attributes": [
               {
-                "name": "inverse",
-                "value": false
+                "name": "Border",
+                "value": "NARROW"
               },
               {
-                "name": "i like",
-                "value": "cubes"
+                "name": "Theme",
+                "value": "3"
               },
               {
-                "name": "'~'",
-                "value": "'~'"
-              },
-              {
-                "name": "false?",
-                "value": false
-              },
-              {
-                "name": "sw",
-                "value": 200
-              },
-              {
-                "name": "xscl",
-                "value": 1.5
-              },
-              {
-                "name": "yscl",
-                "value": 1.5
-              },
-              {
-                "name": "zscl",
-                "value": 1.5
+                "name": "Color",
+                "value": "PLUM"
               }
             ],
             "decimals": 0,
@@ -1495,26 +790,150 @@
           },
           "duplicate": false,
           "activeListing": {
-            "id": 972048,
+            "id": 972155,
             "version": 1,
-            "price": 5500000,
+            "price": 1000000,
             "__typename": "Listing"
           },
           "owner": {
-            "id": "tz1QWLmRaGSz6WkXwo2kBtR4x2HV4jTq5xMd",
-            "name": null,
+            "id": "tz1VGZPvqytFVAoSAsM8VrUveJdL3PpVy6K9",
+            "name": "A R T R A",
             "flag": "NONE",
-            "avatarUri": null,
+            "avatarUri": "ipfs://QmS34juW7zj5QEB8VzYCLLQMDaisbQAPV641f9rHUxjYBM",
+            "__typename": "User"
+          },
+          "issuer": {
+            "flag": "REPORTED",
+            "name": "Helianthus",
+            "author": {
+              "id": "tz1aDZAWqvQ3KekbwA5fPHSJZiPkfpR2gmQ9",
+              "name": "OCM#5965",
+              "type": "REGULAR",
+              "avatarUri": "ipfs://QmPcn8SaNdG2Vznt6XPYB7RauKCCy58kUFakyUWpHMpfqR",
+              "flag": "MALICIOUS",
+              "collaborators": null,
+              "__typename": "User"
+            },
+            "__typename": "GenerativeToken"
+          },
+          "__typename": "Objkt"
+        },
+        "__typename": "Listing"
+      },
+      {
+        "id": 972154,
+        "version": 1,
+        "price": 800000,
+        "objkt": {
+          "id": "FX0-1601437",
+          "version": 1,
+          "name": "Parasola #60",
+          "slug": "parasola-60",
+          "metadata": {
+            "name": "Parasola #60",
+            "iterationHash": "oonwo7b9Anwx9UWjdmihZAgaEVW8dgkqZ9ntYPxTNY9rQgR5tdu",
+            "description": "2022",
+            "tags": [
+              "abstract",
+              "line",
+              "drawing",
+              "p5js"
+            ],
+            "generatorUri": "ipfs://Qmb8eZY2cn9zt5mMsJGKfWukkesRaDanerV9Gfkq5fQCzZ",
+            "artifactUri": "ipfs://Qmb8eZY2cn9zt5mMsJGKfWukkesRaDanerV9Gfkq5fQCzZ/?fxhash=oonwo7b9Anwx9UWjdmihZAgaEVW8dgkqZ9ntYPxTNY9rQgR5tdu&fxminter=tz1VGZPvqytFVAoSAsM8VrUveJdL3PpVy6K9",
+            "displayUri": "ipfs://QmfZZUc5b9c32osRvLZnwtbGU5LVmDAksrbt6pM5hcCmMC",
+            "thumbnailUri": "ipfs://QmVHYCRV1QsvP95KQtSFn9E95cjsnvMD1bPj4g8Hs7CVFj",
+            "authenticityHash": "1641fd750cf358168bd6955171d8221adcfe4fb3af18873c096e3a78215eb065",
+            "attributes": true,
+            "decimals": 0,
+            "symbol": "GENTK",
+            "version": "0.2"
+          },
+          "duplicate": false,
+          "activeListing": {
+            "id": 972154,
+            "version": 1,
+            "price": 800000,
+            "__typename": "Listing"
+          },
+          "owner": {
+            "id": "tz1VGZPvqytFVAoSAsM8VrUveJdL3PpVy6K9",
+            "name": "A R T R A",
+            "flag": "NONE",
+            "avatarUri": "ipfs://QmS34juW7zj5QEB8VzYCLLQMDaisbQAPV641f9rHUxjYBM",
+            "__typename": "User"
+          },
+          "issuer": {
+            "flag": "REPORTED",
+            "name": "Parasola",
+            "author": {
+              "id": "tz1aDZAWqvQ3KekbwA5fPHSJZiPkfpR2gmQ9",
+              "name": "OCM#5965",
+              "type": "REGULAR",
+              "avatarUri": "ipfs://QmPcn8SaNdG2Vznt6XPYB7RauKCCy58kUFakyUWpHMpfqR",
+              "flag": "MALICIOUS",
+              "collaborators": null,
+              "__typename": "User"
+            },
+            "__typename": "GenerativeToken"
+          },
+          "__typename": "Objkt"
+        },
+        "__typename": "Listing"
+      },
+      {
+        "id": 972153,
+        "version": 1,
+        "price": 1000000,
+        "objkt": {
+          "id": "FX0-1571524",
+          "version": 1,
+          "name": "Noise #29",
+          "slug": "noise-29-f53cdb7a-cb17-438f-bf40-494dd65b96bf",
+          "metadata": {
+            "name": "Noise #29",
+            "iterationHash": "opHvuD91hjEjSD3u9mi95k1SsqxiVpvPeKixeVZPi6B7o8QjKFS",
+            "description": "Made with p5.js\nOpen and press \"s\" to save [1000x1200]",
+            "tags": [
+              "colors",
+              "art",
+              "picture",
+              "nft",
+              "GT",
+              "unsleeping"
+            ],
+            "generatorUri": "ipfs://QmZdWUcPM9jLMZYGosDehjdZ5bmayV4CTdpfAHYUbqXVF3",
+            "artifactUri": "ipfs://QmZdWUcPM9jLMZYGosDehjdZ5bmayV4CTdpfAHYUbqXVF3?fxhash=opHvuD91hjEjSD3u9mi95k1SsqxiVpvPeKixeVZPi6B7o8QjKFS",
+            "displayUri": "ipfs://QmdG9emhmuzuzRhGFLVbFe253EiexRcyUJVebajdVDrgax",
+            "thumbnailUri": "ipfs://QmczYmMxJEjw3wMn1TpugJeViP58HKXHPqmr21XQjiq7VM",
+            "authenticityHash": "c3a45e13a4c23404483bf6b44589b500b30f68d7947aa7e3977586abffaf6664",
+            "attributes": true,
+            "decimals": 0,
+            "symbol": "GENTK",
+            "version": "0.2"
+          },
+          "duplicate": false,
+          "activeListing": {
+            "id": 972153,
+            "version": 1,
+            "price": 1000000,
+            "__typename": "Listing"
+          },
+          "owner": {
+            "id": "tz1WusSKVn2eN1S7MeFGe48P4fKjMbhFa5TU",
+            "name": "fauxjebus",
+            "flag": "VERIFIED",
+            "avatarUri": "ipfs://QmZ31UHKm8qgCG5Z6eDuQodDiF4q9GCGBwtywX2LZfNZVZ",
             "__typename": "User"
           },
           "issuer": {
             "flag": "NONE",
-            "name": "g a t e",
+            "name": "Noise",
             "author": {
-              "id": "tz1SawhUHXWjiGK8gPK6QPmn95G8PkkSjA3S",
-              "name": "punevyr",
+              "id": "tz2H8AANLU25yBD8MxPocngHngKNVEXXRXGE",
+              "name": "unsleeping_ik",
               "type": "REGULAR",
-              "avatarUri": "ipfs://QmXNMVeGcYDWjvdsubieoSm8dcer4Pdi6CFWemmDprwpaS",
+              "avatarUri": "ipfs://QmQFW14KYmRp7PW8wF9ep99gvUkidzEp2tCwV9jTk5d5oK",
               "flag": "VERIFIED",
               "collaborators": null,
               "__typename": "User"
@@ -1526,61 +945,357 @@
         "__typename": "Listing"
       },
       {
-        "id": 972047,
+        "id": 972152,
         "version": 1,
-        "price": 5000000,
+        "price": 1000000,
         "objkt": {
-          "id": "FX1-51918",
-          "version": 2,
-          "name": "g a t e #496",
-          "slug": "g-a-t-e-496",
+          "id": "FX0-1571525",
+          "version": 1,
+          "name": "Noise #30",
+          "slug": "noise-30-fe304954-05a7-40d4-b1b3-d2e22b93dd2b",
           "metadata": {
-            "name": "g a t e #496",
-            "iterationHash": "oojwAT5io8Qx1syBXkhegFWM5Ncvgb8VJhqFEuZeLepZcRrpExR",
-            "description": "The capture misses some detail, for full res open in live mode and press \"s\" to download full detail and high quality",
+            "name": "Noise #30",
+            "iterationHash": "opYUBDfVDgtMS7RHpgxBkNrB2cxBgVe1GrcPRhutdi7GbxKyzNm",
+            "description": "Made with p5.js\nOpen and press \"s\" to save [1000x1200]",
             "tags": [
-              "egg",
-              "salad",
-              "sandwiches",
-              "slap"
+              "colors",
+              "art",
+              "picture",
+              "nft",
+              "GT",
+              "unsleeping"
             ],
-            "generatorUri": "ipfs://QmTBNcXxJnc8UjsCjVf9sfRYsrkjPAwiPh1W8TgHfurG8v",
-            "artifactUri": "ipfs://QmTBNcXxJnc8UjsCjVf9sfRYsrkjPAwiPh1W8TgHfurG8v/?fxhash=oojwAT5io8Qx1syBXkhegFWM5Ncvgb8VJhqFEuZeLepZcRrpExR&fxminter=tz1cgARFNEoqY2MVzf3xXSrK8iT32ucjDLfD",
-            "displayUri": "ipfs://QmZiQzGuxJVBcKySniGJYHSUia1R4nVDCtKaeyvSinkYXz",
-            "thumbnailUri": "ipfs://QmUC8m8B1HcdZfMNFQ1ZbNownYyANDFkbJj26hAaqQ7pLB",
-            "authenticityHash": "963ddf6f8e64506349e27363fc7b3e0a75bd384efaf18dca1e278b26f3cc0e6b",
+            "generatorUri": "ipfs://QmZdWUcPM9jLMZYGosDehjdZ5bmayV4CTdpfAHYUbqXVF3",
+            "artifactUri": "ipfs://QmZdWUcPM9jLMZYGosDehjdZ5bmayV4CTdpfAHYUbqXVF3?fxhash=opYUBDfVDgtMS7RHpgxBkNrB2cxBgVe1GrcPRhutdi7GbxKyzNm",
+            "displayUri": "ipfs://Qmby5xHWMvJdQ4tv4qNkHdp2oUR9q65apGPVw9UZB8fKe3",
+            "thumbnailUri": "ipfs://QmWC63oc2Dr3R8v9XSoFziRKrkj3JQRR3HFeni4FeC9t2y",
+            "authenticityHash": "c219256d0249b85b7c8454b9b951682b961af69762cb4851adfed16aceda51e8",
+            "attributes": true,
+            "decimals": 0,
+            "symbol": "GENTK",
+            "version": "0.2"
+          },
+          "duplicate": false,
+          "activeListing": {
+            "id": 972152,
+            "version": 1,
+            "price": 1000000,
+            "__typename": "Listing"
+          },
+          "owner": {
+            "id": "tz1WusSKVn2eN1S7MeFGe48P4fKjMbhFa5TU",
+            "name": "fauxjebus",
+            "flag": "VERIFIED",
+            "avatarUri": "ipfs://QmZ31UHKm8qgCG5Z6eDuQodDiF4q9GCGBwtywX2LZfNZVZ",
+            "__typename": "User"
+          },
+          "issuer": {
+            "flag": "NONE",
+            "name": "Noise",
+            "author": {
+              "id": "tz2H8AANLU25yBD8MxPocngHngKNVEXXRXGE",
+              "name": "unsleeping_ik",
+              "type": "REGULAR",
+              "avatarUri": "ipfs://QmQFW14KYmRp7PW8wF9ep99gvUkidzEp2tCwV9jTk5d5oK",
+              "flag": "VERIFIED",
+              "collaborators": null,
+              "__typename": "User"
+            },
+            "__typename": "GenerativeToken"
+          },
+          "__typename": "Objkt"
+        },
+        "__typename": "Listing"
+      },
+      {
+        "id": 972151,
+        "version": 1,
+        "price": 3000000,
+        "objkt": {
+          "id": "FX0-1577232",
+          "version": 1,
+          "name": "Chasm #3",
+          "slug": "chasm-3",
+          "metadata": {
+            "name": "Chasm #3",
+            "iterationHash": "opETmwEbxNwnKNW4heScgXtwSxKuvx4FYkyJjZD8gaWwq9NFhLy",
+            "description": "Drawing the chasm using mathematical formulas.\nThere are 8 general chasm forms and also a variety of colors.",
+            "tags": [
+              "chasm",
+              "math",
+              "sketch"
+            ],
+            "generatorUri": "ipfs://QmY3iy7Fc7mKN7VRXX9JbyaouDXkniQaBkA2jL2cZ2bAVF",
+            "artifactUri": "ipfs://QmY3iy7Fc7mKN7VRXX9JbyaouDXkniQaBkA2jL2cZ2bAVF?fxhash=opETmwEbxNwnKNW4heScgXtwSxKuvx4FYkyJjZD8gaWwq9NFhLy",
+            "displayUri": "ipfs://QmT2rFwLQokcWSYfwJEphYoHzhd36ebrZEogKxZQSdQhDX",
+            "thumbnailUri": "ipfs://QmYfbcRHbHgRwMkF4reaEMUY8zxiDZYoafRSFrEreXo8DB",
+            "authenticityHash": "33c6707e66d371d80138f68b7e2486a3a7af1a2195288e9e549112f6ab693926",
             "attributes": [
               {
-                "name": "inverse",
+                "name": "_z1",
+                "value": -3
+              },
+              {
+                "name": "_z2",
+                "value": 2
+              },
+              {
+                "name": "_mode",
+                "value": 8
+              },
+              {
+                "name": "_pallet_ind",
+                "value": 0
+              }
+            ],
+            "decimals": 0,
+            "symbol": "GENTK",
+            "version": "0.2"
+          },
+          "duplicate": false,
+          "activeListing": {
+            "id": 972151,
+            "version": 1,
+            "price": 3000000,
+            "__typename": "Listing"
+          },
+          "owner": {
+            "id": "tz1WusSKVn2eN1S7MeFGe48P4fKjMbhFa5TU",
+            "name": "fauxjebus",
+            "flag": "VERIFIED",
+            "avatarUri": "ipfs://QmZ31UHKm8qgCG5Z6eDuQodDiF4q9GCGBwtywX2LZfNZVZ",
+            "__typename": "User"
+          },
+          "issuer": {
+            "flag": "NONE",
+            "name": "Chasm",
+            "author": {
+              "id": "tz1WTewyx5TMW6s6hoxMhf1cvJ4L3D4aHM5M",
+              "name": "JSZone",
+              "type": "REGULAR",
+              "avatarUri": "ipfs://QmR8gcewtVAMQa7pina2M1AZvN9Px7b9Ewp3sffjVe9GwB",
+              "flag": "NONE",
+              "collaborators": null,
+              "__typename": "User"
+            },
+            "__typename": "GenerativeToken"
+          },
+          "__typename": "Objkt"
+        },
+        "__typename": "Listing"
+      },
+      {
+        "id": 972150,
+        "version": 1,
+        "price": 1500000,
+        "objkt": {
+          "id": "FX0-1601460",
+          "version": 1,
+          "name": "Tuxedo #141",
+          "slug": "tuxedo-141",
+          "metadata": {
+            "name": "Tuxedo #141",
+            "iterationHash": "ooVuHebDxWgkCSi3cmZoKJFgMLHardRZw828SKBnCVPqCsYc5wA",
+            "description": "Inspired by the freedom and optimism of art.\n___________________________________________\n\nPress 's' in live mode to download the SVG file.",
+            "tags": [
+              "svg",
+              "p5js"
+            ],
+            "generatorUri": "ipfs://QmNprTFj5FYppt6cQjDeNzgdxuqsXNCUoQSP9MmrDM3ABx",
+            "artifactUri": "ipfs://QmNprTFj5FYppt6cQjDeNzgdxuqsXNCUoQSP9MmrDM3ABx/?fxhash=ooVuHebDxWgkCSi3cmZoKJFgMLHardRZw828SKBnCVPqCsYc5wA&fxminter=tz1VGZPvqytFVAoSAsM8VrUveJdL3PpVy6K9",
+            "displayUri": "ipfs://QmPvh5cRM6Ts7vsMRB5H31WgNEwUFnDcTBx3ATnawc3xJp",
+            "thumbnailUri": "ipfs://QmSnp542A3JaT2bd3gprLj9LagyGq19dEByhQT8rjJ3sHZ",
+            "authenticityHash": "339949b61479a1be7fd983750242ee80bf8470a780a7e09a6e943df3aaf53d0d",
+            "attributes": true,
+            "decimals": 0,
+            "symbol": "GENTK",
+            "version": "0.2"
+          },
+          "duplicate": false,
+          "activeListing": {
+            "id": 972150,
+            "version": 1,
+            "price": 1500000,
+            "__typename": "Listing"
+          },
+          "owner": {
+            "id": "tz1VGZPvqytFVAoSAsM8VrUveJdL3PpVy6K9",
+            "name": "A R T R A",
+            "flag": "NONE",
+            "avatarUri": "ipfs://QmS34juW7zj5QEB8VzYCLLQMDaisbQAPV641f9rHUxjYBM",
+            "__typename": "User"
+          },
+          "issuer": {
+            "flag": "REPORTED",
+            "name": "Tuxedo",
+            "author": {
+              "id": "tz1aDZAWqvQ3KekbwA5fPHSJZiPkfpR2gmQ9",
+              "name": "OCM#5965",
+              "type": "REGULAR",
+              "avatarUri": "ipfs://QmPcn8SaNdG2Vznt6XPYB7RauKCCy58kUFakyUWpHMpfqR",
+              "flag": "MALICIOUS",
+              "collaborators": null,
+              "__typename": "User"
+            },
+            "__typename": "GenerativeToken"
+          },
+          "__typename": "Objkt"
+        },
+        "__typename": "Listing"
+      },
+      {
+        "id": 972149,
+        "version": 1,
+        "price": 1000000,
+        "objkt": {
+          "id": "FX0-1575365",
+          "version": 1,
+          "name": "Scattered Pathways #111",
+          "slug": "scattered-pathways-111",
+          "metadata": {
+            "name": "Scattered Pathways #111",
+            "iterationHash": "ooY43A9sWcC5yxEsivZvhyDhAnkTEpHuncZ6Q1dPmUnX5QqbQPs",
+            "description": "\"Scattered Pathways\" studies pathfinding on a grid. I enjoy watching the sketch find and fill the available spaces. I hope you enjoy this one too!\n\nRoyalties Splits:\n50% Donation to minter\n\nFeatures:\nTwo different sizes: 12x18\", 12x12\"\nPortrait or landscape orientation\n~500 color pallets, one black and white, one cyan, magenta, yellow and black, and the rest from Jam3/nice-color-palettes.\n\nDependencies:\nprocessing/p5.js\nlodash/lodash\nJam3/nice-color-palettes\n@liamegan1/fxhash-helpers\n@altesc/stdio\n\nExport to a PNG format at several different sizes.\n- Press s: save the current render size\n- Press t: scale to screen size\n- Press f: full print size (see features for dimensions)\n\nLicense: CC-BY\n\nPlease find me on Twitter and Instagram at @natenolting.",
+            "tags": [
+              "genartclub",
+              "p5js",
+              "abstract",
+              "color",
+              "grid",
+              "pathfinding",
+              "wiring",
+              "circuit"
+            ],
+            "generatorUri": "ipfs://QmUejJ9nvwUrWGoCmFpHN42PsDpyJ68ijeLdHHc7gYGyoL",
+            "artifactUri": "ipfs://QmUejJ9nvwUrWGoCmFpHN42PsDpyJ68ijeLdHHc7gYGyoL?fxhash=ooY43A9sWcC5yxEsivZvhyDhAnkTEpHuncZ6Q1dPmUnX5QqbQPs",
+            "displayUri": "ipfs://QmW2GdPoFskjrosUSPydDuaKSdHFJAqJkCDdSoGcq9abtg",
+            "thumbnailUri": "ipfs://QmSNrkFvmZBuGzuGUmk6MrnN62NcWrQzzd8wTELmAunsbn",
+            "authenticityHash": "d0fec20415263fea5e883d13d4f782e09df3423cc4b39ecae4f34b21a1c4105e",
+            "attributes": [
+              {
+                "name": "Density",
+                "value": "Thirty-Four"
+              },
+              {
+                "name": "Orientation",
+                "value": "Landscape"
+              },
+              {
+                "name": "Pallet",
+                "value": "One Hundred Eleven"
+              },
+              {
+                "name": "Color Distribution",
+                "value": "Five"
+              },
+              {
+                "name": "Colors Sorted",
+                "value": "No"
+              },
+              {
+                "name": "Dimensions",
+                "value": "Twelve by Twelve"
+              }
+            ],
+            "decimals": 0,
+            "symbol": "GENTK",
+            "version": "0.2"
+          },
+          "duplicate": false,
+          "activeListing": {
+            "id": 972149,
+            "version": 1,
+            "price": 1000000,
+            "__typename": "Listing"
+          },
+          "owner": {
+            "id": "tz1WusSKVn2eN1S7MeFGe48P4fKjMbhFa5TU",
+            "name": "fauxjebus",
+            "flag": "VERIFIED",
+            "avatarUri": "ipfs://QmZ31UHKm8qgCG5Z6eDuQodDiF4q9GCGBwtywX2LZfNZVZ",
+            "__typename": "User"
+          },
+          "issuer": {
+            "flag": "NONE",
+            "name": "Scattered Pathways",
+            "author": {
+              "id": "tz1Sue5xUeUPLu7nn2ECAEGrskJVBDWG8a1K",
+              "name": "Nate Nolting",
+              "type": "REGULAR",
+              "avatarUri": "ipfs://Qma7pot4BPwATcNyLvXUT9JyVa7nRm5q49cU2pKM5Fgn1f",
+              "flag": "VERIFIED",
+              "collaborators": null,
+              "__typename": "User"
+            },
+            "__typename": "GenerativeToken"
+          },
+          "__typename": "Objkt"
+        },
+        "__typename": "Listing"
+      },
+      {
+        "id": 972148,
+        "version": 1,
+        "price": 6000000,
+        "objkt": {
+          "id": "FX0-1577509",
+          "version": 1,
+          "name": "Not your ordinary bloodstream #7",
+          "slug": "not-your-ordinary-bloodstream-7",
+          "metadata": {
+            "name": "Not your ordinary bloodstream #7",
+            "iterationHash": "ooySzFf8xYJuiNpXmYp7i9gewZq1v88MZocu1ihpDUG3EqWYW4x",
+            "description": "In the midst of the vast mixture of plasma, blood cells and platelets, you might with some luck come across elements of rarer compositions.\n\nEach cellular shape that is clicked will shrink and reappear with a slightly new appearance. Whilst undergoing its transformation it gives away sound effects based on how many rings it contains.\n\nThere are 2 different sound effects to obtain, distributed in a 1:2 ratio.\n\n@computeremotions - 2023-03-02",
+            "tags": [
+              "computeremotions",
+              "generative",
+              "interactive",
+              "animated",
+              "audio",
+              "three.js",
+              "tone.js"
+            ],
+            "generatorUri": "ipfs://QmXTfQpb5XUzWfRSu4SV1WfQHH7H7aKH3qXtGqryUm2GXm",
+            "artifactUri": "ipfs://QmXTfQpb5XUzWfRSu4SV1WfQHH7H7aKH3qXtGqryUm2GXm?fxhash=ooySzFf8xYJuiNpXmYp7i9gewZq1v88MZocu1ihpDUG3EqWYW4x",
+            "displayUri": "ipfs://QmWWbskZ628PpqMTVTUo7Wfa9RBZ6xcKz8Kp2S3o3EMZed",
+            "thumbnailUri": "ipfs://QmSvGiE1QLYEFXsW1Bsjze47ptjNnb5GE8i79PznfXJKa6",
+            "authenticityHash": "777a54c1a958f675499f60dfacf6cbc5691c6ca1e90638f48d69c579b9110af3",
+            "attributes": [
+              {
+                "name": "instrument",
+                "value": 1
+              },
+              {
+                "name": "bgColor",
+                "value": "#9a031e"
+              },
+              {
+                "name": "primaryColor",
+                "value": "#c06e86"
+              },
+              {
+                "name": "secondaryColor",
+                "value": "#c06e86"
+              },
+              {
+                "name": "shapeCount",
+                "value": 6
+              },
+              {
+                "name": "shapeComposition",
+                "value": 5189.778652692439
+              },
+              {
+                "name": "hasMetalness",
+                "value": 0
+              },
+              {
+                "name": "hasLines",
                 "value": false
               },
               {
-                "name": "i like",
-                "value": "cubes"
-              },
-              {
-                "name": "'~'",
-                "value": "'~'"
-              },
-              {
-                "name": "false?",
+                "name": "hasTexturePattern",
                 "value": true
-              },
-              {
-                "name": "sw",
-                "value": 200
-              },
-              {
-                "name": "xscl",
-                "value": 1.5
-              },
-              {
-                "name": "yscl",
-                "value": 1.5
-              },
-              {
-                "name": "zscl",
-                "value": 1.5
               }
             ],
             "decimals": 0,
@@ -1589,26 +1304,183 @@
           },
           "duplicate": false,
           "activeListing": {
-            "id": 972047,
+            "id": 972148,
             "version": 1,
-            "price": 5000000,
+            "price": 6000000,
             "__typename": "Listing"
           },
           "owner": {
-            "id": "tz1cgARFNEoqY2MVzf3xXSrK8iT32ucjDLfD",
-            "name": null,
-            "flag": "NONE",
-            "avatarUri": null,
+            "id": "tz1WusSKVn2eN1S7MeFGe48P4fKjMbhFa5TU",
+            "name": "fauxjebus",
+            "flag": "VERIFIED",
+            "avatarUri": "ipfs://QmZ31UHKm8qgCG5Z6eDuQodDiF4q9GCGBwtywX2LZfNZVZ",
             "__typename": "User"
           },
           "issuer": {
             "flag": "NONE",
-            "name": "g a t e",
+            "name": "Not your ordinary bloodstream",
             "author": {
-              "id": "tz1SawhUHXWjiGK8gPK6QPmn95G8PkkSjA3S",
-              "name": "punevyr",
+              "id": "tz1PY7E6A3bAzk776PH8j4LvkJmnowNsfruJ",
+              "name": "Daniel Gyllensand",
               "type": "REGULAR",
-              "avatarUri": "ipfs://QmXNMVeGcYDWjvdsubieoSm8dcer4Pdi6CFWemmDprwpaS",
+              "avatarUri": "ipfs://QmU7gtRWdoEpZnwGzyvYitwqJH8iq2MM4yZbLtbYDZVp3o",
+              "flag": "VERIFIED",
+              "collaborators": null,
+              "__typename": "User"
+            },
+            "__typename": "GenerativeToken"
+          },
+          "__typename": "Objkt"
+        },
+        "__typename": "Listing"
+      },
+      {
+        "id": 972147,
+        "version": 1,
+        "price": 1000000,
+        "objkt": {
+          "id": "FX0-1575370",
+          "version": 1,
+          "name": "Scattered Pathways #116",
+          "slug": "scattered-pathways-116",
+          "metadata": {
+            "name": "Scattered Pathways #116",
+            "iterationHash": "op9UR1bhFQoBFTgwhv9tDw4wjmfhEBgizRxYtxq9yb8Dvg3Efwb",
+            "description": "\"Scattered Pathways\" studies pathfinding on a grid. I enjoy watching the sketch find and fill the available spaces. I hope you enjoy this one too!\n\nRoyalties Splits:\n50% Donation to minter\n\nFeatures:\nTwo different sizes: 12x18\", 12x12\"\nPortrait or landscape orientation\n~500 color pallets, one black and white, one cyan, magenta, yellow and black, and the rest from Jam3/nice-color-palettes.\n\nDependencies:\nprocessing/p5.js\nlodash/lodash\nJam3/nice-color-palettes\n@liamegan1/fxhash-helpers\n@altesc/stdio\n\nExport to a PNG format at several different sizes.\n- Press s: save the current render size\n- Press t: scale to screen size\n- Press f: full print size (see features for dimensions)\n\nLicense: CC-BY\n\nPlease find me on Twitter and Instagram at @natenolting.",
+            "tags": [
+              "genartclub",
+              "p5js",
+              "abstract",
+              "color",
+              "grid",
+              "pathfinding",
+              "wiring",
+              "circuit"
+            ],
+            "generatorUri": "ipfs://QmUejJ9nvwUrWGoCmFpHN42PsDpyJ68ijeLdHHc7gYGyoL",
+            "artifactUri": "ipfs://QmUejJ9nvwUrWGoCmFpHN42PsDpyJ68ijeLdHHc7gYGyoL?fxhash=op9UR1bhFQoBFTgwhv9tDw4wjmfhEBgizRxYtxq9yb8Dvg3Efwb",
+            "displayUri": "ipfs://QmUz1sqzn9fAGQr3ejAQbDf7Y9RtsER31a9AJoQUzbK4hh",
+            "thumbnailUri": "ipfs://QmREimJ5UYULUYch1K99i4NNCNVDBJ43VCY2ubtmFameZk",
+            "authenticityHash": "4b5724f21ab96740b62db3c864d019065e5538385333b4e1c7e8c2ad491da872",
+            "attributes": [
+              {
+                "name": "Density",
+                "value": "Thirty"
+              },
+              {
+                "name": "Orientation",
+                "value": "Landscape"
+              },
+              {
+                "name": "Pallet",
+                "value": "Two Hundred Seventy-Eight"
+              },
+              {
+                "name": "Color Distribution",
+                "value": "Six"
+              },
+              {
+                "name": "Colors Sorted",
+                "value": "No"
+              },
+              {
+                "name": "Dimensions",
+                "value": "Twelve by Eighteen"
+              }
+            ],
+            "decimals": 0,
+            "symbol": "GENTK",
+            "version": "0.2"
+          },
+          "duplicate": false,
+          "activeListing": {
+            "id": 972147,
+            "version": 1,
+            "price": 1000000,
+            "__typename": "Listing"
+          },
+          "owner": {
+            "id": "tz1WusSKVn2eN1S7MeFGe48P4fKjMbhFa5TU",
+            "name": "fauxjebus",
+            "flag": "VERIFIED",
+            "avatarUri": "ipfs://QmZ31UHKm8qgCG5Z6eDuQodDiF4q9GCGBwtywX2LZfNZVZ",
+            "__typename": "User"
+          },
+          "issuer": {
+            "flag": "NONE",
+            "name": "Scattered Pathways",
+            "author": {
+              "id": "tz1Sue5xUeUPLu7nn2ECAEGrskJVBDWG8a1K",
+              "name": "Nate Nolting",
+              "type": "REGULAR",
+              "avatarUri": "ipfs://Qma7pot4BPwATcNyLvXUT9JyVa7nRm5q49cU2pKM5Fgn1f",
+              "flag": "VERIFIED",
+              "collaborators": null,
+              "__typename": "User"
+            },
+            "__typename": "GenerativeToken"
+          },
+          "__typename": "Objkt"
+        },
+        "__typename": "Listing"
+      },
+      {
+        "id": 972146,
+        "version": 1,
+        "price": 9000000,
+        "objkt": {
+          "id": "FX0-454746",
+          "version": 0,
+          "name": "Dithering #5",
+          "slug": "dithering-5",
+          "metadata": {
+            "name": "Dithering #5",
+            "iterationHash": "op4AZDJkJgar1mxqxdGGqauCXYuQprhK6XPFTodkVPWDwsGmN3W",
+            "description": "Generative 1bit pixel dither.\n\n- 10% chance of inverted colors (lighter interior)\n- 1% chance of black and white",
+            "tags": [
+              "dither",
+              "pixel art",
+              "art",
+              "pixels",
+              "gradient",
+              "light",
+              "dark",
+              "color",
+              "black",
+              "white"
+            ],
+            "generatorUri": "ipfs://QmQmD5TWyAABTgtMFZi8MtbvPwiW8yWR55oCBJ1ZTM2Mak",
+            "artifactUri": "ipfs://QmQmD5TWyAABTgtMFZi8MtbvPwiW8yWR55oCBJ1ZTM2Mak?fxhash=op4AZDJkJgar1mxqxdGGqauCXYuQprhK6XPFTodkVPWDwsGmN3W",
+            "displayUri": "ipfs://QmVuitHq5CVJKs7mbpE94wBsGcxF2wydVq8yxMKE8FHtNj",
+            "thumbnailUri": "ipfs://QmTCUE95cSNzPxh2pxXbdaDGRUhKQRdhJNfRLeMjEhqkE6",
+            "authenticityHash": "8d8e22412954c179e479550f1a8a7ae1f14fa4749773066a6707342e0d33880f",
+            "attributes": [],
+            "decimals": 0,
+            "symbol": "GENTK",
+            "version": "0.2"
+          },
+          "duplicate": false,
+          "activeListing": {
+            "id": 972146,
+            "version": 1,
+            "price": 9000000,
+            "__typename": "Listing"
+          },
+          "owner": {
+            "id": "tz1WusSKVn2eN1S7MeFGe48P4fKjMbhFa5TU",
+            "name": "fauxjebus",
+            "flag": "VERIFIED",
+            "avatarUri": "ipfs://QmZ31UHKm8qgCG5Z6eDuQodDiF4q9GCGBwtywX2LZfNZVZ",
+            "__typename": "User"
+          },
+          "issuer": {
+            "flag": "NONE",
+            "name": "Dithering",
+            "author": {
+              "id": "tz1iijWJnm6ViozjUDrkP7K73voXUo9Pu1sJ",
+              "name": "Rasterly",
+              "type": "REGULAR",
+              "avatarUri": "ipfs://QmdoQZVotoM6YAEQQQtkxqG69m86jTMXvNoj5gyx8RuieV",
               "flag": "VERIFIED",
               "collaborators": null,
               "__typename": "User"
