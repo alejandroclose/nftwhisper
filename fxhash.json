@@ -2,43 +2,86 @@
   "data": {
     "listings": [
       {
-        "id": 982303,
+        "id": 982396,
         "version": 1,
-        "price": 13999999,
+        "price": 2250000,
         "objkt": {
-          "id": "FX0-872345",
-          "version": 1,
-          "name": "Linescapes #127",
-          "slug": "linescapes-127",
+          "id": "FX1-17800",
+          "version": 2,
+          "name": "Chromalign #156",
+          "slug": "chromalign-156",
           "metadata": {
-            "name": "Linescapes #127",
-            "iterationHash": "oojbfudJF29gT8Rbu5gG5ZexPnDewj4SmkJJ65KY6PTzqfCRfea",
-            "description": "Lines escape their boundaries.\n\nMade in p5js. Artwork is released under CC BY-NC 4.0.",
+            "name": "Chromalign #156",
+            "iterationHash": "onpgbaV6U7Rrvbn43U5EzrEQomaTT4pppMsjJCU2QK2AqHtTL1G",
+            "description": "A relatively simple idea: columns filled with many thin horizontal lines, layered with complexity from colour features, stroke styles, and column perturbations. The compositions that emerge may be harmonious or asynchronous, comforting or jarring, wistful, mysterious, subtle, or bold.\n\nThe piece is generated as follows:\n\nFirst, borders and columns are defined. The canvas may have one or two borders, ranging from small to large, and the inner border may or may not have a coloured edge and fill. If they are not coloured, the feature \"Hidden Background\" will be true. Each column is assigned three colours at random from one of several possible colour palettes. The top and bottom boundaries of each column are set, and in some iterations, there is a chance that columns will break outside the border boundaries.\n\nAs columns are drawn from top to bottom, there are several events that may occur with probabilities pre-defined for each iteration: 1) The stroke colour may switch abruptly or over a gradient between two of the three column colours. 2) A 'repeater' pattern may be triggered, where two of the column colours alternate with a given frequency and rate of decay. 3) Single 'accent' bands may occur with the third column colour. 4) 'Bulges' may form with either rectangle, diamond, sin wave, or 'skirt' shapes.\n\nThere may also be horizontal bands that span the entire image, with a certain variability of height across columns.\n\nStrokes may be straight lines or Bezier curves. Bezier curves may be uniform for an iteration, where the control points of the curves are generated from a single formula for the whole image, or they may be random. Strokes may also have horizontal and/or vertical 'line fuzz', where the start and end points of the line are randomly offset in either direction.\n\nStraight strokes may or may not have a solid base-layer drawn underneath, which gives the image a more filled vs. sketched appearance. Top strokes may also be partially transparent, allowing for a layered effect.\n\nColumns are drawn in one of several possible orders, and once the initial drawing is complete, columns will be redrawn slowly and the image will evolve over time.\n\nPress '2', '4', '6', '8', or '0' to re-draw at 2K, 4K, 6K, 8K, or 10K resolution (shortest edge), which will also save an image when the initial draw is complete and before animation begins.\n\nPress 's' at any time to save an image at the current resolution.",
             "tags": [
+              "generative",
               "abstract",
-              "flow field",
-              "pop",
-              "colorful",
-              "emergent",
-              "2d"
+              "line art",
+              "color field",
+              "geometric"
             ],
-            "generatorUri": "ipfs://QmbQ7TPqRnkLxXk4X9LpMwgyoHyrHvLKfE5AgywGp3psuT",
-            "artifactUri": "ipfs://QmbQ7TPqRnkLxXk4X9LpMwgyoHyrHvLKfE5AgywGp3psuT?fxhash=oojbfudJF29gT8Rbu5gG5ZexPnDewj4SmkJJ65KY6PTzqfCRfea",
-            "displayUri": "ipfs://QmZDv8neivCrb3HdJsfp5Y82jrFQgBRBZn9zQickhZYchb",
-            "thumbnailUri": "ipfs://QmV4YyNfB1LN2Ny7YcwH668MUnefLo1EebfJSTqjVY7Dfw",
-            "authenticityHash": "681f3ea51dd8fd1a6762113c14a5f7623d25f43aeebda77833e51ceb4fda1678",
+            "generatorUri": "ipfs://Qmcnii9vPSCuDfEkdPtwxTJkiPHZtkdwH5d6x17MceVS8q",
+            "artifactUri": "ipfs://Qmcnii9vPSCuDfEkdPtwxTJkiPHZtkdwH5d6x17MceVS8q/?fxhash=onpgbaV6U7Rrvbn43U5EzrEQomaTT4pppMsjJCU2QK2AqHtTL1G",
+            "displayUri": "ipfs://QmUF8qaAXXJ2FhXDhWu88b7GNUvpczwVB14YYqabCnA9H3",
+            "thumbnailUri": "ipfs://QmPJe1C9UgV5YurUUR8K9yp4sfhq95NsfmVTyYbckLrgcU",
+            "authenticityHash": "d861e2cda93b54a7296a71f3d3a1ac24628a5cdb82aba3d6f70f4cb4bdf18fae",
             "attributes": [
-              {
-                "name": "Arrangement",
-                "value": "Wild"
-              },
-              {
-                "name": "Density",
-                "value": "Packed"
-              },
               {
                 "name": "Palette",
-                "value": "Vivid Passion"
+                "value": "Stone Fruit"
+              },
+              {
+                "name": "Aspect",
+                "value": "A4 Tall"
+              },
+              {
+                "name": "Stroke Style",
+                "value": "Bezier Uniform"
+              },
+              {
+                "name": "Top line alpha",
+                "value": "None"
+              },
+              {
+                "name": "Number of Columns",
+                "value": "Probably too many"
+              },
+              {
+                "name": "Draw Order",
+                "value": "Triple V"
+              },
+              {
+                "name": "Outer Border",
+                "value": "Medium"
+              },
+              {
+                "name": "Inner Border",
+                "value": "Large"
+              },
+              {
+                "name": "Hidden Background",
+                "value": false
+              },
+              {
+                "name": "Baselayer",
+                "value": false
+              },
+              {
+                "name": "Vertical Line Fuzz",
+                "value": "Medium"
+              },
+              {
+                "name": "Horizontal Line Fuzz",
+                "value": "None"
+              },
+              {
+                "name": "Bulges",
+                "value": "Tons"
+              },
+              {
+                "name": "Horizontal Bands",
+                "value": 4
               }
             ],
             "decimals": 0,
@@ -47,169 +90,26 @@
           },
           "duplicate": false,
           "activeListing": {
-            "id": 982303,
+            "id": 982396,
             "version": 1,
-            "price": 13999999,
+            "price": 2250000,
             "__typename": "Listing"
           },
           "owner": {
-            "id": "tz1cNakLoctaqaCtBZSQGZs5RgAciYqB7cNf",
-            "name": "richer.tez",
+            "id": "tz1eMrFPD7twjRUCMRnTwQmAZinbSWiLnCRL",
+            "name": "MEAMES.TEZ",
             "flag": "NONE",
-            "avatarUri": "ipfs://Qmb6Feje4DYL9DS4SEUM66YQXRu2zPvm56gVxUk7MCnkGC",
+            "avatarUri": "ipfs://QmT3teaxyLdm2o8zn6RvgC4LPrZjCZy9rMUgvBAi6ydLTV",
             "__typename": "User"
           },
           "issuer": {
             "flag": "NONE",
-            "name": "Linescapes",
+            "name": "Chromalign",
             "author": {
-              "id": "tz1MBjskm9k3CGY3ARDgHfKa5SbH7zpqTppL",
-              "name": "Jacob Gold",
+              "id": "tz1RH5aJvuk7Qw4UYbwdjfahWHaKsVPgwBhk",
+              "name": "bleaker.art",
               "type": "REGULAR",
-              "avatarUri": "ipfs://QmZTfVmrGAZ9DZAmtHj9YJLxEwn56sPqkcwGe8erJW6h9Z",
-              "flag": "VERIFIED",
-              "collaborators": null,
-              "__typename": "User"
-            },
-            "__typename": "GenerativeToken"
-          },
-          "__typename": "Objkt"
-        },
-        "__typename": "Listing"
-      },
-      {
-        "id": 982302,
-        "version": 1,
-        "price": 194000000,
-        "objkt": {
-          "id": "FX1-62960",
-          "version": 2,
-          "name": "Self, Id #33",
-          "slug": "self-id-33",
-          "metadata": {
-            "name": "Self, Id #33",
-            "iterationHash": "oocQ762p2rknSHRscQan6MU2UoThxYjCCbwGUzEiPRg4jFRDoQv",
-            "description": "The first installment of the Self trilogy.\n\nId is defined as: the one of the three divisions of the psyche in psychoanalytic theory that is completely unconscious and is the source of psychic energy derived from instinctual needs and drives.\n\nPlease see attached fx(text) article or go to https://ty-vek.art/self-trilogy for more on concept/mechanics/etc. It’s a bit of long read, but worth it.\n\n—————————\n\nAll projects are written in vanilla Javascript, composed as SVG and then rendered to a 2d canvas.\n\nThere might be slight differences in rendering from browser to browser. This is expected as they might translate the SVG slightly differently. Let's call Chromium renderings canonical. They also render faster there and we love that.\n\nPress \"S\" to save a PNG.\nPress \"V\" to save a SVG. (Chromium browsers render these pretty well.)\n\nBy default, these will render at 2400 x 3200 pixels. This is at density 1.\n\nTo render at a larger resolution you can append “&d=2” to the end of the url. This will double the resolution. You can also use 3 or 4 or whatever your browser can handle. Safari tends to have problems with this, so stick with Chromium based browsers (Chrome, Edge, Brave, etc.)\n\nIf you want to render as a square image, so it is optimized for ummm.. your pfp or something, you can append “&sq=t” to the url.\n\nIf you want to get rid of grain, just append “&g=n”\n\n—————————\n\nhttps://ty-vek.art/self-trilogy\nhttps://twitter.com/ty__vek\nhttps://www.fxhash.xyz/u/Ty%20Vek/articles\n",
-            "tags": [],
-            "generatorUri": "ipfs://QmRu3mwkSNaESx9ULX9WvSmS4hjTLKm4E1Wk6xKLHHofBN",
-            "artifactUri": "ipfs://QmRu3mwkSNaESx9ULX9WvSmS4hjTLKm4E1Wk6xKLHHofBN/?fxhash=oocQ762p2rknSHRscQan6MU2UoThxYjCCbwGUzEiPRg4jFRDoQv&fxiteration=33&fxminter=tz1hs15xkbrWEJVJCRDTmPwUKessfkAX4E1A",
-            "displayUri": "ipfs://QmcVHwvqzNA4ZWLohbA6Mu4nsbkKeVAUW6dngM4e4zX8uJ",
-            "thumbnailUri": "ipfs://QmdLNdYG51WoUDAv68MqMiQGuLXCh5fdGb59GyZ3ZN7oE1",
-            "authenticityHash": "4409e5e13b4b53e1a409e64924c57d5908047147137b807bf5ab0eab796e36e7",
-            "attributes": true,
-            "decimals": 0,
-            "symbol": "GENTK",
-            "version": "0.2"
-          },
-          "duplicate": false,
-          "activeListing": {
-            "id": 982302,
-            "version": 1,
-            "price": 194000000,
-            "__typename": "Listing"
-          },
-          "owner": {
-            "id": "tz1RT94jREafiHzgtmkKbiVnDynriUYEi62D",
-            "name": "Arthur Black",
-            "flag": "NONE",
-            "avatarUri": "ipfs://QmZmAAVh2AjQkn3Fm5sEkiW5yxCfaKpb9bxc6K3VA856T3",
-            "__typename": "User"
-          },
-          "issuer": {
-            "flag": "NONE",
-            "name": "Self, Id",
-            "author": {
-              "id": "tz1WjtJq3yUBHsozQvzx2b4DrLEgt9Sk2v8H",
-              "name": "Ty Vek",
-              "type": "REGULAR",
-              "avatarUri": "ipfs://QmZwtTzSqkG1QapBGW2DpbkmJsT9n875igcHAHJ5i4iEmt",
-              "flag": "VERIFIED",
-              "collaborators": null,
-              "__typename": "User"
-            },
-            "__typename": "GenerativeToken"
-          },
-          "__typename": "Objkt"
-        },
-        "__typename": "Listing"
-      },
-      {
-        "id": 982301,
-        "version": 1,
-        "price": 600000,
-        "objkt": {
-          "id": "FX1-64091",
-          "version": 2,
-          "name": "Lost in the waves #113",
-          "slug": "lost-in-the-waves-113",
-          "metadata": {
-            "name": "Lost in the waves #113",
-            "iterationHash": "onupeYpfk6Mxwazv4uUUZqDwH3amp1PhP92Nwrik4UdzvZCjhZy",
-            "description": "This collection is a gift for FXHash collectors\nIt is designed in 5 layers\nLayer 1 background colors\nLayer 2 lines\nLayer 3 waves\nLayer 4, second lines\nThe last layer of noise\n\nI hope you like it\nAnd instead of listing, keep it in your wallet!",
-            "tags": [
-              "nft",
-              "art",
-              "colorful",
-              "paint",
-              "modern",
-              "postmodern",
-              "geometry",
-              "red",
-              "blue"
-            ],
-            "generatorUri": "ipfs://QmP3NDKPMCgsHB8hEWueN85qCdKaFu8D9ZZBZNb7VFDBop",
-            "artifactUri": "ipfs://QmP3NDKPMCgsHB8hEWueN85qCdKaFu8D9ZZBZNb7VFDBop/?fxhash=onupeYpfk6Mxwazv4uUUZqDwH3amp1PhP92Nwrik4UdzvZCjhZy&fxiteration=113&fxminter=tz1QPQFwE98bF5KcYW9RFpDcq8g5i82XYtMU",
-            "displayUri": "ipfs://QmPec91zV1cJBtMDRVtXZPj4zfGoG4EEnzqiy8GvR6HEA8",
-            "thumbnailUri": "ipfs://QmXxf15CMKomtiSRXscMAGnpYJvFVzXd4cu7YSdwJdp3nZ",
-            "authenticityHash": "2824e2ad2dd97e11a5be6c1370d04d024ee7980d7250ade1e6228de33a9d0640",
-            "attributes": [
-              {
-                "name": "back",
-                "value": "back8"
-              },
-              {
-                "name": "linea",
-                "value": "linea7"
-              },
-              {
-                "name": "wave",
-                "value": "wave17"
-              },
-              {
-                "name": "lineb",
-                "value": "lineb2"
-              },
-              {
-                "name": "noise",
-                "value": "noise1"
-              }
-            ],
-            "decimals": 0,
-            "symbol": "GENTK",
-            "version": "0.2"
-          },
-          "duplicate": false,
-          "activeListing": {
-            "id": 982301,
-            "version": 1,
-            "price": 600000,
-            "__typename": "Listing"
-          },
-          "owner": {
-            "id": "tz1QPQFwE98bF5KcYW9RFpDcq8g5i82XYtMU",
-            "name": null,
-            "flag": "NONE",
-            "avatarUri": null,
-            "__typename": "User"
-          },
-          "issuer": {
-            "flag": "NONE",
-            "name": "Lost in the waves",
-            "author": {
-              "id": "tz1M6NSnkhCzhCxAvMJj8CmiBptZbRqJCNpe",
-              "name": "The darkness",
-              "type": "REGULAR",
-              "avatarUri": "ipfs://QmXCJWVMscWmH4t6NpqTCQy62oVn9BR6MXdEXSvZ2pBJgf",
+              "avatarUri": "ipfs://QmZ77A8tKbqSfuX8NRa7uDTA5jb7Et3aPeTNvQLebxE7iC",
               "flag": "NONE",
               "collaborators": null,
               "__typename": "User"
@@ -221,24 +121,217 @@
         "__typename": "Listing"
       },
       {
-        "id": 982300,
+        "id": 982395,
         "version": 1,
-        "price": 600000000,
+        "price": 35000000,
         "objkt": {
-          "id": "FX1-64164",
-          "version": 2,
-          "name": "Self, Superego #41",
-          "slug": "self-superego-41",
+          "id": "FX0-264601",
+          "version": 0,
+          "name": "Composition #3 Patchwork Quilt #45",
+          "slug": "composition-3-patchwork-quilt-45",
           "metadata": {
-            "name": "Self, Superego #41",
-            "iterationHash": "oo8GFKMgi7PJAaVtxPU11bhzF9pvVN28nGXzcCVcG5HTXtJTYpE",
+            "name": "Composition #3 Patchwork Quilt #45",
+            "iterationHash": "opRnpgiBUTjth18KcbGhjLBGuTtUGcNEfUHNsidgUkYiAkXyvT2",
+            "description": "Abstract, non-square(!) composition based on textural strokes and noise. There are a lot of possible combinations with all of the features! 50% chance of two different palette sets. 50% chance to have a brush textured background, and a 50% chance of it being horizontal or vertical. The quadtree rectangles are based on poisson disc sampling based on a simplex noise field. 90% of the compositions will be smaller boxes, and 10% will be large. For each box, there is a 10% chance that it will be oriented opposite of the rest.\n\nPress ’s’ to save a screenshot.",
+            "tags": [
+              "noise",
+              "texture",
+              "painting",
+              "colorful",
+              "minimal"
+            ],
+            "generatorUri": "ipfs://QmfZ2BZUV4gXuNs8XEU4SVS8f3kcfYW5Hrvszy2mdAkRV6",
+            "artifactUri": "ipfs://QmfZ2BZUV4gXuNs8XEU4SVS8f3kcfYW5Hrvszy2mdAkRV6?fxhash=opRnpgiBUTjth18KcbGhjLBGuTtUGcNEfUHNsidgUkYiAkXyvT2",
+            "displayUri": "ipfs://Qmc3hrAiXqfpksn1sJJEUe3wMxAsR5Wx1U4Rx1hXWb1vkB",
+            "thumbnailUri": "ipfs://QmRgCs1HBhdiJedwsHdf7s4Pt2H4nmzAvxciNeGp3PDjwM",
+            "authenticityHash": "ba0f4c72b3a860b13dd69afffa0205b12a53346ddb43a37d8a7b4be1aac62117",
+            "attributes": [
+              {
+                "name": "paletteSet",
+                "value": 1
+              },
+              {
+                "name": "numBGStrokes",
+                "value": 12
+              },
+              {
+                "name": "lineWeight",
+                "value": 164
+              },
+              {
+                "name": "maxStokeWeight",
+                "value": 3
+              },
+              {
+                "name": "bgStrokes",
+                "value": true
+              },
+              {
+                "name": "bgSmoothing",
+                "value": 1
+              },
+              {
+                "name": "bgVertical",
+                "value": true
+              },
+              {
+                "name": "insetVertical",
+                "value": false
+              },
+              {
+                "name": "insetFrequency",
+                "value": 0.009213396311271937
+              },
+              {
+                "name": "insetPointsMax",
+                "value": 300
+              },
+              {
+                "name": "insetQTreeCapacity",
+                "value": 8
+              },
+              {
+                "name": "insetSteps",
+                "value": 7
+              },
+              {
+                "name": "insetSmoothing",
+                "value": 1
+              },
+              {
+                "name": "insetStrokeWeightVary",
+                "value": false
+              },
+              {
+                "name": "insetLinesNum",
+                "value": 26
+              },
+              {
+                "name": "insetLinesJitter",
+                "value": 0.1620092039462179
+              },
+              {
+                "name": "insetStrokeJitter",
+                "value": 0.9749090859666467
+              }
+            ],
+            "decimals": 0,
+            "symbol": "GENTK",
+            "version": "0.2"
+          },
+          "duplicate": false,
+          "activeListing": {
+            "id": 982395,
+            "version": 1,
+            "price": 35000000,
+            "__typename": "Listing"
+          },
+          "owner": {
+            "id": "tz1ZjEwXyHtcnD48WfYy9YRpkkc7dSP3Nh4W",
+            "name": null,
+            "flag": "NONE",
+            "avatarUri": null,
+            "__typename": "User"
+          },
+          "issuer": {
+            "flag": "NONE",
+            "name": "Composition #3 Patchwork Quilt",
+            "author": {
+              "id": "tz1hf7a8ueUyHvjAZ4VhxUGAnGfhvTmnffyw",
+              "name": "nudoru",
+              "type": "REGULAR",
+              "avatarUri": "ipfs://QmbjS3S4kwnmkvfK9VKJnwpZQxH8uV4a4gaG8hXYcBGeHT",
+              "flag": "VERIFIED",
+              "collaborators": null,
+              "__typename": "User"
+            },
+            "__typename": "GenerativeToken"
+          },
+          "__typename": "Objkt"
+        },
+        "__typename": "Listing"
+      },
+      {
+        "id": 982394,
+        "version": 1,
+        "price": 2000000,
+        "objkt": {
+          "id": "FX1-15668",
+          "version": 2,
+          "name": "Factory sketches #20",
+          "slug": "factory-sketches-20",
+          "metadata": {
+            "name": "Factory sketches #20",
+            "iterationHash": "onvCLqRcMqM1mqktcXxEq2Ub7isYsY9c3cyRJQn5ssLuhsuHYsS",
+            "description": "This landscape portrays an urban scene with factories in the background, in monochromatic tones that add a sense of nostalgia and melancholy to the scene, evoking the idea of an abandoned or declining city. But not everything is sadness in this landscape, some birds fly over the scenery, bringing a touch of lightness and freedom to the scene.\nDeveloped in p5.js.",
+            "tags": [
+              "landscape",
+              "generativeart",
+              "factory",
+              "monochromatic",
+              "urban"
+            ],
+            "generatorUri": "ipfs://QmTjnsPzgtJB5U6rWmPaS5WBn1yEtLGBkPNs5UBgqaapUH",
+            "artifactUri": "ipfs://QmTjnsPzgtJB5U6rWmPaS5WBn1yEtLGBkPNs5UBgqaapUH/?fxhash=onvCLqRcMqM1mqktcXxEq2Ub7isYsY9c3cyRJQn5ssLuhsuHYsS",
+            "displayUri": "ipfs://QmPgFMbo2o7acD3soApLbWstBeP2kxtpHVEEJQiu3mHJcH",
+            "thumbnailUri": "ipfs://QmSUAt7FqqGFY95LG7e8zNmWRvHyaeU8g5LuAooszt9poH",
+            "authenticityHash": "470a70e0ae22dcd575fa7b84fb7b23e1ffc8f07467dd5b49b48461dc78f36d92",
+            "attributes": [],
+            "decimals": 0,
+            "symbol": "GENTK",
+            "version": "0.2"
+          },
+          "duplicate": false,
+          "activeListing": {
+            "id": 982394,
+            "version": 1,
+            "price": 2000000,
+            "__typename": "Listing"
+          },
+          "owner": {
+            "id": "tz1eMrFPD7twjRUCMRnTwQmAZinbSWiLnCRL",
+            "name": "MEAMES.TEZ",
+            "flag": "NONE",
+            "avatarUri": "ipfs://QmT3teaxyLdm2o8zn6RvgC4LPrZjCZy9rMUgvBAi6ydLTV",
+            "__typename": "User"
+          },
+          "issuer": {
+            "flag": "NONE",
+            "name": "Factory sketches",
+            "author": {
+              "id": "tz1eqcruUAez6PASNd9Z5oHT2rqoTPqWGFsU",
+              "name": "Stonn",
+              "type": "REGULAR",
+              "avatarUri": "ipfs://QmdWSzimeyN5VWzuSVzRQpMvYadcwH2uptZ75WaNw88m6j",
+              "flag": "NONE",
+              "collaborators": null,
+              "__typename": "User"
+            },
+            "__typename": "GenerativeToken"
+          },
+          "__typename": "Objkt"
+        },
+        "__typename": "Listing"
+      },
+      {
+        "id": 982393,
+        "version": 1,
+        "price": 125000000,
+        "objkt": {
+          "id": "FX1-64316",
+          "version": 2,
+          "name": "Self, Superego #165",
+          "slug": "self-superego-165",
+          "metadata": {
+            "name": "Self, Superego #165",
+            "iterationHash": "opPSUSngD1XVwmoMzFPYGcwubraBZXBw1JhMDpw7qLjJK4Bdn82",
             "description": "The second installment of the Self trilogy.\n\nSuperego is defined as: the one of the three divisions of the psyche in psychoanalytic theory that is only partly conscious, represents internalization of parental conscience and the rules of society, and functions to reward and punish through a system of moral attitudes, conscience, and a sense of guilt.\n\nPlease see attached fx(text) article or go to https://ty-vek.art/self-trilogy for more on concept/mechanics/etc. It’s a bit of long read, but worth it.\n\n—————————\n\nAll projects are written in vanilla Javascript, composed as SVG and then rendered to a 2d canvas.\n\nThere might be slight differences in rendering from browser to browser. This is expected as they might translate the SVG slightly differently. Let's call Chromium renderings canonical. They also render faster there and we love that.\n\nPress \"S\" to save a PNG.\nPress \"V\" to save a SVG. (Chromium browsers render these pretty well.)\n\nBy default, these will render at 2400 x 3200 pixels. This is at density 1.\n\nTo render at a larger resolution you can append “&d=2” to the end of the url. This will double the resolution. You can also use 3 or 4 or whatever your browser can handle. Safari tends to have problems with this, so stick with Chromium based browsers (Chrome, Edge, Brave, etc.)\n\nIf you want to render as a square image, so it is optimized for ummm.. your pfp or something, you can append “&sq=t” to the url.\n\nIf you want to get rid of grain, just append “&g=n”\n\n—————————\n\nhttps://ty-vek.art/self-trilogy\nhttps://twitter.com/ty__vek\nhttps://www.fxhash.xyz/u/Ty%20Vek/articles\n",
             "tags": [],
             "generatorUri": "ipfs://QmXSP3QYxpJ6xwmpFjzRJzZ7Y7Z6TZa7qLXBSrDjNuQfT9",
-            "artifactUri": "ipfs://QmXSP3QYxpJ6xwmpFjzRJzZ7Y7Z6TZa7qLXBSrDjNuQfT9/?fxhash=oo8GFKMgi7PJAaVtxPU11bhzF9pvVN28nGXzcCVcG5HTXtJTYpE&fxiteration=41&fxminter=tz1TL5mbC8x3T2nQLJrMTngrKmPn6dGmcPe3",
-            "displayUri": "ipfs://Qmd5UCaiM475binfgPQUY2L7RebUWwqowAh2a3wkkEWG47",
-            "thumbnailUri": "ipfs://QmZYnno98D4qzExoBtm2vZZFeihJBc4K16icA7yKvQCFqb",
-            "authenticityHash": "aa525a85e230ae36b953c443bc97a39c7338a464765cdd52b0a6e61f9e0bd872",
+            "artifactUri": "ipfs://QmXSP3QYxpJ6xwmpFjzRJzZ7Y7Z6TZa7qLXBSrDjNuQfT9/?fxhash=opPSUSngD1XVwmoMzFPYGcwubraBZXBw1JhMDpw7qLjJK4Bdn82&fxiteration=165&fxminter=tz1UFG6kaH7pSXMVFgsktVz5J4Zp96A9vdAz",
+            "displayUri": "ipfs://QmaR4yrrAvW9y5QsQQqHSVeMfniQ281NfhtPPbKHWKsWgT",
+            "thumbnailUri": "ipfs://QmVwznCfi9333y1d9gDwkJbfBEUPxQGzc8jqP8bKS8x2Ba",
+            "authenticityHash": "fc089ad41903a5691365cc82e3fa9fd49eada4b876088066eac01de059bdad53",
             "attributes": true,
             "decimals": 0,
             "symbol": "GENTK",
@@ -246,14 +339,14 @@
           },
           "duplicate": false,
           "activeListing": {
-            "id": 982300,
+            "id": 982393,
             "version": 1,
-            "price": 600000000,
+            "price": 125000000,
             "__typename": "Listing"
           },
           "owner": {
-            "id": "tz1TL5mbC8x3T2nQLJrMTngrKmPn6dGmcPe3",
-            "name": "chessboss2000",
+            "id": "tz1UFG6kaH7pSXMVFgsktVz5J4Zp96A9vdAz",
+            "name": "Buzzzz",
             "flag": "NONE",
             "avatarUri": null,
             "__typename": "User"
@@ -277,30 +370,286 @@
         "__typename": "Listing"
       },
       {
-        "id": 982299,
+        "id": 982392,
         "version": 1,
-        "price": 9000000,
+        "price": 14000000,
         "objkt": {
-          "id": "FX0-956453",
-          "version": 1,
-          "name": "SWTBD - London Prototype #52",
-          "slug": "swtbd-london-prototype-52",
+          "id": "FX0-265119",
+          "version": 0,
+          "name": "Composition #3 Patchwork Quilt #205",
+          "slug": "composition-3-patchwork-quilt-205",
           "metadata": {
-            "name": "SWTBD - London Prototype #52",
-            "iterationHash": "ooQF3bhiL1RUGjLfXELRFQUq7zDYzqaEeXoeGq4rkbVKh8HBoyx",
-            "description": "Several ways to break down - London Prototype is part of the fxhash interactive minting experience at Proof of People, London 2022\n\nA generative geometry systems exploring broken things by Frederik Vanhoutte, @wblut\n\nmouse:\n\nclick: toggle active mode. In active mode, a new iteration with the same starting geometry and identical features is generated every 10s.\n\nkeyboard:\n\n'a' or 'A' : add a slice or point, depending on mode\n's' or 'S' : add a slice, regardless of mode\n'c' or 'C' : cut mesh along view\n'e': decrease explosion factor\n'E': increase explosion factor\n'r' or 'R': create a new iteration with the same starting geometry and identical features\n'v' or 'V': switch view\n   '1': Render view\n   '2': Point/ plane view\n   '3': Slice view\n   '4': Construction view\n   '5': Mesh view\n\n'+' and '-': zoom in and out\narrow keys: rotate around and translate along the vertical axis",
+            "name": "Composition #3 Patchwork Quilt #205",
+            "iterationHash": "oomLfRV7pK4oPZNiHKinrMawPyusnM8Gm8mEhjUXoFvBsKnGg9v",
+            "description": "Abstract, non-square(!) composition based on textural strokes and noise. There are a lot of possible combinations with all of the features! 50% chance of two different palette sets. 50% chance to have a brush textured background, and a 50% chance of it being horizontal or vertical. The quadtree rectangles are based on poisson disc sampling based on a simplex noise field. 90% of the compositions will be smaller boxes, and 10% will be large. For each box, there is a 10% chance that it will be oriented opposite of the rest.\n\nPress ’s’ to save a screenshot.",
             "tags": [
-              "Generative geometry",
-              "@wblut",
-              "POP2022",
-              "Proof of People",
-              "London 2022"
+              "noise",
+              "texture",
+              "painting",
+              "colorful",
+              "minimal"
             ],
-            "generatorUri": "ipfs://QmefPcXtaDrU7ZpqaT5yZ2CXZKALJDDWu7m2rzXhiAoDGV",
-            "artifactUri": "ipfs://QmefPcXtaDrU7ZpqaT5yZ2CXZKALJDDWu7m2rzXhiAoDGV?fxhash=ooQF3bhiL1RUGjLfXELRFQUq7zDYzqaEeXoeGq4rkbVKh8HBoyx",
-            "displayUri": "ipfs://QmPwtCtJdNJHUQTjnYvTx2k5wrbUDPxQmDHvb1Wg16oq2c",
-            "thumbnailUri": "ipfs://QmUvh4s8tbqLddc17iTWRcVhaARtsTADPWj4SagtbAoA3J",
-            "authenticityHash": "c23f7250c678ce7da431186005ce1d9ccbea1b797d3d904eb8e3d5bd1be3d285",
+            "generatorUri": "ipfs://QmfZ2BZUV4gXuNs8XEU4SVS8f3kcfYW5Hrvszy2mdAkRV6",
+            "artifactUri": "ipfs://QmfZ2BZUV4gXuNs8XEU4SVS8f3kcfYW5Hrvszy2mdAkRV6?fxhash=oomLfRV7pK4oPZNiHKinrMawPyusnM8Gm8mEhjUXoFvBsKnGg9v",
+            "displayUri": "ipfs://QmPEQHPc76gC46viicKHaJVq5dpC1dViXJ2LHAZx3uQv5n",
+            "thumbnailUri": "ipfs://QmdqcrUvnJYwfHoVYBgPZvqj2GuuD6iNATDq6XJwfpEw8A",
+            "authenticityHash": "e99807f361dda0019d214ce67c5fee6b07da81da8ad03dd3459007eabf0cedc7",
+            "attributes": [
+              {
+                "name": "paletteSet",
+                "value": 0
+              },
+              {
+                "name": "numBGStrokes",
+                "value": 12
+              },
+              {
+                "name": "lineWeight",
+                "value": 158
+              },
+              {
+                "name": "maxStokeWeight",
+                "value": 4
+              },
+              {
+                "name": "bgStrokes",
+                "value": true
+              },
+              {
+                "name": "bgSmoothing",
+                "value": 1
+              },
+              {
+                "name": "bgVertical",
+                "value": true
+              },
+              {
+                "name": "insetVertical",
+                "value": true
+              },
+              {
+                "name": "insetFrequency",
+                "value": 0.008173776176990942
+              },
+              {
+                "name": "insetPointsMax",
+                "value": 30
+              },
+              {
+                "name": "insetQTreeCapacity",
+                "value": 6
+              },
+              {
+                "name": "insetSteps",
+                "value": 6
+              },
+              {
+                "name": "insetSmoothing",
+                "value": 1
+              },
+              {
+                "name": "insetStrokeWeightVary",
+                "value": false
+              },
+              {
+                "name": "insetLinesNum",
+                "value": 33
+              },
+              {
+                "name": "insetLinesJitter",
+                "value": 0.24086245358921587
+              },
+              {
+                "name": "insetStrokeJitter",
+                "value": 0.22691600993275643
+              }
+            ],
+            "decimals": 0,
+            "symbol": "GENTK",
+            "version": "0.2"
+          },
+          "duplicate": false,
+          "activeListing": {
+            "id": 982392,
+            "version": 1,
+            "price": 14000000,
+            "__typename": "Listing"
+          },
+          "owner": {
+            "id": "tz1ZjEwXyHtcnD48WfYy9YRpkkc7dSP3Nh4W",
+            "name": null,
+            "flag": "NONE",
+            "avatarUri": null,
+            "__typename": "User"
+          },
+          "issuer": {
+            "flag": "NONE",
+            "name": "Composition #3 Patchwork Quilt",
+            "author": {
+              "id": "tz1hf7a8ueUyHvjAZ4VhxUGAnGfhvTmnffyw",
+              "name": "nudoru",
+              "type": "REGULAR",
+              "avatarUri": "ipfs://QmbjS3S4kwnmkvfK9VKJnwpZQxH8uV4a4gaG8hXYcBGeHT",
+              "flag": "VERIFIED",
+              "collaborators": null,
+              "__typename": "User"
+            },
+            "__typename": "GenerativeToken"
+          },
+          "__typename": "Objkt"
+        },
+        "__typename": "Listing"
+      },
+      {
+        "id": 982391,
+        "version": 1,
+        "price": 8400000,
+        "objkt": {
+          "id": "FX0-265061",
+          "version": 0,
+          "name": "Composition #3 Patchwork Quilt #184",
+          "slug": "composition-3-patchwork-quilt-184",
+          "metadata": {
+            "name": "Composition #3 Patchwork Quilt #184",
+            "iterationHash": "opAnzjWyexwGKW2ivdVmMgJ36p699NvUwuR8Uma63KCbTkVvnQH",
+            "description": "Abstract, non-square(!) composition based on textural strokes and noise. There are a lot of possible combinations with all of the features! 50% chance of two different palette sets. 50% chance to have a brush textured background, and a 50% chance of it being horizontal or vertical. The quadtree rectangles are based on poisson disc sampling based on a simplex noise field. 90% of the compositions will be smaller boxes, and 10% will be large. For each box, there is a 10% chance that it will be oriented opposite of the rest.\n\nPress ’s’ to save a screenshot.",
+            "tags": [
+              "noise",
+              "texture",
+              "painting",
+              "colorful",
+              "minimal"
+            ],
+            "generatorUri": "ipfs://QmfZ2BZUV4gXuNs8XEU4SVS8f3kcfYW5Hrvszy2mdAkRV6",
+            "artifactUri": "ipfs://QmfZ2BZUV4gXuNs8XEU4SVS8f3kcfYW5Hrvszy2mdAkRV6?fxhash=opAnzjWyexwGKW2ivdVmMgJ36p699NvUwuR8Uma63KCbTkVvnQH",
+            "displayUri": "ipfs://QmVc1u2cx8Ja6sbGQHtRjTY1Fh34RvvshwgLXr5BzArVsb",
+            "thumbnailUri": "ipfs://QmUQg1odQmCH8KpkWevcLtawkLasAjXL236uKEdUj9Xv96",
+            "authenticityHash": "83553c5378098a3329dd931139c06aff2ca4f86343fc967594cf2615bd0c33d2",
+            "attributes": [
+              {
+                "name": "paletteSet",
+                "value": 0
+              },
+              {
+                "name": "numBGStrokes",
+                "value": 12
+              },
+              {
+                "name": "lineWeight",
+                "value": 143
+              },
+              {
+                "name": "maxStokeWeight",
+                "value": 3
+              },
+              {
+                "name": "bgStrokes",
+                "value": false
+              },
+              {
+                "name": "bgSmoothing",
+                "value": 1
+              },
+              {
+                "name": "bgVertical",
+                "value": false
+              },
+              {
+                "name": "insetVertical",
+                "value": true
+              },
+              {
+                "name": "insetFrequency",
+                "value": 0.004002188097219915
+              },
+              {
+                "name": "insetPointsMax",
+                "value": 30
+              },
+              {
+                "name": "insetQTreeCapacity",
+                "value": 7
+              },
+              {
+                "name": "insetSteps",
+                "value": 5
+              },
+              {
+                "name": "insetSmoothing",
+                "value": 1
+              },
+              {
+                "name": "insetStrokeWeightVary",
+                "value": false
+              },
+              {
+                "name": "insetLinesNum",
+                "value": 29
+              },
+              {
+                "name": "insetLinesJitter",
+                "value": 0.16449165609665214
+              },
+              {
+                "name": "insetStrokeJitter",
+                "value": 0.27903366815298797
+              }
+            ],
+            "decimals": 0,
+            "symbol": "GENTK",
+            "version": "0.2"
+          },
+          "duplicate": false,
+          "activeListing": {
+            "id": 982391,
+            "version": 1,
+            "price": 8400000,
+            "__typename": "Listing"
+          },
+          "owner": {
+            "id": "tz1ZjEwXyHtcnD48WfYy9YRpkkc7dSP3Nh4W",
+            "name": null,
+            "flag": "NONE",
+            "avatarUri": null,
+            "__typename": "User"
+          },
+          "issuer": {
+            "flag": "NONE",
+            "name": "Composition #3 Patchwork Quilt",
+            "author": {
+              "id": "tz1hf7a8ueUyHvjAZ4VhxUGAnGfhvTmnffyw",
+              "name": "nudoru",
+              "type": "REGULAR",
+              "avatarUri": "ipfs://QmbjS3S4kwnmkvfK9VKJnwpZQxH8uV4a4gaG8hXYcBGeHT",
+              "flag": "VERIFIED",
+              "collaborators": null,
+              "__typename": "User"
+            },
+            "__typename": "GenerativeToken"
+          },
+          "__typename": "Objkt"
+        },
+        "__typename": "Listing"
+      },
+      {
+        "id": 982390,
+        "version": 1,
+        "price": 110000000,
+        "objkt": {
+          "id": "FX1-62956",
+          "version": 2,
+          "name": "Self, Id #29",
+          "slug": "self-id-29",
+          "metadata": {
+            "name": "Self, Id #29",
+            "iterationHash": "opGJVvghNLpq1BbnGjbsjVXDCN2xGpEUHmpdzxtFmZzp9Aunhzd",
+            "description": "The first installment of the Self trilogy.\n\nId is defined as: the one of the three divisions of the psyche in psychoanalytic theory that is completely unconscious and is the source of psychic energy derived from instinctual needs and drives.\n\nPlease see attached fx(text) article or go to https://ty-vek.art/self-trilogy for more on concept/mechanics/etc. It’s a bit of long read, but worth it.\n\n—————————\n\nAll projects are written in vanilla Javascript, composed as SVG and then rendered to a 2d canvas.\n\nThere might be slight differences in rendering from browser to browser. This is expected as they might translate the SVG slightly differently. Let's call Chromium renderings canonical. They also render faster there and we love that.\n\nPress \"S\" to save a PNG.\nPress \"V\" to save a SVG. (Chromium browsers render these pretty well.)\n\nBy default, these will render at 2400 x 3200 pixels. This is at density 1.\n\nTo render at a larger resolution you can append “&d=2” to the end of the url. This will double the resolution. You can also use 3 or 4 or whatever your browser can handle. Safari tends to have problems with this, so stick with Chromium based browsers (Chrome, Edge, Brave, etc.)\n\nIf you want to render as a square image, so it is optimized for ummm.. your pfp or something, you can append “&sq=t” to the url.\n\nIf you want to get rid of grain, just append “&g=n”\n\n—————————\n\nhttps://ty-vek.art/self-trilogy\nhttps://twitter.com/ty__vek\nhttps://www.fxhash.xyz/u/Ty%20Vek/articles\n",
+            "tags": [],
+            "generatorUri": "ipfs://QmRu3mwkSNaESx9ULX9WvSmS4hjTLKm4E1Wk6xKLHHofBN",
+            "artifactUri": "ipfs://QmRu3mwkSNaESx9ULX9WvSmS4hjTLKm4E1Wk6xKLHHofBN/?fxhash=opGJVvghNLpq1BbnGjbsjVXDCN2xGpEUHmpdzxtFmZzp9Aunhzd&fxiteration=29&fxminter=tz1UFG6kaH7pSXMVFgsktVz5J4Zp96A9vdAz",
+            "displayUri": "ipfs://Qmdx5vmEkoX44P1RWhTCBZupD2cpRpZF2it39114A24kkQ",
+            "thumbnailUri": "ipfs://QmXP9P48UF8S1XLSavi7FmU76fmCKYRj9YA3sUgZX298Gb",
+            "authenticityHash": "a060509fdc10a78a41e283f9bd1dc914ae4ec7a29b5b58aa1aaa116560cb64d7",
             "attributes": true,
             "decimals": 0,
             "symbol": "GENTK",
@@ -308,26 +657,26 @@
           },
           "duplicate": false,
           "activeListing": {
-            "id": 982299,
+            "id": 982390,
             "version": 1,
-            "price": 9000000,
+            "price": 110000000,
             "__typename": "Listing"
           },
           "owner": {
-            "id": "tz1cNakLoctaqaCtBZSQGZs5RgAciYqB7cNf",
-            "name": "richer.tez",
+            "id": "tz1UFG6kaH7pSXMVFgsktVz5J4Zp96A9vdAz",
+            "name": "Buzzzz",
             "flag": "NONE",
-            "avatarUri": "ipfs://Qmb6Feje4DYL9DS4SEUM66YQXRu2zPvm56gVxUk7MCnkGC",
+            "avatarUri": null,
             "__typename": "User"
           },
           "issuer": {
             "flag": "NONE",
-            "name": "SWTBD - London Prototype",
+            "name": "Self, Id",
             "author": {
-              "id": "tz1TSWEDs9wcBx2KiRzVzyzECsNpRiZaLJ1D",
-              "name": "wblut",
+              "id": "tz1WjtJq3yUBHsozQvzx2b4DrLEgt9Sk2v8H",
+              "name": "Ty Vek",
               "type": "REGULAR",
-              "avatarUri": "ipfs://QmYGnvJBF3LJVMvNwkJL23KhjUWZ9gg2DGs8uRxJ7Lycjn",
+              "avatarUri": "ipfs://QmZwtTzSqkG1QapBGW2DpbkmJsT9n875igcHAHJ5i4iEmt",
               "flag": "VERIFIED",
               "collaborators": null,
               "__typename": "User"
@@ -339,577 +688,34 @@
         "__typename": "Listing"
       },
       {
-        "id": 982298,
+        "id": 982389,
         "version": 1,
-        "price": 500000,
+        "price": 20000000,
         "objkt": {
-          "id": "FX1-64079",
-          "version": 2,
-          "name": "Lost in the waves #104",
-          "slug": "lost-in-the-waves-104",
-          "metadata": {
-            "name": "Lost in the waves #104",
-            "iterationHash": "opTYSVXvPscaybFhTqUfftKn3u5PmYLWaUvWqS79n4bQrinBK2B",
-            "description": "This collection is a gift for FXHash collectors\nIt is designed in 5 layers\nLayer 1 background colors\nLayer 2 lines\nLayer 3 waves\nLayer 4, second lines\nThe last layer of noise\n\nI hope you like it\nAnd instead of listing, keep it in your wallet!",
-            "tags": [
-              "nft",
-              "art",
-              "colorful",
-              "paint",
-              "modern",
-              "postmodern",
-              "geometry",
-              "red",
-              "blue"
-            ],
-            "generatorUri": "ipfs://QmP3NDKPMCgsHB8hEWueN85qCdKaFu8D9ZZBZNb7VFDBop",
-            "artifactUri": "ipfs://QmP3NDKPMCgsHB8hEWueN85qCdKaFu8D9ZZBZNb7VFDBop/?fxhash=opTYSVXvPscaybFhTqUfftKn3u5PmYLWaUvWqS79n4bQrinBK2B&fxiteration=104&fxminter=tz1QPQFwE98bF5KcYW9RFpDcq8g5i82XYtMU",
-            "displayUri": "ipfs://QmYRNXq8DC71QP8JGf1K5ptSgU6iHuo1QBhDBzsFqLwn4g",
-            "thumbnailUri": "ipfs://QmcMg8Jp9SUmhNdG8S5YgtynJ2PTbjMEFXfuvowP62nx1d",
-            "authenticityHash": "b71a9bb29e275a8a7589f7db20d86f88fec4783d8ee021bb0f50395e815c1377",
-            "attributes": [
-              {
-                "name": "back",
-                "value": "back8"
-              },
-              {
-                "name": "linea",
-                "value": "linea3"
-              },
-              {
-                "name": "wave",
-                "value": "wave20"
-              },
-              {
-                "name": "lineb",
-                "value": "lineb1"
-              },
-              {
-                "name": "noise",
-                "value": "noise1"
-              }
-            ],
-            "decimals": 0,
-            "symbol": "GENTK",
-            "version": "0.2"
-          },
-          "duplicate": false,
-          "activeListing": {
-            "id": 982298,
-            "version": 1,
-            "price": 500000,
-            "__typename": "Listing"
-          },
-          "owner": {
-            "id": "tz1QPQFwE98bF5KcYW9RFpDcq8g5i82XYtMU",
-            "name": null,
-            "flag": "NONE",
-            "avatarUri": null,
-            "__typename": "User"
-          },
-          "issuer": {
-            "flag": "NONE",
-            "name": "Lost in the waves",
-            "author": {
-              "id": "tz1M6NSnkhCzhCxAvMJj8CmiBptZbRqJCNpe",
-              "name": "The darkness",
-              "type": "REGULAR",
-              "avatarUri": "ipfs://QmXCJWVMscWmH4t6NpqTCQy62oVn9BR6MXdEXSvZ2pBJgf",
-              "flag": "NONE",
-              "collaborators": null,
-              "__typename": "User"
-            },
-            "__typename": "GenerativeToken"
-          },
-          "__typename": "Objkt"
-        },
-        "__typename": "Listing"
-      },
-      {
-        "id": 982297,
-        "version": 1,
-        "price": 9000000,
-        "objkt": {
-          "id": "FX0-1050506",
-          "version": 1,
-          "name": "A Clock #152",
-          "slug": "a-clock-152",
-          "metadata": {
-            "name": "A Clock #152",
-            "iterationHash": "onmAXuQeqrbKYekVs4Nuuf7bohYwrfNFhkzUuT945SzKsLniHqm",
-            "description": "This generative token is based on a project I originally coded in late 2014, possibly my first creative project in JavaScript during graduate school at NYU ITP, which has run here since then: https://rossgoodwin.com/clock\n\nThe text in this case is not generated, but rather (legally) snipped from public domain e-books on Project Gutenberg (https://gutenberg.org/), and recontextualized as a real-time clock.\n\nThe editions vary in color palette and font choice, each with unique text for every minute determined by the clock's unique hash. For nearly all word/phrase blocks in the template system, there exist 512 possible excerpts you could receive, and countless possible combinations thereof. Additionally, 16 possible color palettes, 8 possible fonts, and many bezel types will determine your clock's visual appearance.\n\nUnlike my original 2014 iteration, I wrote this clock in Vanilla JS with zero dependencies. (Largely, that's thanks to eight additional years of programming experience.) As a result, it's faster (once loaded) and more responsive as well.",
-            "tags": [
-              "text",
-              "clock",
-              "a clock",
-              "text clock",
-              "Ross Goodwin",
-              "rossgoodwin"
-            ],
-            "generatorUri": "ipfs://QmWQC9V1UtqqzjJXxtqDZxnxo89HYjGYvv8QTF6oAaFgR1",
-            "artifactUri": "ipfs://QmWQC9V1UtqqzjJXxtqDZxnxo89HYjGYvv8QTF6oAaFgR1?fxhash=onmAXuQeqrbKYekVs4Nuuf7bohYwrfNFhkzUuT945SzKsLniHqm",
-            "displayUri": "ipfs://QmSx8LiS8kJMJdPMVvrpDX6updiksotKXeZbLHyA9j65Pn",
-            "thumbnailUri": "ipfs://Qmbn3BGxmLfYKYfcYHTd2khQjQdNkgLgytwVPR6NQBb7SL",
-            "authenticityHash": "7946473a879fb2dc7d718a9d361f92f9ea28533686d4320a5dd967ab8fd5973a",
-            "attributes": [
-              {
-                "name": "Palette",
-                "value": "slate (light) (#F9F9F9,#70798C,#252323)"
-              },
-              {
-                "name": "Font",
-                "value": "Open Sans"
-              },
-              {
-                "name": "Has a bezel",
-                "value": false
-              },
-              {
-                "name": "Has multiple bezels",
-                "value": false
-              },
-              {
-                "name": "Bezel width",
-                "value": "N/A"
-              },
-              {
-                "name": "Bezel radius",
-                "value": "N/A"
-              }
-            ],
-            "decimals": 0,
-            "symbol": "GENTK",
-            "version": "0.2"
-          },
-          "duplicate": false,
-          "activeListing": {
-            "id": 982297,
-            "version": 1,
-            "price": 9000000,
-            "__typename": "Listing"
-          },
-          "owner": {
-            "id": "tz1cNakLoctaqaCtBZSQGZs5RgAciYqB7cNf",
-            "name": "richer.tez",
-            "flag": "NONE",
-            "avatarUri": "ipfs://Qmb6Feje4DYL9DS4SEUM66YQXRu2zPvm56gVxUk7MCnkGC",
-            "__typename": "User"
-          },
-          "issuer": {
-            "flag": "NONE",
-            "name": "A Clock",
-            "author": {
-              "id": "tz2H3d3VxxB24xuHB2GzhDsQNne6yYFidkGS",
-              "name": "Ross Goodwin",
-              "type": "REGULAR",
-              "avatarUri": "ipfs://QmUmUhKkq16WHfjxxUJ7Uvmia7AqZCLwvQK9esqrnsqoyQ",
-              "flag": "VERIFIED",
-              "collaborators": null,
-              "__typename": "User"
-            },
-            "__typename": "GenerativeToken"
-          },
-          "__typename": "Objkt"
-        },
-        "__typename": "Listing"
-      },
-      {
-        "id": 982296,
-        "version": 1,
-        "price": 400000,
-        "objkt": {
-          "id": "FX1-64106",
-          "version": 2,
-          "name": "Lost in the waves #125",
-          "slug": "lost-in-the-waves-125",
-          "metadata": {
-            "name": "Lost in the waves #125",
-            "iterationHash": "oo5dP9LBE8hprRLNeqAYdmwu6k44WcCUCFf5oDz5E1J8Dy8kQDr",
-            "description": "This collection is a gift for FXHash collectors\nIt is designed in 5 layers\nLayer 1 background colors\nLayer 2 lines\nLayer 3 waves\nLayer 4, second lines\nThe last layer of noise\n\nI hope you like it\nAnd instead of listing, keep it in your wallet!",
-            "tags": [
-              "nft",
-              "art",
-              "colorful",
-              "paint",
-              "modern",
-              "postmodern",
-              "geometry",
-              "red",
-              "blue"
-            ],
-            "generatorUri": "ipfs://QmP3NDKPMCgsHB8hEWueN85qCdKaFu8D9ZZBZNb7VFDBop",
-            "artifactUri": "ipfs://QmP3NDKPMCgsHB8hEWueN85qCdKaFu8D9ZZBZNb7VFDBop/?fxhash=oo5dP9LBE8hprRLNeqAYdmwu6k44WcCUCFf5oDz5E1J8Dy8kQDr&fxiteration=125&fxminter=tz1QPQFwE98bF5KcYW9RFpDcq8g5i82XYtMU",
-            "displayUri": "ipfs://Qma9M7rD9xcLfArHBo5w12tNo1yhuVydWFsQgohDpSDBKR",
-            "thumbnailUri": "ipfs://QmUir4gKTrn3cV2qsXG1B6tv9zuGRk8n5evGfP6LtuUKfe",
-            "authenticityHash": "f9127a863de416dbbeffaba0af74fa638ba7a75d902bdbfcffffebb4a2f97958",
-            "attributes": [
-              {
-                "name": "back",
-                "value": "back4"
-              },
-              {
-                "name": "linea",
-                "value": "linea2"
-              },
-              {
-                "name": "wave",
-                "value": "wave11"
-              },
-              {
-                "name": "lineb",
-                "value": "lineb12"
-              },
-              {
-                "name": "noise",
-                "value": "noise1"
-              }
-            ],
-            "decimals": 0,
-            "symbol": "GENTK",
-            "version": "0.2"
-          },
-          "duplicate": false,
-          "activeListing": {
-            "id": 982296,
-            "version": 1,
-            "price": 400000,
-            "__typename": "Listing"
-          },
-          "owner": {
-            "id": "tz1QPQFwE98bF5KcYW9RFpDcq8g5i82XYtMU",
-            "name": null,
-            "flag": "NONE",
-            "avatarUri": null,
-            "__typename": "User"
-          },
-          "issuer": {
-            "flag": "NONE",
-            "name": "Lost in the waves",
-            "author": {
-              "id": "tz1M6NSnkhCzhCxAvMJj8CmiBptZbRqJCNpe",
-              "name": "The darkness",
-              "type": "REGULAR",
-              "avatarUri": "ipfs://QmXCJWVMscWmH4t6NpqTCQy62oVn9BR6MXdEXSvZ2pBJgf",
-              "flag": "NONE",
-              "collaborators": null,
-              "__typename": "User"
-            },
-            "__typename": "GenerativeToken"
-          },
-          "__typename": "Objkt"
-        },
-        "__typename": "Listing"
-      },
-      {
-        "id": 982295,
-        "version": 1,
-        "price": 2000000,
-        "objkt": {
-          "id": "FX1-64047",
-          "version": 2,
-          "name": "Lost in the waves #86",
-          "slug": "lost-in-the-waves-86",
-          "metadata": {
-            "name": "Lost in the waves #86",
-            "iterationHash": "opRwm59r1s1i3qZvf7ZLJ1aqw5CYsiYui16hozohuQAG6ocYzyC",
-            "description": "This collection is a gift for FXHash collectors\nIt is designed in 5 layers\nLayer 1 background colors\nLayer 2 lines\nLayer 3 waves\nLayer 4, second lines\nThe last layer of noise\n\nI hope you like it\nAnd instead of listing, keep it in your wallet!",
-            "tags": [
-              "nft",
-              "art",
-              "colorful",
-              "paint",
-              "modern",
-              "postmodern",
-              "geometry",
-              "red",
-              "blue"
-            ],
-            "generatorUri": "ipfs://QmP3NDKPMCgsHB8hEWueN85qCdKaFu8D9ZZBZNb7VFDBop",
-            "artifactUri": "ipfs://QmP3NDKPMCgsHB8hEWueN85qCdKaFu8D9ZZBZNb7VFDBop/?fxhash=opRwm59r1s1i3qZvf7ZLJ1aqw5CYsiYui16hozohuQAG6ocYzyC&fxiteration=86&fxminter=tz1LJchBBMZNAjhJq5qGHNEyzPceRtFuHAqy",
-            "displayUri": "ipfs://QmdAwsEnAxFhZbYv8b3APgjBf9eD9v43Y13RMhBCenDJyy",
-            "thumbnailUri": "ipfs://QmRwikCCwPNUekmiAPmQiKJ2XUq97a62jkoZH6Qc725cjy",
-            "authenticityHash": "c2041f578c1200165b6044c2890ca98314c9e0e25c6316c27955b6a0ca7d0cff",
-            "attributes": [
-              {
-                "name": "back",
-                "value": "back5"
-              },
-              {
-                "name": "linea",
-                "value": "linea4"
-              },
-              {
-                "name": "wave",
-                "value": "wave11"
-              },
-              {
-                "name": "lineb",
-                "value": "lineb8"
-              },
-              {
-                "name": "noise",
-                "value": "noise1"
-              }
-            ],
-            "decimals": 0,
-            "symbol": "GENTK",
-            "version": "0.2"
-          },
-          "duplicate": false,
-          "activeListing": {
-            "id": 982295,
-            "version": 1,
-            "price": 2000000,
-            "__typename": "Listing"
-          },
-          "owner": {
-            "id": "tz1LJchBBMZNAjhJq5qGHNEyzPceRtFuHAqy",
-            "name": null,
-            "flag": "NONE",
-            "avatarUri": null,
-            "__typename": "User"
-          },
-          "issuer": {
-            "flag": "NONE",
-            "name": "Lost in the waves",
-            "author": {
-              "id": "tz1M6NSnkhCzhCxAvMJj8CmiBptZbRqJCNpe",
-              "name": "The darkness",
-              "type": "REGULAR",
-              "avatarUri": "ipfs://QmXCJWVMscWmH4t6NpqTCQy62oVn9BR6MXdEXSvZ2pBJgf",
-              "flag": "NONE",
-              "collaborators": null,
-              "__typename": "User"
-            },
-            "__typename": "GenerativeToken"
-          },
-          "__typename": "Objkt"
-        },
-        "__typename": "Listing"
-      },
-      {
-        "id": 982294,
-        "version": 1,
-        "price": 400000,
-        "objkt": {
-          "id": "FX1-64095",
-          "version": 2,
-          "name": "Lost in the waves #117",
-          "slug": "lost-in-the-waves-117",
-          "metadata": {
-            "name": "Lost in the waves #117",
-            "iterationHash": "ooJULS9iphEBq2FuaqAex7v9XGMGVVwXAx6oz2k9UfDeHsfZzuZ",
-            "description": "This collection is a gift for FXHash collectors\nIt is designed in 5 layers\nLayer 1 background colors\nLayer 2 lines\nLayer 3 waves\nLayer 4, second lines\nThe last layer of noise\n\nI hope you like it\nAnd instead of listing, keep it in your wallet!",
-            "tags": [
-              "nft",
-              "art",
-              "colorful",
-              "paint",
-              "modern",
-              "postmodern",
-              "geometry",
-              "red",
-              "blue"
-            ],
-            "generatorUri": "ipfs://QmP3NDKPMCgsHB8hEWueN85qCdKaFu8D9ZZBZNb7VFDBop",
-            "artifactUri": "ipfs://QmP3NDKPMCgsHB8hEWueN85qCdKaFu8D9ZZBZNb7VFDBop/?fxhash=ooJULS9iphEBq2FuaqAex7v9XGMGVVwXAx6oz2k9UfDeHsfZzuZ&fxiteration=117&fxminter=tz1QPQFwE98bF5KcYW9RFpDcq8g5i82XYtMU",
-            "displayUri": "ipfs://QmScp3KNNhgQ49QmbLN4VpVnPxA7z6SgsADM874oSKHm4S",
-            "thumbnailUri": "ipfs://QmcbrmSNf8FywjiQ5GEZypS6woyayxzkBKyzRKgrZtD6v8",
-            "authenticityHash": "db9665e576dce3007f72227f78f9c5aadefad80bf06186cbece0bbb81ff2d58a",
-            "attributes": [
-              {
-                "name": "back",
-                "value": "back14"
-              },
-              {
-                "name": "linea",
-                "value": "linea3"
-              },
-              {
-                "name": "wave",
-                "value": "wave17"
-              },
-              {
-                "name": "lineb",
-                "value": "lineb15"
-              },
-              {
-                "name": "noise",
-                "value": "noise1"
-              }
-            ],
-            "decimals": 0,
-            "symbol": "GENTK",
-            "version": "0.2"
-          },
-          "duplicate": false,
-          "activeListing": {
-            "id": 982294,
-            "version": 1,
-            "price": 400000,
-            "__typename": "Listing"
-          },
-          "owner": {
-            "id": "tz1QPQFwE98bF5KcYW9RFpDcq8g5i82XYtMU",
-            "name": null,
-            "flag": "NONE",
-            "avatarUri": null,
-            "__typename": "User"
-          },
-          "issuer": {
-            "flag": "NONE",
-            "name": "Lost in the waves",
-            "author": {
-              "id": "tz1M6NSnkhCzhCxAvMJj8CmiBptZbRqJCNpe",
-              "name": "The darkness",
-              "type": "REGULAR",
-              "avatarUri": "ipfs://QmXCJWVMscWmH4t6NpqTCQy62oVn9BR6MXdEXSvZ2pBJgf",
-              "flag": "NONE",
-              "collaborators": null,
-              "__typename": "User"
-            },
-            "__typename": "GenerativeToken"
-          },
-          "__typename": "Objkt"
-        },
-        "__typename": "Listing"
-      },
-      {
-        "id": 982293,
-        "version": 1,
-        "price": 400000,
-        "objkt": {
-          "id": "FX1-64059",
-          "version": 2,
-          "name": "Lost in the waves #95",
-          "slug": "lost-in-the-waves-95",
-          "metadata": {
-            "name": "Lost in the waves #95",
-            "iterationHash": "op79RsABNtaaLp7npe1uGTexLkiSTQNBdUS6VoMQsXAbgLPmFyB",
-            "description": "This collection is a gift for FXHash collectors\nIt is designed in 5 layers\nLayer 1 background colors\nLayer 2 lines\nLayer 3 waves\nLayer 4, second lines\nThe last layer of noise\n\nI hope you like it\nAnd instead of listing, keep it in your wallet!",
-            "tags": [
-              "nft",
-              "art",
-              "colorful",
-              "paint",
-              "modern",
-              "postmodern",
-              "geometry",
-              "red",
-              "blue"
-            ],
-            "generatorUri": "ipfs://QmP3NDKPMCgsHB8hEWueN85qCdKaFu8D9ZZBZNb7VFDBop",
-            "artifactUri": "ipfs://QmP3NDKPMCgsHB8hEWueN85qCdKaFu8D9ZZBZNb7VFDBop/?fxhash=op79RsABNtaaLp7npe1uGTexLkiSTQNBdUS6VoMQsXAbgLPmFyB&fxiteration=95&fxminter=tz1QPQFwE98bF5KcYW9RFpDcq8g5i82XYtMU",
-            "displayUri": "ipfs://QmaJE3GYBoXxsWPpBA1sFSXvfrZruAcTrs9Bav1aKAvJRH",
-            "thumbnailUri": "ipfs://QmXvHBnM1R2WhrjTG1Fix7KJZt6si56UM7TstyLDLfQhE8",
-            "authenticityHash": "b856a897c23e09eba4625c90cddf58204b6a7618e89cebc7b436f45ee3488ca5",
-            "attributes": [
-              {
-                "name": "back",
-                "value": "back6"
-              },
-              {
-                "name": "linea",
-                "value": "linea4"
-              },
-              {
-                "name": "wave",
-                "value": "wave12"
-              },
-              {
-                "name": "lineb",
-                "value": "lineb9"
-              },
-              {
-                "name": "noise",
-                "value": "noise1"
-              }
-            ],
-            "decimals": 0,
-            "symbol": "GENTK",
-            "version": "0.2"
-          },
-          "duplicate": false,
-          "activeListing": {
-            "id": 982293,
-            "version": 1,
-            "price": 400000,
-            "__typename": "Listing"
-          },
-          "owner": {
-            "id": "tz1QPQFwE98bF5KcYW9RFpDcq8g5i82XYtMU",
-            "name": null,
-            "flag": "NONE",
-            "avatarUri": null,
-            "__typename": "User"
-          },
-          "issuer": {
-            "flag": "NONE",
-            "name": "Lost in the waves",
-            "author": {
-              "id": "tz1M6NSnkhCzhCxAvMJj8CmiBptZbRqJCNpe",
-              "name": "The darkness",
-              "type": "REGULAR",
-              "avatarUri": "ipfs://QmXCJWVMscWmH4t6NpqTCQy62oVn9BR6MXdEXSvZ2pBJgf",
-              "flag": "NONE",
-              "collaborators": null,
-              "__typename": "User"
-            },
-            "__typename": "GenerativeToken"
-          },
-          "__typename": "Objkt"
-        },
-        "__typename": "Listing"
-      },
-      {
-        "id": 982292,
-        "version": 1,
-        "price": 10000000,
-        "objkt": {
-          "id": "FX0-160994",
+          "id": "FX0-97493",
           "version": 0,
-          "name": "Signals #104",
-          "slug": "signals-104",
+          "name": "Circles #272",
+          "slug": "circles-272",
           "metadata": {
-            "name": "Signals #104",
-            "iterationHash": "ooa6wF5ZD83GfFukGckgftRYpo4Czjo98M1xWvuNJnAnykJu6C6",
-            "description": "Signals capture the pulsar signals generated by the dying stars at the time of minting.  At this moment in time, the color attributes of the original star are detected and captured in the signal plot.",
+            "name": "Circles #272",
+            "iterationHash": "ooaV3LALKoFgZ132sYZb4ZJZYJsVvzj4ZDRuRUYcBmZh5SXGfBg",
+            "description": "Random generated circles that mimic the look of a brush stroke.\n\nOriginal artwork by Yi-Wen LIN (https://wensday.co/)\ntwitter: @yiwen_lin\ninstagram: @yiwen",
             "tags": [
-              "signals",
-              "pulsars",
-              "waves",
-              "glaciers",
-              "rain",
-              "colors"
+              "circles",
+              "generative"
             ],
-            "artifactUri": "ipfs://QmdxXck643KATVTd9y6Cmu97EMFL68eFx7CvihhwgWUjDW",
-            "displayUri": "ipfs://QmUtHe1YBbrt1yq4JaHq6JXi5wBSZHCUjjnWsU72bq3AFM",
-            "thumbnailUri": "ipfs://Qmdx1qUv5ha4N7WBPukNzYK8btuSDnXe2Gybwvh8AMbSFT",
-            "authenticityHash": "639e40cd533096488326f070bb1e00d3a27a6612d99b6a5329477ab7de0c21fc",
+            "artifactUri": "ipfs://Qmbx16QQjPepU5AvFfvAJd8X7ay8U774k332eQNM6cz4mN",
+            "displayUri": "ipfs://QmQYdDo63y59hWovpjHnERMT1qs9yf2zEmMFm65UkNYUaG",
+            "thumbnailUri": "ipfs://QmREktmcgf8LUNo6PjXw5NziWRYixph5CsckHRysXVmTNG",
+            "authenticityHash": "70275a369030bd0f59efa8d19417e75363e24f6b0174edddc1a21b49f1e358a4",
             "attributes": [
               {
-                "name": "Color Story",
-                "value": "mysty_forest_sunset"
+                "name": "NumberOfRings",
+                "value": 28
               },
               {
-                "name": "Rain",
-                "value": "no"
-              },
-              {
-                "name": "Swell",
-                "value": "low"
-              },
-              {
-                "name": "Chop",
-                "value": "high"
-              },
-              {
-                "name": "Waves",
-                "value": "no"
-              },
-              {
-                "name": "Glaciers",
-                "value": "yes"
+                "name": "colorIndex",
+                "value": 0
               }
             ],
             "decimals": 0,
@@ -917,26 +723,26 @@
           },
           "duplicate": false,
           "activeListing": {
-            "id": 982292,
+            "id": 982389,
             "version": 1,
-            "price": 10000000,
+            "price": 20000000,
             "__typename": "Listing"
           },
           "owner": {
-            "id": "tz1cNakLoctaqaCtBZSQGZs5RgAciYqB7cNf",
-            "name": "richer.tez",
+            "id": "tz1ZjEwXyHtcnD48WfYy9YRpkkc7dSP3Nh4W",
+            "name": null,
             "flag": "NONE",
-            "avatarUri": "ipfs://Qmb6Feje4DYL9DS4SEUM66YQXRu2zPvm56gVxUk7MCnkGC",
+            "avatarUri": null,
             "__typename": "User"
           },
           "issuer": {
             "flag": "NONE",
-            "name": "Signals",
+            "name": "Circles",
             "author": {
-              "id": "tz1epBHKWqY7fgfescak8aJpmSB3iBxZy67f",
-              "name": "Y4000",
+              "id": "tz1WJpiJkNoMEjXE1wvoKeRuZo4o9Zgy6qXe",
+              "name": "Yi-Wen LIN",
               "type": "REGULAR",
-              "avatarUri": "ipfs://QmbXHSas45X816kNsQSpsUMEtQfRjN7vTWnZJBxJYCqsBL",
+              "avatarUri": "ipfs://QmSNmxHxxWtApPjcMKFGU964fErwoDo1CxbwwDHDqBVvpz",
               "flag": "VERIFIED",
               "collaborators": null,
               "__typename": "User"
@@ -948,83 +754,24 @@
         "__typename": "Listing"
       },
       {
-        "id": 982291,
+        "id": 982388,
         "version": 1,
-        "price": 105000000,
+        "price": 155000000,
         "objkt": {
-          "id": "FX0-1391273",
-          "version": 1,
-          "name": "Artifice #155",
-          "slug": "artifice-155",
-          "metadata": {
-            "name": "Artifice #155",
-            "iterationHash": "op6JvWM4Xiy4o2NtNkEA3CsZpeygNVBuKnqRXwYSp84qDJzeVUz",
-            "description": "This series is is about playful obfuscation.\n\nThe fxtext article linked on the main profect goes more in-depth into what is meant by that, as well as the events that led to this collection.\n\n5640 bytes of Vanilla JS with no libraries. Palettes make up a third of the code.\n\nIn live mode:\n‘S’ : save as png (3000 × 3600)\n’V’ : save as svg (without grain)\n\nURL params in live mode:\n‘g=n’ : no grain\n‘g=p’ : paper grain\n‘h=t’ : high resolution mode, 9000 ×10600 (Chrome only, and may take a moment)\n\nFor example, if you wanted paper grain in high resolution, append “&g=p&h=t” to the url in live mode.\n\nAfter rendering with these params, tapping 'P' will then save a png with those settings applied.",
-            "tags": [
-              "ty vek",
-              "artifice"
-            ],
-            "generatorUri": "ipfs://QmRQSNzzh7uMetcP6ZykZ7df6jeKyftD5w1CfBQYhnW62P",
-            "artifactUri": "ipfs://QmRQSNzzh7uMetcP6ZykZ7df6jeKyftD5w1CfBQYhnW62P?fxhash=op6JvWM4Xiy4o2NtNkEA3CsZpeygNVBuKnqRXwYSp84qDJzeVUz",
-            "displayUri": "ipfs://QmdkKU7PZjJ1s68TR2cecuJ2TfjUnhHNsoBAXm1sDRKFLR",
-            "thumbnailUri": "ipfs://QmdkNfPmqnCWFXSZgCmfUWKEFctDiMsjQWR8vJGg8EdFm7",
-            "authenticityHash": "3a8529c6b9b6fa92f05b9948ed4797e7cf9ec750fc720864947510eeb3c2639e",
-            "attributes": true,
-            "decimals": 0,
-            "symbol": "GENTK",
-            "version": "0.2"
-          },
-          "duplicate": false,
-          "activeListing": {
-            "id": 982291,
-            "version": 1,
-            "price": 105000000,
-            "__typename": "Listing"
-          },
-          "owner": {
-            "id": "tz1Lk6DK84Yf8TmmXoYYGkEtoezJa8H63xsY",
-            "name": "tatsuatsa2014",
-            "flag": "NONE",
-            "avatarUri": "ipfs://QmfYn1PZQDVBP8h5VXxbnMVhUbXMHcviPWorrB42zHLoKc",
-            "__typename": "User"
-          },
-          "issuer": {
-            "flag": "NONE",
-            "name": "Artifice",
-            "author": {
-              "id": "tz1WjtJq3yUBHsozQvzx2b4DrLEgt9Sk2v8H",
-              "name": "Ty Vek",
-              "type": "REGULAR",
-              "avatarUri": "ipfs://QmZwtTzSqkG1QapBGW2DpbkmJsT9n875igcHAHJ5i4iEmt",
-              "flag": "VERIFIED",
-              "collaborators": null,
-              "__typename": "User"
-            },
-            "__typename": "GenerativeToken"
-          },
-          "__typename": "Objkt"
-        },
-        "__typename": "Listing"
-      },
-      {
-        "id": 982290,
-        "version": 1,
-        "price": 120000000,
-        "objkt": {
-          "id": "FX1-63103",
+          "id": "FX1-62931",
           "version": 2,
-          "name": "Self, Id #175",
-          "slug": "self-id-175",
+          "name": "Self, Id #4",
+          "slug": "self-id-4",
           "metadata": {
-            "name": "Self, Id #175",
-            "iterationHash": "opXrdh4XNXhPDkjgTVwhJTqhmRNYwvuUf25x9ZGDBULxHDbqQsg",
+            "name": "Self, Id #4",
+            "iterationHash": "oo7rRDpFApeRutVyRnKcVZpt5ghGtQg7m3Cut9FMoEZPzWVg1Sq",
             "description": "The first installment of the Self trilogy.\n\nId is defined as: the one of the three divisions of the psyche in psychoanalytic theory that is completely unconscious and is the source of psychic energy derived from instinctual needs and drives.\n\nPlease see attached fx(text) article or go to https://ty-vek.art/self-trilogy for more on concept/mechanics/etc. It’s a bit of long read, but worth it.\n\n—————————\n\nAll projects are written in vanilla Javascript, composed as SVG and then rendered to a 2d canvas.\n\nThere might be slight differences in rendering from browser to browser. This is expected as they might translate the SVG slightly differently. Let's call Chromium renderings canonical. They also render faster there and we love that.\n\nPress \"S\" to save a PNG.\nPress \"V\" to save a SVG. (Chromium browsers render these pretty well.)\n\nBy default, these will render at 2400 x 3200 pixels. This is at density 1.\n\nTo render at a larger resolution you can append “&d=2” to the end of the url. This will double the resolution. You can also use 3 or 4 or whatever your browser can handle. Safari tends to have problems with this, so stick with Chromium based browsers (Chrome, Edge, Brave, etc.)\n\nIf you want to render as a square image, so it is optimized for ummm.. your pfp or something, you can append “&sq=t” to the url.\n\nIf you want to get rid of grain, just append “&g=n”\n\n—————————\n\nhttps://ty-vek.art/self-trilogy\nhttps://twitter.com/ty__vek\nhttps://www.fxhash.xyz/u/Ty%20Vek/articles\n",
             "tags": [],
             "generatorUri": "ipfs://QmRu3mwkSNaESx9ULX9WvSmS4hjTLKm4E1Wk6xKLHHofBN",
-            "artifactUri": "ipfs://QmRu3mwkSNaESx9ULX9WvSmS4hjTLKm4E1Wk6xKLHHofBN/?fxhash=opXrdh4XNXhPDkjgTVwhJTqhmRNYwvuUf25x9ZGDBULxHDbqQsg&fxiteration=175&fxminter=tz1Lk6DK84Yf8TmmXoYYGkEtoezJa8H63xsY",
-            "displayUri": "ipfs://Qmc2aKo1LB7vMQsRmXSkXxS6GyjgVuKApnXEMEU8GQ2BeF",
-            "thumbnailUri": "ipfs://QmWVN2h3pCywm5PWc6ARhgqMh199wcw4BPjP2f2zVotkCe",
-            "authenticityHash": "055f8b70c52b93af225f17e0f2f42c80796c413d648d4666d9cb843030046e9d",
+            "artifactUri": "ipfs://QmRu3mwkSNaESx9ULX9WvSmS4hjTLKm4E1Wk6xKLHHofBN/?fxhash=oo7rRDpFApeRutVyRnKcVZpt5ghGtQg7m3Cut9FMoEZPzWVg1Sq&fxiteration=4&fxminter=tz1VP6GUGdHdjCLzVFqRjBwsie3uw5UM4D1p",
+            "displayUri": "ipfs://QmbGWKffdF6Mrt9eGXPS6qeYL1eKBDtCa11PMU4Gb6GeBE",
+            "thumbnailUri": "ipfs://QmW2fXNazysJeE4fT4cuHuAdHbL4wz7yW8uiqYRzGVeZSg",
+            "authenticityHash": "113ea9ce4d96cc04b1eb077a486d73040966806fde45809681f0e763d13808db",
             "attributes": true,
             "decimals": 0,
             "symbol": "GENTK",
@@ -1032,16 +779,16 @@
           },
           "duplicate": false,
           "activeListing": {
-            "id": 982290,
+            "id": 982388,
             "version": 1,
-            "price": 120000000,
+            "price": 155000000,
             "__typename": "Listing"
           },
           "owner": {
-            "id": "tz1Lk6DK84Yf8TmmXoYYGkEtoezJa8H63xsY",
-            "name": "tatsuatsa2014",
+            "id": "tz1QSPHsr7k5TPW4irTRgi2ZjjwUiHtuWLkU",
+            "name": "WorldTraveler",
             "flag": "NONE",
-            "avatarUri": "ipfs://QmfYn1PZQDVBP8h5VXxbnMVhUbXMHcviPWorrB42zHLoKc",
+            "avatarUri": "ipfs://QmWSxFgaJaw62kmSpeBHe3SEQte22ycsXTZNUhyYJF99pb",
             "__typename": "User"
           },
           "issuer": {
@@ -1063,24 +810,238 @@
         "__typename": "Listing"
       },
       {
-        "id": 982289,
+        "id": 982387,
         "version": 1,
-        "price": 140000000,
+        "price": 6800000,
         "objkt": {
-          "id": "FX1-64209",
-          "version": 2,
-          "name": "Self, Superego #86",
-          "slug": "self-superego-86",
+          "id": "FX0-264795",
+          "version": 0,
+          "name": "Composition #3 Patchwork Quilt #96",
+          "slug": "composition-3-patchwork-quilt-96",
           "metadata": {
-            "name": "Self, Superego #86",
-            "iterationHash": "opCfwksGcH5ahparYzT5QrD6aJUJCFFS6RZHoAB3uNeW1FTmsrU",
+            "name": "Composition #3 Patchwork Quilt #96",
+            "iterationHash": "op1GGZyBm8mP1dA32eeqx1VZHzLTw43Z7Xkvtk3d9mfLG7PKo6z",
+            "description": "Abstract, non-square(!) composition based on textural strokes and noise. There are a lot of possible combinations with all of the features! 50% chance of two different palette sets. 50% chance to have a brush textured background, and a 50% chance of it being horizontal or vertical. The quadtree rectangles are based on poisson disc sampling based on a simplex noise field. 90% of the compositions will be smaller boxes, and 10% will be large. For each box, there is a 10% chance that it will be oriented opposite of the rest.\n\nPress ’s’ to save a screenshot.",
+            "tags": [
+              "noise",
+              "texture",
+              "painting",
+              "colorful",
+              "minimal"
+            ],
+            "generatorUri": "ipfs://QmfZ2BZUV4gXuNs8XEU4SVS8f3kcfYW5Hrvszy2mdAkRV6",
+            "artifactUri": "ipfs://QmfZ2BZUV4gXuNs8XEU4SVS8f3kcfYW5Hrvszy2mdAkRV6?fxhash=op1GGZyBm8mP1dA32eeqx1VZHzLTw43Z7Xkvtk3d9mfLG7PKo6z",
+            "displayUri": "ipfs://QmSeu9GEi1JSB52xwWcKtj4fkHw11TAvBfc2JRPGYfuVra",
+            "thumbnailUri": "ipfs://Qmbn5uW3mFANXD7Z6Us47GB3vZbgmNnokadyVALypbu68r",
+            "authenticityHash": "95e7079b382e0067a3d3924d478b482ecf268c2a48e9cc866fafdf53eaa40991",
+            "attributes": [
+              {
+                "name": "paletteSet",
+                "value": 1
+              },
+              {
+                "name": "numBGStrokes",
+                "value": 12
+              },
+              {
+                "name": "lineWeight",
+                "value": 145
+              },
+              {
+                "name": "maxStokeWeight",
+                "value": 3
+              },
+              {
+                "name": "bgStrokes",
+                "value": false
+              },
+              {
+                "name": "bgSmoothing",
+                "value": 1
+              },
+              {
+                "name": "bgVertical",
+                "value": false
+              },
+              {
+                "name": "insetVertical",
+                "value": true
+              },
+              {
+                "name": "insetFrequency",
+                "value": 0.006340649427147583
+              },
+              {
+                "name": "insetPointsMax",
+                "value": 30
+              },
+              {
+                "name": "insetQTreeCapacity",
+                "value": 9
+              },
+              {
+                "name": "insetSteps",
+                "value": 6
+              },
+              {
+                "name": "insetSmoothing",
+                "value": 1
+              },
+              {
+                "name": "insetStrokeWeightVary",
+                "value": false
+              },
+              {
+                "name": "insetLinesNum",
+                "value": 44
+              },
+              {
+                "name": "insetLinesJitter",
+                "value": 0.2505263528320938
+              },
+              {
+                "name": "insetStrokeJitter",
+                "value": 0.3726931989192963
+              }
+            ],
+            "decimals": 0,
+            "symbol": "GENTK",
+            "version": "0.2"
+          },
+          "duplicate": false,
+          "activeListing": {
+            "id": 982387,
+            "version": 1,
+            "price": 6800000,
+            "__typename": "Listing"
+          },
+          "owner": {
+            "id": "tz1ZjEwXyHtcnD48WfYy9YRpkkc7dSP3Nh4W",
+            "name": null,
+            "flag": "NONE",
+            "avatarUri": null,
+            "__typename": "User"
+          },
+          "issuer": {
+            "flag": "NONE",
+            "name": "Composition #3 Patchwork Quilt",
+            "author": {
+              "id": "tz1hf7a8ueUyHvjAZ4VhxUGAnGfhvTmnffyw",
+              "name": "nudoru",
+              "type": "REGULAR",
+              "avatarUri": "ipfs://QmbjS3S4kwnmkvfK9VKJnwpZQxH8uV4a4gaG8hXYcBGeHT",
+              "flag": "VERIFIED",
+              "collaborators": null,
+              "__typename": "User"
+            },
+            "__typename": "GenerativeToken"
+          },
+          "__typename": "Objkt"
+        },
+        "__typename": "Listing"
+      },
+      {
+        "id": 982386,
+        "version": 1,
+        "price": 5000000,
+        "objkt": {
+          "id": "FX1-15082",
+          "version": 2,
+          "name": "Inattendu #202",
+          "slug": "inattendu-202",
+          "metadata": {
+            "name": "Inattendu #202",
+            "iterationHash": "ooQFx1ECuEQWA9zhRXcHoeqKfinqSMXZyBPe3B3QguFRFN8CooS",
+            "description": "\"Inattendu\" is a nod to my previous project \"Voilà\" which produced some unexpected output because of a bug happening with Brave browser shield.\nSimple things are often the best...\nIt seemed like people (and I) really liked these results, so I'm making them available for free as a new project.\n\nThe recursive algorithm is the same as the one used with \"Voilà\", but the shapes are fully painted, it produces those interesting views.\n\nReserves for the people who minted my previous project \"Voilà\" 💗\n\nPress 's' to save a high res PNG:\n- Square format: 2508x2508\n- Portrait & Landscape format: 3128x2018\n\nMade with p5js. France, April 2023, Nicazo.",
+            "tags": [
+              "recursive",
+              "abstract",
+              "generative",
+              "creative",
+              "geometric"
+            ],
+            "generatorUri": "ipfs://Qmd3TV1g1Ep62kPx5cUdW7LSMoguYtPNDHK874FaSouGc5",
+            "artifactUri": "ipfs://Qmd3TV1g1Ep62kPx5cUdW7LSMoguYtPNDHK874FaSouGc5/?fxhash=ooQFx1ECuEQWA9zhRXcHoeqKfinqSMXZyBPe3B3QguFRFN8CooS",
+            "displayUri": "ipfs://QmfYid5vzEo1k9Kav5SCKJoQhuMpjsGsz81E2nxSdYvpjL",
+            "thumbnailUri": "ipfs://QmURgGNe99CQqk4eD891ZLqfi4aTeaNQo9Fc1yhMXKPBry",
+            "authenticityHash": "4551c4c3ee4e6915d226e226e4580993dbe4fa3bb92aa3d3daac611486ce6aa6",
+            "attributes": [
+              {
+                "name": "Display type",
+                "value": "Landscape"
+              },
+              {
+                "name": "Forms quantity",
+                "value": "Low"
+              },
+              {
+                "name": "Paper color",
+                "value": "Black"
+              },
+              {
+                "name": "Palette",
+                "value": "B18"
+              },
+              {
+                "name": "Style",
+                "value": "Wired"
+              }
+            ],
+            "decimals": 0,
+            "symbol": "GENTK",
+            "version": "0.2"
+          },
+          "duplicate": false,
+          "activeListing": {
+            "id": 982386,
+            "version": 1,
+            "price": 5000000,
+            "__typename": "Listing"
+          },
+          "owner": {
+            "id": "tz1eMrFPD7twjRUCMRnTwQmAZinbSWiLnCRL",
+            "name": "MEAMES.TEZ",
+            "flag": "NONE",
+            "avatarUri": "ipfs://QmT3teaxyLdm2o8zn6RvgC4LPrZjCZy9rMUgvBAi6ydLTV",
+            "__typename": "User"
+          },
+          "issuer": {
+            "flag": "NONE",
+            "name": "Inattendu",
+            "author": {
+              "id": "tz1Q8sCzHR5ZTKCsPk3Qn8EUzRBFScJjFNjN",
+              "name": "nicazo",
+              "type": "REGULAR",
+              "avatarUri": "ipfs://QmQG6CvPjZj1PfbTD5kjnGZXz5nKUWBfEEWkszxFQE6vBj",
+              "flag": "NONE",
+              "collaborators": null,
+              "__typename": "User"
+            },
+            "__typename": "GenerativeToken"
+          },
+          "__typename": "Objkt"
+        },
+        "__typename": "Listing"
+      },
+      {
+        "id": 982385,
+        "version": 1,
+        "price": 185000000,
+        "objkt": {
+          "id": "FX1-64317",
+          "version": 2,
+          "name": "Self, Superego #166",
+          "slug": "self-superego-166",
+          "metadata": {
+            "name": "Self, Superego #166",
+            "iterationHash": "ooc6rDNWVg6xhPVJod8SX7kaAeaDzy9934Hpdrz5FMBvPmCoBb7",
             "description": "The second installment of the Self trilogy.\n\nSuperego is defined as: the one of the three divisions of the psyche in psychoanalytic theory that is only partly conscious, represents internalization of parental conscience and the rules of society, and functions to reward and punish through a system of moral attitudes, conscience, and a sense of guilt.\n\nPlease see attached fx(text) article or go to https://ty-vek.art/self-trilogy for more on concept/mechanics/etc. It’s a bit of long read, but worth it.\n\n—————————\n\nAll projects are written in vanilla Javascript, composed as SVG and then rendered to a 2d canvas.\n\nThere might be slight differences in rendering from browser to browser. This is expected as they might translate the SVG slightly differently. Let's call Chromium renderings canonical. They also render faster there and we love that.\n\nPress \"S\" to save a PNG.\nPress \"V\" to save a SVG. (Chromium browsers render these pretty well.)\n\nBy default, these will render at 2400 x 3200 pixels. This is at density 1.\n\nTo render at a larger resolution you can append “&d=2” to the end of the url. This will double the resolution. You can also use 3 or 4 or whatever your browser can handle. Safari tends to have problems with this, so stick with Chromium based browsers (Chrome, Edge, Brave, etc.)\n\nIf you want to render as a square image, so it is optimized for ummm.. your pfp or something, you can append “&sq=t” to the url.\n\nIf you want to get rid of grain, just append “&g=n”\n\n—————————\n\nhttps://ty-vek.art/self-trilogy\nhttps://twitter.com/ty__vek\nhttps://www.fxhash.xyz/u/Ty%20Vek/articles\n",
             "tags": [],
             "generatorUri": "ipfs://QmXSP3QYxpJ6xwmpFjzRJzZ7Y7Z6TZa7qLXBSrDjNuQfT9",
-            "artifactUri": "ipfs://QmXSP3QYxpJ6xwmpFjzRJzZ7Y7Z6TZa7qLXBSrDjNuQfT9/?fxhash=opCfwksGcH5ahparYzT5QrD6aJUJCFFS6RZHoAB3uNeW1FTmsrU&fxiteration=86&fxminter=tz1RGNAXFdETxHtAwCoKCBJSwjRjh9afMw5d",
-            "displayUri": "ipfs://QmSLF7vpQCTAg59og4sgcs1dkT2oXEQ1aDMK7dG8Tq86R1",
-            "thumbnailUri": "ipfs://QmV1mhGyFJvVoedmatCRWcbhmHD93G2fzpCvLcvrw58FtX",
-            "authenticityHash": "494301d6e2015b5045de9d43ea0dbd708988f68f532fb894b43a2446336d4630",
+            "artifactUri": "ipfs://QmXSP3QYxpJ6xwmpFjzRJzZ7Y7Z6TZa7qLXBSrDjNuQfT9/?fxhash=ooc6rDNWVg6xhPVJod8SX7kaAeaDzy9934Hpdrz5FMBvPmCoBb7&fxiteration=166&fxminter=tz1S3WpmfwTrMsAMWSzhFYP1sS9oSmpEAyKc",
+            "displayUri": "ipfs://QmRq8WXNNCbtUQTU76pruL9AMqkewKT6Zg2E44tkhTkL7v",
+            "thumbnailUri": "ipfs://QmT2CuVBdqryNKrib7DPdUHsScuT1gnzYD5faUCu7tbRDR",
+            "authenticityHash": "4a62399e436907688e56a759e3aba0cd230199a847235d4ab48a8367b13ef4a0",
             "attributes": true,
             "decimals": 0,
             "symbol": "GENTK",
@@ -1088,14 +1049,14 @@
           },
           "duplicate": false,
           "activeListing": {
-            "id": 982289,
+            "id": 982385,
             "version": 1,
-            "price": 140000000,
+            "price": 185000000,
             "__typename": "Listing"
           },
           "owner": {
-            "id": "tz1RGNAXFdETxHtAwCoKCBJSwjRjh9afMw5d",
-            "name": "Jinx",
+            "id": "tz1S3WpmfwTrMsAMWSzhFYP1sS9oSmpEAyKc",
+            "name": "fla ko bo",
             "flag": "NONE",
             "avatarUri": null,
             "__typename": "User"
@@ -1119,285 +1080,24 @@
         "__typename": "Listing"
       },
       {
-        "id": 982288,
+        "id": 982384,
         "version": 1,
-        "price": 400000,
+        "price": 95000000,
         "objkt": {
-          "id": "FX1-64081",
+          "id": "FX1-62950",
           "version": 2,
-          "name": "Lost in the waves #105",
-          "slug": "lost-in-the-waves-105",
+          "name": "Self, Id #23",
+          "slug": "self-id-23",
           "metadata": {
-            "name": "Lost in the waves #105",
-            "iterationHash": "ong82pMGAv5RhbUSYp2Khu9zV5R9fQTNGTtKz6vnRNUK9Wy7MYY",
-            "description": "This collection is a gift for FXHash collectors\nIt is designed in 5 layers\nLayer 1 background colors\nLayer 2 lines\nLayer 3 waves\nLayer 4, second lines\nThe last layer of noise\n\nI hope you like it\nAnd instead of listing, keep it in your wallet!",
-            "tags": [
-              "nft",
-              "art",
-              "colorful",
-              "paint",
-              "modern",
-              "postmodern",
-              "geometry",
-              "red",
-              "blue"
-            ],
-            "generatorUri": "ipfs://QmP3NDKPMCgsHB8hEWueN85qCdKaFu8D9ZZBZNb7VFDBop",
-            "artifactUri": "ipfs://QmP3NDKPMCgsHB8hEWueN85qCdKaFu8D9ZZBZNb7VFDBop/?fxhash=ong82pMGAv5RhbUSYp2Khu9zV5R9fQTNGTtKz6vnRNUK9Wy7MYY&fxiteration=105&fxminter=tz1QPQFwE98bF5KcYW9RFpDcq8g5i82XYtMU",
-            "displayUri": "ipfs://QmSPWa7W33tjFHBuzVcQL9m6tSQUaooWG9BcwWsEyaL2Mb",
-            "thumbnailUri": "ipfs://QmVV51XYkPVLd1A4UM7swrhCjfaFaeFWoaxUnQq61LghuX",
-            "authenticityHash": "867b33809a6896bc5ae1b2960743a0c4a60f0b655d8a1ad9f34be778774485e0",
-            "attributes": [
-              {
-                "name": "back",
-                "value": "back7"
-              },
-              {
-                "name": "linea",
-                "value": "linea4"
-              },
-              {
-                "name": "wave",
-                "value": "wave19"
-              },
-              {
-                "name": "lineb",
-                "value": "lineb10"
-              },
-              {
-                "name": "noise",
-                "value": "noise1"
-              }
-            ],
-            "decimals": 0,
-            "symbol": "GENTK",
-            "version": "0.2"
-          },
-          "duplicate": false,
-          "activeListing": {
-            "id": 982288,
-            "version": 1,
-            "price": 400000,
-            "__typename": "Listing"
-          },
-          "owner": {
-            "id": "tz1QPQFwE98bF5KcYW9RFpDcq8g5i82XYtMU",
-            "name": null,
-            "flag": "NONE",
-            "avatarUri": null,
-            "__typename": "User"
-          },
-          "issuer": {
-            "flag": "NONE",
-            "name": "Lost in the waves",
-            "author": {
-              "id": "tz1M6NSnkhCzhCxAvMJj8CmiBptZbRqJCNpe",
-              "name": "The darkness",
-              "type": "REGULAR",
-              "avatarUri": "ipfs://QmXCJWVMscWmH4t6NpqTCQy62oVn9BR6MXdEXSvZ2pBJgf",
-              "flag": "NONE",
-              "collaborators": null,
-              "__typename": "User"
-            },
-            "__typename": "GenerativeToken"
-          },
-          "__typename": "Objkt"
-        },
-        "__typename": "Listing"
-      },
-      {
-        "id": 982287,
-        "version": 1,
-        "price": 1800000,
-        "objkt": {
-          "id": "FX1-63977",
-          "version": 2,
-          "name": "Lost in the waves #18",
-          "slug": "lost-in-the-waves-18",
-          "metadata": {
-            "name": "Lost in the waves #18",
-            "iterationHash": "opAfebdLQkekd11QN6MgqcfRD6PMDAzQELwrEVujwShVBh4UjmP",
-            "description": "This collection is a gift for FXHash collectors\nIt is designed in 5 layers\nLayer 1 background colors\nLayer 2 lines\nLayer 3 waves\nLayer 4, second lines\nThe last layer of noise\n\nI hope you like it\nAnd instead of listing, keep it in your wallet!",
-            "tags": [
-              "nft",
-              "art",
-              "colorful",
-              "paint",
-              "modern",
-              "postmodern",
-              "geometry",
-              "red",
-              "blue"
-            ],
-            "generatorUri": "ipfs://QmP3NDKPMCgsHB8hEWueN85qCdKaFu8D9ZZBZNb7VFDBop",
-            "artifactUri": "ipfs://QmP3NDKPMCgsHB8hEWueN85qCdKaFu8D9ZZBZNb7VFDBop/?fxhash=opAfebdLQkekd11QN6MgqcfRD6PMDAzQELwrEVujwShVBh4UjmP&fxiteration=18&fxminter=tz1LJchBBMZNAjhJq5qGHNEyzPceRtFuHAqy",
-            "displayUri": "ipfs://QmRipTKKKxqwveVmgCZ8reC1bpQtZQtK6i1we822R6kj4y",
-            "thumbnailUri": "ipfs://QmRNUtZBLgoL8zgLAFy5XQpQkHW2dnVcDggSKNHYfu4eSk",
-            "authenticityHash": "09576003192b5282ac32764ecc2a6df458da544a71e6674dcc7d51e5ededeefa",
-            "attributes": [
-              {
-                "name": "back",
-                "value": "back1"
-              },
-              {
-                "name": "linea",
-                "value": "linea9"
-              },
-              {
-                "name": "wave",
-                "value": "wave10"
-              },
-              {
-                "name": "lineb",
-                "value": "lineb8"
-              },
-              {
-                "name": "noise",
-                "value": "noise1"
-              }
-            ],
-            "decimals": 0,
-            "symbol": "GENTK",
-            "version": "0.2"
-          },
-          "duplicate": false,
-          "activeListing": {
-            "id": 982287,
-            "version": 1,
-            "price": 1800000,
-            "__typename": "Listing"
-          },
-          "owner": {
-            "id": "tz1LJchBBMZNAjhJq5qGHNEyzPceRtFuHAqy",
-            "name": null,
-            "flag": "NONE",
-            "avatarUri": null,
-            "__typename": "User"
-          },
-          "issuer": {
-            "flag": "NONE",
-            "name": "Lost in the waves",
-            "author": {
-              "id": "tz1M6NSnkhCzhCxAvMJj8CmiBptZbRqJCNpe",
-              "name": "The darkness",
-              "type": "REGULAR",
-              "avatarUri": "ipfs://QmXCJWVMscWmH4t6NpqTCQy62oVn9BR6MXdEXSvZ2pBJgf",
-              "flag": "NONE",
-              "collaborators": null,
-              "__typename": "User"
-            },
-            "__typename": "GenerativeToken"
-          },
-          "__typename": "Objkt"
-        },
-        "__typename": "Listing"
-      },
-      {
-        "id": 982286,
-        "version": 1,
-        "price": 400000,
-        "objkt": {
-          "id": "FX1-64083",
-          "version": 2,
-          "name": "Lost in the waves #107",
-          "slug": "lost-in-the-waves-107",
-          "metadata": {
-            "name": "Lost in the waves #107",
-            "iterationHash": "ook3XFrm8vt4ZkcNH4SSFapaNHLB313GGgBLmgPhe4LMJoc7FxG",
-            "description": "This collection is a gift for FXHash collectors\nIt is designed in 5 layers\nLayer 1 background colors\nLayer 2 lines\nLayer 3 waves\nLayer 4, second lines\nThe last layer of noise\n\nI hope you like it\nAnd instead of listing, keep it in your wallet!",
-            "tags": [
-              "nft",
-              "art",
-              "colorful",
-              "paint",
-              "modern",
-              "postmodern",
-              "geometry",
-              "red",
-              "blue"
-            ],
-            "generatorUri": "ipfs://QmP3NDKPMCgsHB8hEWueN85qCdKaFu8D9ZZBZNb7VFDBop",
-            "artifactUri": "ipfs://QmP3NDKPMCgsHB8hEWueN85qCdKaFu8D9ZZBZNb7VFDBop/?fxhash=ook3XFrm8vt4ZkcNH4SSFapaNHLB313GGgBLmgPhe4LMJoc7FxG&fxiteration=107&fxminter=tz1QPQFwE98bF5KcYW9RFpDcq8g5i82XYtMU",
-            "displayUri": "ipfs://QmQxveZeytXAcrRvPGbF9e62DtaocZqNZUaaer4Aoj1YiL",
-            "thumbnailUri": "ipfs://QmY2MBL8BHT7zBJKMrXMKGLTqBrbQTM4RaBzjyJJLpiZ7r",
-            "authenticityHash": "41783534706ea49a08af4617302bf3c9b61432329318210755b7f62cbff7013a",
-            "attributes": [
-              {
-                "name": "back",
-                "value": "back1"
-              },
-              {
-                "name": "linea",
-                "value": "linea8"
-              },
-              {
-                "name": "wave",
-                "value": "wave20"
-              },
-              {
-                "name": "lineb",
-                "value": "lineb9"
-              },
-              {
-                "name": "noise",
-                "value": "noise1"
-              }
-            ],
-            "decimals": 0,
-            "symbol": "GENTK",
-            "version": "0.2"
-          },
-          "duplicate": false,
-          "activeListing": {
-            "id": 982286,
-            "version": 1,
-            "price": 400000,
-            "__typename": "Listing"
-          },
-          "owner": {
-            "id": "tz1QPQFwE98bF5KcYW9RFpDcq8g5i82XYtMU",
-            "name": null,
-            "flag": "NONE",
-            "avatarUri": null,
-            "__typename": "User"
-          },
-          "issuer": {
-            "flag": "NONE",
-            "name": "Lost in the waves",
-            "author": {
-              "id": "tz1M6NSnkhCzhCxAvMJj8CmiBptZbRqJCNpe",
-              "name": "The darkness",
-              "type": "REGULAR",
-              "avatarUri": "ipfs://QmXCJWVMscWmH4t6NpqTCQy62oVn9BR6MXdEXSvZ2pBJgf",
-              "flag": "NONE",
-              "collaborators": null,
-              "__typename": "User"
-            },
-            "__typename": "GenerativeToken"
-          },
-          "__typename": "Objkt"
-        },
-        "__typename": "Listing"
-      },
-      {
-        "id": 982285,
-        "version": 1,
-        "price": 150000000,
-        "objkt": {
-          "id": "FX1-64194",
-          "version": 2,
-          "name": "Self, Superego #71",
-          "slug": "self-superego-71",
-          "metadata": {
-            "name": "Self, Superego #71",
-            "iterationHash": "ooErhKSXDfgMTQjKmvZx6uRqmuoJKD7JvGk1nWiqvkfLDC3pxpw",
-            "description": "The second installment of the Self trilogy.\n\nSuperego is defined as: the one of the three divisions of the psyche in psychoanalytic theory that is only partly conscious, represents internalization of parental conscience and the rules of society, and functions to reward and punish through a system of moral attitudes, conscience, and a sense of guilt.\n\nPlease see attached fx(text) article or go to https://ty-vek.art/self-trilogy for more on concept/mechanics/etc. It’s a bit of long read, but worth it.\n\n—————————\n\nAll projects are written in vanilla Javascript, composed as SVG and then rendered to a 2d canvas.\n\nThere might be slight differences in rendering from browser to browser. This is expected as they might translate the SVG slightly differently. Let's call Chromium renderings canonical. They also render faster there and we love that.\n\nPress \"S\" to save a PNG.\nPress \"V\" to save a SVG. (Chromium browsers render these pretty well.)\n\nBy default, these will render at 2400 x 3200 pixels. This is at density 1.\n\nTo render at a larger resolution you can append “&d=2” to the end of the url. This will double the resolution. You can also use 3 or 4 or whatever your browser can handle. Safari tends to have problems with this, so stick with Chromium based browsers (Chrome, Edge, Brave, etc.)\n\nIf you want to render as a square image, so it is optimized for ummm.. your pfp or something, you can append “&sq=t” to the url.\n\nIf you want to get rid of grain, just append “&g=n”\n\n—————————\n\nhttps://ty-vek.art/self-trilogy\nhttps://twitter.com/ty__vek\nhttps://www.fxhash.xyz/u/Ty%20Vek/articles\n",
+            "name": "Self, Id #23",
+            "iterationHash": "ooPhxbAVMFhNi34mpYEW9rjDfttRULysELdK7cyVntkaXYx3cPb",
+            "description": "The first installment of the Self trilogy.\n\nId is defined as: the one of the three divisions of the psyche in psychoanalytic theory that is completely unconscious and is the source of psychic energy derived from instinctual needs and drives.\n\nPlease see attached fx(text) article or go to https://ty-vek.art/self-trilogy for more on concept/mechanics/etc. It’s a bit of long read, but worth it.\n\n—————————\n\nAll projects are written in vanilla Javascript, composed as SVG and then rendered to a 2d canvas.\n\nThere might be slight differences in rendering from browser to browser. This is expected as they might translate the SVG slightly differently. Let's call Chromium renderings canonical. They also render faster there and we love that.\n\nPress \"S\" to save a PNG.\nPress \"V\" to save a SVG. (Chromium browsers render these pretty well.)\n\nBy default, these will render at 2400 x 3200 pixels. This is at density 1.\n\nTo render at a larger resolution you can append “&d=2” to the end of the url. This will double the resolution. You can also use 3 or 4 or whatever your browser can handle. Safari tends to have problems with this, so stick with Chromium based browsers (Chrome, Edge, Brave, etc.)\n\nIf you want to render as a square image, so it is optimized for ummm.. your pfp or something, you can append “&sq=t” to the url.\n\nIf you want to get rid of grain, just append “&g=n”\n\n—————————\n\nhttps://ty-vek.art/self-trilogy\nhttps://twitter.com/ty__vek\nhttps://www.fxhash.xyz/u/Ty%20Vek/articles\n",
             "tags": [],
-            "generatorUri": "ipfs://QmXSP3QYxpJ6xwmpFjzRJzZ7Y7Z6TZa7qLXBSrDjNuQfT9",
-            "artifactUri": "ipfs://QmXSP3QYxpJ6xwmpFjzRJzZ7Y7Z6TZa7qLXBSrDjNuQfT9/?fxhash=ooErhKSXDfgMTQjKmvZx6uRqmuoJKD7JvGk1nWiqvkfLDC3pxpw&fxiteration=71&fxminter=tz1fhbgTaxYwmJKCZWGUgu2RbzFzRhKHuT1q",
-            "displayUri": "ipfs://Qmf65VEtT9jaHQTEtCTH7Fo6MDrDvaxoFhH8wCj1ZJqH6Z",
-            "thumbnailUri": "ipfs://QmVBuEFPug3262SwS3t4nUUMohwws3i87V9bMcXGt2Kd9g",
-            "authenticityHash": "f4f38aac03bc42598b73868e539d28a272d482afd9e59f12b07865af4bdcb799",
+            "generatorUri": "ipfs://QmRu3mwkSNaESx9ULX9WvSmS4hjTLKm4E1Wk6xKLHHofBN",
+            "artifactUri": "ipfs://QmRu3mwkSNaESx9ULX9WvSmS4hjTLKm4E1Wk6xKLHHofBN/?fxhash=ooPhxbAVMFhNi34mpYEW9rjDfttRULysELdK7cyVntkaXYx3cPb&fxiteration=23&fxminter=tz1S3WpmfwTrMsAMWSzhFYP1sS9oSmpEAyKc",
+            "displayUri": "ipfs://QmeWC4nycAzu6153BDjzeYeqqGrmgNqEpzPMUZGWbaYNHs",
+            "thumbnailUri": "ipfs://QmcaQGpJ2JVicsk7EmetDDCht9TESuv2bVNubLvPfJV4AN",
+            "authenticityHash": "66f2ddf27215bc5e112084bd935f16a9d6360001f4ef5f3c11900bab25b48a4f",
             "attributes": true,
             "decimals": 0,
             "symbol": "GENTK",
@@ -1405,16 +1105,286 @@
           },
           "duplicate": false,
           "activeListing": {
-            "id": 982285,
+            "id": 982384,
             "version": 1,
-            "price": 150000000,
+            "price": 95000000,
             "__typename": "Listing"
           },
           "owner": {
-            "id": "tz1fhbgTaxYwmJKCZWGUgu2RbzFzRhKHuT1q",
-            "name": "Zizou #2",
+            "id": "tz1S3WpmfwTrMsAMWSzhFYP1sS9oSmpEAyKc",
+            "name": "fla ko bo",
             "flag": "NONE",
-            "avatarUri": "ipfs://QmbAPA2QwekhjqrvVfEwUdTSA9kb27p3XobroeYW5Tq1y3",
+            "avatarUri": null,
+            "__typename": "User"
+          },
+          "issuer": {
+            "flag": "NONE",
+            "name": "Self, Id",
+            "author": {
+              "id": "tz1WjtJq3yUBHsozQvzx2b4DrLEgt9Sk2v8H",
+              "name": "Ty Vek",
+              "type": "REGULAR",
+              "avatarUri": "ipfs://QmZwtTzSqkG1QapBGW2DpbkmJsT9n875igcHAHJ5i4iEmt",
+              "flag": "VERIFIED",
+              "collaborators": null,
+              "__typename": "User"
+            },
+            "__typename": "GenerativeToken"
+          },
+          "__typename": "Objkt"
+        },
+        "__typename": "Listing"
+      },
+      {
+        "id": 982383,
+        "version": 1,
+        "price": 25000000,
+        "objkt": {
+          "id": "FX1-35479",
+          "version": 2,
+          "name": "Pensado a mano #257",
+          "slug": "pensado-a-mano-257",
+          "metadata": {
+            "name": "Pensado a mano #257",
+            "iterationHash": "oo5BKdd6FyXeTyGuwGsdZBmjAyX4T3x23XL7xahkazYRN4fvqLv",
+            "description": "WARNING: Read instructions so you don’t get a broken token!!\n----\n\n\nQ: Why haven’t you tried fx(params)?\nA: Pff.. Sliders?\n\n\n“Pensado a mano” explores the intersection of Generative Art and Hand Drawing. The collector, by drawing a predefined number of shapes on canvas, creates a unique hand-crafted seed that generates the final artwork. That is the only customisable param, thought by hand, which interacts with various random attributes to produce a unique composition.\n\n“…the time we spend doing and making things, the process…”\n\nAnd yet the process continues. On the background, the code generates a plottable svg.\nAn artificially extended process, from hand to screen, from screen to paper, that creates a new kind of mixed media.\n\nSigned plots will soon be claimable via Artfora (tbd price + shipping)\n\n\nINSTRUCTIONS\n\n1 - Draw the requested shapes and wait to see the result. You can change the Seed Nr. slider if you don't like the selected mode.\n2 - Press “C” to copy drawing to Clipboard\n3 - Copy the clipboard contents to the text-input on the fx(params) sidebar\n\n***Important. If you buy several tickets, make sure you don't mint the same Seed Nr. twice (slider)\n\npress “S” to save the PNG, press “P” to plot the SVG\n\n\nDISCLAIMER\n\nThis is a high-supply token minted during a bear market. Have Fun.",
+            "tags": [
+              "params",
+              "hand-drawn",
+              "drawing",
+              "co-creation",
+              "p5js"
+            ],
+            "generatorUri": "ipfs://QmW96HwKDLsinp8Jog3T8UchR2Xa47zibdiJ2FaQUYuSeY",
+            "artifactUri": "ipfs://QmW96HwKDLsinp8Jog3T8UchR2Xa47zibdiJ2FaQUYuSeY/?fxhash=oo5BKdd6FyXeTyGuwGsdZBmjAyX4T3x23XL7xahkazYRN4fvqLv&fxminter=tz1ZtkTnPvYD4j6E1KVxFppgXmEjtbijMM9W&fxparams=403b0000000000000064007200610077006e004e007a00550079004c006a00590077004e007a004d0032004d0054006b0032004d007a00450035004d004400490073004e006a004d0031004c006a00550034004d006a00670079004d006a00410034004e005400670034004f005400590073004d005400670073004e004400410073004d005400510073004e0054004d0073004d00430077007a004d004300770074004e004400410073004d007a00590073004d006a00550034004c0044004d0079004c004300300031004d005300770079004e007900770078004f005400630073004d006a006b0073004d006a00410034004c004400490032004c004400450035004d00430077007a004e007900770078004f004400510073004d006a00630073004d005400670030004c004400490033004c004400490077004d007900770030004f005300770078004f005400410073004e004400550073004d005400670030004c0044004d0077004c004400450032004f004300770079004f004300770078004e006a004d0073004d007a00550073004d00540063007a004c004400510033004c004400450034004d00430077007a004e006900770078004f005400450073004e005400510073004d005400670030004c004400490031004c004400450030004d00530077007a004d004300770030004d007900770031004d004300770079004d005300770031004d007900770078004e00790077007a004e00530077007a004d00790077007a004d004300770078004d006a006b0073004e004400450073004d0054004d0077004c004400550077004c00440045007a004d007900770032004d004300770078004e0044004d0073004f004400450073004d005400510079004c004400510078004c00440049007a004c004400510035004c004400590073004e006a00410073004c005400670073004e007a00450073004c005400490079004c004400670034004c00430030007a004d004300770031004e004300770074004e004400510073004d007a00590073004c005400550079004c004400510031004c004300300031004f00430077007a004d006900770074004e006a00490073004e004400450073004e006a00450073004d007a00450073004e006a00450073004d007a00590073004e005400670073004e005400630073004e005400550073004e006a00510073004e0044004d0073004e005400410073004d005400670030004c00440055007a004c004400450035004e00430077007a004e005300770078004f0054006b0073004d007a00450073004d006a0045007a004c0044004d0034004c004400490078004f00530077007a004d004300770079004d007a004d0073004d006a006b0073004c0054006b0077004c004800670000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000",
+            "displayUri": "ipfs://QmV7MC9qxrrRxJsF1zWQVSmQG23iQeQ13KxCVV5aH1z89x",
+            "thumbnailUri": "ipfs://QmdnWXzvYGgzjABkbpvuushJGJkgC1zByKXSqusFjbjcvj",
+            "authenticityHash": "12a9b79313f96e17031469179f3dec7d1ac85158512782309edc595a098a0716",
+            "attributes": [
+              {
+                "name": "Type",
+                "value": "Imitation"
+              },
+              {
+                "name": "Brush",
+                "value": "charcoal"
+              }
+            ],
+            "decimals": 0,
+            "symbol": "GENTK",
+            "version": "0.2"
+          },
+          "duplicate": false,
+          "activeListing": {
+            "id": 982383,
+            "version": 1,
+            "price": 25000000,
+            "__typename": "Listing"
+          },
+          "owner": {
+            "id": "tz1iQYj4WTf4Wv5Rrs2X3RCgu5WpfgNsdTYr",
+            "name": "Lunin",
+            "flag": "NONE",
+            "avatarUri": "ipfs://QmZZfMDKHb41E27dJ4Hc4rzipk8vmErREmwrhB4dDpeGhe",
+            "__typename": "User"
+          },
+          "issuer": {
+            "flag": "NONE",
+            "name": "Pensado a mano",
+            "author": {
+              "id": "tz1Z3A438AD3qZFNvoJBD5LQUYbomErw716Q",
+              "name": "Alejandro",
+              "type": "REGULAR",
+              "avatarUri": "ipfs://QmXWsQaRTEuupqxKw5C676mSTz11W3eE1nqftShu3SfRMH",
+              "flag": "VERIFIED",
+              "collaborators": null,
+              "__typename": "User"
+            },
+            "__typename": "GenerativeToken"
+          },
+          "__typename": "Objkt"
+        },
+        "__typename": "Listing"
+      },
+      {
+        "id": 982382,
+        "version": 1,
+        "price": 10000000,
+        "objkt": {
+          "id": "FX0-1597002",
+          "version": 1,
+          "name": "GENERATIVE GLASSES #104",
+          "slug": "generative-glasses-104",
+          "metadata": {
+            "name": "GENERATIVE GLASSES #104",
+            "iterationHash": "oo2uvKsNLHoFRzQh5i3F1QzaBeiRXz6dq79pLWRzqnE4rcm7363",
+            "description": "After 4 months of coding the Generative Glasses is ready! I gained a lot of experience along the way and I really liked the creation process.\n\nI wrote an article in which I report on the creation process in more detail. It can be found at the bottom of the page for related articles.\n\n👓 thousands of different outputs are possible\n👨‍💻 only code\n🎨 3D (#webGL #threejs) and 2D (#html5canvas) layers \n🎥 animated\n🖱️ interactive (+controls for mobile)\n😎 augmented reality view\n🟥 different previews: abstract view, product design view, and 2 other view\n🖼️ save images from current view in 4k - 3 different aspect ratio\n📼 save animation (from server side) on http://carco.hu\n\nCompositions:\n\n- There is an abstract view where the parts of the glasses are scattered\n- There is a front-right view\n- Front-left view\n- Top view\n- Product design view that converts to split screen\n- Front view where the object falls apart and starts from the abstract view again\n\nFirst, one of the 6 compositions comes in and the animation starts. The system randomly determines which composition should be the first in the line. This will also be the saved image that the fxhash system creates. \n\nIf you don't click or touch anything, the animation will loop continuously. If you click into the area anywhere, the controller will appear and the animation will stop. Until you get to the next composition and the animation stops, the pause button flashes until now you can't press anything, all buttons are disabled. If the animation has stopped, the buttons are enabled again, and you can move the camera in 3D space by dragging. \n\nThe controls have left and right arrows that can be used to step between compositions. The animation restarts with the play button.\n\nThere are also a few other buttons:\n\n- There is a save button which is a floppy disk. A menu will then appear, offering to save images of different proportions, with the default aspect ratio generated by the program code at the top. (Opening in a new window is required to save an image)\n\n- There is a camera icon that restores the original camera view. It is worth pressing this before saving.\n\nThere are options that are not available for all compositions, they only appear if they are enabled in current composition:\n\n- Switch split screen to main camera view, and back (4 squares icon)\n- Shows and hide Editing lines (pair of compasses)\n- Shows and hide Callout notations (pencil and ruler)\n- Shows AR view and stop it (cube icon) (Opening in a new window is required to AR view, more info below)\n\nKeyboard controls:\n\nPress “5” to save image to default aspect ratio\nPress “6” to save image to square aspect ratio\nPress “7” to save image to portrait aspect ratio\nPress “8” to save image to landscape aspect ratio\n\n(Opening in a new window is required to save an image)\n\nPress “ArrowDown” for restores the original camera view\nPress “D” to switch to next composition\nPress “A” to switch  to previous composition\nPress “S” to start animation\nPress “Spacebar” to switch to split screen (if it is available)\nPress “1” to hide/show Editing lines (if it is available)\nPress “2” to hide/show Callout notations (if it is available)\nPress “3” to hide/show AR view (Opening in a new window is required to AR view, more info below)\n\nAR view\n\nIf you have a camera on your device, you can try out how such glasses would suit you. This function is not available for all compositions, so if you cannot find the cube icon, tab to the next composition and click on the cube icon. I created this function with the help of Tensorflow face landmark detection package. It's not perfect, there are delays, but it's good enough to try out the glasses.\n\nMore information on how were made Generative Glasses in the related article below.\n\nThank you for your attention! Thanks for the support! Thanks for the opportunity fxhash and genart community! I hope I was able to contribute to generative art with my work!\n\n@C4RC0\ncarco.hu",
+            "tags": [
+              "generativeglasses",
+              "3d",
+              "2d",
+              "augmentedreality",
+              "ar",
+              "animated",
+              "interactive",
+              "constructivism",
+              "threejs"
+            ],
+            "generatorUri": "ipfs://QmViXs2889MxrdAApBn8D3DN48m5zxTC97QwRULU8EskdB",
+            "artifactUri": "ipfs://QmViXs2889MxrdAApBn8D3DN48m5zxTC97QwRULU8EskdB/?fxhash=oo2uvKsNLHoFRzQh5i3F1QzaBeiRXz6dq79pLWRzqnE4rcm7363",
+            "displayUri": "ipfs://QmX5ywvsysZN7r38utGFUCD3DwYJZUfMvB1Qppa5PAmPQL",
+            "thumbnailUri": "ipfs://QmTQJfLkjDeKcaDUgahvw9dMTbcAjAkDqKbKWCdSpKjuJt",
+            "authenticityHash": "2e4900e86932f0e87f704d62206acbc484265bdb6c04dc9f72e2bc82c862a086",
+            "attributes": [
+              {
+                "name": "1. Item type",
+                "value": "Glasses"
+              },
+              {
+                "name": "2. Frame",
+                "value": "1-Translucent"
+              },
+              {
+                "name": "3. Symmetry",
+                "value": "Symmetrical"
+              },
+              {
+                "name": "4. Material thickness",
+                "value": "1.5"
+              },
+              {
+                "name": "5. Color scheme",
+                "value": "Yellow, White, Gray"
+              },
+              {
+                "name": "6. Temples height",
+                "value": "8"
+              },
+              {
+                "name": "7. Temples tip (left)",
+                "value": "Boxes 14"
+              },
+              {
+                "name": "8. Temples middle (left)",
+                "value": "Boxes 13"
+              },
+              {
+                "name": "9. End piece (left)",
+                "value": "Boxes 10"
+              },
+              {
+                "name": "10. Lens (left)",
+                "value": "Octagon-Transparent-48x43x2.6"
+              },
+              {
+                "name": "11. Bridge",
+                "value": "1.5-Boxes 8"
+              },
+              {
+                "name": "12. Lens (right)",
+                "value": "Octagon-Transparent-48x43x2.6"
+              },
+              {
+                "name": "13. End piece (right)",
+                "value": "Boxes 10"
+              },
+              {
+                "name": "14. Temples middle (right)",
+                "value": "Boxes 13"
+              },
+              {
+                "name": "15. Temples tip (right)",
+                "value": "Boxes 14"
+              },
+              {
+                "name": "16. Product Number",
+                "value": "G1TS1.5YW8-B14B13-B10OT48x43x2.6-1.5B8-OT48x43x2.6B10-B13B14"
+              },
+              {
+                "name": "17. Product Created",
+                "value": "19/11/2022"
+              },
+              {
+                "name": "18. Default Aspect Ratio",
+                "value": "4K landscape"
+              },
+              {
+                "name": "19. Preview type",
+                "value": "Abstract view"
+              }
+            ],
+            "decimals": 0,
+            "symbol": "GENTK",
+            "version": "0.2"
+          },
+          "duplicate": false,
+          "activeListing": {
+            "id": 982382,
+            "version": 1,
+            "price": 10000000,
+            "__typename": "Listing"
+          },
+          "owner": {
+            "id": "tz1iQYj4WTf4Wv5Rrs2X3RCgu5WpfgNsdTYr",
+            "name": "Lunin",
+            "flag": "NONE",
+            "avatarUri": "ipfs://QmZZfMDKHb41E27dJ4Hc4rzipk8vmErREmwrhB4dDpeGhe",
+            "__typename": "User"
+          },
+          "issuer": {
+            "flag": "NONE",
+            "name": "GENERATIVE GLASSES",
+            "author": {
+              "id": "tz1S2eKVPGDvA1rS2NCpor5mzbw3HDfvea3S",
+              "name": "C4RC0",
+              "type": "REGULAR",
+              "avatarUri": "ipfs://QmcL4W9AGGMg6k7SyF5LPHbRwHnNLQk5mseH7ogAf6Vf75",
+              "flag": "VERIFIED",
+              "collaborators": null,
+              "__typename": "User"
+            },
+            "__typename": "GenerativeToken"
+          },
+          "__typename": "Objkt"
+        },
+        "__typename": "Listing"
+      },
+      {
+        "id": 982381,
+        "version": 1,
+        "price": 135000000,
+        "objkt": {
+          "id": "FX1-64128",
+          "version": 2,
+          "name": "Self, Superego #7",
+          "slug": "self-superego-7",
+          "metadata": {
+            "name": "Self, Superego #7",
+            "iterationHash": "oo1ByWhysPKtyCBfFU6Je43gE3wFviszWAynLqbUr9XbA4mLJbu",
+            "description": "The second installment of the Self trilogy.\n\nSuperego is defined as: the one of the three divisions of the psyche in psychoanalytic theory that is only partly conscious, represents internalization of parental conscience and the rules of society, and functions to reward and punish through a system of moral attitudes, conscience, and a sense of guilt.\n\nPlease see attached fx(text) article or go to https://ty-vek.art/self-trilogy for more on concept/mechanics/etc. It’s a bit of long read, but worth it.\n\n—————————\n\nAll projects are written in vanilla Javascript, composed as SVG and then rendered to a 2d canvas.\n\nThere might be slight differences in rendering from browser to browser. This is expected as they might translate the SVG slightly differently. Let's call Chromium renderings canonical. They also render faster there and we love that.\n\nPress \"S\" to save a PNG.\nPress \"V\" to save a SVG. (Chromium browsers render these pretty well.)\n\nBy default, these will render at 2400 x 3200 pixels. This is at density 1.\n\nTo render at a larger resolution you can append “&d=2” to the end of the url. This will double the resolution. You can also use 3 or 4 or whatever your browser can handle. Safari tends to have problems with this, so stick with Chromium based browsers (Chrome, Edge, Brave, etc.)\n\nIf you want to render as a square image, so it is optimized for ummm.. your pfp or something, you can append “&sq=t” to the url.\n\nIf you want to get rid of grain, just append “&g=n”\n\n—————————\n\nhttps://ty-vek.art/self-trilogy\nhttps://twitter.com/ty__vek\nhttps://www.fxhash.xyz/u/Ty%20Vek/articles\n",
+            "tags": [],
+            "generatorUri": "ipfs://QmXSP3QYxpJ6xwmpFjzRJzZ7Y7Z6TZa7qLXBSrDjNuQfT9",
+            "artifactUri": "ipfs://QmXSP3QYxpJ6xwmpFjzRJzZ7Y7Z6TZa7qLXBSrDjNuQfT9/?fxhash=oo1ByWhysPKtyCBfFU6Je43gE3wFviszWAynLqbUr9XbA4mLJbu&fxiteration=7&fxminter=tz1hkk6mDcwDHj8JtXNgEaYDLmijLAhkaFeG",
+            "displayUri": "ipfs://QmT9JEdE9jLo9xPXQ1EZhnBxQUBhShvD8cyjPS82eX1fpT",
+            "thumbnailUri": "ipfs://QmU6GpqZK6PoJLkhJLQiPEiF6P4JG7F3wZv3yaCDQDQwR4",
+            "authenticityHash": "0c5cd9b47f28a15b4322134e3a2a9b391f0f00b15779dacbbbc6418bb4ef56ec",
+            "attributes": true,
+            "decimals": 0,
+            "symbol": "GENTK",
+            "version": "0.2"
+          },
+          "duplicate": false,
+          "activeListing": {
+            "id": 982381,
+            "version": 1,
+            "price": 135000000,
+            "__typename": "Listing"
+          },
+          "owner": {
+            "id": "tz1hkk6mDcwDHj8JtXNgEaYDLmijLAhkaFeG",
+            "name": null,
+            "flag": "NONE",
+            "avatarUri": null,
             "__typename": "User"
           },
           "issuer": {
@@ -1436,24 +1406,258 @@
         "__typename": "Listing"
       },
       {
-        "id": 982284,
+        "id": 982380,
         "version": 1,
-        "price": 180000000,
+        "price": 10000000,
         "objkt": {
-          "id": "FX1-64183",
-          "version": 2,
-          "name": "Self, Superego #60",
-          "slug": "self-superego-60",
+          "id": "FX0-1596997",
+          "version": 1,
+          "name": "GENERATIVE GLASSES #99",
+          "slug": "generative-glasses-99",
           "metadata": {
-            "name": "Self, Superego #60",
-            "iterationHash": "ooGSkbX2Txdj5GdgZbNa8mgmMPDyoEPXJQncdX5sdHTxrV21aV2",
+            "name": "GENERATIVE GLASSES #99",
+            "iterationHash": "opZpWQVtc4WuaYRYYNoh6iUfefMb8MV7DRaGZfBQKMm8Mo5UaaH",
+            "description": "After 4 months of coding the Generative Glasses is ready! I gained a lot of experience along the way and I really liked the creation process.\n\nI wrote an article in which I report on the creation process in more detail. It can be found at the bottom of the page for related articles.\n\n👓 thousands of different outputs are possible\n👨‍💻 only code\n🎨 3D (#webGL #threejs) and 2D (#html5canvas) layers \n🎥 animated\n🖱️ interactive (+controls for mobile)\n😎 augmented reality view\n🟥 different previews: abstract view, product design view, and 2 other view\n🖼️ save images from current view in 4k - 3 different aspect ratio\n📼 save animation (from server side) on http://carco.hu\n\nCompositions:\n\n- There is an abstract view where the parts of the glasses are scattered\n- There is a front-right view\n- Front-left view\n- Top view\n- Product design view that converts to split screen\n- Front view where the object falls apart and starts from the abstract view again\n\nFirst, one of the 6 compositions comes in and the animation starts. The system randomly determines which composition should be the first in the line. This will also be the saved image that the fxhash system creates. \n\nIf you don't click or touch anything, the animation will loop continuously. If you click into the area anywhere, the controller will appear and the animation will stop. Until you get to the next composition and the animation stops, the pause button flashes until now you can't press anything, all buttons are disabled. If the animation has stopped, the buttons are enabled again, and you can move the camera in 3D space by dragging. \n\nThe controls have left and right arrows that can be used to step between compositions. The animation restarts with the play button.\n\nThere are also a few other buttons:\n\n- There is a save button which is a floppy disk. A menu will then appear, offering to save images of different proportions, with the default aspect ratio generated by the program code at the top. (Opening in a new window is required to save an image)\n\n- There is a camera icon that restores the original camera view. It is worth pressing this before saving.\n\nThere are options that are not available for all compositions, they only appear if they are enabled in current composition:\n\n- Switch split screen to main camera view, and back (4 squares icon)\n- Shows and hide Editing lines (pair of compasses)\n- Shows and hide Callout notations (pencil and ruler)\n- Shows AR view and stop it (cube icon) (Opening in a new window is required to AR view, more info below)\n\nKeyboard controls:\n\nPress “5” to save image to default aspect ratio\nPress “6” to save image to square aspect ratio\nPress “7” to save image to portrait aspect ratio\nPress “8” to save image to landscape aspect ratio\n\n(Opening in a new window is required to save an image)\n\nPress “ArrowDown” for restores the original camera view\nPress “D” to switch to next composition\nPress “A” to switch  to previous composition\nPress “S” to start animation\nPress “Spacebar” to switch to split screen (if it is available)\nPress “1” to hide/show Editing lines (if it is available)\nPress “2” to hide/show Callout notations (if it is available)\nPress “3” to hide/show AR view (Opening in a new window is required to AR view, more info below)\n\nAR view\n\nIf you have a camera on your device, you can try out how such glasses would suit you. This function is not available for all compositions, so if you cannot find the cube icon, tab to the next composition and click on the cube icon. I created this function with the help of Tensorflow face landmark detection package. It's not perfect, there are delays, but it's good enough to try out the glasses.\n\nMore information on how were made Generative Glasses in the related article below.\n\nThank you for your attention! Thanks for the support! Thanks for the opportunity fxhash and genart community! I hope I was able to contribute to generative art with my work!\n\n@C4RC0\ncarco.hu",
+            "tags": [
+              "generativeglasses",
+              "3d",
+              "2d",
+              "augmentedreality",
+              "ar",
+              "animated",
+              "interactive",
+              "constructivism",
+              "threejs"
+            ],
+            "generatorUri": "ipfs://QmViXs2889MxrdAApBn8D3DN48m5zxTC97QwRULU8EskdB",
+            "artifactUri": "ipfs://QmViXs2889MxrdAApBn8D3DN48m5zxTC97QwRULU8EskdB/?fxhash=opZpWQVtc4WuaYRYYNoh6iUfefMb8MV7DRaGZfBQKMm8Mo5UaaH",
+            "displayUri": "ipfs://QmYKCiB7t9rtbDSpaa8BqNYkW4ZqNspDXdeM32ayVvDQvr",
+            "thumbnailUri": "ipfs://QmcpVbNQk2XWYpfDVRv7e726gVfdpPkKPxGo6xY7prm1XY",
+            "authenticityHash": "333ff36171fc7716068e5e5235a304e4b9b29d2c2d01091b88fcfabfeb2a5c86",
+            "attributes": [
+              {
+                "name": "1. Item type",
+                "value": "Glasses"
+              },
+              {
+                "name": "2. Frame",
+                "value": "Rimless"
+              },
+              {
+                "name": "3. Symmetry",
+                "value": "Asymmetrical"
+              },
+              {
+                "name": "4. Material thickness",
+                "value": "2.5"
+              },
+              {
+                "name": "5. Color scheme",
+                "value": "Constructivist coast"
+              },
+              {
+                "name": "6. Temples height",
+                "value": "8"
+              },
+              {
+                "name": "7. Temples tip (left)",
+                "value": "L-shaped 9"
+              },
+              {
+                "name": "8. Temples middle (left)",
+                "value": "L-shaped 6"
+              },
+              {
+                "name": "9. End piece (left)",
+                "value": "L-shaped 4"
+              },
+              {
+                "name": "10. Lens (left)",
+                "value": "Octagon-Transparent-43x37x4"
+              },
+              {
+                "name": "11. Bridge",
+                "value": "1.5-Boxes 8"
+              },
+              {
+                "name": "12. Lens (right)",
+                "value": "Rectangle-Transparent-43x27x4"
+              },
+              {
+                "name": "13. End piece (right)",
+                "value": "L-shaped 3"
+              },
+              {
+                "name": "14. Temples middle (right)",
+                "value": "Boxes 6"
+              },
+              {
+                "name": "15. Temples tip (right)",
+                "value": "Boxes 12"
+              },
+              {
+                "name": "16. Product Number",
+                "value": "GRLA2.5CC8-L9L6-L4OT43x37x4-1.5B8-RT43x27x4L3-B6B12"
+              },
+              {
+                "name": "17. Product Created",
+                "value": "24/03/2023"
+              },
+              {
+                "name": "18. Default Aspect Ratio",
+                "value": "4K square"
+              },
+              {
+                "name": "19. Preview type",
+                "value": "Abstract view"
+              }
+            ],
+            "decimals": 0,
+            "symbol": "GENTK",
+            "version": "0.2"
+          },
+          "duplicate": false,
+          "activeListing": {
+            "id": 982380,
+            "version": 1,
+            "price": 10000000,
+            "__typename": "Listing"
+          },
+          "owner": {
+            "id": "tz1iQYj4WTf4Wv5Rrs2X3RCgu5WpfgNsdTYr",
+            "name": "Lunin",
+            "flag": "NONE",
+            "avatarUri": "ipfs://QmZZfMDKHb41E27dJ4Hc4rzipk8vmErREmwrhB4dDpeGhe",
+            "__typename": "User"
+          },
+          "issuer": {
+            "flag": "NONE",
+            "name": "GENERATIVE GLASSES",
+            "author": {
+              "id": "tz1S2eKVPGDvA1rS2NCpor5mzbw3HDfvea3S",
+              "name": "C4RC0",
+              "type": "REGULAR",
+              "avatarUri": "ipfs://QmcL4W9AGGMg6k7SyF5LPHbRwHnNLQk5mseH7ogAf6Vf75",
+              "flag": "VERIFIED",
+              "collaborators": null,
+              "__typename": "User"
+            },
+            "__typename": "GenerativeToken"
+          },
+          "__typename": "Objkt"
+        },
+        "__typename": "Listing"
+      },
+      {
+        "id": 982379,
+        "version": 1,
+        "price": 2500000,
+        "objkt": {
+          "id": "FX1-32595",
+          "version": 2,
+          "name": "Echo #7",
+          "slug": "echo-7",
+          "metadata": {
+            "name": "Echo #7",
+            "iterationHash": "op7AfFH752QetGGf3wUSFDcA59JvedM1wTfLqLkj53WP9aSE2Jr",
+            "description": "\"Echo\" is a generative abstract artwork made with p5js and custom shaders\n\nBased on my previous experience, known patterns and existing style preferences\nArtwork is 100% code, no images used.\n\nCONTROLS\nKEYS:\n\n- 1-3: Set resolution from 1x to 3x of the current dimension (possibly slower performance in higher values)\n- S: Save a png file with the current resolution\n\n----\nABOUT THE ARTIST\nWant to know more ? please read the \"SHORT BIO\" section here in \"Emotions\" collection: https://www.fxhash.xyz/generative/22243\n\n© May 2023  @Uniray_net | uniray.net",
+            "tags": [
+              "generative",
+              "genart",
+              "abstract",
+              "p5js",
+              "shaders",
+              "glsl",
+              "texture",
+              "natural media",
+              "uniray"
+            ],
+            "generatorUri": "ipfs://QmXboSh2Rppp4oPdWUzGS4QzLEuWFZXxWGwnMYb6Km95vG",
+            "artifactUri": "ipfs://QmXboSh2Rppp4oPdWUzGS4QzLEuWFZXxWGwnMYb6Km95vG/?fxhash=op7AfFH752QetGGf3wUSFDcA59JvedM1wTfLqLkj53WP9aSE2Jr&fxminter=tz1eMrFPD7twjRUCMRnTwQmAZinbSWiLnCRL",
+            "displayUri": "ipfs://QmXJpcEzHM1JZQLJBRuAEFuFmNugxJc5ME6exwY56cz5fR",
+            "thumbnailUri": "ipfs://Qme1E2EyBmrPm4gUNd8APTG5MT6LBUYcUTnhkBKvonAVuf",
+            "authenticityHash": "8fd628750d75c43cadd9e147e037579226d4ac8e8b1959c2da224044b34091f9",
+            "attributes": [
+              {
+                "name": "Palette",
+                "value": 15
+              },
+              {
+                "name": "Color Hue",
+                "value": 77
+              },
+              {
+                "name": "Step Size",
+                "value": "18.000"
+              },
+              {
+                "name": "Style",
+                "value": 2
+              },
+              {
+                "name": "Distortion",
+                "value": " 1.24"
+              },
+              {
+                "name": "Blur",
+                "value": "18.00"
+              }
+            ],
+            "decimals": 0,
+            "symbol": "GENTK",
+            "version": "0.2"
+          },
+          "duplicate": false,
+          "activeListing": {
+            "id": 982379,
+            "version": 1,
+            "price": 2500000,
+            "__typename": "Listing"
+          },
+          "owner": {
+            "id": "tz1eMrFPD7twjRUCMRnTwQmAZinbSWiLnCRL",
+            "name": "MEAMES.TEZ",
+            "flag": "NONE",
+            "avatarUri": "ipfs://QmT3teaxyLdm2o8zn6RvgC4LPrZjCZy9rMUgvBAi6ydLTV",
+            "__typename": "User"
+          },
+          "issuer": {
+            "flag": "NONE",
+            "name": "Echo",
+            "author": {
+              "id": "tz1QcdJhkog51LsA2XSc6PGZQTDKETbesTSi",
+              "name": "Uniray",
+              "type": "REGULAR",
+              "avatarUri": "ipfs://QmQdJTfHroeswMSQened4nucoDfmqR6exe6xVSSizkwmvi",
+              "flag": "VERIFIED",
+              "collaborators": null,
+              "__typename": "User"
+            },
+            "__typename": "GenerativeToken"
+          },
+          "__typename": "Objkt"
+        },
+        "__typename": "Listing"
+      },
+      {
+        "id": 982378,
+        "version": 1,
+        "price": 155000000,
+        "objkt": {
+          "id": "FX1-64302",
+          "version": 2,
+          "name": "Self, Superego #159",
+          "slug": "self-superego-159",
+          "metadata": {
+            "name": "Self, Superego #159",
+            "iterationHash": "oo2uHUZtpV6MXsiyQAx3CFjpRmSYrGDFHPR2G1nsjKGGjrBWa8T",
             "description": "The second installment of the Self trilogy.\n\nSuperego is defined as: the one of the three divisions of the psyche in psychoanalytic theory that is only partly conscious, represents internalization of parental conscience and the rules of society, and functions to reward and punish through a system of moral attitudes, conscience, and a sense of guilt.\n\nPlease see attached fx(text) article or go to https://ty-vek.art/self-trilogy for more on concept/mechanics/etc. It’s a bit of long read, but worth it.\n\n—————————\n\nAll projects are written in vanilla Javascript, composed as SVG and then rendered to a 2d canvas.\n\nThere might be slight differences in rendering from browser to browser. This is expected as they might translate the SVG slightly differently. Let's call Chromium renderings canonical. They also render faster there and we love that.\n\nPress \"S\" to save a PNG.\nPress \"V\" to save a SVG. (Chromium browsers render these pretty well.)\n\nBy default, these will render at 2400 x 3200 pixels. This is at density 1.\n\nTo render at a larger resolution you can append “&d=2” to the end of the url. This will double the resolution. You can also use 3 or 4 or whatever your browser can handle. Safari tends to have problems with this, so stick with Chromium based browsers (Chrome, Edge, Brave, etc.)\n\nIf you want to render as a square image, so it is optimized for ummm.. your pfp or something, you can append “&sq=t” to the url.\n\nIf you want to get rid of grain, just append “&g=n”\n\n—————————\n\nhttps://ty-vek.art/self-trilogy\nhttps://twitter.com/ty__vek\nhttps://www.fxhash.xyz/u/Ty%20Vek/articles\n",
             "tags": [],
             "generatorUri": "ipfs://QmXSP3QYxpJ6xwmpFjzRJzZ7Y7Z6TZa7qLXBSrDjNuQfT9",
-            "artifactUri": "ipfs://QmXSP3QYxpJ6xwmpFjzRJzZ7Y7Z6TZa7qLXBSrDjNuQfT9/?fxhash=ooGSkbX2Txdj5GdgZbNa8mgmMPDyoEPXJQncdX5sdHTxrV21aV2&fxiteration=60&fxminter=tz1NMuTqbLE2pxmbwET4k2HNeSU3Crj5XGbX",
-            "displayUri": "ipfs://QmPdufjsR1zV8nTNz3iioYDfHmcHDCbqxvToj4g3qctMVz",
-            "thumbnailUri": "ipfs://QmQnp4ZwCk2kqB9QWNZyySbit1fQTsSYNW4sQpanHhYmHh",
-            "authenticityHash": "70c30335f4ba63d968215810558a66821203bc5ef9f549770ff3ecc0e552925f",
+            "artifactUri": "ipfs://QmXSP3QYxpJ6xwmpFjzRJzZ7Y7Z6TZa7qLXBSrDjNuQfT9/?fxhash=oo2uHUZtpV6MXsiyQAx3CFjpRmSYrGDFHPR2G1nsjKGGjrBWa8T&fxiteration=159&fxminter=tz1QSPHsr7k5TPW4irTRgi2ZjjwUiHtuWLkU",
+            "displayUri": "ipfs://QmTyAkJc2HYpb38i5oFTQHATKuxxLaYogPwiAmYVT9zujS",
+            "thumbnailUri": "ipfs://QmXFYYXrrgRoB75SoHoTQfHPZ914af8LNAqajoc3BJjGrD",
+            "authenticityHash": "1aa3fca1f8a2596e82e4f547b478ca1cd259ca5e3e59698eab645d9c55756566",
             "attributes": true,
             "decimals": 0,
             "symbol": "GENTK",
@@ -1461,21 +1665,77 @@
           },
           "duplicate": false,
           "activeListing": {
-            "id": 982284,
+            "id": 982378,
             "version": 1,
-            "price": 180000000,
+            "price": 155000000,
             "__typename": "Listing"
           },
           "owner": {
-            "id": "tz1NMuTqbLE2pxmbwET4k2HNeSU3Crj5XGbX",
-            "name": null,
+            "id": "tz1QSPHsr7k5TPW4irTRgi2ZjjwUiHtuWLkU",
+            "name": "WorldTraveler",
             "flag": "NONE",
-            "avatarUri": null,
+            "avatarUri": "ipfs://QmWSxFgaJaw62kmSpeBHe3SEQte22ycsXTZNUhyYJF99pb",
             "__typename": "User"
           },
           "issuer": {
             "flag": "NONE",
             "name": "Self, Superego",
+            "author": {
+              "id": "tz1WjtJq3yUBHsozQvzx2b4DrLEgt9Sk2v8H",
+              "name": "Ty Vek",
+              "type": "REGULAR",
+              "avatarUri": "ipfs://QmZwtTzSqkG1QapBGW2DpbkmJsT9n875igcHAHJ5i4iEmt",
+              "flag": "VERIFIED",
+              "collaborators": null,
+              "__typename": "User"
+            },
+            "__typename": "GenerativeToken"
+          },
+          "__typename": "Objkt"
+        },
+        "__typename": "Listing"
+      },
+      {
+        "id": 982377,
+        "version": 1,
+        "price": 105000000,
+        "objkt": {
+          "id": "FX1-63111",
+          "version": 2,
+          "name": "Self, Id #183",
+          "slug": "self-id-183",
+          "metadata": {
+            "name": "Self, Id #183",
+            "iterationHash": "opRsAqvCnzxbmXPaK51C4yj9wFZKCJGvBwjpGpUysikA6H5FzY8",
+            "description": "The first installment of the Self trilogy.\n\nId is defined as: the one of the three divisions of the psyche in psychoanalytic theory that is completely unconscious and is the source of psychic energy derived from instinctual needs and drives.\n\nPlease see attached fx(text) article or go to https://ty-vek.art/self-trilogy for more on concept/mechanics/etc. It’s a bit of long read, but worth it.\n\n—————————\n\nAll projects are written in vanilla Javascript, composed as SVG and then rendered to a 2d canvas.\n\nThere might be slight differences in rendering from browser to browser. This is expected as they might translate the SVG slightly differently. Let's call Chromium renderings canonical. They also render faster there and we love that.\n\nPress \"S\" to save a PNG.\nPress \"V\" to save a SVG. (Chromium browsers render these pretty well.)\n\nBy default, these will render at 2400 x 3200 pixels. This is at density 1.\n\nTo render at a larger resolution you can append “&d=2” to the end of the url. This will double the resolution. You can also use 3 or 4 or whatever your browser can handle. Safari tends to have problems with this, so stick with Chromium based browsers (Chrome, Edge, Brave, etc.)\n\nIf you want to render as a square image, so it is optimized for ummm.. your pfp or something, you can append “&sq=t” to the url.\n\nIf you want to get rid of grain, just append “&g=n”\n\n—————————\n\nhttps://ty-vek.art/self-trilogy\nhttps://twitter.com/ty__vek\nhttps://www.fxhash.xyz/u/Ty%20Vek/articles\n",
+            "tags": [],
+            "generatorUri": "ipfs://QmRu3mwkSNaESx9ULX9WvSmS4hjTLKm4E1Wk6xKLHHofBN",
+            "artifactUri": "ipfs://QmRu3mwkSNaESx9ULX9WvSmS4hjTLKm4E1Wk6xKLHHofBN/?fxhash=opRsAqvCnzxbmXPaK51C4yj9wFZKCJGvBwjpGpUysikA6H5FzY8&fxiteration=183&fxminter=tz1fT8u4PVrhbGMMT9HTrxyGFfYn2F1gGrqB",
+            "displayUri": "ipfs://QmPKyCXJXVgX2gv5rUUPjx3kNT8yFuRQivmxm44me8nzrz",
+            "thumbnailUri": "ipfs://QmeJTNKyDi2tFw7xsgPJKQLm7HWDiXRyYRtiiZoLGMTTEr",
+            "authenticityHash": "e41d408e2249e447c8261a52f36e14f203f9e1cd4494d20cca5f31f738b67c64",
+            "attributes": true,
+            "decimals": 0,
+            "symbol": "GENTK",
+            "version": "0.2"
+          },
+          "duplicate": false,
+          "activeListing": {
+            "id": 982377,
+            "version": 1,
+            "price": 105000000,
+            "__typename": "Listing"
+          },
+          "owner": {
+            "id": "tz1fT8u4PVrhbGMMT9HTrxyGFfYn2F1gGrqB",
+            "name": "tz1fT8...gGrqB",
+            "flag": "NONE",
+            "avatarUri": "ipfs://QmfREwbd2rT5u2VXJHAAPnXZsEr8qN6RyigvrDHURkhVA9",
+            "__typename": "User"
+          },
+          "issuer": {
+            "flag": "NONE",
+            "name": "Self, Id",
             "author": {
               "id": "tz1WjtJq3yUBHsozQvzx2b4DrLEgt9Sk2v8H",
               "name": "Ty Vek",
