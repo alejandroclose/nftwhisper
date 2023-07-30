@@ -2,6 +2,490 @@
   "data": {
     "listings": [
       {
+        "id": 996413,
+        "version": 1,
+        "price": 3000000,
+        "objkt": {
+          "id": "FX0-1461194",
+          "version": 1,
+          "name": "Crowded #7",
+          "slug": "crowded-7",
+          "metadata": {
+            "name": "Crowded #7",
+            "iterationHash": "ooWNarLQx5a5hvQsJcqBt4JfwoYiuKZxUUrBJjT3VFJgRgysxWV",
+            "description": "“The best way to solve the problem of always having to stand in some sort of line is to choose a path that no one else is taking.”\n― Craig D. Lounsbrough\n\n1000 x 1000",
+            "tags": [
+              "lines",
+              "squares",
+              "structure",
+              "pattern"
+            ],
+            "generatorUri": "ipfs://QmS1cEzCSakURGtJv7xtKB9UqLDT6YS5hPSM4V2VybhGdU",
+            "artifactUri": "ipfs://QmS1cEzCSakURGtJv7xtKB9UqLDT6YS5hPSM4V2VybhGdU?fxhash=ooWNarLQx5a5hvQsJcqBt4JfwoYiuKZxUUrBJjT3VFJgRgysxWV",
+            "displayUri": "ipfs://QmVG2bgb8s47zQrCRYdTs6ZtWsx7a7Rg1amh3TLMUPGTrH",
+            "thumbnailUri": "ipfs://QmbDYPWPYWeTBEWe2pBxTDCbNxB954kNEYMzgRSGQUFvon",
+            "authenticityHash": "5d26b82d5c159d2af78ac9459a00ac286d6b569beb50ebe6734486af27f4c7b4",
+            "attributes": true,
+            "decimals": 0,
+            "symbol": "GENTK",
+            "version": "0.2"
+          },
+          "duplicate": false,
+          "activeListing": {
+            "id": 996413,
+            "version": 1,
+            "price": 3000000,
+            "__typename": "Listing"
+          },
+          "owner": {
+            "id": "tz1QyhKa31qxPjG9rnj35otH2pHyiWdPryVj",
+            "name": "HolgerLippmann",
+            "flag": "VERIFIED",
+            "avatarUri": "ipfs://QmbpbBcLUNuaBhq2raxZLizVqNtAqa2whnMaNLRwF2r78a",
+            "__typename": "User"
+          },
+          "issuer": {
+            "flag": "NONE",
+            "name": "Crowded",
+            "author": {
+              "id": "tz1Rfg2WCNpMaHhNSgmUUNgrAra3W4GUTicG",
+              "name": "Aeon Bloom",
+              "type": "REGULAR",
+              "avatarUri": "ipfs://QmUozWXb3gDBzCDKHevQs91vgozbCehFjiL1MnpwxjzdHV",
+              "flag": "VERIFIED",
+              "collaborators": null,
+              "__typename": "User"
+            },
+            "__typename": "GenerativeToken"
+          },
+          "__typename": "Objkt"
+        },
+        "__typename": "Listing"
+      },
+      {
+        "id": 996412,
+        "version": 1,
+        "price": 6000000,
+        "objkt": {
+          "id": "FX0-1504378",
+          "version": 1,
+          "name": "Viscous Circles #59",
+          "slug": "viscous-circles-59",
+          "metadata": {
+            "name": "Viscous Circles #59",
+            "iterationHash": "oop3BG4mG8N9vrtPDvLD8oE1jxnjBpVPFwZFhQxpc3gPjCP1B9q",
+            "description": "Watch your computer perform \"digital marbling\" by dropping digital colored inks on digital liquid and shape it with its own little digital fingers and some not very honest laws of digital physics.\n\nViscous Circles is the first iteration on a brand new Wasm/Rust fluid simulation engine. I intend to produce other generators with the many other ideas for digital marbling. If you like it, don't hesitate to mint some tokens, it helps me finance my work as it requires lots of energy & time to mix both technical exploit and artistic creation.\n\n\nControls\n\nYou can stop at any step if you like the state at this instant, you can restart it, de/increase resolution (default is 4096x4096 to have sharp image, up to what your CPU/GPU can manage) and snapshot at any resolution.\n\n- H: hide/show help.\n- Space - pause/start animation.\n- R - restart animation.\n- I - hide/show res/fps panel.\n- A-Q/D - down/up full resolution\n- S - take full resolution snapshot\n\n\nThe story\n\nI'm fascinated by the ancient art of \"marbling\", specially Turkish marbling (Ebrû), Japanese marbling (Suminagashi) but also Italian marbling from Florence and others from Persia, India, etc... Marbling's idea is so simple: drop ink droplets of different colors, viscosity, quantity in a liquid and let fluids interact following laws of nature. If they can't mix, they will repel each other create evocative shapes with respect to the strength when you drop it. Sometimes, they'll mix a bit creating new colors. Then you can shape by moving, pushing color particles with pencils, creating wind on the surface etc... Possibilities are infinite. At the end, you \"print\" the creation on a paper you put on the surface of liquid that will \"drink\" the ink. For examples, check Ertugrul Incel, a Turkish artist making amazing creations with fantastic color & compositions that can be minted on NFT platforms https://twitter.com/ErtugrulIncel.\n\nYet, what fascinates me in marbling is not only the result but the process of creation: I love watching marbling artists shaping their creations, it's like magic. You'll find plenty samples on youtube.\n\nThus, I wanted to build a unique generator inspired by those techniques and artists yet very humbly, not pretending to reproduce real-life marbling or artists. I want it to be \"digital marbling\" with its own behaviors, visuals, limitations. And the most important: I want it to offer the marbling performance made live to my minters. Finally, we are in computer world so we can simulate physics but we are also not constrained by it so we can change physics. Thus, you'll see behaviors that are impossible in real-life (specially about curls & vortices).\n\nThis generator is also the result of a long technical exploration. I've spent couple of months building a Webgl/WASM/Rust/JS engine approximating Navier-Stoke fluid mechanics equation on GPU (and CPU too), strongly relying on existing great implementations https://github.com/PavelDoGreat/WebGL-Fluid-Simulation and https://shahriyarshahrabi.medium.com/gentle-introduction-to-fluid-simulation-for-programmers-and-technical-artists-7c0045c40bac themselves reproducing other works, specially those from Nvidia people. The rest of the work is my own touch to make it behave as I want first and then make the generative magic happen by randomizing creation until it starts to surprise myself. And I'm really surprised.\n\nNow, time to marble!\n\nViscous Circles @naibdian 2023 Project made using Opensource WebGL, WASM/Rust/JS libs\n",
+            "tags": [
+              "live",
+              "interactive",
+              "animated",
+              "2d",
+              "marbling",
+              "ebru",
+              "suminagashi",
+              "physics",
+              "webgl",
+              "wasm",
+              "realtime",
+              "fluid",
+              "gpu"
+            ],
+            "generatorUri": "ipfs://Qmd4A9UxuZMLhZS96TkUKjYHuzYRyyCtAjJYpPyC3najdC",
+            "artifactUri": "ipfs://Qmd4A9UxuZMLhZS96TkUKjYHuzYRyyCtAjJYpPyC3najdC?fxhash=oop3BG4mG8N9vrtPDvLD8oE1jxnjBpVPFwZFhQxpc3gPjCP1B9q",
+            "displayUri": "ipfs://QmYRDeeT2Sprj7ZjyY4G5dkgu6hoQAUnUEYLLdsa6JTcrt",
+            "thumbnailUri": "ipfs://QmaSop36i9L9Xwmog3j7bxq5HgomEeQZfakHqac5KVAsdM",
+            "authenticityHash": "b09bd5a3541087d2e23fe52aec1b51e9532066151af66896214343590076fc18",
+            "attributes": [
+              {
+                "name": "layers",
+                "value": 14
+              },
+              {
+                "name": "petals",
+                "value": 0
+              },
+              {
+                "name": "spikes",
+                "value": 12
+              },
+              {
+                "name": "splats",
+                "value": "excentric"
+              },
+              {
+                "name": "steps",
+                "value": 2
+              },
+              {
+                "name": "strength",
+                "value": 3
+              },
+              {
+                "name": "radius",
+                "value": 2
+              },
+              {
+                "name": "curlSteps",
+                "value": 1
+              },
+              {
+                "name": "hazard",
+                "value": 0
+              },
+              {
+                "name": "palette",
+                "value": "tropical"
+              }
+            ],
+            "decimals": 0,
+            "symbol": "GENTK",
+            "version": "0.2"
+          },
+          "duplicate": false,
+          "activeListing": {
+            "id": 996412,
+            "version": 1,
+            "price": 6000000,
+            "__typename": "Listing"
+          },
+          "owner": {
+            "id": "tz1QyhKa31qxPjG9rnj35otH2pHyiWdPryVj",
+            "name": "HolgerLippmann",
+            "flag": "VERIFIED",
+            "avatarUri": "ipfs://QmbpbBcLUNuaBhq2raxZLizVqNtAqa2whnMaNLRwF2r78a",
+            "__typename": "User"
+          },
+          "issuer": {
+            "flag": "NONE",
+            "name": "Viscous Circles",
+            "author": {
+              "id": "tz1PYADtd4JhgC1MmWYq7LHevu63bHwbWXg1",
+              "name": "Naibdian",
+              "type": "REGULAR",
+              "avatarUri": "ipfs://QmYLQKsfq91eeaFJwh1ueksxW7cVwbrGzSPL8DABkSSYEF",
+              "flag": "VERIFIED",
+              "collaborators": null,
+              "__typename": "User"
+            },
+            "__typename": "GenerativeToken"
+          },
+          "__typename": "Objkt"
+        },
+        "__typename": "Listing"
+      },
+      {
+        "id": 996411,
+        "version": 1,
+        "price": 16000000,
+        "objkt": {
+          "id": "FX0-1406582",
+          "version": 1,
+          "name": "Keep On #7",
+          "slug": "keep-on-7",
+          "metadata": {
+            "name": "Keep On #7",
+            "iterationHash": "onx1ZsvTXubXMa4TUMVJrjPWUrfaoWfia8NiRqvTtYcvBSJyF7G",
+            "description": "One year ago, I published my first Fx(hash) work, \"Finding my way\". This piece marks its anniversary, and is intended as a THANK YOU to all the people that collected my works. \n\nIt is based on the same algorithm as \"Finding my way\", i.e. a line growth animated process based on Substrate (Jared Tarbell, 2003) guided by dynamically changing vector fields made with trigonometric functions, but it uses different palettes, more vector fields, and a few more tweakings of the algorithm parameters.\n\nThe original piece was intended to symbolise a person's process of finding her/his way. Upon further reflections on the result, I think it more as representing a community process. So here is my wish for the Fx(hash) community, let's keep on finding our way.   \n\nIn what now could become a tradition, I've stolen again a palette from the beautiful work of Iskra Velitchkova.\n\nImplemented using various packages from thi.ng/umbrella by Karsten Schmidt, AKA Toxi",
+            "tags": [
+              "generativeart",
+              "generative",
+              "lines"
+            ],
+            "generatorUri": "ipfs://QmRHVHKSJSoUT7d8UXchyUDN6WCVrdJxGA2GuKk9k1BMLU",
+            "artifactUri": "ipfs://QmRHVHKSJSoUT7d8UXchyUDN6WCVrdJxGA2GuKk9k1BMLU?fxhash=onx1ZsvTXubXMa4TUMVJrjPWUrfaoWfia8NiRqvTtYcvBSJyF7G",
+            "displayUri": "ipfs://QmSgXktaEKDJXgPDTYnKunhSNYWvEB4R1mwfySwkqSMZ6j",
+            "thumbnailUri": "ipfs://QmSjUvhN7R6W5xMMi3U3wdyTjwZKMrJaRwnvBVXw7ra8fo",
+            "authenticityHash": "92a194ffbb570627c4ed6073979184550f9162e6a3e747f46efa2d1de6b9f365",
+            "attributes": [
+              {
+                "name": "style",
+                "value": "line with ripples"
+              },
+              {
+                "name": "palette",
+                "value": "passions"
+              },
+              {
+                "name": "strategy",
+                "value": "oblique"
+              },
+              {
+                "name": "initial_ways",
+                "value": "many"
+              },
+              {
+                "name": "exploration_scale",
+                "value": "large"
+              },
+              {
+                "name": "path",
+                "value": "bold"
+              },
+              {
+                "name": "exploration_type",
+                "value": "sum"
+              }
+            ],
+            "decimals": 0,
+            "symbol": "GENTK",
+            "version": "0.2"
+          },
+          "duplicate": false,
+          "activeListing": {
+            "id": 996411,
+            "version": 1,
+            "price": 16000000,
+            "__typename": "Listing"
+          },
+          "owner": {
+            "id": "tz1ZjEwXyHtcnD48WfYy9YRpkkc7dSP3Nh4W",
+            "name": null,
+            "flag": "NONE",
+            "avatarUri": null,
+            "__typename": "User"
+          },
+          "issuer": {
+            "flag": "NONE",
+            "name": "Keep On",
+            "author": {
+              "id": "tz2GCJP4skiWtn6jyM9KvtRJXpHZjAm4XxWD",
+              "name": "Doble",
+              "type": "REGULAR",
+              "avatarUri": "ipfs://QmefC411MJQ926agYLEoFDzXXUZJ1QRsQCQ7oubJC23BJv",
+              "flag": "VERIFIED",
+              "collaborators": null,
+              "__typename": "User"
+            },
+            "__typename": "GenerativeToken"
+          },
+          "__typename": "Objkt"
+        },
+        "__typename": "Listing"
+      },
+      {
+        "id": 996410,
+        "version": 1,
+        "price": 84000000,
+        "objkt": {
+          "id": "FX0-1051219",
+          "version": 1,
+          "name": "kylt #291",
+          "slug": "kylt-291",
+          "metadata": {
+            "name": "kylt #291",
+            "iterationHash": "opQMLYj17BYZDyJWYpgaw5swPphk4ZmhHhf8ch3pN1FCio3ypsC",
+            "description": "Dissolving, dancing, decaying structures.\n\nUsing tinycolor2 and p5-noise.\nLicense: CC BY-NC-SA 4.0\n",
+            "tags": [
+              "SVG",
+              "generative"
+            ],
+            "generatorUri": "ipfs://QmRuiXzRDtxeBwNyxizZTaQcC6eyGFcz9khG7AxYmg8wzN",
+            "artifactUri": "ipfs://QmRuiXzRDtxeBwNyxizZTaQcC6eyGFcz9khG7AxYmg8wzN?fxhash=opQMLYj17BYZDyJWYpgaw5swPphk4ZmhHhf8ch3pN1FCio3ypsC",
+            "displayUri": "ipfs://QmZDjL8aJkRNKRfeoHBv1ukqLVugpGoWPQr196txfn9mWu",
+            "thumbnailUri": "ipfs://QmR4sP4iwdE2g56qsXcDUmL5DEnFYysFK8PJy73epZ3C1e",
+            "authenticityHash": "776962bdb364a9269ff296daf05982efb7eada855fe2dc620037fc41bb78e03a",
+            "attributes": [
+              {
+                "name": "Density",
+                "value": "low"
+              },
+              {
+                "name": "Noise",
+                "value": false
+              },
+              {
+                "name": "Grad",
+                "value": true
+              },
+              {
+                "name": "Grad Mag",
+                "value": 40
+              },
+              {
+                "name": "Supergrad",
+                "value": 3
+              },
+              {
+                "name": "Monolith",
+                "value": false
+              },
+              {
+                "name": "ri",
+                "value": "negative"
+              },
+              {
+                "name": "soc",
+                "value": "xl"
+              },
+              {
+                "name": "eco",
+                "value": "xr"
+              },
+              {
+                "name": "rey",
+                "value": "low"
+              },
+              {
+                "name": "Heavy",
+                "value": "low"
+              },
+              {
+                "name": "SdFn",
+                "value": "3+rl"
+              },
+              {
+                "name": "GmFn",
+                "value": "y/h"
+              },
+              {
+                "name": "Ambient",
+                "value": "normal"
+              },
+              {
+                "name": "Ink",
+                "value": true
+              },
+              {
+                "name": "ImFn",
+                "value": "y/h"
+              },
+              {
+                "name": "Shadow",
+                "value": "Charcoal"
+              },
+              {
+                "name": "Shine",
+                "value": "Egg White"
+              },
+              {
+                "name": "Altar",
+                "value": "Wine Berry"
+              }
+            ],
+            "decimals": 0,
+            "symbol": "GENTK",
+            "version": "0.2"
+          },
+          "duplicate": false,
+          "activeListing": {
+            "id": 996410,
+            "version": 1,
+            "price": 84000000,
+            "__typename": "Listing"
+          },
+          "owner": {
+            "id": "tz1VGZPvqytFVAoSAsM8VrUveJdL3PpVy6K9",
+            "name": "A R T R A",
+            "flag": "NONE",
+            "avatarUri": "ipfs://QmS34juW7zj5QEB8VzYCLLQMDaisbQAPV641f9rHUxjYBM",
+            "__typename": "User"
+          },
+          "issuer": {
+            "flag": "NONE",
+            "name": "kylt",
+            "author": {
+              "id": "tz1gGZLL1uW5jW5y3x26r9ZxSMZjxHdmSN51",
+              "name": "Phlins",
+              "type": "REGULAR",
+              "avatarUri": "ipfs://QmWoR29nx86wVsGa9Fo2B1Lc3ZsTeTKtPxRiEPbjaqfBnm",
+              "flag": "VERIFIED",
+              "collaborators": null,
+              "__typename": "User"
+            },
+            "__typename": "GenerativeToken"
+          },
+          "__typename": "Objkt"
+        },
+        "__typename": "Listing"
+      },
+      {
+        "id": 996409,
+        "version": 1,
+        "price": 20000000,
+        "objkt": {
+          "id": "FX1-77250",
+          "version": 2,
+          "name": "◉◉◉ #11",
+          "slug": "11-99a0586f-8619-4f1f-8652-7a6abf7c84df",
+          "metadata": {
+            "name": "◉◉◉ #11",
+            "iterationHash": "opKZeZjF9y2TBsHQadNA8C9q18Ty2V23J1Q6nvgY8sFMieazVdg",
+            "description": "\"◉◉◉\" presents a collection of pointillistic drawings generated by p5js. However, the work deviates from the traditional method as employed by Georges Seurat; rather than placing the smallest units of dots, the process involves scaling down the dots from larger to smaller sizes. As a result, finer details are progressively drawn, creating a visual blend of colors as the dots overlap.\n\"◉◉◉\" project is an exploration of pixels and dots in the computer, but also of painting itself.\n\nThe technique is an application of a simple random walk algorithm. Walkers, each designated with a color, traverse the canvas. The overlapping and colliding footprints of these walkers instigate a color-on-color confrontation, eventually creating distinguishable ground and figures. This process elicits the illusion of a visual object, exposing the viewer's cognitive processes and continuously reenacting the site of image formation.\nIn fact, I have painted such an abstract on a physical canvas before, and the way the p5js develops the sensation of brushstrokes and color combinations does not seem very different from the sensation of the paintbrush and canvas at that time.\n\nMuch like Damien Hirst's Spot Paintings, the multi-layered dots eventually settle at regular intervals after a specific number of iterations. The smallest dots, resembling the texture of a canvas, along with the added motion of the dots, akin to dripping paint, bestow the work with a more painterly flavor.\nThis piece serves as both a token of gratitude for my existing collectors and a technical demonstration of my craft.\n\n2400 × 2400 px\np5js\n2023 July\nhasaqui\n",
+            "tags": [
+              "p5js",
+              "hasaqui",
+              "painting",
+              "pointillistic"
+            ],
+            "generatorUri": "ipfs://QmYCcAKK1h7aujVHr1877z7AuSvHdV4a4r9i8K1tj6o8Tv",
+            "artifactUri": "ipfs://QmYCcAKK1h7aujVHr1877z7AuSvHdV4a4r9i8K1tj6o8Tv/?fxhash=opKZeZjF9y2TBsHQadNA8C9q18Ty2V23J1Q6nvgY8sFMieazVdg&fxiteration=11&fxminter=tz1ViCN5U3H68rhv4kGSi7AefyuZ9Mb2WPUV",
+            "displayUri": "ipfs://QmaA2oSnQqhNp6PfB8QMmjzfv9ripzWyhtLHZNG2zBtS5X",
+            "thumbnailUri": "ipfs://QmP7TZdj7bMXaEhqjtCYbNhoE8n4aqzqNnTvju5Vx9ChNp",
+            "authenticityHash": "05592d5fbb8199f7623e95a2d7b903b768db0920088b951e61ab8bb7f32494c9",
+            "attributes": [
+              {
+                "name": "PaintBrushes",
+                "value": 91
+              },
+              {
+                "name": "Iteration",
+                "value": 2546
+              },
+              {
+                "name": "ColorPalette",
+                "value": "sFr62TgPp"
+              },
+              {
+                "name": "StepMode",
+                "value": "SideStep"
+              },
+              {
+                "name": "AddBlack",
+                "value": 2
+              },
+              {
+                "name": "AddWhite",
+                "value": 4
+              }
+            ],
+            "decimals": 0,
+            "symbol": "GENTK",
+            "version": "0.2",
+            "snippetVersion": "3.3.0"
+          },
+          "duplicate": false,
+          "activeListing": {
+            "id": 996409,
+            "version": 1,
+            "price": 20000000,
+            "__typename": "Listing"
+          },
+          "owner": {
+            "id": "tz1Xpwj8BWpJnFSfwDdg2DfNzr2ttLasHdJB",
+            "name": null,
+            "flag": "NONE",
+            "avatarUri": null,
+            "__typename": "User"
+          },
+          "issuer": {
+            "flag": "NONE",
+            "name": "◉◉◉",
+            "author": {
+              "id": "tz2EyogxqyV7GwVT2rk14YUhq3brBocyKFuX",
+              "name": "hasaqui",
+              "type": "REGULAR",
+              "avatarUri": "ipfs://QmcFdX9CiheiugzxdwysnAPQdSK6uYZ39gLn3eKQ1fnaHL",
+              "flag": "VERIFIED",
+              "collaborators": null,
+              "__typename": "User"
+            },
+            "__typename": "GenerativeToken"
+          },
+          "__typename": "Objkt"
+        },
+        "__typename": "Listing"
+      },
+      {
         "id": 996408,
         "version": 1,
         "price": 14000000,
@@ -1306,434 +1790,6 @@
               "name": "Wanda Oliver",
               "type": "REGULAR",
               "avatarUri": "ipfs://QmSh4T9y2sg4xSZaWXAva1Vd5ipBUkxQmzqsuHABR4Ygzj",
-              "flag": "VERIFIED",
-              "collaborators": null,
-              "__typename": "User"
-            },
-            "__typename": "GenerativeToken"
-          },
-          "__typename": "Objkt"
-        },
-        "__typename": "Listing"
-      },
-      {
-        "id": 996393,
-        "version": 1,
-        "price": 12000000,
-        "objkt": {
-          "id": "FX1-66337",
-          "version": 2,
-          "name": "初夏の旅路 Traveling in Early Summer #83",
-          "slug": "traveling-in-early-summer-83",
-          "metadata": {
-            "name": "初夏の旅路 Traveling in Early Summer #83",
-            "iterationHash": "opG1YoVHDmVjUrLxYtQpqpHL7TJZAou3EybCpN73FVz4m7KtFvR",
-            "description": "\"初夏の旅路 Traveling in Early Summer\"\nis part of the interactive minting experience at Proof of X with KUMALEON, Tokyo, 2023.\n\n----・----・----・----・----・----・----・----・----・----・----・----\n\nConcept:\n\nAs the rainy days came to an end, the gentle fall of cherry blossoms marked the arrival of early summer. This transitional phase between spring and summer brings a mild and pleasant climate. Nature awakens, showcasing vibrant shades of green as plants thrive and flourish. A stroll through the streets of Tokyo reveals a captivating sight: hydrangeas of various colors grace every corner, casting a spell of natural beauty. While the occasional typhoon may pass by, it does not overshadow the charm of this season. Moreover, the ripening plums offer a taste of traditional Japanese flavors, with options ranging from sour plums to plum wine.\n\nMy inspiration for this piece draws upon my own impressions of early summer in Japan. In 2019, having recently arrived in Japan, I embarked on a journey to Kamakura with my friends. The vivid hydrangeas and serene ponds at Hasedera Temple left an indelible mark on my memory as my first encounter with the essence of early summer in Japan. It was during that year that I delved into the realm of creative coding, by using Processing. The following year, in 2020, I ventured further into generative art using P5.js. Both my pursuit of knowledge in Japan and my creative endeavors became integral parts of my life's journey, akin to cherished scenic spots that leave a lasting impression. Through my artwork, I aspire to share my sentiments from this transformative voyage with the audience.\n\n----・----・----・----・----・----・----・----・----・----・----・----\n\nNow, let's delve into the details of my creation. The objective of this artwork was to portray a top-down perspective of a pond encircled by lush vegetation, reminiscent of a landscape painting. To imbue the work with different atmospheres, I incorporated four distinct styles for the plant elements: grass, leaves, pine needles, and bubbles. The interplay of these elements breathes life into the still scene, infusing the entire artwork with vitality. The rippling water and gracefully swimming koi in the pond evoke a sense of movement, juxtaposing the serene setting. In Eastern culture, koi symbolizes wealth, auspiciousness, health, and happiness. It bestows good fortune upon those who encounter it. Ultimately, my artwork encapsulates my initial impression of early summer in Japan through a creative approach that intertwines reality and imagination, merging motion and stillness.\n\nThrough this artistic endeavor, I aim to transport the audience to the captivating realm of early summer in Japan. With its vibrant colors, gentle breezes, and the promise of new beginnings, this season captures the essence of natural beauty and the richness of Japanese culture. May my work resonate with viewers, allowing them to embark on their own journey through the enchanting landscapes of their imagination.\n\n----・----・----・----・----・----・----・----・----・----・----・----\n\nSave as a Picture:\n\nPress “s”or “S” to download a PNG copy of the artwork.\n",
-            "tags": [
-              "Proof of X",
-              "KUMALEON",
-              "summer",
-              "travel",
-              "p5.js",
-              "japan",
-              "memory"
-            ],
-            "generatorUri": "ipfs://QmRvqKBU6Cxc3ucb5Sv3qetb89KtfvrL7JfyeWqxqEXVJu",
-            "artifactUri": "ipfs://QmRvqKBU6Cxc3ucb5Sv3qetb89KtfvrL7JfyeWqxqEXVJu/?fxhash=opG1YoVHDmVjUrLxYtQpqpHL7TJZAou3EybCpN73FVz4m7KtFvR&fxiteration=83&fxminter=tz2QtF8BZuMYj65RiczWoHD7JpQbWohPfLFE&fxparams=4048000000000000401000000000000040000000000000004064000000000000",
-            "displayUri": "ipfs://QmeDUh3AEAQcg8TJz7Lf1a2eSZRyTzW3Pa6Mhwjmo2LP1M",
-            "thumbnailUri": "ipfs://QmNRVLQnBer3uCbEXJoA7X2qgVUv87K27M2Sazu5aoWTPC",
-            "authenticityHash": "cb1c2798cf7bb03b320004cdb85bf6c84c69b4946f8ea0353038979ecbdf07bb",
-            "attributes": [
-              {
-                "name": "Seed Number",
-                "value": 48
-              },
-              {
-                "name": "Type of Plants",
-                "value": 4
-              },
-              {
-                "name": "Amount of Fishes",
-                "value": 2
-              },
-              {
-                "name": "Amount of Waves",
-                "value": 160
-              }
-            ],
-            "decimals": 0,
-            "symbol": "GENTK",
-            "version": "0.2"
-          },
-          "duplicate": false,
-          "activeListing": {
-            "id": 996393,
-            "version": 1,
-            "price": 12000000,
-            "__typename": "Listing"
-          },
-          "owner": {
-            "id": "tz2QtF8BZuMYj65RiczWoHD7JpQbWohPfLFE",
-            "name": "SamuelYAN",
-            "flag": "VERIFIED",
-            "avatarUri": "ipfs://QmSyvQqZvtHWeFz2kbkNVk8KQK9krHKYgSHc3fiFcT2VnZ",
-            "__typename": "User"
-          },
-          "issuer": {
-            "flag": "NONE",
-            "name": "初夏の旅路 Traveling in Early Summer",
-            "author": {
-              "id": "KT1HocU4X8W4USMbqHrkMd9hYi7FxpPsfLth",
-              "name": null,
-              "type": "COLLAB_CONTRACT_V1",
-              "avatarUri": null,
-              "flag": "NONE",
-              "collaborators": [
-                {
-                  "id": "tz1UJTfbYQWyZBpR5AhfnRDgzcfaSvjfPz3c",
-                  "name": "Proof of X",
-                  "avatarUri": "ipfs://QmW2oQ74zAyCYD5EnFDPZEkacWDXz8ahFuscpMdFHGDJo7",
-                  "flag": "VERIFIED",
-                  "__typename": "User"
-                },
-                {
-                  "id": "tz1QDkAea9R3ChnHFpZQhKshUBvcNRCGooDt",
-                  "name": "KUMALEON",
-                  "avatarUri": "ipfs://Qmbi1ygcSi1Hsc28PnXm1m1dDeF1ACjYoyH6qkfYR7vrtv",
-                  "flag": "VERIFIED",
-                  "__typename": "User"
-                },
-                {
-                  "id": "tz2QtF8BZuMYj65RiczWoHD7JpQbWohPfLFE",
-                  "name": "SamuelYAN",
-                  "avatarUri": "ipfs://QmSyvQqZvtHWeFz2kbkNVk8KQK9krHKYgSHc3fiFcT2VnZ",
-                  "flag": "VERIFIED",
-                  "__typename": "User"
-                }
-              ],
-              "__typename": "User"
-            },
-            "__typename": "GenerativeToken"
-          },
-          "__typename": "Objkt"
-        },
-        "__typename": "Listing"
-      },
-      {
-        "id": 996392,
-        "version": 1,
-        "price": 137000000,
-        "objkt": {
-          "id": "FX1-14292",
-          "version": 2,
-          "name": "2 Shapes #87",
-          "slug": "2-shapes-87",
-          "metadata": {
-            "name": "2 Shapes #87",
-            "iterationHash": "op3f7XAXwSuxC6hRLQVZzSPwNhgfT8MjgMKdQW1kKBuwaW5Vf5K",
-            "description": "‘2 Shapes’ is the very first Generative Token by Anna: 2 triangles shift and stretch horizontally and mirrored vertically. There are 50 colour-variations and various possibilities for individual ‘2 Shapes‘. \n",
-            "tags": [],
-            "generatorUri": "ipfs://QmQxm3w7bifdqbugkZpyMDBUPxGtS2Q5kft28iwoRb9BZU",
-            "artifactUri": "ipfs://QmQxm3w7bifdqbugkZpyMDBUPxGtS2Q5kft28iwoRb9BZU/?fxhash=op3f7XAXwSuxC6hRLQVZzSPwNhgfT8MjgMKdQW1kKBuwaW5Vf5K",
-            "displayUri": "ipfs://QmT8kZjDftoTqPqUr4YDHmjtXtf291rN782zABNhWpKFxi",
-            "thumbnailUri": "ipfs://QmUz7LPB6R2UZQrP3T7MQ7fztf8CURimvYLroJB4KAexmK",
-            "authenticityHash": "1d75e001b67e8ced2936e7168fe6dde350700c6c3a6d0efec990abdca155ba05",
-            "attributes": true,
-            "decimals": 0,
-            "symbol": "GENTK",
-            "version": "0.2"
-          },
-          "duplicate": false,
-          "activeListing": {
-            "id": 996392,
-            "version": 1,
-            "price": 137000000,
-            "__typename": "Listing"
-          },
-          "owner": {
-            "id": "tz1M1TAPmAWgZGR4hcC1MFALjAVSih3YCXE2",
-            "name": "simulation",
-            "flag": "NONE",
-            "avatarUri": null,
-            "__typename": "User"
-          },
-          "issuer": {
-            "flag": "NONE",
-            "name": "2 Shapes",
-            "author": {
-              "id": "tz2LY7SstuRTUAjbnyPi9fk3C7AQP9i7caTo",
-              "name": "Anna Beller",
-              "type": "REGULAR",
-              "avatarUri": "ipfs://QmUtaYC8RX6T2fSq1CDoi2tdjpLQ4beboDL2FA3YKvqFNy",
-              "flag": "VERIFIED",
-              "collaborators": null,
-              "__typename": "User"
-            },
-            "__typename": "GenerativeToken"
-          },
-          "__typename": "Objkt"
-        },
-        "__typename": "Listing"
-      },
-      {
-        "id": 996391,
-        "version": 1,
-        "price": 420000000,
-        "objkt": {
-          "id": "FX0-118315",
-          "version": 0,
-          "name": "City of Night #6",
-          "slug": "city-of-night-6",
-          "metadata": {
-            "name": "City of Night #6",
-            "iterationHash": "ooayAC8yVGP4d4ffHrK6RHt4omqfYwgQMC2QqF9osixx8dN1my1",
-            "description": "The Generative Art by Mantra Code.\nCreate random composition with different background color\n\n",
-            "tags": [
-              "generative",
-              "composition"
-            ],
-            "artifactUri": "ipfs://QmbhuFpceJBvrptnoyox2aWdwf9KLoq4kcdFVPEGhVKkta",
-            "displayUri": "ipfs://QmP8PxzS7oLKQfpCyunciPZVubmGtu9JgnzZeWpKotf7qm",
-            "thumbnailUri": "ipfs://QmPu6Pavr3h5hreqnuEaaS8KeTJQg9zcbAVqt2WvhsENfq",
-            "authenticityHash": "e52a76b9846faf35aee2ef99effd4f760f1fe0fab3b31fd0a60f9bd04f11ca9a",
-            "attributes": [],
-            "decimals": 0,
-            "symbol": "GENTK"
-          },
-          "duplicate": false,
-          "activeListing": {
-            "id": 996391,
-            "version": 1,
-            "price": 420000000,
-            "__typename": "Listing"
-          },
-          "owner": {
-            "id": "tz1c4MRQur9Gz8Yzx1Bv6ssemBkbeF5fhErx",
-            "name": "tz1c4MRQur9Gz8Yzx1Bv6ssemBkbeF5fhErx",
-            "flag": "NONE",
-            "avatarUri": "ipfs://QmQcoKXRTYKVi6oUVNs7HV4k29D7xzF1DQ2chYpUaxwTCS",
-            "__typename": "User"
-          },
-          "issuer": {
-            "flag": "NONE",
-            "name": "City of Night",
-            "author": {
-              "id": "tz1cJzxmHFKdGNYXeCkWyrY2AYnWuajMVNfx",
-              "name": "Mantra Code",
-              "type": "REGULAR",
-              "avatarUri": "ipfs://QmWjjjhDubzxVG8DGEHWZ7v56YZxFnfdCCQz5N8oqAEPvR",
-              "flag": "VERIFIED",
-              "collaborators": null,
-              "__typename": "User"
-            },
-            "__typename": "GenerativeToken"
-          },
-          "__typename": "Objkt"
-        },
-        "__typename": "Listing"
-      },
-      {
-        "id": 996390,
-        "version": 1,
-        "price": 1250000000,
-        "objkt": {
-          "id": "FX0-430933",
-          "version": 0,
-          "name": "Solace #129",
-          "slug": "solace-129",
-          "metadata": {
-            "name": "Solace #129",
-            "iterationHash": "opZyAGouDRdNhneMZtWBDakrhV64afW5f67PQxkhNRUhXoPv4wU",
-            "description": "Solace is an algorithm that generates artworks of sand dunes. It draws hundreds of thousands of tiny points according to a probability distribution calculated from the positions of the dunes.\n\nThe logic to divide the dunes into light and dark sides is simple, but produces some interesting chaotic behaviour. These are details that weren't hard-coded but emerge organically, such as the patterns on the spines of the dunes or the stripes around their bases.\n\nPlease note that the algorithm can take some time to run, especially when the number of dunes is high.\n\nCreated by lunarean.",
-            "tags": [
-              "desert",
-              "dune",
-              "sand",
-              "nature",
-              "landscape",
-              "organic",
-              "p5js",
-              "processing"
-            ],
-            "generatorUri": "ipfs://QmebWKMJfBv7i1KAUMn5auH761qnXCY6ioKaa6KC47y2sR",
-            "artifactUri": "ipfs://QmebWKMJfBv7i1KAUMn5auH761qnXCY6ioKaa6KC47y2sR?fxhash=opZyAGouDRdNhneMZtWBDakrhV64afW5f67PQxkhNRUhXoPv4wU",
-            "displayUri": "ipfs://Qmd6RBc1zmQNg2a2KU9ogB5y275RMfymdGEQVmkxftvrEg",
-            "thumbnailUri": "ipfs://QmbicSufAHGsCBS5Ge8AzVzp5SvxsvrTggb6Joz9yKzVM9",
-            "authenticityHash": "fcce465fcab7bb99e6b091c8613272f261d3df768bb9e74ac20e7f5af5c14f90",
-            "attributes": [
-              {
-                "name": "Palette",
-                "value": "Polar"
-              },
-              {
-                "name": "Dunes",
-                "value": 3
-              },
-              {
-                "name": "Sky",
-                "value": "Timelapse"
-              },
-              {
-                "name": "Margin",
-                "value": "Narrow"
-              },
-              {
-                "name": "Brush",
-                "value": "Sand"
-              },
-              {
-                "name": "Render",
-                "value": "Banners"
-              },
-              {
-                "name": "Dusty",
-                "value": false
-              },
-              {
-                "name": "Misty",
-                "value": true
-              },
-              {
-                "name": "Dancers",
-                "value": false
-              },
-              {
-                "name": "Sandstorm",
-                "value": false
-              }
-            ],
-            "decimals": 0,
-            "symbol": "GENTK",
-            "version": "0.2"
-          },
-          "duplicate": false,
-          "activeListing": {
-            "id": 996390,
-            "version": 1,
-            "price": 1250000000,
-            "__typename": "Listing"
-          },
-          "owner": {
-            "id": "tz1ZyB7fSeut4CeoriwNvsEnoXaPjNEwzvsb",
-            "name": "Jstenn13",
-            "flag": "NONE",
-            "avatarUri": "ipfs://QmdF2DTCwV21c6edsHcRXU38qLZL8BTqGDWzCth9xT7B8t",
-            "__typename": "User"
-          },
-          "issuer": {
-            "flag": "NONE",
-            "name": "Solace",
-            "author": {
-              "id": "tz1Rakav1r6xMmrvYiXZjdvz3T1wNU4igoQM",
-              "name": "lunarean",
-              "type": "REGULAR",
-              "avatarUri": "ipfs://QmSAEoWDgNSQD39EYAK2hpDYrcWDJThNWJsA2S77ffHcNS",
-              "flag": "VERIFIED",
-              "collaborators": null,
-              "__typename": "User"
-            },
-            "__typename": "GenerativeToken"
-          },
-          "__typename": "Objkt"
-        },
-        "__typename": "Listing"
-      },
-      {
-        "id": 996389,
-        "version": 1,
-        "price": 1100000000,
-        "objkt": {
-          "id": "FX0-430929",
-          "version": 0,
-          "name": "Solace #125",
-          "slug": "solace-125",
-          "metadata": {
-            "name": "Solace #125",
-            "iterationHash": "onsLRuz3Bqf7oeFZfXuYPWFjF1A7DrkYLckTDXws3CeKSCQRBcq",
-            "description": "Solace is an algorithm that generates artworks of sand dunes. It draws hundreds of thousands of tiny points according to a probability distribution calculated from the positions of the dunes.\n\nThe logic to divide the dunes into light and dark sides is simple, but produces some interesting chaotic behaviour. These are details that weren't hard-coded but emerge organically, such as the patterns on the spines of the dunes or the stripes around their bases.\n\nPlease note that the algorithm can take some time to run, especially when the number of dunes is high.\n\nCreated by lunarean.",
-            "tags": [
-              "desert",
-              "dune",
-              "sand",
-              "nature",
-              "landscape",
-              "organic",
-              "p5js",
-              "processing"
-            ],
-            "generatorUri": "ipfs://QmebWKMJfBv7i1KAUMn5auH761qnXCY6ioKaa6KC47y2sR",
-            "artifactUri": "ipfs://QmebWKMJfBv7i1KAUMn5auH761qnXCY6ioKaa6KC47y2sR?fxhash=onsLRuz3Bqf7oeFZfXuYPWFjF1A7DrkYLckTDXws3CeKSCQRBcq",
-            "displayUri": "ipfs://QmSfuTAyw2jWm6qPnL12Y3UHtm8QouHf7BRNbW2mJexdbn",
-            "thumbnailUri": "ipfs://QmVssn3okr8KfFnTtHjxgyXQwU6AcAA4HFZ9q9f18iGzKB",
-            "authenticityHash": "0d843231d2eadae2856b84efa541779f1e3d62945cd0e194dc0820a538d5f468",
-            "attributes": [
-              {
-                "name": "Palette",
-                "value": "Smart"
-              },
-              {
-                "name": "Dunes",
-                "value": 48
-              },
-              {
-                "name": "Sky",
-                "value": "Tabula"
-              },
-              {
-                "name": "Margin",
-                "value": "None"
-              },
-              {
-                "name": "Brush",
-                "value": "Sand"
-              },
-              {
-                "name": "Render",
-                "value": "Simple"
-              },
-              {
-                "name": "Dusty",
-                "value": false
-              },
-              {
-                "name": "Misty",
-                "value": true
-              },
-              {
-                "name": "Dancers",
-                "value": false
-              },
-              {
-                "name": "Sandstorm",
-                "value": false
-              }
-            ],
-            "decimals": 0,
-            "symbol": "GENTK",
-            "version": "0.2"
-          },
-          "duplicate": false,
-          "activeListing": {
-            "id": 996389,
-            "version": 1,
-            "price": 1100000000,
-            "__typename": "Listing"
-          },
-          "owner": {
-            "id": "tz1ZyB7fSeut4CeoriwNvsEnoXaPjNEwzvsb",
-            "name": "Jstenn13",
-            "flag": "NONE",
-            "avatarUri": "ipfs://QmdF2DTCwV21c6edsHcRXU38qLZL8BTqGDWzCth9xT7B8t",
-            "__typename": "User"
-          },
-          "issuer": {
-            "flag": "NONE",
-            "name": "Solace",
-            "author": {
-              "id": "tz1Rakav1r6xMmrvYiXZjdvz3T1wNU4igoQM",
-              "name": "lunarean",
-              "type": "REGULAR",
-              "avatarUri": "ipfs://QmSAEoWDgNSQD39EYAK2hpDYrcWDJThNWJsA2S77ffHcNS",
               "flag": "VERIFIED",
               "collaborators": null,
               "__typename": "User"
