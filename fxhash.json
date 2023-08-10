@@ -2,53 +2,48 @@
   "data": {
     "listings": [
       {
-        "id": 1002282,
+        "id": 1002368,
         "version": 1,
-        "price": 10000000,
+        "price": 20000000,
         "objkt": {
-          "id": "FX1-83934",
+          "id": "FX1-79074",
           "version": 2,
-          "name": "follow my lead #87",
-          "slug": "follow-my-lead-87",
+          "name": "Bistable Perception #54",
+          "slug": "bistable-perception-54",
           "metadata": {
-            "name": "follow my lead #87",
-            "iterationHash": "oooa66bb6YtLm5Msw69q3VBtAPcuyurdNFvpggaEubrU65RSyed",
-            "description": "'follow my lead' is a visualization of three communities of individuals, and the ways in which they interact with each other.\n\nUsing an implementation of a physarum slime mold model, I create three distinct groups of homogenous individuals, with each group having different sentiments towards the others. Individuals within a community make their best effort to follow each other around, and depending on group preferences try to either move towards or away from those in other groups.\n\nAll of these interactions take place on a simulated three dimensional landscape (that varies by token), with groups of individuals having a preference towards either moving uphill or downhill.\n\nEach group begins with a different spatial distribution, such that the extent of exposure to others can change over time.\n\nFor more details on the slime mold implementation and a link to the github repo containing the code, see the accompanying fx(text) article.\n\n\nAnimation\n---------\nThis is designed first as a static piece. The final image consists of running 300 steps of the algorithm and then stopping.\n\nHowever, I have also exposed a couple of ways to watch the image evolve over time. It should be noted that for some outputs, the image will eventually degenerate as we go well past the initial 300 frames.\n\nKeys:\n- space: Pauses/unpauses the animation\n- 'F': Fresh start - reloads the page and animates the first 300 frames, pausing when finished (or append &fresh=true to the URL)\n- 'A': Animate - reloads the page and animates in perpetuity (or append &animate=true to the URL)\n\nWebGL\n-----\nThis piece makes heavy use of shaders/WebGL. I've put quite a lot of time/effort into trying to ensure things behave identically across different browsers/hardware. I've managed to get things to the point where I was consistently seeing identical outputs on the set of hardware available to me. However, there is still a risk that on other hardware specs, things will not be identical. Furthermore, it is the nature of this project that even very small differences in calculations can become exaggerated after multiple steps of the algorithm, leading to larger differences in the final result.\n\n\nReferences:\nJeff Jones's Physarum paper: https://uwe-repository.worktribe.com/output/980579\nSage Jensen's post on Physarum, which was my first exposure to it: https://cargocollective.com/sagejenson/physarum\nColor names generated using coloraze: https://github.com/evansque/coloraze",
+            "name": "Bistable Perception #54",
+            "iterationHash": "oo5uAw8zGGca9BFP7xxfjh1gmG9TnsPPbBVLGBjbi22CsrLdQig",
+            "description": "Visually ambiguous patterns are the primary texture that pervade each iteration. Subtle gradients imbued with grainy noise color each fracture. A deliberate balance is struck between negative space and dense pockets of visual chaos. A gradual process of refinement that almost masks an oscillation between two modes of being.\n\n--------\n\nIn live mode, add &size=<YOUR_PIXEL_SIZE> to change the pixel size of the image for export (Right click to save). For example, &size=4000 will set the width of the image to be 4000 pixels.\n\nWarning: This piece is CPU intensive, it may not render on lower end devices.",
             "tags": [
-              "physarum",
-              "webgl",
-              "follow my lead",
-              "Gabriel"
+              "colorful",
+              "shapes",
+              "texture",
+              "vibrant",
+              "fractured",
+              "grainy",
+              "geometric"
             ],
-            "generatorUri": "ipfs://Qma86NMoqqGkwvoVVLSyDJGE35Dy3QJgfoZfGANsecAHY4",
-            "artifactUri": "ipfs://Qma86NMoqqGkwvoVVLSyDJGE35Dy3QJgfoZfGANsecAHY4/?fxhash=oooa66bb6YtLm5Msw69q3VBtAPcuyurdNFvpggaEubrU65RSyed&fxiteration=87&fxminter=tz1Lk6DK84Yf8TmmXoYYGkEtoezJa8H63xsY",
-            "displayUri": "ipfs://QmajiCVJPEMHy1cAQDkhTs78qBJsYoyxYz2nnWmEdGpxmM",
-            "thumbnailUri": "ipfs://QmSaRbLRona8VxgNJZtximEX7gA5HnyodexQtJoFQtqbin",
-            "authenticityHash": "31cd0fa4af4446fc37531adf4e1a054fea4b98852ef25f76e074450f8d0b076a",
+            "generatorUri": "ipfs://QmVbvLmg2hJMLqK2vy24RcLiEc4AKMDxkQq3tLP5AVazuL",
+            "artifactUri": "ipfs://QmVbvLmg2hJMLqK2vy24RcLiEc4AKMDxkQq3tLP5AVazuL/?fxhash=oo5uAw8zGGca9BFP7xxfjh1gmG9TnsPPbBVLGBjbi22CsrLdQig&fxiteration=54&fxminter=tz1Lk6DK84Yf8TmmXoYYGkEtoezJa8H63xsY",
+            "displayUri": "ipfs://QmdHM4LTjUiNdTMkqHC8o4HxcWYZRbTVQGJjQDTmZ1eEn2",
+            "thumbnailUri": "ipfs://QmV7Yu9Zxf8Bjro69c3sHRGjQ3q69YfLEmJXh7M9faZ7Jn",
+            "authenticityHash": "432b9b0af4905641d925e57088c61bf6c099f45defd563a32ad62189b86405be",
             "attributes": [
               {
-                "name": "background",
-                "value": "Tuatara"
+                "name": "Color Palette",
+                "value": 8
               },
               {
-                "name": "communities",
-                "value": "William, Alto, Black Squeeze"
+                "name": "Diagonal Overlay",
+                "value": true
               },
               {
-                "name": "diffusion",
+                "name": "Explode",
                 "value": false
               },
               {
-                "name": "landscape",
-                "value": "grid"
-              },
-              {
-                "name": "border",
-                "value": false
-              },
-              {
-                "name": "jumbled attraction",
-                "value": false
+                "name": "Split Mode",
+                "value": "diagonal"
               }
             ],
             "decimals": 0,
@@ -58,26 +53,179 @@
           },
           "duplicate": false,
           "activeListing": {
-            "id": 1002282,
+            "id": 1002368,
+            "version": 1,
+            "price": 20000000,
+            "__typename": "Listing"
+          },
+          "owner": {
+            "id": "tz1Lk6DK84Yf8TmmXoYYGkEtoezJa8H63xsY",
+            "name": "tatsuatsa2014",
+            "flag": "NONE",
+            "avatarUri": "ipfs://QmfYn1PZQDVBP8h5VXxbnMVhUbXMHcviPWorrB42zHLoKc",
+            "__typename": "User"
+          },
+          "issuer": {
+            "flag": "NONE",
+            "name": "Bistable Perception",
+            "author": {
+              "id": "tz1RkYY3jr1ocuPdQqrRefr5FqoawKQsmBmD",
+              "name": "Landlines Art",
+              "type": "REGULAR",
+              "avatarUri": "ipfs://QmaDnzJ8wPMQ9uLAHDsCfnn8g7U13zvKNRUiPLgUnepxCQ",
+              "flag": "VERIFIED",
+              "collaborators": null,
+              "__typename": "User"
+            },
+            "__typename": "GenerativeToken"
+          },
+          "__typename": "Objkt"
+        },
+        "__typename": "Listing"
+      },
+      {
+        "id": 1002367,
+        "version": 1,
+        "price": 20000000,
+        "objkt": {
+          "id": "FX1-79215",
+          "version": 2,
+          "name": "Bistable Perception #114",
+          "slug": "bistable-perception-114",
+          "metadata": {
+            "name": "Bistable Perception #114",
+            "iterationHash": "ooFsftvvU4e4qKGQvLqDL4mRseXbfrPsuVhNtpfLvVBZViuQNea",
+            "description": "Visually ambiguous patterns are the primary texture that pervade each iteration. Subtle gradients imbued with grainy noise color each fracture. A deliberate balance is struck between negative space and dense pockets of visual chaos. A gradual process of refinement that almost masks an oscillation between two modes of being.\n\n--------\n\nIn live mode, add &size=<YOUR_PIXEL_SIZE> to change the pixel size of the image for export (Right click to save). For example, &size=4000 will set the width of the image to be 4000 pixels.\n\nWarning: This piece is CPU intensive, it may not render on lower end devices.",
+            "tags": [
+              "colorful",
+              "shapes",
+              "texture",
+              "vibrant",
+              "fractured",
+              "grainy",
+              "geometric"
+            ],
+            "generatorUri": "ipfs://QmVbvLmg2hJMLqK2vy24RcLiEc4AKMDxkQq3tLP5AVazuL",
+            "artifactUri": "ipfs://QmVbvLmg2hJMLqK2vy24RcLiEc4AKMDxkQq3tLP5AVazuL/?fxhash=ooFsftvvU4e4qKGQvLqDL4mRseXbfrPsuVhNtpfLvVBZViuQNea&fxiteration=114&fxminter=tz1Lk6DK84Yf8TmmXoYYGkEtoezJa8H63xsY",
+            "displayUri": "ipfs://QmQazQwGUd1pCDtgdv71xFdpcvCm6qLxiLktLVhpXSKjb5",
+            "thumbnailUri": "ipfs://QmWaqrWdtTiPi4EKdGr85wQEBSZPN7MydRJtZBNcGUZo9L",
+            "authenticityHash": "3d7767faafba7e192f0d8898ad124b77183657ae5fa030dad9f1d803f73df48f",
+            "attributes": [
+              {
+                "name": "Color Palette",
+                "value": 5
+              },
+              {
+                "name": "Diagonal Overlay",
+                "value": false
+              },
+              {
+                "name": "Explode",
+                "value": true
+              },
+              {
+                "name": "Split Mode",
+                "value": "diagonal"
+              }
+            ],
+            "decimals": 0,
+            "symbol": "GENTK",
+            "version": "0.2",
+            "snippetVersion": "3.3.0"
+          },
+          "duplicate": false,
+          "activeListing": {
+            "id": 1002367,
+            "version": 1,
+            "price": 20000000,
+            "__typename": "Listing"
+          },
+          "owner": {
+            "id": "tz1Lk6DK84Yf8TmmXoYYGkEtoezJa8H63xsY",
+            "name": "tatsuatsa2014",
+            "flag": "NONE",
+            "avatarUri": "ipfs://QmfYn1PZQDVBP8h5VXxbnMVhUbXMHcviPWorrB42zHLoKc",
+            "__typename": "User"
+          },
+          "issuer": {
+            "flag": "NONE",
+            "name": "Bistable Perception",
+            "author": {
+              "id": "tz1RkYY3jr1ocuPdQqrRefr5FqoawKQsmBmD",
+              "name": "Landlines Art",
+              "type": "REGULAR",
+              "avatarUri": "ipfs://QmaDnzJ8wPMQ9uLAHDsCfnn8g7U13zvKNRUiPLgUnepxCQ",
+              "flag": "VERIFIED",
+              "collaborators": null,
+              "__typename": "User"
+            },
+            "__typename": "GenerativeToken"
+          },
+          "__typename": "Objkt"
+        },
+        "__typename": "Listing"
+      },
+      {
+        "id": 1002366,
+        "version": 1,
+        "price": 10000000,
+        "objkt": {
+          "id": "FX1-80244",
+          "version": 2,
+          "name": "Lookouts #21",
+          "slug": "lookouts-21",
+          "metadata": {
+            "name": "Lookouts #21",
+            "iterationHash": "opVzQzFtjuPFaRQhFawEBtwCvKGBUcEQxtMbDeL3xEdXwGbHVop",
+            "description": "Lookouts is a generative illustration done 100% in code using p5js. Inspired by my love for travel and minimalist design, this collection is built based on custom shapes filled with solid colors & limited texture.\n\nThe accompanying fxtext article (in ‘Mentions’ below) shares more details about the inspiration and development process of this project.\n\nLookouts renders as a fixed resolution output (2000 x 1666px). Controls (in live view): \nPress [4] to render at 4000 x 3333px\nPress [8] to render at 8000 x 6666px\nPress [s] to save the current view (default or higher resolution image)",
+            "tags": [
+              "p5js",
+              "landscape",
+              "minimal",
+              "lookouts"
+            ],
+            "generatorUri": "ipfs://QmchQWUCKuTU4KvuVjFUrVx4dhpMJCtv3LWXFwcY7LHp7v",
+            "artifactUri": "ipfs://QmchQWUCKuTU4KvuVjFUrVx4dhpMJCtv3LWXFwcY7LHp7v/?fxhash=opVzQzFtjuPFaRQhFawEBtwCvKGBUcEQxtMbDeL3xEdXwGbHVop&fxiteration=21&fxminter=tz1Lk6DK84Yf8TmmXoYYGkEtoezJa8H63xsY",
+            "displayUri": "ipfs://QmNRvBg1i7qFd4WbFfL3kQp7CvbyWutKsafurgLtMyPqPD",
+            "thumbnailUri": "ipfs://QmeNC7JqWMNjDjXoVixXjUu33HFPBAuda95um8U7f2RceA",
+            "authenticityHash": "2b5cd888434c080c193e95792f2db3c74f6b0ea2c8dfe67660f1d2bd04643d28",
+            "attributes": [
+              {
+                "name": "Scene",
+                "value": "Hilltop"
+              },
+              {
+                "name": "Palette",
+                "value": "Snow"
+              }
+            ],
+            "decimals": 0,
+            "symbol": "GENTK",
+            "version": "0.2",
+            "snippetVersion": "3.3.0"
+          },
+          "duplicate": false,
+          "activeListing": {
+            "id": 1002366,
             "version": 1,
             "price": 10000000,
             "__typename": "Listing"
           },
           "owner": {
-            "id": "tz1ivKQKHLv8kNKxn61LB5JNxfX9AhDWiv8v",
-            "name": "FiskersNFT",
+            "id": "tz1Lk6DK84Yf8TmmXoYYGkEtoezJa8H63xsY",
+            "name": "tatsuatsa2014",
             "flag": "NONE",
-            "avatarUri": "ipfs://Qmd9A2ni3AS6oKCr4eBMGPCeaZCtTJRXDcwLtWpCsyjJAz",
+            "avatarUri": "ipfs://QmfYn1PZQDVBP8h5VXxbnMVhUbXMHcviPWorrB42zHLoKc",
             "__typename": "User"
           },
           "issuer": {
             "flag": "NONE",
-            "name": "follow my lead",
+            "name": "Lookouts",
             "author": {
-              "id": "tz1PjYs7SYBeULD8xWjMvxsCfCd2W4kuttYV",
-              "name": "Gabriel",
+              "id": "tz1i8iSYHMt7CQ2iQSDLXacn7dg8iiDVsBgr",
+              "name": "Saurabh",
               "type": "REGULAR",
-              "avatarUri": "ipfs://QmdLSFXhAKtmHToB7H1D7mvSsv3hsFWkSqbULbj9oxmyWP",
+              "avatarUri": "ipfs://QmPX2sKDpwgQBpm32CSYeSJLPALjhCuN1tHCfXYmHBRvWi",
               "flag": "VERIFIED",
               "collaborators": null,
               "__typename": "User"
@@ -89,346 +237,561 @@
         "__typename": "Listing"
       },
       {
-        "id": 1002281,
+        "id": 1002365,
         "version": 1,
-        "price": 15000000,
+        "price": 10000000,
         "objkt": {
-          "id": "FX1-85576",
+          "id": "FX1-80261",
           "version": 2,
-          "name": "ecologías - A #1468",
-          "slug": "ecologias-a-1468",
+          "name": "Lookouts #36",
+          "slug": "lookouts-36",
           "metadata": {
-            "name": "ecologías - A #1468",
-            "iterationHash": "ooMADz3pyWdhaPNeH4VwcYBC1M12rCTiZCRjD3Tt3QenDZ65mBE",
-            "description": "ecologías - A\n\nlines are a metaphor for the communication all species engage in. We as humans have a need to leave traces - stories - that others can read and learn from. What will be the traces machines want to leave? This piece employs sinusoidal signals drawn with lines as a simple metaphor for every trace and every language, for every message and every communication.\n\necologías-A is an entity that is part of a broader ecology. Released on occasion of the show \"Unbound - Ecology in the Age of Machines\" at Unit London. The data generated by this entity is read by a different piece minted on Ethereum, creating a link between Tezos and Ethereum, a metaphor for an ecology of blockchains.\n\nit shares a common element with two other works released on fxhash: ecologías B and ecologías C, all of them contributing data to aforementioned pieces.\n\nread more at https://www.iillucid.com/ecologias\n\n15% of primary sales are donated to institutions working towards improving biodiversity and environmental efforts.\n\nMarcelo Soria-Rodríguez, @msoriaro\nCC BY-NC-SA 4.0, https://creativecommons.org/licenses/by-nc-sa/4.0/\n\nBuilt on p5.js, glsl\n\nappend &pd=N (N a number) to the URL in live view to increase/decrease resolution\npress s to save current image in current resolution\npress z,x,g,b,n followed by +/- to increase/decrease, respectively, brightness, contrast, gamma, blur, noise",
-            "tags": [],
-            "generatorUri": "ipfs://QmQfd8R4axV7URxtkJdJ56AdZKu6EMKtYGNDoXVyBW65iZ",
-            "artifactUri": "ipfs://QmQfd8R4axV7URxtkJdJ56AdZKu6EMKtYGNDoXVyBW65iZ/?fxhash=ooMADz3pyWdhaPNeH4VwcYBC1M12rCTiZCRjD3Tt3QenDZ65mBE&fxiteration=1468&fxminter=tz1ivKQKHLv8kNKxn61LB5JNxfX9AhDWiv8v",
-            "displayUri": "ipfs://QmdGjpp9ZVgt2ZNHaJa4KCAdvjjAqVBbsgs1hveGghYaTX",
-            "thumbnailUri": "ipfs://QmTXQmg9qf1E73tFKfwd5T4JkUVzCZXwaG1PAaAZFufFkF",
-            "authenticityHash": "a02d7e4b317d3eac39f10b0989587872264566f5d3d835a6522af5326a5a25d7",
-            "attributes": [
-              {
-                "name": "entity",
-                "value": "A"
-              },
-              {
-                "name": "ecology",
-                "value": "ecologías"
-              }
-            ],
-            "decimals": 0,
-            "symbol": "GENTK",
-            "version": "0.2",
-            "snippetVersion": "3.3.0"
-          },
-          "duplicate": false,
-          "activeListing": {
-            "id": 1002281,
-            "version": 1,
-            "price": 15000000,
-            "__typename": "Listing"
-          },
-          "owner": {
-            "id": "tz1ivKQKHLv8kNKxn61LB5JNxfX9AhDWiv8v",
-            "name": "FiskersNFT",
-            "flag": "NONE",
-            "avatarUri": "ipfs://Qmd9A2ni3AS6oKCr4eBMGPCeaZCtTJRXDcwLtWpCsyjJAz",
-            "__typename": "User"
-          },
-          "issuer": {
-            "flag": "NONE",
-            "name": "ecologías - A",
-            "author": {
-              "id": "tz1eCX4smQ3LbxwDR3pqNoLQvNNKiHJtpwYz",
-              "name": "msoriaro",
-              "type": "REGULAR",
-              "avatarUri": "ipfs://QmU9cPLFmtqhRZUXxJywGZwuy62kXiwzmgQFsqwgzub8f8",
-              "flag": "VERIFIED",
-              "collaborators": null,
-              "__typename": "User"
-            },
-            "__typename": "GenerativeToken"
-          },
-          "__typename": "Objkt"
-        },
-        "__typename": "Listing"
-      },
-      {
-        "id": 1002280,
-        "version": 1,
-        "price": 8790000,
-        "objkt": {
-          "id": "FX1-84670",
-          "version": 2,
-          "name": "ecologías - A #712",
-          "slug": "ecologias-a-712",
-          "metadata": {
-            "name": "ecologías - A #712",
-            "iterationHash": "ooQhbBt2k7wCnsWXv12oRmmDUufSaRypMXbxkoT5hM6ELc6JSwv",
-            "description": "ecologías - A\n\nlines are a metaphor for the communication all species engage in. We as humans have a need to leave traces - stories - that others can read and learn from. What will be the traces machines want to leave? This piece employs sinusoidal signals drawn with lines as a simple metaphor for every trace and every language, for every message and every communication.\n\necologías-A is an entity that is part of a broader ecology. Released on occasion of the show \"Unbound - Ecology in the Age of Machines\" at Unit London. The data generated by this entity is read by a different piece minted on Ethereum, creating a link between Tezos and Ethereum, a metaphor for an ecology of blockchains.\n\nit shares a common element with two other works released on fxhash: ecologías B and ecologías C, all of them contributing data to aforementioned pieces.\n\nread more at https://www.iillucid.com/ecologias\n\n15% of primary sales are donated to institutions working towards improving biodiversity and environmental efforts.\n\nMarcelo Soria-Rodríguez, @msoriaro\nCC BY-NC-SA 4.0, https://creativecommons.org/licenses/by-nc-sa/4.0/\n\nBuilt on p5.js, glsl\n\nappend &pd=N (N a number) to the URL in live view to increase/decrease resolution\npress s to save current image in current resolution\npress z,x,g,b,n followed by +/- to increase/decrease, respectively, brightness, contrast, gamma, blur, noise",
-            "tags": [],
-            "generatorUri": "ipfs://QmQfd8R4axV7URxtkJdJ56AdZKu6EMKtYGNDoXVyBW65iZ",
-            "artifactUri": "ipfs://QmQfd8R4axV7URxtkJdJ56AdZKu6EMKtYGNDoXVyBW65iZ/?fxhash=ooQhbBt2k7wCnsWXv12oRmmDUufSaRypMXbxkoT5hM6ELc6JSwv&fxiteration=712&fxminter=tz1WoXzwhVJoaKiJ31wy2yFQEtu79xmaNqMA",
-            "displayUri": "ipfs://QmWdMgNwRzL3dqWVXadsFQ1nZmBJe6bVhUnkdGSs8mmAjZ",
-            "thumbnailUri": "ipfs://QmTAwQa4Z8nDBpf3R15tQWKp6Pf2efqq43xFrB5yNoR1YJ",
-            "authenticityHash": "72977bd98f247236380856920824ce38f033c80ed24e57469f50ac5fe2e563c8",
-            "attributes": [
-              {
-                "name": "entity",
-                "value": "A"
-              },
-              {
-                "name": "ecology",
-                "value": "ecologías"
-              }
-            ],
-            "decimals": 0,
-            "symbol": "GENTK",
-            "version": "0.2",
-            "snippetVersion": "3.3.0"
-          },
-          "duplicate": false,
-          "activeListing": {
-            "id": 1002280,
-            "version": 1,
-            "price": 8790000,
-            "__typename": "Listing"
-          },
-          "owner": {
-            "id": "tz1WoXzwhVJoaKiJ31wy2yFQEtu79xmaNqMA",
-            "name": "jill.s",
-            "flag": "NONE",
-            "avatarUri": null,
-            "__typename": "User"
-          },
-          "issuer": {
-            "flag": "NONE",
-            "name": "ecologías - A",
-            "author": {
-              "id": "tz1eCX4smQ3LbxwDR3pqNoLQvNNKiHJtpwYz",
-              "name": "msoriaro",
-              "type": "REGULAR",
-              "avatarUri": "ipfs://QmU9cPLFmtqhRZUXxJywGZwuy62kXiwzmgQFsqwgzub8f8",
-              "flag": "VERIFIED",
-              "collaborators": null,
-              "__typename": "User"
-            },
-            "__typename": "GenerativeToken"
-          },
-          "__typename": "Objkt"
-        },
-        "__typename": "Listing"
-      },
-      {
-        "id": 1002279,
-        "version": 1,
-        "price": 27500000,
-        "objkt": {
-          "id": "FX1-80176",
-          "version": 2,
-          "name": "Mini Dahlias #124",
-          "slug": "mini-dahlias-124",
-          "metadata": {
-            "name": "Mini Dahlias #124",
-            "iterationHash": "ooxSm7Lzjb3Byfyp1diVV6eowHCk1kr6fwBSokHHyqjaYx1n9sb",
-            "description": "Welcome to the enchanting world of \"Mini Dahlias\" - a mesmerizing generative art project that will spark joy in your heart! Unleashing the magic of algorithms, each miniature masterpiece blooms with vibrant colors and whimsical patterns, transporting you to a dreamy realm of creativity.\n\nBut wait, there's more to this fantastical journey! Nestled within each digital artwork lies a hidden treasure - an embedded blueprint that holds the secret to crafting a tangible, real-life edition. Picture it: delicate petals brought to life in the physical realm, ready to be gifted or cherished!\n\nTwenty exquisite physical editions of “mini Dahlias,” crafted with love are destined to be gifted by a friend of mine to random strangers at Burning Man, where creativity knows no bounds!\n\nInspired by spreading joy and creativity, \"Mini Dahlias\" is available on fxhash, ensuring that this delightful experience can be enjoyed by art enthusiasts worldwide. Embrace the charm, share the magic, and let the artistry of algorithms paint smiles across the universe. Happy creating and sharing the wonder! 🎨✨",
-            "tags": [
-              "physical",
-              "phygical",
-              "laser",
-              "paperjs"
-            ],
-            "generatorUri": "ipfs://QmVnrgVbtHf4ZgWuWdS2Xm2jgY9CFPu8DvKgAVdDLJgbfY",
-            "artifactUri": "ipfs://QmVnrgVbtHf4ZgWuWdS2Xm2jgY9CFPu8DvKgAVdDLJgbfY/?fxhash=ooxSm7Lzjb3Byfyp1diVV6eowHCk1kr6fwBSokHHyqjaYx1n9sb&fxiteration=124&fxminter=tz1RnBLgZhKmpSqw5LsWjvVHtLW38yFGpLrH",
-            "displayUri": "ipfs://QmcG45QJmJQH2ukfudf4Z3nX3beZJx4ovs9KuCB621FbbV",
-            "thumbnailUri": "ipfs://QmSW16eiNRePxB4W4Ctbd1ZFFtfvX9YFEJPr3wtzrhBMWH",
-            "authenticityHash": "e9286912c1a1eadb56ff6ca185781eb28bc9b69a6b7c4a2e5235eb698d41c8f2",
-            "attributes": [
-              {
-                "name": "Dahlias",
-                "value": 4
-              },
-              {
-                "name": "Background",
-                "value": "Hex"
-              },
-              {
-                "name": "layer: 1",
-                "value": "Chartreuse"
-              },
-              {
-                "name": "layer: 2",
-                "value": "Tangerine"
-              },
-              {
-                "name": "layer: 3",
-                "value": "Chartreuse"
-              },
-              {
-                "name": "layer: 4",
-                "value": "Tangerine"
-              },
-              {
-                "name": "layer: 5",
-                "value": "Chartreuse"
-              },
-              {
-                "name": "layer: 6",
-                "value": "Tangerine"
-              },
-              {
-                "name": "layer: 7",
-                "value": "Chartreuse"
-              },
-              {
-                "name": "layer: 8",
-                "value": "Tangerine"
-              },
-              {
-                "name": "layer: 9",
-                "value": "Chartreuse"
-              },
-              {
-                "name": "layer: 10",
-                "value": "Tangerine"
-              },
-              {
-                "name": "layer: 11",
-                "value": "Chartreuse"
-              },
-              {
-                "name": "layer: 12",
-                "value": "Tangerine"
-              },
-              {
-                "name": "layer: 13",
-                "value": "Chartreuse"
-              },
-              {
-                "name": "layer: 14",
-                "value": "Tangerine"
-              }
-            ],
-            "decimals": 0,
-            "symbol": "GENTK",
-            "version": "0.2",
-            "snippetVersion": "3.3.0"
-          },
-          "duplicate": false,
-          "activeListing": {
-            "id": 1002279,
-            "version": 1,
-            "price": 27500000,
-            "__typename": "Listing"
-          },
-          "owner": {
-            "id": "tz2XDF3MKMsGoH7sFBrHxVqYNHvoGjKocrCj",
-            "name": "Pierro",
-            "flag": "NONE",
-            "avatarUri": "ipfs://QmaB83nAfMALPEG1Pe3RHRJwCo6Z8TEs3hWnBwTNJvTSQM",
-            "__typename": "User"
-          },
-          "issuer": {
-            "flag": "NONE",
-            "name": "Mini Dahlias",
-            "author": {
-              "id": "tz2D7W6YLN8Y48cbinuo2n4aRRoBBECqvz95",
-              "name": "ShawnKemp",
-              "type": "REGULAR",
-              "avatarUri": "ipfs://QmexUDcLBu12kLbVBBJDNtAq9uev2T1W7rsA95mhdUL1SQ",
-              "flag": "VERIFIED",
-              "collaborators": null,
-              "__typename": "User"
-            },
-            "__typename": "GenerativeToken"
-          },
-          "__typename": "Objkt"
-        },
-        "__typename": "Listing"
-      },
-      {
-        "id": 1002278,
-        "version": 1,
-        "price": 30000000,
-        "objkt": {
-          "id": "FX1-69117",
-          "version": 2,
-          "name": "AJISAI #42",
-          "slug": "ajisai-42",
-          "metadata": {
-            "name": "AJISAI #42",
-            "iterationHash": "oob8rFDLojsRiMhTmnuEDKRq59AJw6MfqToF7vkVaVip6SqEeTv",
-            "description": "This piece is based on my early code when I habitually started creating pieces in p5js.\nIf you compare it to an actual AJISAI (hydrangea), its form lacks reality, but to me it has a nostalgic feel to it.\nDuring the process of creation, I was reminded of paper collage (Chigiri-e) as I worked. In Japan, Kiyoshi Yamashita is one of the most famous Chigiri-e artists, and the 100th anniversary of his birth has just passed. Damien Hirst also made a series of cherry blossom paintings, which I found very much like Kiyoshi Yamashita's work when I saw them.\nThis work reminds me of the art class in elementary school. It would be wonderful if we could enjoy arts and crafts again through programming, and I am touched by such qualia.\n\np5js\nsize: 800×800 px\n2023 July\nhasaqui",
+            "name": "Lookouts #36",
+            "iterationHash": "opY6HtZb7SRQGCrCPmZjG8WNtEg4R8iXgZJVvjLaC6r3AujLgQi",
+            "description": "Lookouts is a generative illustration done 100% in code using p5js. Inspired by my love for travel and minimalist design, this collection is built based on custom shapes filled with solid colors & limited texture.\n\nThe accompanying fxtext article (in ‘Mentions’ below) shares more details about the inspiration and development process of this project.\n\nLookouts renders as a fixed resolution output (2000 x 1666px). Controls (in live view): \nPress [4] to render at 4000 x 3333px\nPress [8] to render at 8000 x 6666px\nPress [s] to save the current view (default or higher resolution image)",
             "tags": [
               "p5js",
-              "flower"
+              "landscape",
+              "minimal",
+              "lookouts"
             ],
-            "generatorUri": "ipfs://QmUdqb5SJDbot8Ne3zynyrTX181S6cwbVshA9KWvzWKwk4",
-            "artifactUri": "ipfs://QmUdqb5SJDbot8Ne3zynyrTX181S6cwbVshA9KWvzWKwk4/?fxhash=oob8rFDLojsRiMhTmnuEDKRq59AJw6MfqToF7vkVaVip6SqEeTv&fxiteration=42&fxminter=tz1VGZPvqytFVAoSAsM8VrUveJdL3PpVy6K9",
-            "displayUri": "ipfs://QmUGsM49rGwsXY3Kt8T1dhgYZbrBGtwF3H1Czoc1UVHJYj",
-            "thumbnailUri": "ipfs://QmdsTx1wn3uYESx2abo7mVF4PWCEa4aUkbhRFdWMUBAnQr",
-            "authenticityHash": "0de2282f42546f35398a9fc12f760552080d463b2132a3cfaa0e9e81ee06c2a6",
+            "generatorUri": "ipfs://QmchQWUCKuTU4KvuVjFUrVx4dhpMJCtv3LWXFwcY7LHp7v",
+            "artifactUri": "ipfs://QmchQWUCKuTU4KvuVjFUrVx4dhpMJCtv3LWXFwcY7LHp7v/?fxhash=opY6HtZb7SRQGCrCPmZjG8WNtEg4R8iXgZJVvjLaC6r3AujLgQi&fxiteration=36&fxminter=tz1Lk6DK84Yf8TmmXoYYGkEtoezJa8H63xsY",
+            "displayUri": "ipfs://Qmebd7HVd1YiHyoT5eyrJUWDYzXkk8VuPxxaj1JTiWj87d",
+            "thumbnailUri": "ipfs://QmXnX5ibbbcAahzgGB82QM1muhow5NVutMZ9JJmuDW5mAt",
+            "authenticityHash": "4144b724c46982f41b9f4c1376b01d0512046b529bc1431bc090c9c5e2453b77",
             "attributes": [
               {
-                "name": "Scale",
-                "value": "0.9"
+                "name": "Scene",
+                "value": "Lakeside"
               },
               {
-                "name": "PixelDensity",
-                "value": 3
+                "name": "Palette",
+                "value": "Midnight Sun"
+              }
+            ],
+            "decimals": 0,
+            "symbol": "GENTK",
+            "version": "0.2",
+            "snippetVersion": "3.3.0"
+          },
+          "duplicate": false,
+          "activeListing": {
+            "id": 1002365,
+            "version": 1,
+            "price": 10000000,
+            "__typename": "Listing"
+          },
+          "owner": {
+            "id": "tz1Lk6DK84Yf8TmmXoYYGkEtoezJa8H63xsY",
+            "name": "tatsuatsa2014",
+            "flag": "NONE",
+            "avatarUri": "ipfs://QmfYn1PZQDVBP8h5VXxbnMVhUbXMHcviPWorrB42zHLoKc",
+            "__typename": "User"
+          },
+          "issuer": {
+            "flag": "NONE",
+            "name": "Lookouts",
+            "author": {
+              "id": "tz1i8iSYHMt7CQ2iQSDLXacn7dg8iiDVsBgr",
+              "name": "Saurabh",
+              "type": "REGULAR",
+              "avatarUri": "ipfs://QmPX2sKDpwgQBpm32CSYeSJLPALjhCuN1tHCfXYmHBRvWi",
+              "flag": "VERIFIED",
+              "collaborators": null,
+              "__typename": "User"
+            },
+            "__typename": "GenerativeToken"
+          },
+          "__typename": "Objkt"
+        },
+        "__typename": "Listing"
+      },
+      {
+        "id": 1002364,
+        "version": 1,
+        "price": 10000000,
+        "objkt": {
+          "id": "FX1-80268",
+          "version": 2,
+          "name": "Lookouts #41",
+          "slug": "lookouts-41",
+          "metadata": {
+            "name": "Lookouts #41",
+            "iterationHash": "ooKaQyYyt9MQfksU3h31kBCJZGfLZioxULAmpuNNgp53oL3wwdw",
+            "description": "Lookouts is a generative illustration done 100% in code using p5js. Inspired by my love for travel and minimalist design, this collection is built based on custom shapes filled with solid colors & limited texture.\n\nThe accompanying fxtext article (in ‘Mentions’ below) shares more details about the inspiration and development process of this project.\n\nLookouts renders as a fixed resolution output (2000 x 1666px). Controls (in live view): \nPress [4] to render at 4000 x 3333px\nPress [8] to render at 8000 x 6666px\nPress [s] to save the current view (default or higher resolution image)",
+            "tags": [
+              "p5js",
+              "landscape",
+              "minimal",
+              "lookouts"
+            ],
+            "generatorUri": "ipfs://QmchQWUCKuTU4KvuVjFUrVx4dhpMJCtv3LWXFwcY7LHp7v",
+            "artifactUri": "ipfs://QmchQWUCKuTU4KvuVjFUrVx4dhpMJCtv3LWXFwcY7LHp7v/?fxhash=ooKaQyYyt9MQfksU3h31kBCJZGfLZioxULAmpuNNgp53oL3wwdw&fxiteration=41&fxminter=tz1Lk6DK84Yf8TmmXoYYGkEtoezJa8H63xsY",
+            "displayUri": "ipfs://QmTmW5miNPVx83WVbuhesGU4pAUGH8D9pmt1xxhEYGyQMj",
+            "thumbnailUri": "ipfs://QmTJgYsrTVthvuvu4A7TR8PbmRQGk7p4it4oFUgWk2ZgXb",
+            "authenticityHash": "2e21bd00fb12671ca1db408eb525bd288a8c8a3ffe02595fc9d4bd1ccd99a342",
+            "attributes": [
+              {
+                "name": "Scene",
+                "value": "Lakeside"
               },
               {
-                "name": "Variation",
-                "value": false
+                "name": "Palette",
+                "value": "Winter"
+              }
+            ],
+            "decimals": 0,
+            "symbol": "GENTK",
+            "version": "0.2",
+            "snippetVersion": "3.3.0"
+          },
+          "duplicate": false,
+          "activeListing": {
+            "id": 1002364,
+            "version": 1,
+            "price": 10000000,
+            "__typename": "Listing"
+          },
+          "owner": {
+            "id": "tz1Lk6DK84Yf8TmmXoYYGkEtoezJa8H63xsY",
+            "name": "tatsuatsa2014",
+            "flag": "NONE",
+            "avatarUri": "ipfs://QmfYn1PZQDVBP8h5VXxbnMVhUbXMHcviPWorrB42zHLoKc",
+            "__typename": "User"
+          },
+          "issuer": {
+            "flag": "NONE",
+            "name": "Lookouts",
+            "author": {
+              "id": "tz1i8iSYHMt7CQ2iQSDLXacn7dg8iiDVsBgr",
+              "name": "Saurabh",
+              "type": "REGULAR",
+              "avatarUri": "ipfs://QmPX2sKDpwgQBpm32CSYeSJLPALjhCuN1tHCfXYmHBRvWi",
+              "flag": "VERIFIED",
+              "collaborators": null,
+              "__typename": "User"
+            },
+            "__typename": "GenerativeToken"
+          },
+          "__typename": "Objkt"
+        },
+        "__typename": "Listing"
+      },
+      {
+        "id": 1002363,
+        "version": 1,
+        "price": 40000000,
+        "objkt": {
+          "id": "FX1-81907",
+          "version": 2,
+          "name": "Sand #112",
+          "slug": "sand-112",
+          "metadata": {
+            "name": "Sand #112",
+            "iterationHash": "opQHkUxZL1aapygvAtZaAXpa9HPNyy3zF8wrh7YJ6Up9tcNLi8B",
+            "description": "This project is a cellular automata that simulates falling sand. The falling is deterministic: each sand particle will fall to the same place each time the program is run. Some iterations eventually stop, some continue indefinitely.\n\nThe fun is that the project is implemented on a fragment shader. There is no array of grains of sand. Each pixel decides whether a grain of sand from a neighboring pixel will end up in it or not. This logic required a lot of banging my head against the wall, because the slightest mistake caused sand to disappear into nowhere or appear out of nothing and clutter up the entire space.\n\n0…9 — set speed\nspace — pause\ns — save picture\ndrag over — add more sand\nshift+drag — erase",
+            "tags": [
+              "cellular automata",
+              "webgl",
+              "shader",
+              "glsl",
+              "sand",
+              "infinity"
+            ],
+            "generatorUri": "ipfs://QmQf2KpmamyK2gXcwd7eFncQcojtL9kfbXBAt3Xs5myuD9",
+            "artifactUri": "ipfs://QmQf2KpmamyK2gXcwd7eFncQcojtL9kfbXBAt3Xs5myuD9/?fxhash=opQHkUxZL1aapygvAtZaAXpa9HPNyy3zF8wrh7YJ6Up9tcNLi8B&fxiteration=112&fxminter=tz1Lk6DK84Yf8TmmXoYYGkEtoezJa8H63xsY",
+            "displayUri": "ipfs://Qmb4wBexKZgchD6zBoV3SySu38CqzG7gfS272NKEDhbhJD",
+            "thumbnailUri": "ipfs://QmXgsPnnzMV586dtzUjyR5UAS2RzHtLLMwHdGsVd2bCaiA",
+            "authenticityHash": "349a04ebae7974720d55c36bbf1a7b3ad0366299b1af3725ee551f62e2bce6c3",
+            "attributes": [
+              {
+                "name": "Ground slope",
+                "value": "Left"
               },
               {
-                "name": "Mix",
-                "value": true
+                "name": "Resolution",
+                "value": 128
               },
               {
-                "name": "BlueFilter",
-                "value": false
+                "name": "Colors",
+                "value": "Monochrome"
               },
               {
-                "name": "NoStem",
-                "value": false
+                "name": "Initial sand shape",
+                "value": "Noise"
               },
               {
-                "name": "LeafBold",
-                "value": false
-              },
+                "name": "Ground shape",
+                "value": "Detailed"
+              }
+            ],
+            "decimals": 0,
+            "symbol": "GENTK",
+            "version": "0.2",
+            "snippetVersion": "3.3.0"
+          },
+          "duplicate": false,
+          "activeListing": {
+            "id": 1002363,
+            "version": 1,
+            "price": 40000000,
+            "__typename": "Listing"
+          },
+          "owner": {
+            "id": "tz1Lk6DK84Yf8TmmXoYYGkEtoezJa8H63xsY",
+            "name": "tatsuatsa2014",
+            "flag": "NONE",
+            "avatarUri": "ipfs://QmfYn1PZQDVBP8h5VXxbnMVhUbXMHcviPWorrB42zHLoKc",
+            "__typename": "User"
+          },
+          "issuer": {
+            "flag": "NONE",
+            "name": "Sand",
+            "author": {
+              "id": "tz1MwvWz611pLwYdFMZpWCEsh247MEYtm5ii",
+              "name": "Ivan Dianov",
+              "type": "REGULAR",
+              "avatarUri": null,
+              "flag": "VERIFIED",
+              "collaborators": null,
+              "__typename": "User"
+            },
+            "__typename": "GenerativeToken"
+          },
+          "__typename": "Objkt"
+        },
+        "__typename": "Listing"
+      },
+      {
+        "id": 1002362,
+        "version": 1,
+        "price": 10000000,
+        "objkt": {
+          "id": "FX1-84068",
+          "version": 2,
+          "name": "ecologías - A #132",
+          "slug": "ecologias-a-132",
+          "metadata": {
+            "name": "ecologías - A #132",
+            "iterationHash": "oovLzrynHo21FF1ByW6ntvoZTXDoBNATsE7eFw9u8erUXGkuwXj",
+            "description": "ecologías - A\n\nlines are a metaphor for the communication all species engage in. We as humans have a need to leave traces - stories - that others can read and learn from. What will be the traces machines want to leave? This piece employs sinusoidal signals drawn with lines as a simple metaphor for every trace and every language, for every message and every communication.\n\necologías-A is an entity that is part of a broader ecology. Released on occasion of the show \"Unbound - Ecology in the Age of Machines\" at Unit London. The data generated by this entity is read by a different piece minted on Ethereum, creating a link between Tezos and Ethereum, a metaphor for an ecology of blockchains.\n\nit shares a common element with two other works released on fxhash: ecologías B and ecologías C, all of them contributing data to aforementioned pieces.\n\nread more at https://www.iillucid.com/ecologias\n\n15% of primary sales are donated to institutions working towards improving biodiversity and environmental efforts.\n\nMarcelo Soria-Rodríguez, @msoriaro\nCC BY-NC-SA 4.0, https://creativecommons.org/licenses/by-nc-sa/4.0/\n\nBuilt on p5.js, glsl\n\nappend &pd=N (N a number) to the URL in live view to increase/decrease resolution\npress s to save current image in current resolution\npress z,x,g,b,n followed by +/- to increase/decrease, respectively, brightness, contrast, gamma, blur, noise",
+            "tags": [],
+            "generatorUri": "ipfs://QmQfd8R4axV7URxtkJdJ56AdZKu6EMKtYGNDoXVyBW65iZ",
+            "artifactUri": "ipfs://QmQfd8R4axV7URxtkJdJ56AdZKu6EMKtYGNDoXVyBW65iZ/?fxhash=oovLzrynHo21FF1ByW6ntvoZTXDoBNATsE7eFw9u8erUXGkuwXj&fxiteration=132&fxminter=tz1Lk6DK84Yf8TmmXoYYGkEtoezJa8H63xsY",
+            "displayUri": "ipfs://QmZnz8eap1mS61ZY26WHKsQMtKvvaELA4XRsGejSyWSXdn",
+            "thumbnailUri": "ipfs://QmafVsbKWdtBeJHp5fRWv3rXgujU6crCzzh1Zzir1WmPxt",
+            "authenticityHash": "dc75ec78b60f3ae818afb5c8ba581dce6d29e3e602d8d7d578dc1059ab32458a",
+            "attributes": [
               {
-                "name": "LeafMode",
+                "name": "entity",
                 "value": "A"
               },
               {
-                "name": "LeafType",
-                "value": "Evening"
+                "name": "ecology",
+                "value": "ecologías"
+              }
+            ],
+            "decimals": 0,
+            "symbol": "GENTK",
+            "version": "0.2",
+            "snippetVersion": "3.3.0"
+          },
+          "duplicate": false,
+          "activeListing": {
+            "id": 1002362,
+            "version": 1,
+            "price": 10000000,
+            "__typename": "Listing"
+          },
+          "owner": {
+            "id": "tz1Lk6DK84Yf8TmmXoYYGkEtoezJa8H63xsY",
+            "name": "tatsuatsa2014",
+            "flag": "NONE",
+            "avatarUri": "ipfs://QmfYn1PZQDVBP8h5VXxbnMVhUbXMHcviPWorrB42zHLoKc",
+            "__typename": "User"
+          },
+          "issuer": {
+            "flag": "NONE",
+            "name": "ecologías - A",
+            "author": {
+              "id": "tz1eCX4smQ3LbxwDR3pqNoLQvNNKiHJtpwYz",
+              "name": "msoriaro",
+              "type": "REGULAR",
+              "avatarUri": "ipfs://QmU9cPLFmtqhRZUXxJywGZwuy62kXiwzmgQFsqwgzub8f8",
+              "flag": "VERIFIED",
+              "collaborators": null,
+              "__typename": "User"
+            },
+            "__typename": "GenerativeToken"
+          },
+          "__typename": "Objkt"
+        },
+        "__typename": "Listing"
+      },
+      {
+        "id": 1002361,
+        "version": 1,
+        "price": 10000000,
+        "objkt": {
+          "id": "FX1-84378",
+          "version": 2,
+          "name": "ecologías - A #438",
+          "slug": "ecologias-a-438",
+          "metadata": {
+            "name": "ecologías - A #438",
+            "iterationHash": "oo93LoLPA5mzE4kX4pN6CyNaJBDNK2S9swSiYi8mjZ5kbdPAp5B",
+            "description": "ecologías - A\n\nlines are a metaphor for the communication all species engage in. We as humans have a need to leave traces - stories - that others can read and learn from. What will be the traces machines want to leave? This piece employs sinusoidal signals drawn with lines as a simple metaphor for every trace and every language, for every message and every communication.\n\necologías-A is an entity that is part of a broader ecology. Released on occasion of the show \"Unbound - Ecology in the Age of Machines\" at Unit London. The data generated by this entity is read by a different piece minted on Ethereum, creating a link between Tezos and Ethereum, a metaphor for an ecology of blockchains.\n\nit shares a common element with two other works released on fxhash: ecologías B and ecologías C, all of them contributing data to aforementioned pieces.\n\nread more at https://www.iillucid.com/ecologias\n\n15% of primary sales are donated to institutions working towards improving biodiversity and environmental efforts.\n\nMarcelo Soria-Rodríguez, @msoriaro\nCC BY-NC-SA 4.0, https://creativecommons.org/licenses/by-nc-sa/4.0/\n\nBuilt on p5.js, glsl\n\nappend &pd=N (N a number) to the URL in live view to increase/decrease resolution\npress s to save current image in current resolution\npress z,x,g,b,n followed by +/- to increase/decrease, respectively, brightness, contrast, gamma, blur, noise",
+            "tags": [],
+            "generatorUri": "ipfs://QmQfd8R4axV7URxtkJdJ56AdZKu6EMKtYGNDoXVyBW65iZ",
+            "artifactUri": "ipfs://QmQfd8R4axV7URxtkJdJ56AdZKu6EMKtYGNDoXVyBW65iZ/?fxhash=oo93LoLPA5mzE4kX4pN6CyNaJBDNK2S9swSiYi8mjZ5kbdPAp5B&fxiteration=438&fxminter=tz1Lk6DK84Yf8TmmXoYYGkEtoezJa8H63xsY",
+            "displayUri": "ipfs://Qmae8FfzE4Ptmf9j5ks5mSAgiEv2nsq2cBAyzygD64dnGq",
+            "thumbnailUri": "ipfs://QmfLDvk6nXcAnty9o6PZRoqQdXSYWGeJPc6mtxSzMX4vJK",
+            "authenticityHash": "68993ea1d23702de0373757491c0070372f8065b7872e2c5d9551078f0d74db6",
+            "attributes": [
+              {
+                "name": "entity",
+                "value": "A"
               },
               {
-                "name": "Rain",
-                "value": 1136
+                "name": "ecology",
+                "value": "ecologías"
+              }
+            ],
+            "decimals": 0,
+            "symbol": "GENTK",
+            "version": "0.2",
+            "snippetVersion": "3.3.0"
+          },
+          "duplicate": false,
+          "activeListing": {
+            "id": 1002361,
+            "version": 1,
+            "price": 10000000,
+            "__typename": "Listing"
+          },
+          "owner": {
+            "id": "tz1Lk6DK84Yf8TmmXoYYGkEtoezJa8H63xsY",
+            "name": "tatsuatsa2014",
+            "flag": "NONE",
+            "avatarUri": "ipfs://QmfYn1PZQDVBP8h5VXxbnMVhUbXMHcviPWorrB42zHLoKc",
+            "__typename": "User"
+          },
+          "issuer": {
+            "flag": "NONE",
+            "name": "ecologías - A",
+            "author": {
+              "id": "tz1eCX4smQ3LbxwDR3pqNoLQvNNKiHJtpwYz",
+              "name": "msoriaro",
+              "type": "REGULAR",
+              "avatarUri": "ipfs://QmU9cPLFmtqhRZUXxJywGZwuy62kXiwzmgQFsqwgzub8f8",
+              "flag": "VERIFIED",
+              "collaborators": null,
+              "__typename": "User"
+            },
+            "__typename": "GenerativeToken"
+          },
+          "__typename": "Objkt"
+        },
+        "__typename": "Listing"
+      },
+      {
+        "id": 1002360,
+        "version": 1,
+        "price": 10000000,
+        "objkt": {
+          "id": "FX1-84892",
+          "version": 2,
+          "name": "ecologías - A #919",
+          "slug": "ecologias-a-919",
+          "metadata": {
+            "name": "ecologías - A #919",
+            "iterationHash": "onf92qSEWLU1E5dzDrFBEzSGqhfFFVk6NrmBWpmGWh1JjeouLr1",
+            "description": "ecologías - A\n\nlines are a metaphor for the communication all species engage in. We as humans have a need to leave traces - stories - that others can read and learn from. What will be the traces machines want to leave? This piece employs sinusoidal signals drawn with lines as a simple metaphor for every trace and every language, for every message and every communication.\n\necologías-A is an entity that is part of a broader ecology. Released on occasion of the show \"Unbound - Ecology in the Age of Machines\" at Unit London. The data generated by this entity is read by a different piece minted on Ethereum, creating a link between Tezos and Ethereum, a metaphor for an ecology of blockchains.\n\nit shares a common element with two other works released on fxhash: ecologías B and ecologías C, all of them contributing data to aforementioned pieces.\n\nread more at https://www.iillucid.com/ecologias\n\n15% of primary sales are donated to institutions working towards improving biodiversity and environmental efforts.\n\nMarcelo Soria-Rodríguez, @msoriaro\nCC BY-NC-SA 4.0, https://creativecommons.org/licenses/by-nc-sa/4.0/\n\nBuilt on p5.js, glsl\n\nappend &pd=N (N a number) to the URL in live view to increase/decrease resolution\npress s to save current image in current resolution\npress z,x,g,b,n followed by +/- to increase/decrease, respectively, brightness, contrast, gamma, blur, noise",
+            "tags": [],
+            "generatorUri": "ipfs://QmQfd8R4axV7URxtkJdJ56AdZKu6EMKtYGNDoXVyBW65iZ",
+            "artifactUri": "ipfs://QmQfd8R4axV7URxtkJdJ56AdZKu6EMKtYGNDoXVyBW65iZ/?fxhash=onf92qSEWLU1E5dzDrFBEzSGqhfFFVk6NrmBWpmGWh1JjeouLr1&fxiteration=919&fxminter=tz1Lk6DK84Yf8TmmXoYYGkEtoezJa8H63xsY",
+            "displayUri": "ipfs://QmQG4KagdrJDKyutRzA95Syv7yJ3FMVLs5yFUyQdBvhxQf",
+            "thumbnailUri": "ipfs://QmS2SAKJSWx8631HRTRYbgExifxbrDCpvBACbewyBZ5bMD",
+            "authenticityHash": "e15924e0eaf5eb61211634a188537ccae19e7c7d77ef265c2dec07121d4be1d3",
+            "attributes": [
+              {
+                "name": "entity",
+                "value": "A"
               },
               {
-                "name": "LeafDensity",
-                "value": 3
+                "name": "ecology",
+                "value": "ecologías"
+              }
+            ],
+            "decimals": 0,
+            "symbol": "GENTK",
+            "version": "0.2",
+            "snippetVersion": "3.3.0"
+          },
+          "duplicate": false,
+          "activeListing": {
+            "id": 1002360,
+            "version": 1,
+            "price": 10000000,
+            "__typename": "Listing"
+          },
+          "owner": {
+            "id": "tz1Lk6DK84Yf8TmmXoYYGkEtoezJa8H63xsY",
+            "name": "tatsuatsa2014",
+            "flag": "NONE",
+            "avatarUri": "ipfs://QmfYn1PZQDVBP8h5VXxbnMVhUbXMHcviPWorrB42zHLoKc",
+            "__typename": "User"
+          },
+          "issuer": {
+            "flag": "NONE",
+            "name": "ecologías - A",
+            "author": {
+              "id": "tz1eCX4smQ3LbxwDR3pqNoLQvNNKiHJtpwYz",
+              "name": "msoriaro",
+              "type": "REGULAR",
+              "avatarUri": "ipfs://QmU9cPLFmtqhRZUXxJywGZwuy62kXiwzmgQFsqwgzub8f8",
+              "flag": "VERIFIED",
+              "collaborators": null,
+              "__typename": "User"
+            },
+            "__typename": "GenerativeToken"
+          },
+          "__typename": "Objkt"
+        },
+        "__typename": "Listing"
+      },
+      {
+        "id": 1002359,
+        "version": 1,
+        "price": 22000000,
+        "objkt": {
+          "id": "FX1-86453",
+          "version": 2,
+          "name": "ecologías - B #670",
+          "slug": "ecologias-b-670",
+          "metadata": {
+            "name": "ecologías - B #670",
+            "iterationHash": "opDbjW5W2fRUxtUSyHgTgf6T6VitX1pbuPwoxoUezA1qgCmtd4A",
+            "description": "ecologías - B\n\nwater is the medium where life first appeared in our planet. Water is also indispensable for the continuation of the life that emerged from - and with - it. The advent of AI species and their introduction into society is a new form of cambrian explosion. What is their medium? What is their water? How scarce and precious will it be for them? AI entities are not foreign to human resource necessities, though. The water that is essential to our human life will also be so for machines, as their energy still depends on our natural resources. Therefore, the ecologies of humans and machines will have, at least, the same elements as the ecologies of humans. AIs may help us reach better balances, only if we employ them to do so and if we teach them to help us.\n\necologías-B is an entity that is part of a broader ecology. Released on occasion of the show \"Unbound - Ecology in the Age of Machines\" at Unit London. The data generated by this entity is read by a different piece minted on Ethereum, creating a link between Tezos and Ethereum, a metaphor for an ecology of blockchains.\n\nit shares a common element with two other works released on fxhash: ecologías A and ecologías C, all of them contributing data to aforementioned pieces.\n\nread more at https://www.iillucid.com/ecologias\n\n15% of primary sales are donated to institutions working towards improving biodiversity and environmental efforts.\n\nMarcelo Soria-Rodríguez, @msoriaro\nCC BY-NC-SA 4.0, https://creativecommons.org/licenses/by-nc-sa/4.0/\n\nBuilt on p5.js and p5.Framebuffer (massive thanks and respect to the corresponding authors)\n\nappend &pd=N (N a number) to the URL in live view to increase/decrease resolution\npress s to save current image in current resolution\npress z,x,g,b,n followed by +/- to increase/decrease, respectively, brightness, contrast, gamma, blur, noise\npress l (as in loop) to pause/resume the piece",
+            "tags": [],
+            "generatorUri": "ipfs://QmYhXYMnwah8wgbd7j5TRa3GaiGxDzWtewzy2W7JGvg5ou",
+            "artifactUri": "ipfs://QmYhXYMnwah8wgbd7j5TRa3GaiGxDzWtewzy2W7JGvg5ou/?fxhash=opDbjW5W2fRUxtUSyHgTgf6T6VitX1pbuPwoxoUezA1qgCmtd4A&fxiteration=670&fxminter=tz1Lk6DK84Yf8TmmXoYYGkEtoezJa8H63xsY",
+            "displayUri": "ipfs://QmZauKGaK1ZBLVNdvxnQXUPrNCAcPzq9JJRkrWgizV9Fnd",
+            "thumbnailUri": "ipfs://QmTZgBD7jLHVbEGKz4zHw7W2YZ4kWorxZ1Kf4tfaieLQ9b",
+            "authenticityHash": "2a652d8662c2b380b2c036a0b5872126a6a8dcfdca2e5d5bd7617343adfad57b",
+            "attributes": [
+              {
+                "name": "entity",
+                "value": "B"
               },
               {
-                "name": "FlowerDensity",
-                "value": 70
+                "name": "ecology",
+                "value": "ecologías"
+              }
+            ],
+            "decimals": 0,
+            "symbol": "GENTK",
+            "version": "0.2",
+            "snippetVersion": "3.3.0"
+          },
+          "duplicate": false,
+          "activeListing": {
+            "id": 1002359,
+            "version": 1,
+            "price": 22000000,
+            "__typename": "Listing"
+          },
+          "owner": {
+            "id": "tz1Lk6DK84Yf8TmmXoYYGkEtoezJa8H63xsY",
+            "name": "tatsuatsa2014",
+            "flag": "NONE",
+            "avatarUri": "ipfs://QmfYn1PZQDVBP8h5VXxbnMVhUbXMHcviPWorrB42zHLoKc",
+            "__typename": "User"
+          },
+          "issuer": {
+            "flag": "NONE",
+            "name": "ecologías - B",
+            "author": {
+              "id": "tz1eCX4smQ3LbxwDR3pqNoLQvNNKiHJtpwYz",
+              "name": "msoriaro",
+              "type": "REGULAR",
+              "avatarUri": "ipfs://QmU9cPLFmtqhRZUXxJywGZwuy62kXiwzmgQFsqwgzub8f8",
+              "flag": "VERIFIED",
+              "collaborators": null,
+              "__typename": "User"
+            },
+            "__typename": "GenerativeToken"
+          },
+          "__typename": "Objkt"
+        },
+        "__typename": "Listing"
+      },
+      {
+        "id": 1002358,
+        "version": 1,
+        "price": 35000000,
+        "objkt": {
+          "id": "FX0-891828",
+          "version": 1,
+          "name": "Contort #114",
+          "slug": "contort-114",
+          "metadata": {
+            "name": "Contort #114",
+            "iterationHash": "onsmcgsUaEuMWP1tigytgx7ed8DBmtFghFHYgTcyBVDqyj83VmT",
+            "description": "Contort is the result of combining several previously meaningless experiments and learnings into a single cohesive algorithm. The project comes in a variety of shapes, bends, twists, colors, and other variations.  \n\nThe artwork builds towards the end-result by rendering a fixed number of forms per frame to ensure a smooth rendering process. Rendering times can vary depending on which features are combined by the hash.",
+            "tags": [
+              "generative art",
+              "generative",
+              "p5js",
+              "bart simons",
+              "javascript"
+            ],
+            "generatorUri": "ipfs://QmUBay3Qz9ry9b7gdEFdNe9bxDvFiqosEocohwKGWb3AwU",
+            "artifactUri": "ipfs://QmUBay3Qz9ry9b7gdEFdNe9bxDvFiqosEocohwKGWb3AwU?fxhash=onsmcgsUaEuMWP1tigytgx7ed8DBmtFghFHYgTcyBVDqyj83VmT",
+            "displayUri": "ipfs://QmXqgubuJpGrdvqAoGp5U1bWKno2aaA4yN9AsgrVMedjoG",
+            "thumbnailUri": "ipfs://QmRcLBSRwxEFLJjZsPYD888fSDubF29zsiEHn11w9ZPfmx",
+            "authenticityHash": "c3898de5f7ffa454abbffd331bf8cb0598bf9acb7f4ebbcba17558d4c921b04d",
+            "attributes": [
+              {
+                "name": "Bar Length",
+                "value": "Mixed"
               },
               {
-                "name": "FlowerColor",
-                "value": "48,164,196"
+                "name": "Broken Grid",
+                "value": "Yes"
               },
               {
-                "name": "FlowerColor_sub",
-                "value": "244,18,207"
+                "name": "Chaos",
+                "value": "No"
               },
               {
-                "name": "BkColor",
-                "value": "#CBD5DC"
+                "name": "Color Spread",
+                "value": "Single"
+              },
+              {
+                "name": "Grid Type",
+                "value": "Invisible"
+              },
+              {
+                "name": "Palette",
+                "value": "White 'n Black"
+              },
+              {
+                "name": "Rotation",
+                "value": "Light"
+              },
+              {
+                "name": "Shape Spread",
+                "value": "Radial"
+              },
+              {
+                "name": "Shapes",
+                "value": "Square Tubes"
+              },
+              {
+                "name": "Stripes",
+                "value": "Regular"
               }
             ],
             "decimals": 0,
@@ -437,26 +800,26 @@
           },
           "duplicate": false,
           "activeListing": {
-            "id": 1002278,
+            "id": 1002358,
             "version": 1,
-            "price": 30000000,
+            "price": 35000000,
             "__typename": "Listing"
           },
           "owner": {
-            "id": "tz1ZjEwXyHtcnD48WfYy9YRpkkc7dSP3Nh4W",
-            "name": null,
+            "id": "tz1RtLqNu8onAgDJeZXPjZFGQ6Bvy3JTwHuR",
+            "name": "BlackandWhiteNFT.tez",
             "flag": "NONE",
-            "avatarUri": null,
+            "avatarUri": "ipfs://QmPNS2Gsqdvwbumf56oYuR7cCP4Gyt5CWkU2x6QjoLVP3B",
             "__typename": "User"
           },
           "issuer": {
             "flag": "NONE",
-            "name": "AJISAI",
+            "name": "Contort",
             "author": {
-              "id": "tz2EyogxqyV7GwVT2rk14YUhq3brBocyKFuX",
-              "name": "hasaqui",
+              "id": "tz1W53EJmVunAm99M5RkCviEvumRhwBKLEB5",
+              "name": "Bart Simons",
               "type": "REGULAR",
-              "avatarUri": "ipfs://QmcFdX9CiheiugzxdwysnAPQdSK6uYZ39gLn3eKQ1fnaHL",
+              "avatarUri": "ipfs://QmUAWxWmDEB35DaqPtPHprYNU4VvyxtAdNXM7aWJgzyGgP",
               "flag": "VERIFIED",
               "collaborators": null,
               "__typename": "User"
@@ -468,87 +831,58 @@
         "__typename": "Listing"
       },
       {
-        "id": 1002277,
+        "id": 1002357,
         "version": 1,
-        "price": 30000000,
+        "price": 1000000,
         "objkt": {
-          "id": "FX1-81602",
-          "version": 2,
-          "name": "AJISAI #48",
-          "slug": "ajisai-48",
+          "id": "FX0-1104121",
+          "version": 1,
+          "name": "Unendlichkeitsmaschine #234",
+          "slug": "unendlichkeitsmaschine-234",
           "metadata": {
-            "name": "AJISAI #48",
-            "iterationHash": "oo1NqmyEFZpXbksJmotDDLSsFS53xrGUA7WMK2Gtva9VWvrAf4M",
-            "description": "This piece is based on my early code when I habitually started creating pieces in p5js.\nIf you compare it to an actual AJISAI (hydrangea), its form lacks reality, but to me it has a nostalgic feel to it.\nDuring the process of creation, I was reminded of paper collage (Chigiri-e) as I worked. In Japan, Kiyoshi Yamashita is one of the most famous Chigiri-e artists, and the 100th anniversary of his birth has just passed. Damien Hirst also made a series of cherry blossom paintings, which I found very much like Kiyoshi Yamashita's work when I saw them.\nThis work reminds me of the art class in elementary school. It would be wonderful if we could enjoy arts and crafts again through programming, and I am touched by such qualia.\n\np5js\nsize: 800×800 px\n2023 July\nhasaqui",
+            "name": "Unendlichkeitsmaschine #234",
+            "iterationHash": "opS7hrX8iU98LJ3e6CDWkshz1qRpU86ykJwoEBr7JbJVjdYZYkw",
+            "description": "An exercise in infinity, recursion and transformation of form. A shape is drawn, sampled, transformed and repeated until the view of it is lost in infinity.\n\nMade with p5js.\n\nDouble click to download\nAdd ?highres=true to the URL to get a higher resolution output",
             "tags": [
+              "infinity",
+              "unendlichkeit",
+              "webgl",
               "p5js",
-              "flower"
+              "brutalism"
             ],
-            "generatorUri": "ipfs://QmUdqb5SJDbot8Ne3zynyrTX181S6cwbVshA9KWvzWKwk4",
-            "artifactUri": "ipfs://QmUdqb5SJDbot8Ne3zynyrTX181S6cwbVshA9KWvzWKwk4/?fxhash=oo1NqmyEFZpXbksJmotDDLSsFS53xrGUA7WMK2Gtva9VWvrAf4M&fxiteration=48&fxminter=tz1VGZPvqytFVAoSAsM8VrUveJdL3PpVy6K9",
-            "displayUri": "ipfs://QmW3DMsQqWgxYh9W2MkWKT6wzEQqFuYgog8S2VyQjUQcaV",
-            "thumbnailUri": "ipfs://QmWLNiUMfRtTCjAuqA4AuBUQvM5ABpjQJExUJdo2DL9kUN",
-            "authenticityHash": "f32580fc2b34757cd9861931408cdbb776025e3f1d275cc1921218e559ed4ae3",
+            "generatorUri": "ipfs://QmXC8NFRmC3WUNyc1xD3nbuEJxsJjtsLCRS24UtvWtj2yK",
+            "artifactUri": "ipfs://QmXC8NFRmC3WUNyc1xD3nbuEJxsJjtsLCRS24UtvWtj2yK?fxhash=opS7hrX8iU98LJ3e6CDWkshz1qRpU86ykJwoEBr7JbJVjdYZYkw",
+            "displayUri": "ipfs://QmbBjej617hoyLYrwxhmy2cZSA7tsgi5dSFgKN1QJvetux",
+            "thumbnailUri": "ipfs://QmXarRgfeH3BggzgqZrf7bhhs8fx4Fss1B21p5yLZ7wMPc",
+            "authenticityHash": "f35a179de37986057a25cd568c74f5d921a37701b7f46258eb1b6ba0854ad680",
             "attributes": [
               {
-                "name": "Scale",
-                "value": "0.9"
-              },
-              {
-                "name": "PixelDensity",
+                "name": "Rotation type",
                 "value": 3
               },
               {
-                "name": "Variation",
-                "value": true
+                "name": "Operations",
+                "value": 2
               },
               {
-                "name": "Mix",
+                "name": "Seed",
+                "value": "Bar"
+              },
+              {
+                "name": "Soften",
                 "value": false
               },
               {
-                "name": "BlueFilter",
-                "value": true
-              },
-              {
-                "name": "NoStem",
-                "value": false
-              },
-              {
-                "name": "LeafBold",
-                "value": false
-              },
-              {
-                "name": "LeafMode",
-                "value": "C"
-              },
-              {
-                "name": "LeafType",
+                "name": "Strategy",
                 "value": "Standard"
               },
               {
-                "name": "Rain",
-                "value": 1227
+                "name": "Coloured",
+                "value": false
               },
               {
-                "name": "LeafDensity",
-                "value": 8
-              },
-              {
-                "name": "FlowerDensity",
-                "value": 43
-              },
-              {
-                "name": "FlowerColor",
-                "value": "205,55,219"
-              },
-              {
-                "name": "FlowerColor_sub",
-                "value": "232,229,244"
-              },
-              {
-                "name": "BkColor",
-                "value": "#CABAC8"
+                "name": "Scale",
+                "value": 1
               }
             ],
             "decimals": 0,
@@ -557,13 +891,13 @@
           },
           "duplicate": false,
           "activeListing": {
-            "id": 1002277,
+            "id": 1002357,
             "version": 1,
-            "price": 30000000,
+            "price": 1000000,
             "__typename": "Listing"
           },
           "owner": {
-            "id": "tz1ZjEwXyHtcnD48WfYy9YRpkkc7dSP3Nh4W",
+            "id": "tz1LJchBBMZNAjhJq5qGHNEyzPceRtFuHAqy",
             "name": null,
             "flag": "NONE",
             "avatarUri": null,
@@ -571,12 +905,12 @@
           },
           "issuer": {
             "flag": "NONE",
-            "name": "AJISAI",
+            "name": "Unendlichkeitsmaschine",
             "author": {
-              "id": "tz2EyogxqyV7GwVT2rk14YUhq3brBocyKFuX",
-              "name": "hasaqui",
+              "id": "tz1cg3zot4RRvYTjaQNBcsGMJ7JhEkf9bnSv",
+              "name": "un_erscore",
               "type": "REGULAR",
-              "avatarUri": "ipfs://QmcFdX9CiheiugzxdwysnAPQdSK6uYZ39gLn3eKQ1fnaHL",
+              "avatarUri": "ipfs://QmNSGtNQiEkfnB9HRyKFUGKYj5pNSqtTnyWwPFc72NNTM7",
               "flag": "VERIFIED",
               "collaborators": null,
               "__typename": "User"
@@ -588,27 +922,93 @@
         "__typename": "Listing"
       },
       {
-        "id": 1002276,
+        "id": 1002356,
         "version": 1,
-        "price": 30000000,
+        "price": 49000000,
         "objkt": {
-          "id": "FX1-81603",
+          "id": "FX1-86390",
           "version": 2,
-          "name": "AJISAI #49",
-          "slug": "ajisai-49",
+          "name": "ecologías - A #1633",
+          "slug": "ecologias-a-1633",
           "metadata": {
-            "name": "AJISAI #49",
-            "iterationHash": "oo1YsE3ytmLpAEtKTfNEZ6imL31T5PkFpNRZErk6RJUp9fmwd5b",
+            "name": "ecologías - A #1633",
+            "iterationHash": "op1oUYeLe8pfh4U6epw2VM6GnmeEQ4dh6fAMXQvWxXrx31tfQ4C",
+            "description": "ecologías - A\n\nlines are a metaphor for the communication all species engage in. We as humans have a need to leave traces - stories - that others can read and learn from. What will be the traces machines want to leave? This piece employs sinusoidal signals drawn with lines as a simple metaphor for every trace and every language, for every message and every communication.\n\necologías-A is an entity that is part of a broader ecology. Released on occasion of the show \"Unbound - Ecology in the Age of Machines\" at Unit London. The data generated by this entity is read by a different piece minted on Ethereum, creating a link between Tezos and Ethereum, a metaphor for an ecology of blockchains.\n\nit shares a common element with two other works released on fxhash: ecologías B and ecologías C, all of them contributing data to aforementioned pieces.\n\nread more at https://www.iillucid.com/ecologias\n\n15% of primary sales are donated to institutions working towards improving biodiversity and environmental efforts.\n\nMarcelo Soria-Rodríguez, @msoriaro\nCC BY-NC-SA 4.0, https://creativecommons.org/licenses/by-nc-sa/4.0/\n\nBuilt on p5.js, glsl\n\nappend &pd=N (N a number) to the URL in live view to increase/decrease resolution\npress s to save current image in current resolution\npress z,x,g,b,n followed by +/- to increase/decrease, respectively, brightness, contrast, gamma, blur, noise",
+            "tags": [],
+            "generatorUri": "ipfs://QmQfd8R4axV7URxtkJdJ56AdZKu6EMKtYGNDoXVyBW65iZ",
+            "artifactUri": "ipfs://QmQfd8R4axV7URxtkJdJ56AdZKu6EMKtYGNDoXVyBW65iZ/?fxhash=op1oUYeLe8pfh4U6epw2VM6GnmeEQ4dh6fAMXQvWxXrx31tfQ4C&fxiteration=1633&fxminter=tz1WA9qgbSWeFdXPSAMsY7o4DUdqpJ959Vy7",
+            "displayUri": "ipfs://QmbirNKxfXqn47pU9vjdY2k1kV4iWfaJVUnXLjiUBVX2j4",
+            "thumbnailUri": "ipfs://QmfMrbJDenPZLZS5AqHuAZjQVL5U9hV8g1YZMT3JBaT3GV",
+            "authenticityHash": "9904b7946cb02d336dfa34dffd0bf0e99cdb3ce2a69bd3ead892c3891c059eb6",
+            "attributes": [
+              {
+                "name": "entity",
+                "value": "A"
+              },
+              {
+                "name": "ecology",
+                "value": "ecologías"
+              }
+            ],
+            "decimals": 0,
+            "symbol": "GENTK",
+            "version": "0.2",
+            "snippetVersion": "3.3.0"
+          },
+          "duplicate": false,
+          "activeListing": {
+            "id": 1002356,
+            "version": 1,
+            "price": 49000000,
+            "__typename": "Listing"
+          },
+          "owner": {
+            "id": "tz1LJchBBMZNAjhJq5qGHNEyzPceRtFuHAqy",
+            "name": null,
+            "flag": "NONE",
+            "avatarUri": null,
+            "__typename": "User"
+          },
+          "issuer": {
+            "flag": "NONE",
+            "name": "ecologías - A",
+            "author": {
+              "id": "tz1eCX4smQ3LbxwDR3pqNoLQvNNKiHJtpwYz",
+              "name": "msoriaro",
+              "type": "REGULAR",
+              "avatarUri": "ipfs://QmU9cPLFmtqhRZUXxJywGZwuy62kXiwzmgQFsqwgzub8f8",
+              "flag": "VERIFIED",
+              "collaborators": null,
+              "__typename": "User"
+            },
+            "__typename": "GenerativeToken"
+          },
+          "__typename": "Objkt"
+        },
+        "__typename": "Listing"
+      },
+      {
+        "id": 1002355,
+        "version": 1,
+        "price": 50000000,
+        "objkt": {
+          "id": "FX1-81604",
+          "version": 2,
+          "name": "AJISAI #50",
+          "slug": "ajisai-50",
+          "metadata": {
+            "name": "AJISAI #50",
+            "iterationHash": "oo4UXbuaFRFDTnrzahh3CgFGwY1pjqMTb9Mj6QgjTVocdGR2kTq",
             "description": "This piece is based on my early code when I habitually started creating pieces in p5js.\nIf you compare it to an actual AJISAI (hydrangea), its form lacks reality, but to me it has a nostalgic feel to it.\nDuring the process of creation, I was reminded of paper collage (Chigiri-e) as I worked. In Japan, Kiyoshi Yamashita is one of the most famous Chigiri-e artists, and the 100th anniversary of his birth has just passed. Damien Hirst also made a series of cherry blossom paintings, which I found very much like Kiyoshi Yamashita's work when I saw them.\nThis work reminds me of the art class in elementary school. It would be wonderful if we could enjoy arts and crafts again through programming, and I am touched by such qualia.\n\np5js\nsize: 800×800 px\n2023 July\nhasaqui",
             "tags": [
               "p5js",
               "flower"
             ],
             "generatorUri": "ipfs://QmUdqb5SJDbot8Ne3zynyrTX181S6cwbVshA9KWvzWKwk4",
-            "artifactUri": "ipfs://QmUdqb5SJDbot8Ne3zynyrTX181S6cwbVshA9KWvzWKwk4/?fxhash=oo1YsE3ytmLpAEtKTfNEZ6imL31T5PkFpNRZErk6RJUp9fmwd5b&fxiteration=49&fxminter=tz1VGZPvqytFVAoSAsM8VrUveJdL3PpVy6K9",
-            "displayUri": "ipfs://QmbCLB1Pp4ah3fZaeA4GnPvybZH2KCDmU51yaiQriqUuXk",
-            "thumbnailUri": "ipfs://QmTZNcFjq1Jw9c26BojRm2wvbRubHXpoQ1puuWCDkJwGhX",
-            "authenticityHash": "e122b46439eeb2e0cc97386fb4ac9c854041e1ab67537872cc0a267b24a247cb",
+            "artifactUri": "ipfs://QmUdqb5SJDbot8Ne3zynyrTX181S6cwbVshA9KWvzWKwk4/?fxhash=oo4UXbuaFRFDTnrzahh3CgFGwY1pjqMTb9Mj6QgjTVocdGR2kTq&fxiteration=50&fxminter=tz1VGZPvqytFVAoSAsM8VrUveJdL3PpVy6K9",
+            "displayUri": "ipfs://QmYXPbhj5kcNVKaFF2kF9ueiR4HnN4cJJCAihT7mRBxhgG",
+            "thumbnailUri": "ipfs://QmSmkJcyCukbdq2cj3hC2S918Gfpfxk7aZpRnFECJxeZUs",
+            "authenticityHash": "103a1687567e95e3f62c45f66e9c6b73315e9c646919a7d7e9394ac5636f967e",
             "attributes": [
               {
                 "name": "Scale",
@@ -624,7 +1024,7 @@
               },
               {
                 "name": "Mix",
-                "value": true
+                "value": false
               },
               {
                 "name": "BlueFilter",
@@ -632,43 +1032,43 @@
               },
               {
                 "name": "NoStem",
-                "value": false
-              },
-              {
-                "name": "LeafBold",
                 "value": true
               },
               {
+                "name": "LeafBold",
+                "value": false
+              },
+              {
                 "name": "LeafMode",
-                "value": "A"
+                "value": "F"
               },
               {
                 "name": "LeafType",
-                "value": "Rainy"
+                "value": "Shade"
               },
               {
                 "name": "Rain",
-                "value": 1259
+                "value": 553
               },
               {
                 "name": "LeafDensity",
-                "value": 12
+                "value": 4
               },
               {
                 "name": "FlowerDensity",
-                "value": 78
+                "value": 70
               },
               {
                 "name": "FlowerColor",
-                "value": "246,228,252"
+                "value": "43,44,227"
               },
               {
                 "name": "FlowerColor_sub",
-                "value": "30,18,188"
+                "value": "N/A"
               },
               {
                 "name": "BkColor",
-                "value": "#002FA7"
+                "value": "#B2DDF7"
               }
             ],
             "decimals": 0,
@@ -677,16 +1077,16 @@
           },
           "duplicate": false,
           "activeListing": {
-            "id": 1002276,
+            "id": 1002355,
             "version": 1,
-            "price": 30000000,
+            "price": 50000000,
             "__typename": "Listing"
           },
           "owner": {
-            "id": "tz1ZjEwXyHtcnD48WfYy9YRpkkc7dSP3Nh4W",
-            "name": null,
+            "id": "tz1VGZPvqytFVAoSAsM8VrUveJdL3PpVy6K9",
+            "name": "A R T R A",
             "flag": "NONE",
-            "avatarUri": null,
+            "avatarUri": "ipfs://QmS34juW7zj5QEB8VzYCLLQMDaisbQAPV641f9rHUxjYBM",
             "__typename": "User"
           },
           "issuer": {
@@ -708,788 +1108,24 @@
         "__typename": "Listing"
       },
       {
-        "id": 1002275,
+        "id": 1002354,
         "version": 1,
-        "price": 8000000,
+        "price": 13000000,
         "objkt": {
-          "id": "FX0-568658",
-          "version": 0,
-          "name": "Snail Tree #38",
-          "slug": "snail-tree-38",
-          "metadata": {
-            "name": "Snail Tree #38",
-            "iterationHash": "ooyk1HzYwvgPLYGfwAb7j1Y1r6p6GXBS9DPEtxpsuvwYiyUqug2",
-            "description": "A space colonization algorithm combined with a search for food sources.\nThats it !",
-            "tags": [
-              "agents",
-              "space colonization"
-            ],
-            "generatorUri": "ipfs://QmXG12xCHUBdvts56afo4VfEd17Pjf7jXXXz6dAzGWSQWx",
-            "artifactUri": "ipfs://QmXG12xCHUBdvts56afo4VfEd17Pjf7jXXXz6dAzGWSQWx?fxhash=ooyk1HzYwvgPLYGfwAb7j1Y1r6p6GXBS9DPEtxpsuvwYiyUqug2",
-            "displayUri": "ipfs://Qmbpm9aPPw6EUNxpsubTRyXwHtGZV3GNQDHEouxVgS8iwX",
-            "thumbnailUri": "ipfs://QmYaq67pgby3fNDYSFDDJJTyTaoQ5PjrSxZZbF2TQXG3Eu",
-            "authenticityHash": "ae619e672640ad1d8f4ca091c2bb153e1607dc032fa5035cde11930b539435c7",
-            "attributes": [],
-            "decimals": 0,
-            "symbol": "GENTK",
-            "version": "0.2"
-          },
-          "duplicate": false,
-          "activeListing": {
-            "id": 1002275,
-            "version": 1,
-            "price": 8000000,
-            "__typename": "Listing"
-          },
-          "owner": {
-            "id": "tz1ZQNJ2jb7WcoYjFaSsboAC6YUs1T577A95",
-            "name": "srice",
-            "flag": "NONE",
-            "avatarUri": "ipfs://QmYruGzmxLjv84YZ8o5P6oN1Ado3X6NHVEMfiMJfdSy7EH",
-            "__typename": "User"
-          },
-          "issuer": {
-            "flag": "NONE",
-            "name": "Snail Tree",
-            "author": {
-              "id": "tz1ZgLmixVFNbs5ob466nNeG1kbZBN5xu9PH",
-              "name": "Felix Deimling",
-              "type": "REGULAR",
-              "avatarUri": "ipfs://QmZ1qtd1X5AYWQUpyC7jZmHLJXTSkAJhEGvWJQHqwmgDwR",
-              "flag": "VERIFIED",
-              "collaborators": null,
-              "__typename": "User"
-            },
-            "__typename": "GenerativeToken"
-          },
-          "__typename": "Objkt"
-        },
-        "__typename": "Listing"
-      },
-      {
-        "id": 1002274,
-        "version": 1,
-        "price": 8000000,
-        "objkt": {
-          "id": "FX0-568657",
-          "version": 0,
-          "name": "Snail Tree #37",
-          "slug": "snail-tree-37",
-          "metadata": {
-            "name": "Snail Tree #37",
-            "iterationHash": "opJMVdBBzsixaUCnWocXJt2Pbm2QLSwMWPWa5cAR15cd8FFpTQ7",
-            "description": "A space colonization algorithm combined with a search for food sources.\nThats it !",
-            "tags": [
-              "agents",
-              "space colonization"
-            ],
-            "generatorUri": "ipfs://QmXG12xCHUBdvts56afo4VfEd17Pjf7jXXXz6dAzGWSQWx",
-            "artifactUri": "ipfs://QmXG12xCHUBdvts56afo4VfEd17Pjf7jXXXz6dAzGWSQWx?fxhash=opJMVdBBzsixaUCnWocXJt2Pbm2QLSwMWPWa5cAR15cd8FFpTQ7",
-            "displayUri": "ipfs://QmesuhsGRPqwXdJbsAbgiHUi8FyGkNeDR6jiLCCAr3rGHP",
-            "thumbnailUri": "ipfs://QmQP9f8S52UHdey9TtjuYmoHksEdjSXNWapJa3udYZroGe",
-            "authenticityHash": "b0aea5f73e9fa87d3ccb4fa14eca619030ce09571488f1899f462f6a524dec29",
-            "attributes": [],
-            "decimals": 0,
-            "symbol": "GENTK",
-            "version": "0.2"
-          },
-          "duplicate": false,
-          "activeListing": {
-            "id": 1002274,
-            "version": 1,
-            "price": 8000000,
-            "__typename": "Listing"
-          },
-          "owner": {
-            "id": "tz1ZQNJ2jb7WcoYjFaSsboAC6YUs1T577A95",
-            "name": "srice",
-            "flag": "NONE",
-            "avatarUri": "ipfs://QmYruGzmxLjv84YZ8o5P6oN1Ado3X6NHVEMfiMJfdSy7EH",
-            "__typename": "User"
-          },
-          "issuer": {
-            "flag": "NONE",
-            "name": "Snail Tree",
-            "author": {
-              "id": "tz1ZgLmixVFNbs5ob466nNeG1kbZBN5xu9PH",
-              "name": "Felix Deimling",
-              "type": "REGULAR",
-              "avatarUri": "ipfs://QmZ1qtd1X5AYWQUpyC7jZmHLJXTSkAJhEGvWJQHqwmgDwR",
-              "flag": "VERIFIED",
-              "collaborators": null,
-              "__typename": "User"
-            },
-            "__typename": "GenerativeToken"
-          },
-          "__typename": "Objkt"
-        },
-        "__typename": "Listing"
-      },
-      {
-        "id": 1002273,
-        "version": 1,
-        "price": 8000000,
-        "objkt": {
-          "id": "FX0-568655",
-          "version": 0,
-          "name": "Snail Tree #36",
-          "slug": "snail-tree-36",
-          "metadata": {
-            "name": "Snail Tree #36",
-            "iterationHash": "onjXHYbTP6oZ8AS7MVg9UNyWqo97KMzvGicmCDfnjaP5r5czwHM",
-            "description": "A space colonization algorithm combined with a search for food sources.\nThats it !",
-            "tags": [
-              "agents",
-              "space colonization"
-            ],
-            "generatorUri": "ipfs://QmXG12xCHUBdvts56afo4VfEd17Pjf7jXXXz6dAzGWSQWx",
-            "artifactUri": "ipfs://QmXG12xCHUBdvts56afo4VfEd17Pjf7jXXXz6dAzGWSQWx?fxhash=onjXHYbTP6oZ8AS7MVg9UNyWqo97KMzvGicmCDfnjaP5r5czwHM",
-            "displayUri": "ipfs://QmT7t1bcYTeTU5L1HHK7z1nBf3XSzjcZh3urnfTa2tS4nu",
-            "thumbnailUri": "ipfs://QmUuWXyhucLGX9SyHAR9JWEWoLQNTfxuDRkbhyTufL5Bd9",
-            "authenticityHash": "698c36781486f637bc56769083837500bf218f0be8f19aba3febecd55bff214e",
-            "attributes": [],
-            "decimals": 0,
-            "symbol": "GENTK",
-            "version": "0.2"
-          },
-          "duplicate": false,
-          "activeListing": {
-            "id": 1002273,
-            "version": 1,
-            "price": 8000000,
-            "__typename": "Listing"
-          },
-          "owner": {
-            "id": "tz1ZQNJ2jb7WcoYjFaSsboAC6YUs1T577A95",
-            "name": "srice",
-            "flag": "NONE",
-            "avatarUri": "ipfs://QmYruGzmxLjv84YZ8o5P6oN1Ado3X6NHVEMfiMJfdSy7EH",
-            "__typename": "User"
-          },
-          "issuer": {
-            "flag": "NONE",
-            "name": "Snail Tree",
-            "author": {
-              "id": "tz1ZgLmixVFNbs5ob466nNeG1kbZBN5xu9PH",
-              "name": "Felix Deimling",
-              "type": "REGULAR",
-              "avatarUri": "ipfs://QmZ1qtd1X5AYWQUpyC7jZmHLJXTSkAJhEGvWJQHqwmgDwR",
-              "flag": "VERIFIED",
-              "collaborators": null,
-              "__typename": "User"
-            },
-            "__typename": "GenerativeToken"
-          },
-          "__typename": "Objkt"
-        },
-        "__typename": "Listing"
-      },
-      {
-        "id": 1002272,
-        "version": 1,
-        "price": 75000000,
-        "objkt": {
-          "id": "FX0-350163",
-          "version": 0,
-          "name": "Alien Signs #26",
-          "slug": "alien-signs-26",
-          "metadata": {
-            "name": "Alien Signs #26",
-            "iterationHash": "ooGpGANes881uZkS81xbzouDbKUBKBUjfR1Nbgn2kXpTFwNAhGB",
-            "description": "Famous in the galaxy curves are featured here. The ones that require only trigonometrical functions, thus accessible to all humanoids. Projections of pure math. Archimedean spiral, lemniscate, circle and occasional fish could be found. Black and white palette is rare. Occasional highway is crossing all the symbols. Press \"e\" to save image.\n",
-            "tags": [
-              "trigonometry",
-              "polar coordinates",
-              "tribal",
-              "flow",
-              "generative"
-            ],
-            "generatorUri": "ipfs://QmYduz938kgFSzc8HgDyxWckFkJxDtnRsn2fAgkMEGz4ne",
-            "artifactUri": "ipfs://QmYduz938kgFSzc8HgDyxWckFkJxDtnRsn2fAgkMEGz4ne?fxhash=ooGpGANes881uZkS81xbzouDbKUBKBUjfR1Nbgn2kXpTFwNAhGB",
-            "displayUri": "ipfs://QmPdoWgEZHTV7Y68S1WQEGrkBk7JX53eV5gKvcMgYFwmSa",
-            "thumbnailUri": "ipfs://QmUqza7ghvRe5sS89woFDDRD8L6BDaxDwLgXjepMHfvkLR",
-            "authenticityHash": "24db2046d97b3cb03711d236852f60ae217f5239bff2ce3d15dfce3b36185320",
-            "attributes": [
-              {
-                "name": "special",
-                "value": true
-              },
-              {
-                "name": "curve",
-                "value": "spiral"
-              },
-              {
-                "name": "line",
-                "value": false
-              }
-            ],
-            "decimals": 0,
-            "symbol": "GENTK",
-            "version": "0.2"
-          },
-          "duplicate": false,
-          "activeListing": {
-            "id": 1002272,
-            "version": 1,
-            "price": 75000000,
-            "__typename": "Listing"
-          },
-          "owner": {
-            "id": "tz1ZQNJ2jb7WcoYjFaSsboAC6YUs1T577A95",
-            "name": "srice",
-            "flag": "NONE",
-            "avatarUri": "ipfs://QmYruGzmxLjv84YZ8o5P6oN1Ado3X6NHVEMfiMJfdSy7EH",
-            "__typename": "User"
-          },
-          "issuer": {
-            "flag": "NONE",
-            "name": "Alien Signs",
-            "author": {
-              "id": "tz1TyhGTFiCSAS4XXGr21YfDgp37hYVY4x26",
-              "name": "akella",
-              "type": "REGULAR",
-              "avatarUri": "ipfs://QmSJuScnRyM5Uoiw9phVFUmecc457mbje9nTioyQ1n8WMr",
-              "flag": "VERIFIED",
-              "collaborators": null,
-              "__typename": "User"
-            },
-            "__typename": "GenerativeToken"
-          },
-          "__typename": "Objkt"
-        },
-        "__typename": "Listing"
-      },
-      {
-        "id": 1002271,
-        "version": 1,
-        "price": 18000000,
-        "objkt": {
-          "id": "FX0-350160",
-          "version": 0,
-          "name": "Alien Signs #23",
-          "slug": "alien-signs-23",
-          "metadata": {
-            "name": "Alien Signs #23",
-            "iterationHash": "ooXoW8NLNDdkokDNeNrwHktaDmojRnMo7gedKPQ6BpopyPjLvzp",
-            "description": "Famous in the galaxy curves are featured here. The ones that require only trigonometrical functions, thus accessible to all humanoids. Projections of pure math. Archimedean spiral, lemniscate, circle and occasional fish could be found. Black and white palette is rare. Occasional highway is crossing all the symbols. Press \"e\" to save image.\n",
-            "tags": [
-              "trigonometry",
-              "polar coordinates",
-              "tribal",
-              "flow",
-              "generative"
-            ],
-            "generatorUri": "ipfs://QmYduz938kgFSzc8HgDyxWckFkJxDtnRsn2fAgkMEGz4ne",
-            "artifactUri": "ipfs://QmYduz938kgFSzc8HgDyxWckFkJxDtnRsn2fAgkMEGz4ne?fxhash=ooXoW8NLNDdkokDNeNrwHktaDmojRnMo7gedKPQ6BpopyPjLvzp",
-            "displayUri": "ipfs://QmVxGSpG6nGvFxQyEfuywu1owUd8uhER6iraoY6gzbdDLX",
-            "thumbnailUri": "ipfs://QmSoLWde2zZCAmqM6kMtwD5ApmgfDv7Xo1YHLjNeY2By3j",
-            "authenticityHash": "3c234409bac226eaafec573aa50d52dc3095eeb2c83e8d048143d334e1b58f12",
-            "attributes": [
-              {
-                "name": "special",
-                "value": false
-              },
-              {
-                "name": "curve",
-                "value": "fish"
-              },
-              {
-                "name": "line",
-                "value": false
-              }
-            ],
-            "decimals": 0,
-            "symbol": "GENTK",
-            "version": "0.2"
-          },
-          "duplicate": false,
-          "activeListing": {
-            "id": 1002271,
-            "version": 1,
-            "price": 18000000,
-            "__typename": "Listing"
-          },
-          "owner": {
-            "id": "tz1ZQNJ2jb7WcoYjFaSsboAC6YUs1T577A95",
-            "name": "srice",
-            "flag": "NONE",
-            "avatarUri": "ipfs://QmYruGzmxLjv84YZ8o5P6oN1Ado3X6NHVEMfiMJfdSy7EH",
-            "__typename": "User"
-          },
-          "issuer": {
-            "flag": "NONE",
-            "name": "Alien Signs",
-            "author": {
-              "id": "tz1TyhGTFiCSAS4XXGr21YfDgp37hYVY4x26",
-              "name": "akella",
-              "type": "REGULAR",
-              "avatarUri": "ipfs://QmSJuScnRyM5Uoiw9phVFUmecc457mbje9nTioyQ1n8WMr",
-              "flag": "VERIFIED",
-              "collaborators": null,
-              "__typename": "User"
-            },
-            "__typename": "GenerativeToken"
-          },
-          "__typename": "Objkt"
-        },
-        "__typename": "Listing"
-      },
-      {
-        "id": 1002270,
-        "version": 1,
-        "price": 75000000,
-        "objkt": {
-          "id": "FX0-350258",
-          "version": 0,
-          "name": "Alien Signs #119",
-          "slug": "alien-signs-119",
-          "metadata": {
-            "name": "Alien Signs #119",
-            "iterationHash": "opLCy3dN2XLU7yxGCPhMWwk2yLH64WTAEE7MNEGfTr35wmdnNqs",
-            "description": "Famous in the galaxy curves are featured here. The ones that require only trigonometrical functions, thus accessible to all humanoids. Projections of pure math. Archimedean spiral, lemniscate, circle and occasional fish could be found. Black and white palette is rare. Occasional highway is crossing all the symbols. Press \"e\" to save image.\n",
-            "tags": [
-              "trigonometry",
-              "polar coordinates",
-              "tribal",
-              "flow",
-              "generative"
-            ],
-            "generatorUri": "ipfs://QmYduz938kgFSzc8HgDyxWckFkJxDtnRsn2fAgkMEGz4ne",
-            "artifactUri": "ipfs://QmYduz938kgFSzc8HgDyxWckFkJxDtnRsn2fAgkMEGz4ne?fxhash=opLCy3dN2XLU7yxGCPhMWwk2yLH64WTAEE7MNEGfTr35wmdnNqs",
-            "displayUri": "ipfs://QmXwpJ2PHaqA8CB8G8KaL6Pv8x8oKzH6NWHxQzBLzyzjyZ",
-            "thumbnailUri": "ipfs://QmQNniP6SBkA9EoMLTL92dWLJ9i7AUyye7SWFZ6Zv5JVtk",
-            "authenticityHash": "52b5e3127440302afcb6ca05e6d3c49e1b098111b4a9fd557aa9cb28a0b67990",
-            "attributes": [
-              {
-                "name": "special",
-                "value": true
-              },
-              {
-                "name": "curve",
-                "value": "leminiscate"
-              },
-              {
-                "name": "line",
-                "value": true
-              }
-            ],
-            "decimals": 0,
-            "symbol": "GENTK",
-            "version": "0.2"
-          },
-          "duplicate": false,
-          "activeListing": {
-            "id": 1002270,
-            "version": 1,
-            "price": 75000000,
-            "__typename": "Listing"
-          },
-          "owner": {
-            "id": "tz1ZQNJ2jb7WcoYjFaSsboAC6YUs1T577A95",
-            "name": "srice",
-            "flag": "NONE",
-            "avatarUri": "ipfs://QmYruGzmxLjv84YZ8o5P6oN1Ado3X6NHVEMfiMJfdSy7EH",
-            "__typename": "User"
-          },
-          "issuer": {
-            "flag": "NONE",
-            "name": "Alien Signs",
-            "author": {
-              "id": "tz1TyhGTFiCSAS4XXGr21YfDgp37hYVY4x26",
-              "name": "akella",
-              "type": "REGULAR",
-              "avatarUri": "ipfs://QmSJuScnRyM5Uoiw9phVFUmecc457mbje9nTioyQ1n8WMr",
-              "flag": "VERIFIED",
-              "collaborators": null,
-              "__typename": "User"
-            },
-            "__typename": "GenerativeToken"
-          },
-          "__typename": "Objkt"
-        },
-        "__typename": "Listing"
-      },
-      {
-        "id": 1002269,
-        "version": 1,
-        "price": 77000000,
-        "objkt": {
-          "id": "FX0-919210",
-          "version": 1,
-          "name": "Sketches:Pairs of Tails:Majestic Creatures #29",
-          "slug": "sketches:pairs-of-tails:majestic-creatures-29",
-          "metadata": {
-            "name": "Sketches:Pairs of Tails:Majestic Creatures #29",
-            "iterationHash": "opE2U5kNUQYdNNoXnsjZsoh2EMFYYMsh4cmu8nHRB6BQqY4svnQ",
-            "description": "Addendum to Annuls of WorSAGE (the Worshipful Society of Adventurers and Generative Explorers) XXVII.Vol.2048\n\nThere is a significantly common phenomena in which Pairs of \"Tails of Majestic Creatures\" are found together. Various sketches of these \"Pairs\" have been collated and are available, free of charge, the collectors of the initial Tails of Majestic Creatures collection based upon a recently taken collection registry snapshot. \n\nThese sketches are available on a one per collector basis and for a limited time only after which they will no longer be accessible.\n\nThe sketches come in 2 forms - an ink and color style, and a pencil style - for which different colored paper has been used.\n\nThe digitally minded can press s to get a 5000x3000 download of a sketch.",
-            "tags": [
-              "Nature",
-              "River",
-              "Reeds",
-              "Tails",
-              "Sky"
-            ],
-            "generatorUri": "ipfs://QmXQ4AXYKrvzm61WvBaYSf75WxttRrQGyYC7HpNq8x6Kaw",
-            "artifactUri": "ipfs://QmXQ4AXYKrvzm61WvBaYSf75WxttRrQGyYC7HpNq8x6Kaw?fxhash=opE2U5kNUQYdNNoXnsjZsoh2EMFYYMsh4cmu8nHRB6BQqY4svnQ",
-            "displayUri": "ipfs://QmRyumLFtWHf932PSvwYVSg8S7Lf93aFeLXfTZcGPJNstL",
-            "thumbnailUri": "ipfs://QmVwT957MyLt3SRzdbLjeWjAQ3dKBLADsGo3kjr6Dkafwm",
-            "authenticityHash": "0cea457acdaef001631b863f67f0dc0198485e8bac3c1339e3093449e4188bb7",
-            "attributes": [
-              {
-                "name": "Pair Position",
-                "value": "Moving across"
-              },
-              {
-                "name": "Tail Structures",
-                "value": "Tubular"
-              },
-              {
-                "name": "Sketch Style",
-                "value": "Sharp Pencils"
-              },
-              {
-                "name": "Paper",
-                "value": "Light Pink"
-              },
-              {
-                "name": "Thickness",
-                "value": 11
-              },
-              {
-                "name": "Max Reed Size",
-                "value": 15
-              },
-              {
-                "name": "Bio-Activity",
-                "value": "Medium"
-              }
-            ],
-            "decimals": 0,
-            "symbol": "GENTK",
-            "version": "0.2"
-          },
-          "duplicate": false,
-          "activeListing": {
-            "id": 1002269,
-            "version": 1,
-            "price": 77000000,
-            "__typename": "Listing"
-          },
-          "owner": {
-            "id": "tz1YxAN3rn85UQxevF7w78v66xHnSQQByo2j",
-            "name": "tluav (MihailGreen)",
-            "flag": "NONE",
-            "avatarUri": "ipfs://QmXZXAmmhYrE6WtHa4xbhXTw93dJwXKnxjhE6EUJEYfYPs",
-            "__typename": "User"
-          },
-          "issuer": {
-            "flag": "NONE",
-            "name": "Sketches:Pairs of Tails:Majestic Creatures",
-            "author": {
-              "id": "tz1TmMJYiLpo2jf3Us2jox27ruh4Ajh3xYVL",
-              "name": "Art Ralgo",
-              "type": "REGULAR",
-              "avatarUri": "ipfs://QmNyDA2eUezJ9DjGUjyVp2eeCc9ndX5ixgfr7qeoKzngU3",
-              "flag": "VERIFIED",
-              "collaborators": null,
-              "__typename": "User"
-            },
-            "__typename": "GenerativeToken"
-          },
-          "__typename": "Objkt"
-        },
-        "__typename": "Listing"
-      },
-      {
-        "id": 1002268,
-        "version": 1,
-        "price": 49000000,
-        "objkt": {
-          "id": "FX1-83314",
+          "id": "FX1-84511",
           "version": 2,
-          "name": "Manu #37",
-          "slug": "manu-37",
+          "name": "ecologías - A #567",
+          "slug": "ecologias-a-567",
           "metadata": {
-            "name": "Manu #37",
-            "iterationHash": "onpNqbfNCc1xGA7Ajhg74ceiMpSU9mJtxwQxjys6D15kEFNbFdT",
-            "description": "Manu\n---------------\n\nA collector-led exploration of minimalist imperfect line work.\n\nOutputs are generated from a combination of the minter's address, their choice from one of 50 seeds, and options to adjust how the generated surface is presented.\n\nPalettes are named after native New Zealand birds and range from the subdued to the colorful.\n\nThere are no especially rare traits so mint what you love :)\n\n---------------\n\nControls:\nS - Export as png\nH - Toggle high resolution",
-            "tags": [
-              "minimalist",
-              "minimalism",
-              "fxparams",
-              "params"
-            ],
-            "generatorUri": "ipfs://QmZCo9tSbJYrwTPUJ8Tf5j9fCsiHaT3qNk43CwmdNNZG4p",
-            "artifactUri": "ipfs://QmZCo9tSbJYrwTPUJ8Tf5j9fCsiHaT3qNk43CwmdNNZG4p/?fxhash=onpNqbfNCc1xGA7Ajhg74ceiMpSU9mJtxwQxjys6D15kEFNbFdT&fxiteration=37&fxminter=tz1YxAN3rn85UQxevF7w78v66xHnSQQByo2j#0x3ff000000000000006020106030200",
-            "displayUri": "ipfs://QmXFn1RsKWiJEXRTcaZxg9ehnU33kUvedzr8mkerDwyaxv",
-            "thumbnailUri": "ipfs://QmUmJVUB5rofkA9SCutj7u7Eb75n8icPtxmQAdeZMoqSWg",
-            "authenticityHash": "f7de59646e418636f440055e93fbef1f7de58df5371e437484329eb0a6d1e106",
-            "attributes": [
-              {
-                "name": "Accuracy",
-                "value": "Okay"
-              },
-              {
-                "name": "Border",
-                "value": "Extra Large Single"
-              },
-              {
-                "name": "Cells",
-                "value": "4x6"
-              },
-              {
-                "name": "Depth",
-                "value": "Large"
-              },
-              {
-                "name": "Elevation",
-                "value": "Standard"
-              },
-              {
-                "name": "Floating",
-                "value": "Yes"
-              },
-              {
-                "name": "Height",
-                "value": "Medium"
-              },
-              {
-                "name": "Levels",
-                "value": "∞ (Full)"
-              },
-              {
-                "name": "Palette",
-                "value": "Pahirini"
-              },
-              {
-                "name": "Surface",
-                "value": "Opaque"
-              },
-              {
-                "name": "Triangular Tiles",
-                "value": "No"
-              },
-              {
-                "name": "Width",
-                "value": "Large"
-              }
-            ],
-            "decimals": 0,
-            "symbol": "GENTK",
-            "version": "0.2",
-            "snippetVersion": "3.3.0"
-          },
-          "duplicate": false,
-          "activeListing": {
-            "id": 1002268,
-            "version": 1,
-            "price": 49000000,
-            "__typename": "Listing"
-          },
-          "owner": {
-            "id": "tz1YxAN3rn85UQxevF7w78v66xHnSQQByo2j",
-            "name": "tluav (MihailGreen)",
-            "flag": "NONE",
-            "avatarUri": "ipfs://QmXZXAmmhYrE6WtHa4xbhXTw93dJwXKnxjhE6EUJEYfYPs",
-            "__typename": "User"
-          },
-          "issuer": {
-            "flag": "NONE",
-            "name": "Manu",
-            "author": {
-              "id": "tz1XgdC4S9XMosavpqmSiFyjyCfqTNxSp19a",
-              "name": "Rich Poole",
-              "type": "REGULAR",
-              "avatarUri": "ipfs://QmejkZtxiYDpX7uPVo3fwF9AHsZwnqx35qK5iaytNK8pyh",
-              "flag": "VERIFIED",
-              "collaborators": null,
-              "__typename": "User"
-            },
-            "__typename": "GenerativeToken"
-          },
-          "__typename": "Objkt"
-        },
-        "__typename": "Listing"
-      },
-      {
-        "id": 1002267,
-        "version": 1,
-        "price": 555000000,
-        "objkt": {
-          "id": "FX0-964264",
-          "version": 1,
-          "name": "Device 1 #85",
-          "slug": "device-1-85",
-          "metadata": {
-            "name": "Device 1 #85",
-            "iterationHash": "op4JVLhraDTcsAtT9X9Vrt7heJBBbX4errtTNhWsCXt9o1ZFwud",
-            "description": "No text to be read, only characters.\n\nKeys\n\nt : TXT snapshot\np : PNG snapshot 2×\nP : PNG snapshot 4×\nf : Toggle framerate\n↑ : Increase scale\n↓ : Decrease scale\n0 : Auto scale\ni : Toggle info",
-            "tags": [
-              "2d",
-              "abstract",
-              "ascii",
-              "asciiart",
-              "cga",
-              "concrete",
-              "experimental",
-              "generative",
-              "kinetictype",
-              "procedural",
-              "statemachine",
-              "textart",
-              "textmode",
-              "typography"
-            ],
-            "generatorUri": "ipfs://QmUtNadWtVawHPiankh2wdfXRww7QiJ7aGeerBTGbGDrT8",
-            "artifactUri": "ipfs://QmUtNadWtVawHPiankh2wdfXRww7QiJ7aGeerBTGbGDrT8?fxhash=op4JVLhraDTcsAtT9X9Vrt7heJBBbX4errtTNhWsCXt9o1ZFwud",
-            "displayUri": "ipfs://QmQMAdCdsx4jVNMtApPE7ggyMkeaTXJrtibmn5aU2SAhbq",
-            "thumbnailUri": "ipfs://Qmb9BYE3QJiMSGxzGboiJCezGUJ8XqUUau7wzjhMxkJCj1",
-            "authenticityHash": "f86db77d94e152ba82be1e9dea045c9bfcd949062c401d782953bc22b4cbf977",
-            "attributes": [
-              {
-                "name": "Palette",
-                "value": "LIGHT2"
-              },
-              {
-                "name": "Density",
-                "value": "Half"
-              },
-              {
-                "name": "Geometry",
-                "value": "Var"
-              },
-              {
-                "name": "Channel",
-                "value": 2
-              },
-              {
-                "name": "Layout",
-                "value": "MXY"
-              },
-              {
-                "name": "Smoothing",
-                "value": 0.6
-              }
-            ],
-            "decimals": 0,
-            "symbol": "GENTK",
-            "version": "0.2"
-          },
-          "duplicate": false,
-          "activeListing": {
-            "id": 1002267,
-            "version": 1,
-            "price": 555000000,
-            "__typename": "Listing"
-          },
-          "owner": {
-            "id": "tz1YxAN3rn85UQxevF7w78v66xHnSQQByo2j",
-            "name": "tluav (MihailGreen)",
-            "flag": "NONE",
-            "avatarUri": "ipfs://QmXZXAmmhYrE6WtHa4xbhXTw93dJwXKnxjhE6EUJEYfYPs",
-            "__typename": "User"
-          },
-          "issuer": {
-            "flag": "NONE",
-            "name": "Device 1",
-            "author": {
-              "id": "tz1dEF5ZMTnBSkz2ZQPvpJjwyfeUUyGjeMtf",
-              "name": "ertdfgcvb",
-              "type": "REGULAR",
-              "avatarUri": "ipfs://QmSJ8q2gFGfAYtSHPFsBigQtAp3cDFTvRP24TZRE8d4uRK",
-              "flag": "VERIFIED",
-              "collaborators": null,
-              "__typename": "User"
-            },
-            "__typename": "GenerativeToken"
-          },
-          "__typename": "Objkt"
-        },
-        "__typename": "Listing"
-      },
-      {
-        "id": 1002266,
-        "version": 1,
-        "price": 49000000,
-        "objkt": {
-          "id": "FX0-29290",
-          "version": 0,
-          "name": "Polar #18",
-          "slug": "polar-18",
-          "metadata": {
-            "name": "Polar #18",
-            "iterationHash": "onnjExR747jYQs43puKmDrSs9h9T5HG5vKQrz5kNvCFoqiF6Q8g",
-            "description": "Generative shapes and lines by @petitsapin.\n\n3 colour palettes, Common, Occasional and Rare.",
-            "tags": [
-              "generative",
-              "procedural",
-              "geometry",
-              "lines"
-            ],
-            "artifactUri": "ipfs://QmeyGKKuwy4QG6NcCjus4jpD7pxGXrcTNXqk67mZmCG9Cw",
-            "displayUri": "ipfs://Qmd2ZN4fgcwFQq7nTkbNwXzbQFwTMfkATHVs2Mqju6bDsb",
-            "thumbnailUri": "ipfs://Qmabs5J7Q7FxVRjENkyew3QUGmJtjLuUJ3fjo7XvVbzbfK",
-            "authenticityHash": "b00410acfbad89f7da88221b2568b5d34f73e5a61e2c496a11363ea57e2b1ab0",
-            "attributes": [
-              {
-                "name": "Palette",
-                "value": "Common"
-              }
-            ],
-            "decimals": 0,
-            "symbol": "GENTK"
-          },
-          "duplicate": false,
-          "activeListing": {
-            "id": 1002266,
-            "version": 1,
-            "price": 49000000,
-            "__typename": "Listing"
-          },
-          "owner": {
-            "id": "tz1YxAN3rn85UQxevF7w78v66xHnSQQByo2j",
-            "name": "tluav (MihailGreen)",
-            "flag": "NONE",
-            "avatarUri": "ipfs://QmXZXAmmhYrE6WtHa4xbhXTw93dJwXKnxjhE6EUJEYfYPs",
-            "__typename": "User"
-          },
-          "issuer": {
-            "flag": "NONE",
-            "name": "Polar",
-            "author": {
-              "id": "tz1g3c9jDhoLVKyGEmBdTq9WPQhbNbcfb9YX",
-              "name": "petitsapin",
-              "type": "REGULAR",
-              "avatarUri": "ipfs://QmPtReVGdq5vneNEiomzVXLy18CzsEAx5jntupLx3rCwga",
-              "flag": "VERIFIED",
-              "collaborators": null,
-              "__typename": "User"
-            },
-            "__typename": "GenerativeToken"
-          },
-          "__typename": "Objkt"
-        },
-        "__typename": "Listing"
-      },
-      {
-        "id": 1002265,
-        "version": 1,
-        "price": 15000000,
-        "objkt": {
-          "id": "FX1-85196",
-          "version": 2,
-          "name": "ecologías - A #1138",
-          "slug": "ecologias-a-1138",
-          "metadata": {
-            "name": "ecologías - A #1138",
-            "iterationHash": "ooFAYyoWBAW6F7FSs7QWnfDGcWi5XB7onzdDTCa8gypsNHPYMRd",
+            "name": "ecologías - A #567",
+            "iterationHash": "oo4Rp91VAh3XZufykMVadwMBUPxFm3CeNDuSk8vMgY4taKFSnK4",
             "description": "ecologías - A\n\nlines are a metaphor for the communication all species engage in. We as humans have a need to leave traces - stories - that others can read and learn from. What will be the traces machines want to leave? This piece employs sinusoidal signals drawn with lines as a simple metaphor for every trace and every language, for every message and every communication.\n\necologías-A is an entity that is part of a broader ecology. Released on occasion of the show \"Unbound - Ecology in the Age of Machines\" at Unit London. The data generated by this entity is read by a different piece minted on Ethereum, creating a link between Tezos and Ethereum, a metaphor for an ecology of blockchains.\n\nit shares a common element with two other works released on fxhash: ecologías B and ecologías C, all of them contributing data to aforementioned pieces.\n\nread more at https://www.iillucid.com/ecologias\n\n15% of primary sales are donated to institutions working towards improving biodiversity and environmental efforts.\n\nMarcelo Soria-Rodríguez, @msoriaro\nCC BY-NC-SA 4.0, https://creativecommons.org/licenses/by-nc-sa/4.0/\n\nBuilt on p5.js, glsl\n\nappend &pd=N (N a number) to the URL in live view to increase/decrease resolution\npress s to save current image in current resolution\npress z,x,g,b,n followed by +/- to increase/decrease, respectively, brightness, contrast, gamma, blur, noise",
             "tags": [],
             "generatorUri": "ipfs://QmQfd8R4axV7URxtkJdJ56AdZKu6EMKtYGNDoXVyBW65iZ",
-            "artifactUri": "ipfs://QmQfd8R4axV7URxtkJdJ56AdZKu6EMKtYGNDoXVyBW65iZ/?fxhash=ooFAYyoWBAW6F7FSs7QWnfDGcWi5XB7onzdDTCa8gypsNHPYMRd&fxiteration=1138&fxminter=tz1YxAN3rn85UQxevF7w78v66xHnSQQByo2j",
-            "displayUri": "ipfs://QmNpwBcBzyMxCToGZJsWRvupUJygktNHCPV5edf8FcoWMg",
-            "thumbnailUri": "ipfs://QmZ2D3CWj1u6VrwLZdZZE82U7S6XGeqQQKBxGzxVBxJd1n",
-            "authenticityHash": "2446fc5d498452cd7442b4ca96e6c1ae09f379c44cf2850fd618777ca79d391f",
+            "artifactUri": "ipfs://QmQfd8R4axV7URxtkJdJ56AdZKu6EMKtYGNDoXVyBW65iZ/?fxhash=oo4Rp91VAh3XZufykMVadwMBUPxFm3CeNDuSk8vMgY4taKFSnK4&fxiteration=567&fxminter=tz1NCPD1dD6ZutDDD4akb2P13eSpGe6jQAvL",
+            "displayUri": "ipfs://QmSkPDR8Zfkf6KMdqnJ7zUomEZmYwKA6Nm5r6rWDYbDR5Y",
+            "thumbnailUri": "ipfs://QmXNfwD5cjjPNJkmLjo3oVYE4EWNaTGiUibCrADvfTZjAB",
+            "authenticityHash": "8efadd956a421675d81fd7393257d5ad4815229c416fea4c886c461c7a1c9791",
             "attributes": [
               {
                 "name": "entity",
@@ -1507,16 +1143,16 @@
           },
           "duplicate": false,
           "activeListing": {
-            "id": 1002265,
+            "id": 1002354,
             "version": 1,
-            "price": 15000000,
+            "price": 13000000,
             "__typename": "Listing"
           },
           "owner": {
-            "id": "tz1YxAN3rn85UQxevF7w78v66xHnSQQByo2j",
-            "name": "tluav (MihailGreen)",
+            "id": "tz1NCPD1dD6ZutDDD4akb2P13eSpGe6jQAvL",
+            "name": null,
             "flag": "NONE",
-            "avatarUri": "ipfs://QmXZXAmmhYrE6WtHa4xbhXTw93dJwXKnxjhE6EUJEYfYPs",
+            "avatarUri": null,
             "__typename": "User"
           },
           "issuer": {
@@ -1538,32 +1174,38 @@
         "__typename": "Listing"
       },
       {
-        "id": 1002264,
+        "id": 1002353,
         "version": 1,
-        "price": 8000000,
+        "price": 14000000,
         "objkt": {
-          "id": "FX1-85380",
+          "id": "FX1-81520",
           "version": 2,
-          "name": "ecologías - A #1283",
-          "slug": "ecologias-a-1283",
+          "name": "Floatilla #172",
+          "slug": "floatilla-172",
           "metadata": {
-            "name": "ecologías - A #1283",
-            "iterationHash": "ooj26joM7vNszxHXxcb43hpJKBptCdEPd2ACbUQajPo7MHCexM2",
-            "description": "ecologías - A\n\nlines are a metaphor for the communication all species engage in. We as humans have a need to leave traces - stories - that others can read and learn from. What will be the traces machines want to leave? This piece employs sinusoidal signals drawn with lines as a simple metaphor for every trace and every language, for every message and every communication.\n\necologías-A is an entity that is part of a broader ecology. Released on occasion of the show \"Unbound - Ecology in the Age of Machines\" at Unit London. The data generated by this entity is read by a different piece minted on Ethereum, creating a link between Tezos and Ethereum, a metaphor for an ecology of blockchains.\n\nit shares a common element with two other works released on fxhash: ecologías B and ecologías C, all of them contributing data to aforementioned pieces.\n\nread more at https://www.iillucid.com/ecologias\n\n15% of primary sales are donated to institutions working towards improving biodiversity and environmental efforts.\n\nMarcelo Soria-Rodríguez, @msoriaro\nCC BY-NC-SA 4.0, https://creativecommons.org/licenses/by-nc-sa/4.0/\n\nBuilt on p5.js, glsl\n\nappend &pd=N (N a number) to the URL in live view to increase/decrease resolution\npress s to save current image in current resolution\npress z,x,g,b,n followed by +/- to increase/decrease, respectively, brightness, contrast, gamma, blur, noise",
-            "tags": [],
-            "generatorUri": "ipfs://QmQfd8R4axV7URxtkJdJ56AdZKu6EMKtYGNDoXVyBW65iZ",
-            "artifactUri": "ipfs://QmQfd8R4axV7URxtkJdJ56AdZKu6EMKtYGNDoXVyBW65iZ/?fxhash=ooj26joM7vNszxHXxcb43hpJKBptCdEPd2ACbUQajPo7MHCexM2&fxiteration=1283&fxminter=tz1feMcGwjomdn1mRCpZh9pgjMkBZkRy7jEZ",
-            "displayUri": "ipfs://QmSwtLJN83Roq6J7cSkWhHCRbvynswGD4oELxxkJ7zX5vf",
-            "thumbnailUri": "ipfs://QmVvmtdig1HDNxtySWMc8b9sXsgHKeQ4EPXnC5LZrBx41m",
-            "authenticityHash": "87d84b6b750750a81367d8cfdf5f6a582afcca4739073334d1ed250eb93e08ae",
+            "name": "Floatilla #172",
+            "iterationHash": "ooaRzTr2qoBhgNdMk42ACUG15kNPDz5JLRtQfdY1zNRqtH7z61e",
+            "description": "Life in the vitreous humour ",
+            "tags": [
+              "muscae volitantes mouches volantes floaters blink thistles minutiae light spark twig branch abstract colour additive subtractive negative positive stroke line bezier vibrant colour non-monochrome chromatic speck vitreous humour phosphene taxonomy"
+            ],
+            "generatorUri": "ipfs://QmUhunUbu41J556P96DYbVdpmoBbsEv8Dg5w5Xun5MaycH",
+            "artifactUri": "ipfs://QmUhunUbu41J556P96DYbVdpmoBbsEv8Dg5w5Xun5MaycH/?fxhash=ooaRzTr2qoBhgNdMk42ACUG15kNPDz5JLRtQfdY1zNRqtH7z61e&fxiteration=172&fxminter=tz1VGZPvqytFVAoSAsM8VrUveJdL3PpVy6K9",
+            "displayUri": "ipfs://Qmaumy4mAyLbYsBrDdik6hvCZvqyKxyouF2JF1rTBepuc8",
+            "thumbnailUri": "ipfs://QmYeghR3kHYWF2UkSRnMHBeCytGdrxzt5dTTAxr1hmSLSa",
+            "authenticityHash": "f423c3170776981b28927ca8405d1244381c1a3963f677e732ff60f5664b3e28",
             "attributes": [
               {
-                "name": "entity",
-                "value": "A"
+                "name": "Palette",
+                "value": "Perspex"
               },
               {
-                "name": "ecology",
-                "value": "ecologías"
+                "name": "Structure",
+                "value": "Standard Floater"
+              },
+              {
+                "name": "Inclination",
+                "value": "Baroque Reclining"
               }
             ],
             "decimals": 0,
@@ -1573,26 +1215,26 @@
           },
           "duplicate": false,
           "activeListing": {
-            "id": 1002264,
+            "id": 1002353,
             "version": 1,
-            "price": 8000000,
+            "price": 14000000,
             "__typename": "Listing"
           },
           "owner": {
-            "id": "tz1feMcGwjomdn1mRCpZh9pgjMkBZkRy7jEZ",
-            "name": "Ferdinand Dervieux",
-            "flag": "VERIFIED",
-            "avatarUri": "ipfs://QmdB6uUvM6b7AVP8XoMyo3b11fSjAfQGrCovM3VqA9QknV",
+            "id": "tz1VGZPvqytFVAoSAsM8VrUveJdL3PpVy6K9",
+            "name": "A R T R A",
+            "flag": "NONE",
+            "avatarUri": "ipfs://QmS34juW7zj5QEB8VzYCLLQMDaisbQAPV641f9rHUxjYBM",
             "__typename": "User"
           },
           "issuer": {
             "flag": "NONE",
-            "name": "ecologías - A",
+            "name": "Floatilla",
             "author": {
-              "id": "tz1eCX4smQ3LbxwDR3pqNoLQvNNKiHJtpwYz",
-              "name": "msoriaro",
+              "id": "tz1NAKns9HJ2bixQ4YwQBP3ayHT3BAVh776J",
+              "name": "Measureless",
               "type": "REGULAR",
-              "avatarUri": "ipfs://QmU9cPLFmtqhRZUXxJywGZwuy62kXiwzmgQFsqwgzub8f8",
+              "avatarUri": "ipfs://QmXDg6fUiAEjT93FTWTZVfDQYF1G5KKNUxsKEWh5XktQMM",
               "flag": "VERIFIED",
               "collaborators": null,
               "__typename": "User"
@@ -1604,25 +1246,176 @@
         "__typename": "Listing"
       },
       {
-        "id": 1002263,
+        "id": 1002352,
         "version": 1,
-        "price": 70000000,
+        "price": 420690000,
         "objkt": {
-          "id": "FX1-82992",
-          "version": 2,
-          "name": "Rebellion #27",
-          "slug": "rebellion-27",
+          "id": "FX0-917781",
+          "version": 1,
+          "name": "Cables and Clouds #29",
+          "slug": "cables-and-clouds-29",
           "metadata": {
-            "name": "Rebellion #27",
-            "iterationHash": "ooFSom5SWU7LKR569fmM3ipokQCKFftFRXhi43MigwFTBeiTBRS",
-            "description": "On rebellion.  (A.k.a., I shall no longer be a victim of my own fears and thoughts and things holding me back from doing what I want to do, when I want to do it, and where I want to do it.)",
-            "tags": [],
-            "generatorUri": "ipfs://QmaT43uLbGm9zXYX6END1Zo8DXuxCuJEaNCVbit9qpyC86",
-            "artifactUri": "ipfs://QmaT43uLbGm9zXYX6END1Zo8DXuxCuJEaNCVbit9qpyC86/?fxhash=ooFSom5SWU7LKR569fmM3ipokQCKFftFRXhi43MigwFTBeiTBRS&fxiteration=27&fxminter=tz1bmPatnVaBa8brRzQ15i4vWzcBtdwJAkbn",
-            "displayUri": "ipfs://QmYVHQYzCLzf9uktp7oQrkhXUg6cpFG1Jg69vgD7ZrEBPt",
-            "thumbnailUri": "ipfs://QmYgJwNEeKAffZYSGDcASJB1apax5DGNnitGSHK5xc67wc",
-            "authenticityHash": "97838c06bb314d26bdbae9fa03dc59cff1258a87fd27f9238774b3985f56d5cf",
-            "attributes": true,
+            "name": "Cables and Clouds #29",
+            "iterationHash": "ookUa8DTL3rsm4egDrCFNWEBhrGEfg4nLnQtUnaXHxm3AgYK3a2",
+            "description": "Capturing clouds... an old dream of mad scientist... coming true...\nBut wait... are they real clouds ? Maybe... maybe not...\nIs it the real life ?\nIs this just fantasy ?\n\nInteraction.\nPress h in live mode to list the possibilities.\nKey 's'  : Save an image of the output at the current resolution\nKey 1-9 : Change resolution\nKey 'c' to change color palette\nKey 'd' to toggle a special color mode to highlight the different components (and have the number of points used in your specific drawing).\n\nFeatures.\n18 different features displayed (format, color palettes, main elements characteristics, rare elements...).\n\nCopyright (c) 2022 TidallyDisruptedStar. Twitter: @TidallyD.\nLicensed under CC BY-NC-SA 4.0, see LICENSE.txt for more information.\n",
+            "tags": [
+              "Landscape",
+              "Clouds",
+              "Cables",
+              "Birds",
+              "Points",
+              "p5js"
+            ],
+            "generatorUri": "ipfs://QmeXTbwMyDbG3xGLnMZFwRNsNnufg78ok7sdkaqXf2oozL",
+            "artifactUri": "ipfs://QmeXTbwMyDbG3xGLnMZFwRNsNnufg78ok7sdkaqXf2oozL?fxhash=ookUa8DTL3rsm4egDrCFNWEBhrGEfg4nLnQtUnaXHxm3AgYK3a2",
+            "displayUri": "ipfs://QmUCibkABFm1zUM2m8JyH2aKaePHhFFru3B7SY7REZvM8b",
+            "thumbnailUri": "ipfs://QmbAJfikJtTHNJPcUNTdQAKBFdxxtiAuRZC4XfmpGPYLTR",
+            "authenticityHash": "acb30fc40f915e3e319183a6a12507b5d7ffcf22d49087e556ce8c2065933a68",
+            "attributes": [
+              {
+                "name": "FORMAT",
+                "value": "VERTICAL"
+              },
+              {
+                "name": "PALETTE",
+                "value": "BW"
+              },
+              {
+                "name": "GRAIN",
+                "value": "Delicate"
+              },
+              {
+                "name": "N_HILLS",
+                "value": "Medium"
+              },
+              {
+                "name": "N_CLOUDS",
+                "value": "Low"
+              },
+              {
+                "name": "N_POLES",
+                "value": "<10"
+              },
+              {
+                "name": "POLE_TYPE",
+                "value": "Simple"
+              },
+              {
+                "name": "N_CABLES",
+                "value": "<10"
+              },
+              {
+                "name": "CABLE_TYPE",
+                "value": "Simple"
+              },
+              {
+                "name": "RAIN",
+                "value": "False"
+              },
+              {
+                "name": "SEA",
+                "value": "False"
+              },
+              {
+                "name": "BIRDS",
+                "value": "True"
+              },
+              {
+                "name": "BIRDS_SIZE",
+                "value": "Small"
+              },
+              {
+                "name": "BALLOONS",
+                "value": "False"
+              },
+              {
+                "name": "N_BALLOONS",
+                "value": "None"
+              },
+              {
+                "name": "RED_EDITION",
+                "value": "False"
+              },
+              {
+                "name": "WIND_DIRECTION",
+                "value": "N-S"
+              },
+              {
+                "name": "WIND_STRENGTH",
+                "value": "Breeze"
+              }
+            ],
+            "decimals": 0,
+            "symbol": "GENTK",
+            "version": "0.2"
+          },
+          "duplicate": false,
+          "activeListing": {
+            "id": 1002352,
+            "version": 1,
+            "price": 420690000,
+            "__typename": "Listing"
+          },
+          "owner": {
+            "id": "tz1f7wbmY8JReJ5et4KnJ4BMi8fKMRK3PvHt",
+            "name": "0skills",
+            "flag": "NONE",
+            "avatarUri": "ipfs://Qmb7u82uSijYuuhy2J5qEYVJ3QA1Zq7qa6Hmnb4HX3SHDb",
+            "__typename": "User"
+          },
+          "issuer": {
+            "flag": "NONE",
+            "name": "Cables and Clouds",
+            "author": {
+              "id": "tz1Q6koSLYMvmPn6ZABZ3qV6ejUEqwTfCYqW",
+              "name": "DisruptedStar",
+              "type": "REGULAR",
+              "avatarUri": "ipfs://QmSH9XK25RLiiiADjdZXmiLsYpNtAAw2P1nSS856QfTsk3",
+              "flag": "VERIFIED",
+              "collaborators": null,
+              "__typename": "User"
+            },
+            "__typename": "GenerativeToken"
+          },
+          "__typename": "Objkt"
+        },
+        "__typename": "Listing"
+      },
+      {
+        "id": 1002351,
+        "version": 1,
+        "price": 9000000,
+        "objkt": {
+          "id": "FX1-81502",
+          "version": 2,
+          "name": "Floatilla #156",
+          "slug": "floatilla-156",
+          "metadata": {
+            "name": "Floatilla #156",
+            "iterationHash": "ooektq3oMRKwGtJWsnwd9hZat674xefbk5wdZqLeuBc6vJeaxPx",
+            "description": "Life in the vitreous humour ",
+            "tags": [
+              "muscae volitantes mouches volantes floaters blink thistles minutiae light spark twig branch abstract colour additive subtractive negative positive stroke line bezier vibrant colour non-monochrome chromatic speck vitreous humour phosphene taxonomy"
+            ],
+            "generatorUri": "ipfs://QmUhunUbu41J556P96DYbVdpmoBbsEv8Dg5w5Xun5MaycH",
+            "artifactUri": "ipfs://QmUhunUbu41J556P96DYbVdpmoBbsEv8Dg5w5Xun5MaycH/?fxhash=ooektq3oMRKwGtJWsnwd9hZat674xefbk5wdZqLeuBc6vJeaxPx&fxiteration=156&fxminter=tz1VGZPvqytFVAoSAsM8VrUveJdL3PpVy6K9",
+            "displayUri": "ipfs://Qma8P7tBLo9yY9e1G1jv6N7ap3RY8hYvXsTizyTyr4nGFr",
+            "thumbnailUri": "ipfs://QmY4HXq9sTGx8zR4ikfNJaEfi6rT6DBqcKW7BW2CXPrST3",
+            "authenticityHash": "fd796d9cf9083d956994b0a7014bb026b745dfd3f35961745cca8e443780b8a8",
+            "attributes": [
+              {
+                "name": "Palette",
+                "value": "Owl Brush"
+              },
+              {
+                "name": "Structure",
+                "value": "Spark"
+              },
+              {
+                "name": "Inclination",
+                "value": "Sinister Ascending"
+              }
+            ],
             "decimals": 0,
             "symbol": "GENTK",
             "version": "0.2",
@@ -1630,26 +1423,241 @@
           },
           "duplicate": false,
           "activeListing": {
-            "id": 1002263,
+            "id": 1002351,
             "version": 1,
-            "price": 70000000,
+            "price": 9000000,
             "__typename": "Listing"
           },
           "owner": {
-            "id": "tz1NmPANLopN8Jd8vz6TKJ6PQDPu9izsjjtV",
-            "name": "Grailer",
+            "id": "tz1VGZPvqytFVAoSAsM8VrUveJdL3PpVy6K9",
+            "name": "A R T R A",
             "flag": "NONE",
-            "avatarUri": "ipfs://QmVAdc6wquEmdEByNoKQFbFMnNy24namt8PJsCtxVk2hnh",
+            "avatarUri": "ipfs://QmS34juW7zj5QEB8VzYCLLQMDaisbQAPV641f9rHUxjYBM",
             "__typename": "User"
           },
           "issuer": {
             "flag": "NONE",
-            "name": "Rebellion",
+            "name": "Floatilla",
             "author": {
-              "id": "tz1amUZ31Ua4qDTNXvRRs1CFYn415xEWq5Kb",
-              "name": "Melissa Wiederrecht",
+              "id": "tz1NAKns9HJ2bixQ4YwQBP3ayHT3BAVh776J",
+              "name": "Measureless",
               "type": "REGULAR",
-              "avatarUri": "ipfs://QmTmFSKLMMCbmrrZu4PUZWLTSQescfMRfFzNGwL5g9Tj7F",
+              "avatarUri": "ipfs://QmXDg6fUiAEjT93FTWTZVfDQYF1G5KKNUxsKEWh5XktQMM",
+              "flag": "VERIFIED",
+              "collaborators": null,
+              "__typename": "User"
+            },
+            "__typename": "GenerativeToken"
+          },
+          "__typename": "Objkt"
+        },
+        "__typename": "Listing"
+      },
+      {
+        "id": 1002350,
+        "version": 1,
+        "price": 250000000,
+        "objkt": {
+          "id": "FX1-81601",
+          "version": 2,
+          "name": "AJISAI #47",
+          "slug": "ajisai-47",
+          "metadata": {
+            "name": "AJISAI #47",
+            "iterationHash": "opNUPyukP943U69hjTxZX5D9yjL93upsUG2GHwmf9bqRhgZDXAa",
+            "description": "This piece is based on my early code when I habitually started creating pieces in p5js.\nIf you compare it to an actual AJISAI (hydrangea), its form lacks reality, but to me it has a nostalgic feel to it.\nDuring the process of creation, I was reminded of paper collage (Chigiri-e) as I worked. In Japan, Kiyoshi Yamashita is one of the most famous Chigiri-e artists, and the 100th anniversary of his birth has just passed. Damien Hirst also made a series of cherry blossom paintings, which I found very much like Kiyoshi Yamashita's work when I saw them.\nThis work reminds me of the art class in elementary school. It would be wonderful if we could enjoy arts and crafts again through programming, and I am touched by such qualia.\n\np5js\nsize: 800×800 px\n2023 July\nhasaqui",
+            "tags": [
+              "p5js",
+              "flower"
+            ],
+            "generatorUri": "ipfs://QmUdqb5SJDbot8Ne3zynyrTX181S6cwbVshA9KWvzWKwk4",
+            "artifactUri": "ipfs://QmUdqb5SJDbot8Ne3zynyrTX181S6cwbVshA9KWvzWKwk4/?fxhash=opNUPyukP943U69hjTxZX5D9yjL93upsUG2GHwmf9bqRhgZDXAa&fxiteration=47&fxminter=tz1VGZPvqytFVAoSAsM8VrUveJdL3PpVy6K9",
+            "displayUri": "ipfs://QmSnTopnjVzn3kSjKwqkDdNxSfk57BLsK8SGZezwu2LwmX",
+            "thumbnailUri": "ipfs://QmRbvYrTCAKLfgBqfw1DibLBFxohA8MyqA335mCy4ShYRd",
+            "authenticityHash": "f1f10ba6a04a64d6e15091bae4d35a2a0fe3600ea07a42d16e376d55df7b54c8",
+            "attributes": [
+              {
+                "name": "Scale",
+                "value": "0.8"
+              },
+              {
+                "name": "PixelDensity",
+                "value": 3
+              },
+              {
+                "name": "Variation",
+                "value": false
+              },
+              {
+                "name": "Mix",
+                "value": false
+              },
+              {
+                "name": "BlueFilter",
+                "value": true
+              },
+              {
+                "name": "NoStem",
+                "value": false
+              },
+              {
+                "name": "LeafBold",
+                "value": false
+              },
+              {
+                "name": "LeafMode",
+                "value": "B"
+              },
+              {
+                "name": "LeafType",
+                "value": "Shade"
+              },
+              {
+                "name": "Rain",
+                "value": 725
+              },
+              {
+                "name": "LeafDensity",
+                "value": 7
+              },
+              {
+                "name": "FlowerDensity",
+                "value": 92
+              },
+              {
+                "name": "FlowerColor",
+                "value": "214,34,241"
+              },
+              {
+                "name": "FlowerColor_sub",
+                "value": "N/A"
+              },
+              {
+                "name": "BkColor",
+                "value": "#CBD5DC"
+              }
+            ],
+            "decimals": 0,
+            "symbol": "GENTK",
+            "version": "0.2"
+          },
+          "duplicate": false,
+          "activeListing": {
+            "id": 1002350,
+            "version": 1,
+            "price": 250000000,
+            "__typename": "Listing"
+          },
+          "owner": {
+            "id": "tz1VGZPvqytFVAoSAsM8VrUveJdL3PpVy6K9",
+            "name": "A R T R A",
+            "flag": "NONE",
+            "avatarUri": "ipfs://QmS34juW7zj5QEB8VzYCLLQMDaisbQAPV641f9rHUxjYBM",
+            "__typename": "User"
+          },
+          "issuer": {
+            "flag": "NONE",
+            "name": "AJISAI",
+            "author": {
+              "id": "tz2EyogxqyV7GwVT2rk14YUhq3brBocyKFuX",
+              "name": "hasaqui",
+              "type": "REGULAR",
+              "avatarUri": "ipfs://QmcFdX9CiheiugzxdwysnAPQdSK6uYZ39gLn3eKQ1fnaHL",
+              "flag": "VERIFIED",
+              "collaborators": null,
+              "__typename": "User"
+            },
+            "__typename": "GenerativeToken"
+          },
+          "__typename": "Objkt"
+        },
+        "__typename": "Listing"
+      },
+      {
+        "id": 1002349,
+        "version": 1,
+        "price": 7000000,
+        "objkt": {
+          "id": "FX0-349726",
+          "version": 0,
+          "name": "The View #61",
+          "slug": "the-view-61",
+          "metadata": {
+            "name": "The View #61",
+            "iterationHash": "oo8mXKN6wNfwohfJgN7TpFZ2QkeJEgr7eDcZ3nx6eiULNsdaja7",
+            "description": "A 'painting' made with code, enjoy the view and feel the salty air.\n\npress 's' key in live mode to save in png / 4000x4000\n\n@gpitombo, Jan 2022",
+            "tags": [
+              "generative",
+              "ocean",
+              "nature",
+              "boat",
+              "view"
+            ],
+            "generatorUri": "ipfs://Qmc429sXNVgp1vwRBUzk9YWtbTjLmPqdQw5yiHh7oYg8bH",
+            "artifactUri": "ipfs://Qmc429sXNVgp1vwRBUzk9YWtbTjLmPqdQw5yiHh7oYg8bH?fxhash=oo8mXKN6wNfwohfJgN7TpFZ2QkeJEgr7eDcZ3nx6eiULNsdaja7",
+            "displayUri": "ipfs://QmSVbbvYq8L17NKXQcvukn1egb7zRKpEQYdnFbR5EFeRLp",
+            "thumbnailUri": "ipfs://Qmee2N2g8FzPY8Q4itJzhyhvxxkkr1HbsKx1AkLKYZx1gQ",
+            "authenticityHash": "158acbec132de9541599fd4069e1e1dd1d44c5d435589eeab7cf26fb1c68c9d2",
+            "attributes": [
+              {
+                "name": "skyColor",
+                "value": "56x33x38"
+              },
+              {
+                "name": "seaColor",
+                "value": "35x30x201"
+              },
+              {
+                "name": "night",
+                "value": false
+              },
+              {
+                "name": "boat",
+                "value": false
+              },
+              {
+                "name": "birds",
+                "value": true
+              },
+              {
+                "name": "mountains",
+                "value": true
+              },
+              {
+                "name": "skyPattern",
+                "value": "radial"
+              },
+              {
+                "name": "canvasColor",
+                "value": false
+              }
+            ],
+            "decimals": 0,
+            "symbol": "GENTK",
+            "version": "0.2"
+          },
+          "duplicate": false,
+          "activeListing": {
+            "id": 1002349,
+            "version": 1,
+            "price": 7000000,
+            "__typename": "Listing"
+          },
+          "owner": {
+            "id": "tz1VGZPvqytFVAoSAsM8VrUveJdL3PpVy6K9",
+            "name": "A R T R A",
+            "flag": "NONE",
+            "avatarUri": "ipfs://QmS34juW7zj5QEB8VzYCLLQMDaisbQAPV641f9rHUxjYBM",
+            "__typename": "User"
+          },
+          "issuer": {
+            "flag": "NONE",
+            "name": "The View",
+            "author": {
+              "id": "tz2RTSZwShS8sMrZeiwBgcEV1pHmXdr24Ta8",
+              "name": "gpitombo",
+              "type": "REGULAR",
+              "avatarUri": "ipfs://QmYTU3m8uYuRKiJAB3BukbTBehxp8ih4pZe1S9hBJrqwVX",
               "flag": "VERIFIED",
               "collaborators": null,
               "__typename": "User"
