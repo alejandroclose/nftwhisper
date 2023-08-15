@@ -2,31 +2,742 @@
   "data": {
     "listings": [
       {
-        "id": 1005802,
+        "id": 1005828,
         "version": 1,
-        "price": 6800000,
+        "price": 6900000,
         "objkt": {
-          "id": "FX1-91076",
+          "id": "FX1-85173",
           "version": 2,
-          "name": "hashGame #35",
-          "slug": "hashgame-35",
+          "name": "follow my lead #199",
+          "slug": "follow-my-lead-199",
           "metadata": {
-            "name": "hashGame #35",
-            "iterationHash": "oo64Y75URHYUWGoNhK9rCnBbm3M9Tqd8a5P4hKDMVbuTQE9oE4s",
-            "description": "Conway's life game suggests many things.\nSomething that keeps solidifying all the time\nThings that keep moving\nThat which disappears\nWhat is born\nThe rules are simple, but they are based on a perfect balance.\nPhenomena that happen before your eyes can be seen forever.\n\nUnique hashes move by the rules of the game of life.\nLong-lived things become brighter and brighter.\nTunnels that move in all directions and explosions that spread out from the center force complex rules onto pixels.\nOur activities are also pixels somewhere.",
+            "name": "follow my lead #199",
+            "iterationHash": "oohdAYy4TVecme1yj3xRMXsVNQLkFkXBWb2VdhHPX6tUy38jgZb",
+            "description": "'follow my lead' is a visualization of three communities of individuals, and the ways in which they interact with each other.\n\nUsing an implementation of a physarum slime mold model, I create three distinct groups of homogenous individuals, with each group having different sentiments towards the others. Individuals within a community make their best effort to follow each other around, and depending on group preferences try to either move towards or away from those in other groups.\n\nAll of these interactions take place on a simulated three dimensional landscape (that varies by token), with groups of individuals having a preference towards either moving uphill or downhill.\n\nEach group begins with a different spatial distribution, such that the extent of exposure to others can change over time.\n\nFor more details on the slime mold implementation and a link to the github repo containing the code, see the accompanying fx(text) article.\n\n\nAnimation\n---------\nThis is designed first as a static piece. The final image consists of running 300 steps of the algorithm and then stopping.\n\nHowever, I have also exposed a couple of ways to watch the image evolve over time. It should be noted that for some outputs, the image will eventually degenerate as we go well past the initial 300 frames.\n\nKeys:\n- space: Pauses/unpauses the animation\n- 'F': Fresh start - reloads the page and animates the first 300 frames, pausing when finished (or append &fresh=true to the URL)\n- 'A': Animate - reloads the page and animates in perpetuity (or append &animate=true to the URL)\n\nWebGL\n-----\nThis piece makes heavy use of shaders/WebGL. I've put quite a lot of time/effort into trying to ensure things behave identically across different browsers/hardware. I've managed to get things to the point where I was consistently seeing identical outputs on the set of hardware available to me. However, there is still a risk that on other hardware specs, things will not be identical. Furthermore, it is the nature of this project that even very small differences in calculations can become exaggerated after multiple steps of the algorithm, leading to larger differences in the final result.\n\n\nReferences:\nJeff Jones's Physarum paper: https://uwe-repository.worktribe.com/output/980579\nSage Jensen's post on Physarum, which was my first exposure to it: https://cargocollective.com/sagejenson/physarum\nColor names generated using coloraze: https://github.com/evansque/coloraze",
+            "tags": [
+              "physarum",
+              "webgl",
+              "follow my lead",
+              "Gabriel"
+            ],
+            "generatorUri": "ipfs://Qma86NMoqqGkwvoVVLSyDJGE35Dy3QJgfoZfGANsecAHY4",
+            "artifactUri": "ipfs://Qma86NMoqqGkwvoVVLSyDJGE35Dy3QJgfoZfGANsecAHY4/?fxhash=oohdAYy4TVecme1yj3xRMXsVNQLkFkXBWb2VdhHPX6tUy38jgZb&fxiteration=199&fxminter=tz1ayfDuVuMqggzjWwsXKMBeEywwXEWXrjoj",
+            "displayUri": "ipfs://QmeresWNRJT9w7A3D87qxWnNA7CnXoN5Poc3R8hNmkdmwg",
+            "thumbnailUri": "ipfs://Qme6myNmy6P4JJYZfhtNo6VBF7SPMbyKjoC9xxv6myM5Te",
+            "authenticityHash": "97bb995182359ede9e1600ac458852814e6e75eb51edc4a75e1090914d2c3625",
+            "attributes": [
+              {
+                "name": "background",
+                "value": "Eastern Blue"
+              },
+              {
+                "name": "communities",
+                "value": "Black, Moon Mist, Ecru White"
+              },
+              {
+                "name": "diffusion",
+                "value": true
+              },
+              {
+                "name": "landscape",
+                "value": "central square"
+              },
+              {
+                "name": "border",
+                "value": true
+              },
+              {
+                "name": "jumbled attraction",
+                "value": false
+              }
+            ],
+            "decimals": 0,
+            "symbol": "GENTK",
+            "version": "0.2",
+            "snippetVersion": "3.3.0"
+          },
+          "duplicate": false,
+          "activeListing": {
+            "id": 1005828,
+            "version": 1,
+            "price": 6900000,
+            "__typename": "Listing"
+          },
+          "owner": {
+            "id": "tz1gajLsAJ55ty73UJN9CNUsk8nELucHuFEg",
+            "name": "toti",
+            "flag": "NONE",
+            "avatarUri": "ipfs://QmU4Toz5xc3hzp689ADBHBmPdrN5Vr2a5FPEGUFjvcDiro",
+            "__typename": "User"
+          },
+          "issuer": {
+            "flag": "NONE",
+            "name": "follow my lead",
+            "author": {
+              "id": "tz1PjYs7SYBeULD8xWjMvxsCfCd2W4kuttYV",
+              "name": "Gabriel",
+              "type": "REGULAR",
+              "avatarUri": "ipfs://QmdLSFXhAKtmHToB7H1D7mvSsv3hsFWkSqbULbj9oxmyWP",
+              "flag": "VERIFIED",
+              "collaborators": null,
+              "__typename": "User"
+            },
+            "__typename": "GenerativeToken"
+          },
+          "__typename": "Objkt"
+        },
+        "__typename": "Listing"
+      },
+      {
+        "id": 1005827,
+        "version": 1,
+        "price": 6100000,
+        "objkt": {
+          "id": "FX1-90379",
+          "version": 2,
+          "name": "Maelstrom #61",
+          "slug": "maelstrom-61",
+          "metadata": {
+            "name": "Maelstrom #61",
+            "iterationHash": "oomviNvK6hdavc8ffDkH3CmsWT7Dns7uCZVShVYNkymBFcDpEKs",
+            "description": "Ever-drawing cosmic storm, swallowing all that is bright into effervescent particles only to collapse on itself. Like a fire hungry for oxygen, chaos takes center stage for a fraction of what we called time, then gracefully settles into blaze and dust. From hereafter, a nascent star may dance.\n\nWhen I think about a pause in creation after some time, I thought of this. Like an effervescent tablet touching by the water, sometimes a drive just dissolves into indifference. But rather than trying to lit a wet log, it would be better to be burnt by something else.\n\n------------\nPress [s] to save captured image\n------------\nIt may take a few seconds to render, depending on the device.\nworks better with chrome\n\ncreated using WEBGL on p5.js\ndirbots - Aug23",
+            "tags": [
+              "maelstrom",
+              "void",
+              "space",
+              "form",
+              "architecture",
+              "abstract",
+              "p5js",
+              "webgl",
+              "lailatul qoding"
+            ],
+            "generatorUri": "ipfs://Qmb1sHJeuTAo3SWkrm4JLf6u29kcjDKojLP35dC8FVsKcn",
+            "artifactUri": "ipfs://Qmb1sHJeuTAo3SWkrm4JLf6u29kcjDKojLP35dC8FVsKcn/?fxhash=oomviNvK6hdavc8ffDkH3CmsWT7Dns7uCZVShVYNkymBFcDpEKs&fxiteration=61&fxminter=tz1gajLsAJ55ty73UJN9CNUsk8nELucHuFEg",
+            "displayUri": "ipfs://QmWgYf9g4zdmnxeL8n1bfqbUqyR5sTA6hnGcrBCxc9Q1WG",
+            "thumbnailUri": "ipfs://QmfPCpqjg9GSFhtgJzqM8q8fTWeugUjjKt4xUX6gRAgoaD",
+            "authenticityHash": "8124734cded6d83567a6db4386fccb7b832559302ef92e9e90fc5d75ffe5538a",
+            "attributes": [
+              {
+                "name": "Shape",
+                "value": "Circle"
+              },
+              {
+                "name": "Solidity",
+                "value": "Fill"
+              },
+              {
+                "name": "Size Petal",
+                "value": "Long"
+              },
+              {
+                "name": "Rotate Axis",
+                "value": "XYZ"
+              },
+              {
+                "name": "Modifier Value",
+                "value": -1.6
+              },
+              {
+                "name": "Palette",
+                "value": "Aosa"
+              },
+              {
+                "name": "Particle",
+                "value": "Order"
+              }
+            ],
+            "decimals": 0,
+            "symbol": "GENTK",
+            "version": "0.2",
+            "snippetVersion": "3.3.0"
+          },
+          "duplicate": false,
+          "activeListing": {
+            "id": 1005827,
+            "version": 1,
+            "price": 6100000,
+            "__typename": "Listing"
+          },
+          "owner": {
+            "id": "tz1gajLsAJ55ty73UJN9CNUsk8nELucHuFEg",
+            "name": "toti",
+            "flag": "NONE",
+            "avatarUri": "ipfs://QmU4Toz5xc3hzp689ADBHBmPdrN5Vr2a5FPEGUFjvcDiro",
+            "__typename": "User"
+          },
+          "issuer": {
+            "flag": "NONE",
+            "name": "Maelstrom",
+            "author": {
+              "id": "tz1S48xQgmciATrngqM7UWX6PX3s9Jp7qw3K",
+              "name": "Dirbots",
+              "type": "REGULAR",
+              "avatarUri": "ipfs://QmZ2GZ1WQJVxNNshDrT33h2V9u7WzhPpcWw5Yp7DqE3dxZ",
+              "flag": "VERIFIED",
+              "collaborators": null,
+              "__typename": "User"
+            },
+            "__typename": "GenerativeToken"
+          },
+          "__typename": "Objkt"
+        },
+        "__typename": "Listing"
+      },
+      {
+        "id": 1005826,
+        "version": 1,
+        "price": 3500000,
+        "objkt": {
+          "id": "FX1-90412",
+          "version": 2,
+          "name": "Maelstrom #86",
+          "slug": "maelstrom-86",
+          "metadata": {
+            "name": "Maelstrom #86",
+            "iterationHash": "oneTaT6BeaEKBUWD4ZHZ1n2jvLpsBiqfdiQBRAFRyezqrabSymH",
+            "description": "Ever-drawing cosmic storm, swallowing all that is bright into effervescent particles only to collapse on itself. Like a fire hungry for oxygen, chaos takes center stage for a fraction of what we called time, then gracefully settles into blaze and dust. From hereafter, a nascent star may dance.\n\nWhen I think about a pause in creation after some time, I thought of this. Like an effervescent tablet touching by the water, sometimes a drive just dissolves into indifference. But rather than trying to lit a wet log, it would be better to be burnt by something else.\n\n------------\nPress [s] to save captured image\n------------\nIt may take a few seconds to render, depending on the device.\nworks better with chrome\n\ncreated using WEBGL on p5.js\ndirbots - Aug23",
+            "tags": [
+              "maelstrom",
+              "void",
+              "space",
+              "form",
+              "architecture",
+              "abstract",
+              "p5js",
+              "webgl",
+              "lailatul qoding"
+            ],
+            "generatorUri": "ipfs://Qmb1sHJeuTAo3SWkrm4JLf6u29kcjDKojLP35dC8FVsKcn",
+            "artifactUri": "ipfs://Qmb1sHJeuTAo3SWkrm4JLf6u29kcjDKojLP35dC8FVsKcn/?fxhash=oneTaT6BeaEKBUWD4ZHZ1n2jvLpsBiqfdiQBRAFRyezqrabSymH&fxiteration=86&fxminter=tz1g7yHGuouPVADrrx3zH62v6ZzC7gEPjoyj",
+            "displayUri": "ipfs://QmX4JzfW6Kj4xHyZs96Jadnwix1NLwiCKehPTpbSGrkR5k",
+            "thumbnailUri": "ipfs://QmWgCjRD7m7LHmmdhxv6k5oYnfPS1aqZJZqiHuQYQWXLLU",
+            "authenticityHash": "733616b328cdbb151e2e721cb8e12e468999db97e0cef664d7974140293c8f5f",
+            "attributes": [
+              {
+                "name": "Shape",
+                "value": "Circle"
+              },
+              {
+                "name": "Solidity",
+                "value": "Stroke"
+              },
+              {
+                "name": "Size Petal",
+                "value": "Default"
+              },
+              {
+                "name": "Rotate Axis",
+                "value": "XYZ"
+              },
+              {
+                "name": "Modifier Value",
+                "value": -0.44
+              },
+              {
+                "name": "Palette",
+                "value": "Bathyal"
+              },
+              {
+                "name": "Particle",
+                "value": "Order"
+              }
+            ],
+            "decimals": 0,
+            "symbol": "GENTK",
+            "version": "0.2",
+            "snippetVersion": "3.3.0"
+          },
+          "duplicate": false,
+          "activeListing": {
+            "id": 1005826,
+            "version": 1,
+            "price": 3500000,
+            "__typename": "Listing"
+          },
+          "owner": {
+            "id": "tz1MtMwpTM5o4uMq2g8EjbVEMprYNRki6AAD",
+            "name": "gems",
+            "flag": "VERIFIED",
+            "avatarUri": "ipfs://QmYQExnj1DULKbA34hRro9NikUFBASbGAM8TNvYHQJjeZ6",
+            "__typename": "User"
+          },
+          "issuer": {
+            "flag": "NONE",
+            "name": "Maelstrom",
+            "author": {
+              "id": "tz1S48xQgmciATrngqM7UWX6PX3s9Jp7qw3K",
+              "name": "Dirbots",
+              "type": "REGULAR",
+              "avatarUri": "ipfs://QmZ2GZ1WQJVxNNshDrT33h2V9u7WzhPpcWw5Yp7DqE3dxZ",
+              "flag": "VERIFIED",
+              "collaborators": null,
+              "__typename": "User"
+            },
+            "__typename": "GenerativeToken"
+          },
+          "__typename": "Objkt"
+        },
+        "__typename": "Listing"
+      },
+      {
+        "id": 1005825,
+        "version": 1,
+        "price": 3600000,
+        "objkt": {
+          "id": "FX1-90411",
+          "version": 2,
+          "name": "Maelstrom #85",
+          "slug": "maelstrom-85",
+          "metadata": {
+            "name": "Maelstrom #85",
+            "iterationHash": "opZopUbsbcYX2G5sqqzpuz9EDp6Ejr3iXLjsgSUnZThF7GnmXoQ",
+            "description": "Ever-drawing cosmic storm, swallowing all that is bright into effervescent particles only to collapse on itself. Like a fire hungry for oxygen, chaos takes center stage for a fraction of what we called time, then gracefully settles into blaze and dust. From hereafter, a nascent star may dance.\n\nWhen I think about a pause in creation after some time, I thought of this. Like an effervescent tablet touching by the water, sometimes a drive just dissolves into indifference. But rather than trying to lit a wet log, it would be better to be burnt by something else.\n\n------------\nPress [s] to save captured image\n------------\nIt may take a few seconds to render, depending on the device.\nworks better with chrome\n\ncreated using WEBGL on p5.js\ndirbots - Aug23",
+            "tags": [
+              "maelstrom",
+              "void",
+              "space",
+              "form",
+              "architecture",
+              "abstract",
+              "p5js",
+              "webgl",
+              "lailatul qoding"
+            ],
+            "generatorUri": "ipfs://Qmb1sHJeuTAo3SWkrm4JLf6u29kcjDKojLP35dC8FVsKcn",
+            "artifactUri": "ipfs://Qmb1sHJeuTAo3SWkrm4JLf6u29kcjDKojLP35dC8FVsKcn/?fxhash=opZopUbsbcYX2G5sqqzpuz9EDp6Ejr3iXLjsgSUnZThF7GnmXoQ&fxiteration=85&fxminter=tz1fWMhJu1zETLX3CbqvKuLAk1QKSgtny9M8",
+            "displayUri": "ipfs://QmVzSKhTC82KyHSx7UxV4KrAa3tLfAMTmNJCxbZJY9yGao",
+            "thumbnailUri": "ipfs://QmdTX2jGtj1ttU4ZzuMwDs4xeKY7V1xvm4oXi3afRL3SfP",
+            "authenticityHash": "ad4eb10e8d0f40b062b2fdf50c86f6af6889b959856353263d9a448421859612",
+            "attributes": [
+              {
+                "name": "Shape",
+                "value": "Rectangle"
+              },
+              {
+                "name": "Solidity",
+                "value": "Fill"
+              },
+              {
+                "name": "Size Petal",
+                "value": "Long"
+              },
+              {
+                "name": "Rotate Axis",
+                "value": "None"
+              },
+              {
+                "name": "Modifier Value",
+                "value": -0.8
+              },
+              {
+                "name": "Palette",
+                "value": "Chrysocolla"
+              },
+              {
+                "name": "Particle",
+                "value": "Chaos"
+              }
+            ],
+            "decimals": 0,
+            "symbol": "GENTK",
+            "version": "0.2",
+            "snippetVersion": "3.3.0"
+          },
+          "duplicate": false,
+          "activeListing": {
+            "id": 1005825,
+            "version": 1,
+            "price": 3600000,
+            "__typename": "Listing"
+          },
+          "owner": {
+            "id": "tz1MtMwpTM5o4uMq2g8EjbVEMprYNRki6AAD",
+            "name": "gems",
+            "flag": "VERIFIED",
+            "avatarUri": "ipfs://QmYQExnj1DULKbA34hRro9NikUFBASbGAM8TNvYHQJjeZ6",
+            "__typename": "User"
+          },
+          "issuer": {
+            "flag": "NONE",
+            "name": "Maelstrom",
+            "author": {
+              "id": "tz1S48xQgmciATrngqM7UWX6PX3s9Jp7qw3K",
+              "name": "Dirbots",
+              "type": "REGULAR",
+              "avatarUri": "ipfs://QmZ2GZ1WQJVxNNshDrT33h2V9u7WzhPpcWw5Yp7DqE3dxZ",
+              "flag": "VERIFIED",
+              "collaborators": null,
+              "__typename": "User"
+            },
+            "__typename": "GenerativeToken"
+          },
+          "__typename": "Objkt"
+        },
+        "__typename": "Listing"
+      },
+      {
+        "id": 1005824,
+        "version": 1,
+        "price": 10000000,
+        "objkt": {
+          "id": "FX1-91224",
+          "version": 2,
+          "name": "bonyād #14",
+          "slug": "bonyad-14",
+          "metadata": {
+            "name": "bonyād #14",
+            "iterationHash": "oopGhXvNs2gQQUV3sG1VHooB8jiLAE8NLepKr82jKFnAj8JLFwm",
+            "description": "As I grew up, the mesmerizing paintings of Iranian artist Jalal Shabahangi that adorned our walls sparked a desire within me to venture beyond admiration. Inspired, I embarked on a creative journey, aiming to forge a fresh perspective. Through my project, I aimed to reimagine nature using simple shapes – rectangles, circles, and triangles. These foundational forms breathed life into landscapes, while also giving birth to monoliths within the collection. These towering structures became a bridge, uniting the essence of nature with the sleek lines of modernity. Through this union of forms, I aimed to highlight the captivating interplay between contrasting worlds, showcasing the intriguing harmony that emerges from their coexistence.\n\n\nPlease press ‘2’ to ‘7’ to change the resolution (max 5600 × 7000 px).\nUse the key ‘S’ to save the output as a PNG file. ",
+            "tags": [
+              "dune",
+              "hill",
+              "minimal",
+              "persian",
+              "monolith",
+              "cube",
+              "pyramid",
+              "sphere"
+            ],
+            "generatorUri": "ipfs://Qme5MNjJoXdVaMjfYzRF4VsxRkaLtgaBypWyKavssR2Uxr",
+            "artifactUri": "ipfs://Qme5MNjJoXdVaMjfYzRF4VsxRkaLtgaBypWyKavssR2Uxr/?fxhash=oopGhXvNs2gQQUV3sG1VHooB8jiLAE8NLepKr82jKFnAj8JLFwm&fxiteration=14&fxminter=tz1gajLsAJ55ty73UJN9CNUsk8nELucHuFEg",
+            "displayUri": "ipfs://QmbXx19vYfv31E7AwQpwNbATEzLvmSHJTMsmhm5JpaeZy6",
+            "thumbnailUri": "ipfs://QmfYYA2PmaZYHytmhFsnNh5RSEgXj48ZDkczSRrtxosmg3",
+            "authenticityHash": "4d7915e2cff3dd0ca5ff796a252045b473218bf4ab37752c720a45752caf9105",
+            "attributes": [
+              {
+                "name": "Bushes",
+                "value": "No"
+              },
+              {
+                "name": "Monolith",
+                "value": "Yes"
+              },
+              {
+                "name": "Theme",
+                "value": "Forest"
+              }
+            ],
+            "decimals": 0,
+            "symbol": "GENTK",
+            "version": "0.2",
+            "snippetVersion": "3.3.0"
+          },
+          "duplicate": false,
+          "activeListing": {
+            "id": 1005824,
+            "version": 1,
+            "price": 10000000,
+            "__typename": "Listing"
+          },
+          "owner": {
+            "id": "tz1gajLsAJ55ty73UJN9CNUsk8nELucHuFEg",
+            "name": "toti",
+            "flag": "NONE",
+            "avatarUri": "ipfs://QmU4Toz5xc3hzp689ADBHBmPdrN5Vr2a5FPEGUFjvcDiro",
+            "__typename": "User"
+          },
+          "issuer": {
+            "flag": "NONE",
+            "name": "bonyād",
+            "author": {
+              "id": "tz1ZBaLTSVfe9oYev9j8zPCVnUdvqirRZnEE",
+              "name": "Rahimiha",
+              "type": "REGULAR",
+              "avatarUri": "ipfs://QmNXHzsTeEhvd4pgYWNfRrFSE115fiUqA5P4Q5r5MrSUY7",
+              "flag": "VERIFIED",
+              "collaborators": null,
+              "__typename": "User"
+            },
+            "__typename": "GenerativeToken"
+          },
+          "__typename": "Objkt"
+        },
+        "__typename": "Listing"
+      },
+      {
+        "id": 1005823,
+        "version": 1,
+        "price": 8800000,
+        "objkt": {
+          "id": "FX1-90482",
+          "version": 2,
+          "name": "Manifold #25",
+          "slug": "manifold-25",
+          "metadata": {
+            "name": "Manifold #25",
+            "iterationHash": "ooPJmPa6oq5EVnWpvwEKtqn5vHWdAtgzV4g62sj2TxsiXkpQfHS",
+            "description": "Manifold\nEach piece is created using particles in a custom flow field. The particles form intricate patterns resembling light caustics. \nAs a minter, you can decide the color of your piece, which significantly impacts the feel of the piece!\nCreated by Mathbird in P5.js!\nI hope you enjoy your piece!",
+            "tags": [
+              "Math",
+              "Particles",
+              "Flow fields",
+              "sin",
+              "cos",
+              "Mathbird"
+            ],
+            "generatorUri": "ipfs://QmQkdxvdc5i97ZNiz67gwXiDUGj9UNs6y7hfy3v3R5yCnE",
+            "artifactUri": "ipfs://QmQkdxvdc5i97ZNiz67gwXiDUGj9UNs6y7hfy3v3R5yCnE/?fxhash=ooPJmPa6oq5EVnWpvwEKtqn5vHWdAtgzV4g62sj2TxsiXkpQfHS&fxiteration=25&fxminter=tz1ZjEwXyHtcnD48WfYy9YRpkkc7dSP3Nh4W#0x407f4000000000003fe00000000000003fe00000000000003fb999999999999a01",
+            "displayUri": "ipfs://QmTt1H12ynfHrmKzmekz65krjPc9x4awjX8BavxLb7NjAt",
+            "thumbnailUri": "ipfs://QmZYurYbEwvexi2QEwv7zMai9ZRhypjhzxc9Fy3P7zxTq7",
+            "authenticityHash": "31c7c1d6a307b0a8cdced1be6fb2a411f6bdba3d9359898415b8dc1cc537e185",
+            "attributes": [
+              {
+                "name": "Exposure",
+                "value": 500
+              },
+              {
+                "name": "Saturation",
+                "value": "0.50"
+              },
+              {
+                "name": "Bright",
+                "value": true
+              },
+              {
+                "name": "Pass Through Border Chance",
+                "value": "0.10"
+              }
+            ],
+            "decimals": 0,
+            "symbol": "GENTK",
+            "version": "0.2",
+            "snippetVersion": "3.3.0"
+          },
+          "duplicate": false,
+          "activeListing": {
+            "id": 1005823,
+            "version": 1,
+            "price": 8800000,
+            "__typename": "Listing"
+          },
+          "owner": {
+            "id": "tz1ZjEwXyHtcnD48WfYy9YRpkkc7dSP3Nh4W",
+            "name": null,
+            "flag": "NONE",
+            "avatarUri": null,
+            "__typename": "User"
+          },
+          "issuer": {
+            "flag": "NONE",
+            "name": "Manifold",
+            "author": {
+              "id": "tz1aYEfH3VhzE9WoyxTKbUL5zaEVEi5NtmVa",
+              "name": "MathBird",
+              "type": "REGULAR",
+              "avatarUri": "ipfs://QmQdpBmqGXUuzz3vu5eQHNJrQxYMiK6y8JH7QfFcQ7mH1n",
+              "flag": "VERIFIED",
+              "collaborators": null,
+              "__typename": "User"
+            },
+            "__typename": "GenerativeToken"
+          },
+          "__typename": "Objkt"
+        },
+        "__typename": "Listing"
+      },
+      {
+        "id": 1005822,
+        "version": 1,
+        "price": 4000000,
+        "objkt": {
+          "id": "FX1-90484",
+          "version": 2,
+          "name": "Manifold #27",
+          "slug": "manifold-27",
+          "metadata": {
+            "name": "Manifold #27",
+            "iterationHash": "opJTLke7zbCjETZjNKmbCTbBF1f3VjwvTmeDkt6cmY3yACCxazz",
+            "description": "Manifold\nEach piece is created using particles in a custom flow field. The particles form intricate patterns resembling light caustics. \nAs a minter, you can decide the color of your piece, which significantly impacts the feel of the piece!\nCreated by Mathbird in P5.js!\nI hope you enjoy your piece!",
+            "tags": [
+              "Math",
+              "Particles",
+              "Flow fields",
+              "sin",
+              "cos",
+              "Mathbird"
+            ],
+            "generatorUri": "ipfs://QmQkdxvdc5i97ZNiz67gwXiDUGj9UNs6y7hfy3v3R5yCnE",
+            "artifactUri": "ipfs://QmQkdxvdc5i97ZNiz67gwXiDUGj9UNs6y7hfy3v3R5yCnE/?fxhash=opJTLke7zbCjETZjNKmbCTbBF1f3VjwvTmeDkt6cmY3yACCxazz&fxiteration=27&fxminter=tz1ZjEwXyHtcnD48WfYy9YRpkkc7dSP3Nh4W#0x40772000000000003feb3333333333333feb3333333333333fc851eb851eb85201",
+            "displayUri": "ipfs://QmbBiG6aGCriM6pwrSDZfQbtXSg54QRJSN1V2KTFcoV8QE",
+            "thumbnailUri": "ipfs://QmaeF48r9jhnXFFQjGk7rQdWGJNg6ShT56Zk6feRQJmUYB",
+            "authenticityHash": "331d53c7e24ba1da19db2a0314b4f7b04de63e674113e46d382b2677ffb50212",
+            "attributes": [
+              {
+                "name": "Exposure",
+                "value": 370
+              },
+              {
+                "name": "Saturation",
+                "value": "0.85"
+              },
+              {
+                "name": "Bright",
+                "value": true
+              },
+              {
+                "name": "Pass Through Border Chance",
+                "value": "0.19"
+              }
+            ],
+            "decimals": 0,
+            "symbol": "GENTK",
+            "version": "0.2",
+            "snippetVersion": "3.3.0"
+          },
+          "duplicate": false,
+          "activeListing": {
+            "id": 1005822,
+            "version": 1,
+            "price": 4000000,
+            "__typename": "Listing"
+          },
+          "owner": {
+            "id": "tz1ZjEwXyHtcnD48WfYy9YRpkkc7dSP3Nh4W",
+            "name": null,
+            "flag": "NONE",
+            "avatarUri": null,
+            "__typename": "User"
+          },
+          "issuer": {
+            "flag": "NONE",
+            "name": "Manifold",
+            "author": {
+              "id": "tz1aYEfH3VhzE9WoyxTKbUL5zaEVEi5NtmVa",
+              "name": "MathBird",
+              "type": "REGULAR",
+              "avatarUri": "ipfs://QmQdpBmqGXUuzz3vu5eQHNJrQxYMiK6y8JH7QfFcQ7mH1n",
+              "flag": "VERIFIED",
+              "collaborators": null,
+              "__typename": "User"
+            },
+            "__typename": "GenerativeToken"
+          },
+          "__typename": "Objkt"
+        },
+        "__typename": "Listing"
+      },
+      {
+        "id": 1005821,
+        "version": 1,
+        "price": 4360000,
+        "objkt": {
+          "id": "FX1-90422",
+          "version": 2,
+          "name": "Maelstrom #96",
+          "slug": "maelstrom-96",
+          "metadata": {
+            "name": "Maelstrom #96",
+            "iterationHash": "ooV1vVGX2yhaT6dn9YHqGQSok3VPtmnEzTmhbdZpSN1zfcQsbnR",
+            "description": "Ever-drawing cosmic storm, swallowing all that is bright into effervescent particles only to collapse on itself. Like a fire hungry for oxygen, chaos takes center stage for a fraction of what we called time, then gracefully settles into blaze and dust. From hereafter, a nascent star may dance.\n\nWhen I think about a pause in creation after some time, I thought of this. Like an effervescent tablet touching by the water, sometimes a drive just dissolves into indifference. But rather than trying to lit a wet log, it would be better to be burnt by something else.\n\n------------\nPress [s] to save captured image\n------------\nIt may take a few seconds to render, depending on the device.\nworks better with chrome\n\ncreated using WEBGL on p5.js\ndirbots - Aug23",
+            "tags": [
+              "maelstrom",
+              "void",
+              "space",
+              "form",
+              "architecture",
+              "abstract",
+              "p5js",
+              "webgl",
+              "lailatul qoding"
+            ],
+            "generatorUri": "ipfs://Qmb1sHJeuTAo3SWkrm4JLf6u29kcjDKojLP35dC8FVsKcn",
+            "artifactUri": "ipfs://Qmb1sHJeuTAo3SWkrm4JLf6u29kcjDKojLP35dC8FVsKcn/?fxhash=ooV1vVGX2yhaT6dn9YHqGQSok3VPtmnEzTmhbdZpSN1zfcQsbnR&fxiteration=96&fxminter=tz1ZjEwXyHtcnD48WfYy9YRpkkc7dSP3Nh4W",
+            "displayUri": "ipfs://QmVjZcEdZQzeMBE23GvyRZU6SQXNtv2XHRqEytqgW8rW58",
+            "thumbnailUri": "ipfs://QmSqyqJHXCpm4rH84DiqauW1jVgsBp42ZnCPUNPRnSU8aU",
+            "authenticityHash": "3fac7f0279898701746ada11eedf31f718c70520d5224148ddeccbcce0089ffd",
+            "attributes": [
+              {
+                "name": "Shape",
+                "value": "Rectangle"
+              },
+              {
+                "name": "Solidity",
+                "value": "Fill"
+              },
+              {
+                "name": "Size Petal",
+                "value": "Long"
+              },
+              {
+                "name": "Rotate Axis",
+                "value": "Z"
+              },
+              {
+                "name": "Modifier Value",
+                "value": -0.08
+              },
+              {
+                "name": "Palette",
+                "value": "Bathyal"
+              },
+              {
+                "name": "Particle",
+                "value": "Chaos"
+              }
+            ],
+            "decimals": 0,
+            "symbol": "GENTK",
+            "version": "0.2",
+            "snippetVersion": "3.3.0"
+          },
+          "duplicate": false,
+          "activeListing": {
+            "id": 1005821,
+            "version": 1,
+            "price": 4360000,
+            "__typename": "Listing"
+          },
+          "owner": {
+            "id": "tz1ZjEwXyHtcnD48WfYy9YRpkkc7dSP3Nh4W",
+            "name": null,
+            "flag": "NONE",
+            "avatarUri": null,
+            "__typename": "User"
+          },
+          "issuer": {
+            "flag": "NONE",
+            "name": "Maelstrom",
+            "author": {
+              "id": "tz1S48xQgmciATrngqM7UWX6PX3s9Jp7qw3K",
+              "name": "Dirbots",
+              "type": "REGULAR",
+              "avatarUri": "ipfs://QmZ2GZ1WQJVxNNshDrT33h2V9u7WzhPpcWw5Yp7DqE3dxZ",
+              "flag": "VERIFIED",
+              "collaborators": null,
+              "__typename": "User"
+            },
+            "__typename": "GenerativeToken"
+          },
+          "__typename": "Objkt"
+        },
+        "__typename": "Listing"
+      },
+      {
+        "id": 1005820,
+        "version": 1,
+        "price": 3000000,
+        "objkt": {
+          "id": "FX1-91120",
+          "version": 2,
+          "name": "$FX.HASH_DRAW(); #32",
+          "slug": "dollarfx.hash_draw()-32",
+          "metadata": {
+            "name": "$FX.HASH_DRAW(); #32",
+            "iterationHash": "ooUUGar241oGLDFLaJjQYonCd8ZVSGcWpHYVPd8MJugwzuhsdiB",
+            "description": "NFT fixed by hash\nThe hash, which is not shown on the table, drives the work.\nThe number used in the system becomes a brushstroke.\nFor the first few seconds it is legible, but after a little while it is nothing more than a brushstroke.\nBut it is definitely written.\nbrushstroke = fixed noise = hash.",
             "tags": [
               "p5js",
               "generative",
               "japan",
               "nft",
-              "Conscious",
-              "pixel"
+              "Conscious"
             ],
-            "generatorUri": "ipfs://QmbwfhUHzSqetrTz8kDBgaSQYTUgX828LwLMFyZvyuuvbr",
-            "artifactUri": "ipfs://QmbwfhUHzSqetrTz8kDBgaSQYTUgX828LwLMFyZvyuuvbr/?fxhash=oo64Y75URHYUWGoNhK9rCnBbm3M9Tqd8a5P4hKDMVbuTQE9oE4s&fxiteration=35&fxminter=tz1NTfhFGz6Nk8ETzT2skiFWNJXUQGzFqaok",
-            "displayUri": "ipfs://QmbTGvEExHiNbXw1KGamp6KTTB9HenvecGh3NBHa1hZuaD",
-            "thumbnailUri": "ipfs://QmXC2nPZwzDxPpDLf9uXnUH2GaQhkQ13gshk4DnsYELg7v",
-            "authenticityHash": "78fed8475a4761b9f7311adae31f751c157343b061450c61b6b7fda677a39c9d",
+            "generatorUri": "ipfs://QmUbrBmw338jhMFAGD1GEtR3hR7R3qyrTE6HsvHTUvsu7x",
+            "artifactUri": "ipfs://QmUbrBmw338jhMFAGD1GEtR3hR7R3qyrTE6HsvHTUvsu7x/?fxhash=ooUUGar241oGLDFLaJjQYonCd8ZVSGcWpHYVPd8MJugwzuhsdiB&fxiteration=32&fxminter=tz2VtWQNPH2TsDixaShXp5615sxDNZ4uB436",
+            "displayUri": "ipfs://QmRPKLk22Kc2tndZB74JfPAgQRHKQW6EXcULnPXrKpNnsL",
+            "thumbnailUri": "ipfs://QmRnFF1RJrs26Z8XevHLRfaktXucm7qDCVVFz8kwujeHxm",
+            "authenticityHash": "80740668a19fbb63f786ad870c5ace135b5ec03b9deb53ec1c36a90cf5e5dd29",
             "attributes": true,
             "decimals": 0,
             "symbol": "GENTK",
@@ -34,21 +745,21 @@
           },
           "duplicate": false,
           "activeListing": {
-            "id": 1005802,
+            "id": 1005820,
             "version": 1,
-            "price": 6800000,
+            "price": 3000000,
             "__typename": "Listing"
           },
           "owner": {
-            "id": "tz1NTfhFGz6Nk8ETzT2skiFWNJXUQGzFqaok",
-            "name": "Tez2",
+            "id": "tz2VtWQNPH2TsDixaShXp5615sxDNZ4uB436",
+            "name": null,
             "flag": "NONE",
-            "avatarUri": "ipfs://QmUdALhm3XVQt9MKVM4uSEgSdb9txT4vf978PcXy6WEGSf",
+            "avatarUri": null,
             "__typename": "User"
           },
           "issuer": {
             "flag": "NONE",
-            "name": "hashGame",
+            "name": "$FX.HASH_DRAW();",
             "author": {
               "id": "tz2HpguztWLky5QF5KYuHomVaYHeq2HZdmL4",
               "name": "uesYn",
@@ -65,17 +776,352 @@
         "__typename": "Listing"
       },
       {
-        "id": 1005801,
+        "id": 1005819,
         "version": 1,
-        "price": 7000000,
+        "price": 37000000,
         "objkt": {
-          "id": "FX1-91172",
+          "id": "FX1-83514",
           "version": 2,
-          "name": "hashGame #44",
-          "slug": "hashgame-44",
+          "name": "Eikonal identities #151",
+          "slug": "eikonal-identities-151",
           "metadata": {
-            "name": "hashGame #44",
-            "iterationHash": "opR7FZCcWm3jWWT6cFGoiFED3QiwwjURiJVAMyXifRchJWo3jmD",
+            "name": "Eikonal identities #151",
+            "iterationHash": "ooD5DXuqc5tRD6HkwCt1wsn45uwc6SDpkTUhwux6BwzFrR41sXE",
+            "description": "\n\n\nWorks in the invisible\nInevitable shadows\nDigital exorcism\nSilicon catharsis\n\n\nEikonal\n- Usually \"eikonal equation\" : the wave-like description of the propagation of light through a medium\n- In optics, relative to the formation of an image\n- anagram : e-kaolin\n\n\n\n-----\n* What/How *\n\nProduct of the code.\n\nA picture generated by a succession of chaotic events applied to a system of 4.2 million particles.\nThe drawing process consists of mixing and projecting the particles randomly in space.\n\nEach image is unique and depends only on the address of minter's wallet and current iteration number.\n\n-----\n* Technics *\n\n- Hand written code in Javascript, GLSL\n- Uses three.js library, WebGL particles, physics\n- Generates a FullHD PNG (1080x1080 px bitmap 24bits)\n- Takes less than 15 seconds of generation on a relatively recent GPU (>2017)\n\n-----\n@HAL09999 – August 8th, 2023\nhttps://twitter.com/HAL09999\nhttps://instagram.com/hal09999\nhttps://danslesnuages.xyz\n\n",
+            "tags": [
+              "alteration",
+              "amulet",
+              "artifact",
+              "catharsis",
+              "code",
+              "division",
+              "entity",
+              "exorcism",
+              "intention",
+              "light",
+              "matter",
+              "monochrome",
+              "online",
+              "postprocessing projection",
+              "ritual",
+              "self",
+              "shadow",
+              "silicon",
+              "talisman",
+              "transpersonal"
+            ],
+            "generatorUri": "ipfs://QmaUpwSNGQ8eiAMyRuHdpj3Fbp7nCjz6Cx4huG8uGdrJn6",
+            "artifactUri": "ipfs://QmaUpwSNGQ8eiAMyRuHdpj3Fbp7nCjz6Cx4huG8uGdrJn6/?fxhash=ooD5DXuqc5tRD6HkwCt1wsn45uwc6SDpkTUhwux6BwzFrR41sXE&fxiteration=151&fxminter=tz1hkk6mDcwDHj8JtXNgEaYDLmijLAhkaFeG",
+            "displayUri": "ipfs://QmY7wMJfDRL656xLzSJbqA2w7q42trq1iB4iGwq85t42s6",
+            "thumbnailUri": "ipfs://QmZkBEzKaCFpAqpfLf85Qi6pnxbja2GGYdbbhHf53ZkPgg",
+            "authenticityHash": "d5e68131e8fecb0b7d4d981dacb2983f7b68884f956dbaf4f3c3b84260899631",
+            "attributes": [
+              {
+                "name": "illusion of alteration",
+                "value": "convoluted"
+              },
+              {
+                "name": "pareidolia",
+                "value": "transpersonal"
+              },
+              {
+                "name": "[...]-ism",
+                "value": 0.003
+              }
+            ],
+            "decimals": 0,
+            "symbol": "GENTK",
+            "version": "0.2",
+            "snippetVersion": "3.3.0"
+          },
+          "duplicate": false,
+          "activeListing": {
+            "id": 1005819,
+            "version": 1,
+            "price": 37000000,
+            "__typename": "Listing"
+          },
+          "owner": {
+            "id": "tz2StjcvYWEaxoD41dXWAWxEQu7EmKJUTENG",
+            "name": null,
+            "flag": "NONE",
+            "avatarUri": null,
+            "__typename": "User"
+          },
+          "issuer": {
+            "flag": "NONE",
+            "name": "Eikonal identities",
+            "author": {
+              "id": "tz1PgMiRHHCjLaJZPS739cJKnNHGaRXYnsCn",
+              "name": "HAL09999",
+              "type": "REGULAR",
+              "avatarUri": "ipfs://QmY4VuLhLKC4M1RCAXedhkuS38dSgLS8NUmaasKteBAmka",
+              "flag": "VERIFIED",
+              "collaborators": null,
+              "__typename": "User"
+            },
+            "__typename": "GenerativeToken"
+          },
+          "__typename": "Objkt"
+        },
+        "__typename": "Listing"
+      },
+      {
+        "id": 1005817,
+        "version": 1,
+        "price": 18000000,
+        "objkt": {
+          "id": "FX1-91022",
+          "version": 2,
+          "name": "web_pixel_crystal #50",
+          "slug": "web_pixel_crystal-50",
+          "metadata": {
+            "name": "web_pixel_crystal #50",
+            "iterationHash": "opUUph3pz8hpr9ctCnpw2Yg1Em7Yz9QUFkU28eJFJh5tbFXitoe",
+            "description": "Each point weaves a line.\nThe complex polygon transforms into a surface.\nThe polygon that has become a plane shifts in color, reminding us that it is a collection of dots.\nHowever, when magnified, the dots are also planes.\nLight is one dimensional, two dimensional, three dimensional, and when it starts to move, it becomes one dimension higher.\nWe do not know what we can call the image that appears in front of us.\nIt changes dimensions every time we imagine it, both computationally and physically.\nLike a fractal, there is a float dimension above our conception.",
+            "tags": [
+              "p5js",
+              "generative",
+              "japan",
+              "pixel"
+            ],
+            "generatorUri": "ipfs://QmYzJYeMxaz43fJ74Gq7QhHAjepi6gMSgyS45eYScjKu6W",
+            "artifactUri": "ipfs://QmYzJYeMxaz43fJ74Gq7QhHAjepi6gMSgyS45eYScjKu6W/?fxhash=opUUph3pz8hpr9ctCnpw2Yg1Em7Yz9QUFkU28eJFJh5tbFXitoe&fxiteration=50&fxminter=tz2VtWQNPH2TsDixaShXp5615sxDNZ4uB436",
+            "displayUri": "ipfs://QmeyFzpm5yaoM3Upr8M7iLzZS9odzJcNBDau5S8CSuQDhy",
+            "thumbnailUri": "ipfs://Qmbe7NiW3d7tygVke9bUCTaY4yo4Rz7HwWNBSDZahJiPMb",
+            "authenticityHash": "9cc918fd1599741f0222b8f5e2ca90183346870168d29507f9b61c3d9c7acf77",
+            "attributes": true,
+            "decimals": 0,
+            "symbol": "GENTK",
+            "version": "0.2"
+          },
+          "duplicate": false,
+          "activeListing": {
+            "id": 1005817,
+            "version": 1,
+            "price": 18000000,
+            "__typename": "Listing"
+          },
+          "owner": {
+            "id": "tz2VtWQNPH2TsDixaShXp5615sxDNZ4uB436",
+            "name": null,
+            "flag": "NONE",
+            "avatarUri": null,
+            "__typename": "User"
+          },
+          "issuer": {
+            "flag": "NONE",
+            "name": "web_pixel_crystal",
+            "author": {
+              "id": "tz2HpguztWLky5QF5KYuHomVaYHeq2HZdmL4",
+              "name": "uesYn",
+              "type": "REGULAR",
+              "avatarUri": "ipfs://QmcvKqkmwxMcS9iHFAijGNzUzrjUqvptt7XT1DzRiJPEMz",
+              "flag": "VERIFIED",
+              "collaborators": null,
+              "__typename": "User"
+            },
+            "__typename": "GenerativeToken"
+          },
+          "__typename": "Objkt"
+        },
+        "__typename": "Listing"
+      },
+      {
+        "id": 1005816,
+        "version": 1,
+        "price": 9000000,
+        "objkt": {
+          "id": "FX1-91032",
+          "version": 2,
+          "name": "web_pixel_crystal #56",
+          "slug": "web_pixel_crystal-56",
+          "metadata": {
+            "name": "web_pixel_crystal #56",
+            "iterationHash": "ooeqypuKvXNQMkTbiKjAtj8ioupcrQq6AQdGbndPVZsPG9hNLkr",
+            "description": "Each point weaves a line.\nThe complex polygon transforms into a surface.\nThe polygon that has become a plane shifts in color, reminding us that it is a collection of dots.\nHowever, when magnified, the dots are also planes.\nLight is one dimensional, two dimensional, three dimensional, and when it starts to move, it becomes one dimension higher.\nWe do not know what we can call the image that appears in front of us.\nIt changes dimensions every time we imagine it, both computationally and physically.\nLike a fractal, there is a float dimension above our conception.",
+            "tags": [
+              "p5js",
+              "generative",
+              "japan",
+              "pixel"
+            ],
+            "generatorUri": "ipfs://QmYzJYeMxaz43fJ74Gq7QhHAjepi6gMSgyS45eYScjKu6W",
+            "artifactUri": "ipfs://QmYzJYeMxaz43fJ74Gq7QhHAjepi6gMSgyS45eYScjKu6W/?fxhash=ooeqypuKvXNQMkTbiKjAtj8ioupcrQq6AQdGbndPVZsPG9hNLkr&fxiteration=56&fxminter=tz2VtWQNPH2TsDixaShXp5615sxDNZ4uB436",
+            "displayUri": "ipfs://QmaobV937eLCkwiCYfJEo8VHBZNziH4B8ke67ZUQC1agqV",
+            "thumbnailUri": "ipfs://QmNTCif6fDrL9MGjCUPvxXUcHdiA6pz3EnMWMgUtTv1obX",
+            "authenticityHash": "47af6fd679bf2b5ead8e9abfd32d3a444da0f542ae2e1b956529b8c53482591f",
+            "attributes": true,
+            "decimals": 0,
+            "symbol": "GENTK",
+            "version": "0.2"
+          },
+          "duplicate": false,
+          "activeListing": {
+            "id": 1005816,
+            "version": 1,
+            "price": 9000000,
+            "__typename": "Listing"
+          },
+          "owner": {
+            "id": "tz2VtWQNPH2TsDixaShXp5615sxDNZ4uB436",
+            "name": null,
+            "flag": "NONE",
+            "avatarUri": null,
+            "__typename": "User"
+          },
+          "issuer": {
+            "flag": "NONE",
+            "name": "web_pixel_crystal",
+            "author": {
+              "id": "tz2HpguztWLky5QF5KYuHomVaYHeq2HZdmL4",
+              "name": "uesYn",
+              "type": "REGULAR",
+              "avatarUri": "ipfs://QmcvKqkmwxMcS9iHFAijGNzUzrjUqvptt7XT1DzRiJPEMz",
+              "flag": "VERIFIED",
+              "collaborators": null,
+              "__typename": "User"
+            },
+            "__typename": "GenerativeToken"
+          },
+          "__typename": "Objkt"
+        },
+        "__typename": "Listing"
+      },
+      {
+        "id": 1005815,
+        "version": 1,
+        "price": 8000000,
+        "objkt": {
+          "id": "FX1-91013",
+          "version": 2,
+          "name": "web_pixel_crystal #42",
+          "slug": "web_pixel_crystal-42",
+          "metadata": {
+            "name": "web_pixel_crystal #42",
+            "iterationHash": "onz3VD5sHzTAvAsnZFH5T9G9sGH4deSgod8U7SaL5wwR4X3V9Rg",
+            "description": "Each point weaves a line.\nThe complex polygon transforms into a surface.\nThe polygon that has become a plane shifts in color, reminding us that it is a collection of dots.\nHowever, when magnified, the dots are also planes.\nLight is one dimensional, two dimensional, three dimensional, and when it starts to move, it becomes one dimension higher.\nWe do not know what we can call the image that appears in front of us.\nIt changes dimensions every time we imagine it, both computationally and physically.\nLike a fractal, there is a float dimension above our conception.",
+            "tags": [
+              "p5js",
+              "generative",
+              "japan",
+              "pixel"
+            ],
+            "generatorUri": "ipfs://QmYzJYeMxaz43fJ74Gq7QhHAjepi6gMSgyS45eYScjKu6W",
+            "artifactUri": "ipfs://QmYzJYeMxaz43fJ74Gq7QhHAjepi6gMSgyS45eYScjKu6W/?fxhash=onz3VD5sHzTAvAsnZFH5T9G9sGH4deSgod8U7SaL5wwR4X3V9Rg&fxiteration=42&fxminter=tz2VtWQNPH2TsDixaShXp5615sxDNZ4uB436",
+            "displayUri": "ipfs://QmQfLEiskgZMNwsEwSTWgwYLwbGRW98ZcexVVMP727hjyZ",
+            "thumbnailUri": "ipfs://QmTSHMjbunzU1B6i4QHfqA5E5QsE6erm9XW8kWfa5e6dLV",
+            "authenticityHash": "0bca54ac59945426349c9ec9e961386093e60a373e1f8934f39d7e7d1eaeb353",
+            "attributes": true,
+            "decimals": 0,
+            "symbol": "GENTK",
+            "version": "0.2"
+          },
+          "duplicate": false,
+          "activeListing": {
+            "id": 1005815,
+            "version": 1,
+            "price": 8000000,
+            "__typename": "Listing"
+          },
+          "owner": {
+            "id": "tz2VtWQNPH2TsDixaShXp5615sxDNZ4uB436",
+            "name": null,
+            "flag": "NONE",
+            "avatarUri": null,
+            "__typename": "User"
+          },
+          "issuer": {
+            "flag": "NONE",
+            "name": "web_pixel_crystal",
+            "author": {
+              "id": "tz2HpguztWLky5QF5KYuHomVaYHeq2HZdmL4",
+              "name": "uesYn",
+              "type": "REGULAR",
+              "avatarUri": "ipfs://QmcvKqkmwxMcS9iHFAijGNzUzrjUqvptt7XT1DzRiJPEMz",
+              "flag": "VERIFIED",
+              "collaborators": null,
+              "__typename": "User"
+            },
+            "__typename": "GenerativeToken"
+          },
+          "__typename": "Objkt"
+        },
+        "__typename": "Listing"
+      },
+      {
+        "id": 1005814,
+        "version": 1,
+        "price": 10000000,
+        "objkt": {
+          "id": "FX1-91039",
+          "version": 2,
+          "name": "web_pixel_crystal #60",
+          "slug": "web_pixel_crystal-60",
+          "metadata": {
+            "name": "web_pixel_crystal #60",
+            "iterationHash": "opVkSRmfvYhsLRBws2MRF8EXt49KoZShszabusRPrJVyGigcK2x",
+            "description": "Each point weaves a line.\nThe complex polygon transforms into a surface.\nThe polygon that has become a plane shifts in color, reminding us that it is a collection of dots.\nHowever, when magnified, the dots are also planes.\nLight is one dimensional, two dimensional, three dimensional, and when it starts to move, it becomes one dimension higher.\nWe do not know what we can call the image that appears in front of us.\nIt changes dimensions every time we imagine it, both computationally and physically.\nLike a fractal, there is a float dimension above our conception.",
+            "tags": [
+              "p5js",
+              "generative",
+              "japan",
+              "pixel"
+            ],
+            "generatorUri": "ipfs://QmYzJYeMxaz43fJ74Gq7QhHAjepi6gMSgyS45eYScjKu6W",
+            "artifactUri": "ipfs://QmYzJYeMxaz43fJ74Gq7QhHAjepi6gMSgyS45eYScjKu6W/?fxhash=opVkSRmfvYhsLRBws2MRF8EXt49KoZShszabusRPrJVyGigcK2x&fxiteration=60&fxminter=tz2VtWQNPH2TsDixaShXp5615sxDNZ4uB436",
+            "displayUri": "ipfs://QmV9LBUFCUs4Xh5hrjoYDeyCBCcDsWRBAXm5VzDZfc39uT",
+            "thumbnailUri": "ipfs://QmPhmoV1LakNcU2k1n2tLwMWy3kPcttZjbWZnhCPaabbb7",
+            "authenticityHash": "04f8aa10938b7abf996e2bd85635fc9ad2581ef7fcffce52f4cd9aba213330b5",
+            "attributes": true,
+            "decimals": 0,
+            "symbol": "GENTK",
+            "version": "0.2"
+          },
+          "duplicate": false,
+          "activeListing": {
+            "id": 1005814,
+            "version": 1,
+            "price": 10000000,
+            "__typename": "Listing"
+          },
+          "owner": {
+            "id": "tz2VtWQNPH2TsDixaShXp5615sxDNZ4uB436",
+            "name": null,
+            "flag": "NONE",
+            "avatarUri": null,
+            "__typename": "User"
+          },
+          "issuer": {
+            "flag": "NONE",
+            "name": "web_pixel_crystal",
+            "author": {
+              "id": "tz2HpguztWLky5QF5KYuHomVaYHeq2HZdmL4",
+              "name": "uesYn",
+              "type": "REGULAR",
+              "avatarUri": "ipfs://QmcvKqkmwxMcS9iHFAijGNzUzrjUqvptt7XT1DzRiJPEMz",
+              "flag": "VERIFIED",
+              "collaborators": null,
+              "__typename": "User"
+            },
+            "__typename": "GenerativeToken"
+          },
+          "__typename": "Objkt"
+        },
+        "__typename": "Listing"
+      },
+      {
+        "id": 1005813,
+        "version": 1,
+        "price": 5000000,
+        "objkt": {
+          "id": "FX1-91176",
+          "version": 2,
+          "name": "hashGame #48",
+          "slug": "hashgame-48",
+          "metadata": {
+            "name": "hashGame #48",
+            "iterationHash": "op2prevHheTAz5q6jTEkuHYm5ZQjDxqKBvDhmRJb3iiZDh8Akbo",
             "description": "Conway's life game suggests many things.\nSomething that keeps solidifying all the time\nThings that keep moving\nThat which disappears\nWhat is born\nThe rules are simple, but they are based on a perfect balance.\nPhenomena that happen before your eyes can be seen forever.\n\nUnique hashes move by the rules of the game of life.\nLong-lived things become brighter and brighter.\nTunnels that move in all directions and explosions that spread out from the center force complex rules onto pixels.\nOur activities are also pixels somewhere.",
             "tags": [
               "p5js",
@@ -86,10 +1132,10 @@
               "pixel"
             ],
             "generatorUri": "ipfs://QmbwfhUHzSqetrTz8kDBgaSQYTUgX828LwLMFyZvyuuvbr",
-            "artifactUri": "ipfs://QmbwfhUHzSqetrTz8kDBgaSQYTUgX828LwLMFyZvyuuvbr/?fxhash=opR7FZCcWm3jWWT6cFGoiFED3QiwwjURiJVAMyXifRchJWo3jmD&fxiteration=44&fxminter=tz2VtWQNPH2TsDixaShXp5615sxDNZ4uB436",
-            "displayUri": "ipfs://QmTP8EsZK2WCff1WqUbfcJ8hCzonSe42iUxVWVhxmb4MZ4",
-            "thumbnailUri": "ipfs://QmcjATeYEpBgBBACpWFKKCVzD4cJGc7wNVkuhkTC5XiuTA",
-            "authenticityHash": "eb62eb8f6c48fdba9f2edd04833cb282c67d1ebeb3b977b9d8b27f16bf6da419",
+            "artifactUri": "ipfs://QmbwfhUHzSqetrTz8kDBgaSQYTUgX828LwLMFyZvyuuvbr/?fxhash=op2prevHheTAz5q6jTEkuHYm5ZQjDxqKBvDhmRJb3iiZDh8Akbo&fxiteration=48&fxminter=tz2VtWQNPH2TsDixaShXp5615sxDNZ4uB436",
+            "displayUri": "ipfs://QmWCowmWJw9z8caHmUgZeqLZw2f7LXVqRrU9Bu98aJqCEp",
+            "thumbnailUri": "ipfs://QmaAGy1cxhbGKCrQSraKXQK3f4tDP44AU2p9psDdxe8hD8",
+            "authenticityHash": "f2751452a64f2a7660ea9af84b008227c77936ff2a650f9d51f691ba34c3135f",
             "attributes": true,
             "decimals": 0,
             "symbol": "GENTK",
@@ -97,9 +1143,9 @@
           },
           "duplicate": false,
           "activeListing": {
-            "id": 1005801,
+            "id": 1005813,
             "version": 1,
-            "price": 7000000,
+            "price": 5000000,
             "__typename": "Listing"
           },
           "owner": {
@@ -128,1338 +1174,140 @@
         "__typename": "Listing"
       },
       {
-        "id": 1005800,
+        "id": 1005812,
         "version": 1,
-        "price": 2600000,
+        "price": 3000000,
         "objkt": {
-          "id": "FX1-91155",
-          "version": 2,
-          "name": "Land of the Sun Day #38",
-          "slug": "land-of-the-sun-day-38",
-          "metadata": {
-            "name": "Land of the Sun Day #38",
-            "iterationHash": "onkBPCXp5amiq5dnLGRSxXPVyA182E6EcFhmmmo9oUgGTznqxam",
-            "description": "In this predominantly abstract composition, I open a world of vibrant colors and intricate details. At the center of the canvas, a fractal tree (farn) rises like a monument to the complexity of nature. Its branches extend in all directions, thin as silk threads yet intricate with fascinating mathematical geometry.\n\nParticles float in the air around the fractal tree, creating an ethereal atmosphere. Small particles of light reflect upon them, creating games of color and light that change with every viewing angle. These particles seem to dance in space, like sparkling stars in a distant galaxy.\n\nThe intricate details of the fractals capture the observer's attention, inviting them to immerse in an infinite journey through geometric shapes that repeat endlessly. Elegant curves, spirals, and complex geometric figures develop both on the branches of the tree and in the background, creating a sense of depth and mystery.\n\nOverall, I believe it's a challenge to perception and imagination, taking the observer into an abstract and stimulating world.\n\nTo change the density from 1 to 8 (incorrect results set to 1), double-click the left mouse button.\n\nI used p5.min.js \nthe tree is based on the \"Farn\" fractals (also known as Barnsley fractals)",
-            "tags": [
-              "abstract",
-              "field",
-              "recursive",
-              "sun",
-              "landscape"
-            ],
-            "generatorUri": "ipfs://QmQ9R7dLSdYAjJWdYEeMYteQJRwhP66hkkteYVzGgTVTyZ",
-            "artifactUri": "ipfs://QmQ9R7dLSdYAjJWdYEeMYteQJRwhP66hkkteYVzGgTVTyZ/?fxhash=onkBPCXp5amiq5dnLGRSxXPVyA182E6EcFhmmmo9oUgGTznqxam&fxiteration=38&fxminter=tz1WA9qgbSWeFdXPSAMsY7o4DUdqpJ959Vy7",
-            "displayUri": "ipfs://QmZ1nYQUPhFamgBHr9TwfMZbAPYCFXUf5JKWp1PCohvSeB",
-            "thumbnailUri": "ipfs://QmUW3H7rs13vbb4YiTCceL49Z4dWwnezfHZGDgUF1geGZa",
-            "authenticityHash": "60a6c95c978bae92e41bc44b3e0af9b12b48acb855c9e0bb8330c5bd197bbd60",
-            "attributes": [
-              {
-                "name": "ppa1",
-                "value": 71
-              },
-              {
-                "name": "ppa2",
-                "value": 85
-              },
-              {
-                "name": "ppa3",
-                "value": 3
-              }
-            ],
-            "decimals": 0,
-            "symbol": "GENTK",
-            "version": "0.2",
-            "snippetVersion": "3.3.0"
-          },
-          "duplicate": false,
-          "activeListing": {
-            "id": 1005800,
-            "version": 1,
-            "price": 2600000,
-            "__typename": "Listing"
-          },
-          "owner": {
-            "id": "tz1WA9qgbSWeFdXPSAMsY7o4DUdqpJ959Vy7",
-            "name": "Kin Wiz",
-            "flag": "NONE",
-            "avatarUri": "ipfs://QmV2wae11KAC5WQbC75vxBaEh1syqJmQPAJkL1nUVcRbVg",
-            "__typename": "User"
-          },
-          "issuer": {
-            "flag": "NONE",
-            "name": "Land of the Sun Day",
-            "author": {
-              "id": "tz2T7EWNFRF7idMNY7Ej5MhYkupEN4D6CXUQ",
-              "name": "Kenzo da barra",
-              "type": "REGULAR",
-              "avatarUri": "ipfs://QmcqfmpFQYim6NPL63m5xbuwiwSkHLimbUSuB3HD2rrWCk",
-              "flag": "VERIFIED",
-              "collaborators": null,
-              "__typename": "User"
-            },
-            "__typename": "GenerativeToken"
-          },
-          "__typename": "Objkt"
-        },
-        "__typename": "Listing"
-      },
-      {
-        "id": 1005799,
-        "version": 1,
-        "price": 4900000,
-        "objkt": {
-          "id": "FX1-72551",
-          "version": 2,
-          "name": "Cube on Cube #42",
-          "slug": "cube-on-cube-42",
-          "metadata": {
-            "name": "Cube on Cube #42",
-            "iterationHash": "op8w1YtaquaxPtTnfmRhL3CuggjqkNKSayC5SPfAcZ13dPt9ho7",
-            "description": "This token generates a plottable SVG file, a different arrangement of cubes.\nThe cubes are designed in 2D view, then placed next to each other or on top of each other in eight different directions. The goal is to challenge the audience's mind to discover the holes or protrusions produced by placing the cubes together.\nTo produce random parts made of cubes, those in the same direction are merged together, which is a turning point in this project.\nDo you need a different output from your piece?  Then use controllers!\n\nControllers \nG - Change light direction\nF - Add/remove frame\nL - Add/remove base lines\nD - Change base lines direction\nR - Reset to default settings\nP - Save as PNG\nS - Export high resolution SVG\n\nNote : When you have a piece with many shapes, controllers may run delayed. (Depending on your device).\n\nMade by p5.js",
-            "tags": [
-              "cube",
-              "svg",
-              "plottable",
-              "structure",
-              "architecture",
-              "cubic",
-              "geometric"
-            ],
-            "generatorUri": "ipfs://QmNkUrR8fC9M1Mkz36UhVuEwbUmmveY5KPCq3i3Pw5qgUs",
-            "artifactUri": "ipfs://QmNkUrR8fC9M1Mkz36UhVuEwbUmmveY5KPCq3i3Pw5qgUs/?fxhash=op8w1YtaquaxPtTnfmRhL3CuggjqkNKSayC5SPfAcZ13dPt9ho7&fxiteration=42&fxminter=tz1XxFpUJ6b9QbwotZE4VUMaewR6psBGTLT7",
-            "displayUri": "ipfs://QmQ1mV6crxD87aV29KNmhnaMV7WKohooL85mMpKmFv2Cun",
-            "thumbnailUri": "ipfs://QmRoYBoMWZmA5XzaPrMx2wAaYRGXTL1NsK5tcWRAKrCLuB",
-            "authenticityHash": "b40d3b16099d3cbadc99560056b23123dbe4711607dce3290f3dbccd7a64455f",
-            "attributes": [
-              {
-                "name": "Sketch Size",
-                "value": "4500x4500"
-              },
-              {
-                "name": "View",
-                "value": "Square"
-              },
-              {
-                "name": "Borders Thickness",
-                "value": "5%"
-              },
-              {
-                "name": "Number of Moves",
-                "value": "Medium"
-              },
-              {
-                "name": "Base Lines Direction",
-                "value": "vertical"
-              },
-              {
-                "name": "Cell Size",
-                "value": "Medium"
-              },
-              {
-                "name": "Light Direction",
-                "value": "Right"
-              },
-              {
-                "name": "Background",
-                "value": "Dark"
-              },
-              {
-                "name": "Main Color",
-                "value": "Lotus"
-              }
-            ],
-            "decimals": 0,
-            "symbol": "GENTK",
-            "version": "0.2"
-          },
-          "duplicate": false,
-          "activeListing": {
-            "id": 1005799,
-            "version": 1,
-            "price": 4900000,
-            "__typename": "Listing"
-          },
-          "owner": {
-            "id": "tz1XxFpUJ6b9QbwotZE4VUMaewR6psBGTLT7",
-            "name": null,
-            "flag": "NONE",
-            "avatarUri": null,
-            "__typename": "User"
-          },
-          "issuer": {
-            "flag": "NONE",
-            "name": "Cube on Cube",
-            "author": {
-              "id": "tz1Lm3mUYeVx77NFm22pbky5YD9vto1ATtzt",
-              "name": "Uinges",
-              "type": "REGULAR",
-              "avatarUri": "ipfs://QmYKL89M5ok4RmhfXyvrK61xUBPfGdawo2FdKMwsj4Lq4j",
-              "flag": "VERIFIED",
-              "collaborators": null,
-              "__typename": "User"
-            },
-            "__typename": "GenerativeToken"
-          },
-          "__typename": "Objkt"
-        },
-        "__typename": "Listing"
-      },
-      {
-        "id": 1005798,
-        "version": 1,
-        "price": 2000000,
-        "objkt": {
-          "id": "FX1-90199",
-          "version": 2,
-          "name": "Curvatur4 Mov4m4nts #46",
-          "slug": "curvatur4-mov4m4nts-46",
-          "metadata": {
-            "name": "Curvatur4 Mov4m4nts #46",
-            "iterationHash": "ooYQAvdshEQFQQ4BFpXQnZhiztf2Kk4m9tocdb1gAjK7K4PQ2Qi",
-            "description": "Curvature Movements first edition was issued one year ago !\nMade with p5js.\nAugust 2023\n\nKeys:\nPress 2 -> 4000 x 4000 png\nPress 3 -> 6000 x 6000 png\nPress 4 -> 8000 x 8000 png\nPress 5 -> 10000 x 10000 png\nPress s -> 10000 x 10000 png\nPress 6 -> 12000 x 12000 png\nThen press s to save png (default size is 2000x2000)\n\nABOUT THE CREATOR\n\nObsukiy is a french painter and digital artist based in Berlin.\nhttps://twitter.com/ObsukiyArt",
-            "tags": [],
-            "generatorUri": "ipfs://Qmadk3wbaDwasDvjqGVFKJnt6DVZjwmbPSomPtN93YezTY",
-            "artifactUri": "ipfs://Qmadk3wbaDwasDvjqGVFKJnt6DVZjwmbPSomPtN93YezTY/?fxhash=ooYQAvdshEQFQQ4BFpXQnZhiztf2Kk4m9tocdb1gAjK7K4PQ2Qi&fxiteration=46&fxminter=tz1XxFpUJ6b9QbwotZE4VUMaewR6psBGTLT7#0x3f847ae147ae147bffffffffffffffff97215eff",
-            "displayUri": "ipfs://QmeJJkMsDB8Cf8TjqBbpWhsjarLLiTEfH4KtckfnVJJ41y",
-            "thumbnailUri": "ipfs://QmX3MTtHEPzUa1KxKWnaYMekujH9EpxE8j5tdVcc6np3Qq",
-            "authenticityHash": "5da68e0cdf54f62b65c271aa4caf746490356791982e010a7c58a691d1331894",
-            "attributes": true,
-            "decimals": 0,
-            "symbol": "GENTK",
-            "version": "0.2",
-            "snippetVersion": "3.3.0"
-          },
-          "duplicate": false,
-          "activeListing": {
-            "id": 1005798,
-            "version": 1,
-            "price": 2000000,
-            "__typename": "Listing"
-          },
-          "owner": {
-            "id": "tz1XxFpUJ6b9QbwotZE4VUMaewR6psBGTLT7",
-            "name": null,
-            "flag": "NONE",
-            "avatarUri": null,
-            "__typename": "User"
-          },
-          "issuer": {
-            "flag": "NONE",
-            "name": "Curvatur4 Mov4m4nts",
-            "author": {
-              "id": "tz1MAQ5HciKhqKuNrChj9ZBuDAt2dutcVD8y",
-              "name": "Obsukiy",
-              "type": "REGULAR",
-              "avatarUri": "ipfs://QmVVJiDs7vFVUchGsF6yshBB6bfZ2teFCeiRXjFHsNyXgr",
-              "flag": "VERIFIED",
-              "collaborators": null,
-              "__typename": "User"
-            },
-            "__typename": "GenerativeToken"
-          },
-          "__typename": "Objkt"
-        },
-        "__typename": "Listing"
-      },
-      {
-        "id": 1005797,
-        "version": 1,
-        "price": 651000000,
-        "objkt": {
-          "id": "FX0-1264273",
+          "id": "FX0-1605062",
           "version": 1,
-          "name": "Coronado #347",
-          "slug": "coronado-347",
+          "name": "Just, Steven! #261",
+          "slug": "just-steven!-261",
           "metadata": {
-            "name": "Coronado #347",
-            "iterationHash": "onqbTbgF7J8JjkBVPPMEVYb5BVUWT6cytZLe3KgtsLfhgMsvyh3",
-            "description": "This series is about the beauty and charm of imperfection, chaos amidst order, and letting go. It's about knowing that however much control we think we may have, things can all fall apart or burst into something unexpectedly wonderful at any moment, even without our hands tightly on the reigns.\n\nPlease see fxtext article linked from main project page for more background on the project and rendering notes.\n\nSome key commands in live mode:\n\nG : Toggle grain\nS : Save current resolution\n1 : 4000x5000\n2 : 6000x7500\n3 : 8000x10000\n4 : 10000x12500\n5 : 12000x15000\n6 : 14000x17500\n(1-6 work best on Chrome)\n(rendering takes longer as resolution increases)",
-            "tags": [],
-            "generatorUri": "ipfs://QmVqaLtFaupZAwcE7WPdsGgqfmdYbkMeTgQ2wzR2eKxpyd",
-            "artifactUri": "ipfs://QmVqaLtFaupZAwcE7WPdsGgqfmdYbkMeTgQ2wzR2eKxpyd?fxhash=onqbTbgF7J8JjkBVPPMEVYb5BVUWT6cytZLe3KgtsLfhgMsvyh3",
-            "displayUri": "ipfs://QmNuTbT3nVF1JWjRCB656yGQVoSyDHNqdyJYELaLAsF55A",
-            "thumbnailUri": "ipfs://QmVnAdQ3mvcdHM5HWLEL2JmNhpay7Zka3xrqpQKb22DJso",
-            "authenticityHash": "4d022eb3d8c9dd39c1662b116992fbafd4894663b28b421fc423ee6f07ac615c",
-            "attributes": [
-              {
-                "name": "Density",
-                "value": 101
-              },
-              {
-                "name": "Variance",
-                "value": 3
-              },
-              {
-                "name": "Bricked",
-                "value": false
-              },
-              {
-                "name": "Flipped",
-                "value": false
-              },
-              {
-                "name": "Gauge",
-                "value": 24
-              },
-              {
-                "name": "Step",
-                "value": 500
-              },
-              {
-                "name": "Angle",
-                "value": 29
-              },
-              {
-                "name": "Curve",
-                "value": 2
-              },
-              {
-                "name": "Reverses",
-                "value": true
-              },
-              {
-                "name": "Wash",
-                "value": 6
-              },
-              {
-                "name": "Splash",
-                "value": 1
-              },
-              {
-                "name": "Zoom",
-                "value": 0.5
-              }
-            ],
-            "decimals": 0,
-            "symbol": "GENTK",
-            "version": "0.2"
-          },
-          "duplicate": false,
-          "activeListing": {
-            "id": 1005797,
-            "version": 1,
-            "price": 651000000,
-            "__typename": "Listing"
-          },
-          "owner": {
-            "id": "tz1Zw67QCG24xWm2VsiJjKEN69K2Zjy74Jve",
-            "name": "Lil Saturn",
-            "flag": "NONE",
-            "avatarUri": "ipfs://QmRDRqLtZ7aTLbqZSvayXjAxBeTmx6rd5ARLtqcE3gu7jh",
-            "__typename": "User"
-          },
-          "issuer": {
-            "flag": "NONE",
-            "name": "Coronado",
-            "author": {
-              "id": "tz1hnnCaYDiRPH8apoJQB9wvytwpYQSJEzCK",
-              "name": "jeres",
-              "type": "REGULAR",
-              "avatarUri": "ipfs://QmdRGTD7rW2MsAk8JKJr9y9u9uJVv3ZcgVkqyCGQj5xwa5",
-              "flag": "VERIFIED",
-              "collaborators": null,
-              "__typename": "User"
-            },
-            "__typename": "GenerativeToken"
-          },
-          "__typename": "Objkt"
-        },
-        "__typename": "Listing"
-      },
-      {
-        "id": 1005796,
-        "version": 1,
-        "price": 6000000,
-        "objkt": {
-          "id": "FX1-90994",
-          "version": 2,
-          "name": "Grid in the window #78",
-          "slug": "grid-in-the-window-78",
-          "metadata": {
-            "name": "Grid in the window #78",
-            "iterationHash": "onnz4EESr2iySbCAfVxLP58enX5bSpUagTwfBzhFazVPWtuRJoo",
-            "description": "\"Grid in the window\" distills the essence of grids within windows to its simplest form. This collection focuses on clean lines and muted colors, inviting viewers to appreciate the beauty in simplicity. By paring down the visual elements, the artworks encourage contemplation on the role of structure in shaping our perception.\n\nMade with p5js by Schiftcopy 2023\n\nIn live mode click \"s\" to save 3150 X 4464 .png canvas",
+            "name": "Just, Steven! #261",
+            "iterationHash": "ooQQ5uvZhyJynZRPPGfVEcr2GfA9Df17ydPqHxVX3gqSGBgmbEV",
+            "description": "Just,Steven - is a shell that has always followed me, or has been a part of me, I never fully understood. This is a character who ironically, because of the many social culture shifts in his life, began to resort to the way of putting other people's faces and stories on himself. At first it was necessary to adapt in a certain circle of society so as not to be a black sheep, after a few years he stopped noticing how the consciousness itself uses the stories or phrases he has already heard from absolutely different people received during a conversation, news or other, another of the features is the numerous personalities of Steven.\n\nI am creating this project because I have long wanted to try to tell people that being yourself is the most difficult and wonderful feeling. My goal is to get an animated movie adaptation on Netflix, the script will be written by anyone who wants to participate in the community. \n\nPeace be with you all!",
             "tags": [
-              "grid",
-              "window",
-              "minimal.lines",
-              "colors",
-              "p5js",
-              "generative",
-              "schiftcopy",
-              "simplicity"
-            ],
-            "generatorUri": "ipfs://QmQPhgebCTYWjPqAr9jbEN1cGqG8XRfVJPuqiv19mJT6Fd",
-            "artifactUri": "ipfs://QmQPhgebCTYWjPqAr9jbEN1cGqG8XRfVJPuqiv19mJT6Fd/?fxhash=onnz4EESr2iySbCAfVxLP58enX5bSpUagTwfBzhFazVPWtuRJoo&fxiteration=78&fxminter=tz1MQ3nQaE3rTvvnjkjbCN2UdtDZrJi28uwk",
-            "displayUri": "ipfs://QmeKa8MtPGHxwjeMsLvbjhLCxa5j8nPaBFBnWUbXzFNAju",
-            "thumbnailUri": "ipfs://QmTmHWha5a1dURrpqx9QTZbMjDRARKYLkbHksTzyrYGm6B",
-            "authenticityHash": "ed56452b48395ca40e45d06b3cb83a995a481ab49a4376b772bbfafe64046874",
-            "attributes": true,
-            "decimals": 0,
-            "symbol": "GENTK",
-            "version": "0.2",
-            "snippetVersion": "3.3.0"
-          },
-          "duplicate": false,
-          "activeListing": {
-            "id": 1005796,
-            "version": 1,
-            "price": 6000000,
-            "__typename": "Listing"
-          },
-          "owner": {
-            "id": "tz1MQ3nQaE3rTvvnjkjbCN2UdtDZrJi28uwk",
-            "name": null,
-            "flag": "NONE",
-            "avatarUri": null,
-            "__typename": "User"
-          },
-          "issuer": {
-            "flag": "NONE",
-            "name": "Grid in the window",
-            "author": {
-              "id": "tz1NHSpX7BRHPQBJ7hERyWt9dV7HDALJTCXD",
-              "name": "Schiftcopy",
-              "type": "REGULAR",
-              "avatarUri": "ipfs://QmdAuguNBSbugTRRQMmN8Xs1B5MM6ZdnKV7mKVJVd7ZqAT",
-              "flag": "NONE",
-              "collaborators": null,
-              "__typename": "User"
-            },
-            "__typename": "GenerativeToken"
-          },
-          "__typename": "Objkt"
-        },
-        "__typename": "Listing"
-      },
-      {
-        "id": 1005795,
-        "version": 1,
-        "price": 2700000,
-        "objkt": {
-          "id": "FX1-90990",
-          "version": 2,
-          "name": "Land of the Sun Day #30",
-          "slug": "land-of-the-sun-day-30",
-          "metadata": {
-            "name": "Land of the Sun Day #30",
-            "iterationHash": "ooWwgJHkWZ7HPtwtZ82xJ7zo3PJkLDaZXLAmfRZ2BfapsjU5uas",
-            "description": "In this predominantly abstract composition, I open a world of vibrant colors and intricate details. At the center of the canvas, a fractal tree (farn) rises like a monument to the complexity of nature. Its branches extend in all directions, thin as silk threads yet intricate with fascinating mathematical geometry.\n\nParticles float in the air around the fractal tree, creating an ethereal atmosphere. Small particles of light reflect upon them, creating games of color and light that change with every viewing angle. These particles seem to dance in space, like sparkling stars in a distant galaxy.\n\nThe intricate details of the fractals capture the observer's attention, inviting them to immerse in an infinite journey through geometric shapes that repeat endlessly. Elegant curves, spirals, and complex geometric figures develop both on the branches of the tree and in the background, creating a sense of depth and mystery.\n\nOverall, I believe it's a challenge to perception and imagination, taking the observer into an abstract and stimulating world.\n\nTo change the density from 1 to 8 (incorrect results set to 1), double-click the left mouse button.\n\nI used p5.min.js \nthe tree is based on the \"Farn\" fractals (also known as Barnsley fractals)",
-            "tags": [
-              "abstract",
-              "field",
-              "recursive",
-              "sun",
-              "landscape"
-            ],
-            "generatorUri": "ipfs://QmQ9R7dLSdYAjJWdYEeMYteQJRwhP66hkkteYVzGgTVTyZ",
-            "artifactUri": "ipfs://QmQ9R7dLSdYAjJWdYEeMYteQJRwhP66hkkteYVzGgTVTyZ/?fxhash=ooWwgJHkWZ7HPtwtZ82xJ7zo3PJkLDaZXLAmfRZ2BfapsjU5uas&fxiteration=30&fxminter=tz1LJchBBMZNAjhJq5qGHNEyzPceRtFuHAqy",
-            "displayUri": "ipfs://QmNxN89269EC3fedKTbQy6jnur99Wc12hyuDKYcQmZDFZc",
-            "thumbnailUri": "ipfs://QmdCC9RWb8pgJptd99qSu766VqUzvyq6dEv94S2sqAwRJq",
-            "authenticityHash": "69d85a67cb440cba0f006a232a1f5a9c8361d1c85ae79a940dfdf544deea0780",
-            "attributes": [
-              {
-                "name": "ppa1",
-                "value": 229
-              },
-              {
-                "name": "ppa2",
-                "value": 195
-              },
-              {
-                "name": "ppa3",
-                "value": 132
-              }
-            ],
-            "decimals": 0,
-            "symbol": "GENTK",
-            "version": "0.2",
-            "snippetVersion": "3.3.0"
-          },
-          "duplicate": false,
-          "activeListing": {
-            "id": 1005795,
-            "version": 1,
-            "price": 2700000,
-            "__typename": "Listing"
-          },
-          "owner": {
-            "id": "tz1LJchBBMZNAjhJq5qGHNEyzPceRtFuHAqy",
-            "name": null,
-            "flag": "NONE",
-            "avatarUri": null,
-            "__typename": "User"
-          },
-          "issuer": {
-            "flag": "NONE",
-            "name": "Land of the Sun Day",
-            "author": {
-              "id": "tz2T7EWNFRF7idMNY7Ej5MhYkupEN4D6CXUQ",
-              "name": "Kenzo da barra",
-              "type": "REGULAR",
-              "avatarUri": "ipfs://QmcqfmpFQYim6NPL63m5xbuwiwSkHLimbUSuB3HD2rrWCk",
-              "flag": "VERIFIED",
-              "collaborators": null,
-              "__typename": "User"
-            },
-            "__typename": "GenerativeToken"
-          },
-          "__typename": "Objkt"
-        },
-        "__typename": "Listing"
-      },
-      {
-        "id": 1005794,
-        "version": 1,
-        "price": 333000000,
-        "objkt": {
-          "id": "FX0-1076866",
-          "version": 1,
-          "name": "ASSEMBLING MACHINE #214",
-          "slug": "assembling-machine-214",
-          "metadata": {
-            "name": "ASSEMBLING MACHINE #214",
-            "iterationHash": "oomLYQboZVs9JkXYydBcLnTqFrL6PNawa2dBk8BWZVhDZNrKhoU",
-            "description": "The machine never sleeps.\nBuild. Construct. Develop. Create. Form. Produce. Generate. Repeat.\n---------------\nCollectors at the highest tier (125 tez) may claim a signed 8”x10” print of their mint. Please look for details about prints on Twitter (@teaboswell), or contact me directly\n---------------\nCONTROLS:\nA - Toggle loading animation (off by default to improve performance)\nS - Download image\nDouble tap (mobile) - Download image\n1-6 - Modify scale (1 = default, 2048 x 2730px, 6 = maximum, 12288 x 16380px (very performance intensive, will take a long time to render))\nF - Fit to current screen size\nG - Toggle grain overlay\nL - Toggle background grid lines\nB - Cycle border sizes (0 -> 100 -> 200 -> 300px)\n\nYou can modify the x and y url parameters to set a custom size. Note that the image will change to fit the new size, but overall drawing style, colors, etc. will remain the same.\n(For example, for a 1000x2000 image, add &x=1000&y=2000)\n---------------\nteaboswell 2022\nCC BY-NC-ND 4.0, See bundle.js.LICENSE.txt for third party license information\n",
-            "tags": [
-              "geometric",
-              "abstract",
-              "p5",
-              "colorful"
-            ],
-            "generatorUri": "ipfs://QmYKuXYG5tG7sLnpw5mqGsLLYeWyyvEwTP3nTqP4xCMzAA",
-            "artifactUri": "ipfs://QmYKuXYG5tG7sLnpw5mqGsLLYeWyyvEwTP3nTqP4xCMzAA?fxhash=oomLYQboZVs9JkXYydBcLnTqFrL6PNawa2dBk8BWZVhDZNrKhoU",
-            "displayUri": "ipfs://QmZkvDQFDvDq7V9wnYuLxLN1L3E3BJvRYtUfrqmd32Zmk5",
-            "thumbnailUri": "ipfs://QmfVBo6BMSe2CnUN5i51t5aEnmXwitoa5BsYK2kfUJm48y",
-            "authenticityHash": "2236ffd05fb2c329eda36981f708d6fb0fd6cf64194b939a0364eea8c03567cc",
-            "attributes": [
-              {
-                "name": "TYPE",
-                "value": "FLOW"
-              },
-              {
-                "name": "SERIES",
-                "value": "FACTORY"
-              },
-              {
-                "name": "SERIAL NO.",
-                "value": "oomLYQboZVs9JkXYydBcLnTqFrL6PNawa2dBk8BWZVhDZNrKhoU"
-              },
-              {
-                "name": "DISTORTION",
-                "value": "HEAVY"
-              },
-              {
-                "name": "POWER LEVEL",
-                "value": "20 GIGAWATTS"
-              },
-              {
-                "name": "PRISMATIC VARIANCE",
-                "value": "1000 CHROMAS"
-              },
-              {
-                "name": "SORTING ALGORITHM",
-                "value": "RANDOM"
-              },
-              {
-                "name": "DENSITY VARIANCE",
-                "value": "43%"
-              },
-              {
-                "name": "AGE",
-                "value": "357.934 YEAR(S)"
-              },
-              {
-                "name": "NEUTRAL PROBABILITY",
-                "value": "20%"
-              },
-              {
-                "name": "INSTALLED CONTAINMENT LEVEL",
-                "value": "NONE"
-              },
-              {
-                "name": "UNIFORMITY",
-                "value": "0%"
-              },
-              {
-                "name": "AVERAGE FRAGMENT SCALE",
-                "value": "60 METERS"
-              },
-              {
-                "name": "CODENAME",
-                "value": "BIG FOOT"
-              },
-              {
-                "name": "EFFICIENCY",
-                "value": "100%"
-              },
-              {
-                "name": "ALIGNMENT",
-                "value": "NORMAL"
-              },
-              {
-                "name": "STATUS",
-                "value": "OPERATIONAL"
-              }
-            ],
-            "decimals": 0,
-            "symbol": "GENTK",
-            "version": "0.2"
-          },
-          "duplicate": false,
-          "activeListing": {
-            "id": 1005794,
-            "version": 1,
-            "price": 333000000,
-            "__typename": "Listing"
-          },
-          "owner": {
-            "id": "tz1Zw67QCG24xWm2VsiJjKEN69K2Zjy74Jve",
-            "name": "Lil Saturn",
-            "flag": "NONE",
-            "avatarUri": "ipfs://QmRDRqLtZ7aTLbqZSvayXjAxBeTmx6rd5ARLtqcE3gu7jh",
-            "__typename": "User"
-          },
-          "issuer": {
-            "flag": "NONE",
-            "name": "ASSEMBLING MACHINE",
-            "author": {
-              "id": "tz2GHSM8dGsMCTUCoiY5wSN55nXXtPZWZtZf",
-              "name": "teaboswell",
-              "type": "REGULAR",
-              "avatarUri": "ipfs://QmdmGJZtPmbXxUDLscKNf1qheqKGSUk7HxzfMgE2PJU2QP",
-              "flag": "VERIFIED",
-              "collaborators": null,
-              "__typename": "User"
-            },
-            "__typename": "GenerativeToken"
-          },
-          "__typename": "Objkt"
-        },
-        "__typename": "Listing"
-      },
-      {
-        "id": 1005793,
-        "version": 1,
-        "price": 5000000,
-        "objkt": {
-          "id": "FX1-90995",
-          "version": 2,
-          "name": "Grid in the window #79",
-          "slug": "grid-in-the-window-79",
-          "metadata": {
-            "name": "Grid in the window #79",
-            "iterationHash": "oooJ7VGDnieDWDQDMEWt6b1xjnndCdtLyxcwrfCPJN3PxZy9J7e",
-            "description": "\"Grid in the window\" distills the essence of grids within windows to its simplest form. This collection focuses on clean lines and muted colors, inviting viewers to appreciate the beauty in simplicity. By paring down the visual elements, the artworks encourage contemplation on the role of structure in shaping our perception.\n\nMade with p5js by Schiftcopy 2023\n\nIn live mode click \"s\" to save 3150 X 4464 .png canvas",
-            "tags": [
-              "grid",
-              "window",
-              "minimal.lines",
-              "colors",
-              "p5js",
-              "generative",
-              "schiftcopy",
-              "simplicity"
-            ],
-            "generatorUri": "ipfs://QmQPhgebCTYWjPqAr9jbEN1cGqG8XRfVJPuqiv19mJT6Fd",
-            "artifactUri": "ipfs://QmQPhgebCTYWjPqAr9jbEN1cGqG8XRfVJPuqiv19mJT6Fd/?fxhash=oooJ7VGDnieDWDQDMEWt6b1xjnndCdtLyxcwrfCPJN3PxZy9J7e&fxiteration=79&fxminter=tz1MQ3nQaE3rTvvnjkjbCN2UdtDZrJi28uwk",
-            "displayUri": "ipfs://Qmcpn5z1SgBSdvRcxR33qvmRkfdWniUVbPucakmHE6Pufc",
-            "thumbnailUri": "ipfs://QmVW3suS2UUf3BHcuh7FKE4QaAg82nhVg6YVTJgBXCvQcB",
-            "authenticityHash": "39618d4f993a69c8a232cd6f3b6eaa73056fa7a018acd510572a3f912ee2fe47",
-            "attributes": true,
-            "decimals": 0,
-            "symbol": "GENTK",
-            "version": "0.2",
-            "snippetVersion": "3.3.0"
-          },
-          "duplicate": false,
-          "activeListing": {
-            "id": 1005793,
-            "version": 1,
-            "price": 5000000,
-            "__typename": "Listing"
-          },
-          "owner": {
-            "id": "tz1MQ3nQaE3rTvvnjkjbCN2UdtDZrJi28uwk",
-            "name": null,
-            "flag": "NONE",
-            "avatarUri": null,
-            "__typename": "User"
-          },
-          "issuer": {
-            "flag": "NONE",
-            "name": "Grid in the window",
-            "author": {
-              "id": "tz1NHSpX7BRHPQBJ7hERyWt9dV7HDALJTCXD",
-              "name": "Schiftcopy",
-              "type": "REGULAR",
-              "avatarUri": "ipfs://QmdAuguNBSbugTRRQMmN8Xs1B5MM6ZdnKV7mKVJVd7ZqAT",
-              "flag": "NONE",
-              "collaborators": null,
-              "__typename": "User"
-            },
-            "__typename": "GenerativeToken"
-          },
-          "__typename": "Objkt"
-        },
-        "__typename": "Listing"
-      },
-      {
-        "id": 1005792,
-        "version": 1,
-        "price": 4000000,
-        "objkt": {
-          "id": "FX0-1479314",
-          "version": 1,
-          "name": "bloke #112",
-          "slug": "bloke-112",
-          "metadata": {
-            "name": "bloke #112",
-            "iterationHash": "ooGwm65E7PiVvag3ztmNK9A1eWj9AnWRNEw2TQdwPqppmHb4ebj",
-            "description": "Bloke 2022  \n* white background version\n\nbased on a java-applet I wrote, and called 'bloke' back in 2001\n---------------------------------------------------------------- \nMouse-click switches between:\n- screen scaled image\n- The large image (for printing ea.)\n\nRight-click: Save/Copy the image\n\nWritten in JavaScript, some more info in the source-code\n- The work will refresh and restart after some time\n---------------------------------------------------------------- \n\nWe all make, and learn from mistakes gladly. ^__^ \n\n\nxxx amsterdam chillout ^__^\n\nSeptember 22, 2022",
-            "tags": [
-              "fxhash",
-              "bloke",
-              "elout",
-              "@elout01",
-              "generativeart",
-              "javascript",
-              "xxx",
-              "amsterdam",
-              "chillout"
-            ],
-            "generatorUri": "ipfs://Qmf9ewHVjfPcYr33SZhav3fojbGEaZEh7FQgyJ32HrNs1L",
-            "artifactUri": "ipfs://Qmf9ewHVjfPcYr33SZhav3fojbGEaZEh7FQgyJ32HrNs1L?fxhash=ooGwm65E7PiVvag3ztmNK9A1eWj9AnWRNEw2TQdwPqppmHb4ebj",
-            "displayUri": "ipfs://QmaWYiyRgsPWTe2YobBWxyzqXoUtBs6jbPKC3eNwo14itc",
-            "thumbnailUri": "ipfs://QmTsA3xpeFEsSpPiVAgeAJcTkkKZZvQw14bH57J3d2Mez1",
-            "authenticityHash": "3265c8feca8b4746c40e9311c1faf581eac11c93dc2eb2c6b296158845c65d1e",
-            "attributes": true,
-            "decimals": 0,
-            "symbol": "GENTK",
-            "version": "0.2"
-          },
-          "duplicate": false,
-          "activeListing": {
-            "id": 1005792,
-            "version": 1,
-            "price": 4000000,
-            "__typename": "Listing"
-          },
-          "owner": {
-            "id": "tz1LJchBBMZNAjhJq5qGHNEyzPceRtFuHAqy",
-            "name": null,
-            "flag": "NONE",
-            "avatarUri": null,
-            "__typename": "User"
-          },
-          "issuer": {
-            "flag": "NONE",
-            "name": "bloke",
-            "author": {
-              "id": "tz1gmu6JWBtVempivULkthcWT3hgXjtHz2xT",
-              "name": "Elout de Kok",
-              "type": "REGULAR",
-              "avatarUri": "ipfs://QmU1dCdAFpEzz5Gj3tzerapQqPbmu3hQm7bbB2i1BMu3Yc",
-              "flag": "VERIFIED",
-              "collaborators": null,
-              "__typename": "User"
-            },
-            "__typename": "GenerativeToken"
-          },
-          "__typename": "Objkt"
-        },
-        "__typename": "Listing"
-      },
-      {
-        "id": 1005791,
-        "version": 1,
-        "price": 6000000,
-        "objkt": {
-          "id": "FX0-1060513",
-          "version": 1,
-          "name": "Redo #57",
-          "slug": "redo-57",
-          "metadata": {
-            "name": "Redo #57",
-            "iterationHash": "ooYJSDFtaFGLf97p1NRv34RDokTXK6xJNJY74ZZ4MVsvtyumpvm",
-            "description": "Redo\" is abstract art made with 100% p5.js code and mathematics in the form of a Triptych.\nUsing a flow filed with always the same noise seed, the form is presented in three time periods through three shapes.\n\n\nCreated with 100% p5.js code and math.\n\nHi-res. options:\n\n- press 'i' to save .png with resolution = 1000px x 1000px\n- press 't' to save .png with resolution = 2000px x 2000px\n- press 's' to save .png with resolution = 6000px x 6000px\n\nCreated using p5js.\n\n@Mutart, August, 2022.",
-            "tags": [
-              "Generative",
-              "Art",
-              "100%code",
-              "p5.js",
-              "Abstract",
-              "Triptych"
-            ],
-            "generatorUri": "ipfs://QmT4vkGVQbH3ompp4Fi26UJ6oXNpt8vvTNxer9iJRt6AU9",
-            "artifactUri": "ipfs://QmT4vkGVQbH3ompp4Fi26UJ6oXNpt8vvTNxer9iJRt6AU9?fxhash=ooYJSDFtaFGLf97p1NRv34RDokTXK6xJNJY74ZZ4MVsvtyumpvm",
-            "displayUri": "ipfs://QmVqBnUZcStimxMYYH4JPd31L4tyGuq82vjeyditjj3xdQ",
-            "thumbnailUri": "ipfs://QmXTyPebdNtbdgKKW4S8zUebJThMFQBDjnbU4ZqQsgkmAA",
-            "authenticityHash": "350122f904b0ac4ca3bc49ba4832f643470904c8cd23f45aeb2a45e3a95054de",
-            "attributes": true,
-            "decimals": 0,
-            "symbol": "GENTK",
-            "version": "0.2"
-          },
-          "duplicate": false,
-          "activeListing": {
-            "id": 1005791,
-            "version": 1,
-            "price": 6000000,
-            "__typename": "Listing"
-          },
-          "owner": {
-            "id": "tz1LJchBBMZNAjhJq5qGHNEyzPceRtFuHAqy",
-            "name": null,
-            "flag": "NONE",
-            "avatarUri": null,
-            "__typename": "User"
-          },
-          "issuer": {
-            "flag": "NONE",
-            "name": "Redo",
-            "author": {
-              "id": "tz1fNBMXWfwwLzj3T2MGPeVscEC9294Gnnfa",
-              "name": "Mutart",
-              "type": "REGULAR",
-              "avatarUri": "ipfs://QmcpddBpQFw6zsaih4D21oyL6iLLyXA3bqBnk7qSpVcN8V",
-              "flag": "VERIFIED",
-              "collaborators": null,
-              "__typename": "User"
-            },
-            "__typename": "GenerativeToken"
-          },
-          "__typename": "Objkt"
-        },
-        "__typename": "Listing"
-      },
-      {
-        "id": 1005790,
-        "version": 1,
-        "price": 9990000,
-        "objkt": {
-          "id": "FX0-1395955",
-          "version": 1,
-          "name": "3ASF #65",
-          "slug": "3asf-65",
-          "metadata": {
-            "name": "3ASF #65",
-            "iterationHash": "ooP7jEDv9RhiZhCPzD1J7HcfjiPA6qHyp1Ez5cE6QfEczzkrthu",
-            "description": "3 Armonografos Sobre Figuras / 3 Harmonographs on Shapes\n\n\"If I had to choose, the harmonograph is my preferred mechanism for making gen art\"\n\nThe composition works with three harmonographs vertically distributed with 2 pendulums each that draw on black and white shapes. It is a game between the positive and the negative.\n\nSteps-Layers:\n\n1 - White or black background\n2 - Draw shape 1 (triangle or Circle or Rectangle) with the opposite tone to the background.\n3 - Draw shape 2 (triangle or Circle or Rectangle) same tone as the background.\n4 - Draw the 3 Harmonographs. The (inverted) tones depend on the tones of the shapes and background.\n5 - Cutting / glitch effect. Vertical and horizontal.\n6 - Symmetries X or Y or XY or none are applied.\n7 - Rectangles are cut again (yes/no)\n\n// ---\n\n\"Si tuviese que elegir, el armonografo es mi mecanismo preferido para hacer arte generativo\"\n\nLa composición trabaja con tres armónografos de 2 péndulos distribuídos verticalmente que dibujan sobre figuras en blanco y negro. Es un juego entre positivos y negativos.\n\nPasos-Capas: \n\n1 - Fondo blanco o negro\n2 - Dibuja figura 1 (triangulo o Circulo o Rectangulo) con tono opuesto al fondo.\n3 - Dibuja figura 2 (triangulo o Circulo o Rectangulo) mismo tono que el fondo.\n4 - Dibuja los 3 Armonógrafos. Los tonos (invertidos) dependen de los tonos de la figura y el fondo.\n5 - Se corta / efecto glitch. Vertical y horizontal.\n6 - Se aplican simetrias X o Y o XY o ninguna.\n7 - Se cortan nuevamente rectángulos (si/no)\n\n// ---\nKeys:\n\n[1,2,3] -> change pixel density. Or can be passed via url ?pd=5 6000x9000pix. Be aware for the file size in render. \n[s] -> download canvas capture. Different pixel density, different sizes.\n[double tap] -> download canvas capture on mobile",
-            "tags": [
-              "blackandwhite",
-              "noise",
-              "glitch",
-              "p5js",
-              "abstract"
-            ],
-            "generatorUri": "ipfs://QmfNWSd6hUqmxxmk7BSy7Z8mtTYSv64gP93BEgkPQtRyer",
-            "artifactUri": "ipfs://QmfNWSd6hUqmxxmk7BSy7Z8mtTYSv64gP93BEgkPQtRyer?fxhash=ooP7jEDv9RhiZhCPzD1J7HcfjiPA6qHyp1Ez5cE6QfEczzkrthu",
-            "displayUri": "ipfs://QmX7Qs58VLRjtSkNF2DxzjHMPu7ZahfkkVSjRzAvJfmS83",
-            "thumbnailUri": "ipfs://QmfKAEp3B4Pft6EtKaYFgVe9yaLQdoCxjXtzdtP9AGrCJM",
-            "authenticityHash": "5e6baf5542a0aeefe5a13ef4f8b4b965be0165865ce0954ab4be1de39aaf61f8",
-            "attributes": [
-              {
-                "name": "Shape 1",
-                "value": "Circle"
-              },
-              {
-                "name": "Shape 2",
-                "value": "Rectangle"
-              },
-              {
-                "name": "Symmetry",
-                "value": "Y"
-              },
-              {
-                "name": "Upside Down",
-                "value": "No"
-              },
-              {
-                "name": "Displacement",
-                "value": "Yes"
-              },
-              {
-                "name": "Dislocation",
-                "value": "extra"
-              }
-            ],
-            "decimals": 0,
-            "symbol": "GENTK",
-            "version": "0.2"
-          },
-          "duplicate": false,
-          "activeListing": {
-            "id": 1005790,
-            "version": 1,
-            "price": 9990000,
-            "__typename": "Listing"
-          },
-          "owner": {
-            "id": "tz1LJchBBMZNAjhJq5qGHNEyzPceRtFuHAqy",
-            "name": null,
-            "flag": "NONE",
-            "avatarUri": null,
-            "__typename": "User"
-          },
-          "issuer": {
-            "flag": "NONE",
-            "name": "3ASF",
-            "author": {
-              "id": "tz1Y8KJtAjZPCpFEPEd9kEK9K1yRKp2TZLev",
-              "name": "andrusenn",
-              "type": "REGULAR",
-              "avatarUri": "ipfs://QmeuJ8heAWb6B1A4N4xGB2xYqNA6cbkzryMCFtum5MYoi4",
-              "flag": "VERIFIED",
-              "collaborators": null,
-              "__typename": "User"
-            },
-            "__typename": "GenerativeToken"
-          },
-          "__typename": "Objkt"
-        },
-        "__typename": "Listing"
-      },
-      {
-        "id": 1005789,
-        "version": 1,
-        "price": 2000000,
-        "objkt": {
-          "id": "FX1-63546",
-          "version": 2,
-          "name": "Mini stamp of disillusion #123",
-          "slug": "mini-stamp-of-disillusion-123",
-          "metadata": {
-            "name": "Mini stamp of disillusion #123",
-            "iterationHash": "oogYgquf2doj6oSKPNCzF8VN9XppmiGSXsoBixCgAzzohHLiJuH",
-            "description": "100% code - p5.js\n\nPress left mouse button to choose density from 2 to 8 (wrong results set to 2)\n\nGreetings\nKenzo",
-            "tags": [
-              "abstract",
-              "landscape"
-            ],
-            "generatorUri": "ipfs://QmW8Thio6YVSLw9onHMs5SNdg1Y4R2M9FQHcrf8UDsEaYE",
-            "artifactUri": "ipfs://QmW8Thio6YVSLw9onHMs5SNdg1Y4R2M9FQHcrf8UDsEaYE/?fxhash=oogYgquf2doj6oSKPNCzF8VN9XppmiGSXsoBixCgAzzohHLiJuH&fxiteration=123&fxminter=tz1LJchBBMZNAjhJq5qGHNEyzPceRtFuHAqy",
-            "displayUri": "ipfs://Qma3wn8rPy3KFS1pR6jM915MWxG1w21ZpsBDMDc2cxmeWM",
-            "thumbnailUri": "ipfs://QmaPUMAg8VGHVvNuNXj3f8MeroZxsQ89MgonDpRS6M2p3K",
-            "authenticityHash": "221b6bf23f79e6fe73083e36d288b4a0288bd40d03c500cfa3129c4adb6c1e8a",
-            "attributes": [
-              {
-                "name": "setpalette",
-                "value": 1
-              },
-              {
-                "name": "setpaletteBG",
-                "value": 3
-              }
-            ],
-            "decimals": 0,
-            "symbol": "GENTK",
-            "version": "0.2"
-          },
-          "duplicate": false,
-          "activeListing": {
-            "id": 1005789,
-            "version": 1,
-            "price": 2000000,
-            "__typename": "Listing"
-          },
-          "owner": {
-            "id": "tz1LJchBBMZNAjhJq5qGHNEyzPceRtFuHAqy",
-            "name": null,
-            "flag": "NONE",
-            "avatarUri": null,
-            "__typename": "User"
-          },
-          "issuer": {
-            "flag": "NONE",
-            "name": "Mini stamp of disillusion",
-            "author": {
-              "id": "tz2T7EWNFRF7idMNY7Ej5MhYkupEN4D6CXUQ",
-              "name": "Kenzo da barra",
-              "type": "REGULAR",
-              "avatarUri": "ipfs://QmcqfmpFQYim6NPL63m5xbuwiwSkHLimbUSuB3HD2rrWCk",
-              "flag": "VERIFIED",
-              "collaborators": null,
-              "__typename": "User"
-            },
-            "__typename": "GenerativeToken"
-          },
-          "__typename": "Objkt"
-        },
-        "__typename": "Listing"
-      },
-      {
-        "id": 1005788,
-        "version": 1,
-        "price": 14000000,
-        "objkt": {
-          "id": "FX1-57283",
-          "version": 2,
-          "name": "dal segno  #109",
-          "slug": "dal-segno-109",
-          "metadata": {
-            "name": "dal segno  #109",
-            "iterationHash": "oneFT8snisKBwWL4Qa7WAeVJjvALmtkKdfVt9vRNmgTAqKe7rb8",
-            "description": "dal segno by pixelwank\n\n\"return to the sign that marks the beginning of a repeat\" \n\nwhen artwork has finished rendering click the image or press s to save.\n(there is a slight texture which animates for a few seconds once the image appears) \n\n8 reserves, 1 for artist proof and 7 will be gifted to random pixelwank collectors.\nthanks for collecting <3 \nmade with p5js, 2023. ",
-            "tags": [
-              "pixelwank",
-              "2023",
-              "dal",
-              "segno",
-              "australia"
-            ],
-            "generatorUri": "ipfs://QmU556Z2CeXK7hX184ZZupb1MiyL5CMwDZZJLuBLSYLKou",
-            "artifactUri": "ipfs://QmU556Z2CeXK7hX184ZZupb1MiyL5CMwDZZJLuBLSYLKou/?fxhash=oneFT8snisKBwWL4Qa7WAeVJjvALmtkKdfVt9vRNmgTAqKe7rb8&fxminter=tz1LJchBBMZNAjhJq5qGHNEyzPceRtFuHAqy",
-            "displayUri": "ipfs://QmXKRo1L2p2Gpdx17qYaRwFsEAWUr9iutpDY1LW9vWVLMK",
-            "thumbnailUri": "ipfs://Qmempf8FBeywxaPGwa3ZzXJh1b8bJk8dpejbRXMoEM9gQa",
-            "authenticityHash": "dae1312763e9ed722b51b468384d331bd0cd1c0e22a739b804de76d4152df026",
-            "attributes": true,
-            "decimals": 0,
-            "symbol": "GENTK",
-            "version": "0.2"
-          },
-          "duplicate": false,
-          "activeListing": {
-            "id": 1005788,
-            "version": 1,
-            "price": 14000000,
-            "__typename": "Listing"
-          },
-          "owner": {
-            "id": "tz1LJchBBMZNAjhJq5qGHNEyzPceRtFuHAqy",
-            "name": null,
-            "flag": "NONE",
-            "avatarUri": null,
-            "__typename": "User"
-          },
-          "issuer": {
-            "flag": "NONE",
-            "name": "dal segno ",
-            "author": {
-              "id": "tz1fPR5U9vvCJMjfB5gFjgAGB2eD76arskGG",
-              "name": "pixelwank",
-              "type": "REGULAR",
-              "avatarUri": "ipfs://QmPbYjddc1KKboC52nwix4tKa3dWHYeLA26ogZQhoEqyKK",
-              "flag": "VERIFIED",
-              "collaborators": null,
-              "__typename": "User"
-            },
-            "__typename": "GenerativeToken"
-          },
-          "__typename": "Objkt"
-        },
-        "__typename": "Listing"
-      },
-      {
-        "id": 1005787,
-        "version": 1,
-        "price": 5000000,
-        "objkt": {
-          "id": "FX0-1243187",
-          "version": 1,
-          "name": "alphabet_city e02 #33",
-          "slug": "alphabet_city-e02-33",
-          "metadata": {
-            "name": "alphabet_city e02 #33",
-            "iterationHash": "oo9pop1Z3bAo83y2REKoSxT7pFAS5n7iSJUdJdLCSLCiV37hKG5",
-            "description": "based on a pixelfont of mine (I compressed as 2 bit data), no .png used or hurt! Enjoy ^__^\n\n\n- sketch - check\n- Epileptic trigger - check; although flexing it\n- Image composition - check; used a pixelfont \n- Animated - check\n- Interactive - check\n- Profile Picture - check; if you count numbers, letters and symbols as well\n- Font generator - check\n\n\n'sometimes, you dont need to hide beauty'\n\n- Amsterdam vibe\nfind a save environment, and enjoy your time\n\nxxx  amsterdam  chillout\nsketch in time - part 3 - october 24, 2022 -",
-            "tags": [
-              "fxhash",
-              "template",
-              "vanillajavascript",
-              "vanilla",
-              "javascript",
-              "generativeart",
-              "genart",
-              "drawz",
-              "@elout01",
-              "elout",
-              "xxx",
-              "amsterdam",
-              "chillout"
-            ],
-            "generatorUri": "ipfs://QmWaKkQE6d1EkpbMoPa4B8NZj3JuVLSa9KXSgz4PYukVUN",
-            "artifactUri": "ipfs://QmWaKkQE6d1EkpbMoPa4B8NZj3JuVLSa9KXSgz4PYukVUN?fxhash=oo9pop1Z3bAo83y2REKoSxT7pFAS5n7iSJUdJdLCSLCiV37hKG5",
-            "displayUri": "ipfs://QmVBMCncfYX6zbUZiReozUPHm2FZdaULHhZMyVqFQ8hjiE",
-            "thumbnailUri": "ipfs://QmRRnMcZ3TUbmHxahjYf5Kv93bRxvoC3WhUxnYW4a9XBYX",
-            "authenticityHash": "c13f86dcb6245945203163092db81cca9df30b2297aaac2b164a7493fdc8a325",
-            "attributes": true,
-            "decimals": 0,
-            "symbol": "GENTK",
-            "version": "0.2"
-          },
-          "duplicate": false,
-          "activeListing": {
-            "id": 1005787,
-            "version": 1,
-            "price": 5000000,
-            "__typename": "Listing"
-          },
-          "owner": {
-            "id": "tz1LJchBBMZNAjhJq5qGHNEyzPceRtFuHAqy",
-            "name": null,
-            "flag": "NONE",
-            "avatarUri": null,
-            "__typename": "User"
-          },
-          "issuer": {
-            "flag": "NONE",
-            "name": "alphabet_city e02",
-            "author": {
-              "id": "tz1gmu6JWBtVempivULkthcWT3hgXjtHz2xT",
-              "name": "Elout de Kok",
-              "type": "REGULAR",
-              "avatarUri": "ipfs://QmU1dCdAFpEzz5Gj3tzerapQqPbmu3hQm7bbB2i1BMu3Yc",
-              "flag": "VERIFIED",
-              "collaborators": null,
-              "__typename": "User"
-            },
-            "__typename": "GenerativeToken"
-          },
-          "__typename": "Objkt"
-        },
-        "__typename": "Listing"
-      },
-      {
-        "id": 1005786,
-        "version": 1,
-        "price": 4000000,
-        "objkt": {
-          "id": "FX0-1384750",
-          "version": 1,
-          "name": "bit_sin #148",
-          "slug": "bit_sin-148",
-          "metadata": {
-            "name": "bit_sin #148",
-            "iterationHash": "onr2q5cqvEBu7k9Sbk8op6VS9o6u9RGUpd55KDAR8AyAoTBYhUn",
-            "description": "breaking a law\n\n---------------------------------------------------------------- \nMouse-click switches between:\n- screen scaled image\n- The large image (for printing)\n\nRight-click: Save/Copy the image\n\nA custom 'software based' pixel 2D/3D engine,\nwritten in vanilla JavaScript, some more info in the source-code\n- The work will refresh and restart after some time\n---------------------------------------------------------------- \n\nto the kings of the underground\n\nxxx amsterdam chillout ^__^\n\nSeptember 17 2022",
-            "tags": [
-              "fxhash",
-              "bit_sin",
-              "elout",
-              "@elout01",
-              "generativeart",
-              "javascript",
-              "xxx",
-              "amsterdam",
-              "chillout"
-            ],
-            "generatorUri": "ipfs://QmU4vqwnLmKziNJkaUUTt45FAoGpHBYY1DyGiY9dBjGFTj",
-            "artifactUri": "ipfs://QmU4vqwnLmKziNJkaUUTt45FAoGpHBYY1DyGiY9dBjGFTj?fxhash=onr2q5cqvEBu7k9Sbk8op6VS9o6u9RGUpd55KDAR8AyAoTBYhUn",
-            "displayUri": "ipfs://Qmc2Ci9KoGFPb8WpiT6ZZcqufKmXzCUAcrTW5eKVrQy8ek",
-            "thumbnailUri": "ipfs://QmWxjm4ezBt5FmikSFQAbtSNxU1tYwTaAfcnm8Yn5khMMC",
-            "authenticityHash": "590dd089886a6892a607a0ff838f15075a23340d5c4c42e7c81c91c2c3542a25",
-            "attributes": true,
-            "decimals": 0,
-            "symbol": "GENTK",
-            "version": "0.2"
-          },
-          "duplicate": false,
-          "activeListing": {
-            "id": 1005786,
-            "version": 1,
-            "price": 4000000,
-            "__typename": "Listing"
-          },
-          "owner": {
-            "id": "tz1LJchBBMZNAjhJq5qGHNEyzPceRtFuHAqy",
-            "name": null,
-            "flag": "NONE",
-            "avatarUri": null,
-            "__typename": "User"
-          },
-          "issuer": {
-            "flag": "NONE",
-            "name": "bit_sin",
-            "author": {
-              "id": "tz1gmu6JWBtVempivULkthcWT3hgXjtHz2xT",
-              "name": "Elout de Kok",
-              "type": "REGULAR",
-              "avatarUri": "ipfs://QmU1dCdAFpEzz5Gj3tzerapQqPbmu3hQm7bbB2i1BMu3Yc",
-              "flag": "VERIFIED",
-              "collaborators": null,
-              "__typename": "User"
-            },
-            "__typename": "GenerativeToken"
-          },
-          "__typename": "Objkt"
-        },
-        "__typename": "Listing"
-      },
-      {
-        "id": 1005785,
-        "version": 1,
-        "price": 7000000,
-        "objkt": {
-          "id": "FX1-72994",
-          "version": 2,
-          "name": "Cube on Cube #72",
-          "slug": "cube-on-cube-72",
-          "metadata": {
-            "name": "Cube on Cube #72",
-            "iterationHash": "opRNhYWxTfM8JUHPJkKe7YxWQtAJ2wyV3b8sHHrNKsX4MEdB9W9",
-            "description": "This token generates a plottable SVG file, a different arrangement of cubes.\nThe cubes are designed in 2D view, then placed next to each other or on top of each other in eight different directions. The goal is to challenge the audience's mind to discover the holes or protrusions produced by placing the cubes together.\nTo produce random parts made of cubes, those in the same direction are merged together, which is a turning point in this project.\nDo you need a different output from your piece?  Then use controllers!\n\nControllers \nG - Change light direction\nF - Add/remove frame\nL - Add/remove base lines\nD - Change base lines direction\nR - Reset to default settings\nP - Save as PNG\nS - Export high resolution SVG\n\nNote : When you have a piece with many shapes, controllers may run delayed. (Depending on your device).\n\nMade by p5.js",
-            "tags": [
-              "cube",
-              "svg",
-              "plottable",
-              "structure",
-              "architecture",
-              "cubic",
-              "geometric"
-            ],
-            "generatorUri": "ipfs://QmNkUrR8fC9M1Mkz36UhVuEwbUmmveY5KPCq3i3Pw5qgUs",
-            "artifactUri": "ipfs://QmNkUrR8fC9M1Mkz36UhVuEwbUmmveY5KPCq3i3Pw5qgUs/?fxhash=opRNhYWxTfM8JUHPJkKe7YxWQtAJ2wyV3b8sHHrNKsX4MEdB9W9&fxiteration=72&fxminter=tz1LJchBBMZNAjhJq5qGHNEyzPceRtFuHAqy",
-            "displayUri": "ipfs://QmS96ZyLinxQP6UXVrQezHDCQxn51ZmXrhtu1Y2MYMJvUy",
-            "thumbnailUri": "ipfs://QmfDB3EkeGmRwGheuUWyux3JbXRPXou984H8d7Gs4ywqCv",
-            "authenticityHash": "e0a428c944365f39746a669731a3d08d84503d38ba5b30db89f1c2259fd06bf4",
-            "attributes": [
-              {
-                "name": "Sketch Size",
-                "value": "3500x4500"
-              },
-              {
-                "name": "View",
-                "value": "Portrait"
-              },
-              {
-                "name": "Borders Thickness",
-                "value": "8%"
-              },
-              {
-                "name": "Number of Moves",
-                "value": "Medium"
-              },
-              {
-                "name": "Base Lines Direction",
-                "value": "Horizontal"
-              },
-              {
-                "name": "Cell Size",
-                "value": "Big"
-              },
-              {
-                "name": "Light Direction",
-                "value": "Left"
-              },
-              {
-                "name": "Background",
-                "value": "Light"
-              },
-              {
-                "name": "Main Color",
-                "value": "Milano Red"
-              }
-            ],
-            "decimals": 0,
-            "symbol": "GENTK",
-            "version": "0.2"
-          },
-          "duplicate": false,
-          "activeListing": {
-            "id": 1005785,
-            "version": 1,
-            "price": 7000000,
-            "__typename": "Listing"
-          },
-          "owner": {
-            "id": "tz1LJchBBMZNAjhJq5qGHNEyzPceRtFuHAqy",
-            "name": null,
-            "flag": "NONE",
-            "avatarUri": null,
-            "__typename": "User"
-          },
-          "issuer": {
-            "flag": "NONE",
-            "name": "Cube on Cube",
-            "author": {
-              "id": "tz1Lm3mUYeVx77NFm22pbky5YD9vto1ATtzt",
-              "name": "Uinges",
-              "type": "REGULAR",
-              "avatarUri": "ipfs://QmYKL89M5ok4RmhfXyvrK61xUBPfGdawo2FdKMwsj4Lq4j",
-              "flag": "VERIFIED",
-              "collaborators": null,
-              "__typename": "User"
-            },
-            "__typename": "GenerativeToken"
-          },
-          "__typename": "Objkt"
-        },
-        "__typename": "Listing"
-      },
-      {
-        "id": 1005784,
-        "version": 1,
-        "price": 4400000,
-        "objkt": {
-          "id": "FX1-88618",
-          "version": 2,
-          "name": "Skulix Punk #44",
-          "slug": "skulix-punk-44",
-          "metadata": {
-            "name": "Skulix Punk #44",
-            "iterationHash": "onz9aUQvaEd8G6ZgLXTWVCzehz2iUrYcrRVAoPdcz352nMZYvgD",
-            "description": "Skulix pixelart Punk face\n\nGenerative art.\n\npfp 833*833.☻♥",
-            "tags": [
-              "Skulix",
-              "Punk",
-              "fx hash",
               "pfp",
+              "avatar",
+              "animated",
+              "serial",
+              "2d",
+              "illustration",
+              "steven"
+            ],
+            "generatorUri": "ipfs://QmRB71uR4rV2Q54Kb6zqPbKFCsBuot17JefMhov1rZgs8Y",
+            "artifactUri": "ipfs://QmRB71uR4rV2Q54Kb6zqPbKFCsBuot17JefMhov1rZgs8Y/?fxhash=ooQQ5uvZhyJynZRPPGfVEcr2GfA9Df17ydPqHxVX3gqSGBgmbEV&fxiteration=261&fxminter=tz1MQ3nQaE3rTvvnjkjbCN2UdtDZrJi28uwk",
+            "displayUri": "ipfs://QmdB65UYFsUQN89Hf7jECbpA75fgLsqizTsF37cvom8gvy",
+            "thumbnailUri": "ipfs://QmTmAjzdHa9kB6kPDwyhkvhrnrr1AqGeBxPVrzE947CVNx",
+            "authenticityHash": "2f382d6c96bfdbd2b6efe3c2b96c78f8b3a000d940b52a2de913e9fccfd5c1e9",
+            "attributes": [
+              {
+                "name": "Background",
+                "value": "2"
+              },
+              {
+                "name": "Body",
+                "value": "40"
+              },
+              {
+                "name": "Head",
+                "value": "2"
+              },
+              {
+                "name": "Eyes",
+                "value": "7"
+              },
+              {
+                "name": "Helmet&Suit",
+                "value": "31"
+              },
+              {
+                "name": "Mouth",
+                "value": "9"
+              },
+              {
+                "name": "Nose",
+                "value": "3"
+              },
+              {
+                "name": "Border",
+                "value": "0"
+              }
+            ],
+            "decimals": 0,
+            "symbol": "GENTK",
+            "version": "0.2"
+          },
+          "duplicate": false,
+          "activeListing": {
+            "id": 1005812,
+            "version": 1,
+            "price": 3000000,
+            "__typename": "Listing"
+          },
+          "owner": {
+            "id": "tz1MQ3nQaE3rTvvnjkjbCN2UdtDZrJi28uwk",
+            "name": null,
+            "flag": "NONE",
+            "avatarUri": null,
+            "__typename": "User"
+          },
+          "issuer": {
+            "flag": "NONE",
+            "name": "Just, Steven!",
+            "author": {
+              "id": "tz1LBDkAUxwL9yuhnLKUHNTrkqggvQ5S1Mmg",
+              "name": "CMYK_MAN",
+              "type": "REGULAR",
+              "avatarUri": "ipfs://QmRE8Pc7CNmiRAdFDJRCe8j4kUxTvF7ME3FNcisHRbhve6",
+              "flag": "VERIFIED",
+              "collaborators": null,
+              "__typename": "User"
+            },
+            "__typename": "GenerativeToken"
+          },
+          "__typename": "Objkt"
+        },
+        "__typename": "Listing"
+      },
+      {
+        "id": 1005811,
+        "version": 1,
+        "price": 3000000,
+        "objkt": {
+          "id": "FX1-91170",
+          "version": 2,
+          "name": "Time Scale #32",
+          "slug": "time-scale-32",
+          "metadata": {
+            "name": "Time Scale #32",
+            "iterationHash": "onf2DJGHCCMkzeduR51Uj3KD285F8VthoZC5XNf1ydvWLuTsQHK",
+            "description": "Dear f_x_h_a_s_h\n\nSorry for the delay in replying. My apologies.\n\nI thought time was absolute.\nBut what is really absolute is the speed of light.\nWe are bound by time, but this is a collective illusion.\nIt is a convenient collective illusion.\nTime for images is frames.\nOur perception of time changes with the computation time for each frame.\nBut for Art, it is the same time.\nTime is relative.\n\nNow, is this reply belated?\nMay I withdraw my initial apology?\n\nuesən",
+            "tags": [
+              "p5js",
+              "generative",
+              "japan",
               "pixel"
             ],
-            "generatorUri": "ipfs://QmdzkGbsbkfyoY7kf4aUWj6mxPPbHW9CUBWj4u76MizX1j",
-            "artifactUri": "ipfs://QmdzkGbsbkfyoY7kf4aUWj6mxPPbHW9CUBWj4u76MizX1j/?fxhash=onz9aUQvaEd8G6ZgLXTWVCzehz2iUrYcrRVAoPdcz352nMZYvgD&fxiteration=44&fxminter=tz1LJchBBMZNAjhJq5qGHNEyzPceRtFuHAqy",
-            "displayUri": "ipfs://QmczrNp7fyLCsjJjNqbtwxfWcRL3UaMaFszv8rJhaLtgHz",
-            "thumbnailUri": "ipfs://QmPM1FjhaJdtPu4iUEVP3edSv4tusqSBMbafPCfUgjVcoF",
-            "authenticityHash": "73d061c5fd8bc0a120ddb678c582a846198b68c751de7d8c8776b6783b04c556",
-            "attributes": [
-              {
-                "name": "Background",
-                "value": "Background 1"
-              },
-              {
-                "name": "hole",
-                "value": "hole 1"
-              },
-              {
-                "name": "sea",
-                "value": "sea 3"
-              },
-              {
-                "name": "oxe",
-                "value": "xoa 5"
-              },
-              {
-                "name": "xxc",
-                "value": "xxc 3"
-              },
-              {
-                "name": "xox",
-                "value": "xox 4"
-              },
-              {
-                "name": "xco",
-                "value": "xco 2"
-              },
-              {
-                "name": "xvo",
-                "value": "xvo 4"
-              }
-            ],
+            "generatorUri": "ipfs://QmfT9aNw9J1PNBWXuWUDcPJZWfpwmyGWW3LRh336B8iTSU",
+            "artifactUri": "ipfs://QmfT9aNw9J1PNBWXuWUDcPJZWfpwmyGWW3LRh336B8iTSU/?fxhash=onf2DJGHCCMkzeduR51Uj3KD285F8VthoZC5XNf1ydvWLuTsQHK&fxiteration=32&fxminter=tz2VtWQNPH2TsDixaShXp5615sxDNZ4uB436",
+            "displayUri": "ipfs://QmZWbeKteT6fH1GU39oYkh56LF64Sz5cdRNXmRqcYpB6oY",
+            "thumbnailUri": "ipfs://QmVp1fS4YLEowTAzGGJbTfCHvo179YrzxWC5afdNmuwkPB",
+            "authenticityHash": "f0173901a7a3d4689743c3c57beefda22accc19aea1702a6f0eb66c8c03d39ba",
+            "attributes": true,
             "decimals": 0,
             "symbol": "GENTK",
-            "version": "0.2",
-            "snippetVersion": "3.3.0"
+            "version": "0.2"
           },
           "duplicate": false,
           "activeListing": {
-            "id": 1005784,
+            "id": 1005811,
             "version": 1,
-            "price": 4400000,
+            "price": 3000000,
             "__typename": "Listing"
           },
           "owner": {
-            "id": "tz1LJchBBMZNAjhJq5qGHNEyzPceRtFuHAqy",
+            "id": "tz2VtWQNPH2TsDixaShXp5615sxDNZ4uB436",
             "name": null,
             "flag": "NONE",
             "avatarUri": null,
@@ -1467,13 +1315,13 @@
           },
           "issuer": {
             "flag": "NONE",
-            "name": "Skulix Punk",
+            "name": "Time Scale",
             "author": {
-              "id": "tz1eDVCnZTvNE7EfCs2hHvSp22T38eFU5uKA",
-              "name": "TEZOXEL",
+              "id": "tz2HpguztWLky5QF5KYuHomVaYHeq2HZdmL4",
+              "name": "uesYn",
               "type": "REGULAR",
-              "avatarUri": "ipfs://QmP8xSVRBM34ietw8zkT23W8srFvEDoPMaMke5agvL7NWt",
-              "flag": "NONE",
+              "avatarUri": "ipfs://QmcvKqkmwxMcS9iHFAijGNzUzrjUqvptt7XT1DzRiJPEMz",
+              "flag": "VERIFIED",
               "collaborators": null,
               "__typename": "User"
             },
@@ -1484,92 +1332,45 @@
         "__typename": "Listing"
       },
       {
-        "id": 1005783,
+        "id": 1005810,
         "version": 1,
-        "price": 5000000,
+        "price": 10000000,
         "objkt": {
-          "id": "FX1-77572",
+          "id": "FX1-91190",
           "version": 2,
-          "name": "Floriana #35",
-          "slug": "floriana-35",
+          "name": "hashGame #61",
+          "slug": "hashgame-61",
           "metadata": {
-            "name": "Floriana #35",
-            "iterationHash": "oo5Nfm6CkGGvxen2RkjDY8qAtcJPxdwPRjLFbcbK6QAm7X3uTrP",
-            "description": "\"Floriana\" is a 100% code generated artwork. \nAn abstract reference to flowers. Fluid forms and shapes in a natural media like painting approach.\nEach token includes an initial un-textured format and one final form (click to switch)\n\nDue to some size-sensitive calculations, rendering output may differ in different sizes\n\nCONTROLS\n\nKEYS:\n\n- S: Save a png file\n- R: Reset/reload\n- SPACEBAR: Toggle the final pass (texture) (on/off)\n\nMOUSE:\n\n- Click: Toggle the final pass (texture). (The same as the SPACEBAR).\n\n----\nMade with p5js and custom shaders\n\n© July 2023  @Uniray_net | uniray.net",
+            "name": "hashGame #61",
+            "iterationHash": "ooP8aM5kkTSczKpQh3tVaFTFurmYncf393vRZnMPUS11CeQ3QRK",
+            "description": "Conway's life game suggests many things.\nSomething that keeps solidifying all the time\nThings that keep moving\nThat which disappears\nWhat is born\nThe rules are simple, but they are based on a perfect balance.\nPhenomena that happen before your eyes can be seen forever.\n\nUnique hashes move by the rules of the game of life.\nLong-lived things become brighter and brighter.\nTunnels that move in all directions and explosions that spread out from the center force complex rules onto pixels.\nOur activities are also pixels somewhere.",
             "tags": [
-              "generative",
-              "genart",
-              "shaders",
-              "glsl",
-              "noise",
               "p5js",
-              "abstract",
-              "texture",
-              "flowers",
-              "natural media",
-              "uniray"
+              "generative",
+              "japan",
+              "nft",
+              "Conscious",
+              "pixel"
             ],
-            "generatorUri": "ipfs://Qmf4sXEcBWXLPBNSbNAsCZsNdRB5Q1VTK2oP1D5xWdQ1i9",
-            "artifactUri": "ipfs://Qmf4sXEcBWXLPBNSbNAsCZsNdRB5Q1VTK2oP1D5xWdQ1i9/?fxhash=oo5Nfm6CkGGvxen2RkjDY8qAtcJPxdwPRjLFbcbK6QAm7X3uTrP&fxiteration=35&fxminter=tz1LJchBBMZNAjhJq5qGHNEyzPceRtFuHAqy",
-            "displayUri": "ipfs://QmamkZ5TggQ4BQY4XGMTL8t5YrgJ7uG71hT8axXMLrCfLb",
-            "thumbnailUri": "ipfs://QmSt17fWCzFR3rB61s4AzBeUgpoMu9qQgKF2rE1AgtGqZw",
-            "authenticityHash": "2767955d30c352edb4d341519aa8079f3fbc3e14e88ca11b67f5aa9dfc267d88",
-            "attributes": [
-              {
-                "name": "Orientation",
-                "value": "Landscape"
-              },
-              {
-                "name": "Frequency",
-                "value": 17
-              },
-              {
-                "name": "BG Color",
-                "value": "#c9dbea"
-              },
-              {
-                "name": "Hue",
-                "value": 90
-              },
-              {
-                "name": "Full Rotation",
-                "value": "No"
-              },
-              {
-                "name": "Rot Type",
-                "value": "WAVE"
-              },
-              {
-                "name": "Gray",
-                "value": "No"
-              },
-              {
-                "name": "Texture Type",
-                "value": 2
-              },
-              {
-                "name": "Initial Border",
-                "value": "No"
-              },
-              {
-                "name": "Direction",
-                "value": 4
-              }
-            ],
+            "generatorUri": "ipfs://QmbwfhUHzSqetrTz8kDBgaSQYTUgX828LwLMFyZvyuuvbr",
+            "artifactUri": "ipfs://QmbwfhUHzSqetrTz8kDBgaSQYTUgX828LwLMFyZvyuuvbr/?fxhash=ooP8aM5kkTSczKpQh3tVaFTFurmYncf393vRZnMPUS11CeQ3QRK&fxiteration=61&fxminter=tz2VtWQNPH2TsDixaShXp5615sxDNZ4uB436",
+            "displayUri": "ipfs://QmdvoCPijp2cHk71AhT12THzSB2wj8Es2NLu2xHFrryTBJ",
+            "thumbnailUri": "ipfs://QmavCcsJYicUsBnLjLCMt6X7bi9MQBV7oKQr4YXecDvFTr",
+            "authenticityHash": "00fd372b15c23c05eda76b1e871e40cfa12346bbe4e4e1c63fdfcae69ac96753",
+            "attributes": true,
             "decimals": 0,
             "symbol": "GENTK",
-            "version": "0.2",
-            "snippetVersion": "3.3.0"
+            "version": "0.2"
           },
           "duplicate": false,
           "activeListing": {
-            "id": 1005783,
+            "id": 1005810,
             "version": 1,
-            "price": 5000000,
+            "price": 10000000,
             "__typename": "Listing"
           },
           "owner": {
-            "id": "tz1LJchBBMZNAjhJq5qGHNEyzPceRtFuHAqy",
+            "id": "tz2VtWQNPH2TsDixaShXp5615sxDNZ4uB436",
             "name": null,
             "flag": "NONE",
             "avatarUri": null,
@@ -1577,12 +1378,138 @@
           },
           "issuer": {
             "flag": "NONE",
-            "name": "Floriana",
+            "name": "hashGame",
             "author": {
-              "id": "tz1QcdJhkog51LsA2XSc6PGZQTDKETbesTSi",
-              "name": "Uniray",
+              "id": "tz2HpguztWLky5QF5KYuHomVaYHeq2HZdmL4",
+              "name": "uesYn",
               "type": "REGULAR",
-              "avatarUri": "ipfs://QmQdJTfHroeswMSQened4nucoDfmqR6exe6xVSSizkwmvi",
+              "avatarUri": "ipfs://QmcvKqkmwxMcS9iHFAijGNzUzrjUqvptt7XT1DzRiJPEMz",
+              "flag": "VERIFIED",
+              "collaborators": null,
+              "__typename": "User"
+            },
+            "__typename": "GenerativeToken"
+          },
+          "__typename": "Objkt"
+        },
+        "__typename": "Listing"
+      },
+      {
+        "id": 1005809,
+        "version": 1,
+        "price": 5500000,
+        "objkt": {
+          "id": "FX1-90792",
+          "version": 2,
+          "name": "hashGame #25",
+          "slug": "hashgame-25",
+          "metadata": {
+            "name": "hashGame #25",
+            "iterationHash": "ooXjZVtAr5Dm7zyR6pAqirdmjRZZTNwY5ZA6pmPnxi8GQ1jfb71",
+            "description": "Conway's life game suggests many things.\nSomething that keeps solidifying all the time\nThings that keep moving\nThat which disappears\nWhat is born\nThe rules are simple, but they are based on a perfect balance.\nPhenomena that happen before your eyes can be seen forever.\n\nUnique hashes move by the rules of the game of life.\nLong-lived things become brighter and brighter.\nTunnels that move in all directions and explosions that spread out from the center force complex rules onto pixels.\nOur activities are also pixels somewhere.",
+            "tags": [
+              "p5js",
+              "generative",
+              "japan",
+              "nft",
+              "Conscious",
+              "pixel"
+            ],
+            "generatorUri": "ipfs://QmbwfhUHzSqetrTz8kDBgaSQYTUgX828LwLMFyZvyuuvbr",
+            "artifactUri": "ipfs://QmbwfhUHzSqetrTz8kDBgaSQYTUgX828LwLMFyZvyuuvbr/?fxhash=ooXjZVtAr5Dm7zyR6pAqirdmjRZZTNwY5ZA6pmPnxi8GQ1jfb71&fxiteration=25&fxminter=tz2VtWQNPH2TsDixaShXp5615sxDNZ4uB436",
+            "displayUri": "ipfs://Qmc8BDzpFKjaS8E7LBSAppTS6ypTRzo19W33iUxDb1Zdi5",
+            "thumbnailUri": "ipfs://QmZj8cXvrkBRGg7wjDWrXUiGGKvvQhCjnnJWNPqHasKrer",
+            "authenticityHash": "6eb5f5cd3c69389594817ae9f4dd920ed209fb579857a1692e74fd31396d07dc",
+            "attributes": true,
+            "decimals": 0,
+            "symbol": "GENTK",
+            "version": "0.2"
+          },
+          "duplicate": false,
+          "activeListing": {
+            "id": 1005809,
+            "version": 1,
+            "price": 5500000,
+            "__typename": "Listing"
+          },
+          "owner": {
+            "id": "tz2VtWQNPH2TsDixaShXp5615sxDNZ4uB436",
+            "name": null,
+            "flag": "NONE",
+            "avatarUri": null,
+            "__typename": "User"
+          },
+          "issuer": {
+            "flag": "NONE",
+            "name": "hashGame",
+            "author": {
+              "id": "tz2HpguztWLky5QF5KYuHomVaYHeq2HZdmL4",
+              "name": "uesYn",
+              "type": "REGULAR",
+              "avatarUri": "ipfs://QmcvKqkmwxMcS9iHFAijGNzUzrjUqvptt7XT1DzRiJPEMz",
+              "flag": "VERIFIED",
+              "collaborators": null,
+              "__typename": "User"
+            },
+            "__typename": "GenerativeToken"
+          },
+          "__typename": "Objkt"
+        },
+        "__typename": "Listing"
+      },
+      {
+        "id": 1005808,
+        "version": 1,
+        "price": 12000000,
+        "objkt": {
+          "id": "FX1-91192",
+          "version": 2,
+          "name": "hashGame #63",
+          "slug": "hashgame-63",
+          "metadata": {
+            "name": "hashGame #63",
+            "iterationHash": "ooVkHZj9VZcTHPyGsdpvxmNigs7YB2GgutpWDWccd535ffQJ2WM",
+            "description": "Conway's life game suggests many things.\nSomething that keeps solidifying all the time\nThings that keep moving\nThat which disappears\nWhat is born\nThe rules are simple, but they are based on a perfect balance.\nPhenomena that happen before your eyes can be seen forever.\n\nUnique hashes move by the rules of the game of life.\nLong-lived things become brighter and brighter.\nTunnels that move in all directions and explosions that spread out from the center force complex rules onto pixels.\nOur activities are also pixels somewhere.",
+            "tags": [
+              "p5js",
+              "generative",
+              "japan",
+              "nft",
+              "Conscious",
+              "pixel"
+            ],
+            "generatorUri": "ipfs://QmbwfhUHzSqetrTz8kDBgaSQYTUgX828LwLMFyZvyuuvbr",
+            "artifactUri": "ipfs://QmbwfhUHzSqetrTz8kDBgaSQYTUgX828LwLMFyZvyuuvbr/?fxhash=ooVkHZj9VZcTHPyGsdpvxmNigs7YB2GgutpWDWccd535ffQJ2WM&fxiteration=63&fxminter=tz2VtWQNPH2TsDixaShXp5615sxDNZ4uB436",
+            "displayUri": "ipfs://Qmd4kE7FNjVHtL5TpDjgf4uNF8GqmrvKYcs3tJCD3p8vp3",
+            "thumbnailUri": "ipfs://QmQvB9UnghSS9D8HNeFDAoFoMD7KbLaQhJWNWtRKrf45Wu",
+            "authenticityHash": "08760f6e84025b22c5aa96652c02f720ef541371e51d34b68d21373e496ea293",
+            "attributes": true,
+            "decimals": 0,
+            "symbol": "GENTK",
+            "version": "0.2"
+          },
+          "duplicate": false,
+          "activeListing": {
+            "id": 1005808,
+            "version": 1,
+            "price": 12000000,
+            "__typename": "Listing"
+          },
+          "owner": {
+            "id": "tz2VtWQNPH2TsDixaShXp5615sxDNZ4uB436",
+            "name": null,
+            "flag": "NONE",
+            "avatarUri": null,
+            "__typename": "User"
+          },
+          "issuer": {
+            "flag": "NONE",
+            "name": "hashGame",
+            "author": {
+              "id": "tz2HpguztWLky5QF5KYuHomVaYHeq2HZdmL4",
+              "name": "uesYn",
+              "type": "REGULAR",
+              "avatarUri": "ipfs://QmcvKqkmwxMcS9iHFAijGNzUzrjUqvptt7XT1DzRiJPEMz",
               "flag": "VERIFIED",
               "collaborators": null,
               "__typename": "User"
