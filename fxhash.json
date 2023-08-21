@@ -2,6 +2,267 @@
   "data": {
     "listings": [
       {
+        "id": 1008405,
+        "version": 1,
+        "price": 750000,
+        "objkt": {
+          "id": "FX1-94014",
+          "version": 2,
+          "name": "Rambling #116",
+          "slug": "rambling-116",
+          "metadata": {
+            "name": "Rambling #116",
+            "iterationHash": "onrtcPf6SFuHMv7aKKSsBQAckHppBL7eKj42iVJCs7ewcF7eLt7",
+            "description": "Step into the enchanting realm of \"Rambling\", where vibrant lines dance and collide in an ever-changing composition. This generative canvas invites you to immerse yourself in the vibrant chaos as it weaves a symphony of color that resonates with the soul.\n\nThe collection was created in honor of my \"Schiftcopy\" birthday today, August 18, for all collectors who have supported my efforts for 11 months.\n\nMade with p5js by Schiftcopy 2023\n\nIn live mode click \"s\" to save canvas\n\n50% Royalties split for minters",
+            "tags": [
+              "rambling",
+              "schiftopy",
+              "birthday",
+              "vibrant",
+              "lines",
+              "composition",
+              "chaos",
+              "symphony",
+              "soul"
+            ],
+            "generatorUri": "ipfs://Qmc2LaEHt66ZSTcTvbcgbhcrgcvFLACCe6v8roFG26cojn",
+            "artifactUri": "ipfs://Qmc2LaEHt66ZSTcTvbcgbhcrgcvFLACCe6v8roFG26cojn/?fxhash=onrtcPf6SFuHMv7aKKSsBQAckHppBL7eKj42iVJCs7ewcF7eLt7&fxiteration=116&fxminter=tz1b3461xmhCSen9PJCLfz83zF5EasP6qFzF",
+            "displayUri": "ipfs://QmTADEM4CRMMcpawcF69AMdN5jUEJ99rwudLP8gBJbGrCX",
+            "thumbnailUri": "ipfs://QmT8uhgApszESv4penkDans6bA3BM4vhV1AYDevpPpuJmG",
+            "authenticityHash": "905ca06f2408de08817b214d6652e7c816b9caec3b5e49a40f1b61da5ab5c9b4",
+            "attributes": true,
+            "decimals": 0,
+            "symbol": "GENTK",
+            "version": "0.2",
+            "snippetVersion": "3.3.0"
+          },
+          "duplicate": false,
+          "activeListing": {
+            "id": 1008405,
+            "version": 1,
+            "price": 750000,
+            "__typename": "Listing"
+          },
+          "owner": {
+            "id": "tz1b3461xmhCSen9PJCLfz83zF5EasP6qFzF",
+            "name": "0xWhistler",
+            "flag": "NONE",
+            "avatarUri": "ipfs://QmV2qJsRAGz9XJdaevatuMgZMUmCAG6xdtekfLhSHmPLZ7",
+            "__typename": "User"
+          },
+          "issuer": {
+            "flag": "NONE",
+            "name": "Rambling",
+            "author": {
+              "id": "tz1NHSpX7BRHPQBJ7hERyWt9dV7HDALJTCXD",
+              "name": "Schiftcopy",
+              "type": "REGULAR",
+              "avatarUri": "ipfs://QmdAuguNBSbugTRRQMmN8Xs1B5MM6ZdnKV7mKVJVd7ZqAT",
+              "flag": "NONE",
+              "collaborators": null,
+              "__typename": "User"
+            },
+            "__typename": "GenerativeToken"
+          },
+          "__typename": "Objkt"
+        },
+        "__typename": "Listing"
+      },
+      {
+        "id": 1008404,
+        "version": 1,
+        "price": 6000000,
+        "objkt": {
+          "id": "FX1-85150",
+          "version": 2,
+          "name": "follow my lead #191",
+          "slug": "follow-my-lead-191",
+          "metadata": {
+            "name": "follow my lead #191",
+            "iterationHash": "opBWRqJsLnAwDdzkNKF8Y4oPjXD7Q31nWGQG32uCgjrxpHwJXj1",
+            "description": "'follow my lead' is a visualization of three communities of individuals, and the ways in which they interact with each other.\n\nUsing an implementation of a physarum slime mold model, I create three distinct groups of homogenous individuals, with each group having different sentiments towards the others. Individuals within a community make their best effort to follow each other around, and depending on group preferences try to either move towards or away from those in other groups.\n\nAll of these interactions take place on a simulated three dimensional landscape (that varies by token), with groups of individuals having a preference towards either moving uphill or downhill.\n\nEach group begins with a different spatial distribution, such that the extent of exposure to others can change over time.\n\nFor more details on the slime mold implementation and a link to the github repo containing the code, see the accompanying fx(text) article.\n\n\nAnimation\n---------\nThis is designed first as a static piece. The final image consists of running 300 steps of the algorithm and then stopping.\n\nHowever, I have also exposed a couple of ways to watch the image evolve over time. It should be noted that for some outputs, the image will eventually degenerate as we go well past the initial 300 frames.\n\nKeys:\n- space: Pauses/unpauses the animation\n- 'F': Fresh start - reloads the page and animates the first 300 frames, pausing when finished (or append &fresh=true to the URL)\n- 'A': Animate - reloads the page and animates in perpetuity (or append &animate=true to the URL)\n\nWebGL\n-----\nThis piece makes heavy use of shaders/WebGL. I've put quite a lot of time/effort into trying to ensure things behave identically across different browsers/hardware. I've managed to get things to the point where I was consistently seeing identical outputs on the set of hardware available to me. However, there is still a risk that on other hardware specs, things will not be identical. Furthermore, it is the nature of this project that even very small differences in calculations can become exaggerated after multiple steps of the algorithm, leading to larger differences in the final result.\n\n\nReferences:\nJeff Jones's Physarum paper: https://uwe-repository.worktribe.com/output/980579\nSage Jensen's post on Physarum, which was my first exposure to it: https://cargocollective.com/sagejenson/physarum\nColor names generated using coloraze: https://github.com/evansque/coloraze",
+            "tags": [
+              "physarum",
+              "webgl",
+              "follow my lead",
+              "Gabriel"
+            ],
+            "generatorUri": "ipfs://Qma86NMoqqGkwvoVVLSyDJGE35Dy3QJgfoZfGANsecAHY4",
+            "artifactUri": "ipfs://Qma86NMoqqGkwvoVVLSyDJGE35Dy3QJgfoZfGANsecAHY4/?fxhash=opBWRqJsLnAwDdzkNKF8Y4oPjXD7Q31nWGQG32uCgjrxpHwJXj1&fxiteration=191&fxminter=tz1fWMhJu1zETLX3CbqvKuLAk1QKSgtny9M8",
+            "displayUri": "ipfs://QmcNNH5fefoDqU2EV5u7fwdVTknLZMtRv33L5o6uormNa8",
+            "thumbnailUri": "ipfs://QmckaaJc2vU61feeVFsZoergZMPuCo7q3qp2VQngjBPyaB",
+            "authenticityHash": "b8cf847c5ebf87c74d018d560c2bd7058175ca994b1771aaf8fd5fb729092b9d",
+            "attributes": [
+              {
+                "name": "background",
+                "value": "White Rock"
+              },
+              {
+                "name": "communities",
+                "value": "Dark Cerulean, Cabaret, Cabaret"
+              },
+              {
+                "name": "diffusion",
+                "value": false
+              },
+              {
+                "name": "landscape",
+                "value": "checkerboard"
+              },
+              {
+                "name": "border",
+                "value": true
+              },
+              {
+                "name": "jumbled attraction",
+                "value": false
+              }
+            ],
+            "decimals": 0,
+            "symbol": "GENTK",
+            "version": "0.2",
+            "snippetVersion": "3.3.0"
+          },
+          "duplicate": false,
+          "activeListing": {
+            "id": 1008404,
+            "version": 1,
+            "price": 6000000,
+            "__typename": "Listing"
+          },
+          "owner": {
+            "id": "tz1b9y6JsH24yeLM4FknLa2BS4CGZN8TWAZ5",
+            "name": "WootScoot",
+            "flag": "VERIFIED",
+            "avatarUri": "ipfs://QmexWbguHt5q3A1F4Hwi64qYdX2k19dUSG9P2jGGb1zV7C",
+            "__typename": "User"
+          },
+          "issuer": {
+            "flag": "NONE",
+            "name": "follow my lead",
+            "author": {
+              "id": "tz1PjYs7SYBeULD8xWjMvxsCfCd2W4kuttYV",
+              "name": "Gabriel",
+              "type": "REGULAR",
+              "avatarUri": "ipfs://QmdLSFXhAKtmHToB7H1D7mvSsv3hsFWkSqbULbj9oxmyWP",
+              "flag": "VERIFIED",
+              "collaborators": null,
+              "__typename": "User"
+            },
+            "__typename": "GenerativeToken"
+          },
+          "__typename": "Objkt"
+        },
+        "__typename": "Listing"
+      },
+      {
+        "id": 1008403,
+        "version": 1,
+        "price": 275000000,
+        "objkt": {
+          "id": "FX0-110319",
+          "version": 0,
+          "name": "Sequence #317",
+          "slug": "sequence-317",
+          "metadata": {
+            "name": "Sequence #317",
+            "iterationHash": "ooJMGY2r4WW69ZJ7LkmZVXrrQRCzMksiJ9veuskYuPUBvLEy5fT",
+            "description": "Sequence by Hevey (@HeveyArt).\n\nThis artwork was created using p5js.",
+            "tags": [
+              "sequence",
+              "dna",
+              "genome",
+              "sequenced",
+              "lines",
+              "abstract",
+              "p5js"
+            ],
+            "artifactUri": "ipfs://QmW7mHGn8hdcjghLSDNaej9e9ZKD56Lww4C6gAthHb5PPK",
+            "displayUri": "ipfs://QmUYiSGXiz4TzbBhWwfu29XAzim4PXicSTmQHn2sW7KeuH",
+            "thumbnailUri": "ipfs://QmQv1YjaBRGCysbEY3GmyQny3GZkxkwd31Rud4TCKhHzPg",
+            "authenticityHash": "342c19f004c510cd33d929766a7a6551f5669a66e6d01fec6898ad7f611c4eab",
+            "attributes": [
+              {
+                "name": "Palette",
+                "value": 13
+              },
+              {
+                "name": "Style",
+                "value": 5
+              },
+              {
+                "name": "Offset",
+                "value": 2
+              },
+              {
+                "name": "Columns",
+                "value": 27
+              },
+              {
+                "name": "Columns type",
+                "value": "All except in the middle"
+              },
+              {
+                "name": "Line type",
+                "value": 1
+              },
+              {
+                "name": "Margin type",
+                "value": 1
+              },
+              {
+                "name": "Space",
+                "value": 4
+              },
+              {
+                "name": "Ripples type",
+                "value": 0
+              },
+              {
+                "name": "Rotation",
+                "value": "No"
+              },
+              {
+                "name": "Hole",
+                "value": "No"
+              }
+            ],
+            "decimals": 0,
+            "symbol": "GENTK"
+          },
+          "duplicate": false,
+          "activeListing": {
+            "id": 1008403,
+            "version": 1,
+            "price": 275000000,
+            "__typename": "Listing"
+          },
+          "owner": {
+            "id": "tz1f7wbmY8JReJ5et4KnJ4BMi8fKMRK3PvHt",
+            "name": "0skills",
+            "flag": "NONE",
+            "avatarUri": "ipfs://Qmb7u82uSijYuuhy2J5qEYVJ3QA1Zq7qa6Hmnb4HX3SHDb",
+            "__typename": "User"
+          },
+          "issuer": {
+            "flag": "NONE",
+            "name": "Sequence",
+            "author": {
+              "id": "tz1NMvVB48fNzrG3rPZS58Eo1nSJ6p3RjRyz",
+              "name": "Hevey",
+              "type": "REGULAR",
+              "avatarUri": "ipfs://QmeGW5LK9W4KupJKrhRwUGZbaRpSTMb1JnbHqTx6RzJQkv",
+              "flag": "VERIFIED",
+              "collaborators": null,
+              "__typename": "User"
+            },
+            "__typename": "GenerativeToken"
+          },
+          "__typename": "Objkt"
+        },
+        "__typename": "Listing"
+      },
+      {
         "id": 1008402,
         "version": 1,
         "price": 5990000,
@@ -1212,239 +1473,6 @@
               "type": "REGULAR",
               "avatarUri": "ipfs://QmRqgJUffNB7ZYqg8n1CpRAGZj95hUcVCUVh9dnidwMkpw",
               "flag": "NONE",
-              "collaborators": null,
-              "__typename": "User"
-            },
-            "__typename": "GenerativeToken"
-          },
-          "__typename": "Objkt"
-        },
-        "__typename": "Listing"
-      },
-      {
-        "id": 1008385,
-        "version": 1,
-        "price": 770000,
-        "objkt": {
-          "id": "FX1-92854",
-          "version": 2,
-          "name": "Rambling #77",
-          "slug": "rambling-77",
-          "metadata": {
-            "name": "Rambling #77",
-            "iterationHash": "oocmM7qpagCEYz3thTfp7GnzFigcFE7axR2LHc2PcYJcVS7vSjm",
-            "description": "Step into the enchanting realm of \"Rambling\", where vibrant lines dance and collide in an ever-changing composition. This generative canvas invites you to immerse yourself in the vibrant chaos as it weaves a symphony of color that resonates with the soul.\n\nThe collection was created in honor of my \"Schiftcopy\" birthday today, August 18, for all collectors who have supported my efforts for 11 months.\n\nMade with p5js by Schiftcopy 2023\n\nIn live mode click \"s\" to save canvas\n\n50% Royalties split for minters",
-            "tags": [
-              "rambling",
-              "schiftopy",
-              "birthday",
-              "vibrant",
-              "lines",
-              "composition",
-              "chaos",
-              "symphony",
-              "soul"
-            ],
-            "generatorUri": "ipfs://Qmc2LaEHt66ZSTcTvbcgbhcrgcvFLACCe6v8roFG26cojn",
-            "artifactUri": "ipfs://Qmc2LaEHt66ZSTcTvbcgbhcrgcvFLACCe6v8roFG26cojn/?fxhash=oocmM7qpagCEYz3thTfp7GnzFigcFE7axR2LHc2PcYJcVS7vSjm&fxiteration=77&fxminter=tz1LJchBBMZNAjhJq5qGHNEyzPceRtFuHAqy",
-            "displayUri": "ipfs://QmRoS48ekRFVJ3C8eTnkjrFAJzYwuCLGn1ro6fGp8L2Riu",
-            "thumbnailUri": "ipfs://QmXBUVDLXPPxemBXgfSUXiUj8NyBMnwJ4J3StTJnRnRo3f",
-            "authenticityHash": "67485228d4e65001937885785c09bdaf65cdb0a04ac7140f695ed8ffb35d4b0d",
-            "attributes": true,
-            "decimals": 0,
-            "symbol": "GENTK",
-            "version": "0.2",
-            "snippetVersion": "3.3.0"
-          },
-          "duplicate": false,
-          "activeListing": {
-            "id": 1008385,
-            "version": 1,
-            "price": 770000,
-            "__typename": "Listing"
-          },
-          "owner": {
-            "id": "tz1LJchBBMZNAjhJq5qGHNEyzPceRtFuHAqy",
-            "name": null,
-            "flag": "NONE",
-            "avatarUri": null,
-            "__typename": "User"
-          },
-          "issuer": {
-            "flag": "NONE",
-            "name": "Rambling",
-            "author": {
-              "id": "tz1NHSpX7BRHPQBJ7hERyWt9dV7HDALJTCXD",
-              "name": "Schiftcopy",
-              "type": "REGULAR",
-              "avatarUri": "ipfs://QmdAuguNBSbugTRRQMmN8Xs1B5MM6ZdnKV7mKVJVd7ZqAT",
-              "flag": "NONE",
-              "collaborators": null,
-              "__typename": "User"
-            },
-            "__typename": "GenerativeToken"
-          },
-          "__typename": "Objkt"
-        },
-        "__typename": "Listing"
-      },
-      {
-        "id": 1008384,
-        "version": 1,
-        "price": 190000000,
-        "objkt": {
-          "id": "FX0-728408",
-          "version": 1,
-          "name": "Shawq #54",
-          "slug": "shawq-54",
-          "metadata": {
-            "name": "Shawq #54",
-            "iterationHash": "ooT7ixziaW9imAAYaW9zniG2j56fJfamQRjCsgGsc6jjhCrwW7o",
-            "description": "Shawq is a simple generative geometric piece made with pure p5.js and a WebGL shader.",
-            "tags": [
-              "texture",
-              "shiny",
-              "sparkle",
-              "shader",
-              "p5js",
-              "p5.js",
-              "webgl",
-              "glsl",
-              "generative",
-              "aesthetic"
-            ],
-            "generatorUri": "ipfs://QmVcPuWVHg9hejFaZcHQD1aA3kPotz1jorJU3zkSu5DQk7",
-            "artifactUri": "ipfs://QmVcPuWVHg9hejFaZcHQD1aA3kPotz1jorJU3zkSu5DQk7?fxhash=ooT7ixziaW9imAAYaW9zniG2j56fJfamQRjCsgGsc6jjhCrwW7o",
-            "displayUri": "ipfs://QmdCqRwAzyPait6zCn9eamTbTfRApJgmUtrFPbV2vLysGP",
-            "thumbnailUri": "ipfs://QmRzzJGmXzqF18gaTU7HbSfaPPiCyi1X9kdNHsJw78SoSY",
-            "authenticityHash": "170e669ffa9f42d28f4020c9ee6f8ec8926cb39890b3d86d12bcce33b83697e5",
-            "attributes": [],
-            "decimals": 0,
-            "symbol": "GENTK",
-            "version": "0.2"
-          },
-          "duplicate": false,
-          "activeListing": {
-            "id": 1008384,
-            "version": 1,
-            "price": 190000000,
-            "__typename": "Listing"
-          },
-          "owner": {
-            "id": "tz1b8gWg7Xa28LEuFzxcXXU9Se5K4smaVpyX",
-            "name": "PatchiTrades",
-            "flag": "NONE",
-            "avatarUri": null,
-            "__typename": "User"
-          },
-          "issuer": {
-            "flag": "NONE",
-            "name": "Shawq",
-            "author": {
-              "id": "tz1amUZ31Ua4qDTNXvRRs1CFYn415xEWq5Kb",
-              "name": "Melissa Wiederrecht",
-              "type": "REGULAR",
-              "avatarUri": "ipfs://QmTmFSKLMMCbmrrZu4PUZWLTSQescfMRfFzNGwL5g9Tj7F",
-              "flag": "VERIFIED",
-              "collaborators": null,
-              "__typename": "User"
-            },
-            "__typename": "GenerativeToken"
-          },
-          "__typename": "Objkt"
-        },
-        "__typename": "Listing"
-      },
-      {
-        "id": 1008383,
-        "version": 1,
-        "price": 70000000,
-        "objkt": {
-          "id": "FX0-403056",
-          "version": 0,
-          "name": "Sedimentary Dissolution #441",
-          "slug": "sedimentary-dissolution-441",
-          "metadata": {
-            "name": "Sedimentary Dissolution #441",
-            "iterationHash": "onffGFx8E8YGi58vwFpmCqF9TzHp2TediDkgzumd6SLfUiPwVJ3",
-            "description": "This piece is inspired by the geological processes related to sedimentary dissolution. Dissolution is a form of weathering which contributes to the creation of new rocks. In this piece, various algorithms take on the role of dissolution, producing visual recombinations of the original \"sedimentary rock\".\n\nInstructions ::\n\np : save a hi-res image\ne : toggle erosion on and off\ns : toggle structure on and off\na : toggle all effects on and off\n\nIf offset, rgb dissolution or cross-bedding is true you can toggle it on and off.\nIf these features are false pressing the key will have no effect.\n\no : toggle offset on and off\nr : toggle rgb dissolution on and off\nc : toggle cross-bedding on and off\n\nThere are 20 versions you can explore, all using the same features.\nUse the left and right arrow to change the random seed. \nPressing space will re-instantiate the original random seed.",
-            "tags": [
-              "generative",
-              "geometric",
-              "colorful",
-              "minimalist",
-              "abstract"
-            ],
-            "generatorUri": "ipfs://QmSMMB77jTjzviFxMs4SqKPDvxSihp6sQcAvnwQ4Xz7xgs",
-            "artifactUri": "ipfs://QmSMMB77jTjzviFxMs4SqKPDvxSihp6sQcAvnwQ4Xz7xgs?fxhash=onffGFx8E8YGi58vwFpmCqF9TzHp2TediDkgzumd6SLfUiPwVJ3",
-            "displayUri": "ipfs://QmZN9TGEr8mSYpdPpo2oUbyTyTMcErJjxfW4gZSrQzQ8is",
-            "thumbnailUri": "ipfs://QmRpQG1EjVvcjekEsNHyMb7xzDCbzXWnncUdhiLME3mmQv",
-            "authenticityHash": "a2a5919bf646c93a494dbeaff198ed061584dfe85e79fe7fa6489fd6b1c34140",
-            "attributes": [
-              {
-                "name": "Cross-bedding",
-                "value": false
-              },
-              {
-                "name": "Dense",
-                "value": true
-              },
-              {
-                "name": "Erosion Probability",
-                "value": 0.25
-              },
-              {
-                "name": "Has Pigmentation",
-                "value": true
-              },
-              {
-                "name": "Number of Layers",
-                "value": 64
-              },
-              {
-                "name": "Offset",
-                "value": false
-              },
-              {
-                "name": "RGB Dissolution",
-                "value": false
-              },
-              {
-                "name": "Rock Type",
-                "value": "arkose"
-              },
-              {
-                "name": "Structure",
-                "value": "repeated shift"
-              }
-            ],
-            "decimals": 0,
-            "symbol": "GENTK",
-            "version": "0.2"
-          },
-          "duplicate": false,
-          "activeListing": {
-            "id": 1008383,
-            "version": 1,
-            "price": 70000000,
-            "__typename": "Listing"
-          },
-          "owner": {
-            "id": "tz1b8gWg7Xa28LEuFzxcXXU9Se5K4smaVpyX",
-            "name": "PatchiTrades",
-            "flag": "NONE",
-            "avatarUri": null,
-            "__typename": "User"
-          },
-          "issuer": {
-            "flag": "NONE",
-            "name": "Sedimentary Dissolution",
-            "author": {
-              "id": "tz1RkYY3jr1ocuPdQqrRefr5FqoawKQsmBmD",
-              "name": "Landlines Art",
-              "type": "REGULAR",
-              "avatarUri": "ipfs://QmaDnzJ8wPMQ9uLAHDsCfnn8g7U13zvKNRUiPLgUnepxCQ",
-              "flag": "VERIFIED",
               "collaborators": null,
               "__typename": "User"
             },
