@@ -2,6 +2,1647 @@
   "data": {
     "listings": [
       {
+        "id": 1085750,
+        "version": 1,
+        "price": 90000000,
+        "objkt": {
+          "id": "FX1-5680",
+          "version": 2,
+          "name": "Schwere See #141",
+          "slug": "schwere-see-141",
+          "metadata": {
+            "name": "Schwere See #141",
+            "iterationHash": "ony3H91VZoWa6Gb4bvfX9EZFb5NHcJdcwN5TDnZQzfSKyxU9FgR",
+            "description": "Schwere See\n(...which is german for \"Heavy Seas\")\n\nthis work creates completely generative ocean worlds between the real and the surreal.\nwhat is real? when do we feel reality? i guess as with many other things, we feel reality best when we're deprived of it.\nThat might be the reason why it never ceases to fascinate us to both exaggerate and abstract nature and reality - maybe even at the same time.\nthat's where this work tries to go...\ngiving my best to create realistic looking waves out of hmm... thin electron-gas..., and then disrupt those from realism by unnaturally exaggerating waveforms and abstracting the display to a few colors and lines - ...well, not so few of the latter, actually ;-)\n\nbeware: this needs a good GPU (at least here in 2023) to properly run in realtime.\nstills can still be rendered on a low end machine with on-board graphics, but for realtime playing you'd need some proper dedicated graphics card.\nand of course it wont run fast (or maybe not all) on your mobile phone (except maybe on a very high end device).\n\nthe different mints vary in wave shape, color, camera view, animation speed, aspect ratio, frame style, hatching density, field of view, and more.\nsome color schemes are based on pre-chosen palettes (slightly varied though), but others are wildly random-generated. there's always some risk in randomness, but lets give the error some chance to surprise us - this is one of the many benefits of generative art.\n\nas generative art can do so much more than just generate/show an image i feel almost obliged to add the possibility to animate/inteact.\nhowever, this extra control shall not be chosen without some considerations. \nyou don't want a strobingly wild animation above your fireplace or in a doctors waiting room. nor is it motion-wise very inspiring to have subtle image stills hanging in a dancefloor.\nso, by default when in animation mode (<space>-key) the scene is very slowly and steadily changing - some pieces faster, some slower. however, by pressing <f> you can toggle to a sped up animation of waves, clouds, and scene rotation.\nbtw, going faster in nav-mode also speeds up the wave animation. (...so be careful when you accelerate! the ocean is not a ponyfarm.)\n\n\nmouse/keyboard functions:\n\n<mouse move>..........rotate view\n<mouse wheel>.........zoom in/out\n<space>...............start animation (or append '&AnimEnable=1' to the url)\n<ctrl>+<1><2><3><4>...make png screenshot in 1/2/3/4-fold resolution\n<p>...................same as <ctrl>+<3>\n<n>...................toggle nav-mode - navigate/fly through scene\n<w>/<crsr up>.........accelerate in nav-mode\n<s>/<crsr down>.......decelerate in nav-mode\n<a>/<crsr left>.......rotate left in nav-mode\n<d>/<crsr right>......rotate right in nav-mode\n<f>...................fast animation mode (speeds up animation)\n\n\nsome technical info:\n\ntechnically this is a raymarched scene. the distance field of the waves is constructed my many localized rotations on many different scales.\nfor the hatching no actual lines are being drawn. it is archieved by applying periodic functions in world-position-space as halftone patterns to the actual image color. \nthe frequency of these halftone-functions thereby depending on screen-position-derivatives.\n",
+            "tags": [
+              "waves",
+              "generative",
+              "raymarch",
+              "animated",
+              "interactive"
+            ],
+            "generatorUri": "ipfs://QmeBgeyZt7Z1qCeayJfaaseeiZuks46Pibs7oc6aSdHAha",
+            "artifactUri": "ipfs://QmeBgeyZt7Z1qCeayJfaaseeiZuks46Pibs7oc6aSdHAha/?fxhash=ony3H91VZoWa6Gb4bvfX9EZFb5NHcJdcwN5TDnZQzfSKyxU9FgR",
+            "displayUri": "ipfs://QmRHCjMmLS98RXShBSFhz3oa1pjTYRx473mUQq9N8iFttA",
+            "thumbnailUri": "ipfs://QmVFxy8fSkcHeX6fxg1tjdGm5JbHDtE9SM4mwVfkuZrxcR",
+            "authenticityHash": "8a173e5435edcf695f53ccdc86503ba355c035e7c4e0cefc137345ac2ad02003",
+            "attributes": [
+              {
+                "name": "BlackShiny",
+                "value": 0.12164586125556365
+              },
+              {
+                "name": "CarvePseu",
+                "value": 0
+              },
+              {
+                "name": "CloudSize",
+                "value": 2.961662695403861
+              },
+              {
+                "name": "HatchW",
+                "value": 1.1794467266714321
+              },
+              {
+                "name": "HatchSm",
+                "value": 1.392618645261973
+              },
+              {
+                "name": "WaveAnim",
+                "value": 0.2511972573081487
+              },
+              {
+                "name": "Hatch2",
+                "value": 0.5432706713711759
+              },
+              {
+                "name": "WhiteAlpha",
+                "value": 1
+              },
+              {
+                "name": "PhaseOffs",
+                "value": 2.307407585689798
+              },
+              {
+                "name": "ViewDist0",
+                "value": 3.4999937291597654
+              },
+              {
+                "name": "BGRough",
+                "value": 0.028507509032303174
+              },
+              {
+                "name": "MetalBump",
+                "value": -0.0022038774427310705
+              },
+              {
+                "name": "FovY",
+                "value": 1
+              },
+              {
+                "name": "Aspect",
+                "value": 0.6084838478360325
+              },
+              {
+                "name": "FrameW",
+                "value": 0.2552219408746317
+              },
+              {
+                "name": "MetalBg",
+                "value": 1.1359091309830547
+              },
+              {
+                "name": "Cuts",
+                "value": 0
+              },
+              {
+                "name": "FrameDist",
+                "value": 0.029612067059281075
+              },
+              {
+                "name": "Roll0",
+                "value": 0.32940958658009345
+              },
+              {
+                "name": "ContentFrame",
+                "value": 0.00027748734886785337
+              },
+              {
+                "name": "Gap",
+                "value": 0
+              },
+              {
+                "name": "PosOffs0Z",
+                "value": 0
+              },
+              {
+                "name": "PosOffs0Y",
+                "value": -33.87889720033854
+              },
+              {
+                "name": "PosOffs0X",
+                "value": -128.78136676736176
+              },
+              {
+                "name": "RotSpeed",
+                "value": 0
+              },
+              {
+                "name": "Carve",
+                "value": 0
+              },
+              {
+                "name": "Fisheye",
+                "value": -0.02070936077705122
+              },
+              {
+                "name": "NoiseType",
+                "value": 0
+              },
+              {
+                "name": "Metal",
+                "value": 0.7792427606647834
+              },
+              {
+                "name": "BlackAlpha",
+                "value": 0.8
+              },
+              {
+                "name": "Azim0",
+                "value": 3.366507421107963
+              },
+              {
+                "name": "FrameErr",
+                "value": 0.01499484995513823
+              },
+              {
+                "name": "BGColB",
+                "value": 0.5200001381760023
+              },
+              {
+                "name": "BGColG",
+                "value": 0.8022781276110595
+              },
+              {
+                "name": "BGColR",
+                "value": 0.7754832544642002
+              },
+              {
+                "name": "SkyAnim",
+                "value": -0.026107258163392544
+              },
+              {
+                "name": "BlackColR",
+                "value": 0.01963371109294718
+              },
+              {
+                "name": "Elev0",
+                "value": 1.2921989465830848
+              },
+              {
+                "name": "BlackColG",
+                "value": 0.15109164279385176
+              },
+              {
+                "name": "SkyMode",
+                "value": 1
+              },
+              {
+                "name": "BlackColB",
+                "value": 0.4702591093986854
+              },
+              {
+                "name": "MetalBlack",
+                "value": 0
+              },
+              {
+                "name": "BrightMode",
+                "value": 0.8784233046249044
+              },
+              {
+                "name": "WhiteColB",
+                "value": 1
+              },
+              {
+                "name": "SkyH",
+                "value": 0.4875842262990773
+              },
+              {
+                "name": "WhiteColG",
+                "value": 1
+              },
+              {
+                "name": "WhiteColR",
+                "value": 1
+              },
+              {
+                "name": "FrameSm",
+                "value": 0.03966826042160392
+              },
+              {
+                "name": "WhiteLev",
+                "value": 0.4951335109847491
+              },
+              {
+                "name": "FrameVis",
+                "value": 0
+              },
+              {
+                "name": "Edgy",
+                "value": -0.03838385592487088
+              },
+              {
+                "name": "Anim0",
+                "value": 0.00040924869261759904
+              }
+            ],
+            "decimals": 0,
+            "symbol": "GENTK",
+            "version": "0.2"
+          },
+          "duplicate": false,
+          "activeListing": {
+            "id": 1085750,
+            "version": 1,
+            "price": 90000000,
+            "__typename": "Listing"
+          },
+          "owner": {
+            "id": "tz1TfdWswkmaVz18XMWSc2p7CPC5jywwRYJD",
+            "name": "Monaymaker",
+            "flag": "NONE",
+            "avatarUri": "ipfs://QmfSYhdWjmhN8iBs5w3LJBb9mTyx4Yumj8oGRtpaaBFD4T",
+            "__typename": "User"
+          },
+          "issuer": {
+            "flag": "NONE",
+            "name": "Schwere See",
+            "author": {
+              "id": "tz1T55y8BEuXQrCzBaPqayugNNGFwxy27WJt",
+              "name": "flockaroo",
+              "type": "REGULAR",
+              "avatarUri": "ipfs://QmTYvBZmoNJvNsHjWd7J16JLCW8qcNpgKac4N4P4VdMr6X",
+              "flag": "VERIFIED",
+              "collaborators": null,
+              "__typename": "User"
+            },
+            "__typename": "GenerativeToken"
+          },
+          "__typename": "Objkt"
+        },
+        "__typename": "Listing"
+      },
+      {
+        "id": 1085749,
+        "version": 1,
+        "price": 3500000,
+        "objkt": {
+          "id": "FX1-157785",
+          "version": 2,
+          "name": "Rainbow Ripples Automaton #27",
+          "slug": "rainbow-ripples-automaton-27",
+          "metadata": {
+            "name": "Rainbow Ripples Automaton #27",
+            "iterationHash": "opTsgjEGeh3VMHVMi7x8FS1oDMHBEaNhyoLaR8oaiGWdEcShiuZ",
+            "description": "Cells try to bounce between low and high luminance but are held by their neighbors; the hue from the highest luminance spreads to the neighbors.\n\n's' to save a gif\n'a' to stop/start the animation",
+            "tags": [
+              "cellular",
+              "automaton",
+              "automata",
+              "hue"
+            ],
+            "generatorUri": "ipfs://QmRKXuhJqXv3Y2r9BAVcdnnBDFy2B2HSEXaut5QKvKFmDo",
+            "artifactUri": "ipfs://QmRKXuhJqXv3Y2r9BAVcdnnBDFy2B2HSEXaut5QKvKFmDo/?fxhash=opTsgjEGeh3VMHVMi7x8FS1oDMHBEaNhyoLaR8oaiGWdEcShiuZ&fxiteration=27&fxminter=tz2VtWQNPH2TsDixaShXp5615sxDNZ4uB436#0x402000000000000040340000000000003ff000000000000000458fb2d1000000ff000000ff000000ff000000ff000000ff000000ff",
+            "displayUri": "ipfs://QmUTj9MZXEj8b4mQfNEuhSvzD6XfpaMjYTyQPBkwFtQe5P",
+            "thumbnailUri": "ipfs://QmXM4G89JGC7JognrVmXpsuGi3ntxdyjtSCBNpHyC9EP5d",
+            "authenticityHash": "457a8edeb410d0185800361920691a1a7fface6f2580808d65385d27330a61d5",
+            "attributes": [
+              {
+                "name": "Cell Size",
+                "value": 8
+              },
+              {
+                "name": "Freedom",
+                "value": 20
+              },
+              {
+                "name": "Seeds",
+                "value": 1
+              },
+              {
+                "name": "InvertSaturation",
+                "value": false
+              },
+              {
+                "name": "Seed 1",
+                "value": 199
+              },
+              {
+                "name": "Seed 2",
+                "value": 0
+              },
+              {
+                "name": "Seed 3",
+                "value": 0
+              },
+              {
+                "name": "Seed 4",
+                "value": 0
+              },
+              {
+                "name": "Seed 5",
+                "value": 0
+              },
+              {
+                "name": "Seed 6",
+                "value": 0
+              },
+              {
+                "name": "Seed 7",
+                "value": 0
+              }
+            ],
+            "symbol": "GENTK",
+            "version": "0.2",
+            "snippetVersion": "4.0.0",
+            "decimals": 0
+          },
+          "duplicate": false,
+          "activeListing": {
+            "id": 1085749,
+            "version": 1,
+            "price": 3500000,
+            "__typename": "Listing"
+          },
+          "owner": {
+            "id": "tz2VtWQNPH2TsDixaShXp5615sxDNZ4uB436",
+            "name": null,
+            "flag": "NONE",
+            "avatarUri": null,
+            "__typename": "User"
+          },
+          "issuer": {
+            "flag": "NONE",
+            "name": "Rainbow Ripples Automaton",
+            "author": {
+              "id": "tz1iEiZBsrbDWWq5E4RzmWgZUyJfad3r4WEn",
+              "name": "PetiShaMiaou",
+              "type": "REGULAR",
+              "avatarUri": "ipfs://QmYQ7tJYEMJMGhnjmoJDFSq26fX3HHdHp4NVbZxZCUru4o",
+              "flag": "VERIFIED",
+              "collaborators": null,
+              "__typename": "User"
+            },
+            "__typename": "GenerativeToken"
+          },
+          "__typename": "Objkt"
+        },
+        "__typename": "Listing"
+      },
+      {
+        "id": 1085748,
+        "version": 1,
+        "price": 5000000,
+        "objkt": {
+          "id": "FX1-165252",
+          "version": 2,
+          "name": "Rainbow Ripples Automaton #43",
+          "slug": "rainbow-ripples-automaton-43",
+          "metadata": {
+            "name": "Rainbow Ripples Automaton #43",
+            "iterationHash": "ooaRYroxjxrnkcJRR8RHhUJ9bWSVS9DThbPcShVAP4m3wuNUYSF",
+            "description": "Cells try to bounce between low and high luminance but are held by their neighbors; the hue from the highest luminance spreads to the neighbors.\n\n's' to save a gif\n'a' to stop/start the animation",
+            "tags": [
+              "cellular",
+              "automaton",
+              "automata",
+              "hue"
+            ],
+            "generatorUri": "ipfs://QmRKXuhJqXv3Y2r9BAVcdnnBDFy2B2HSEXaut5QKvKFmDo",
+            "artifactUri": "ipfs://QmRKXuhJqXv3Y2r9BAVcdnnBDFy2B2HSEXaut5QKvKFmDo/?fxhash=ooaRYroxjxrnkcJRR8RHhUJ9bWSVS9DThbPcShVAP4m3wuNUYSF&fxiteration=43&fxminter=tz2VtWQNPH2TsDixaShXp5615sxDNZ4uB436#0x4030000000000000403b000000000000401c0000000000000092465327b33df43ea95940aaa7cb728f572878873cad8973b8b26cd0",
+            "displayUri": "ipfs://QmYBDeybrZwK5SHdqfwwGajK8ouRttQHnaCZhasoqyvoUm",
+            "thumbnailUri": "ipfs://QmRgsXXn2pUFaeXPo2Ldp43RV9Q9n8GvKxmq3uxYuoBBYC",
+            "authenticityHash": "81b7414572295c67311892ac9147918e74c8fac9e1851980718b01495b5b8b7e",
+            "attributes": [
+              {
+                "name": "Cell Size",
+                "value": 16
+              },
+              {
+                "name": "Freedom",
+                "value": 27
+              },
+              {
+                "name": "Seeds",
+                "value": 7
+              },
+              {
+                "name": "InvertSaturation",
+                "value": false
+              },
+              {
+                "name": "Seed 1",
+                "value": 350
+              },
+              {
+                "name": "Seed 2",
+                "value": 279
+              },
+              {
+                "name": "Seed 3",
+                "value": 14
+              },
+              {
+                "name": "Seed 4",
+                "value": 84
+              },
+              {
+                "name": "Seed 5",
+                "value": 275
+              },
+              {
+                "name": "Seed 6",
+                "value": 161
+              },
+              {
+                "name": "Seed 7",
+                "value": 55
+              }
+            ],
+            "symbol": "GENTK",
+            "version": "0.2",
+            "snippetVersion": "4.0.0",
+            "decimals": 0
+          },
+          "duplicate": false,
+          "activeListing": {
+            "id": 1085748,
+            "version": 1,
+            "price": 5000000,
+            "__typename": "Listing"
+          },
+          "owner": {
+            "id": "tz2VtWQNPH2TsDixaShXp5615sxDNZ4uB436",
+            "name": null,
+            "flag": "NONE",
+            "avatarUri": null,
+            "__typename": "User"
+          },
+          "issuer": {
+            "flag": "NONE",
+            "name": "Rainbow Ripples Automaton",
+            "author": {
+              "id": "tz1iEiZBsrbDWWq5E4RzmWgZUyJfad3r4WEn",
+              "name": "PetiShaMiaou",
+              "type": "REGULAR",
+              "avatarUri": "ipfs://QmYQ7tJYEMJMGhnjmoJDFSq26fX3HHdHp4NVbZxZCUru4o",
+              "flag": "VERIFIED",
+              "collaborators": null,
+              "__typename": "User"
+            },
+            "__typename": "GenerativeToken"
+          },
+          "__typename": "Objkt"
+        },
+        "__typename": "Listing"
+      },
+      {
+        "id": 1085747,
+        "version": 1,
+        "price": 3500000,
+        "objkt": {
+          "id": "FX1-157784",
+          "version": 2,
+          "name": "Rainbow Ripples Automaton #26",
+          "slug": "rainbow-ripples-automaton-26",
+          "metadata": {
+            "name": "Rainbow Ripples Automaton #26",
+            "iterationHash": "opXxyaeZAEGQF4nKD1JwDzMEHVqfCU2sTrHLmGrg4mn27iDuxUP",
+            "description": "Cells try to bounce between low and high luminance but are held by their neighbors; the hue from the highest luminance spreads to the neighbors.\n\n's' to save a gif\n'a' to stop/start the animation",
+            "tags": [
+              "cellular",
+              "automaton",
+              "automata",
+              "hue"
+            ],
+            "generatorUri": "ipfs://QmRKXuhJqXv3Y2r9BAVcdnnBDFy2B2HSEXaut5QKvKFmDo",
+            "artifactUri": "ipfs://QmRKXuhJqXv3Y2r9BAVcdnnBDFy2B2HSEXaut5QKvKFmDo/?fxhash=opXxyaeZAEGQF4nKD1JwDzMEHVqfCU2sTrHLmGrg4mn27iDuxUP&fxiteration=26&fxminter=tz2VtWQNPH2TsDixaShXp5615sxDNZ4uB436#0x402000000000000040340000000000003ff0000000000000004ebd2b8f921835cd1068ec4705cf0e9a9755071acd1cc40374f3c636",
+            "displayUri": "ipfs://QmWrj2KfRRtLxrZDhwX4EjBk3BB4rUS1rJgaXeHhsBFTkH",
+            "thumbnailUri": "ipfs://QmSGtM8BamkVhAw7r6HjbFSLT8tNgzswCeU3SyWZaLq622",
+            "authenticityHash": "2ad9fce0048a040796965b60634aa04bb1b5afbfdecc79c4694a387c56c89e73",
+            "attributes": [
+              {
+                "name": "Cell Size",
+                "value": 8
+              },
+              {
+                "name": "Freedom",
+                "value": 20
+              },
+              {
+                "name": "Seeds",
+                "value": 1
+              },
+              {
+                "name": "InvertSaturation",
+                "value": false
+              },
+              {
+                "name": "Seed 1",
+                "value": 106
+              },
+              {
+                "name": "Seed 2",
+                "value": 346
+              },
+              {
+                "name": "Seed 3",
+                "value": 216
+              },
+              {
+                "name": "Seed 4",
+                "value": 123
+              },
+              {
+                "name": "Seed 5",
+                "value": 33
+              },
+              {
+                "name": "Seed 6",
+                "value": 303
+              },
+              {
+                "name": "Seed 7",
+                "value": 159
+              }
+            ],
+            "symbol": "GENTK",
+            "version": "0.2",
+            "snippetVersion": "4.0.0",
+            "decimals": 0
+          },
+          "duplicate": false,
+          "activeListing": {
+            "id": 1085747,
+            "version": 1,
+            "price": 3500000,
+            "__typename": "Listing"
+          },
+          "owner": {
+            "id": "tz2VtWQNPH2TsDixaShXp5615sxDNZ4uB436",
+            "name": null,
+            "flag": "NONE",
+            "avatarUri": null,
+            "__typename": "User"
+          },
+          "issuer": {
+            "flag": "NONE",
+            "name": "Rainbow Ripples Automaton",
+            "author": {
+              "id": "tz1iEiZBsrbDWWq5E4RzmWgZUyJfad3r4WEn",
+              "name": "PetiShaMiaou",
+              "type": "REGULAR",
+              "avatarUri": "ipfs://QmYQ7tJYEMJMGhnjmoJDFSq26fX3HHdHp4NVbZxZCUru4o",
+              "flag": "VERIFIED",
+              "collaborators": null,
+              "__typename": "User"
+            },
+            "__typename": "GenerativeToken"
+          },
+          "__typename": "Objkt"
+        },
+        "__typename": "Listing"
+      },
+      {
+        "id": 1085746,
+        "version": 1,
+        "price": 3500000,
+        "objkt": {
+          "id": "FX1-165247",
+          "version": 2,
+          "name": "Rainbow Ripples Automaton #40",
+          "slug": "rainbow-ripples-automaton-40",
+          "metadata": {
+            "name": "Rainbow Ripples Automaton #40",
+            "iterationHash": "opS2Q75jB9oCrqZPoWg88iHRouXKQ2WUQmZhhNeLzTBgFbnC1m6",
+            "description": "Cells try to bounce between low and high luminance but are held by their neighbors; the hue from the highest luminance spreads to the neighbors.\n\n's' to save a gif\n'a' to stop/start the animation",
+            "tags": [
+              "cellular",
+              "automaton",
+              "automata",
+              "hue"
+            ],
+            "generatorUri": "ipfs://QmRKXuhJqXv3Y2r9BAVcdnnBDFy2B2HSEXaut5QKvKFmDo",
+            "artifactUri": "ipfs://QmRKXuhJqXv3Y2r9BAVcdnnBDFy2B2HSEXaut5QKvKFmDo/?fxhash=opS2Q75jB9oCrqZPoWg88iHRouXKQ2WUQmZhhNeLzTBgFbnC1m6&fxiteration=40&fxminter=tz1ZjEwXyHtcnD48WfYy9YRpkkc7dSP3Nh4W#0x402000000000000040200000000000003ff000000000000000a6cf9851db2ea16da49fe4aca2515a5d22b4d2ed1157e83a6f1ff9ae",
+            "displayUri": "ipfs://QmRko6i3ugaRAaw5hwZCWnxhKT8Mxd228sRESiuSwsWbpo",
+            "thumbnailUri": "ipfs://QmcpAf33RSFTYkTe3XPLQ6X8vMqnjF11QrU5yfqLKzRLrx",
+            "authenticityHash": "7401a20ec10a77a90b1eb6204076e0e1de53df4ec61d9dfe2ab88a0a017f850f",
+            "attributes": [
+              {
+                "name": "Cell Size",
+                "value": 8
+              },
+              {
+                "name": "Freedom",
+                "value": 8
+              },
+              {
+                "name": "Seeds",
+                "value": 1
+              },
+              {
+                "name": "InvertSaturation",
+                "value": false
+              },
+              {
+                "name": "Seed 1",
+                "value": 105
+              },
+              {
+                "name": "Seed 2",
+                "value": 320
+              },
+              {
+                "name": "Seed 3",
+                "value": 244
+              },
+              {
+                "name": "Seed 4",
+                "value": 353
+              },
+              {
+                "name": "Seed 5",
+                "value": 190
+              },
+              {
+                "name": "Seed 6",
+                "value": 220
+              },
+              {
+                "name": "Seed 7",
+                "value": 262
+              }
+            ],
+            "symbol": "GENTK",
+            "version": "0.2",
+            "snippetVersion": "4.0.0",
+            "decimals": 0
+          },
+          "duplicate": false,
+          "activeListing": {
+            "id": 1085746,
+            "version": 1,
+            "price": 3500000,
+            "__typename": "Listing"
+          },
+          "owner": {
+            "id": "tz1ZjEwXyHtcnD48WfYy9YRpkkc7dSP3Nh4W",
+            "name": null,
+            "flag": "NONE",
+            "avatarUri": null,
+            "__typename": "User"
+          },
+          "issuer": {
+            "flag": "NONE",
+            "name": "Rainbow Ripples Automaton",
+            "author": {
+              "id": "tz1iEiZBsrbDWWq5E4RzmWgZUyJfad3r4WEn",
+              "name": "PetiShaMiaou",
+              "type": "REGULAR",
+              "avatarUri": "ipfs://QmYQ7tJYEMJMGhnjmoJDFSq26fX3HHdHp4NVbZxZCUru4o",
+              "flag": "VERIFIED",
+              "collaborators": null,
+              "__typename": "User"
+            },
+            "__typename": "GenerativeToken"
+          },
+          "__typename": "Objkt"
+        },
+        "__typename": "Listing"
+      },
+      {
+        "id": 1085745,
+        "version": 1,
+        "price": 3000000,
+        "objkt": {
+          "id": "FX1-157783",
+          "version": 2,
+          "name": "Rainbow Ripples Automaton #25",
+          "slug": "rainbow-ripples-automaton-25",
+          "metadata": {
+            "name": "Rainbow Ripples Automaton #25",
+            "iterationHash": "ootVTbUtgktk7AvGG9QVRzvTRmR9nvaEAGbZE7wJYLV2RsVA5RR",
+            "description": "Cells try to bounce between low and high luminance but are held by their neighbors; the hue from the highest luminance spreads to the neighbors.\n\n's' to save a gif\n'a' to stop/start the animation",
+            "tags": [
+              "cellular",
+              "automaton",
+              "automata",
+              "hue"
+            ],
+            "generatorUri": "ipfs://QmRKXuhJqXv3Y2r9BAVcdnnBDFy2B2HSEXaut5QKvKFmDo",
+            "artifactUri": "ipfs://QmRKXuhJqXv3Y2r9BAVcdnnBDFy2B2HSEXaut5QKvKFmDo/?fxhash=ootVTbUtgktk7AvGG9QVRzvTRmR9nvaEAGbZE7wJYLV2RsVA5RR&fxiteration=25&fxminter=tz1ZjEwXyHtcnD48WfYy9YRpkkc7dSP3Nh4W#0x402000000000000040340000000000003ff000000000000000ffffffffffffffffffffffffffffffffffffffffffffffffffffffff",
+            "displayUri": "ipfs://QmRpKvo6udiMjvRcZcCvyR2LryL5uYFb7Psk1mJiqS88a3",
+            "thumbnailUri": "ipfs://QmQiVTyAfw9uRMCJ5TS28QYKdz6HGbDRxzrQYKbp3vsr5M",
+            "authenticityHash": "67ae4c8999dd1d10099c9473f8bfdd4fb02f0fb08696473076c7608206bd6a69",
+            "attributes": [
+              {
+                "name": "Cell Size",
+                "value": 8
+              },
+              {
+                "name": "Freedom",
+                "value": 20
+              },
+              {
+                "name": "Seeds",
+                "value": 1
+              },
+              {
+                "name": "InvertSaturation",
+                "value": false
+              },
+              {
+                "name": "Seed 1",
+                "value": 0
+              },
+              {
+                "name": "Seed 2",
+                "value": 0
+              },
+              {
+                "name": "Seed 3",
+                "value": 0
+              },
+              {
+                "name": "Seed 4",
+                "value": 0
+              },
+              {
+                "name": "Seed 5",
+                "value": 0
+              },
+              {
+                "name": "Seed 6",
+                "value": 0
+              },
+              {
+                "name": "Seed 7",
+                "value": 0
+              }
+            ],
+            "symbol": "GENTK",
+            "version": "0.2",
+            "snippetVersion": "4.0.0",
+            "decimals": 0
+          },
+          "duplicate": false,
+          "activeListing": {
+            "id": 1085745,
+            "version": 1,
+            "price": 3000000,
+            "__typename": "Listing"
+          },
+          "owner": {
+            "id": "tz1ZjEwXyHtcnD48WfYy9YRpkkc7dSP3Nh4W",
+            "name": null,
+            "flag": "NONE",
+            "avatarUri": null,
+            "__typename": "User"
+          },
+          "issuer": {
+            "flag": "NONE",
+            "name": "Rainbow Ripples Automaton",
+            "author": {
+              "id": "tz1iEiZBsrbDWWq5E4RzmWgZUyJfad3r4WEn",
+              "name": "PetiShaMiaou",
+              "type": "REGULAR",
+              "avatarUri": "ipfs://QmYQ7tJYEMJMGhnjmoJDFSq26fX3HHdHp4NVbZxZCUru4o",
+              "flag": "VERIFIED",
+              "collaborators": null,
+              "__typename": "User"
+            },
+            "__typename": "GenerativeToken"
+          },
+          "__typename": "Objkt"
+        },
+        "__typename": "Listing"
+      },
+      {
+        "id": 1085744,
+        "version": 1,
+        "price": 3000000,
+        "objkt": {
+          "id": "FX1-157782",
+          "version": 2,
+          "name": "Rainbow Ripples Automaton #24",
+          "slug": "rainbow-ripples-automaton-24",
+          "metadata": {
+            "name": "Rainbow Ripples Automaton #24",
+            "iterationHash": "onoPH3CxKuF5br3xh6jB81TjPWqHFGDxtSYjWA7kX4kzek9WgBS",
+            "description": "Cells try to bounce between low and high luminance but are held by their neighbors; the hue from the highest luminance spreads to the neighbors.\n\n's' to save a gif\n'a' to stop/start the animation",
+            "tags": [
+              "cellular",
+              "automaton",
+              "automata",
+              "hue"
+            ],
+            "generatorUri": "ipfs://QmRKXuhJqXv3Y2r9BAVcdnnBDFy2B2HSEXaut5QKvKFmDo",
+            "artifactUri": "ipfs://QmRKXuhJqXv3Y2r9BAVcdnnBDFy2B2HSEXaut5QKvKFmDo/?fxhash=onoPH3CxKuF5br3xh6jB81TjPWqHFGDxtSYjWA7kX4kzek9WgBS&fxiteration=24&fxminter=tz1ZjEwXyHtcnD48WfYy9YRpkkc7dSP3Nh4W#0x4030000000000000403a000000000000400000000000000001000000ff000000ff000000ff000000ff000000ff000000ff000000ff",
+            "displayUri": "ipfs://QmUABfe2rVXMbdo5skVHCWodK4rRRJj11m1ea67amwgxNn",
+            "thumbnailUri": "ipfs://QmcJeesZCqhjDPkP5euTLkpnMPCFGpyP3gTpiuog7YGiKq",
+            "authenticityHash": "2a31c82630f8c5cf18e0b5b44bfad9f05ae3be7ced712687e55e60e4c6e27bc7",
+            "attributes": [
+              {
+                "name": "Cell Size",
+                "value": 16
+              },
+              {
+                "name": "Freedom",
+                "value": 26
+              },
+              {
+                "name": "Seeds",
+                "value": 2
+              },
+              {
+                "name": "InvertSaturation",
+                "value": true
+              },
+              {
+                "name": "Seed 1",
+                "value": 0
+              },
+              {
+                "name": "Seed 2",
+                "value": 0
+              },
+              {
+                "name": "Seed 3",
+                "value": 0
+              },
+              {
+                "name": "Seed 4",
+                "value": 0
+              },
+              {
+                "name": "Seed 5",
+                "value": 0
+              },
+              {
+                "name": "Seed 6",
+                "value": 0
+              },
+              {
+                "name": "Seed 7",
+                "value": 0
+              }
+            ],
+            "symbol": "GENTK",
+            "version": "0.2",
+            "snippetVersion": "4.0.0",
+            "decimals": 0
+          },
+          "duplicate": false,
+          "activeListing": {
+            "id": 1085744,
+            "version": 1,
+            "price": 3000000,
+            "__typename": "Listing"
+          },
+          "owner": {
+            "id": "tz1ZjEwXyHtcnD48WfYy9YRpkkc7dSP3Nh4W",
+            "name": null,
+            "flag": "NONE",
+            "avatarUri": null,
+            "__typename": "User"
+          },
+          "issuer": {
+            "flag": "NONE",
+            "name": "Rainbow Ripples Automaton",
+            "author": {
+              "id": "tz1iEiZBsrbDWWq5E4RzmWgZUyJfad3r4WEn",
+              "name": "PetiShaMiaou",
+              "type": "REGULAR",
+              "avatarUri": "ipfs://QmYQ7tJYEMJMGhnjmoJDFSq26fX3HHdHp4NVbZxZCUru4o",
+              "flag": "VERIFIED",
+              "collaborators": null,
+              "__typename": "User"
+            },
+            "__typename": "GenerativeToken"
+          },
+          "__typename": "Objkt"
+        },
+        "__typename": "Listing"
+      },
+      {
+        "id": 1085743,
+        "version": 1,
+        "price": 3000000,
+        "objkt": {
+          "id": "FX1-157450",
+          "version": 2,
+          "name": "Rainbow Ripples Automaton #18",
+          "slug": "rainbow-ripples-automaton-18",
+          "metadata": {
+            "name": "Rainbow Ripples Automaton #18",
+            "iterationHash": "opVKREiM3hibCz3i8YhXxWmP3ySfH4oZ5bwVYQApoMZKi4uhh2Q",
+            "description": "Cells try to bounce between low and high luminance but are held by their neighbors; the hue from the highest luminance spreads to the neighbors.\n\n's' to save a gif\n'a' to stop/start the animation",
+            "tags": [
+              "cellular",
+              "automaton",
+              "automata",
+              "hue"
+            ],
+            "generatorUri": "ipfs://QmRKXuhJqXv3Y2r9BAVcdnnBDFy2B2HSEXaut5QKvKFmDo",
+            "artifactUri": "ipfs://QmRKXuhJqXv3Y2r9BAVcdnnBDFy2B2HSEXaut5QKvKFmDo/?fxhash=opVKREiM3hibCz3i8YhXxWmP3ySfH4oZ5bwVYQApoMZKi4uhh2Q&fxiteration=18&fxminter=tz1ZjEwXyHtcnD48WfYy9YRpkkc7dSP3Nh4W#0x402000000000000040400000000000003ff0000000000000013434b683f5cd7a26d131c6438cb0240cb26ecdff657087e06a3bf929",
+            "displayUri": "ipfs://QmU4oUojP5yQEcyLkXJW31xTBiUrp55BVk4h9Zoj5sjzYz",
+            "thumbnailUri": "ipfs://Qmcikj4ENomFLzXgpnbvFbitJzdVe2nHjpLvnuhPDQF4Ns",
+            "authenticityHash": "402d2b969ae6805ad3ca7a3b46067bb094046a857cd6dc6d4138ffcc14e0432e",
+            "attributes": [
+              {
+                "name": "Cell Size",
+                "value": 8
+              },
+              {
+                "name": "Freedom",
+                "value": 32
+              },
+              {
+                "name": "Seeds",
+                "value": 1
+              },
+              {
+                "name": "InvertSaturation",
+                "value": true
+              },
+              {
+                "name": "Seed 1",
+                "value": 240
+              },
+              {
+                "name": "Seed 2",
+                "value": 40
+              },
+              {
+                "name": "Seed 3",
+                "value": 304
+              },
+              {
+                "name": "Seed 4",
+                "value": 75
+              },
+              {
+                "name": "Seed 5",
+                "value": 283
+              },
+              {
+                "name": "Seed 6",
+                "value": 221
+              },
+              {
+                "name": "Seed 7",
+                "value": 255
+              }
+            ],
+            "symbol": "GENTK",
+            "version": "0.2",
+            "snippetVersion": "4.0.0",
+            "decimals": 0
+          },
+          "duplicate": false,
+          "activeListing": {
+            "id": 1085743,
+            "version": 1,
+            "price": 3000000,
+            "__typename": "Listing"
+          },
+          "owner": {
+            "id": "tz1ZjEwXyHtcnD48WfYy9YRpkkc7dSP3Nh4W",
+            "name": null,
+            "flag": "NONE",
+            "avatarUri": null,
+            "__typename": "User"
+          },
+          "issuer": {
+            "flag": "NONE",
+            "name": "Rainbow Ripples Automaton",
+            "author": {
+              "id": "tz1iEiZBsrbDWWq5E4RzmWgZUyJfad3r4WEn",
+              "name": "PetiShaMiaou",
+              "type": "REGULAR",
+              "avatarUri": "ipfs://QmYQ7tJYEMJMGhnjmoJDFSq26fX3HHdHp4NVbZxZCUru4o",
+              "flag": "VERIFIED",
+              "collaborators": null,
+              "__typename": "User"
+            },
+            "__typename": "GenerativeToken"
+          },
+          "__typename": "Objkt"
+        },
+        "__typename": "Listing"
+      },
+      {
+        "id": 1085742,
+        "version": 1,
+        "price": 3000000,
+        "objkt": {
+          "id": "FX1-165246",
+          "version": 2,
+          "name": "Rainbow Ripples Automaton #39",
+          "slug": "rainbow-ripples-automaton-39",
+          "metadata": {
+            "name": "Rainbow Ripples Automaton #39",
+            "iterationHash": "opRQkTMbV6USYLDFuMYSFYeqrQG5khdzPHWCEiyonPshQxobBsg",
+            "description": "Cells try to bounce between low and high luminance but are held by their neighbors; the hue from the highest luminance spreads to the neighbors.\n\n's' to save a gif\n'a' to stop/start the animation",
+            "tags": [
+              "cellular",
+              "automaton",
+              "automata",
+              "hue"
+            ],
+            "generatorUri": "ipfs://QmRKXuhJqXv3Y2r9BAVcdnnBDFy2B2HSEXaut5QKvKFmDo",
+            "artifactUri": "ipfs://QmRKXuhJqXv3Y2r9BAVcdnnBDFy2B2HSEXaut5QKvKFmDo/?fxhash=opRQkTMbV6USYLDFuMYSFYeqrQG5khdzPHWCEiyonPshQxobBsg&fxiteration=39&fxminter=tz1ZjEwXyHtcnD48WfYy9YRpkkc7dSP3Nh4W#0x40280000000000004037000000000000400000000000000001ffe500fcf50000ffc66b733fc50b32ec495d4d0fab71774456fc3c57",
+            "displayUri": "ipfs://QmWFrMFU9UybE7smqEap8DnqSHFvjSUR7LhweUprm2h88e",
+            "thumbnailUri": "ipfs://QmZ2xdBSpRgxCEX4to6jsRoHLMVUPz3qiifDy6uXtD6WjH",
+            "authenticityHash": "3642de3dde52cb049942f5690a257a80a4666d970856482a1f9821de464b8cad",
+            "attributes": [
+              {
+                "name": "Cell Size",
+                "value": 12
+              },
+              {
+                "name": "Freedom",
+                "value": 23
+              },
+              {
+                "name": "Seeds",
+                "value": 2
+              },
+              {
+                "name": "InvertSaturation",
+                "value": true
+              },
+              {
+                "name": "Seed 1",
+                "value": 54
+              },
+              {
+                "name": "Seed 2",
+                "value": 0
+              },
+              {
+                "name": "Seed 3",
+                "value": 355
+              },
+              {
+                "name": "Seed 4",
+                "value": 347
+              },
+              {
+                "name": "Seed 5",
+                "value": 132
+              },
+              {
+                "name": "Seed 6",
+                "value": 354
+              },
+              {
+                "name": "Seed 7",
+                "value": 112
+              }
+            ],
+            "symbol": "GENTK",
+            "version": "0.2",
+            "snippetVersion": "4.0.0",
+            "decimals": 0
+          },
+          "duplicate": false,
+          "activeListing": {
+            "id": 1085742,
+            "version": 1,
+            "price": 3000000,
+            "__typename": "Listing"
+          },
+          "owner": {
+            "id": "tz1ZjEwXyHtcnD48WfYy9YRpkkc7dSP3Nh4W",
+            "name": null,
+            "flag": "NONE",
+            "avatarUri": null,
+            "__typename": "User"
+          },
+          "issuer": {
+            "flag": "NONE",
+            "name": "Rainbow Ripples Automaton",
+            "author": {
+              "id": "tz1iEiZBsrbDWWq5E4RzmWgZUyJfad3r4WEn",
+              "name": "PetiShaMiaou",
+              "type": "REGULAR",
+              "avatarUri": "ipfs://QmYQ7tJYEMJMGhnjmoJDFSq26fX3HHdHp4NVbZxZCUru4o",
+              "flag": "VERIFIED",
+              "collaborators": null,
+              "__typename": "User"
+            },
+            "__typename": "GenerativeToken"
+          },
+          "__typename": "Objkt"
+        },
+        "__typename": "Listing"
+      },
+      {
+        "id": 1085741,
+        "version": 1,
+        "price": 14000000,
+        "objkt": {
+          "id": "FX1-189007",
+          "version": 2,
+          "name": "🅽🆈🅼🅾🆁🅰 #185",
+          "slug": "185-2ddf294f-0129-49e7-8109-3275e88c38b2",
+          "metadata": {
+            "name": "🅽🆈🅼🅾🆁🅰 #185",
+            "iterationHash": "oogGUbTFuQM4j2t9MnLoFEV7g6XKpJLvaH1r2hzh6JbuWjjKky2",
+            "description": "\n███╗░░██╗██╗░░░██╗███╗░░░███╗░█████╗░██████╗░░█████╗░\n████╗░██║╚██╗░██╔╝████╗░████║██╔══██╗██╔══██╗██╔══██╗\n██╔██╗██║░╚████╔╝░██╔████╔██║██║░░██║██████╔╝███████║\n██║╚████║░░╚██╔╝░░██║╚██╔╝██║██║░░██║██╔══██╗██╔══██║\n██║░╚███║░░░██║░░░██║░╚═╝░██║╚█████╔╝██║░░██║██║░░██║\n╚═╝░░╚══╝░░░╚═╝░░░╚═╝░░░░░╚═╝░╚════╝░╚═╝░░╚═╝╚═╝░░╚═╝\n\n100 color palettes 🅽🆈🅼🅾🆁🅰 abstractions\n\nSave canvas: \"s\" PNG, \"j\" JPG",
+            "tags": [
+              "nymora",
+              "p5js",
+              "abstraction"
+            ],
+            "generatorUri": "ipfs://QmXgV7JrWvdDnojc3J4A8wAro2dmV1EDxAMiaYzbz4YRaT",
+            "artifactUri": "ipfs://QmXgV7JrWvdDnojc3J4A8wAro2dmV1EDxAMiaYzbz4YRaT/?fxhash=oogGUbTFuQM4j2t9MnLoFEV7g6XKpJLvaH1r2hzh6JbuWjjKky2&fxiteration=185&fxminter=tz1dAVKwbGe1PVnPBkRZYmYFsecDtTLHjHLK",
+            "displayUri": "ipfs://QmTav6XDUHzETsF3j5MviJ9GgBYtt6brWDDP4xFaLhaqL8",
+            "thumbnailUri": "ipfs://QmRNSezYNhPcYjFE5ssDdZ9itYmi4gxs5RmTAZgEZtjdc7",
+            "authenticityHash": "6c1c4ff486c90e9ba9fb7d25fd3db39d45b5ef56f4a0a49966ce586aebcf4010",
+            "attributes": [],
+            "symbol": "GENTK",
+            "version": "0.2",
+            "snippetVersion": "4.0.1",
+            "decimals": 0
+          },
+          "duplicate": false,
+          "activeListing": {
+            "id": 1085741,
+            "version": 1,
+            "price": 14000000,
+            "__typename": "Listing"
+          },
+          "owner": {
+            "id": "tz1ZjEwXyHtcnD48WfYy9YRpkkc7dSP3Nh4W",
+            "name": null,
+            "flag": "NONE",
+            "avatarUri": null,
+            "__typename": "User"
+          },
+          "issuer": {
+            "flag": "NONE",
+            "name": "🅽🆈🅼🅾🆁🅰",
+            "author": {
+              "id": "tz1aWvSV1PUVmEMW3Cv8owVXirneU2UrejMb",
+              "name": "Linali",
+              "type": "REGULAR",
+              "avatarUri": "ipfs://QmNXGj5A8vvUTcGWBNWyibw6FriFP4tztUWL45rbjvWeC2",
+              "flag": "VERIFIED",
+              "collaborators": null,
+              "__typename": "User"
+            },
+            "__typename": "GenerativeToken"
+          },
+          "__typename": "Objkt"
+        },
+        "__typename": "Listing"
+      },
+      {
+        "id": 1085740,
+        "version": 1,
+        "price": 9600000,
+        "objkt": {
+          "id": "FX1-189084",
+          "version": 2,
+          "name": "🅽🆈🅼🅾🆁🅰 #217",
+          "slug": "217-3e3c88c0-027c-445f-916b-aa2e0814e352",
+          "metadata": {
+            "name": "🅽🆈🅼🅾🆁🅰 #217",
+            "iterationHash": "ooqbuhopawuD5wRELcWi7k78nDLZgGiyVZX7Wkyu7shxvgt4XHc",
+            "description": "\n███╗░░██╗██╗░░░██╗███╗░░░███╗░█████╗░██████╗░░█████╗░\n████╗░██║╚██╗░██╔╝████╗░████║██╔══██╗██╔══██╗██╔══██╗\n██╔██╗██║░╚████╔╝░██╔████╔██║██║░░██║██████╔╝███████║\n██║╚████║░░╚██╔╝░░██║╚██╔╝██║██║░░██║██╔══██╗██╔══██║\n██║░╚███║░░░██║░░░██║░╚═╝░██║╚█████╔╝██║░░██║██║░░██║\n╚═╝░░╚══╝░░░╚═╝░░░╚═╝░░░░░╚═╝░╚════╝░╚═╝░░╚═╝╚═╝░░╚═╝\n\n100 color palettes 🅽🆈🅼🅾🆁🅰 abstractions\n\nSave canvas: \"s\" PNG, \"j\" JPG",
+            "tags": [
+              "nymora",
+              "p5js",
+              "abstraction"
+            ],
+            "generatorUri": "ipfs://QmXgV7JrWvdDnojc3J4A8wAro2dmV1EDxAMiaYzbz4YRaT",
+            "artifactUri": "ipfs://QmXgV7JrWvdDnojc3J4A8wAro2dmV1EDxAMiaYzbz4YRaT/?fxhash=ooqbuhopawuD5wRELcWi7k78nDLZgGiyVZX7Wkyu7shxvgt4XHc&fxiteration=217&fxminter=tz1dAVKwbGe1PVnPBkRZYmYFsecDtTLHjHLK",
+            "displayUri": "ipfs://QmSwtzWi4QUh8gERTsouhaExTcVtB7Xz3khi7M556ykRui",
+            "thumbnailUri": "ipfs://QmU3cYpZi1dqUpZhyDKVLCX1M3n1z1SVHBJzoPBsxXyouu",
+            "authenticityHash": "c1a683d8e0adb780c8fbc557c200f2294a23e56ff29f9a52d94b36fbeddd47c7",
+            "attributes": [],
+            "symbol": "GENTK",
+            "version": "0.2",
+            "snippetVersion": "4.0.1",
+            "decimals": 0
+          },
+          "duplicate": false,
+          "activeListing": {
+            "id": 1085740,
+            "version": 1,
+            "price": 9600000,
+            "__typename": "Listing"
+          },
+          "owner": {
+            "id": "tz1ZjEwXyHtcnD48WfYy9YRpkkc7dSP3Nh4W",
+            "name": null,
+            "flag": "NONE",
+            "avatarUri": null,
+            "__typename": "User"
+          },
+          "issuer": {
+            "flag": "NONE",
+            "name": "🅽🆈🅼🅾🆁🅰",
+            "author": {
+              "id": "tz1aWvSV1PUVmEMW3Cv8owVXirneU2UrejMb",
+              "name": "Linali",
+              "type": "REGULAR",
+              "avatarUri": "ipfs://QmNXGj5A8vvUTcGWBNWyibw6FriFP4tztUWL45rbjvWeC2",
+              "flag": "VERIFIED",
+              "collaborators": null,
+              "__typename": "User"
+            },
+            "__typename": "GenerativeToken"
+          },
+          "__typename": "Objkt"
+        },
+        "__typename": "Listing"
+      },
+      {
+        "id": 1085739,
+        "version": 1,
+        "price": 18000000,
+        "objkt": {
+          "id": "FX1-188833",
+          "version": 2,
+          "name": "🅽🆈🅼🅾🆁🅰 #105",
+          "slug": "105-435b3d83-d19d-41a1-95cd-777d90f88f23",
+          "metadata": {
+            "name": "🅽🆈🅼🅾🆁🅰 #105",
+            "iterationHash": "onoSTBxJjucvjzWi6mGiTapAu325kZ2DvHEWToMKEXGmF5pYwpM",
+            "description": "\n███╗░░██╗██╗░░░██╗███╗░░░███╗░█████╗░██████╗░░█████╗░\n████╗░██║╚██╗░██╔╝████╗░████║██╔══██╗██╔══██╗██╔══██╗\n██╔██╗██║░╚████╔╝░██╔████╔██║██║░░██║██████╔╝███████║\n██║╚████║░░╚██╔╝░░██║╚██╔╝██║██║░░██║██╔══██╗██╔══██║\n██║░╚███║░░░██║░░░██║░╚═╝░██║╚█████╔╝██║░░██║██║░░██║\n╚═╝░░╚══╝░░░╚═╝░░░╚═╝░░░░░╚═╝░╚════╝░╚═╝░░╚═╝╚═╝░░╚═╝\n\n100 color palettes 🅽🆈🅼🅾🆁🅰 abstractions\n\nSave canvas: \"s\" PNG, \"j\" JPG",
+            "tags": [
+              "nymora",
+              "p5js",
+              "abstraction"
+            ],
+            "generatorUri": "ipfs://QmXgV7JrWvdDnojc3J4A8wAro2dmV1EDxAMiaYzbz4YRaT",
+            "artifactUri": "ipfs://QmXgV7JrWvdDnojc3J4A8wAro2dmV1EDxAMiaYzbz4YRaT/?fxhash=onoSTBxJjucvjzWi6mGiTapAu325kZ2DvHEWToMKEXGmF5pYwpM&fxiteration=105&fxminter=tz1dfJ6qJSE7evRrV7pFRhPazxxPWT6StKt4",
+            "displayUri": "ipfs://QmS2i7etpMGqRh1TnFAJ1rQUkyMqNjfZ8MjA9ttzyqzK39",
+            "thumbnailUri": "ipfs://QmSpiprEabzBXTASp7422D9adYgLYmYqvVCgzQYBrJqKCc",
+            "authenticityHash": "871a7539a1a152a362b0db4211632076ff9be610539a6aa1903cc050ce1a8e21",
+            "attributes": [],
+            "symbol": "GENTK",
+            "version": "0.2",
+            "snippetVersion": "4.0.1",
+            "decimals": 0
+          },
+          "duplicate": false,
+          "activeListing": {
+            "id": 1085739,
+            "version": 1,
+            "price": 18000000,
+            "__typename": "Listing"
+          },
+          "owner": {
+            "id": "tz2VtWQNPH2TsDixaShXp5615sxDNZ4uB436",
+            "name": null,
+            "flag": "NONE",
+            "avatarUri": null,
+            "__typename": "User"
+          },
+          "issuer": {
+            "flag": "NONE",
+            "name": "🅽🆈🅼🅾🆁🅰",
+            "author": {
+              "id": "tz1aWvSV1PUVmEMW3Cv8owVXirneU2UrejMb",
+              "name": "Linali",
+              "type": "REGULAR",
+              "avatarUri": "ipfs://QmNXGj5A8vvUTcGWBNWyibw6FriFP4tztUWL45rbjvWeC2",
+              "flag": "VERIFIED",
+              "collaborators": null,
+              "__typename": "User"
+            },
+            "__typename": "GenerativeToken"
+          },
+          "__typename": "Objkt"
+        },
+        "__typename": "Listing"
+      },
+      {
+        "id": 1085738,
+        "version": 1,
+        "price": 32000000,
+        "objkt": {
+          "id": "FX0-1206771",
+          "version": 1,
+          "name": "#0024 - Sustainability #82",
+          "slug": "0024-sustainability-82",
+          "metadata": {
+            "name": "#0024 - Sustainability #82",
+            "iterationHash": "opAanyUcDL5q2sLm3ggQDoXrQVF8CEsvPAom8uzvX2vFd3oDAKu",
+            "description": ":)",
+            "tags": [
+              "Woot",
+              "Scoot",
+              "WootScoot",
+              "daily",
+              "genart",
+              "genartclub",
+              "p5js",
+              "shader",
+              "webgl"
+            ],
+            "generatorUri": "ipfs://QmfEr4QcqCt97PQqCKUxuTYmqVwwhNu4d41BL1xF4MSZXx",
+            "artifactUri": "ipfs://QmfEr4QcqCt97PQqCKUxuTYmqVwwhNu4d41BL1xF4MSZXx?fxhash=opAanyUcDL5q2sLm3ggQDoXrQVF8CEsvPAom8uzvX2vFd3oDAKu",
+            "displayUri": "ipfs://QmR9eQVuWhprGXstqZvBeXQhJPduSUzF4YVvYRxzSgSfpu",
+            "thumbnailUri": "ipfs://QmdpsZuEGU1g4YxXW3hheNkfpn9twUH6x9YA9zqHy3QHtN",
+            "authenticityHash": "21a978ad92a34e53ef57829df85d4761c16897b0b5542c660026f0c29ff7bfb4",
+            "attributes": [
+              {
+                "name": "Palette",
+                "value": 2
+              },
+              {
+                "name": "Accent Palette",
+                "value": 5
+              },
+              {
+                "name": "Size Div",
+                "value": 1.1
+              },
+              {
+                "name": "Sub Size Div",
+                "value": 1.15
+              },
+              {
+                "name": "Min Size",
+                "value": 3
+              },
+              {
+                "name": "Divisions",
+                "value": 3
+              },
+              {
+                "name": "Angle Variability",
+                "value": 0.4
+              },
+              {
+                "name": "Starting Size",
+                "value": 0.2
+              },
+              {
+                "name": "Camera Y",
+                "value": 0.7
+              },
+              {
+                "name": "Camera X",
+                "value": 0.1
+              },
+              {
+                "name": "Camera Z",
+                "value": 2.5
+              },
+              {
+                "name": "Mountain Depth",
+                "value": 1.5
+              }
+            ],
+            "decimals": 0,
+            "symbol": "GENTK",
+            "version": "0.2"
+          },
+          "duplicate": false,
+          "activeListing": {
+            "id": 1085738,
+            "version": 1,
+            "price": 32000000,
+            "__typename": "Listing"
+          },
+          "owner": {
+            "id": "tz1UTZ4HcXttu1tTHojPaFLZQkrMQ9dUWLrY",
+            "name": "pshkev1ch",
+            "flag": "NONE",
+            "avatarUri": "ipfs://QmYokkWAzA2p2VYNz7ZiBJm8APjx8X4GBNWjLPLeTZ4Mgc",
+            "__typename": "User"
+          },
+          "issuer": {
+            "flag": "NONE",
+            "name": "#0024 - Sustainability",
+            "author": {
+              "id": "tz1bAy8hmBnRNvmfXrLYZ61vGP2b4dN8GHRr",
+              "name": "WootScoot Playground",
+              "type": "REGULAR",
+              "avatarUri": "ipfs://QmTihPTgjxPQ1kPWbz7bjLLd3bdb76984bK9CpppAmt5Vm",
+              "flag": "VERIFIED",
+              "collaborators": null,
+              "__typename": "User"
+            },
+            "__typename": "GenerativeToken"
+          },
+          "__typename": "Objkt"
+        },
+        "__typename": "Listing"
+      },
+      {
+        "id": 1085737,
+        "version": 1,
+        "price": 3900000,
+        "objkt": {
+          "id": "FX1-186225",
+          "version": 2,
+          "name": "Losing My Marbles #531",
+          "slug": "losing-my-marbles-531",
+          "metadata": {
+            "name": "Losing My Marbles #531",
+            "iterationHash": "ooANaZgJw3rbYzdGjtQw5c2mQ7yVP3AajyD76Lhug3ZZo3XfnhT",
+            "description": "A spin-off idea from a spin-off idea. Lean into losing it.\n\nPress 2/4/6/8/0 to save a frame resized to 2/4/6/8/10K along the longest edge.\n\nPress 's' to save a png at current resolution.\n",
+            "tags": [
+              "generative",
+              "colourful",
+              "abstract",
+              "pop"
+            ],
+            "generatorUri": "onchfs://bf7cc73102b16f70d39e64297a8622bfd99a69beebf496b4553c4ab8673c5798",
+            "artifactUri": "onchfs://bf7cc73102b16f70d39e64297a8622bfd99a69beebf496b4553c4ab8673c5798/?fxhash=ooANaZgJw3rbYzdGjtQw5c2mQ7yVP3AajyD76Lhug3ZZo3XfnhT&fxiteration=531&fxminter=tz1NMvVB48fNzrG3rPZS58Eo1nSJ6p3RjRyz",
+            "displayUri": "ipfs://QmNZonJZagmi44abNoCDFz7ttz7y5YCk5Y3JLd8CGR9Gxo",
+            "thumbnailUri": "ipfs://Qme2QWg8rbT1aJJWCoJFzS72Pm6kF4rKYGv2ULQWPaAfcV",
+            "authenticityHash": "9227d5877d6410bec8ac6fcaef4d36337096fe55e76da5b3c2349ec1efda7d34",
+            "attributes": [
+              {
+                "name": "Palette",
+                "value": "Water"
+              },
+              {
+                "name": "Grid Number",
+                "value": 3
+              },
+              {
+                "name": "Noise Scale",
+                "value": 2
+              },
+              {
+                "name": "Positive Colour Mode",
+                "value": "Single"
+              },
+              {
+                "name": "Negative Colour Mode",
+                "value": "Rows random"
+              },
+              {
+                "name": "Background Colour Mode",
+                "value": "Columns progressive"
+              },
+              {
+                "name": "Texture Mode",
+                "value": "Lines"
+              },
+              {
+                "name": "Shading Mode",
+                "value": "Pixelated"
+              },
+              {
+                "name": "Background Pixellation",
+                "value": false
+              },
+              {
+                "name": "Background Corner Fade",
+                "value": true
+              },
+              {
+                "name": "Noise Bleed",
+                "value": "Thick"
+              },
+              {
+                "name": "Noise Bleed Outline",
+                "value": true
+              }
+            ],
+            "symbol": "GENTK",
+            "version": "0.2",
+            "snippetVersion": "4.0.1",
+            "decimals": 0
+          },
+          "duplicate": false,
+          "activeListing": {
+            "id": 1085737,
+            "version": 1,
+            "price": 3900000,
+            "__typename": "Listing"
+          },
+          "owner": {
+            "id": "tz1NMvVB48fNzrG3rPZS58Eo1nSJ6p3RjRyz",
+            "name": "Hevey",
+            "flag": "VERIFIED",
+            "avatarUri": "ipfs://QmeGW5LK9W4KupJKrhRwUGZbaRpSTMb1JnbHqTx6RzJQkv",
+            "__typename": "User"
+          },
+          "issuer": {
+            "flag": "NONE",
+            "name": "Losing My Marbles",
+            "author": {
+              "id": "tz1RH5aJvuk7Qw4UYbwdjfahWHaKsVPgwBhk",
+              "name": "bleaker.art",
+              "type": "REGULAR",
+              "avatarUri": "ipfs://QmZ77A8tKbqSfuX8NRa7uDTA5jb7Et3aPeTNvQLebxE7iC",
+              "flag": "NONE",
+              "collaborators": null,
+              "__typename": "User"
+            },
+            "__typename": "GenerativeToken"
+          },
+          "__typename": "Objkt"
+        },
+        "__typename": "Listing"
+      },
+      {
+        "id": 1085735,
+        "version": 1,
+        "price": 31000000,
+        "objkt": {
+          "id": "FX1-129717",
+          "version": 2,
+          "name": "Cosmic Poems #210",
+          "slug": "cosmic-poems-210",
+          "metadata": {
+            "name": "Cosmic Poems #210",
+            "iterationHash": "op6dNo9Q9q4MKFzo1Q1RzgFkVNpHKmmeYqZsk5ycF4sHJadgbdJ",
+            "description": "Cosmic Poems is the fourth iteration of my work that explores the algorithmic space of typography. In this new piece, I expand on my initial inspirations of the early concrete poetry movement bringing in texts of my own. These short texts are taken from my extensive notes on the subject of artificial intelligence. Snippets of plausible pistes of reflection as well as lighter more tongue in cheek ideas make up the selection I have curated for the work. I hope that it may engage your attention with pleasure. \n\nKeys : ’s’ to save PNG\n\nProgram written by Mark Webster\nFont design by simonrenaud.fr\n\nmwebster.online\n@motiondesign_01\n\n+ • + • + • + • ",
+            "tags": [
+              "poetry",
+              "language",
+              "AI",
+              "permutations",
+              "concrete",
+              "graphic",
+              "typography",
+              "Cosmic",
+              "tisane",
+              "concrete poetry"
+            ],
+            "generatorUri": "onchfs://53907cf26f79c594ad7bed399a328a8db4526417d3e9b36bcc87a32ee48b8dc1",
+            "artifactUri": "onchfs://53907cf26f79c594ad7bed399a328a8db4526417d3e9b36bcc87a32ee48b8dc1/?fxhash=op6dNo9Q9q4MKFzo1Q1RzgFkVNpHKmmeYqZsk5ycF4sHJadgbdJ&fxiteration=210&fxminter=tz1YStxaufuHpfiNJDZSeFuy5n4nZ7nBCeYS",
+            "displayUri": "ipfs://Qme96wKobgvtNi7pMFyumhrWx1nqTgkk4pTKUcbX8jRJ4h",
+            "thumbnailUri": "ipfs://QmZ5bLqZ4DUqCZqiChWpRwrJi3445LvMJAVvbigoBkEtbD",
+            "authenticityHash": "35403fc840a0af0dcd7d169bea1bbe4d146bdc4f15202fd3de7da6cfb221c3ba",
+            "attributes": [
+              {
+                "name": "Glyphs",
+                "value": "Formal_III"
+              },
+              {
+                "name": "Colour Scheme",
+                "value": "Karel_II"
+              },
+              {
+                "name": "Derrida",
+                "value": false
+              },
+              {
+                "name": "Brutal",
+                "value": false
+              },
+              {
+                "name": "Reading Barthes",
+                "value": true
+              },
+              {
+                "name": "Saussure's Sign",
+                "value": false
+              },
+              {
+                "name": "Umberto",
+                "value": false
+              },
+              {
+                "name": "Haiku",
+                "value": false
+              },
+              {
+                "name": "Cosmic Composition",
+                "value": false
+              }
+            ],
+            "decimals": 0,
+            "symbol": "GENTK",
+            "version": "0.2",
+            "snippetVersion": "3.3.0"
+          },
+          "duplicate": false,
+          "activeListing": {
+            "id": 1085735,
+            "version": 1,
+            "price": 31000000,
+            "__typename": "Listing"
+          },
+          "owner": {
+            "id": "tz1cMugfiPv184Dw6PUhai78dTnzvPx9jnDy",
+            "name": "Ucodia",
+            "flag": "NONE",
+            "avatarUri": "ipfs://QmPJwLHvYjU6hYgYYSVJzqR1qdSzPq2XqRCicjE8fS4TKX",
+            "__typename": "User"
+          },
+          "issuer": {
+            "flag": "NONE",
+            "name": "Cosmic Poems",
+            "author": {
+              "id": "tz1iZbRAAsj6GfhPqiX3yCoW8F1cw7oXrxG1",
+              "name": "Mark Webster",
+              "type": "REGULAR",
+              "avatarUri": "ipfs://QmX2Xu6yqgKgHQNZL8hEZizTazJnXRGCRFbR5sTHaH3WzS",
+              "flag": "VERIFIED",
+              "collaborators": null,
+              "__typename": "User"
+            },
+            "__typename": "GenerativeToken"
+          },
+          "__typename": "Objkt"
+        },
+        "__typename": "Listing"
+      },
+      {
         "id": 1085734,
         "version": 1,
         "price": 32000000,
@@ -459,1134 +2100,6 @@
               "name": "abstractment",
               "type": "REGULAR",
               "avatarUri": "ipfs://QmZMNBcsNAkRChJkrrZSPVJ2UoUZ38mzJj9YtnHsHDRpLT",
-              "flag": "VERIFIED",
-              "collaborators": null,
-              "__typename": "User"
-            },
-            "__typename": "GenerativeToken"
-          },
-          "__typename": "Objkt"
-        },
-        "__typename": "Listing"
-      },
-      {
-        "id": 1085729,
-        "version": 1,
-        "price": 1900000,
-        "objkt": {
-          "id": "FX1-186408",
-          "version": 2,
-          "name": "Celtic Knots #52",
-          "slug": "celtic-knots-52",
-          "metadata": {
-            "name": "Celtic Knots #52",
-            "iterationHash": "op1r3XQnMZQJvP2YNnDoq9gqSrxzxZuqTf4BL2o26Z8C5XnzH1g",
-            "description": "This is my attempt to make Celtic Knots, inspired by Kusamehewa's wonderful \"Cwlwm Celtaidd\" project, plus my own heritage (75% Irish + Scottish + Welsch). I designed a bunch of Truchet tiles and used WEBGL to make the lines crisscross. It's free because it has some errors I couldn't fix in how the tiles line up with each other, plus it's not all that artistic in my opinion. But I still thought it was a cool project that some might enjoy. Using p5js.\n\nAvailable until March 19. Royalties shared 50% with the minter.\n\nAfter opening, press \"s\" for a large png.",
-            "tags": [
-              "celtic",
-              "celtic knot",
-              "Cwlwm Celtaidd",
-              "generative",
-              "fxhash",
-              "truchet",
-              "irish",
-              "scottish",
-              "ireland",
-              "scotland"
-            ],
-            "generatorUri": "onchfs://ca664b65f1c6129e2953e989bfed3c1d8896ca7f48edb173199c1b76020b71b4",
-            "artifactUri": "onchfs://ca664b65f1c6129e2953e989bfed3c1d8896ca7f48edb173199c1b76020b71b4/?fxhash=op1r3XQnMZQJvP2YNnDoq9gqSrxzxZuqTf4BL2o26Z8C5XnzH1g&fxiteration=52&fxminter=tz1i1hAWBHGFwntJasxBmJGMsRJEpQ9G43uX#0x415c5a0fc0000000401c0000000000002576e6023e76d596",
-            "displayUri": "ipfs://QmT8ZSG5aEGF6sYyeoEwPBDXG51BFnSmvT46oV2NYnRQQa",
-            "thumbnailUri": "ipfs://QmQ2yfUAmMe9ZJbHuBXnRZagjuT4pYD9zHfj4j6DREbuad",
-            "authenticityHash": "931288e7341fd656ce3f89d0137120ea1e84ee3dd6ce040fa608be2fb475bc02",
-            "attributes": [],
-            "symbol": "GENTK",
-            "version": "0.2",
-            "snippetVersion": "4.0.1",
-            "decimals": 0
-          },
-          "duplicate": false,
-          "activeListing": {
-            "id": 1085729,
-            "version": 1,
-            "price": 1900000,
-            "__typename": "Listing"
-          },
-          "owner": {
-            "id": "tz1i1hAWBHGFwntJasxBmJGMsRJEpQ9G43uX",
-            "name": null,
-            "flag": "NONE",
-            "avatarUri": null,
-            "__typename": "User"
-          },
-          "issuer": {
-            "flag": "NONE",
-            "name": "Celtic Knots",
-            "author": {
-              "id": "tz1er8utEYj4Y1JiSyuNmzBBqofy92eqwhvi",
-              "name": "Steve's Makerspace",
-              "type": "REGULAR",
-              "avatarUri": "ipfs://QmabWQwxicSug3woTcKfx97Lwn8wN9pp8KAFAGr5GCyU2g",
-              "flag": "VERIFIED",
-              "collaborators": null,
-              "__typename": "User"
-            },
-            "__typename": "GenerativeToken"
-          },
-          "__typename": "Objkt"
-        },
-        "__typename": "Listing"
-      },
-      {
-        "id": 1085728,
-        "version": 1,
-        "price": 4500000,
-        "objkt": {
-          "id": "FX1-165747",
-          "version": 2,
-          "name": "Traveling Circus #56",
-          "slug": "traveling-circus-56",
-          "metadata": {
-            "name": "Traveling Circus #56",
-            "iterationHash": "ooseknyMuw9cCsGuMzh6q5QLpA7HdZUxZHdP6T5TEGfjfVGo5F1",
-            "description": "A fun little project for the bear market.  Flow lines and shapes move between two flow fields.  Made in p5.js.  Finishes off using Dave Pagurek's grain shader.  For main shape color from palette, color #6 is sometimes best.  The code will mint exactly what you create with the parameters, while another minter will get a different result with the same parameters. \n\nPress \"s\" to save a 3500 x 3500 pixel png.",
-            "tags": [
-              "flow field",
-              "params",
-              "generative",
-              "fxhash"
-            ],
-            "generatorUri": "ipfs://QmXVsERipaNhzxF3uR3G3jxazLPhqnPUuuDgoh5xrGZt8C",
-            "artifactUri": "ipfs://QmXVsERipaNhzxF3uR3G3jxazLPhqnPUuuDgoh5xrGZt8C/?fxhash=ooseknyMuw9cCsGuMzh6q5QLpA7HdZUxZHdP6T5TEGfjfVGo5F1&fxiteration=56&fxminter=tz1i1hAWBHGFwntJasxBmJGMsRJEpQ9G43uX&fxparams=41cd6ed6bc000000402c0000000000003f5f212d77318fc53fda3d70a3d70a3d3f87f62b6ae7d5673fa47ae147ae147b40aa900000000000408db00000000000401e0000000000004010000000000000070100",
-            "displayUri": "ipfs://QmUFUJrbPN1jDWWdmmGjWgVSt9idQE5WayFQrxTUBnVZto",
-            "thumbnailUri": "ipfs://QmVr12D3V5gWYui7dn97YJH2qx8pK8mVfeTmcgb3RFUx1X",
-            "authenticityHash": "d46ac652d1074b77fcd964ba018648bd789bdaf633473b13d1ee4d7eab1170d8",
-            "attributes": [],
-            "symbol": "GENTK",
-            "version": "0.2",
-            "decimals": 0
-          },
-          "duplicate": false,
-          "activeListing": {
-            "id": 1085728,
-            "version": 1,
-            "price": 4500000,
-            "__typename": "Listing"
-          },
-          "owner": {
-            "id": "tz1i1hAWBHGFwntJasxBmJGMsRJEpQ9G43uX",
-            "name": null,
-            "flag": "NONE",
-            "avatarUri": null,
-            "__typename": "User"
-          },
-          "issuer": {
-            "flag": "NONE",
-            "name": "Traveling Circus",
-            "author": {
-              "id": "tz1er8utEYj4Y1JiSyuNmzBBqofy92eqwhvi",
-              "name": "Steve's Makerspace",
-              "type": "REGULAR",
-              "avatarUri": "ipfs://QmabWQwxicSug3woTcKfx97Lwn8wN9pp8KAFAGr5GCyU2g",
-              "flag": "VERIFIED",
-              "collaborators": null,
-              "__typename": "User"
-            },
-            "__typename": "GenerativeToken"
-          },
-          "__typename": "Objkt"
-        },
-        "__typename": "Listing"
-      },
-      {
-        "id": 1085727,
-        "version": 1,
-        "price": 31000000,
-        "objkt": {
-          "id": "FX0-458189",
-          "version": 0,
-          "name": "Orbits #78",
-          "slug": "orbits-78",
-          "metadata": {
-            "name": "Orbits #78",
-            "iterationHash": "oniQNQYUfbF48sErzevdMixn7Tu1ZrERAqkuLHKyGF2oqMcJfdx",
-            "description": "Imperfect orbits of shape and color.\n\nAspect Ratio: the default preview is 1:1, but Echos may look better with different aspect ratios. You're encouraged to open in live view and explore different options (tall and narrow, short and wide, etc).\n\nAirdropped as a gift to Echo collectors.",
-            "tags": [],
-            "generatorUri": "ipfs://QmV6KqwLCBSHgK8hmZr6Ut9GNHFGYJQgNSNNmxW1g3C4yp",
-            "artifactUri": "ipfs://QmV6KqwLCBSHgK8hmZr6Ut9GNHFGYJQgNSNNmxW1g3C4yp?fxhash=oniQNQYUfbF48sErzevdMixn7Tu1ZrERAqkuLHKyGF2oqMcJfdx",
-            "displayUri": "ipfs://Qmc2ddupbFRsSzbxd6XZr11aV7da1ZppAk3XFhdhMtf22f",
-            "thumbnailUri": "ipfs://Qmd4gNjoHgVU7TATQDkw4dSERK9aNtQV73LmJSrmwYmwoS",
-            "authenticityHash": "a52e203b4fede6a9c021e300a9e69329d90c78ab66686c0d1a68d30afc3a6bdf",
-            "attributes": [
-              {
-                "name": "Number",
-                "value": 9
-              },
-              {
-                "name": "Color",
-                "value": "Black & White"
-              },
-              {
-                "name": "Reflection",
-                "value": "Top-Right"
-              },
-              {
-                "name": "Lines",
-                "value": "Contract"
-              }
-            ],
-            "decimals": 0,
-            "symbol": "GENTK",
-            "version": "0.2"
-          },
-          "duplicate": false,
-          "activeListing": {
-            "id": 1085727,
-            "version": 1,
-            "price": 31000000,
-            "__typename": "Listing"
-          },
-          "owner": {
-            "id": "tz1UPdmE4NUqdJrVnhuXuuzb6WN27Evi7ac4",
-            "name": null,
-            "flag": "NONE",
-            "avatarUri": null,
-            "__typename": "User"
-          },
-          "issuer": {
-            "flag": "NONE",
-            "name": "Orbits",
-            "author": {
-              "id": "tz2MgAiWfd5i7kee4pMKiY5cx5QQUHD94HFS",
-              "name": "ippsketch",
-              "type": "REGULAR",
-              "avatarUri": "ipfs://QmTZnvRZUtkkcsC5uVA35ELPwoXUUBAk4Wf2tjzesoDYnh",
-              "flag": "VERIFIED",
-              "collaborators": null,
-              "__typename": "User"
-            },
-            "__typename": "GenerativeToken"
-          },
-          "__typename": "Objkt"
-        },
-        "__typename": "Listing"
-      },
-      {
-        "id": 1085726,
-        "version": 1,
-        "price": 6500000,
-        "objkt": {
-          "id": "FX0-406962",
-          "version": 0,
-          "name": "Sketching #370",
-          "slug": "sketching-370",
-          "metadata": {
-            "name": "Sketching #370",
-            "iterationHash": "ooCWh8UMgvKEPtjxaEB4CkEpGF4ttyuJyvPbYymzm7ESdfz6BWn",
-            "description": "Rules : \n  1. Start with either a line or a circle from a number of random points in the space.\n  2. A line can only spawn a circle at the end. \n  3. A circle can spawn both lines and circles before it completes the full circle.\n  4. A circle can sometimes spawn an inner circle.\n  5. Smaller elements will spawn randomly along with the lines.\n\nThis was inspired by the patterns in Marvel's movie : Eternals. I enjoyed the line growing animation with basic geometry ( line and circle ). Combining this with the rules It generates interesting results.\n\nTo add more variety to the rendering, I've added the dash lines in instead of only solid lines. Also the 'lines' consist of thousands of small dots to give it randomness and a bit of texture feeling. \n\n",
-            "tags": [
-              "sketch",
-              "generative"
-            ],
-            "generatorUri": "ipfs://QmVk9ZszQbWTwoqBBRxRG1ew2GAEPWBoXiEGpkYPgvtxBG",
-            "artifactUri": "ipfs://QmVk9ZszQbWTwoqBBRxRG1ew2GAEPWBoXiEGpkYPgvtxBG?fxhash=ooCWh8UMgvKEPtjxaEB4CkEpGF4ttyuJyvPbYymzm7ESdfz6BWn",
-            "displayUri": "ipfs://QmeafjDJ3D3FG8btAFcqZ4My3536P95k7v5JqPnc5U5Tv1",
-            "thumbnailUri": "ipfs://QmcWbZA53bZrWx5BufChzVViQr8yr8PZw5WRp1GpjVykBf",
-            "authenticityHash": "51582f6b01b83c20b1c3373af09952990c6d203c101ad3ccb76da9caef30557f",
-            "attributes": [
-              {
-                "name": "Camera Tilt",
-                "value": false
-              },
-              {
-                "name": "Mirrored",
-                "value": "Horizontal"
-              },
-              {
-                "name": "Circle Only",
-                "value": false
-              },
-              {
-                "name": "Invert Color",
-                "value": false
-              }
-            ],
-            "decimals": 0,
-            "symbol": "GENTK",
-            "version": "0.2"
-          },
-          "duplicate": false,
-          "activeListing": {
-            "id": 1085726,
-            "version": 1,
-            "price": 6500000,
-            "__typename": "Listing"
-          },
-          "owner": {
-            "id": "tz1UPdmE4NUqdJrVnhuXuuzb6WN27Evi7ac4",
-            "name": null,
-            "flag": "NONE",
-            "avatarUri": null,
-            "__typename": "User"
-          },
-          "issuer": {
-            "flag": "NONE",
-            "name": "Sketching",
-            "author": {
-              "id": "tz1WJpiJkNoMEjXE1wvoKeRuZo4o9Zgy6qXe",
-              "name": "Yi-Wen LIN",
-              "type": "REGULAR",
-              "avatarUri": "ipfs://QmSNmxHxxWtApPjcMKFGU964fErwoDo1CxbwwDHDqBVvpz",
-              "flag": "VERIFIED",
-              "collaborators": null,
-              "__typename": "User"
-            },
-            "__typename": "GenerativeToken"
-          },
-          "__typename": "Objkt"
-        },
-        "__typename": "Listing"
-      },
-      {
-        "id": 1085725,
-        "version": 1,
-        "price": 27000000,
-        "objkt": {
-          "id": "FX0-225794",
-          "version": 0,
-          "name": "De/FragV3 #205",
-          "slug": "defragv3-205",
-          "metadata": {
-            "name": "De/FragV3 #205",
-            "iterationHash": "ooEzGG7nXUBeHkZC8NfURUxYQ5FQfmzKre6PeBt8ajrEn1LH1b5",
-            "description": "The 3rd piece in this series is a painterly interpretation of De/FragV2 and highlighting more temporal aspects of the underlying algorithms (Voronoi & Jump Flooding) in unique and never repeating sequences.",
-            "tags": [
-              "voronoi",
-              "painting",
-              "animated",
-              "infinite",
-              "toxi"
-            ],
-            "artifactUri": "ipfs://QmPRYzD2VY4JVNafQH3ckMGuWLC569tE84cj8QEmDiuTrV",
-            "displayUri": "ipfs://Qmbeb7z9FyJBra5FHDKBuoKEXNqWVLEtpwRgeVa11QyCMc",
-            "thumbnailUri": "ipfs://QmQ8TnWhj77P64ZB5oaaSBLPzuMWHYBMTFtZ598yepY4ed",
-            "authenticityHash": "435b5f3729dc363dc5062ba4070c922f3fac12e3584a90adde7c86707a9ac014",
-            "attributes": [
-              {
-                "name": "theme",
-                "value": 12
-              },
-              {
-                "name": "metric",
-                "value": "manhattan"
-              },
-              {
-                "name": "metric (alt)",
-                "value": "eucledian"
-              },
-              {
-                "name": "density",
-                "value": "20%"
-              },
-              {
-                "name": "background",
-                "value": 2
-              },
-              {
-                "name": "seeds",
-                "value": 20
-              },
-              {
-                "name": "speed",
-                "value": 50
-              }
-            ],
-            "decimals": 0,
-            "symbol": "GENTK"
-          },
-          "duplicate": false,
-          "activeListing": {
-            "id": 1085725,
-            "version": 1,
-            "price": 27000000,
-            "__typename": "Listing"
-          },
-          "owner": {
-            "id": "tz1UPdmE4NUqdJrVnhuXuuzb6WN27Evi7ac4",
-            "name": null,
-            "flag": "NONE",
-            "avatarUri": null,
-            "__typename": "User"
-          },
-          "issuer": {
-            "flag": "NONE",
-            "name": "De/FragV3",
-            "author": {
-              "id": "tz1d4ThofujwwaWvxDQHF7VyJfaeR2ay3jhf",
-              "name": "toxi",
-              "type": "REGULAR",
-              "avatarUri": "ipfs://QmTsU7NJw5u7wtzDHPQ878vc6qoZo6dppS6gffGY1u4FwH",
-              "flag": "VERIFIED",
-              "collaborators": null,
-              "__typename": "User"
-            },
-            "__typename": "GenerativeToken"
-          },
-          "__typename": "Objkt"
-        },
-        "__typename": "Listing"
-      },
-      {
-        "id": 1085724,
-        "version": 1,
-        "price": 6000000,
-        "objkt": {
-          "id": "FX0-202093",
-          "version": 0,
-          "name": "Metamorfose #180",
-          "slug": "metamorfose-180",
-          "metadata": {
-            "name": "Metamorfose #180",
-            "iterationHash": "onkn6NHJxZrbiDv81XJuVGASbcJVHAmQFuBeQBzgS7rnmKqzKFH",
-            "description": "To celebrate a time of change for the generative art community — the end of HEN and the beginning of what comes next — here is an eternally transmogrifying system of tiles.",
-            "tags": [
-              "tile system",
-              "animated"
-            ],
-            "artifactUri": "ipfs://QmTVgFD3SMegkEhahnWK8248gB6wCAQm4Na9insJqekxLf",
-            "displayUri": "ipfs://QmVYtfcC76jZDiZxhdiVWoyjkxpTC3VnNxzeDTbVss7CWU",
-            "thumbnailUri": "ipfs://QmSdMojtyuZxd48XCHPeRgkPrdbv9RKTyKTyAMq7QJboHM",
-            "authenticityHash": "98f98a43bc50ea80ad3df3ab4142e00b3701f1485af8ef1cab27de2b252a7747",
-            "attributes": [],
-            "decimals": 0,
-            "symbol": "GENTK"
-          },
-          "duplicate": false,
-          "activeListing": {
-            "id": 1085724,
-            "version": 1,
-            "price": 6000000,
-            "__typename": "Listing"
-          },
-          "owner": {
-            "id": "tz1UPdmE4NUqdJrVnhuXuuzb6WN27Evi7ac4",
-            "name": null,
-            "flag": "NONE",
-            "avatarUri": null,
-            "__typename": "User"
-          },
-          "issuer": {
-            "flag": "NONE",
-            "name": "Metamorfose",
-            "author": {
-              "id": "tz1VbkEEmrxQgMVWeauZF2KD1BaHfrvSHp5z",
-              "name": "Jack Rusher",
-              "type": "REGULAR",
-              "avatarUri": "ipfs://QmdDjKsVosSiu3y2qzs2Tac19hqXvKsDBguwCcQXJeCKXx",
-              "flag": "VERIFIED",
-              "collaborators": null,
-              "__typename": "User"
-            },
-            "__typename": "GenerativeToken"
-          },
-          "__typename": "Objkt"
-        },
-        "__typename": "Listing"
-      },
-      {
-        "id": 1085723,
-        "version": 1,
-        "price": 45000000,
-        "objkt": {
-          "id": "FX0-222216",
-          "version": 0,
-          "name": "Mono Ciphers #90",
-          "slug": "mono-ciphers-90",
-          "metadata": {
-            "name": "Mono Ciphers #90",
-            "iterationHash": "ooeQbTNJXLuLmKYXx7fpPz777m98TSY7qB7B8fUV5vhvV7MJFBd",
-            "description": "A generative series using the most basic of building blocks in monochrome.\n\nThis is the third and final Ciphers generative token.",
-            "tags": [
-              "generative",
-              "glyphs",
-              "ciphers",
-              "grid",
-              "pattern",
-              "black and white",
-              "mono",
-              "perkwerk"
-            ],
-            "artifactUri": "ipfs://QmZTDPNTTU5jVPNSF7gsntWBy1nj2BJq4SkYMg4qdPF9KX",
-            "displayUri": "ipfs://QmcAWQEpA1dg3JsyamAmhT6onptZyJ2C4FYj7ULaVvFnj3",
-            "thumbnailUri": "ipfs://QmQWKpuMmtCYkwTYbv4qEKxKcBUt944TAQAFSX4rmGaC3h",
-            "authenticityHash": "dad271c11d97f03e1b216b0cd987f9fa16a1e73a51ac47e9088bc90f545c8186",
-            "attributes": [
-              {
-                "name": "Theme",
-                "value": "Line Horizontal"
-              },
-              {
-                "name": "Color",
-                "value": "White"
-              },
-              {
-                "name": "Size",
-                "value": "Huge"
-              }
-            ],
-            "decimals": 0,
-            "symbol": "GENTK"
-          },
-          "duplicate": false,
-          "activeListing": {
-            "id": 1085723,
-            "version": 1,
-            "price": 45000000,
-            "__typename": "Listing"
-          },
-          "owner": {
-            "id": "tz1dMtYCxB83jxjPqvzo5TApt5PvpPGM2VJA",
-            "name": null,
-            "flag": "NONE",
-            "avatarUri": null,
-            "__typename": "User"
-          },
-          "issuer": {
-            "flag": "NONE",
-            "name": "Mono Ciphers",
-            "author": {
-              "id": "tz1Y7XasjwFn64jufhDNvh5HrUMUx59hLR67",
-              "name": "perkwerk",
-              "type": "REGULAR",
-              "avatarUri": "ipfs://QmNnz3KMAyX7KG7Aq4KbQc7sWRmuVXfHVguC4vdcRobejB",
-              "flag": "VERIFIED",
-              "collaborators": null,
-              "__typename": "User"
-            },
-            "__typename": "GenerativeToken"
-          },
-          "__typename": "Objkt"
-        },
-        "__typename": "Listing"
-      },
-      {
-        "id": 1085722,
-        "version": 1,
-        "price": 29000000,
-        "objkt": {
-          "id": "FX0-223304",
-          "version": 0,
-          "name": "Skravert #68",
-          "slug": "skravert-68",
-          "metadata": {
-            "name": "Skravert #68",
-            "iterationHash": "oo1NwmTAfiaGdQe34CbyCxhQhdm24yyhNxUFsYg8X6kuBuU1oLQ",
-            "description": "‘Skravert’ - Norwegian, verb, past tense. ‘The act of filling an area with lines; to shade an area’.\n\nSkravert is a series of 320 sketches, each capturing the texture and feel of a material residing somewhere between cardboard and woolen rugs. The project is centred around rectangle subdivision and a line drawing algorithm, giving each piece its own unique expression when combined with a selection of 28 different color  palettes.  \n\nOriginal artwork by perkwerk * made with p5.js * 2021",
-            "tags": [
-              "generative",
-              "recursive",
-              "subdivision",
-              "texture",
-              "hatchpattern",
-              "lines",
-              "skravert",
-              "pattern",
-              "perkwerk"
-            ],
-            "artifactUri": "ipfs://QmeDqmEaUVFdMctGxG41fs8i9qAnuDuLj86YQ8HeNSALeE",
-            "displayUri": "ipfs://QmUm4JukExWn7QHpfnawAEbN2ESHbJSapRkaZ94GtQSdLd",
-            "thumbnailUri": "ipfs://QmbWP1SLeqU1RvWJaW3k4BJCKhrYZHX9tLGwsqKD9k1khX",
-            "authenticityHash": "63e58b61ee96ab3f4d490419389f5e48ba204f02e40610d2b8f447ccd0e6c6b6",
-            "attributes": [
-              {
-                "name": "Format",
-                "value": "Portrait"
-              },
-              {
-                "name": "Rectangle Amount",
-                "value": "Several"
-              },
-              {
-                "name": "Rectangle Type",
-                "value": "Horizontal"
-              },
-              {
-                "name": "Rectangle Spacing",
-                "value": "Padded"
-              },
-              {
-                "name": "Rectangle Outline",
-                "value": "Possible"
-              },
-              {
-                "name": "Palette",
-                "value": "Sunrise"
-              },
-              {
-                "name": "Stroke Weight",
-                "value": "Thin"
-              },
-              {
-                "name": "Color Mode",
-                "value": "Gradient"
-              }
-            ],
-            "decimals": 0,
-            "symbol": "GENTK"
-          },
-          "duplicate": false,
-          "activeListing": {
-            "id": 1085722,
-            "version": 1,
-            "price": 29000000,
-            "__typename": "Listing"
-          },
-          "owner": {
-            "id": "tz1dMtYCxB83jxjPqvzo5TApt5PvpPGM2VJA",
-            "name": null,
-            "flag": "NONE",
-            "avatarUri": null,
-            "__typename": "User"
-          },
-          "issuer": {
-            "flag": "NONE",
-            "name": "Skravert",
-            "author": {
-              "id": "tz1Y7XasjwFn64jufhDNvh5HrUMUx59hLR67",
-              "name": "perkwerk",
-              "type": "REGULAR",
-              "avatarUri": "ipfs://QmNnz3KMAyX7KG7Aq4KbQc7sWRmuVXfHVguC4vdcRobejB",
-              "flag": "VERIFIED",
-              "collaborators": null,
-              "__typename": "User"
-            },
-            "__typename": "GenerativeToken"
-          },
-          "__typename": "Objkt"
-        },
-        "__typename": "Listing"
-      },
-      {
-        "id": 1085721,
-        "version": 1,
-        "price": 45000000,
-        "objkt": {
-          "id": "FX0-175811",
-          "version": 0,
-          "name": "Secret Base #21",
-          "slug": "secret-base-21",
-          "metadata": {
-            "name": "Secret Base #21",
-            "iterationHash": "ooJtriwWFqpqr7Mat71XQNHXBK54M58Hu7SiSXQWqs3uyf4CdnQ",
-            "description": "Aerial view of secret bases - some are from mars, some are not",
-            "tags": [],
-            "artifactUri": "ipfs://QmWi9eEiudoHuq5Es9fAQ4kNhK72qRQ1vQN8cMTN4qzUEB",
-            "displayUri": "ipfs://QmUF1euAYiMXBGTkj9EyY765Z6FqeMJBtVpRPVXc1kBNgu",
-            "thumbnailUri": "ipfs://QmPnHeBkfTaJtABUdfEcVbxT8KJTSxNHFrM4bFAhZuexiZ",
-            "authenticityHash": "1b93e2ab419bfa7161b3f99914496847f7e27a727552d8793e603bd65c8f73fb",
-            "attributes": [],
-            "decimals": 0,
-            "symbol": "GENTK"
-          },
-          "duplicate": false,
-          "activeListing": {
-            "id": 1085721,
-            "version": 1,
-            "price": 45000000,
-            "__typename": "Listing"
-          },
-          "owner": {
-            "id": "tz1dMtYCxB83jxjPqvzo5TApt5PvpPGM2VJA",
-            "name": null,
-            "flag": "NONE",
-            "avatarUri": null,
-            "__typename": "User"
-          },
-          "issuer": {
-            "flag": "NONE",
-            "name": "Secret Base",
-            "author": {
-              "id": "tz1efwnKoty6omAwtUTN8ui2TJniNDcrHgSB",
-              "name": "Orr Kislev",
-              "type": "REGULAR",
-              "avatarUri": "ipfs://QmZgS4StyXdVPpdNHXrLWFpbhUfXbG8iYBBPz7iEmy1khN",
-              "flag": "VERIFIED",
-              "collaborators": null,
-              "__typename": "User"
-            },
-            "__typename": "GenerativeToken"
-          },
-          "__typename": "Objkt"
-        },
-        "__typename": "Listing"
-      },
-      {
-        "id": 1085720,
-        "version": 1,
-        "price": 18000000,
-        "objkt": {
-          "id": "FX0-58258",
-          "version": 0,
-          "name": "Abbreviated Curves #198",
-          "slug": "abbreviated-curves-198",
-          "metadata": {
-            "name": "Abbreviated Curves #198",
-            "iterationHash": "oobsQU2r8Ceuc7ruXdkNizDByx5hd2Xp8yV57x2UDQ11QG63MgD",
-            "description": "p5.js script\n\nspeed : 90% slow, 10% fast\ncolor : 60% citrus, 30% black and white, 10% sunrise\nbackground : 60% light grey, 35% yellow, 5% green\ncolors per curve : 85% 1, 15% 2\nnumber of curves: 60% 40, 30% 20, 10% 80\nwide: 80% false, 20% true",
-            "tags": [
-              "GENERATIVE",
-              "ABSTRACT",
-              "MINIMALIST",
-              "ANIMATION"
-            ],
-            "artifactUri": "ipfs://QmdWMPnh6yYbLPPUZdB9qmvPziE6jicWdXsitR5qsBg5K2",
-            "displayUri": "ipfs://QmNzMFN4q9jgmBkvjYneVQ8ZRGhTkeG4NYKaBu8RFLnqz1",
-            "thumbnailUri": "ipfs://Qmcm59iAwFKEcpYkt5DS8Q7fQJUzGhWuNmpGkvaLXwYhv9",
-            "authenticityHash": "99ae0a11ffde11d57fdf311256629468b0a84b54c9d9e744cc3f70b997229987",
-            "attributes": [
-              {
-                "name": "Speed",
-                "value": "fast"
-              },
-              {
-                "name": "Palette",
-                "value": "black and white"
-              },
-              {
-                "name": "Background Color",
-                "value": "light grey"
-              },
-              {
-                "name": "Colors per curve",
-                "value": 1
-              },
-              {
-                "name": "Bold",
-                "value": false
-              },
-              {
-                "name": "Number of curves",
-                "value": 20
-              },
-              {
-                "name": "Wide",
-                "value": true
-              }
-            ],
-            "decimals": 0,
-            "symbol": "GENTK"
-          },
-          "duplicate": false,
-          "activeListing": {
-            "id": 1085720,
-            "version": 1,
-            "price": 18000000,
-            "__typename": "Listing"
-          },
-          "owner": {
-            "id": "tz1dMtYCxB83jxjPqvzo5TApt5PvpPGM2VJA",
-            "name": null,
-            "flag": "NONE",
-            "avatarUri": null,
-            "__typename": "User"
-          },
-          "issuer": {
-            "flag": "NONE",
-            "name": "Abbreviated Curves",
-            "author": {
-              "id": "tz1RkYY3jr1ocuPdQqrRefr5FqoawKQsmBmD",
-              "name": "Landlines Art",
-              "type": "REGULAR",
-              "avatarUri": "ipfs://QmaDnzJ8wPMQ9uLAHDsCfnn8g7U13zvKNRUiPLgUnepxCQ",
-              "flag": "VERIFIED",
-              "collaborators": null,
-              "__typename": "User"
-            },
-            "__typename": "GenerativeToken"
-          },
-          "__typename": "Objkt"
-        },
-        "__typename": "Listing"
-      },
-      {
-        "id": 1085719,
-        "version": 1,
-        "price": 17900000,
-        "objkt": {
-          "id": "FX0-68931",
-          "version": 0,
-          "name": "Vortex #559",
-          "slug": "vortex-559",
-          "metadata": {
-            "name": "Vortex #559",
-            "iterationHash": "ooPmeJzrSwMEnqvRhySxPX5Wv4h5sTNWv3ggDTXirNNR2dTYn7u",
-            "description": "A collection of hundreds of thousands of points intertwining among each other like atoms to create a continuous real-time interactive vortex.",
-            "tags": [
-              "interactive",
-              "gingey"
-            ],
-            "artifactUri": "ipfs://Qma84Aj9GdcqYMZaNpVWX59WqAdBSDJZmWg2ByvF1bNbxe",
-            "displayUri": "ipfs://Qmc9T9PqY4xCWBzm6RM2jF7iNiZK3RNHpurQ13gTebUn9L",
-            "thumbnailUri": "ipfs://QmQRshut4v1bhXutkUFT6en9RzEYcUvp5tfdaqJTkTpLJw",
-            "authenticityHash": "27fa8998930416ee78971971c36c8e5e6cea3c7938f94ab4b47bbbeafe307b27",
-            "attributes": [
-              {
-                "name": "Point Size",
-                "value": 7
-              },
-              {
-                "name": "Point Type",
-                "value": "Squares"
-              },
-              {
-                "name": "Point Count",
-                "value": 300000
-              },
-              {
-                "name": "Colour Palette Index",
-                "value": 53
-              },
-              {
-                "name": "Segments",
-                "value": 4
-              },
-              {
-                "name": "Segment Size",
-                "value": 4
-              },
-              {
-                "name": "Area Deform Size",
-                "value": 3
-              },
-              {
-                "name": "Axis Twist Index",
-                "value": "Y"
-              },
-              {
-                "name": "Added Lines",
-                "value": "False"
-              }
-            ],
-            "decimals": 0,
-            "symbol": "GENTK"
-          },
-          "duplicate": false,
-          "activeListing": {
-            "id": 1085719,
-            "version": 1,
-            "price": 17900000,
-            "__typename": "Listing"
-          },
-          "owner": {
-            "id": "tz1dMtYCxB83jxjPqvzo5TApt5PvpPGM2VJA",
-            "name": null,
-            "flag": "NONE",
-            "avatarUri": null,
-            "__typename": "User"
-          },
-          "issuer": {
-            "flag": "CLEAN",
-            "name": "Vortex",
-            "author": {
-              "id": "tz1fUmgqttdH9eJ17FRdyeTSZ7eLBDajRN1Q",
-              "name": "Gingey",
-              "type": "REGULAR",
-              "avatarUri": "ipfs://QmQSbXjFyqCvxphAEVrbV9UiBXAdWf8zTYdYnAwDfPGYkd",
-              "flag": "VERIFIED",
-              "collaborators": null,
-              "__typename": "User"
-            },
-            "__typename": "GenerativeToken"
-          },
-          "__typename": "Objkt"
-        },
-        "__typename": "Listing"
-      },
-      {
-        "id": 1085718,
-        "version": 1,
-        "price": 45000000,
-        "objkt": {
-          "id": "FX0-88385",
-          "version": 0,
-          "name": "Lost Twins #338",
-          "slug": "lost-twins-338",
-          "metadata": {
-            "name": "Lost Twins #338",
-            "iterationHash": "opMoZYsPhixuFZ9K1qj5LDuWdv25pDoDbgmq9z4mbG9bRr9KQVX",
-            "description": "Individually, the mints of this token are very simple. Each mint generates half of two cube forms, and each half is assigned random hues (in multiples of 10, from 0 to 360). Collectively as a project, this token challenges the approach of looking for \"rarities\" in a new way. How the cubes are rendered leaves the possibility for multiple mints to potentially join up on the sides with colors that perfect match each other. Will you find your lost twin?\n\nMade in p5js\nCreated November 2021\nArtist: @Yazid",
-            "tags": [
-              "yazid",
-              "generativeart",
-              "p5js"
-            ],
-            "artifactUri": "ipfs://QmeC3DFpYtxNcyGBDs5DaKaF1wjdB4igXT7UTKbyQ4ixVf",
-            "displayUri": "ipfs://QmP5DcteiFt4ZNkMvcWWfe1S3dBFpA3u1Bn2n9KxZ32P8y",
-            "thumbnailUri": "ipfs://QmZWdE3Xck59F3inBkVCFrCSCGeG9yY28sUMYDZJuYAMTb",
-            "authenticityHash": "8f03926b58c4c30df2fd0377c7fd90620565bc00929c32950043ad80def3f2ff",
-            "attributes": [
-              {
-                "name": "Background Hue",
-                "value": 280
-              },
-              {
-                "name": "Right Cube Hue (Top)",
-                "value": 160
-              },
-              {
-                "name": "Left Cube Hue (Top)",
-                "value": 190
-              },
-              {
-                "name": "Right Cube Hue (Side)",
-                "value": 40
-              },
-              {
-                "name": "Left Cube Hue (Side)",
-                "value": 80
-              }
-            ],
-            "decimals": 0,
-            "symbol": "GENTK"
-          },
-          "duplicate": false,
-          "activeListing": {
-            "id": 1085718,
-            "version": 1,
-            "price": 45000000,
-            "__typename": "Listing"
-          },
-          "owner": {
-            "id": "tz1dMtYCxB83jxjPqvzo5TApt5PvpPGM2VJA",
-            "name": null,
-            "flag": "NONE",
-            "avatarUri": null,
-            "__typename": "User"
-          },
-          "issuer": {
-            "flag": "NONE",
-            "name": "Lost Twins",
-            "author": {
-              "id": "tz1QgjmhrUD3X7kgS9mMHbUz4cS6uDiFGhAU",
-              "name": "Yazid",
-              "type": "REGULAR",
-              "avatarUri": "ipfs://QmSXcuF91yL432ZjP2M1scJ7cphL1GbKdKwNYvmoCz32dn",
-              "flag": "VERIFIED",
-              "collaborators": null,
-              "__typename": "User"
-            },
-            "__typename": "GenerativeToken"
-          },
-          "__typename": "Objkt"
-        },
-        "__typename": "Listing"
-      },
-      {
-        "id": 1085717,
-        "version": 1,
-        "price": 33000000,
-        "objkt": {
-          "id": "FX0-99598",
-          "version": 0,
-          "name": "f-emerald #358",
-          "slug": "f-emerald-358",
-          "metadata": {
-            "name": "f-emerald #358",
-            "iterationHash": "opWzooVfFSydQ9KDJ3nLZQKzQVBb6TEDuHsdQMuh4odBSutwWGT",
-            "description": "f-emerald generates unique ephemeral crystal-like structures that morph in space. each generation has a different shape, animation and colour palette. \n\nthe crystals flicker with colours in the dark most of the time. there is, however, a 20% chance of obtaining a crystal on a bright background with a light colour palette and one out of ten structures is created in black and white. ",
-            "tags": [
-              "cleannft",
-              "geometry",
-              "2d",
-              "algorithmic",
-              "animation",
-              "generative",
-              "infinite",
-              "abstract",
-              "digitalart",
-              "generative",
-              "unique",
-              "crystal",
-              "gem"
-            ],
-            "artifactUri": "ipfs://QmW6PK58vsnmvrrpm5pXfNmBBmS6hzfBkaT8YVdueWV5jY",
-            "displayUri": "ipfs://QmQdQPgBzep9SRppm5BGKPMo8pTvsgLhFMdasTZ7UD6nGR",
-            "thumbnailUri": "ipfs://QmbpNcgVyyJSPxYyAhS19R1F8t7BHYQpn5GHxJGvicixu3",
-            "authenticityHash": "e9372ec22d318175a4337b090d290f4b8f6adf9b511952a331ecda8fb5b8dbf0",
-            "attributes": [
-              {
-                "name": "hue",
-                "value": 200
-              },
-              {
-                "name": "hueShift",
-                "value": 315
-              },
-              {
-                "name": "lightMode",
-                "value": true
-              },
-              {
-                "name": "blackAndWhite",
-                "value": true
-              }
-            ],
-            "decimals": 0,
-            "symbol": "GENTK"
-          },
-          "duplicate": false,
-          "activeListing": {
-            "id": 1085717,
-            "version": 1,
-            "price": 33000000,
-            "__typename": "Listing"
-          },
-          "owner": {
-            "id": "tz1dMtYCxB83jxjPqvzo5TApt5PvpPGM2VJA",
-            "name": null,
-            "flag": "NONE",
-            "avatarUri": null,
-            "__typename": "User"
-          },
-          "issuer": {
-            "flag": "NONE",
-            "name": "f-emerald",
-            "author": {
-              "id": "tz2KDeWyeCeu2eZYLav9PrRAQmFCyESNF4Es",
-              "name": "mrkswcz",
-              "type": "REGULAR",
-              "avatarUri": "ipfs://QmbC29fXfcR9UY6vVnKR2SBFKwEeL6RjPmKWfgkSAK8kcy",
-              "flag": "VERIFIED",
-              "collaborators": null,
-              "__typename": "User"
-            },
-            "__typename": "GenerativeToken"
-          },
-          "__typename": "Objkt"
-        },
-        "__typename": "Listing"
-      },
-      {
-        "id": 1085716,
-        "version": 1,
-        "price": 28000000,
-        "objkt": {
-          "id": "FX0-163925",
-          "version": 0,
-          "name": "Aeoflu #480",
-          "slug": "aeoflu-480",
-          "metadata": {
-            "name": "Aeoflu #480",
-            "iterationHash": "ooSuSvTe9gzgUUwADztWsFPoKk8YwAdQXtW3q5Hbe1MEMQ9yXHP",
-            "description": "This broadcast is transmitted to the brains of the humanoid race from the planet Xiurq during hyperspace travel. The algorithm is specifically designed to preserve the cognitive functions of the species during \"slow time\" and overload. The use of the algorithm by other races has not been studied. Prohibited for use outside specially certified laboratories by intergalactic convention 30292-HD-92 \n\nThe idea of this project is infinite motion, but it can be stopped (“space”) and save static image (\"s\" button)\n\nThere are three modes. They are switched by click. Each switch changes the input parameters, so there are quite a few options\n\n!!!Flashing lights seizure warning!!!",
-            "tags": [
-              "generative",
-              "motion",
-              "shvembldr",
-              "aliens"
-            ],
-            "artifactUri": "ipfs://Qmb44ueXmsyu4xEZNEWCyKZHN1XG5HbGGzTLkd5yrrsSca",
-            "displayUri": "ipfs://QmRc2P8q39f1H8ZVuXffNnuZJpirkQPQMigJD113YWN2u5",
-            "thumbnailUri": "ipfs://QmPFqKbMh3ik4JxqeLxKtYLXGQXuVxMdNgBwa4Do4LKb5j",
-            "authenticityHash": "68c8c3ef476bd4a00ee976c0e187ee37c9b06a07fe006183ceab5a817692850f",
-            "attributes": [],
-            "decimals": 0,
-            "symbol": "GENTK"
-          },
-          "duplicate": false,
-          "activeListing": {
-            "id": 1085716,
-            "version": 1,
-            "price": 28000000,
-            "__typename": "Listing"
-          },
-          "owner": {
-            "id": "tz1dMtYCxB83jxjPqvzo5TApt5PvpPGM2VJA",
-            "name": null,
-            "flag": "NONE",
-            "avatarUri": null,
-            "__typename": "User"
-          },
-          "issuer": {
-            "flag": "NONE",
-            "name": "Aeoflu",
-            "author": {
-              "id": "tz1WqBtWEXjYPwKofxDPsf2V8Jo7dRxdKYqu",
-              "name": "-------------",
-              "type": "REGULAR",
-              "avatarUri": "ipfs://QmWZjWrKw5M8WTrLLE4LUauTHRyAiD82WSp8xGwNAH3K4d",
-              "flag": "VERIFIED",
-              "collaborators": null,
-              "__typename": "User"
-            },
-            "__typename": "GenerativeToken"
-          },
-          "__typename": "Objkt"
-        },
-        "__typename": "Listing"
-      },
-      {
-        "id": 1085715,
-        "version": 1,
-        "price": 38000000,
-        "objkt": {
-          "id": "FX0-193488",
-          "version": 0,
-          "name": "sinuosity #59",
-          "slug": "sinuosity-59",
-          "metadata": {
-            "name": "sinuosity #59",
-            "iterationHash": "ooyLA4zTXmyLUsXAV4kRjVxA1PZAoE9FPqrgJ5KhWC8Jd1A4gHV",
-            "description": "sinuosity is defined as:\n\n- (n.) the ability to curve or bend easily and flexibly.\n\nsinuous is defined as a couple of things:\n\n- (adj.) having many curves and turns.\n- (adj.) lithe and supple.\n\neach curve anchors to the center. \n\nmaybe that center is a life. (maybe that center is you.)\n\nmaybe that curve is a relationship. (or a job.) (or repressed trauma that needs processing.)\n\nmaybe that curve has other curves within. (it probably does.)\n\nsometimes there are many curves at once. (usually this the case.) \n\noccasionally, there may only be one. (life isn’t always so complicated.) \n\nwhatever curves the moment contains it can help to step away and see how they come together. (this is not always easy.)\n\n[cc0] [p5js] [xoxo] [twitter: @heyjeres]",
-            "tags": [
-              "sinuosity",
-              "sinuous",
-              "p5js",
-              "bezier"
-            ],
-            "artifactUri": "ipfs://QmQAticMAM1Znu5gfUdEZkyH67ggjyqdNmY3wcGmphAzPi",
-            "displayUri": "ipfs://QmQj7jxM2Xre7HkvQLmu7o28kYirNrw5ithh6793ppWcxa",
-            "thumbnailUri": "ipfs://QmSSkkJhaLBGW1p5Hg1ZfZZ2E6T7epiLdeetT6kxccEiiY",
-            "authenticityHash": "5478ff411a16b467dd4807319f93428b21bb48fa1695c0fe65e733302c918ced",
-            "attributes": [
-              {
-                "name": "Background",
-                "value": "Single Point"
-              },
-              {
-                "name": "Palette",
-                "value": "Monochrome"
-              },
-              {
-                "name": "Curves",
-                "value": 2
-              }
-            ],
-            "decimals": 0,
-            "symbol": "GENTK"
-          },
-          "duplicate": false,
-          "activeListing": {
-            "id": 1085715,
-            "version": 1,
-            "price": 38000000,
-            "__typename": "Listing"
-          },
-          "owner": {
-            "id": "tz1dMtYCxB83jxjPqvzo5TApt5PvpPGM2VJA",
-            "name": null,
-            "flag": "NONE",
-            "avatarUri": null,
-            "__typename": "User"
-          },
-          "issuer": {
-            "flag": "NONE",
-            "name": "sinuosity",
-            "author": {
-              "id": "tz1hnnCaYDiRPH8apoJQB9wvytwpYQSJEzCK",
-              "name": "jeres",
-              "type": "REGULAR",
-              "avatarUri": "ipfs://QmZkYAL5mqp4fY1LLiW3ZMTcMNsJGoZwQpvJA17MCzTyjv",
               "flag": "VERIFIED",
               "collaborators": null,
               "__typename": "User"
