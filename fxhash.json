@@ -2,6 +2,334 @@
   "data": {
     "listings": [
       {
+        "id": 1091304,
+        "version": 1,
+        "price": 2000000,
+        "objkt": {
+          "id": "FX1-197287",
+          "version": 2,
+          "name": "Ancients #12",
+          "slug": "ancients-12",
+          "metadata": {
+            "name": "Ancients #12",
+            "iterationHash": "onjqYkA9xbkUURQZoMhTFcWyLybiXNvuyHvAJ48yDUZDcmap29v",
+            "description": "Ancient cube drawings. Hand-carved lines on Egyptian stones.\n\nKids drawings?\n\n\n  _      __       ___  _      __   ___ \n / ` / / )_) \\  / )_  / ` / / )_)  )_  \n(_. (_/ / \\   \\/ (__ (_. (_/ /__) (__  \n                                                                              \nn1                       ",
+            "tags": [],
+            "generatorUri": "ipfs://QmQQUAhBeu6rjqYHy7o2revFKShqVnF9fUNX12yfythM19",
+            "artifactUri": "ipfs://QmQQUAhBeu6rjqYHy7o2revFKShqVnF9fUNX12yfythM19/?fxhash=onjqYkA9xbkUURQZoMhTFcWyLybiXNvuyHvAJ48yDUZDcmap29v&fxiteration=12&fxminter=tz2Lf68b97VQ3RAm3oGHEbNEcBThDGomQy5w",
+            "displayUri": "ipfs://QmTXBtYvTtUErCEME1W6echRihocAQADGiuoeCqfdCQFFV",
+            "thumbnailUri": "ipfs://QmeWtM4EcGJwKoz8Y5JQ7zmE2vxu1Q8hozdBspuZT288me",
+            "authenticityHash": "cf7abb8a6e1755c3512b04b3fbba7bb9312dc2da57a036d40ff9350a950e2d73",
+            "attributes": [],
+            "symbol": "GENTK",
+            "version": "0.2",
+            "snippetVersion": "4.0.1",
+            "decimals": 0
+          },
+          "duplicate": false,
+          "activeListing": {
+            "id": 1091304,
+            "version": 1,
+            "price": 2000000,
+            "__typename": "Listing"
+          },
+          "owner": {
+            "id": "tz2Lf68b97VQ3RAm3oGHEbNEcBThDGomQy5w",
+            "name": null,
+            "flag": "NONE",
+            "avatarUri": null,
+            "__typename": "User"
+          },
+          "issuer": {
+            "flag": "NONE",
+            "name": "Ancients",
+            "author": {
+              "id": "tz2Lf68b97VQ3RAm3oGHEbNEcBThDGomQy5w",
+              "name": null,
+              "type": "REGULAR",
+              "avatarUri": null,
+              "flag": "NONE",
+              "collaborators": null,
+              "__typename": "User"
+            },
+            "__typename": "GenerativeToken"
+          },
+          "__typename": "Objkt"
+        },
+        "__typename": "Listing"
+      },
+      {
+        "id": 1091303,
+        "version": 1,
+        "price": 1111000000,
+        "objkt": {
+          "id": "FX1-5506",
+          "version": 2,
+          "name": "Schwere See #1",
+          "slug": "schwere-see-1",
+          "metadata": {
+            "name": "Schwere See #1",
+            "iterationHash": "opRRoY7RjoxpXBQtVmnvSfkw5K1vvYLz1Ke27mGxwTri7tMFKrM",
+            "description": "Schwere See\n(...which is german for \"Heavy Seas\")\n\nthis work creates completely generative ocean worlds between the real and the surreal.\nwhat is real? when do we feel reality? i guess as with many other things, we feel reality best when we're deprived of it.\nThat might be the reason why it never ceases to fascinate us to both exaggerate and abstract nature and reality - maybe even at the same time.\nthat's where this work tries to go...\ngiving my best to create realistic looking waves out of hmm... thin electron-gas..., and then disrupt those from realism by unnaturally exaggerating waveforms and abstracting the display to a few colors and lines - ...well, not so few of the latter, actually ;-)\n\nbeware: this needs a good GPU (at least here in 2023) to properly run in realtime.\nstills can still be rendered on a low end machine with on-board graphics, but for realtime playing you'd need some proper dedicated graphics card.\nand of course it wont run fast (or maybe not all) on your mobile phone (except maybe on a very high end device).\n\nthe different mints vary in wave shape, color, camera view, animation speed, aspect ratio, frame style, hatching density, field of view, and more.\nsome color schemes are based on pre-chosen palettes (slightly varied though), but others are wildly random-generated. there's always some risk in randomness, but lets give the error some chance to surprise us - this is one of the many benefits of generative art.\n\nas generative art can do so much more than just generate/show an image i feel almost obliged to add the possibility to animate/inteact.\nhowever, this extra control shall not be chosen without some considerations. \nyou don't want a strobingly wild animation above your fireplace or in a doctors waiting room. nor is it motion-wise very inspiring to have subtle image stills hanging in a dancefloor.\nso, by default when in animation mode (<space>-key) the scene is very slowly and steadily changing - some pieces faster, some slower. however, by pressing <f> you can toggle to a sped up animation of waves, clouds, and scene rotation.\nbtw, going faster in nav-mode also speeds up the wave animation. (...so be careful when you accelerate! the ocean is not a ponyfarm.)\n\n\nmouse/keyboard functions:\n\n<mouse move>..........rotate view\n<mouse wheel>.........zoom in/out\n<space>...............start animation (or append '&AnimEnable=1' to the url)\n<ctrl>+<1><2><3><4>...make png screenshot in 1/2/3/4-fold resolution\n<p>...................same as <ctrl>+<3>\n<n>...................toggle nav-mode - navigate/fly through scene\n<w>/<crsr up>.........accelerate in nav-mode\n<s>/<crsr down>.......decelerate in nav-mode\n<a>/<crsr left>.......rotate left in nav-mode\n<d>/<crsr right>......rotate right in nav-mode\n<f>...................fast animation mode (speeds up animation)\n\n\nsome technical info:\n\ntechnically this is a raymarched scene. the distance field of the waves is constructed my many localized rotations on many different scales.\nfor the hatching no actual lines are being drawn. it is archieved by applying periodic functions in world-position-space as halftone patterns to the actual image color. \nthe frequency of these halftone-functions thereby depending on screen-position-derivatives.\n",
+            "tags": [
+              "waves",
+              "generative",
+              "raymarch",
+              "animated",
+              "interactive"
+            ],
+            "generatorUri": "ipfs://QmeBgeyZt7Z1qCeayJfaaseeiZuks46Pibs7oc6aSdHAha",
+            "artifactUri": "ipfs://QmeBgeyZt7Z1qCeayJfaaseeiZuks46Pibs7oc6aSdHAha/?fxhash=opRRoY7RjoxpXBQtVmnvSfkw5K1vvYLz1Ke27mGxwTri7tMFKrM",
+            "displayUri": "ipfs://QmPqQ3JP58fCZH84in6ksxrb1Z7nTVYtq33coxKRW6nH3i",
+            "thumbnailUri": "ipfs://QmaXE8ZdnLD6WVPo6B2R6bMqZDWdRdzMYVTqf9LGpwbDL1",
+            "authenticityHash": "678b97d3b33bd0a739f4437fa29d38c76d793a81cfe7fb2e6c2b71198e7c8d48",
+            "attributes": [
+              {
+                "name": "BlackShiny",
+                "value": 0.06978745629285085
+              },
+              {
+                "name": "CarvePseu",
+                "value": 0
+              },
+              {
+                "name": "CloudSize",
+                "value": 3.150748126782741
+              },
+              {
+                "name": "HatchW",
+                "value": 1.5002815144987898
+              },
+              {
+                "name": "HatchSm",
+                "value": 2.0395540828350933
+              },
+              {
+                "name": "WaveAnim",
+                "value": 0.30105801518111885
+              },
+              {
+                "name": "Hatch2",
+                "value": 0.8728334522775719
+              },
+              {
+                "name": "WhiteAlpha",
+                "value": 0.9996113871610132
+              },
+              {
+                "name": "PhaseOffs",
+                "value": 1.3452255764696746
+              },
+              {
+                "name": "ViewDist0",
+                "value": 3.4958268023695473
+              },
+              {
+                "name": "BGRough",
+                "value": 0.08280438144215656
+              },
+              {
+                "name": "MetalBump",
+                "value": -0.14907336545074087
+              },
+              {
+                "name": "FovY",
+                "value": 1
+              },
+              {
+                "name": "Aspect",
+                "value": 1.5208921324694529
+              },
+              {
+                "name": "FrameW",
+                "value": 0.25062782462113864
+              },
+              {
+                "name": "MetalBg",
+                "value": 0
+              },
+              {
+                "name": "Cuts",
+                "value": 0
+              },
+              {
+                "name": "FrameDist",
+                "value": 0.268110122571538
+              },
+              {
+                "name": "Roll0",
+                "value": -0.3084000286307711
+              },
+              {
+                "name": "ContentFrame",
+                "value": 0.2942694717486985
+              },
+              {
+                "name": "Gap",
+                "value": -0.5087067523505538
+              },
+              {
+                "name": "PosOffs0Z",
+                "value": 0
+              },
+              {
+                "name": "PosOffs0Y",
+                "value": -21.089885523542762
+              },
+              {
+                "name": "PosOffs0X",
+                "value": 1.4493047492578626
+              },
+              {
+                "name": "RotSpeed",
+                "value": -0.000801969187681859
+              },
+              {
+                "name": "Carve",
+                "value": 0
+              },
+              {
+                "name": "Fisheye",
+                "value": -0.04539984756014291
+              },
+              {
+                "name": "NoiseType",
+                "value": 2
+              },
+              {
+                "name": "Metal",
+                "value": 0.5
+              },
+              {
+                "name": "BlackAlpha",
+                "value": 1
+              },
+              {
+                "name": "Azim0",
+                "value": 4.488181344326586
+              },
+              {
+                "name": "FrameErr",
+                "value": 0.014369888622140002
+              },
+              {
+                "name": "BGColB",
+                "value": 0.5633744108490646
+              },
+              {
+                "name": "BGColG",
+                "value": 0.1346731628291309
+              },
+              {
+                "name": "BGColR",
+                "value": 0.1449555498547852
+              },
+              {
+                "name": "SkyAnim",
+                "value": -0.8683779765851796
+              },
+              {
+                "name": "BlackColR",
+                "value": 0.0846380009315908
+              },
+              {
+                "name": "Elev0",
+                "value": 1.0749376333178953
+              },
+              {
+                "name": "BlackColG",
+                "value": 0.7857987144961953
+              },
+              {
+                "name": "SkyMode",
+                "value": 1
+              },
+              {
+                "name": "BlackColB",
+                "value": 0.527312558144331
+              },
+              {
+                "name": "MetalBlack",
+                "value": 0
+              },
+              {
+                "name": "BrightMode",
+                "value": 1.16095101116343
+              },
+              {
+                "name": "WhiteColB",
+                "value": 0.26086313938722017
+              },
+              {
+                "name": "SkyH",
+                "value": 0.6784816728904843
+              },
+              {
+                "name": "WhiteColG",
+                "value": 0.8034134445246309
+              },
+              {
+                "name": "WhiteColR",
+                "value": 0.7500600196421147
+              },
+              {
+                "name": "FrameSm",
+                "value": 0.01605547566432506
+              },
+              {
+                "name": "WhiteLev",
+                "value": 0.5000630939548121
+              },
+              {
+                "name": "FrameVis",
+                "value": 0.20948146865703166
+              },
+              {
+                "name": "Edgy",
+                "value": 0.008321976628443976
+              },
+              {
+                "name": "Anim0",
+                "value": 0.0019435052033154924
+              }
+            ],
+            "decimals": 0,
+            "symbol": "GENTK",
+            "version": "0.2"
+          },
+          "duplicate": false,
+          "activeListing": {
+            "id": 1091303,
+            "version": 1,
+            "price": 1111000000,
+            "__typename": "Listing"
+          },
+          "owner": {
+            "id": "tz1MtMwpTM5o4uMq2g8EjbVEMprYNRki6AAD",
+            "name": "gems",
+            "flag": "VERIFIED",
+            "avatarUri": "ipfs://QmYQExnj1DULKbA34hRro9NikUFBASbGAM8TNvYHQJjeZ6",
+            "__typename": "User"
+          },
+          "issuer": {
+            "flag": "NONE",
+            "name": "Schwere See",
+            "author": {
+              "id": "tz1T55y8BEuXQrCzBaPqayugNNGFwxy27WJt",
+              "name": "flockaroo",
+              "type": "REGULAR",
+              "avatarUri": "ipfs://QmTYvBZmoNJvNsHjWd7J16JLCW8qcNpgKac4N4P4VdMr6X",
+              "flag": "VERIFIED",
+              "collaborators": null,
+              "__typename": "User"
+            },
+            "__typename": "GenerativeToken"
+          },
+          "__typename": "Objkt"
+        },
+        "__typename": "Listing"
+      },
+      {
         "id": 1091302,
         "version": 1,
         "price": 8000000,
@@ -1245,136 +1573,6 @@
             "name": "Obstacles",
             "author": {
               "id": "tz1d5EebVNDEoqZiBHLD4NjTwg42NcxcPLzX",
-              "name": null,
-              "type": "REGULAR",
-              "avatarUri": null,
-              "flag": "NONE",
-              "collaborators": null,
-              "__typename": "User"
-            },
-            "__typename": "GenerativeToken"
-          },
-          "__typename": "Objkt"
-        },
-        "__typename": "Listing"
-      },
-      {
-        "id": 1091284,
-        "version": 1,
-        "price": 169000000,
-        "objkt": {
-          "id": "FX0-271983",
-          "version": 0,
-          "name": "dg5721() #56",
-          "slug": "dg5721()-56",
-          "metadata": {
-            "name": "dg5721() #56",
-            "iterationHash": "opUkC4x3G8TVT9VPMxoVqYzsUzP1J9d2bYPhjPMF6fr5mmP7A7p",
-            "description": "A tiny neural network with 5721 neurons, that tries to imitate human handwriting by generating new hallucinated digits in real-time.\n\nIt can generate these digits at any resolution and will invent its own ways to fill the gaps.\n\n- Press <SPACE> or click to toggle the infinite latent space exploration.\n- Press <S> to save the current frame as PNG at the current screen resolution x2.\n\nIt can be installed to work offline (Install button in the URL bar in Chrome or \"Add to Home screen\" on iOS)\n\nAs of 2021, this artwork requires a fast computer or mobile phone.",
-            "tags": [
-              "neural network",
-              "machine learning",
-              "AI",
-              "digits",
-              "mnist",
-              "shader",
-              "GLSL"
-            ],
-            "generatorUri": "ipfs://QmeUfEMjuTpLqt9hE73Myu4NL6NhDxy9Mekz8PDKTkiUPz",
-            "artifactUri": "ipfs://QmeUfEMjuTpLqt9hE73Myu4NL6NhDxy9Mekz8PDKTkiUPz?fxhash=opUkC4x3G8TVT9VPMxoVqYzsUzP1J9d2bYPhjPMF6fr5mmP7A7p",
-            "displayUri": "ipfs://QmQB7R7TF6u93YrPWsp5BPtk91ZLBy4hsq1gzN8aTdDMHk",
-            "thumbnailUri": "ipfs://QmX7rokgMXLkLnydd4Umzwr4GEhEVQTD3ri4CkP5qL9gYv",
-            "authenticityHash": "2003fd445893cc984fa537a1410fd54c2f9a870779a98cacafe4893f36c804c5",
-            "attributes": [
-              {
-                "name": "Material",
-                "value": "Black"
-              },
-              {
-                "name": "Init Grid",
-                "value": "3x3"
-              }
-            ],
-            "decimals": 0,
-            "symbol": "GENTK",
-            "version": "0.2"
-          },
-          "duplicate": false,
-          "activeListing": {
-            "id": 1091284,
-            "version": 1,
-            "price": 169000000,
-            "__typename": "Listing"
-          },
-          "owner": {
-            "id": "tz1Y8KLMwAz917nxcQaLFyXfnBN1minGcKKx",
-            "name": null,
-            "flag": "NONE",
-            "avatarUri": null,
-            "__typename": "User"
-          },
-          "issuer": {
-            "flag": "NONE",
-            "name": "dg5721()",
-            "author": {
-              "id": "tz29rT6LwCuZcyxkJ3mNvFNSRBryfxnPZqJW",
-              "name": "Cyril Diagne",
-              "type": "REGULAR",
-              "avatarUri": "ipfs://QmWUBVsHqc13wfLcR5RJ7GTJ5rvtVRceTkDHARWXFcHh2h",
-              "flag": "VERIFIED",
-              "collaborators": null,
-              "__typename": "User"
-            },
-            "__typename": "GenerativeToken"
-          },
-          "__typename": "Objkt"
-        },
-        "__typename": "Listing"
-      },
-      {
-        "id": 1091283,
-        "version": 1,
-        "price": 5500000,
-        "objkt": {
-          "id": "FX1-197340",
-          "version": 2,
-          "name": "Ancients #61",
-          "slug": "ancients-61",
-          "metadata": {
-            "name": "Ancients #61",
-            "iterationHash": "ooRQiMHMghXg56zZgAL7TZpBCAkmGTq8CpwuQ91eJu7VP2zAmcj",
-            "description": "Ancient cube drawings. Hand-carved lines on Egyptian stones.\n\nKids drawings?\n\n\n  _      __       ___  _      __   ___ \n / ` / / )_) \\  / )_  / ` / / )_)  )_  \n(_. (_/ / \\   \\/ (__ (_. (_/ /__) (__  \n                                                                              \nn1                       ",
-            "tags": [],
-            "generatorUri": "ipfs://QmQQUAhBeu6rjqYHy7o2revFKShqVnF9fUNX12yfythM19",
-            "artifactUri": "ipfs://QmQQUAhBeu6rjqYHy7o2revFKShqVnF9fUNX12yfythM19/?fxhash=ooRQiMHMghXg56zZgAL7TZpBCAkmGTq8CpwuQ91eJu7VP2zAmcj&fxiteration=61&fxminter=tz2D7kkq8sDA3AaotKJf2oyyDkHZtn8tUu2h",
-            "displayUri": "ipfs://QmZY1RYZ1uuMCf9HUf6DrgiaLQdxpfvAAvNZBN6HZS66XK",
-            "thumbnailUri": "ipfs://QmeJiRPdWJE5AtU1H3CabEZdR1qZnnZaLhRQc2XRgZc1yU",
-            "authenticityHash": "825a14d096aa9f3f73d349ea8bf1bed5ca3ff967d3303007ad148065c8e5f91a",
-            "attributes": [],
-            "symbol": "GENTK",
-            "version": "0.2",
-            "snippetVersion": "4.0.1",
-            "decimals": 0
-          },
-          "duplicate": false,
-          "activeListing": {
-            "id": 1091283,
-            "version": 1,
-            "price": 5500000,
-            "__typename": "Listing"
-          },
-          "owner": {
-            "id": "tz2D7kkq8sDA3AaotKJf2oyyDkHZtn8tUu2h",
-            "name": null,
-            "flag": "NONE",
-            "avatarUri": null,
-            "__typename": "User"
-          },
-          "issuer": {
-            "flag": "NONE",
-            "name": "Ancients",
-            "author": {
-              "id": "tz2Lf68b97VQ3RAm3oGHEbNEcBThDGomQy5w",
               "name": null,
               "type": "REGULAR",
               "avatarUri": null,
