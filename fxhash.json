@@ -2,6 +2,104 @@
   "data": {
     "listings": [
       {
+        "id": 1102888,
+        "version": 1,
+        "price": 7999000000,
+        "objkt": {
+          "id": "FX0-146232",
+          "version": 0,
+          "name": "Garden, Monoliths #240",
+          "slug": "garden-monoliths-240",
+          "metadata": {
+            "name": "Garden, Monoliths #240",
+            "iterationHash": "oo4xnpP8mmfKD7C5ziu4MsJcexQy5XGtSBLxsXfbTMm4Vm6gxSt",
+            "description": "\"Garden, Monoliths\" is the result of an algorithm that started in April 2021. It was called \"Grass.js\".\nSpring was blooming all around the house, taking over the stones and remnants of ancient battles that stood here. Inspiration was everywhere.\nThe initial goal was to use mathematical formulas for creating patterns inspired by the density of nature, that could be used by a pen plotter, so it kept focusing on outputting vector lines. This history and practice produced a graphical style based on line strokes, plus occasionally some transparent, filled shapes.\nEach artwork will be either \"Garden\" or \"Monolith\", for they are variations of two existing designs from the workshop.\n\n",
+            "tags": [
+              "generative",
+              "figurative",
+              "plants",
+              "garden",
+              "javascript",
+              "lushtemple",
+              "grass",
+              "daisies",
+              "poppies",
+              "stones"
+            ],
+            "artifactUri": "ipfs://QmSprhogcFAprzePRKKpz5gyDHB4LbxHHe2uiwxszw87mL",
+            "displayUri": "ipfs://QmZrCKoRD3JvHN5QiHpcdSda7fP9CHehLHztVKAKcV3KyG",
+            "thumbnailUri": "ipfs://QmPF1vvKW5JT5g5NyfBeKRWvvaGoFW2W5ZJbUVaFw6XJBa",
+            "authenticityHash": "cf75a0cdd0bf6ebf616acb0a4e47f126a1fb65ce1ae51150d6eb4defda306c4d",
+            "attributes": [
+              {
+                "name": "Series",
+                "value": "Garden"
+              },
+              {
+                "name": "Format",
+                "value": "A4 fit"
+              },
+              {
+                "name": "Paper",
+                "value": "Old Sketchbook"
+              },
+              {
+                "name": "Implantation",
+                "value": "Horizon"
+              },
+              {
+                "name": "Sky",
+                "value": "Slope"
+              },
+              {
+                "name": "Inclinaison",
+                "value": "Right"
+              },
+              {
+                "name": "LineStyle",
+                "value": "Fineliner"
+              },
+              {
+                "name": "Theme",
+                "value": "Smoke"
+              }
+            ],
+            "decimals": 0,
+            "symbol": "GENTK"
+          },
+          "duplicate": false,
+          "activeListing": {
+            "id": 1102888,
+            "version": 1,
+            "price": 7999000000,
+            "__typename": "Listing"
+          },
+          "owner": {
+            "id": "tz1WPtr8ZJyCVB252iL8DJfWg7gVQ6NUqwbJ",
+            "name": "HuluVault",
+            "flag": "NONE",
+            "avatarUri": null,
+            "__typename": "User"
+          },
+          "issuer": {
+            "flag": "NONE",
+            "name": "Garden, Monoliths",
+            "author": {
+              "id": "tz1gBXG9fg8RMDH69KfKqwoTH5sFDmzt5yzm",
+              "name": "zancan",
+              "type": "REGULAR",
+              "avatarUri": "ipfs://QmVPpjUgyQtTM2Q4jWJVxVzeweGxNE783ojwgd4Z8EopFp",
+              "flag": "VERIFIED",
+              "collaborators": null,
+              "__typename": "User"
+            },
+            "__typename": "GenerativeToken"
+          },
+          "__typename": "Objkt"
+        },
+        "__typename": "Listing"
+      },
+      {
         "id": 1102887,
         "version": 1,
         "price": 249000000,
@@ -1533,88 +1631,6 @@
               "name": "Anna Lucia",
               "type": "REGULAR",
               "avatarUri": "ipfs://QmS1w1cFNatLjHC8ZAsUUwucnjW4dU8WJuFyoeMdJznVVo",
-              "flag": "VERIFIED",
-              "collaborators": null,
-              "__typename": "User"
-            },
-            "__typename": "GenerativeToken"
-          },
-          "__typename": "Objkt"
-        },
-        "__typename": "Listing"
-      },
-      {
-        "id": 1102868,
-        "version": 1,
-        "price": 175000000,
-        "objkt": {
-          "id": "FX0-1433259",
-          "version": 1,
-          "name": "GEOMORPHISM #118",
-          "slug": "geomorphism-118",
-          "metadata": {
-            "name": "GEOMORPHISM #118",
-            "iterationHash": "ooqndDuDWPBjBmPH9gkY8VKZkJoPoK1eqqKfNBhVyXpexByZjXM",
-            "description": "A 4444 character magic spell for my rayhatching framework to render thinking rocks.\n\nThis piece may take some time to render (about 1-3 minutes, depending on hardware). The rendering time is symbolic of the vastness and agelessness of these rock structures, it is recommended to use the rendering time to contemplate deeply the concept of time spans so incredibly long, that to experience them they would have to overwrite your memories several times and thus are impossible to truly comprehend.\n\nTo ponder how, if they are so old, how come some of them float? Are these rocks the fixtures and has time and space itself eroded around them?\n\nThis project uses an approach called \"rejection sampling\". This means the program generates a random set of parameters, and then checks/previews how the resulting image would look. It measures the amount of visible objects, light and shadows, and then determines whether these fall into acceptable ranges. If not, it generates a new set of parameters. For certain hashes over a 100 parameter sets may be checked before it accepts the image.\n\nThe features of this project are \"cliff\", \"ground\", \"thing\" and \"sky\". These are not parameters, they are actual measurements of the resulting image, indicating what percentage of the view is occupied.\n\nThis piece can be saved as an SVG and plotted. It is recommended to run a path order optimization tool such as vpype or axicli, this will greatly reduce plotting time.\n\nSome options can be changed via the URL:\n\n&w=.25 : The line width in millimetres.\n&d=.4 : Line density (multiplier to linewidth).\n&h=235 : Page height in millimetres. The aspect ratio is 16:9, for a width of 420mm, suitable for A3 plotting.\n\nThe line width is set to 0.25 millimetres to suit most common fine liner pen stroke widths when plotting. \n\nIf you don't intend to plot this piece, perhaps also try rendering it at 0.2 or even 0.1 millimetres line width, for an even more detailed image (it will also take longer to render).\n\n(c) 2022 by Piter Pasma",
-            "tags": [
-              "generative",
-              "javascript",
-              "genartclub",
-              "svg",
-              "3d",
-              "hatching",
-              "rayhatching",
-              "raymarching"
-            ],
-            "generatorUri": "ipfs://QmY2mVqfyLgDU2eJV6fjgqfpcq14rSfsFuEdETyKfjnTcF",
-            "artifactUri": "ipfs://QmY2mVqfyLgDU2eJV6fjgqfpcq14rSfsFuEdETyKfjnTcF?fxhash=ooqndDuDWPBjBmPH9gkY8VKZkJoPoK1eqqKfNBhVyXpexByZjXM",
-            "displayUri": "ipfs://QmbRQ6BtJTjcp1QesPmUF31NnCYw4vS7shqriGCjhht8Jq",
-            "thumbnailUri": "ipfs://QmbWsuwiFBGvsJGf3B1AB6NyJhMzKgrpSviFTGTCU25vXt",
-            "authenticityHash": "0f21779cb4f750fcfc3d7e8ae032d420b9513747bf07032c0cb7878bb8d5c4d7",
-            "attributes": [
-              {
-                "name": "cliff",
-                "value": 0
-              },
-              {
-                "name": "ground",
-                "value": 32
-              },
-              {
-                "name": "thing",
-                "value": 40
-              },
-              {
-                "name": "sky",
-                "value": 32
-              }
-            ],
-            "decimals": 0,
-            "symbol": "GENTK",
-            "version": "0.2"
-          },
-          "duplicate": false,
-          "activeListing": {
-            "id": 1102868,
-            "version": 1,
-            "price": 175000000,
-            "__typename": "Listing"
-          },
-          "owner": {
-            "id": "tz1bHzi1hrJ12AAk5tCkm6rzz44zTaLmU67a",
-            "name": "Maestro",
-            "flag": "NONE",
-            "avatarUri": "ipfs://QmTapsfSZJTmrc5ddtSP7iBZS9xDtrEJXTMLVyZJxTJAhK",
-            "__typename": "User"
-          },
-          "issuer": {
-            "flag": "NONE",
-            "name": "GEOMORPHISM",
-            "author": {
-              "id": "tz1Kw8cEFuNLj21e5b42NBn1ANW7hupmbDbo",
-              "name": "Piter Pasma",
-              "type": "REGULAR",
-              "avatarUri": "ipfs://QmUzcNxvddv1CLtiML1DLpduupP2FnUQsy7xg3Lb3SvSMh",
               "flag": "VERIFIED",
               "collaborators": null,
               "__typename": "User"
