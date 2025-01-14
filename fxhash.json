@@ -238,65 +238,6 @@
         "__typename": "Listing"
       },
       {
-        "id": 1109917,
-        "version": 1,
-        "price": 990000,
-        "objkt": {
-          "id": "FX1-217171",
-          "version": 2,
-          "name": "GIFT2 #73",
-          "slug": "gift2-73",
-          "metadata": {
-            "name": "GIFT2 #73",
-            "iterationHash": "opHo7yixgX8wWeCjEk66GZmCw43mqrkhyD4MPHhgJ2kLStVppLP",
-            "description": "The jewellery is hidden deep underground.\n\n-----------------------------------------------------\n\nIn live mode, press 's' or 'S' to save a high resolution png.\nEnjoy~\n\nEndlessworld\nJan, 2025",
-            "tags": [
-              "abstract"
-            ],
-            "generatorUri": "onchfs://6ee17d8dcd145fa42652f233fc13a5b160ef1c44e3f309a44450b720c6c3adf8",
-            "artifactUri": "onchfs://6ee17d8dcd145fa42652f233fc13a5b160ef1c44e3f309a44450b720c6c3adf8/?fxhash=opHo7yixgX8wWeCjEk66GZmCw43mqrkhyD4MPHhgJ2kLStVppLP&fxiteration=73&fxminter=tz1SpjzXcJ2ic7w8tjrcHehrx7VaZC2iYyjW&fxchain=TEZOS",
-            "displayUri": "ipfs://QmVD3Ku4uPt1SUfPHKUFhogGaCwYjrre5tnL6YSDvaL9FH",
-            "thumbnailUri": "ipfs://QmaWdNuMhZUGn7VQhJwjvaYWvQ7Ujye7qmnu5VRUqNkLHt",
-            "authenticityHash": "ac15268f4e6cc7c28e762413e4140c76d4136843df5a70893d2db2bd75497d43",
-            "attributes": [],
-            "symbol": "GENTK",
-            "version": "0.2",
-            "snippetVersion": "4.0.1",
-            "decimals": 0
-          },
-          "duplicate": false,
-          "activeListing": {
-            "id": 1109917,
-            "version": 1,
-            "price": 990000,
-            "__typename": "Listing"
-          },
-          "owner": {
-            "id": "tz1SpjzXcJ2ic7w8tjrcHehrx7VaZC2iYyjW",
-            "name": "Iteration #7",
-            "flag": "NONE",
-            "avatarUri": "ipfs://QmZHGZdawY2z8pNLSpCYqfdjyFuiSCE7AM3hBpfCsAEsTZ",
-            "__typename": "User"
-          },
-          "issuer": {
-            "flag": "NONE",
-            "name": "GIFT2",
-            "author": {
-              "id": "tz1SCXPTyW57fXfztj6DCJvCtuS8U1MQvGFT",
-              "name": "EndlessWorld",
-              "type": "REGULAR",
-              "avatarUri": "ipfs://QmNScbFuLZuoahUwWajs7JCktjRcSYTFBQR74W77jbArfB",
-              "flag": "VERIFIED",
-              "collaborators": null,
-              "__typename": "User"
-            },
-            "__typename": "GenerativeToken"
-          },
-          "__typename": "Objkt"
-        },
-        "__typename": "Listing"
-      },
-      {
         "id": 1109915,
         "version": 1,
         "price": 8000000,
@@ -1370,6 +1311,95 @@
           "duplicate": false,
           "activeListing": {
             "id": 1109897,
+            "version": 1,
+            "price": 14000000,
+            "__typename": "Listing"
+          },
+          "owner": {
+            "id": "tz2VtWQNPH2TsDixaShXp5615sxDNZ4uB436",
+            "name": null,
+            "flag": "NONE",
+            "avatarUri": null,
+            "__typename": "User"
+          },
+          "issuer": {
+            "flag": "NONE",
+            "name": "Everything flows",
+            "author": {
+              "id": "tz1Yb9mrEBSsv35doLWovF4Dmwy2q4won9oa",
+              "name": "anbello",
+              "type": "REGULAR",
+              "avatarUri": "ipfs://QmYrwKg7Jat74PmCdD4smV1A6gdXaS3SAzAVn6dk1D4UZc",
+              "flag": "VERIFIED",
+              "collaborators": null,
+              "__typename": "User"
+            },
+            "__typename": "GenerativeToken"
+          },
+          "__typename": "Objkt"
+        },
+        "__typename": "Listing"
+      },
+      {
+        "id": 1109896,
+        "version": 1,
+        "price": 14000000,
+        "objkt": {
+          "id": "FX0-547847",
+          "version": 0,
+          "name": "Everything flows #1",
+          "slug": "everything-flows-1",
+          "metadata": {
+            "name": "Everything flows #1",
+            "iterationHash": "oo5EBMYN3yb3YKLMoJGwSx7TWfj92yup5yx5R5g6ANq7ybGSy5C",
+            "description": "The Generative Token is obtained in two stages: in the first stage warped noise is generated using the method explained by Inigo Quilez (see Licence.txt for reference); in the second stage, using Sobel method for edge detection, the noise gradient orientation is used to generate flow lines.\n\nThe first stage generate an image colored using the values of warped noise.\nThe second stage generate another image using gradient orientations both for shapes (the flow lines) and for coloring.\nThe two images are blended together to obtain the final result.\n\nIn both stages the color-maps are generated using a sinusoidal function of the gradient orientation angle with a random phases. There are 52 possible combinations of random phases.\nSome palette used in the second stage are re-mixed using simplex noise with 20% of probability.\n\nThe user can save a 1200x1200 png with 's'.\n\nSources of variations are:\n- Four noise warping control parameters generating different grade of complexity and different shape (combined on a single number on the features)\n- 52 generated color mapping for warped noise\n- 52 generated color mapping for flow lines\n- Blending of the two intermediate images\n\nFeatures:\nGrays: 25% of probability to have a grays palette, (True, False)\nColor Palette: one of the 52 possible combinations of random phases\nColor Mixing: 20% of probability to have a re-mixed palette\nNoise Control: noise control parameter, (0 - 15)\nRare: when Grays = True and Noise Control < 4\n\n\nCreated by Andrea Belloni, fxhash: anbello, twitter: @Waterflowing0. Licensed under CC BY-NC-SA 4.0, see LICENSE.txt for more information.",
+            "tags": [
+              "p5js",
+              "generative",
+              "creative coding",
+              "noise",
+              "simplex",
+              "warped",
+              "sobel",
+              "edge detection",
+              "gradient",
+              "flow",
+              "fields"
+            ],
+            "generatorUri": "ipfs://QmZ7oCeazKYvWP3LepAZxaSxs3Ets4mzRfbYevZg8uTW7m",
+            "artifactUri": "ipfs://QmZ7oCeazKYvWP3LepAZxaSxs3Ets4mzRfbYevZg8uTW7m?fxhash=oo5EBMYN3yb3YKLMoJGwSx7TWfj92yup5yx5R5g6ANq7ybGSy5C",
+            "displayUri": "ipfs://QmZk436g9e6dg7owbEk5i88Bj6Co9STXwQbrJN12Um7deT",
+            "thumbnailUri": "ipfs://QmWoSUrkLFVw4Up811dzBttwV274pRDnoD4UttCrEVz7wR",
+            "authenticityHash": "c33e695ce259d28befef9aa91275ee208801d4db5ddd7c8d4b83af201848f8a2",
+            "attributes": [
+              {
+                "name": "Rare",
+                "value": "False"
+              },
+              {
+                "name": "Grays",
+                "value": "False"
+              },
+              {
+                "name": "Color Palette",
+                "value": "Colors_7"
+              },
+              {
+                "name": "Color Mixing",
+                "value": "False"
+              },
+              {
+                "name": "NoiseControl",
+                "value": 1
+              }
+            ],
+            "decimals": 0,
+            "symbol": "GENTK",
+            "version": "0.2"
+          },
+          "duplicate": false,
+          "activeListing": {
+            "id": 1109896,
             "version": 1,
             "price": 14000000,
             "__typename": "Listing"
