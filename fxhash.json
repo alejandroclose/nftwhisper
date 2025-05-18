@@ -2,277 +2,6 @@
   "data": {
     "listings": [
       {
-        "id": 1115208,
-        "version": 1,
-        "price": 30000000,
-        "objkt": {
-          "id": "FX1-5755",
-          "version": 2,
-          "name": "Schwere See #215",
-          "slug": "schwere-see-215",
-          "metadata": {
-            "name": "Schwere See #215",
-            "iterationHash": "opAzvNhiZqGy9u69sYbVfKEMDuzpWFpcBe2h1y9gF7VRuB6Z6WP",
-            "description": "Schwere See\n(...which is german for \"Heavy Seas\")\n\nthis work creates completely generative ocean worlds between the real and the surreal.\nwhat is real? when do we feel reality? i guess as with many other things, we feel reality best when we're deprived of it.\nThat might be the reason why it never ceases to fascinate us to both exaggerate and abstract nature and reality - maybe even at the same time.\nthat's where this work tries to go...\ngiving my best to create realistic looking waves out of hmm... thin electron-gas..., and then disrupt those from realism by unnaturally exaggerating waveforms and abstracting the display to a few colors and lines - ...well, not so few of the latter, actually ;-)\n\nbeware: this needs a good GPU (at least here in 2023) to properly run in realtime.\nstills can still be rendered on a low end machine with on-board graphics, but for realtime playing you'd need some proper dedicated graphics card.\nand of course it wont run fast (or maybe not all) on your mobile phone (except maybe on a very high end device).\n\nthe different mints vary in wave shape, color, camera view, animation speed, aspect ratio, frame style, hatching density, field of view, and more.\nsome color schemes are based on pre-chosen palettes (slightly varied though), but others are wildly random-generated. there's always some risk in randomness, but lets give the error some chance to surprise us - this is one of the many benefits of generative art.\n\nas generative art can do so much more than just generate/show an image i feel almost obliged to add the possibility to animate/inteact.\nhowever, this extra control shall not be chosen without some considerations. \nyou don't want a strobingly wild animation above your fireplace or in a doctors waiting room. nor is it motion-wise very inspiring to have subtle image stills hanging in a dancefloor.\nso, by default when in animation mode (<space>-key) the scene is very slowly and steadily changing - some pieces faster, some slower. however, by pressing <f> you can toggle to a sped up animation of waves, clouds, and scene rotation.\nbtw, going faster in nav-mode also speeds up the wave animation. (...so be careful when you accelerate! the ocean is not a ponyfarm.)\n\n\nmouse/keyboard functions:\n\n<mouse move>..........rotate view\n<mouse wheel>.........zoom in/out\n<space>...............start animation (or append '&AnimEnable=1' to the url)\n<ctrl>+<1><2><3><4>...make png screenshot in 1/2/3/4-fold resolution\n<p>...................same as <ctrl>+<3>\n<n>...................toggle nav-mode - navigate/fly through scene\n<w>/<crsr up>.........accelerate in nav-mode\n<s>/<crsr down>.......decelerate in nav-mode\n<a>/<crsr left>.......rotate left in nav-mode\n<d>/<crsr right>......rotate right in nav-mode\n<f>...................fast animation mode (speeds up animation)\n\n\nsome technical info:\n\ntechnically this is a raymarched scene. the distance field of the waves is constructed my many localized rotations on many different scales.\nfor the hatching no actual lines are being drawn. it is archieved by applying periodic functions in world-position-space as halftone patterns to the actual image color. \nthe frequency of these halftone-functions thereby depending on screen-position-derivatives.\n",
-            "tags": [
-              "waves",
-              "generative",
-              "raymarch",
-              "animated",
-              "interactive"
-            ],
-            "generatorUri": "ipfs://QmeBgeyZt7Z1qCeayJfaaseeiZuks46Pibs7oc6aSdHAha",
-            "artifactUri": "ipfs://QmeBgeyZt7Z1qCeayJfaaseeiZuks46Pibs7oc6aSdHAha/?fxhash=opAzvNhiZqGy9u69sYbVfKEMDuzpWFpcBe2h1y9gF7VRuB6Z6WP",
-            "displayUri": "ipfs://QmfXVcbGKVHN5JdkHr6AMeZyDZmDhqovz2LBCUMM7tKMUk",
-            "thumbnailUri": "ipfs://QmcxfXrb2PuSHpVw8NWMn32ffWYo6XM1dAAhyowSVscAS9",
-            "authenticityHash": "5ccfad33a67b8e8da705cb3388cf3bd641433ec8c6eccf2c427cf328c0cc55ca",
-            "attributes": [
-              {
-                "name": "BlackShiny",
-                "value": 0.04865092917584695
-              },
-              {
-                "name": "CarvePseu",
-                "value": 1
-              },
-              {
-                "name": "CloudSize",
-                "value": 6.252081044393621
-              },
-              {
-                "name": "HatchW",
-                "value": 1.5000215091220936
-              },
-              {
-                "name": "HatchSm",
-                "value": 1.6896693772170692
-              },
-              {
-                "name": "WaveAnim",
-                "value": 0.48486287782840304
-              },
-              {
-                "name": "Hatch2",
-                "value": 0.5000000004131063
-              },
-              {
-                "name": "WhiteAlpha",
-                "value": 1
-              },
-              {
-                "name": "PhaseOffs",
-                "value": 4.143632362359203
-              },
-              {
-                "name": "ViewDist0",
-                "value": 3.4237585489244595
-              },
-              {
-                "name": "BGRough",
-                "value": 0.09295998843341512
-              },
-              {
-                "name": "MetalBump",
-                "value": -0.5612418709167711
-              },
-              {
-                "name": "FovY",
-                "value": 0
-              },
-              {
-                "name": "Aspect",
-                "value": 0.5255321737611667
-              },
-              {
-                "name": "FrameW",
-                "value": 0.19091286829042248
-              },
-              {
-                "name": "MetalBg",
-                "value": 0
-              },
-              {
-                "name": "Cuts",
-                "value": 0
-              },
-              {
-                "name": "FrameDist",
-                "value": 0.15305569565929567
-              },
-              {
-                "name": "Roll0",
-                "value": 0
-              },
-              {
-                "name": "ContentFrame",
-                "value": 0.35841977478870696
-              },
-              {
-                "name": "Gap",
-                "value": 0
-              },
-              {
-                "name": "PosOffs0Z",
-                "value": 0
-              },
-              {
-                "name": "PosOffs0Y",
-                "value": 79.97065298259258
-              },
-              {
-                "name": "PosOffs0X",
-                "value": -35.767370578832924
-              },
-              {
-                "name": "RotSpeed",
-                "value": 0.000017964876178203947
-              },
-              {
-                "name": "Carve",
-                "value": 0
-              },
-              {
-                "name": "Fisheye",
-                "value": -0.5775220318909227
-              },
-              {
-                "name": "NoiseType",
-                "value": 2
-              },
-              {
-                "name": "Metal",
-                "value": 1.4
-              },
-              {
-                "name": "BlackAlpha",
-                "value": 0.75
-              },
-              {
-                "name": "Azim0",
-                "value": 2.6719330719672145
-              },
-              {
-                "name": "FrameErr",
-                "value": 0.011930193150276928
-              },
-              {
-                "name": "BGColB",
-                "value": 0.10060547788772667
-              },
-              {
-                "name": "BGColG",
-                "value": 0.21861116344019954
-              },
-              {
-                "name": "BGColR",
-                "value": 0.7231243825847632
-              },
-              {
-                "name": "SkyAnim",
-                "value": 0.8624549470841885
-              },
-              {
-                "name": "BlackColR",
-                "value": 0.06279190297028767
-              },
-              {
-                "name": "Elev0",
-                "value": 1.544368221028708
-              },
-              {
-                "name": "BlackColG",
-                "value": 0.08235918111225772
-              },
-              {
-                "name": "SkyMode",
-                "value": 0
-              },
-              {
-                "name": "BlackColB",
-                "value": 0.09303922017314785
-              },
-              {
-                "name": "MetalBlack",
-                "value": 0
-              },
-              {
-                "name": "BrightMode",
-                "value": 0.2467289395441799
-              },
-              {
-                "name": "WhiteColB",
-                "value": 0.25006743749899013
-              },
-              {
-                "name": "SkyH",
-                "value": 0.7373193788807839
-              },
-              {
-                "name": "WhiteColG",
-                "value": 0.6363834558710366
-              },
-              {
-                "name": "WhiteColR",
-                "value": 1
-              },
-              {
-                "name": "FrameSm",
-                "value": 0.06244626988191158
-              },
-              {
-                "name": "WhiteLev",
-                "value": 0.5000306664484785
-              },
-              {
-                "name": "FrameVis",
-                "value": 0
-              },
-              {
-                "name": "Edgy",
-                "value": 0.028744157736454383
-              },
-              {
-                "name": "Anim0",
-                "value": 0.0015211620090527023
-              }
-            ],
-            "decimals": 0,
-            "symbol": "GENTK",
-            "version": "0.2"
-          },
-          "duplicate": false,
-          "activeListing": {
-            "id": 1115208,
-            "version": 1,
-            "price": 30000000,
-            "__typename": "Listing"
-          },
-          "owner": {
-            "id": "tz1QU9oV7wzwWESx7ZHerZramMPstyRrLNDj",
-            "name": "studiog.tez",
-            "flag": "NONE",
-            "avatarUri": "ipfs://QmT4zVGabnBpS76G9D56t7XHtkwQdbEAMWs3WSH2j4tk8a",
-            "__typename": "User"
-          },
-          "issuer": {
-            "flag": "NONE",
-            "name": "Schwere See",
-            "author": {
-              "id": "tz1T55y8BEuXQrCzBaPqayugNNGFwxy27WJt",
-              "name": "flockaroo",
-              "type": "REGULAR",
-              "avatarUri": "ipfs://QmTYvBZmoNJvNsHjWd7J16JLCW8qcNpgKac4N4P4VdMr6X",
-              "flag": "VERIFIED",
-              "collaborators": null,
-              "__typename": "User"
-            },
-            "__typename": "GenerativeToken"
-          },
-          "__typename": "Objkt"
-        },
-        "__typename": "Listing"
-      },
-      {
         "id": 1115207,
         "version": 1,
         "price": 350000000,
@@ -1887,6 +1616,76 @@
               "name": "danieljulia.tez",
               "type": "REGULAR",
               "avatarUri": "ipfs://QmTsK2yfuxcDVi3peHzvYduyHgD6JgYFUJ5qDiJrrH4BKG",
+              "flag": "VERIFIED",
+              "collaborators": null,
+              "__typename": "User"
+            },
+            "__typename": "GenerativeToken"
+          },
+          "__typename": "Objkt"
+        },
+        "__typename": "Listing"
+      },
+      {
+        "id": 1115186,
+        "version": 1,
+        "price": 14000000,
+        "objkt": {
+          "id": "FX0-662117",
+          "version": 1,
+          "name": "Celestial #262",
+          "slug": "celestial-262",
+          "metadata": {
+            "name": "Celestial #262",
+            "iterationHash": "onptUijABwNC4UyfR6VvDpNoZkkMUrEqcu18YqHSMScLAMJYo1H",
+            "description": "Abstract celestial art.\nBest viewed in the live mode.\n\nLive mode options:\nPress \"f\" - full screen\nPress \"s\" - save PNG (2700x3600)\n\nCreated with p5js.\n\nMay 2022\nykxotkx",
+            "tags": [
+              "generative",
+              "celestial",
+              "circle",
+              "packing"
+            ],
+            "generatorUri": "ipfs://QmS65TpmR2v14HnGM8vAKRottm4dp5UPVWsBXDB2vdtSzx",
+            "artifactUri": "ipfs://QmS65TpmR2v14HnGM8vAKRottm4dp5UPVWsBXDB2vdtSzx?fxhash=onptUijABwNC4UyfR6VvDpNoZkkMUrEqcu18YqHSMScLAMJYo1H",
+            "displayUri": "ipfs://QmUnpcfd8cq9EDzabA9JuTnyYtsd8HfCTz2hXwfLDcyNoZ",
+            "thumbnailUri": "ipfs://QmeBafusVB1zWw2NuUgDdWqavPPuiwqgDzNZ3XxaRdeCsU",
+            "authenticityHash": "2646675729f93e57fec915b460c270824e645dec501aeb54e1f4c4a1a9a77296",
+            "attributes": [
+              {
+                "name": "Palette",
+                "value": "Earthy green"
+              },
+              {
+                "name": "Layout",
+                "value": "Solar system"
+              }
+            ],
+            "decimals": 0,
+            "symbol": "GENTK",
+            "version": "0.2"
+          },
+          "duplicate": false,
+          "activeListing": {
+            "id": 1115186,
+            "version": 1,
+            "price": 14000000,
+            "__typename": "Listing"
+          },
+          "owner": {
+            "id": "tz1MtMwpTM5o4uMq2g8EjbVEMprYNRki6AAD",
+            "name": "gems",
+            "flag": "VERIFIED",
+            "avatarUri": "ipfs://QmYQExnj1DULKbA34hRro9NikUFBASbGAM8TNvYHQJjeZ6",
+            "__typename": "User"
+          },
+          "issuer": {
+            "flag": "NONE",
+            "name": "Celestial",
+            "author": {
+              "id": "tz1ZV6zpRiyGdpFxprDSuA1CUaXh5HyHAssc",
+              "name": "ykxotkx",
+              "type": "REGULAR",
+              "avatarUri": "ipfs://QmZAoVppST1CngtnrUDen8fFJz2oFxJJ2eVvwZN8Kd4cH9",
               "flag": "VERIFIED",
               "collaborators": null,
               "__typename": "User"
