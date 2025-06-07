@@ -2,6 +2,77 @@
   "data": {
     "listings": [
       {
+        "id": 1116895,
+        "version": 1,
+        "price": 38000000,
+        "objkt": {
+          "id": "FX0-382857",
+          "version": 0,
+          "name": "nekropunk_mask #4",
+          "slug": "nekropunk_mask-4",
+          "metadata": {
+            "name": "nekropunk_mask #4",
+            "iterationHash": "opWHURJKhr4WLR5Yp34Hibs2gBqPGfXiQCT2drcfdFFm3s8zdaG",
+            "description": "hidden identity\n\n[interactive] procedural face",
+            "tags": [
+              "nekropunk",
+              "mask",
+              "lofi",
+              "surreal",
+              "everythingiswatchingyou"
+            ],
+            "generatorUri": "ipfs://QmRYpaw8Dp5iLvdPCzLG8P3ZNBjxGPD7BLkdxHfzZs9YGP",
+            "artifactUri": "ipfs://QmRYpaw8Dp5iLvdPCzLG8P3ZNBjxGPD7BLkdxHfzZs9YGP?fxhash=opWHURJKhr4WLR5Yp34Hibs2gBqPGfXiQCT2drcfdFFm3s8zdaG",
+            "displayUri": "ipfs://Qmcyuj85adB9TvA8xK47v6L4z6ftYhgWsFkGdnvbtw2iz8",
+            "thumbnailUri": "ipfs://QmbUeHeMmgqSpkxFT2i8ofnDigVoqBuuGLo6Axdt5f7jyz",
+            "authenticityHash": "61ab7349c390515ad4022db17fc6613308d4b551ecfb4a663deff613ebd1c9bc",
+            "attributes": [
+              {
+                "name": "Chromosome_1_color",
+                "value": "7/10"
+              },
+              {
+                "name": "Chromosome_2_background_color",
+                "value": "1/3"
+              }
+            ],
+            "decimals": 0,
+            "symbol": "GENTK",
+            "version": "0.2"
+          },
+          "duplicate": false,
+          "activeListing": {
+            "id": 1116895,
+            "version": 1,
+            "price": 38000000,
+            "__typename": "Listing"
+          },
+          "owner": {
+            "id": "tz1X95uJRaZkK4VDoPpf2UuSzX4T24E8eCrb",
+            "name": "Applied.tez",
+            "flag": "NONE",
+            "avatarUri": null,
+            "__typename": "User"
+          },
+          "issuer": {
+            "flag": "NONE",
+            "name": "nekropunk_mask",
+            "author": {
+              "id": "tz1iVwgzR6F24uwUBuXiAsAynsdwWsgZ9uhK",
+              "name": "nekropunk",
+              "type": "REGULAR",
+              "avatarUri": "ipfs://QmWwF6CgBn7NTAfogWCApLUBdVG4GAGtA3m2APhN8BQd6p",
+              "flag": "VERIFIED",
+              "collaborators": null,
+              "__typename": "User"
+            },
+            "__typename": "GenerativeToken"
+          },
+          "__typename": "Objkt"
+        },
+        "__typename": "Listing"
+      },
+      {
         "id": 1116894,
         "version": 1,
         "price": 18300000,
@@ -1451,69 +1522,6 @@
               "name": "Jacob Gold",
               "type": "REGULAR",
               "avatarUri": "ipfs://QmZTfVmrGAZ9DZAmtHj9YJLxEwn56sPqkcwGe8erJW6h9Z",
-              "flag": "VERIFIED",
-              "collaborators": null,
-              "__typename": "User"
-            },
-            "__typename": "GenerativeToken"
-          },
-          "__typename": "Objkt"
-        },
-        "__typename": "Listing"
-      },
-      {
-        "id": 1116875,
-        "version": 1,
-        "price": 29900000,
-        "objkt": {
-          "id": "FX0-1229156",
-          "version": 1,
-          "name": "Once and Future Cities #114",
-          "slug": "once-and-future-cities-114",
-          "metadata": {
-            "name": "Once and Future Cities #114",
-            "iterationHash": "op2uX7LzjF5gW1RHoXLAoo1sCdGmHA3LDqp9KmtPNLStuf2PD4v",
-            "description": "When I was a kid I used to take apart broken electronic devices and look at the circuits, especially those with lots of good-sized components. As a scifi fan, I played with them imagining they were models of futuristic cities. For this piece I wanted to turn those memories of my childhood fantasies into glowing cyberpunk metropolises that resemble circuitry and are digital art made by computer circuits.\n\nOn the technical side, I used shaders to procedurally create the geometries and the textures. These geometries do not have vertex data like usual 3D, but are defined by mathematical functions, the so called \"implicit surfaces\". For each pixel a vector is constructed whose direction is used to make a simulated \"scanning ray\" that march step by step towards the scene, testing if it collides or not with any surface, and thus calculating the color that pixel should have. This technique is called raymarching and in this case the surface that defines the geometry is a height map.\n\nFor the procedural texture I used a formula that I discovered some years ago, a fractal of the kleinian family, in this case the square cousin version that produces patterns that look somewhat like circuits and that I have already used in other productions.\n\nFinally there is the post processing shader, for which I developed a noisy bloom effect and a depth of field algorithm that receives from the main shader the distance from the camera for each pixel using the alpha channel.\n\nThe variations are achieved with the parameters sent to the shader and used by the hash functions that set the position and shape of the buildings, the different perspectives, the colors and patterns of the procedural textures, and the gradient of the sky.\n\nBest viewed full screen. Also it will adapt to any aspect ratio.\n\nIn live mode:\n\nPress 'S' to save a 3840x2160 image (16:9) \nPress 'W' to save a 3840x1080 image (32:9)\n\nThis project is GPU demanding and not intended to be run on mobile devices or low end hardware. Specially high res image generation, that is likely to fail on low end GPU's.",
-            "tags": [
-              "shaders",
-              "raymarching",
-              "heightmap",
-              "city",
-              "cyberpunk",
-              "scifi"
-            ],
-            "generatorUri": "ipfs://QmUeNkVC9n35nUn7MzDXdNsPnSfgxm3UqHFaiX3Mag547U",
-            "artifactUri": "ipfs://QmUeNkVC9n35nUn7MzDXdNsPnSfgxm3UqHFaiX3Mag547U?fxhash=op2uX7LzjF5gW1RHoXLAoo1sCdGmHA3LDqp9KmtPNLStuf2PD4v",
-            "displayUri": "ipfs://QmWobaB6FQb4tyyXdibsXHUhXbnsmr7TTwh4hFTiX79Zvd",
-            "thumbnailUri": "ipfs://QmUxVdZd3dxKUcKHuDyw2dvHqpnGG4i2aWJmNDPUnu3q8n",
-            "authenticityHash": "cd341d65156d50c0313648e681a41567339c6f93d91a5fe25e77418706164538",
-            "attributes": [],
-            "decimals": 0,
-            "symbol": "GENTK",
-            "version": "0.2"
-          },
-          "duplicate": false,
-          "activeListing": {
-            "id": 1116875,
-            "version": 1,
-            "price": 29900000,
-            "__typename": "Listing"
-          },
-          "owner": {
-            "id": "tz1NMvVB48fNzrG3rPZS58Eo1nSJ6p3RjRyz",
-            "name": "Hevey",
-            "flag": "VERIFIED",
-            "avatarUri": "ipfs://QmeGW5LK9W4KupJKrhRwUGZbaRpSTMb1JnbHqTx6RzJQkv",
-            "__typename": "User"
-          },
-          "issuer": {
-            "flag": "NONE",
-            "name": "Once and Future Cities",
-            "author": {
-              "id": "tz1PtfjV9amZu17EJAS4bMumrHctW8KJg9rk",
-              "name": "Kali",
-              "type": "REGULAR",
-              "avatarUri": "ipfs://QmYEFKsnnYpmB33RmEHDZUwPRgRrDwa3gYATUYSj8g7VZb",
               "flag": "VERIFIED",
               "collaborators": null,
               "__typename": "User"
