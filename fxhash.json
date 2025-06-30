@@ -2,6 +2,232 @@
   "data": {
     "listings": [
       {
+        "id": 1117981,
+        "version": 1,
+        "price": 23000000,
+        "objkt": {
+          "id": "FX0-975398",
+          "version": 1,
+          "name": "Natural order.chaos #113",
+          "slug": "natural-order.chaos-113",
+          "metadata": {
+            "name": "Natural order.chaos #113",
+            "iterationHash": "opAnk7TWjvzvP74eXbcCs9fa6DmvmwGWhwEowMKC6Cni78Y7P5A",
+            "description": "Generative Landscape with two possible variations, Natural order and Natural chaos. One drawn in the style of semi-realism, and the other abstract.\n\nMade in p5js.\n",
+            "tags": [
+              "landscape",
+              "nature",
+              "tree",
+              "natural",
+              "order",
+              "chaos",
+              "flower",
+              "plants",
+              "abstract",
+              "semi-realism",
+              "p5",
+              "p5js",
+              "Tezumie"
+            ],
+            "generatorUri": "ipfs://QmbBmutidFYjDpGfN777d3AKiWSX6oyvuMiEiwNHQbKB1T",
+            "artifactUri": "ipfs://QmbBmutidFYjDpGfN777d3AKiWSX6oyvuMiEiwNHQbKB1T?fxhash=opAnk7TWjvzvP74eXbcCs9fa6DmvmwGWhwEowMKC6Cni78Y7P5A",
+            "displayUri": "ipfs://QmVegWykC9uF3MQioJoGLsWtVYEZoz5GscvjEgRte9N9go",
+            "thumbnailUri": "ipfs://QmcsabA96vX8w1C9dCPTnHfHG9qMQZJXzqbt954HjYtVuz",
+            "authenticityHash": "6b468dadf7acdc332503532401c4cf5d0a6b50604e2a7e07eeebd8550dbc73c0",
+            "attributes": [
+              {
+                "name": "Style",
+                "value": "Natural Order"
+              },
+              {
+                "name": "Palette",
+                "value": "Colorful"
+              },
+              {
+                "name": "Tree Density",
+                "value": "Medium"
+              },
+              {
+                "name": "Flower Density",
+                "value": "Medium"
+              },
+              {
+                "name": "Fog",
+                "value": "False"
+              },
+              {
+                "name": "Scale",
+                "value": "2500"
+              },
+              {
+                "name": "Canvas",
+                "value": "Landscape"
+              },
+              {
+                "name": "Rows",
+                "value": "4"
+              },
+              {
+                "name": "Foliage",
+                "value": "Square"
+              },
+              {
+                "name": "Cloud Density",
+                "value": "high"
+              },
+              {
+                "name": "Shape Size",
+                "value": "Average"
+              },
+              {
+                "name": "Shape Style",
+                "value": "Square"
+              }
+            ],
+            "decimals": 0,
+            "symbol": "GENTK",
+            "version": "0.2"
+          },
+          "duplicate": false,
+          "activeListing": {
+            "id": 1117981,
+            "version": 1,
+            "price": 23000000,
+            "__typename": "Listing"
+          },
+          "owner": {
+            "id": "tz1X95uJRaZkK4VDoPpf2UuSzX4T24E8eCrb",
+            "name": "Applied.tez",
+            "flag": "NONE",
+            "avatarUri": null,
+            "__typename": "User"
+          },
+          "issuer": {
+            "flag": "NONE",
+            "name": "Natural order.chaos",
+            "author": {
+              "id": "tz1a2aHDQayeSEsbDRm5igEiLYH4cxcNnKyz",
+              "name": "Tezumie",
+              "type": "REGULAR",
+              "avatarUri": "ipfs://QmSKzorFywkX9nnpGGgi3YYydKEEAcLj7zTV45o3rz9yKL",
+              "flag": "NONE",
+              "collaborators": null,
+              "__typename": "User"
+            },
+            "__typename": "GenerativeToken"
+          },
+          "__typename": "Objkt"
+        },
+        "__typename": "Listing"
+      },
+      {
+        "id": 1117980,
+        "version": 1,
+        "price": 30000000,
+        "objkt": {
+          "id": "FX0-1344717",
+          "version": 1,
+          "name": "Fischbach #127",
+          "slug": "fischbach-127",
+          "metadata": {
+            "name": "Fischbach #127",
+            "iterationHash": "op2tU4LvPrfMpJtZme7Gm57qg1hNiTQZzD7C56BWtys8Q2YgZC9",
+            "description": "#fxhashturnsone\n\nThe first 365 crazy days of fxhash - time to celebrate this and take a look back.\n\nThe entropy of memories in a vivid photo collage that gives me goosebumps while others might just see moving eye candy. Perspective and perception can be so different.\n\nBased on some of my photos from the last 365 days that trigger emotional memories, even if they are not directly connected. By the way, Fischbach is the name of the small village where I grew up. It was a great time!\n\nHow does it work?\n\nEach piece uses pairs of photos and colors (top/bottom).\n\nThe animated collage itself is based on two layers. The first layer uses a double buffer to cut, colorize and animate the photos. The second layer is mainly just for screen rendering, debugging and behind-the-scene looks.\n\nCutting and pasting photos is based on a variable moving color grid, the fixed horizon, the variable position of the photos top/bottom, the previous buffer and some magic distance calculations between them.\n\nThe grid itself is a combination of vertical color stripes with variable position and distance factors that determine the color gradient between the two colors, and folds that alternate between the two colors depending on the horizontal and vertical values.\n\nEspecially the entropy of the photos and the colored grid influence the pixel movement.\n\nAnimation changes are triggered after a random number of frames and effect folds, stripes and photo position. These replace parts of the current collage (fade to black) or add some (discard fragment updates).\n\nFeatures:\n\n- top color [12] - hue, colorful & bright\n- bottom color [6] - hue, less colorful & bright\n- top photo [16] (zingst, birds, xmas, zustand, zebra, moving-blocks-mono, fischbach, santanyi, goldblume, ♠4, driften, brand-pyramide, zäpfle, bc, tisa, lieblingspulli)\n- bottom photo: [16] (zingst, birds, xmas, zustand, zebra, moving-blocks-mono, fischbach, santanyi, goldblume, ♠4, driften, brand-pyramide, zäpfle, bc, tisa, lieblingspulli)\n- horizon [0.618, 0.5, 0.382] (down, center, up)\n- hectic [3, 5, 11] (calm, slightly, very)\n- horizontal folds [113, 365, 997, 2153, 3987] - used for first animation iteration, variable\n- vertical folds [7, 37, 127, 571, 1501, 3147] - used for first animation iteration, variable\n- min stripes [1, 3, 5] - used for first animation iteration, variable\n\nAnimation and feature selection are based on the deterministic prng Xoshiro128 seeded with the fxhash. This allows repeated playback in the same sequence. The animation is synchronized with frames and not with time.\n\nThe preview images are taken after 300 frames.\n\nShortcuts & interactions:\n\n- spacebar, mouse click or tap touch to trigger animation changes\n- `c` to take a picture\n- `f` for full screen mode\n- `p` to pause\n- `h` to see all options\n\nAvailable query string parameters:\n\n- autopause - enable automatic pausing\n- pixelratio=2 - sets the pixel ratio (default: device)\n- showannouncement - activates the announcement\n- kioskspeed=10 - activates the kiosk mode and sets the speed in seconds\n- showinfo - activates the info box",
+            "tags": [
+              "webgl2",
+              "fischbach",
+              "moving blocks",
+              "zebra",
+              "glsl",
+              "discard",
+              "twgl.js",
+              "#fxhashturnsone",
+              "fxhashturnsone",
+              "thi.ng",
+              "interactive",
+              "animated",
+              "photo collage"
+            ],
+            "generatorUri": "ipfs://QmXfE7s2HbfJe1fgxYMwBxpkoVv4ixGoRxixbrsw6edeKK",
+            "artifactUri": "ipfs://QmXfE7s2HbfJe1fgxYMwBxpkoVv4ixGoRxixbrsw6edeKK?fxhash=op2tU4LvPrfMpJtZme7Gm57qg1hNiTQZzD7C56BWtys8Q2YgZC9",
+            "displayUri": "ipfs://QmUCWwPB8KcDjhNddFfdHvWJFKsFuZwyAR63qhZtMyC1X6",
+            "thumbnailUri": "ipfs://QmZJNoq9ZuXtEqoo9tBDFxgPvCa3KcPHaSBZHwTyHT3UFa",
+            "authenticityHash": "da9b40d6d13ae06c4bc5752dd1922d55fd671bbeabfbaaeb50609c83491b285f",
+            "attributes": [
+              {
+                "name": "top color",
+                "value": "#ff7dff"
+              },
+              {
+                "name": "bottom color",
+                "value": "#7fa513"
+              },
+              {
+                "name": "horizon",
+                "value": "down"
+              },
+              {
+                "name": "horizontal fold",
+                "value": 997
+              },
+              {
+                "name": "vertical fold",
+                "value": 37
+              },
+              {
+                "name": "hectic",
+                "value": "slightly"
+              },
+              {
+                "name": "top photo",
+                "value": "zingst"
+              },
+              {
+                "name": "bottom photo",
+                "value": "♠4"
+              },
+              {
+                "name": "min stripes",
+                "value": 3
+              }
+            ],
+            "decimals": 0,
+            "symbol": "GENTK",
+            "version": "0.2"
+          },
+          "duplicate": false,
+          "activeListing": {
+            "id": 1117980,
+            "version": 1,
+            "price": 30000000,
+            "__typename": "Listing"
+          },
+          "owner": {
+            "id": "tz1X95uJRaZkK4VDoPpf2UuSzX4T24E8eCrb",
+            "name": "Applied.tez",
+            "flag": "NONE",
+            "avatarUri": null,
+            "__typename": "User"
+          },
+          "issuer": {
+            "flag": "NONE",
+            "name": "Fischbach",
+            "author": {
+              "id": "tz1QM2ZmH3HUD5MUSY3efFvYqLz3A2rZZmT6",
+              "name": "dirx",
+              "type": "REGULAR",
+              "avatarUri": "ipfs://QmPdM1evqKBV9Xs5hS2VmWMBTtzQyPrd2asmr4qdTCLRA7",
+              "flag": "VERIFIED",
+              "collaborators": null,
+              "__typename": "User"
+            },
+            "__typename": "GenerativeToken"
+          },
+          "__typename": "Objkt"
+        },
+        "__typename": "Listing"
+      },
+      {
         "id": 1117979,
         "version": 1,
         "price": 4750000000,
@@ -1454,198 +1680,6 @@
               "name": "Phlins",
               "type": "REGULAR",
               "avatarUri": "ipfs://QmWoR29nx86wVsGa9Fo2B1Lc3ZsTeTKtPxRiEPbjaqfBnm",
-              "flag": "VERIFIED",
-              "collaborators": null,
-              "__typename": "User"
-            },
-            "__typename": "GenerativeToken"
-          },
-          "__typename": "Objkt"
-        },
-        "__typename": "Listing"
-      },
-      {
-        "id": 1117961,
-        "version": 1,
-        "price": 25000000,
-        "objkt": {
-          "id": "FX0-404939",
-          "version": 0,
-          "name": "(°)3/V4///3 XX #5",
-          "slug": "()3v43-xx-5",
-          "metadata": {
-            "name": "(°)3/V4///3 XX #5",
-            "iterationHash": "ooCQGySooLzEkdeAAxD4p6S45dnoMWWTvbMxnFiaqkKuCFN9KBc",
-            "description": "codename XX\nclick pause click == speed set interval 500\n//_________________☠_____",
-            "tags": [
-              "unicode",
-              "ink",
-              "<",
-              ">",
-              "ascii",
-              "abstract"
-            ],
-            "generatorUri": "ipfs://QmahBq1WZuZdqHTRagH13VgPo7Kfa2qkCTXrt1ARVMx9WK",
-            "artifactUri": "ipfs://QmahBq1WZuZdqHTRagH13VgPo7Kfa2qkCTXrt1ARVMx9WK?fxhash=ooCQGySooLzEkdeAAxD4p6S45dnoMWWTvbMxnFiaqkKuCFN9KBc",
-            "displayUri": "ipfs://QmTfUdqkedqH3ZiR84Kha7A7irCXmuVpG7uhHzg3HgddKs",
-            "thumbnailUri": "ipfs://QmWR1i6Q9SkGKBJbzwEzEo44HDRsLqFZ3o2aTB91Y3qtKb",
-            "authenticityHash": "dbbf30b65ca64711830f352efc95c8ae307cc1824d98d5263d2d60991a682110",
-            "attributes": [
-              {
-                "name": "codename",
-                "value": "[　░✥}°#ᴥ✷Fэ)"
-              },
-              {
-                "name": "up",
-                "value": "["
-              },
-              {
-                "name": "eye_1",
-                "value": "✟ю:"
-              },
-              {
-                "name": "eye_2",
-                "value": "M*⌒"
-              },
-              {
-                "name": "nose",
-                "value": "ᴥ"
-              },
-              {
-                "name": "mouth",
-                "value": "▽•➬"
-              },
-              {
-                "name": "bottom",
-                "value": ")"
-              },
-              {
-                "name": "speed_",
-                "value": 651
-              }
-            ],
-            "decimals": 0,
-            "symbol": "GENTK",
-            "version": "0.2"
-          },
-          "duplicate": false,
-          "activeListing": {
-            "id": 1117961,
-            "version": 1,
-            "price": 25000000,
-            "__typename": "Listing"
-          },
-          "owner": {
-            "id": "tz1dAVKwbGe1PVnPBkRZYmYFsecDtTLHjHLK",
-            "name": "punk",
-            "flag": "VERIFIED",
-            "avatarUri": "ipfs://QmcZTEQyNHgKTeK1rkcd6b3RCcSbRLMBCqKA8xi3V7FgUT",
-            "__typename": "User"
-          },
-          "issuer": {
-            "flag": "NONE",
-            "name": "(°)3/V4///3 XX",
-            "author": {
-              "id": "tz1dAVKwbGe1PVnPBkRZYmYFsecDtTLHjHLK",
-              "name": "punk",
-              "type": "REGULAR",
-              "avatarUri": "ipfs://QmcZTEQyNHgKTeK1rkcd6b3RCcSbRLMBCqKA8xi3V7FgUT",
-              "flag": "VERIFIED",
-              "collaborators": null,
-              "__typename": "User"
-            },
-            "__typename": "GenerativeToken"
-          },
-          "__typename": "Objkt"
-        },
-        "__typename": "Listing"
-      },
-      {
-        "id": 1117960,
-        "version": 1,
-        "price": 10000000,
-        "objkt": {
-          "id": "FX0-404937",
-          "version": 0,
-          "name": "(°)3/V4///3 XX #4",
-          "slug": "()3v43-xx-4",
-          "metadata": {
-            "name": "(°)3/V4///3 XX #4",
-            "iterationHash": "onpVtGVTkFhUHDLt7ubhjMgEXgRwqhXf74XioQUHHGxY8BEoDu2",
-            "description": "codename XX\nclick pause click == speed set interval 500\n//_________________☠_____",
-            "tags": [
-              "unicode",
-              "ink",
-              "<",
-              ">",
-              "ascii",
-              "abstract"
-            ],
-            "generatorUri": "ipfs://QmahBq1WZuZdqHTRagH13VgPo7Kfa2qkCTXrt1ARVMx9WK",
-            "artifactUri": "ipfs://QmahBq1WZuZdqHTRagH13VgPo7Kfa2qkCTXrt1ARVMx9WK?fxhash=onpVtGVTkFhUHDLt7ubhjMgEXgRwqhXf74XioQUHHGxY8BEoDu2",
-            "displayUri": "ipfs://QmXRfs7gvQio3uM6UkPy11R6xFWaD6gaLXbHhCiPFFoFCH",
-            "thumbnailUri": "ipfs://QmTnvatpsbt4qzUCBq88yMjkJDcWFpFE4HXUTND65fJxdQ",
-            "authenticityHash": "c8c286e82bfc041b7c2165363c14b81890b796878439115918d219989f0046df",
-            "attributes": [
-              {
-                "name": "codename",
-                "value": "[g°⁴|Ч✰◁«:“]"
-              },
-              {
-                "name": "up",
-                "value": "["
-              },
-              {
-                "name": "eye_1",
-                "value": "øp°"
-              },
-              {
-                "name": "eye_2",
-                "value": "➟ђґ"
-              },
-              {
-                "name": "nose",
-                "value": "◁"
-              },
-              {
-                "name": "mouth",
-                "value": "✦◎;"
-              },
-              {
-                "name": "bottom",
-                "value": "]"
-              },
-              {
-                "name": "speed_",
-                "value": 612
-              }
-            ],
-            "decimals": 0,
-            "symbol": "GENTK",
-            "version": "0.2"
-          },
-          "duplicate": false,
-          "activeListing": {
-            "id": 1117960,
-            "version": 1,
-            "price": 10000000,
-            "__typename": "Listing"
-          },
-          "owner": {
-            "id": "tz1dAVKwbGe1PVnPBkRZYmYFsecDtTLHjHLK",
-            "name": "punk",
-            "flag": "VERIFIED",
-            "avatarUri": "ipfs://QmcZTEQyNHgKTeK1rkcd6b3RCcSbRLMBCqKA8xi3V7FgUT",
-            "__typename": "User"
-          },
-          "issuer": {
-            "flag": "NONE",
-            "name": "(°)3/V4///3 XX",
-            "author": {
-              "id": "tz1dAVKwbGe1PVnPBkRZYmYFsecDtTLHjHLK",
-              "name": "punk",
-              "type": "REGULAR",
-              "avatarUri": "ipfs://QmcZTEQyNHgKTeK1rkcd6b3RCcSbRLMBCqKA8xi3V7FgUT",
               "flag": "VERIFIED",
               "collaborators": null,
               "__typename": "User"
