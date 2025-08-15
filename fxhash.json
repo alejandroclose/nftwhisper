@@ -2,6 +2,319 @@
   "data": {
     "listings": [
       {
+        "id": 1120633,
+        "version": 1,
+        "price": 30000000,
+        "objkt": {
+          "id": "FX0-599610",
+          "version": 1,
+          "name": "Lush Memories #136",
+          "slug": "lush-memories-136",
+          "metadata": {
+            "name": "Lush Memories #136",
+            "iterationHash": "opLBgQD6tH2c4fbbuV1tftVZjCEpFFyWpRA5N68eb6AR51MtgQq",
+            "description": "Lush Memories is a generative art experiment based on hazy springtime memories by Juki\n\n@jukimoot",
+            "tags": [
+              "lush",
+              "memories",
+              "flowers",
+              "colorful",
+              "colors",
+              "spring"
+            ],
+            "generatorUri": "ipfs://QmfA9LGW22V6gcDMEujD9raKs5YeEKDCBzfu9uMdZj9rGV",
+            "artifactUri": "ipfs://QmfA9LGW22V6gcDMEujD9raKs5YeEKDCBzfu9uMdZj9rGV?fxhash=opLBgQD6tH2c4fbbuV1tftVZjCEpFFyWpRA5N68eb6AR51MtgQq",
+            "displayUri": "ipfs://QmP54Abb3QNrprDguScXgmpqNkAuCwEhMitN1Wv8TmTcwQ",
+            "thumbnailUri": "ipfs://QmSAzdY1mEsPahAf7LUNg6gCWTZHRUQ4NGxxpJ5Pqw2fPP",
+            "authenticityHash": "420fef4035587bc38344cf3f6b05713d2d749926f94e198a3ac01d5c019e1fbd",
+            "attributes": [
+              {
+                "name": "Color",
+                "value": "Red"
+              },
+              {
+                "name": "Lines",
+                "value": "Vertical"
+              },
+              {
+                "name": "Circles",
+                "value": 2
+              },
+              {
+                "name": "Flowers",
+                "value": "4 Petals"
+              }
+            ],
+            "decimals": 0,
+            "symbol": "GENTK",
+            "version": "0.2"
+          },
+          "duplicate": false,
+          "activeListing": {
+            "id": 1120633,
+            "version": 1,
+            "price": 30000000,
+            "__typename": "Listing"
+          },
+          "owner": {
+            "id": "tz1ZjEwXyHtcnD48WfYy9YRpkkc7dSP3Nh4W",
+            "name": null,
+            "flag": "NONE",
+            "avatarUri": null,
+            "__typename": "User"
+          },
+          "issuer": {
+            "flag": "NONE",
+            "name": "Lush Memories",
+            "author": {
+              "id": "tz1Z4uN6Fx6s717dseEH8mvXE6gUBrtCFufs",
+              "name": "Juki",
+              "type": "REGULAR",
+              "avatarUri": "ipfs://QmWTqEGSHLecbHEd9f7yciA4UdQ8NwiEKMopapZNKrNE6P",
+              "flag": "VERIFIED",
+              "collaborators": null,
+              "__typename": "User"
+            },
+            "__typename": "GenerativeToken"
+          },
+          "__typename": "Objkt"
+        },
+        "__typename": "Listing"
+      },
+      {
+        "id": 1120632,
+        "version": 1,
+        "price": 18000000,
+        "objkt": {
+          "id": "FX0-1456785",
+          "version": 1,
+          "name": "Fischbach #199",
+          "slug": "fischbach-199",
+          "metadata": {
+            "name": "Fischbach #199",
+            "iterationHash": "oocbcayKFJxhXjuCsaxgivj1VyfyAjBcRPeohx9c9atn5sxoRPH",
+            "description": "#fxhashturnsone\n\nThe first 365 crazy days of fxhash - time to celebrate this and take a look back.\n\nThe entropy of memories in a vivid photo collage that gives me goosebumps while others might just see moving eye candy. Perspective and perception can be so different.\n\nBased on some of my photos from the last 365 days that trigger emotional memories, even if they are not directly connected. By the way, Fischbach is the name of the small village where I grew up. It was a great time!\n\nHow does it work?\n\nEach piece uses pairs of photos and colors (top/bottom).\n\nThe animated collage itself is based on two layers. The first layer uses a double buffer to cut, colorize and animate the photos. The second layer is mainly just for screen rendering, debugging and behind-the-scene looks.\n\nCutting and pasting photos is based on a variable moving color grid, the fixed horizon, the variable position of the photos top/bottom, the previous buffer and some magic distance calculations between them.\n\nThe grid itself is a combination of vertical color stripes with variable position and distance factors that determine the color gradient between the two colors, and folds that alternate between the two colors depending on the horizontal and vertical values.\n\nEspecially the entropy of the photos and the colored grid influence the pixel movement.\n\nAnimation changes are triggered after a random number of frames and effect folds, stripes and photo position. These replace parts of the current collage (fade to black) or add some (discard fragment updates).\n\nFeatures:\n\n- top color [12] - hue, colorful & bright\n- bottom color [6] - hue, less colorful & bright\n- top photo [16] (zingst, birds, xmas, zustand, zebra, moving-blocks-mono, fischbach, santanyi, goldblume, ♠4, driften, brand-pyramide, zäpfle, bc, tisa, lieblingspulli)\n- bottom photo: [16] (zingst, birds, xmas, zustand, zebra, moving-blocks-mono, fischbach, santanyi, goldblume, ♠4, driften, brand-pyramide, zäpfle, bc, tisa, lieblingspulli)\n- horizon [0.618, 0.5, 0.382] (down, center, up)\n- hectic [3, 5, 11] (calm, slightly, very)\n- horizontal folds [113, 365, 997, 2153, 3987] - used for first animation iteration, variable\n- vertical folds [7, 37, 127, 571, 1501, 3147] - used for first animation iteration, variable\n- min stripes [1, 3, 5] - used for first animation iteration, variable\n\nAnimation and feature selection are based on the deterministic prng Xoshiro128 seeded with the fxhash. This allows repeated playback in the same sequence. The animation is synchronized with frames and not with time.\n\nThe preview images are taken after 300 frames.\n\nShortcuts & interactions:\n\n- spacebar, mouse click or tap touch to trigger animation changes\n- `c` to take a picture\n- `f` for full screen mode\n- `p` to pause\n- `h` to see all options\n\nAvailable query string parameters:\n\n- autopause - enable automatic pausing\n- pixelratio=2 - sets the pixel ratio (default: device)\n- showannouncement - activates the announcement\n- kioskspeed=10 - activates the kiosk mode and sets the speed in seconds\n- showinfo - activates the info box",
+            "tags": [
+              "webgl2",
+              "fischbach",
+              "moving blocks",
+              "zebra",
+              "glsl",
+              "discard",
+              "twgl.js",
+              "#fxhashturnsone",
+              "fxhashturnsone",
+              "thi.ng",
+              "interactive",
+              "animated",
+              "photo collage"
+            ],
+            "generatorUri": "ipfs://QmXfE7s2HbfJe1fgxYMwBxpkoVv4ixGoRxixbrsw6edeKK",
+            "artifactUri": "ipfs://QmXfE7s2HbfJe1fgxYMwBxpkoVv4ixGoRxixbrsw6edeKK?fxhash=oocbcayKFJxhXjuCsaxgivj1VyfyAjBcRPeohx9c9atn5sxoRPH",
+            "displayUri": "ipfs://QmQjNRUBK5WU3kVLobXydwpem6hPe7QMSRs7hkegizneLm",
+            "thumbnailUri": "ipfs://QmUBrG8DF1nASfwPvLFKqFq9wj9Z96XXEMBwtey2eMEAJC",
+            "authenticityHash": "f3e868963732e8f6b7e40e2876d600f079ad1fde2b9e533b0fd1ad3a41821121",
+            "attributes": [
+              {
+                "name": "top color",
+                "value": "#ff81ff"
+              },
+              {
+                "name": "bottom color",
+                "value": "#55ab52"
+              },
+              {
+                "name": "horizon",
+                "value": "down"
+              },
+              {
+                "name": "horizontal fold",
+                "value": 2153
+              },
+              {
+                "name": "vertical fold",
+                "value": 7
+              },
+              {
+                "name": "hectic",
+                "value": "calm"
+              },
+              {
+                "name": "top photo",
+                "value": "fischbach"
+              },
+              {
+                "name": "bottom photo",
+                "value": "santanyi"
+              },
+              {
+                "name": "min stripes",
+                "value": 1
+              }
+            ],
+            "decimals": 0,
+            "symbol": "GENTK",
+            "version": "0.2"
+          },
+          "duplicate": false,
+          "activeListing": {
+            "id": 1120632,
+            "version": 1,
+            "price": 18000000,
+            "__typename": "Listing"
+          },
+          "owner": {
+            "id": "tz1ZjEwXyHtcnD48WfYy9YRpkkc7dSP3Nh4W",
+            "name": null,
+            "flag": "NONE",
+            "avatarUri": null,
+            "__typename": "User"
+          },
+          "issuer": {
+            "flag": "NONE",
+            "name": "Fischbach",
+            "author": {
+              "id": "tz1QM2ZmH3HUD5MUSY3efFvYqLz3A2rZZmT6",
+              "name": "dirx",
+              "type": "REGULAR",
+              "avatarUri": "ipfs://QmPdM1evqKBV9Xs5hS2VmWMBTtzQyPrd2asmr4qdTCLRA7",
+              "flag": "VERIFIED",
+              "collaborators": null,
+              "__typename": "User"
+            },
+            "__typename": "GenerativeToken"
+          },
+          "__typename": "Objkt"
+        },
+        "__typename": "Listing"
+      },
+      {
+        "id": 1120631,
+        "version": 1,
+        "price": 69000000,
+        "objkt": {
+          "id": "FX0-629997",
+          "version": 1,
+          "name": "pang #267",
+          "slug": "pang-267",
+          "metadata": {
+            "name": "pang #267",
+            "iterationHash": "ooHeSoYUeFUqGHvjLXhVyUgQLDx9CnXwrkCoR57LQdehNNZf7Za",
+            "description": "Within each of us resides an evolutionary history of primal emotions, yet we often spend our lives dulling and controlling these instincts rather than reveling in them. Art is one of the ways we best express those instincts and intuitions – accessing and visualizing their visceral qualities, and releasing our deepest emotions in a way we can share.\n\npang reflects emotions that take control of our impulses – anguish, euphoria, obsession. By using crayon-like marks, the artworks convey the catharsis felt while drawing with a childlike abandon. To capture what gives such marks true feeling, the works deliberate the intrinsic movements, pressures, and angles shaped by hands in various moods. These qualities and their frenetic meanderings represent the infinite possibilities of where the crayon could go next – if only we could free ourselves from the layers of control we've built.\n\nThe contradictions we struggle with are reflected throughout the works:  in the long, methodical, and mathematical path to creation that yields work that looks fast, free and unrehearsed;  through the randomly-informed computer generation of art that feels human;  and by the depiction of long-standing traditional techniques to help display the conceptual range of a young, innovative art movement still establishing its pivotal place in the canon of art. These tensions parallel the work's underlying concept, accentuating the suspicion that a learned fear of emotional expression might just be the source of our own pang. \n\nCreated in p5.js, pang is inspired by the emotional works and processes of later abstract expressionists such as Cy Twombly and Joan Mitchell – as well as contemporary artists like José Parla.\n\nFunctionality: \nPress ‘p’ to save as a png. \nPress ‘b’ to render with (or without) a transparent background.\nPress 0-9 to render at varying degrees of quality.  0 (lowest quality) to 9 (highest quality, 15000 pixels lengthwise).\nPress ⬆️ (arrow up) to incrementally increase pixel density.\nPress ⬇️ (arrow down) to incrementally decrease pixel density.\n\n__________\nTENDER x abstractment\nApril 2022\n",
+            "tags": [
+              "Crayon",
+              "collab",
+              "p5js",
+              "abstract",
+              "art",
+              "generativeart",
+              "emotion",
+              "TENDER",
+              "clewcrew"
+            ],
+            "generatorUri": "ipfs://QmV4xs1w9EDB6LSyYPogWaq8AAyPogMCa8iaVz5yr8dNkE",
+            "artifactUri": "ipfs://QmV4xs1w9EDB6LSyYPogWaq8AAyPogMCa8iaVz5yr8dNkE?fxhash=ooHeSoYUeFUqGHvjLXhVyUgQLDx9CnXwrkCoR57LQdehNNZf7Za",
+            "displayUri": "ipfs://QmRQjrkRJdFgCbUXKLgyNP8Mo3oamsWwBtkf3SspkbuddW",
+            "thumbnailUri": "ipfs://Qma3L6RTGTrzgwr2vvUMZ4RBfXggByf1azdvFembzDGqfJ",
+            "authenticityHash": "31c817f10d527e18750358473fed54db81ea2b83843aff474e442016f628c136",
+            "attributes": [
+              {
+                "name": "Stroke Technique",
+                "value": "Loops"
+              },
+              {
+                "name": "Instrument #1",
+                "value": "Compass"
+              },
+              {
+                "name": "Instrument #2",
+                "value": "Compass"
+              },
+              {
+                "name": "Composition",
+                "value": "O"
+              },
+              {
+                "name": "Color Palette",
+                "value": "Ensconced"
+              },
+              {
+                "name": "Color Order",
+                "value": "Dark First"
+              },
+              {
+                "name": "Paper",
+                "value": "Black Craft"
+              },
+              {
+                "name": "Orientation",
+                "value": "Landscape"
+              },
+              {
+                "name": "Frame",
+                "value": "On"
+              },
+              {
+                "name": "Frame Definition",
+                "value": "Rough"
+              },
+              {
+                "name": "Other",
+                "value": "None"
+              }
+            ],
+            "decimals": 0,
+            "symbol": "GENTK",
+            "version": "0.2"
+          },
+          "duplicate": false,
+          "activeListing": {
+            "id": 1120631,
+            "version": 1,
+            "price": 69000000,
+            "__typename": "Listing"
+          },
+          "owner": {
+            "id": "tz1ZjEwXyHtcnD48WfYy9YRpkkc7dSP3Nh4W",
+            "name": null,
+            "flag": "NONE",
+            "avatarUri": null,
+            "__typename": "User"
+          },
+          "issuer": {
+            "flag": "NONE",
+            "name": "pang",
+            "author": {
+              "id": "KT1WYrKBAJYhfsvEv8gswRfUWSi68edjyUoK",
+              "name": null,
+              "type": "COLLAB_CONTRACT_V1",
+              "avatarUri": null,
+              "flag": "NONE",
+              "collaborators": [
+                {
+                  "id": "tz1NmZAWpGzA8U3t7WBefVNwQfcCZoz3oMvi",
+                  "name": "TENDER x",
+                  "avatarUri": "ipfs://QmR3fMt1gSoXguocaaNGyTbHWBTy6A4VXDNy2of5WvqDff",
+                  "flag": "VERIFIED",
+                  "__typename": "User"
+                },
+                {
+                  "id": "tz1XK1NVQXhwdGFdZvdodVyos1osAu7LTNLi",
+                  "name": "abstractment",
+                  "avatarUri": "ipfs://QmZMNBcsNAkRChJkrrZSPVJ2UoUZ38mzJj9YtnHsHDRpLT",
+                  "flag": "VERIFIED",
+                  "__typename": "User"
+                }
+              ],
+              "__typename": "User"
+            },
+            "__typename": "GenerativeToken"
+          },
+          "__typename": "Objkt"
+        },
+        "__typename": "Listing"
+      },
+      {
         "id": 1120630,
         "version": 1,
         "price": 290000000,
@@ -1592,302 +1905,6 @@
               "name": "perkwerk",
               "type": "REGULAR",
               "avatarUri": "ipfs://QmNnz3KMAyX7KG7Aq4KbQc7sWRmuVXfHVguC4vdcRobejB",
-              "flag": "VERIFIED",
-              "collaborators": null,
-              "__typename": "User"
-            },
-            "__typename": "GenerativeToken"
-          },
-          "__typename": "Objkt"
-        },
-        "__typename": "Listing"
-      },
-      {
-        "id": 1120612,
-        "version": 1,
-        "price": 9000000,
-        "objkt": {
-          "id": "FX0-390085",
-          "version": 0,
-          "name": "Sedimentary Dissolution #45",
-          "slug": "sedimentary-dissolution-45",
-          "metadata": {
-            "name": "Sedimentary Dissolution #45",
-            "iterationHash": "ooemcjDtWBtqCCQjtXsZsNkDhnzED3WhvscEEA8WYM4WMSjWAzv",
-            "description": "This piece is inspired by the geological processes related to sedimentary dissolution. Dissolution is a form of weathering which contributes to the creation of new rocks. In this piece, various algorithms take on the role of dissolution, producing visual recombinations of the original \"sedimentary rock\".\n\nInstructions ::\n\np : save a hi-res image\ne : toggle erosion on and off\ns : toggle structure on and off\na : toggle all effects on and off\n\nIf offset, rgb dissolution or cross-bedding is true you can toggle it on and off.\nIf these features are false pressing the key will have no effect.\n\no : toggle offset on and off\nr : toggle rgb dissolution on and off\nc : toggle cross-bedding on and off\n\nThere are 20 versions you can explore, all using the same features.\nUse the left and right arrow to change the random seed. \nPressing space will re-instantiate the original random seed.",
-            "tags": [
-              "generative",
-              "geometric",
-              "colorful",
-              "minimalist",
-              "abstract"
-            ],
-            "generatorUri": "ipfs://QmSMMB77jTjzviFxMs4SqKPDvxSihp6sQcAvnwQ4Xz7xgs",
-            "artifactUri": "ipfs://QmSMMB77jTjzviFxMs4SqKPDvxSihp6sQcAvnwQ4Xz7xgs?fxhash=ooemcjDtWBtqCCQjtXsZsNkDhnzED3WhvscEEA8WYM4WMSjWAzv",
-            "displayUri": "ipfs://QmeCgHXejTJegpNWLzHDHST1siYtTx36YhoSDR7spWAz5d",
-            "thumbnailUri": "ipfs://QmSjDe6PPpufHJy3hHxk8h9pVSJekFbxoHfYn8ZcTyJqrP",
-            "authenticityHash": "966888490d44fdc914e8a72eede0debe0e813072b5a52da68df2a62d6ffae503",
-            "attributes": [
-              {
-                "name": "Cross-bedding",
-                "value": false
-              },
-              {
-                "name": "Dense",
-                "value": true
-              },
-              {
-                "name": "Erosion Probability",
-                "value": 1
-              },
-              {
-                "name": "Has Pigmentation",
-                "value": false
-              },
-              {
-                "name": "Number of Layers",
-                "value": 128
-              },
-              {
-                "name": "Offset",
-                "value": false
-              },
-              {
-                "name": "RGB Dissolution",
-                "value": false
-              },
-              {
-                "name": "Rock Type",
-                "value": "diatomite"
-              },
-              {
-                "name": "Structure",
-                "value": "wobble"
-              }
-            ],
-            "decimals": 0,
-            "symbol": "GENTK",
-            "version": "0.2"
-          },
-          "duplicate": false,
-          "activeListing": {
-            "id": 1120612,
-            "version": 1,
-            "price": 9000000,
-            "__typename": "Listing"
-          },
-          "owner": {
-            "id": "tz1U11KWKcwGa3zicF3nsKDxqe5mpsckQ5oe",
-            "name": "Webbovich",
-            "flag": "NONE",
-            "avatarUri": "ipfs://Qmeb2WGq5LevEFoHTMWztLyNZjHefMeXsWE7AMxwJgMawK",
-            "__typename": "User"
-          },
-          "issuer": {
-            "flag": "NONE",
-            "name": "Sedimentary Dissolution",
-            "author": {
-              "id": "tz1RkYY3jr1ocuPdQqrRefr5FqoawKQsmBmD",
-              "name": "Landlines Art",
-              "type": "REGULAR",
-              "avatarUri": "ipfs://QmaDnzJ8wPMQ9uLAHDsCfnn8g7U13zvKNRUiPLgUnepxCQ",
-              "flag": "VERIFIED",
-              "collaborators": null,
-              "__typename": "User"
-            },
-            "__typename": "GenerativeToken"
-          },
-          "__typename": "Objkt"
-        },
-        "__typename": "Listing"
-      },
-      {
-        "id": 1120610,
-        "version": 1,
-        "price": 59000000,
-        "objkt": {
-          "id": "FX0-307252",
-          "version": 0,
-          "name": "Stitched #58",
-          "slug": "stitched-58",
-          "metadata": {
-            "name": "Stitched #58",
-            "iterationHash": "ooSvD7j4HLBbtMBaGbmNe4RSQ5E7TH1ZfbquSZJuSoCCD2EE6kx",
-            "description": "You are the product of countless tiny decisions taken over the course of your life. Stitched is an attempt to visualize one’s current self as a product of the myriad forking paths available to us. It is best appreciated in animated format: the latent structure unfolds in time; the past gradually fades away, tinted and obscure. \n\nPast decisions and missed opportunities leave a trail on the present. Psychology affects what you explore: drive controls how frequent one changes direction; indecisive mints explore many loose ends; balanced mints match complementary colours.\n\nStitched is adaptive to arbitrary screen resolution and aspect ratio, and best appreciated at high resolution. It initially renders with a large step size in time; pause and unpause to watch it unfold more gradually.\n\ncontrols:\n\nmouse click or space bar: pause / unpause / reset animation\ns: save current frame\n\nInspired by The Garden of Forking Paths by Borges and stylistically by French and Russian Impressionists, and Autoglyphs by Larva Labs.",
-            "tags": [
-              "impressionism",
-              "autoglyphs",
-              "borges",
-              "p5",
-              "p5.js",
-              "animated"
-            ],
-            "generatorUri": "ipfs://Qmf3HTPYaiRuKEXd1dinaA7m4uWqZV2ETGeqxUDnQnzv1R",
-            "artifactUri": "ipfs://Qmf3HTPYaiRuKEXd1dinaA7m4uWqZV2ETGeqxUDnQnzv1R?fxhash=ooSvD7j4HLBbtMBaGbmNe4RSQ5E7TH1ZfbquSZJuSoCCD2EE6kx",
-            "displayUri": "ipfs://Qmd4AyR6sZE4chUb3SmJYMdT8w5bkAiVbBCM56ZWyJt8ge",
-            "thumbnailUri": "ipfs://QmVNDa7iyc3ncFx39JAdtv5NJH8akLL7i2a94135ZpFqQw",
-            "authenticityHash": "10d0397aadbb77949f66c2ba46366e685928030f6b19fa1409af4fd32bab5c86",
-            "attributes": [
-              {
-                "name": "Lines",
-                "value": "Chalk"
-              },
-              {
-                "name": "Number of brush strokes",
-                "value": 221208
-              },
-              {
-                "name": "Number of roots",
-                "value": 23
-              },
-              {
-                "name": "Number of branches",
-                "value": 453
-              },
-              {
-                "name": "Number of loops",
-                "value": 70
-              },
-              {
-                "name": "Palette",
-                "value": "Magnolia"
-              },
-              {
-                "name": "Brush",
-                "value": "Shell"
-              },
-              {
-                "name": "Canvas",
-                "value": "Azure"
-              },
-              {
-                "name": "Loops",
-                "value": "Round"
-              },
-              {
-                "name": "Symmetry",
-                "value": "Reflection in y, Reflection in x, Reflection across x+y=0"
-              },
-              {
-                "name": "Echo",
-                "value": true
-              },
-              {
-                "name": "Indecision",
-                "value": true
-              },
-              {
-                "name": "Balance",
-                "value": true
-              },
-              {
-                "name": "Size",
-                "value": 2
-              },
-              {
-                "name": "Drive",
-                "value": 10
-              },
-              {
-                "name": "Stroke precision",
-                "value": 9
-              },
-              {
-                "name": "Stroke width",
-                "value": 34
-              }
-            ],
-            "decimals": 0,
-            "symbol": "GENTK",
-            "version": "0.2"
-          },
-          "duplicate": false,
-          "activeListing": {
-            "id": 1120610,
-            "version": 1,
-            "price": 59000000,
-            "__typename": "Listing"
-          },
-          "owner": {
-            "id": "tz1U11KWKcwGa3zicF3nsKDxqe5mpsckQ5oe",
-            "name": "Webbovich",
-            "flag": "NONE",
-            "avatarUri": "ipfs://Qmeb2WGq5LevEFoHTMWztLyNZjHefMeXsWE7AMxwJgMawK",
-            "__typename": "User"
-          },
-          "issuer": {
-            "flag": "NONE",
-            "name": "Stitched",
-            "author": {
-              "id": "tz1XsSNeMumEDkdoUWhZw6yko1LXHGviRPoF",
-              "name": "pepe__xyz",
-              "type": "REGULAR",
-              "avatarUri": "ipfs://Qmdv6wEeobZYAE98Sr1TExpwMF91YYKdRkqrN3zF6JNA8U",
-              "flag": "VERIFIED",
-              "collaborators": null,
-              "__typename": "User"
-            },
-            "__typename": "GenerativeToken"
-          },
-          "__typename": "Objkt"
-        },
-        "__typename": "Listing"
-      },
-      {
-        "id": 1120609,
-        "version": 1,
-        "price": 15000000,
-        "objkt": {
-          "id": "FX0-152024",
-          "version": 0,
-          "name": "Quantum Vacuum #338",
-          "slug": "quantum-vacuum-338",
-          "metadata": {
-            "name": "Quantum Vacuum #338",
-            "iterationHash": "onvGo76mYWHaQbPi4Vf9eMd53Mc5ty6tuetTZp1idjUPdysiHuL",
-            "description": "Empty space is not empty. It's filled with energy, transient fluctuations in quantum fields, bubbling with virtual particles popping in and out of existence. \n\nPart of an ongoing series of work combining my fascination with the fringes of fundamental physics, the emergence of complex behaviour through the interaction of very simple rules, and my obsession with hacking our perceptual systems. \n\n/Disclaimer: This is not a simulation, but an artistic conceptual interpretation and dramatization. :)",
-            "tags": [
-              "trippy",
-              "psychedelic",
-              "glsl",
-              "shader",
-              "fragment shader",
-              "oscillation",
-              "physics",
-              "space",
-              "memotv",
-              "memoakten"
-            ],
-            "artifactUri": "ipfs://Qmd1ug4i2dikXSXPtB2o1gEHeAegFvifFK5hhLYVww7QLw",
-            "displayUri": "ipfs://QmXL1xisAcx94hrEWci2fKkP7scKxSxoQ8NJZByGtUPVgj",
-            "thumbnailUri": "ipfs://QmYhoyvAF49xKacDg6mfa4faXJxJitTjJfjvbUVjtLsQzV",
-            "authenticityHash": "27963cec077963bbc1cc6cdb1c0264c613cbae1f41bd179050be0c68f49d3be3",
-            "attributes": [],
-            "decimals": 0,
-            "symbol": "GENTK"
-          },
-          "duplicate": false,
-          "activeListing": {
-            "id": 1120609,
-            "version": 1,
-            "price": 15000000,
-            "__typename": "Listing"
-          },
-          "owner": {
-            "id": "tz1U11KWKcwGa3zicF3nsKDxqe5mpsckQ5oe",
-            "name": "Webbovich",
-            "flag": "NONE",
-            "avatarUri": "ipfs://Qmeb2WGq5LevEFoHTMWztLyNZjHefMeXsWE7AMxwJgMawK",
-            "__typename": "User"
-          },
-          "issuer": {
-            "flag": "NONE",
-            "name": "Quantum Vacuum",
-            "author": {
-              "id": "tz1Z1pDsbfuF7t6fHfbVxhjhouRemXuREpH5",
-              "name": "memoakten",
-              "type": "REGULAR",
-              "avatarUri": "ipfs://QmVAFhXy2wEmJ3uJFuBsHxBbjaV9BNu2ugg2iU3BX6NnyV",
               "flag": "VERIFIED",
               "collaborators": null,
               "__typename": "User"
