@@ -2,6 +2,96 @@
   "data": {
     "listings": [
       {
+        "id": 1121121,
+        "version": 1,
+        "price": 88000000,
+        "objkt": {
+          "id": "FX0-116721",
+          "version": 0,
+          "name": "MOYO #75",
+          "slug": "moyo-75",
+          "metadata": {
+            "name": "MOYO #75",
+            "iterationHash": "opRsp4xYjMxNM7cKWKYfffmZSef5KhhoCVYcP8n7CJeWyr6FNme",
+            "description": "MOYO is generative piece building unique patterns.\nThe first algorithm was created in 2018, while visiting Kanazawa, a city on the west side of Japan.\nOriginally inspired by some kimono embroidery, I created some set of rules that will give life, recursively, to patterns generated inside a squared area.\n\nThanks to fxhash, I can pursue the original generative vision of those patterns by evolving the algorithm, and here comes MOYO.\nThis collection of 1024 pieces waiting to be minted offers new compositions, new rules and new colors.\nDuring the iterative crafting process, I've been surprised by the algorithm which offered some unexpected kind of results, which have been kept for the final generation.\n\nArtist: Florian Zumbrunn\n@florianzumbrunn",
+            "tags": [
+              "pattern",
+              "square",
+              "rectangle",
+              "colorful",
+              "palette",
+              "grid"
+            ],
+            "artifactUri": "ipfs://QmQFHsfq1Q8eGXCmwybsTrfFr4JiuPcQWd84piCGJaisxf",
+            "displayUri": "ipfs://QmVfGm17744R3ubUmNbtCiraSKsKWkWBXoMRzNNnuDJUUE",
+            "thumbnailUri": "ipfs://QmY8VudSi91GUUPqG9sy4zduFhdcTc8NhFeqK8vjYM5anu",
+            "authenticityHash": "3894adb7cf4ad26b142dc641676c460a27e68a1105d44cb5872f6a60fdedeff6",
+            "attributes": [
+              {
+                "name": "Style",
+                "value": "Triangles rules the world"
+              },
+              {
+                "name": "Max subdivisions",
+                "value": 4
+              },
+              {
+                "name": "Color type",
+                "value": "Original"
+              },
+              {
+                "name": "Broken",
+                "value": false
+              },
+              {
+                "name": "Composition: Full",
+                "value": false
+              },
+              {
+                "name": "Composition: Sideway",
+                "value": true
+              },
+              {
+                "name": "Composition: Centered",
+                "value": false
+              }
+            ],
+            "decimals": 0,
+            "symbol": "GENTK"
+          },
+          "duplicate": false,
+          "activeListing": {
+            "id": 1121121,
+            "version": 1,
+            "price": 88000000,
+            "__typename": "Listing"
+          },
+          "owner": {
+            "id": "tz1ZjEwXyHtcnD48WfYy9YRpkkc7dSP3Nh4W",
+            "name": null,
+            "flag": "NONE",
+            "avatarUri": null,
+            "__typename": "User"
+          },
+          "issuer": {
+            "flag": "NONE",
+            "name": "MOYO",
+            "author": {
+              "id": "tz1ipr6o23Pb6jvfpJrrgkbhxbRBmYbmQn81",
+              "name": "Florian Zumbrunn",
+              "type": "REGULAR",
+              "avatarUri": "ipfs://QmQpxnzZUbcXogcyM8L5bCysGQJFby8pARr3EEGGghJwpM",
+              "flag": "VERIFIED",
+              "collaborators": null,
+              "__typename": "User"
+            },
+            "__typename": "GenerativeToken"
+          },
+          "__typename": "Objkt"
+        },
+        "__typename": "Listing"
+      },
+      {
         "id": 1121120,
         "version": 1,
         "price": 155000000,
@@ -1298,80 +1388,6 @@
           "duplicate": false,
           "activeListing": {
             "id": 1121102,
-            "version": 1,
-            "price": 5000000,
-            "__typename": "Listing"
-          },
-          "owner": {
-            "id": "tz1P1cNezTFRazogbWXP5Dm54WofkHiFp67M",
-            "name": null,
-            "flag": "NONE",
-            "avatarUri": null,
-            "__typename": "User"
-          },
-          "issuer": {
-            "flag": "NONE",
-            "name": "Verendelen",
-            "author": {
-              "id": "tz1ZdjR3JnLDgk7gDMWA64cLrKv5ujrSKF28",
-              "name": "Theo Horsmeier",
-              "type": "REGULAR",
-              "avatarUri": "ipfs://QmaN7WCMWZFXT93Wn9sJCQSyZgWpTn6PFJfgqcWZfzYbu7",
-              "flag": "VERIFIED",
-              "collaborators": null,
-              "__typename": "User"
-            },
-            "__typename": "GenerativeToken"
-          },
-          "__typename": "Objkt"
-        },
-        "__typename": "Listing"
-      },
-      {
-        "id": 1121101,
-        "version": 1,
-        "price": 5000000,
-        "objkt": {
-          "id": "FX1-25878",
-          "version": 2,
-          "name": "Verendelen #6",
-          "slug": "verendelen-6",
-          "metadata": {
-            "name": "Verendelen #6",
-            "iterationHash": "ooJdesgpnWh3qHkW9YdmwCRCuTqbhhLLHE1tz1Pao4QQfusiKVf",
-            "description": "Thousands of particles are spread around a group of curves, the general shape of these curves is decided by the hash, but you can influence other things.\n\nThis is an interactive and animated piece. You can use the mouse and scroll-wheel on desktop, or touch controls on mobile, to shift the camera around. Because the wrap effect is happening in the screen space not in the world space, you might notice the wrapping makes rotating the scene a little unusual.\n\nSome notes on the parameters:\n\n- The location of a particle can be \"wrapped around\" in space. The wrapping can be either horizontal or vertical (random), or both (Double wrap checkbox), and you can change the ranges of the wrapping behavior. The Wrap factor param mixes between the original position and the wrapped one.\n- The curves can either be a straight line from A to B, or a Bezier curve, the param Line factor decides how much of each.\n- Particle spread factor decides how far from the curve the particles can be spread.\n- The curves rotate, each at a different speed. You can influence the overall speed multiplier and the axis of rotation.\n- If you choose a palette, be aware of the shuffle checkbox. With shuffle turned on any one of the palette colors can be the background, and the rest is for the particles.\n- Be careful with the number of particles per curve and the total number of curves. More particles overall means some devices might have a harder time rendering this smoothly.\n- Different browser and hardware combinations seem to behave slightly different when it comes to the particle size. If Safari is your main browser, be careful with particle sizes below 20, they seem (almost) invisible!\n\n\nMade using Three.js and Liam Egan's fxhash-helpers. Their licenses are in fxhash-helpers-license.md and threejs-license.md\n\n2023 - Theo Horsmeier",
-            "tags": [
-              "threejs",
-              "particles",
-              "shaders",
-              "bezier"
-            ],
-            "generatorUri": "ipfs://QmV7kfLGxpnRC3hv4m4PyREfFUnobLjyJz2SHFgc7qaGxr",
-            "artifactUri": "ipfs://QmV7kfLGxpnRC3hv4m4PyREfFUnobLjyJz2SHFgc7qaGxr/?fxhash=ooJdesgpnWh3qHkW9YdmwCRCuTqbhhLLHE1tz1Pao4QQfusiKVf&fxminter=tz1P1cNezTFRazogbWXP5Dm54WofkHiFp67M&fxparams=000040a77000000000004060e00000000000406e000000000000bff999999999999a401c666666666666402e000000000000403719999999999a3fb47ae147ae147b003fd147ae147ae1483fed70a3d70a3d71400f0a3d70a3d70a02",
-            "displayUri": "ipfs://Qmdk7PPYk8ofeiPqR2Jg41k8oZqL1a4MMia4mvAQMvxERi",
-            "thumbnailUri": "ipfs://QmY7xJzL25KXmrvrhJu6iLt7EaqTY2MPRg1bjZLzBRFdyo",
-            "authenticityHash": "25542b875c8d90975ca9aa7c8365980d2cf1854d6d33219ce9ce1a36f17010a4",
-            "attributes": [
-              {
-                "name": "Palette",
-                "value": "Kerk"
-              },
-              {
-                "name": "Kronkel",
-                "value": true
-              },
-              {
-                "name": "Schuif",
-                "value": true
-              }
-            ],
-            "decimals": 0,
-            "symbol": "GENTK",
-            "version": "0.2"
-          },
-          "duplicate": false,
-          "activeListing": {
-            "id": 1121101,
             "version": 1,
             "price": 5000000,
             "__typename": "Listing"
