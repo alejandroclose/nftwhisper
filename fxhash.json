@@ -2,6 +2,101 @@
   "data": {
     "listings": [
       {
+        "id": 1121828,
+        "version": 1,
+        "price": 1999000,
+        "objkt": {
+          "id": "FX1-220566",
+          "version": 2,
+          "name": "Oscillaflow #2",
+          "slug": "oscillaflow-2",
+          "metadata": {
+            "name": "Oscillaflow #2",
+            "iterationHash": "ooa2SiMhdZbBPGvWbimawjb3JobpWYYKbN4n9jS8sAkgVfA6FhA",
+            "description": "patterns with circles, rects and lines",
+            "tags": [
+              "circle",
+              "rectangle",
+              "rect",
+              "line",
+              "oscillator",
+              "weave",
+              "flow",
+              "pattern"
+            ],
+            "generatorUri": "onchfs://4b0c90084dde3b0019c0da5d5ea65b7dd38675a1fd20cf71b51ae2a1a5516a24",
+            "artifactUri": "onchfs://4b0c90084dde3b0019c0da5d5ea65b7dd38675a1fd20cf71b51ae2a1a5516a24/?fxhash=ooa2SiMhdZbBPGvWbimawjb3JobpWYYKbN4n9jS8sAkgVfA6FhA&fxiteration=2&fxminter=tz1U7Dy4psqcDBUxLaGquzMGc1FodP7bLnjo&fxchain=TEZOS",
+            "displayUri": "ipfs://QmTRZemLTt87rDusGSN13NRauanSE5NzoF36y4tDv9KJJa",
+            "thumbnailUri": "ipfs://QmYnpa159iRe7FXm24kxSVUNziLBHEkfj8b17YVJaYovt8",
+            "authenticityHash": "47174a466fc4c1f5ba0c474d977b4af9914a015e1ae50e581481d53a557412d5",
+            "attributes": [
+              {
+                "name": "Color 1",
+                "value": "Neon Yellow-Green"
+              },
+              {
+                "name": "Color 2",
+                "value": "Bright Red"
+              },
+              {
+                "name": "Cell Size",
+                "value": 7
+              },
+              {
+                "name": "Pattern",
+                "value": "Spiral"
+              },
+              {
+                "name": "Draw with",
+                "value": "Circle"
+              },
+              {
+                "name": "Centers",
+                "value": 1
+              },
+              {
+                "name": "Lines",
+                "value": "No"
+              }
+            ],
+            "symbol": "GENTK",
+            "version": "0.2",
+            "snippetVersion": "4.0.1",
+            "decimals": 0
+          },
+          "duplicate": false,
+          "activeListing": {
+            "id": 1121828,
+            "version": 1,
+            "price": 1999000,
+            "__typename": "Listing"
+          },
+          "owner": {
+            "id": "tz1U7Dy4psqcDBUxLaGquzMGc1FodP7bLnjo",
+            "name": "HaSh2aRt",
+            "flag": "NONE",
+            "avatarUri": "ipfs://QmcybpBNpabHAKy1ZwFHayudmdjZgiF8h595SXs1a9AYS5",
+            "__typename": "User"
+          },
+          "issuer": {
+            "flag": "NONE",
+            "name": "Oscillaflow",
+            "author": {
+              "id": "tz1U7Dy4psqcDBUxLaGquzMGc1FodP7bLnjo",
+              "name": "HaSh2aRt",
+              "type": "REGULAR",
+              "avatarUri": "ipfs://QmcybpBNpabHAKy1ZwFHayudmdjZgiF8h595SXs1a9AYS5",
+              "flag": "NONE",
+              "collaborators": null,
+              "__typename": "User"
+            },
+            "__typename": "GenerativeToken"
+          },
+          "__typename": "Objkt"
+        },
+        "__typename": "Listing"
+      },
+      {
         "id": 1121827,
         "version": 1,
         "price": 19900000,
@@ -1709,78 +1804,6 @@
               "name": "SPACEFILLER",
               "type": "REGULAR",
               "avatarUri": "ipfs://QmYYSbpnqH85LPcZG4T4akQFC6pqkHPkr6ZvjXUs8wZKkb",
-              "flag": "VERIFIED",
-              "collaborators": null,
-              "__typename": "User"
-            },
-            "__typename": "GenerativeToken"
-          },
-          "__typename": "Objkt"
-        },
-        "__typename": "Listing"
-      },
-      {
-        "id": 1121808,
-        "version": 1,
-        "price": 129000000,
-        "objkt": {
-          "id": "FX1-40595",
-          "version": 2,
-          "name": "Universal Rayhatcher #45",
-          "slug": "universal-rayhatcher-45",
-          "metadata": {
-            "name": "Universal Rayhatcher #45",
-            "iterationHash": "onj6J36p5fmPzCJn6Aa4C8sWiXiXPhKzMnhDpmxVv7S3M44kCox",
-            "description": "# What is this?\n\nThis is 6942 characters of highly experimental code.\n\nThis is a version of my rayhatcher framework (see https://www.fxhash.xyz/article/rayhatching-evolution) that can do literally everything. Or, at least anything you can do within 512 characters of Javascript code. Which is slightly more than a mortal brain can comprehend.\n\nThis is my answer to the question: What is the least restrictive set of parameters for fx(params)?\n\n# Should I be minting this?\n\nDepends if you know and like building SDF formulas. Otherwise probably not. Like I said, this is highly experimental code. But it's definitely worth checking the collection and/or secondary for cool stuff that is already minted.\n\n# How does it work?\n\nThe minter designs an SDF (Signed Distance Function) which is rendered using my rayhatcher algorithm. They then use the SDF formula in the SDF Code parameter. It's not very complicated, just efficient.\n\nYou can press \"h\" to load the documentation and read about how everything works. Or you can press \"d\" to read the dev docs. \n\n# Anything else?\n\nDon't forget that the \"Title Seed\" param also becomes the \"Title\" feature of the mint, so make it count.\n\nThe params, including the SDF code actually get saved on-chain. Even better, all params and the entire code required to reproduce the image are included in the SVG when saved. See https://twitter.com/piterpasma/status/1649071912742420482 .\n\n(c) 2023 by Piter Pasma // https://piterpasma.nl",
-            "tags": [
-              "generative",
-              "javascript",
-              "genartclub",
-              "svg",
-              "3d",
-              "hatching",
-              "rayhatching",
-              "raymarching",
-              "fxparams",
-              "universal"
-            ],
-            "generatorUri": "ipfs://QmdEV5vBcYDBcZGHKfdZbRHgrkgbu7KRzf9JWYc5SaBNV4",
-            "artifactUri": "ipfs://QmdEV5vBcYDBcZGHKfdZbRHgrkgbu7KRzf9JWYc5SaBNV4/?fxhash=onj6J36p5fmPzCJn6Aa4C8sWiXiXPhKzMnhDpmxVv7S3M44kCox&fxminter=tz1SvJbECAva9gxczfBmX3CAFUszgQXNgsNm&fxparams=3fdb8407fcce9d313fcf5cae436c32d10047006e00610072006c00650064000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000010070003d004200280079002d003100320029002d0037002e0032002c006e003d006e007a00280078002c0079002c007a002c002e0032002c0030002c00350029002a0034002c00710020003d0020006d006f006400280070002c00310033002b006e002a007a0029002d0031002e00350000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000004002f5c28f5c28f63fe63d70a3d70a3d40506ccccccccccd404b4ccccccccccd3fc5c89e908a8d733ff00000000000003ff0000000000000ffffffff000000ff3fd0000000000000",
-            "displayUri": "ipfs://QmcAS4fKi7RmYyvhJEe75B7rBL6Dg3S5jwbjbQBWgMo6t1",
-            "thumbnailUri": "ipfs://QmTjQFk8qQg31YnyKDQ2zFuMS5ey6wfP6fhMyiFyqHYu2i",
-            "authenticityHash": "295b5b2e006fb290623f6a53cee959a6e747c9baff99792561970aea4ab3393a",
-            "attributes": [
-              {
-                "name": "Title",
-                "value": "Gnarled"
-              }
-            ],
-            "decimals": 0,
-            "symbol": "GENTK",
-            "version": "0.2"
-          },
-          "duplicate": false,
-          "activeListing": {
-            "id": 1121808,
-            "version": 1,
-            "price": 129000000,
-            "__typename": "Listing"
-          },
-          "owner": {
-            "id": "tz1StrHwuLFbQZEerekdUeAg43MyZaBXmgBC",
-            "name": "bobby.floorless",
-            "flag": "NONE",
-            "avatarUri": "ipfs://QmbBG4cYueRdbMJZJUt6JUvZbAUHMqj733XSoCQtQKBUti",
-            "__typename": "User"
-          },
-          "issuer": {
-            "flag": "NONE",
-            "name": "Universal Rayhatcher",
-            "author": {
-              "id": "tz1Kw8cEFuNLj21e5b42NBn1ANW7hupmbDbo",
-              "name": "Piter Pasma",
-              "type": "REGULAR",
-              "avatarUri": "ipfs://QmUzcNxvddv1CLtiML1DLpduupP2FnUQsy7xg3Lb3SvSMh",
               "flag": "VERIFIED",
               "collaborators": null,
               "__typename": "User"
