@@ -2,6 +2,366 @@
   "data": {
     "listings": [
       {
+        "id": 1123904,
+        "version": 1,
+        "price": 44995000,
+        "objkt": {
+          "id": "FX0-43231",
+          "version": 0,
+          "name": "TEST01 #249",
+          "slug": "test01-249",
+          "metadata": {
+            "name": "TEST01 #249",
+            "iterationHash": "oouireDgWJPT4SVhMc9kk7HeSp8RhWjvk716uNjkw7jWuUk9y8C",
+            "description": "Feature is possession",
+            "tags": [
+              "shvembldr"
+            ],
+            "artifactUri": "ipfs://QmVvgWnmacwcUu3vmLHUg3VmKGX4WnrpPRQcgtvTz2Cofs",
+            "displayUri": "ipfs://QmbqQxWDv6MP5eVmtYnowvivLG2SAWK55MQ8biS1Gr7PtV",
+            "thumbnailUri": "ipfs://QmUbQa89DGkqAxdL2daMYfxp5q1MBcNmCFf6LFarLBfmAS",
+            "authenticityHash": "2ebd6c53a6d63c4c1d237a71c34bb1ab9805fae78bac0d4275605dec4f7839af",
+            "attributes": [],
+            "decimals": 0,
+            "symbol": "GENTK"
+          },
+          "duplicate": false,
+          "activeListing": {
+            "id": 1123904,
+            "version": 1,
+            "price": 44995000,
+            "__typename": "Listing"
+          },
+          "owner": {
+            "id": "tz1ZjEwXyHtcnD48WfYy9YRpkkc7dSP3Nh4W",
+            "name": null,
+            "flag": "NONE",
+            "avatarUri": null,
+            "__typename": "User"
+          },
+          "issuer": {
+            "flag": "NONE",
+            "name": "TEST01",
+            "author": {
+              "id": "tz1WqBtWEXjYPwKofxDPsf2V8Jo7dRxdKYqu",
+              "name": "-------------",
+              "type": "REGULAR",
+              "avatarUri": "ipfs://QmWZjWrKw5M8WTrLLE4LUauTHRyAiD82WSp8xGwNAH3K4d",
+              "flag": "VERIFIED",
+              "collaborators": null,
+              "__typename": "User"
+            },
+            "__typename": "GenerativeToken"
+          },
+          "__typename": "Objkt"
+        },
+        "__typename": "Listing"
+      },
+      {
+        "id": 1123903,
+        "version": 1,
+        "price": 14995000,
+        "objkt": {
+          "id": "FX0-1456707",
+          "version": 1,
+          "name": "Fischbach #196",
+          "slug": "fischbach-196",
+          "metadata": {
+            "name": "Fischbach #196",
+            "iterationHash": "opZ9uFynJHCaWeWFCz4AfcfVLdrKqjmaY99yb2DZXkHAsrsU25w",
+            "description": "#fxhashturnsone\n\nThe first 365 crazy days of fxhash - time to celebrate this and take a look back.\n\nThe entropy of memories in a vivid photo collage that gives me goosebumps while others might just see moving eye candy. Perspective and perception can be so different.\n\nBased on some of my photos from the last 365 days that trigger emotional memories, even if they are not directly connected. By the way, Fischbach is the name of the small village where I grew up. It was a great time!\n\nHow does it work?\n\nEach piece uses pairs of photos and colors (top/bottom).\n\nThe animated collage itself is based on two layers. The first layer uses a double buffer to cut, colorize and animate the photos. The second layer is mainly just for screen rendering, debugging and behind-the-scene looks.\n\nCutting and pasting photos is based on a variable moving color grid, the fixed horizon, the variable position of the photos top/bottom, the previous buffer and some magic distance calculations between them.\n\nThe grid itself is a combination of vertical color stripes with variable position and distance factors that determine the color gradient between the two colors, and folds that alternate between the two colors depending on the horizontal and vertical values.\n\nEspecially the entropy of the photos and the colored grid influence the pixel movement.\n\nAnimation changes are triggered after a random number of frames and effect folds, stripes and photo position. These replace parts of the current collage (fade to black) or add some (discard fragment updates).\n\nFeatures:\n\n- top color [12] - hue, colorful & bright\n- bottom color [6] - hue, less colorful & bright\n- top photo [16] (zingst, birds, xmas, zustand, zebra, moving-blocks-mono, fischbach, santanyi, goldblume, ♠4, driften, brand-pyramide, zäpfle, bc, tisa, lieblingspulli)\n- bottom photo: [16] (zingst, birds, xmas, zustand, zebra, moving-blocks-mono, fischbach, santanyi, goldblume, ♠4, driften, brand-pyramide, zäpfle, bc, tisa, lieblingspulli)\n- horizon [0.618, 0.5, 0.382] (down, center, up)\n- hectic [3, 5, 11] (calm, slightly, very)\n- horizontal folds [113, 365, 997, 2153, 3987] - used for first animation iteration, variable\n- vertical folds [7, 37, 127, 571, 1501, 3147] - used for first animation iteration, variable\n- min stripes [1, 3, 5] - used for first animation iteration, variable\n\nAnimation and feature selection are based on the deterministic prng Xoshiro128 seeded with the fxhash. This allows repeated playback in the same sequence. The animation is synchronized with frames and not with time.\n\nThe preview images are taken after 300 frames.\n\nShortcuts & interactions:\n\n- spacebar, mouse click or tap touch to trigger animation changes\n- `c` to take a picture\n- `f` for full screen mode\n- `p` to pause\n- `h` to see all options\n\nAvailable query string parameters:\n\n- autopause - enable automatic pausing\n- pixelratio=2 - sets the pixel ratio (default: device)\n- showannouncement - activates the announcement\n- kioskspeed=10 - activates the kiosk mode and sets the speed in seconds\n- showinfo - activates the info box",
+            "tags": [
+              "webgl2",
+              "fischbach",
+              "moving blocks",
+              "zebra",
+              "glsl",
+              "discard",
+              "twgl.js",
+              "#fxhashturnsone",
+              "fxhashturnsone",
+              "thi.ng",
+              "interactive",
+              "animated",
+              "photo collage"
+            ],
+            "generatorUri": "ipfs://QmXfE7s2HbfJe1fgxYMwBxpkoVv4ixGoRxixbrsw6edeKK",
+            "artifactUri": "ipfs://QmXfE7s2HbfJe1fgxYMwBxpkoVv4ixGoRxixbrsw6edeKK?fxhash=opZ9uFynJHCaWeWFCz4AfcfVLdrKqjmaY99yb2DZXkHAsrsU25w",
+            "displayUri": "ipfs://QmSuGvh5SfwYKW5tfGhVrYC8amtwdY3D55wLoDnLeSppYQ",
+            "thumbnailUri": "ipfs://QmWKnsaWSyoQeAT3rcFkL3FQdGfqwPd425pJsMKWv65HYG",
+            "authenticityHash": "b9f58d4f8c7fcc87fd188daefe8ccbfad4e01084f650883fe00a8258e232d132",
+            "attributes": [
+              {
+                "name": "top color",
+                "value": "#5de8ff"
+              },
+              {
+                "name": "bottom color",
+                "value": "#db69b1"
+              },
+              {
+                "name": "horizon",
+                "value": "up"
+              },
+              {
+                "name": "horizontal fold",
+                "value": 113
+              },
+              {
+                "name": "vertical fold",
+                "value": 3147
+              },
+              {
+                "name": "hectic",
+                "value": "calm"
+              },
+              {
+                "name": "top photo",
+                "value": "bc"
+              },
+              {
+                "name": "bottom photo",
+                "value": "driften"
+              },
+              {
+                "name": "min stripes",
+                "value": 1
+              }
+            ],
+            "decimals": 0,
+            "symbol": "GENTK",
+            "version": "0.2"
+          },
+          "duplicate": false,
+          "activeListing": {
+            "id": 1123903,
+            "version": 1,
+            "price": 14995000,
+            "__typename": "Listing"
+          },
+          "owner": {
+            "id": "tz1ZjEwXyHtcnD48WfYy9YRpkkc7dSP3Nh4W",
+            "name": null,
+            "flag": "NONE",
+            "avatarUri": null,
+            "__typename": "User"
+          },
+          "issuer": {
+            "flag": "NONE",
+            "name": "Fischbach",
+            "author": {
+              "id": "tz1QM2ZmH3HUD5MUSY3efFvYqLz3A2rZZmT6",
+              "name": "dirx",
+              "type": "REGULAR",
+              "avatarUri": "ipfs://QmPdM1evqKBV9Xs5hS2VmWMBTtzQyPrd2asmr4qdTCLRA7",
+              "flag": "VERIFIED",
+              "collaborators": null,
+              "__typename": "User"
+            },
+            "__typename": "GenerativeToken"
+          },
+          "__typename": "Objkt"
+        },
+        "__typename": "Listing"
+      },
+      {
+        "id": 1123902,
+        "version": 1,
+        "price": 21995000,
+        "objkt": {
+          "id": "FX0-428360",
+          "version": 0,
+          "name": "flowers #43",
+          "slug": "flowers-43-f7891850-601b-4390-ba1d-7244d940a1fa",
+          "metadata": {
+            "name": "flowers #43",
+            "iterationHash": "onyiCSC9Hf5G1W7v8PBVeX9Dx1NraAdEi6E32UumGUQaxyPT7n4",
+            "description": "This is an abstract piece based on circle packing algorithm.\n\nFebruary 2022\nykxotkx",
+            "tags": [
+              "abstract",
+              "generative",
+              "dots",
+              "circle packing",
+              "flowers"
+            ],
+            "generatorUri": "ipfs://QmR7aJ5WeNHupJADapwndzir6Sa63us5iAoZPYcrvnbkR4",
+            "artifactUri": "ipfs://QmR7aJ5WeNHupJADapwndzir6Sa63us5iAoZPYcrvnbkR4?fxhash=onyiCSC9Hf5G1W7v8PBVeX9Dx1NraAdEi6E32UumGUQaxyPT7n4",
+            "displayUri": "ipfs://QmbQDGMCgB8gJCgC5w2G6gN6hN96oAptdQrPrzGTEoPKH9",
+            "thumbnailUri": "ipfs://Qmev1DZik1BQURAHkyDKE1cgbb2FTcEim8gDhu2HjHvYd3",
+            "authenticityHash": "c1dbbab8f1bb8ddc5a1a98607b3c195b584fff4ff34e9634159a7c68b06458f2",
+            "attributes": [
+              {
+                "name": "Style",
+                "value": "regular"
+              }
+            ],
+            "decimals": 0,
+            "symbol": "GENTK",
+            "version": "0.2"
+          },
+          "duplicate": false,
+          "activeListing": {
+            "id": 1123902,
+            "version": 1,
+            "price": 21995000,
+            "__typename": "Listing"
+          },
+          "owner": {
+            "id": "tz1ZjEwXyHtcnD48WfYy9YRpkkc7dSP3Nh4W",
+            "name": null,
+            "flag": "NONE",
+            "avatarUri": null,
+            "__typename": "User"
+          },
+          "issuer": {
+            "flag": "NONE",
+            "name": "flowers",
+            "author": {
+              "id": "tz1ZV6zpRiyGdpFxprDSuA1CUaXh5HyHAssc",
+              "name": "ykxotkx",
+              "type": "REGULAR",
+              "avatarUri": "ipfs://QmZAoVppST1CngtnrUDen8fFJz2oFxJJ2eVvwZN8Kd4cH9",
+              "flag": "VERIFIED",
+              "collaborators": null,
+              "__typename": "User"
+            },
+            "__typename": "GenerativeToken"
+          },
+          "__typename": "Objkt"
+        },
+        "__typename": "Listing"
+      },
+      {
+        "id": 1123901,
+        "version": 1,
+        "price": 34995000,
+        "objkt": {
+          "id": "FX0-281290",
+          "version": 0,
+          "name": "SoulSea #38",
+          "slug": "soulsea-38",
+          "metadata": {
+            "name": "SoulSea #38",
+            "iterationHash": "onhWbCAPSzF37dMeKB7jdbFtJiHMAEyA2ypFjLAHNzaem5fdUfm",
+            "description": "The Soul Sea\n\nYou look down and find that the ocean in your heart is a sine wave. \nThe tide gently laps onto the shore.\n\nThe soul is the sea. You are the land. \nThere are waves on the shore, and the waves are slices.\n\nGazing at the slices, you feel the coldness of the Arctic Ocean, the permafrost of the Antarctic Sea, the deep darkness of the bottomless sea.\n\nStay silent, hear the sound of the waves lapping at the innumerable shores far away.\nFeel the soul of the digital ocean.\n\nInteractivities:\n> Key P: Pause\n> Key S: Save\n> Press and move mouseX: wave moves slower / faster\n\nChe-Yu Wu",
+            "tags": [
+              "generative",
+              "digital",
+              "nature",
+              "soulsea"
+            ],
+            "generatorUri": "ipfs://QmPDfMShxb1iQ12bwV4LivT5pC1UXoL9ZRcjjC7grr3r9P",
+            "artifactUri": "ipfs://QmPDfMShxb1iQ12bwV4LivT5pC1UXoL9ZRcjjC7grr3r9P?fxhash=onhWbCAPSzF37dMeKB7jdbFtJiHMAEyA2ypFjLAHNzaem5fdUfm",
+            "displayUri": "ipfs://QmS4JQvZEW6hH1RXNx1XXW12TLKsGb8xmwLmYtBPtMGsV3",
+            "thumbnailUri": "ipfs://QmWk7SMXdUG6NrWmBajEnTa6bNtgUc1HBa8Ma5VnDWARoM",
+            "authenticityHash": "09e776aa0f06a626daa0e310c5ed95330c0b7fdca81f1469756e890c3c147658",
+            "attributes": [
+              {
+                "name": "palette",
+                "value": "color"
+              },
+              {
+                "name": "waveNoise",
+                "value": 1
+              },
+              {
+                "name": "style",
+                "value": "natural"
+              },
+              {
+                "name": "shape",
+                "value": "void"
+              },
+              {
+                "name": "creatureType",
+                "value": "shell"
+              },
+              {
+                "name": "vertexSpan",
+                "value": 12
+              },
+              {
+                "name": "waveFreq1",
+                "value": 106.8101616599597
+              },
+              {
+                "name": "waveFreq2",
+                "value": 116.1412410880439
+              },
+              {
+                "name": "glitchFreq",
+                "value": 1
+              },
+              {
+                "name": "splashThr",
+                "value": 0.23347986219450834
+              },
+              {
+                "name": "canvasAng",
+                "value": 0.822089440189302
+              },
+              {
+                "name": "colorRMin",
+                "value": 100
+              },
+              {
+                "name": "colorRMax",
+                "value": 153
+              },
+              {
+                "name": "colorGMin",
+                "value": 42
+              },
+              {
+                "name": "colorGMax",
+                "value": 129
+              },
+              {
+                "name": "colorBMin",
+                "value": 37
+              },
+              {
+                "name": "colorBMax",
+                "value": 138
+              }
+            ],
+            "decimals": 0,
+            "symbol": "GENTK",
+            "version": "0.2"
+          },
+          "duplicate": false,
+          "activeListing": {
+            "id": 1123901,
+            "version": 1,
+            "price": 34995000,
+            "__typename": "Listing"
+          },
+          "owner": {
+            "id": "tz1ZjEwXyHtcnD48WfYy9YRpkkc7dSP3Nh4W",
+            "name": null,
+            "flag": "NONE",
+            "avatarUri": null,
+            "__typename": "User"
+          },
+          "issuer": {
+            "flag": "NONE",
+            "name": "SoulSea",
+            "author": {
+              "id": "tz1WopvVxCVdGP7Sew7kz6Kro9o1qQ7SuEtN",
+              "name": "Che-Yu Wu",
+              "type": "REGULAR",
+              "avatarUri": "ipfs://QmVgEgkFYwUkXe1L9febp4D2C5K1bqCF7xcEXZkHVumirD",
+              "flag": "VERIFIED",
+              "collaborators": null,
+              "__typename": "User"
+            },
+            "__typename": "GenerativeToken"
+          },
+          "__typename": "Objkt"
+        },
+        "__typename": "Listing"
+      },
+      {
         "id": 1123900,
         "version": 1,
         "price": 20000000,
@@ -1082,299 +1442,6 @@
         "__typename": "Listing"
       },
       {
-        "id": 1123888,
-        "version": 1,
-        "price": 50000000,
-        "objkt": {
-          "id": "FX0-43231",
-          "version": 0,
-          "name": "TEST01 #249",
-          "slug": "test01-249",
-          "metadata": {
-            "name": "TEST01 #249",
-            "iterationHash": "oouireDgWJPT4SVhMc9kk7HeSp8RhWjvk716uNjkw7jWuUk9y8C",
-            "description": "Feature is possession",
-            "tags": [
-              "shvembldr"
-            ],
-            "artifactUri": "ipfs://QmVvgWnmacwcUu3vmLHUg3VmKGX4WnrpPRQcgtvTz2Cofs",
-            "displayUri": "ipfs://QmbqQxWDv6MP5eVmtYnowvivLG2SAWK55MQ8biS1Gr7PtV",
-            "thumbnailUri": "ipfs://QmUbQa89DGkqAxdL2daMYfxp5q1MBcNmCFf6LFarLBfmAS",
-            "authenticityHash": "2ebd6c53a6d63c4c1d237a71c34bb1ab9805fae78bac0d4275605dec4f7839af",
-            "attributes": [],
-            "decimals": 0,
-            "symbol": "GENTK"
-          },
-          "duplicate": false,
-          "activeListing": {
-            "id": 1123888,
-            "version": 1,
-            "price": 50000000,
-            "__typename": "Listing"
-          },
-          "owner": {
-            "id": "tz1ZjEwXyHtcnD48WfYy9YRpkkc7dSP3Nh4W",
-            "name": null,
-            "flag": "NONE",
-            "avatarUri": null,
-            "__typename": "User"
-          },
-          "issuer": {
-            "flag": "NONE",
-            "name": "TEST01",
-            "author": {
-              "id": "tz1WqBtWEXjYPwKofxDPsf2V8Jo7dRxdKYqu",
-              "name": "-------------",
-              "type": "REGULAR",
-              "avatarUri": "ipfs://QmWZjWrKw5M8WTrLLE4LUauTHRyAiD82WSp8xGwNAH3K4d",
-              "flag": "VERIFIED",
-              "collaborators": null,
-              "__typename": "User"
-            },
-            "__typename": "GenerativeToken"
-          },
-          "__typename": "Objkt"
-        },
-        "__typename": "Listing"
-      },
-      {
-        "id": 1123887,
-        "version": 1,
-        "price": 18000000,
-        "objkt": {
-          "id": "FX0-1456707",
-          "version": 1,
-          "name": "Fischbach #196",
-          "slug": "fischbach-196",
-          "metadata": {
-            "name": "Fischbach #196",
-            "iterationHash": "opZ9uFynJHCaWeWFCz4AfcfVLdrKqjmaY99yb2DZXkHAsrsU25w",
-            "description": "#fxhashturnsone\n\nThe first 365 crazy days of fxhash - time to celebrate this and take a look back.\n\nThe entropy of memories in a vivid photo collage that gives me goosebumps while others might just see moving eye candy. Perspective and perception can be so different.\n\nBased on some of my photos from the last 365 days that trigger emotional memories, even if they are not directly connected. By the way, Fischbach is the name of the small village where I grew up. It was a great time!\n\nHow does it work?\n\nEach piece uses pairs of photos and colors (top/bottom).\n\nThe animated collage itself is based on two layers. The first layer uses a double buffer to cut, colorize and animate the photos. The second layer is mainly just for screen rendering, debugging and behind-the-scene looks.\n\nCutting and pasting photos is based on a variable moving color grid, the fixed horizon, the variable position of the photos top/bottom, the previous buffer and some magic distance calculations between them.\n\nThe grid itself is a combination of vertical color stripes with variable position and distance factors that determine the color gradient between the two colors, and folds that alternate between the two colors depending on the horizontal and vertical values.\n\nEspecially the entropy of the photos and the colored grid influence the pixel movement.\n\nAnimation changes are triggered after a random number of frames and effect folds, stripes and photo position. These replace parts of the current collage (fade to black) or add some (discard fragment updates).\n\nFeatures:\n\n- top color [12] - hue, colorful & bright\n- bottom color [6] - hue, less colorful & bright\n- top photo [16] (zingst, birds, xmas, zustand, zebra, moving-blocks-mono, fischbach, santanyi, goldblume, ♠4, driften, brand-pyramide, zäpfle, bc, tisa, lieblingspulli)\n- bottom photo: [16] (zingst, birds, xmas, zustand, zebra, moving-blocks-mono, fischbach, santanyi, goldblume, ♠4, driften, brand-pyramide, zäpfle, bc, tisa, lieblingspulli)\n- horizon [0.618, 0.5, 0.382] (down, center, up)\n- hectic [3, 5, 11] (calm, slightly, very)\n- horizontal folds [113, 365, 997, 2153, 3987] - used for first animation iteration, variable\n- vertical folds [7, 37, 127, 571, 1501, 3147] - used for first animation iteration, variable\n- min stripes [1, 3, 5] - used for first animation iteration, variable\n\nAnimation and feature selection are based on the deterministic prng Xoshiro128 seeded with the fxhash. This allows repeated playback in the same sequence. The animation is synchronized with frames and not with time.\n\nThe preview images are taken after 300 frames.\n\nShortcuts & interactions:\n\n- spacebar, mouse click or tap touch to trigger animation changes\n- `c` to take a picture\n- `f` for full screen mode\n- `p` to pause\n- `h` to see all options\n\nAvailable query string parameters:\n\n- autopause - enable automatic pausing\n- pixelratio=2 - sets the pixel ratio (default: device)\n- showannouncement - activates the announcement\n- kioskspeed=10 - activates the kiosk mode and sets the speed in seconds\n- showinfo - activates the info box",
-            "tags": [
-              "webgl2",
-              "fischbach",
-              "moving blocks",
-              "zebra",
-              "glsl",
-              "discard",
-              "twgl.js",
-              "#fxhashturnsone",
-              "fxhashturnsone",
-              "thi.ng",
-              "interactive",
-              "animated",
-              "photo collage"
-            ],
-            "generatorUri": "ipfs://QmXfE7s2HbfJe1fgxYMwBxpkoVv4ixGoRxixbrsw6edeKK",
-            "artifactUri": "ipfs://QmXfE7s2HbfJe1fgxYMwBxpkoVv4ixGoRxixbrsw6edeKK?fxhash=opZ9uFynJHCaWeWFCz4AfcfVLdrKqjmaY99yb2DZXkHAsrsU25w",
-            "displayUri": "ipfs://QmSuGvh5SfwYKW5tfGhVrYC8amtwdY3D55wLoDnLeSppYQ",
-            "thumbnailUri": "ipfs://QmWKnsaWSyoQeAT3rcFkL3FQdGfqwPd425pJsMKWv65HYG",
-            "authenticityHash": "b9f58d4f8c7fcc87fd188daefe8ccbfad4e01084f650883fe00a8258e232d132",
-            "attributes": [
-              {
-                "name": "top color",
-                "value": "#5de8ff"
-              },
-              {
-                "name": "bottom color",
-                "value": "#db69b1"
-              },
-              {
-                "name": "horizon",
-                "value": "up"
-              },
-              {
-                "name": "horizontal fold",
-                "value": 113
-              },
-              {
-                "name": "vertical fold",
-                "value": 3147
-              },
-              {
-                "name": "hectic",
-                "value": "calm"
-              },
-              {
-                "name": "top photo",
-                "value": "bc"
-              },
-              {
-                "name": "bottom photo",
-                "value": "driften"
-              },
-              {
-                "name": "min stripes",
-                "value": 1
-              }
-            ],
-            "decimals": 0,
-            "symbol": "GENTK",
-            "version": "0.2"
-          },
-          "duplicate": false,
-          "activeListing": {
-            "id": 1123887,
-            "version": 1,
-            "price": 18000000,
-            "__typename": "Listing"
-          },
-          "owner": {
-            "id": "tz1ZjEwXyHtcnD48WfYy9YRpkkc7dSP3Nh4W",
-            "name": null,
-            "flag": "NONE",
-            "avatarUri": null,
-            "__typename": "User"
-          },
-          "issuer": {
-            "flag": "NONE",
-            "name": "Fischbach",
-            "author": {
-              "id": "tz1QM2ZmH3HUD5MUSY3efFvYqLz3A2rZZmT6",
-              "name": "dirx",
-              "type": "REGULAR",
-              "avatarUri": "ipfs://QmPdM1evqKBV9Xs5hS2VmWMBTtzQyPrd2asmr4qdTCLRA7",
-              "flag": "VERIFIED",
-              "collaborators": null,
-              "__typename": "User"
-            },
-            "__typename": "GenerativeToken"
-          },
-          "__typename": "Objkt"
-        },
-        "__typename": "Listing"
-      },
-      {
-        "id": 1123886,
-        "version": 1,
-        "price": 37995000,
-        "objkt": {
-          "id": "FX0-281290",
-          "version": 0,
-          "name": "SoulSea #38",
-          "slug": "soulsea-38",
-          "metadata": {
-            "name": "SoulSea #38",
-            "iterationHash": "onhWbCAPSzF37dMeKB7jdbFtJiHMAEyA2ypFjLAHNzaem5fdUfm",
-            "description": "The Soul Sea\n\nYou look down and find that the ocean in your heart is a sine wave. \nThe tide gently laps onto the shore.\n\nThe soul is the sea. You are the land. \nThere are waves on the shore, and the waves are slices.\n\nGazing at the slices, you feel the coldness of the Arctic Ocean, the permafrost of the Antarctic Sea, the deep darkness of the bottomless sea.\n\nStay silent, hear the sound of the waves lapping at the innumerable shores far away.\nFeel the soul of the digital ocean.\n\nInteractivities:\n> Key P: Pause\n> Key S: Save\n> Press and move mouseX: wave moves slower / faster\n\nChe-Yu Wu",
-            "tags": [
-              "generative",
-              "digital",
-              "nature",
-              "soulsea"
-            ],
-            "generatorUri": "ipfs://QmPDfMShxb1iQ12bwV4LivT5pC1UXoL9ZRcjjC7grr3r9P",
-            "artifactUri": "ipfs://QmPDfMShxb1iQ12bwV4LivT5pC1UXoL9ZRcjjC7grr3r9P?fxhash=onhWbCAPSzF37dMeKB7jdbFtJiHMAEyA2ypFjLAHNzaem5fdUfm",
-            "displayUri": "ipfs://QmS4JQvZEW6hH1RXNx1XXW12TLKsGb8xmwLmYtBPtMGsV3",
-            "thumbnailUri": "ipfs://QmWk7SMXdUG6NrWmBajEnTa6bNtgUc1HBa8Ma5VnDWARoM",
-            "authenticityHash": "09e776aa0f06a626daa0e310c5ed95330c0b7fdca81f1469756e890c3c147658",
-            "attributes": [
-              {
-                "name": "palette",
-                "value": "color"
-              },
-              {
-                "name": "waveNoise",
-                "value": 1
-              },
-              {
-                "name": "style",
-                "value": "natural"
-              },
-              {
-                "name": "shape",
-                "value": "void"
-              },
-              {
-                "name": "creatureType",
-                "value": "shell"
-              },
-              {
-                "name": "vertexSpan",
-                "value": 12
-              },
-              {
-                "name": "waveFreq1",
-                "value": 106.8101616599597
-              },
-              {
-                "name": "waveFreq2",
-                "value": 116.1412410880439
-              },
-              {
-                "name": "glitchFreq",
-                "value": 1
-              },
-              {
-                "name": "splashThr",
-                "value": 0.23347986219450834
-              },
-              {
-                "name": "canvasAng",
-                "value": 0.822089440189302
-              },
-              {
-                "name": "colorRMin",
-                "value": 100
-              },
-              {
-                "name": "colorRMax",
-                "value": 153
-              },
-              {
-                "name": "colorGMin",
-                "value": 42
-              },
-              {
-                "name": "colorGMax",
-                "value": 129
-              },
-              {
-                "name": "colorBMin",
-                "value": 37
-              },
-              {
-                "name": "colorBMax",
-                "value": 138
-              }
-            ],
-            "decimals": 0,
-            "symbol": "GENTK",
-            "version": "0.2"
-          },
-          "duplicate": false,
-          "activeListing": {
-            "id": 1123886,
-            "version": 1,
-            "price": 37995000,
-            "__typename": "Listing"
-          },
-          "owner": {
-            "id": "tz1ZjEwXyHtcnD48WfYy9YRpkkc7dSP3Nh4W",
-            "name": null,
-            "flag": "NONE",
-            "avatarUri": null,
-            "__typename": "User"
-          },
-          "issuer": {
-            "flag": "NONE",
-            "name": "SoulSea",
-            "author": {
-              "id": "tz1WopvVxCVdGP7Sew7kz6Kro9o1qQ7SuEtN",
-              "name": "Che-Yu Wu",
-              "type": "REGULAR",
-              "avatarUri": "ipfs://QmVgEgkFYwUkXe1L9febp4D2C5K1bqCF7xcEXZkHVumirD",
-              "flag": "VERIFIED",
-              "collaborators": null,
-              "__typename": "User"
-            },
-            "__typename": "GenerativeToken"
-          },
-          "__typename": "Objkt"
-        },
-        "__typename": "Listing"
-      },
-      {
         "id": 1123884,
         "version": 1,
         "price": 21995000,
@@ -1649,101 +1716,6 @@
               "name": "markknol",
               "type": "REGULAR",
               "avatarUri": "ipfs://QmWm1hDLBXnUZ831FqQeKo2MLE1LPtp3hcwXdq2Y6YTr2C",
-              "flag": "VERIFIED",
-              "collaborators": null,
-              "__typename": "User"
-            },
-            "__typename": "GenerativeToken"
-          },
-          "__typename": "Objkt"
-        },
-        "__typename": "Listing"
-      },
-      {
-        "id": 1123880,
-        "version": 1,
-        "price": 900000,
-        "objkt": {
-          "id": "FX0-1308338",
-          "version": 1,
-          "name": "Tilemoji #90",
-          "slug": "tilemoji-90",
-          "metadata": {
-            "name": "Tilemoji #90",
-            "iterationHash": "onoQ7i45v6vhpJS3woxcp3p1qBKXisMo8mYz8g9fTdDQWB2J8U5",
-            "description": "This collection of low resolution generative art is presented using emojis rather than an image, so it can be copied like normal text. You are also welcome to take a screenshot for sharing or printing. Most results are designed to fit in a 280 character tweet, except for rare extra large variants. There are five different generative algorithms possible, each with their own set of parameters. Emojis are rendered using the Twemoji font and may look different in some environments.\n\nThank you for supporting my work during the first year of fxhash. For me it has been a life changing experience. I am forever grateful for all of the art and friendships we've created. Many of us have met on social media, so I developed this special project with a fun way to display and share. Congrats to artists, collectors, and developers for an amazing year!\n\nThis work is part of the fxhash anniversary event (#fxhashturnsone)\nAll of primary sale proceeds will go to Save Pakistan\n\nCode and Outputs are Copyright 2022 Frank Force\nArtwork is released under CC BY-NC 4.0 (https://creativecommons.org/licenses/by-nc/4.0)\nTwemoji Graphics licensed under CC-BY 4.0 (https://creativecommons.org/licenses/by/4.0)",
-            "tags": [
-              "tile",
-              "emoji",
-              "pixel",
-              "fxhashturnsone",
-              "savepakistan"
-            ],
-            "generatorUri": "ipfs://QmYkjW346aCmjpDjE74G8mbDHmi4UHfNEEnaJo1PpbUG5f",
-            "artifactUri": "ipfs://QmYkjW346aCmjpDjE74G8mbDHmi4UHfNEEnaJo1PpbUG5f?fxhash=onoQ7i45v6vhpJS3woxcp3p1qBKXisMo8mYz8g9fTdDQWB2J8U5",
-            "displayUri": "ipfs://QmZVTSbEC22b72dGCDNLNNjx1xhAEecrttqLEx5qafhQkf",
-            "thumbnailUri": "ipfs://QmeRiWj5XaetNe9ohhB3nVouoiuGpCmGDEyuTYBgDPY32P",
-            "authenticityHash": "f410835232f047a894e83160b2d616c59b45ae0ec0ecb6dcc84785ac2cb50b46",
-            "attributes": [
-              {
-                "name": "Style",
-                "value": "Maze"
-              },
-              {
-                "name": "Emojis",
-                "value": "Circle"
-              },
-              {
-                "name": "Colors",
-                "value": "Two"
-              },
-              {
-                "name": "Size",
-                "value": "Large"
-              },
-              {
-                "name": "Border",
-                "value": "Double"
-              },
-              {
-                "name": "Background",
-                "value": "Dark"
-              },
-              {
-                "name": "Invert",
-                "value": "No"
-              },
-              {
-                "name": "Shadow",
-                "value": "No"
-              }
-            ],
-            "decimals": 0,
-            "symbol": "GENTK",
-            "version": "0.2"
-          },
-          "duplicate": false,
-          "activeListing": {
-            "id": 1123880,
-            "version": 1,
-            "price": 900000,
-            "__typename": "Listing"
-          },
-          "owner": {
-            "id": "tz1MtMwpTM5o4uMq2g8EjbVEMprYNRki6AAD",
-            "name": "gems",
-            "flag": "VERIFIED",
-            "avatarUri": "ipfs://QmYQExnj1DULKbA34hRro9NikUFBASbGAM8TNvYHQJjeZ6",
-            "__typename": "User"
-          },
-          "issuer": {
-            "flag": "NONE",
-            "name": "Tilemoji",
-            "author": {
-              "id": "tz1aFiCb7spiSAdkCYUwaFSLgr4qN9ceGn2b",
-              "name": "KilledByAPixel",
-              "type": "REGULAR",
-              "avatarUri": "ipfs://QmebCxKj9uKgstCJDuHgr7FJiupDJ88MiEFutnB9oYxbnR",
               "flag": "VERIFIED",
               "collaborators": null,
               "__typename": "User"
