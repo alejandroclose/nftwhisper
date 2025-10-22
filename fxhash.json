@@ -2,74 +2,67 @@
   "data": {
     "listings": [
       {
-        "id": 1124009,
+        "id": 1124028,
         "version": 1,
-        "price": 24995000,
+        "price": 45000000,
         "objkt": {
-          "id": "FX0-1456707",
-          "version": 1,
-          "name": "Fischbach #196",
-          "slug": "fischbach-196",
+          "id": "FX0-445308",
+          "version": 0,
+          "name": "gatorade and apples #192",
+          "slug": "gatorade-and-apples-192",
           "metadata": {
-            "name": "Fischbach #196",
-            "iterationHash": "opZ9uFynJHCaWeWFCz4AfcfVLdrKqjmaY99yb2DZXkHAsrsU25w",
-            "description": "#fxhashturnsone\n\nThe first 365 crazy days of fxhash - time to celebrate this and take a look back.\n\nThe entropy of memories in a vivid photo collage that gives me goosebumps while others might just see moving eye candy. Perspective and perception can be so different.\n\nBased on some of my photos from the last 365 days that trigger emotional memories, even if they are not directly connected. By the way, Fischbach is the name of the small village where I grew up. It was a great time!\n\nHow does it work?\n\nEach piece uses pairs of photos and colors (top/bottom).\n\nThe animated collage itself is based on two layers. The first layer uses a double buffer to cut, colorize and animate the photos. The second layer is mainly just for screen rendering, debugging and behind-the-scene looks.\n\nCutting and pasting photos is based on a variable moving color grid, the fixed horizon, the variable position of the photos top/bottom, the previous buffer and some magic distance calculations between them.\n\nThe grid itself is a combination of vertical color stripes with variable position and distance factors that determine the color gradient between the two colors, and folds that alternate between the two colors depending on the horizontal and vertical values.\n\nEspecially the entropy of the photos and the colored grid influence the pixel movement.\n\nAnimation changes are triggered after a random number of frames and effect folds, stripes and photo position. These replace parts of the current collage (fade to black) or add some (discard fragment updates).\n\nFeatures:\n\n- top color [12] - hue, colorful & bright\n- bottom color [6] - hue, less colorful & bright\n- top photo [16] (zingst, birds, xmas, zustand, zebra, moving-blocks-mono, fischbach, santanyi, goldblume, ♠4, driften, brand-pyramide, zäpfle, bc, tisa, lieblingspulli)\n- bottom photo: [16] (zingst, birds, xmas, zustand, zebra, moving-blocks-mono, fischbach, santanyi, goldblume, ♠4, driften, brand-pyramide, zäpfle, bc, tisa, lieblingspulli)\n- horizon [0.618, 0.5, 0.382] (down, center, up)\n- hectic [3, 5, 11] (calm, slightly, very)\n- horizontal folds [113, 365, 997, 2153, 3987] - used for first animation iteration, variable\n- vertical folds [7, 37, 127, 571, 1501, 3147] - used for first animation iteration, variable\n- min stripes [1, 3, 5] - used for first animation iteration, variable\n\nAnimation and feature selection are based on the deterministic prng Xoshiro128 seeded with the fxhash. This allows repeated playback in the same sequence. The animation is synchronized with frames and not with time.\n\nThe preview images are taken after 300 frames.\n\nShortcuts & interactions:\n\n- spacebar, mouse click or tap touch to trigger animation changes\n- `c` to take a picture\n- `f` for full screen mode\n- `p` to pause\n- `h` to see all options\n\nAvailable query string parameters:\n\n- autopause - enable automatic pausing\n- pixelratio=2 - sets the pixel ratio (default: device)\n- showannouncement - activates the announcement\n- kioskspeed=10 - activates the kiosk mode and sets the speed in seconds\n- showinfo - activates the info box",
+            "name": "gatorade and apples #192",
+            "iterationHash": "onxJQyJZxjgQq48PVgJMED5yGMnaHPqCw1dgAzai15vBURP7wUo",
+            "description": "still life drawing by john karel",
             "tags": [
-              "webgl2",
-              "fischbach",
-              "moving blocks",
-              "zebra",
-              "glsl",
-              "discard",
-              "twgl.js",
-              "#fxhashturnsone",
-              "fxhashturnsone",
-              "thi.ng",
-              "interactive",
-              "animated",
-              "photo collage"
+              "still life drawing",
+              "jjjjjohn"
             ],
-            "generatorUri": "ipfs://QmXfE7s2HbfJe1fgxYMwBxpkoVv4ixGoRxixbrsw6edeKK",
-            "artifactUri": "ipfs://QmXfE7s2HbfJe1fgxYMwBxpkoVv4ixGoRxixbrsw6edeKK?fxhash=opZ9uFynJHCaWeWFCz4AfcfVLdrKqjmaY99yb2DZXkHAsrsU25w",
-            "displayUri": "ipfs://QmSuGvh5SfwYKW5tfGhVrYC8amtwdY3D55wLoDnLeSppYQ",
-            "thumbnailUri": "ipfs://QmWKnsaWSyoQeAT3rcFkL3FQdGfqwPd425pJsMKWv65HYG",
-            "authenticityHash": "b9f58d4f8c7fcc87fd188daefe8ccbfad4e01084f650883fe00a8258e232d132",
+            "generatorUri": "ipfs://QmRcTu7oSg3EXWE9XyKphLxnQ9qto8YYPkRxwBb2gX5nQe",
+            "artifactUri": "ipfs://QmRcTu7oSg3EXWE9XyKphLxnQ9qto8YYPkRxwBb2gX5nQe?fxhash=onxJQyJZxjgQq48PVgJMED5yGMnaHPqCw1dgAzai15vBURP7wUo",
+            "displayUri": "ipfs://QmQis51bGWy6xsK7Nbhm3RvaTtz6hNeT8t2k9GMcgecsB2",
+            "thumbnailUri": "ipfs://QmRbyUqHrfqh9wmrJnZCC5tHGcpzDR1N89pLLbvmqUi5t5",
+            "authenticityHash": "ffa5ea5d44c5277afc29280329f15a81ca931938b638f7013d265a883aa1a5d4",
             "attributes": [
               {
-                "name": "top color",
-                "value": "#5de8ff"
+                "name": "gatorade color",
+                "value": "grid black"
               },
               {
-                "name": "bottom color",
-                "value": "#db69b1"
+                "name": "gatorade lines",
+                "value": "clean"
               },
               {
-                "name": "horizon",
-                "value": "up"
+                "name": "apple1 color",
+                "value": "gradient basic"
               },
               {
-                "name": "horizontal fold",
-                "value": 113
+                "name": "apple1 lines",
+                "value": "zigzag"
               },
               {
-                "name": "vertical fold",
-                "value": 3147
+                "name": "knife color",
+                "value": "scribble basic"
               },
               {
-                "name": "hectic",
-                "value": "calm"
+                "name": "knife lines",
+                "value": "geometric"
               },
               {
-                "name": "top photo",
-                "value": "bc"
+                "name": "apple2 color",
+                "value": "grid black"
               },
               {
-                "name": "bottom photo",
-                "value": "driften"
+                "name": "apple2 lines",
+                "value": "geometric"
               },
               {
-                "name": "min stripes",
-                "value": 1
+                "name": "apple3 color",
+                "value": "soft basic"
+              },
+              {
+                "name": "apple3 lines",
+                "value": "blob"
               }
             ],
             "decimals": 0,
@@ -78,13 +71,13 @@
           },
           "duplicate": false,
           "activeListing": {
-            "id": 1124009,
+            "id": 1124028,
             "version": 1,
-            "price": 24995000,
+            "price": 45000000,
             "__typename": "Listing"
           },
           "owner": {
-            "id": "tz1ZjEwXyHtcnD48WfYy9YRpkkc7dSP3Nh4W",
+            "id": "tz2D7kkq8sDA3AaotKJf2oyyDkHZtn8tUu2h",
             "name": null,
             "flag": "NONE",
             "avatarUri": null,
@@ -92,12 +85,12 @@
           },
           "issuer": {
             "flag": "NONE",
-            "name": "Fischbach",
+            "name": "gatorade and apples",
             "author": {
-              "id": "tz1QM2ZmH3HUD5MUSY3efFvYqLz3A2rZZmT6",
-              "name": "dirx",
+              "id": "tz1iZ2TPEShFC8TqHsXLA9RXdV7tSv8E3aLe",
+              "name": "jjjjjohn",
               "type": "REGULAR",
-              "avatarUri": "ipfs://QmPdM1evqKBV9Xs5hS2VmWMBTtzQyPrd2asmr4qdTCLRA7",
+              "avatarUri": "ipfs://QmPmKA7e7RpwCgANwUXPuUwJDgDV5F9TBv725oah4kC7Wd",
               "flag": "VERIFIED",
               "collaborators": null,
               "__typename": "User"
@@ -109,116 +102,9 @@
         "__typename": "Listing"
       },
       {
-        "id": 1124008,
+        "id": 1124027,
         "version": 1,
-        "price": 15995000,
-        "objkt": {
-          "id": "FX0-1456799",
-          "version": 1,
-          "name": "Fischbach #200",
-          "slug": "fischbach-200",
-          "metadata": {
-            "name": "Fischbach #200",
-            "iterationHash": "oocKbguhQNQGAETUr2mnpJDC5eZtbrFWybx7uYYTDWHuVEkHL6F",
-            "description": "#fxhashturnsone\n\nThe first 365 crazy days of fxhash - time to celebrate this and take a look back.\n\nThe entropy of memories in a vivid photo collage that gives me goosebumps while others might just see moving eye candy. Perspective and perception can be so different.\n\nBased on some of my photos from the last 365 days that trigger emotional memories, even if they are not directly connected. By the way, Fischbach is the name of the small village where I grew up. It was a great time!\n\nHow does it work?\n\nEach piece uses pairs of photos and colors (top/bottom).\n\nThe animated collage itself is based on two layers. The first layer uses a double buffer to cut, colorize and animate the photos. The second layer is mainly just for screen rendering, debugging and behind-the-scene looks.\n\nCutting and pasting photos is based on a variable moving color grid, the fixed horizon, the variable position of the photos top/bottom, the previous buffer and some magic distance calculations between them.\n\nThe grid itself is a combination of vertical color stripes with variable position and distance factors that determine the color gradient between the two colors, and folds that alternate between the two colors depending on the horizontal and vertical values.\n\nEspecially the entropy of the photos and the colored grid influence the pixel movement.\n\nAnimation changes are triggered after a random number of frames and effect folds, stripes and photo position. These replace parts of the current collage (fade to black) or add some (discard fragment updates).\n\nFeatures:\n\n- top color [12] - hue, colorful & bright\n- bottom color [6] - hue, less colorful & bright\n- top photo [16] (zingst, birds, xmas, zustand, zebra, moving-blocks-mono, fischbach, santanyi, goldblume, ♠4, driften, brand-pyramide, zäpfle, bc, tisa, lieblingspulli)\n- bottom photo: [16] (zingst, birds, xmas, zustand, zebra, moving-blocks-mono, fischbach, santanyi, goldblume, ♠4, driften, brand-pyramide, zäpfle, bc, tisa, lieblingspulli)\n- horizon [0.618, 0.5, 0.382] (down, center, up)\n- hectic [3, 5, 11] (calm, slightly, very)\n- horizontal folds [113, 365, 997, 2153, 3987] - used for first animation iteration, variable\n- vertical folds [7, 37, 127, 571, 1501, 3147] - used for first animation iteration, variable\n- min stripes [1, 3, 5] - used for first animation iteration, variable\n\nAnimation and feature selection are based on the deterministic prng Xoshiro128 seeded with the fxhash. This allows repeated playback in the same sequence. The animation is synchronized with frames and not with time.\n\nThe preview images are taken after 300 frames.\n\nShortcuts & interactions:\n\n- spacebar, mouse click or tap touch to trigger animation changes\n- `c` to take a picture\n- `f` for full screen mode\n- `p` to pause\n- `h` to see all options\n\nAvailable query string parameters:\n\n- autopause - enable automatic pausing\n- pixelratio=2 - sets the pixel ratio (default: device)\n- showannouncement - activates the announcement\n- kioskspeed=10 - activates the kiosk mode and sets the speed in seconds\n- showinfo - activates the info box",
-            "tags": [
-              "webgl2",
-              "fischbach",
-              "moving blocks",
-              "zebra",
-              "glsl",
-              "discard",
-              "twgl.js",
-              "#fxhashturnsone",
-              "fxhashturnsone",
-              "thi.ng",
-              "interactive",
-              "animated",
-              "photo collage"
-            ],
-            "generatorUri": "ipfs://QmXfE7s2HbfJe1fgxYMwBxpkoVv4ixGoRxixbrsw6edeKK",
-            "artifactUri": "ipfs://QmXfE7s2HbfJe1fgxYMwBxpkoVv4ixGoRxixbrsw6edeKK?fxhash=oocKbguhQNQGAETUr2mnpJDC5eZtbrFWybx7uYYTDWHuVEkHL6F",
-            "displayUri": "ipfs://QmUzSggeu5BwzyFLBRy8y78doru2Y6CLUBa5ePAFp6LjAk",
-            "thumbnailUri": "ipfs://QmajxEhyXkCzS58YKsdxu1Lcuj8eSkkb5zGRRWT7mHEm73",
-            "authenticityHash": "17454bae2377b29a523be9b405b8a31dde6631213d9738d8b6c2e78c36266764",
-            "attributes": [
-              {
-                "name": "top color",
-                "value": "#ffe100"
-              },
-              {
-                "name": "bottom color",
-                "value": "#0098af"
-              },
-              {
-                "name": "horizon",
-                "value": "down"
-              },
-              {
-                "name": "horizontal fold",
-                "value": 2153
-              },
-              {
-                "name": "vertical fold",
-                "value": 37
-              },
-              {
-                "name": "hectic",
-                "value": "slightly"
-              },
-              {
-                "name": "top photo",
-                "value": "zäpfle"
-              },
-              {
-                "name": "bottom photo",
-                "value": "bc"
-              },
-              {
-                "name": "min stripes",
-                "value": 5
-              }
-            ],
-            "decimals": 0,
-            "symbol": "GENTK",
-            "version": "0.2"
-          },
-          "duplicate": false,
-          "activeListing": {
-            "id": 1124008,
-            "version": 1,
-            "price": 15995000,
-            "__typename": "Listing"
-          },
-          "owner": {
-            "id": "tz1ZjEwXyHtcnD48WfYy9YRpkkc7dSP3Nh4W",
-            "name": null,
-            "flag": "NONE",
-            "avatarUri": null,
-            "__typename": "User"
-          },
-          "issuer": {
-            "flag": "NONE",
-            "name": "Fischbach",
-            "author": {
-              "id": "tz1QM2ZmH3HUD5MUSY3efFvYqLz3A2rZZmT6",
-              "name": "dirx",
-              "type": "REGULAR",
-              "avatarUri": "ipfs://QmPdM1evqKBV9Xs5hS2VmWMBTtzQyPrd2asmr4qdTCLRA7",
-              "flag": "VERIFIED",
-              "collaborators": null,
-              "__typename": "User"
-            },
-            "__typename": "GenerativeToken"
-          },
-          "__typename": "Objkt"
-        },
-        "__typename": "Listing"
-      },
-      {
-        "id": 1124007,
-        "version": 1,
-        "price": 15995000,
+        "price": 18000000,
         "objkt": {
           "id": "FX0-1456785",
           "version": 1,
@@ -292,9 +178,9 @@
           },
           "duplicate": false,
           "activeListing": {
-            "id": 1124007,
+            "id": 1124027,
             "version": 1,
-            "price": 15995000,
+            "price": 18000000,
             "__typename": "Listing"
           },
           "owner": {
@@ -323,9 +209,9 @@
         "__typename": "Listing"
       },
       {
-        "id": 1124006,
+        "id": 1124026,
         "version": 1,
-        "price": 15995000,
+        "price": 18000000,
         "objkt": {
           "id": "FX0-1456698",
           "version": 1,
@@ -399,9 +285,9 @@
           },
           "duplicate": false,
           "activeListing": {
-            "id": 1124006,
+            "id": 1124026,
             "version": 1,
-            "price": 15995000,
+            "price": 18000000,
             "__typename": "Listing"
           },
           "owner": {
@@ -430,9 +316,290 @@
         "__typename": "Listing"
       },
       {
-        "id": 1124005,
+        "id": 1124025,
         "version": 1,
-        "price": 14995000,
+        "price": 18000000,
+        "objkt": {
+          "id": "FX0-1456707",
+          "version": 1,
+          "name": "Fischbach #196",
+          "slug": "fischbach-196",
+          "metadata": {
+            "name": "Fischbach #196",
+            "iterationHash": "opZ9uFynJHCaWeWFCz4AfcfVLdrKqjmaY99yb2DZXkHAsrsU25w",
+            "description": "#fxhashturnsone\n\nThe first 365 crazy days of fxhash - time to celebrate this and take a look back.\n\nThe entropy of memories in a vivid photo collage that gives me goosebumps while others might just see moving eye candy. Perspective and perception can be so different.\n\nBased on some of my photos from the last 365 days that trigger emotional memories, even if they are not directly connected. By the way, Fischbach is the name of the small village where I grew up. It was a great time!\n\nHow does it work?\n\nEach piece uses pairs of photos and colors (top/bottom).\n\nThe animated collage itself is based on two layers. The first layer uses a double buffer to cut, colorize and animate the photos. The second layer is mainly just for screen rendering, debugging and behind-the-scene looks.\n\nCutting and pasting photos is based on a variable moving color grid, the fixed horizon, the variable position of the photos top/bottom, the previous buffer and some magic distance calculations between them.\n\nThe grid itself is a combination of vertical color stripes with variable position and distance factors that determine the color gradient between the two colors, and folds that alternate between the two colors depending on the horizontal and vertical values.\n\nEspecially the entropy of the photos and the colored grid influence the pixel movement.\n\nAnimation changes are triggered after a random number of frames and effect folds, stripes and photo position. These replace parts of the current collage (fade to black) or add some (discard fragment updates).\n\nFeatures:\n\n- top color [12] - hue, colorful & bright\n- bottom color [6] - hue, less colorful & bright\n- top photo [16] (zingst, birds, xmas, zustand, zebra, moving-blocks-mono, fischbach, santanyi, goldblume, ♠4, driften, brand-pyramide, zäpfle, bc, tisa, lieblingspulli)\n- bottom photo: [16] (zingst, birds, xmas, zustand, zebra, moving-blocks-mono, fischbach, santanyi, goldblume, ♠4, driften, brand-pyramide, zäpfle, bc, tisa, lieblingspulli)\n- horizon [0.618, 0.5, 0.382] (down, center, up)\n- hectic [3, 5, 11] (calm, slightly, very)\n- horizontal folds [113, 365, 997, 2153, 3987] - used for first animation iteration, variable\n- vertical folds [7, 37, 127, 571, 1501, 3147] - used for first animation iteration, variable\n- min stripes [1, 3, 5] - used for first animation iteration, variable\n\nAnimation and feature selection are based on the deterministic prng Xoshiro128 seeded with the fxhash. This allows repeated playback in the same sequence. The animation is synchronized with frames and not with time.\n\nThe preview images are taken after 300 frames.\n\nShortcuts & interactions:\n\n- spacebar, mouse click or tap touch to trigger animation changes\n- `c` to take a picture\n- `f` for full screen mode\n- `p` to pause\n- `h` to see all options\n\nAvailable query string parameters:\n\n- autopause - enable automatic pausing\n- pixelratio=2 - sets the pixel ratio (default: device)\n- showannouncement - activates the announcement\n- kioskspeed=10 - activates the kiosk mode and sets the speed in seconds\n- showinfo - activates the info box",
+            "tags": [
+              "webgl2",
+              "fischbach",
+              "moving blocks",
+              "zebra",
+              "glsl",
+              "discard",
+              "twgl.js",
+              "#fxhashturnsone",
+              "fxhashturnsone",
+              "thi.ng",
+              "interactive",
+              "animated",
+              "photo collage"
+            ],
+            "generatorUri": "ipfs://QmXfE7s2HbfJe1fgxYMwBxpkoVv4ixGoRxixbrsw6edeKK",
+            "artifactUri": "ipfs://QmXfE7s2HbfJe1fgxYMwBxpkoVv4ixGoRxixbrsw6edeKK?fxhash=opZ9uFynJHCaWeWFCz4AfcfVLdrKqjmaY99yb2DZXkHAsrsU25w",
+            "displayUri": "ipfs://QmSuGvh5SfwYKW5tfGhVrYC8amtwdY3D55wLoDnLeSppYQ",
+            "thumbnailUri": "ipfs://QmWKnsaWSyoQeAT3rcFkL3FQdGfqwPd425pJsMKWv65HYG",
+            "authenticityHash": "b9f58d4f8c7fcc87fd188daefe8ccbfad4e01084f650883fe00a8258e232d132",
+            "attributes": [
+              {
+                "name": "top color",
+                "value": "#5de8ff"
+              },
+              {
+                "name": "bottom color",
+                "value": "#db69b1"
+              },
+              {
+                "name": "horizon",
+                "value": "up"
+              },
+              {
+                "name": "horizontal fold",
+                "value": 113
+              },
+              {
+                "name": "vertical fold",
+                "value": 3147
+              },
+              {
+                "name": "hectic",
+                "value": "calm"
+              },
+              {
+                "name": "top photo",
+                "value": "bc"
+              },
+              {
+                "name": "bottom photo",
+                "value": "driften"
+              },
+              {
+                "name": "min stripes",
+                "value": 1
+              }
+            ],
+            "decimals": 0,
+            "symbol": "GENTK",
+            "version": "0.2"
+          },
+          "duplicate": false,
+          "activeListing": {
+            "id": 1124025,
+            "version": 1,
+            "price": 18000000,
+            "__typename": "Listing"
+          },
+          "owner": {
+            "id": "tz1ZjEwXyHtcnD48WfYy9YRpkkc7dSP3Nh4W",
+            "name": null,
+            "flag": "NONE",
+            "avatarUri": null,
+            "__typename": "User"
+          },
+          "issuer": {
+            "flag": "NONE",
+            "name": "Fischbach",
+            "author": {
+              "id": "tz1QM2ZmH3HUD5MUSY3efFvYqLz3A2rZZmT6",
+              "name": "dirx",
+              "type": "REGULAR",
+              "avatarUri": "ipfs://QmPdM1evqKBV9Xs5hS2VmWMBTtzQyPrd2asmr4qdTCLRA7",
+              "flag": "VERIFIED",
+              "collaborators": null,
+              "__typename": "User"
+            },
+            "__typename": "GenerativeToken"
+          },
+          "__typename": "Objkt"
+        },
+        "__typename": "Listing"
+      },
+      {
+        "id": 1124024,
+        "version": 1,
+        "price": 25000000,
+        "objkt": {
+          "id": "FX0-428360",
+          "version": 0,
+          "name": "flowers #43",
+          "slug": "flowers-43-f7891850-601b-4390-ba1d-7244d940a1fa",
+          "metadata": {
+            "name": "flowers #43",
+            "iterationHash": "onyiCSC9Hf5G1W7v8PBVeX9Dx1NraAdEi6E32UumGUQaxyPT7n4",
+            "description": "This is an abstract piece based on circle packing algorithm.\n\nFebruary 2022\nykxotkx",
+            "tags": [
+              "abstract",
+              "generative",
+              "dots",
+              "circle packing",
+              "flowers"
+            ],
+            "generatorUri": "ipfs://QmR7aJ5WeNHupJADapwndzir6Sa63us5iAoZPYcrvnbkR4",
+            "artifactUri": "ipfs://QmR7aJ5WeNHupJADapwndzir6Sa63us5iAoZPYcrvnbkR4?fxhash=onyiCSC9Hf5G1W7v8PBVeX9Dx1NraAdEi6E32UumGUQaxyPT7n4",
+            "displayUri": "ipfs://QmbQDGMCgB8gJCgC5w2G6gN6hN96oAptdQrPrzGTEoPKH9",
+            "thumbnailUri": "ipfs://Qmev1DZik1BQURAHkyDKE1cgbb2FTcEim8gDhu2HjHvYd3",
+            "authenticityHash": "c1dbbab8f1bb8ddc5a1a98607b3c195b584fff4ff34e9634159a7c68b06458f2",
+            "attributes": [
+              {
+                "name": "Style",
+                "value": "regular"
+              }
+            ],
+            "decimals": 0,
+            "symbol": "GENTK",
+            "version": "0.2"
+          },
+          "duplicate": false,
+          "activeListing": {
+            "id": 1124024,
+            "version": 1,
+            "price": 25000000,
+            "__typename": "Listing"
+          },
+          "owner": {
+            "id": "tz1ZjEwXyHtcnD48WfYy9YRpkkc7dSP3Nh4W",
+            "name": null,
+            "flag": "NONE",
+            "avatarUri": null,
+            "__typename": "User"
+          },
+          "issuer": {
+            "flag": "NONE",
+            "name": "flowers",
+            "author": {
+              "id": "tz1ZV6zpRiyGdpFxprDSuA1CUaXh5HyHAssc",
+              "name": "ykxotkx",
+              "type": "REGULAR",
+              "avatarUri": "ipfs://QmZAoVppST1CngtnrUDen8fFJz2oFxJJ2eVvwZN8Kd4cH9",
+              "flag": "VERIFIED",
+              "collaborators": null,
+              "__typename": "User"
+            },
+            "__typename": "GenerativeToken"
+          },
+          "__typename": "Objkt"
+        },
+        "__typename": "Listing"
+      },
+      {
+        "id": 1124023,
+        "version": 1,
+        "price": 11995000,
+        "objkt": {
+          "id": "FX0-1456799",
+          "version": 1,
+          "name": "Fischbach #200",
+          "slug": "fischbach-200",
+          "metadata": {
+            "name": "Fischbach #200",
+            "iterationHash": "oocKbguhQNQGAETUr2mnpJDC5eZtbrFWybx7uYYTDWHuVEkHL6F",
+            "description": "#fxhashturnsone\n\nThe first 365 crazy days of fxhash - time to celebrate this and take a look back.\n\nThe entropy of memories in a vivid photo collage that gives me goosebumps while others might just see moving eye candy. Perspective and perception can be so different.\n\nBased on some of my photos from the last 365 days that trigger emotional memories, even if they are not directly connected. By the way, Fischbach is the name of the small village where I grew up. It was a great time!\n\nHow does it work?\n\nEach piece uses pairs of photos and colors (top/bottom).\n\nThe animated collage itself is based on two layers. The first layer uses a double buffer to cut, colorize and animate the photos. The second layer is mainly just for screen rendering, debugging and behind-the-scene looks.\n\nCutting and pasting photos is based on a variable moving color grid, the fixed horizon, the variable position of the photos top/bottom, the previous buffer and some magic distance calculations between them.\n\nThe grid itself is a combination of vertical color stripes with variable position and distance factors that determine the color gradient between the two colors, and folds that alternate between the two colors depending on the horizontal and vertical values.\n\nEspecially the entropy of the photos and the colored grid influence the pixel movement.\n\nAnimation changes are triggered after a random number of frames and effect folds, stripes and photo position. These replace parts of the current collage (fade to black) or add some (discard fragment updates).\n\nFeatures:\n\n- top color [12] - hue, colorful & bright\n- bottom color [6] - hue, less colorful & bright\n- top photo [16] (zingst, birds, xmas, zustand, zebra, moving-blocks-mono, fischbach, santanyi, goldblume, ♠4, driften, brand-pyramide, zäpfle, bc, tisa, lieblingspulli)\n- bottom photo: [16] (zingst, birds, xmas, zustand, zebra, moving-blocks-mono, fischbach, santanyi, goldblume, ♠4, driften, brand-pyramide, zäpfle, bc, tisa, lieblingspulli)\n- horizon [0.618, 0.5, 0.382] (down, center, up)\n- hectic [3, 5, 11] (calm, slightly, very)\n- horizontal folds [113, 365, 997, 2153, 3987] - used for first animation iteration, variable\n- vertical folds [7, 37, 127, 571, 1501, 3147] - used for first animation iteration, variable\n- min stripes [1, 3, 5] - used for first animation iteration, variable\n\nAnimation and feature selection are based on the deterministic prng Xoshiro128 seeded with the fxhash. This allows repeated playback in the same sequence. The animation is synchronized with frames and not with time.\n\nThe preview images are taken after 300 frames.\n\nShortcuts & interactions:\n\n- spacebar, mouse click or tap touch to trigger animation changes\n- `c` to take a picture\n- `f` for full screen mode\n- `p` to pause\n- `h` to see all options\n\nAvailable query string parameters:\n\n- autopause - enable automatic pausing\n- pixelratio=2 - sets the pixel ratio (default: device)\n- showannouncement - activates the announcement\n- kioskspeed=10 - activates the kiosk mode and sets the speed in seconds\n- showinfo - activates the info box",
+            "tags": [
+              "webgl2",
+              "fischbach",
+              "moving blocks",
+              "zebra",
+              "glsl",
+              "discard",
+              "twgl.js",
+              "#fxhashturnsone",
+              "fxhashturnsone",
+              "thi.ng",
+              "interactive",
+              "animated",
+              "photo collage"
+            ],
+            "generatorUri": "ipfs://QmXfE7s2HbfJe1fgxYMwBxpkoVv4ixGoRxixbrsw6edeKK",
+            "artifactUri": "ipfs://QmXfE7s2HbfJe1fgxYMwBxpkoVv4ixGoRxixbrsw6edeKK?fxhash=oocKbguhQNQGAETUr2mnpJDC5eZtbrFWybx7uYYTDWHuVEkHL6F",
+            "displayUri": "ipfs://QmUzSggeu5BwzyFLBRy8y78doru2Y6CLUBa5ePAFp6LjAk",
+            "thumbnailUri": "ipfs://QmajxEhyXkCzS58YKsdxu1Lcuj8eSkkb5zGRRWT7mHEm73",
+            "authenticityHash": "17454bae2377b29a523be9b405b8a31dde6631213d9738d8b6c2e78c36266764",
+            "attributes": [
+              {
+                "name": "top color",
+                "value": "#ffe100"
+              },
+              {
+                "name": "bottom color",
+                "value": "#0098af"
+              },
+              {
+                "name": "horizon",
+                "value": "down"
+              },
+              {
+                "name": "horizontal fold",
+                "value": 2153
+              },
+              {
+                "name": "vertical fold",
+                "value": 37
+              },
+              {
+                "name": "hectic",
+                "value": "slightly"
+              },
+              {
+                "name": "top photo",
+                "value": "zäpfle"
+              },
+              {
+                "name": "bottom photo",
+                "value": "bc"
+              },
+              {
+                "name": "min stripes",
+                "value": 5
+              }
+            ],
+            "decimals": 0,
+            "symbol": "GENTK",
+            "version": "0.2"
+          },
+          "duplicate": false,
+          "activeListing": {
+            "id": 1124023,
+            "version": 1,
+            "price": 11995000,
+            "__typename": "Listing"
+          },
+          "owner": {
+            "id": "tz1ZjEwXyHtcnD48WfYy9YRpkkc7dSP3Nh4W",
+            "name": null,
+            "flag": "NONE",
+            "avatarUri": null,
+            "__typename": "User"
+          },
+          "issuer": {
+            "flag": "NONE",
+            "name": "Fischbach",
+            "author": {
+              "id": "tz1QM2ZmH3HUD5MUSY3efFvYqLz3A2rZZmT6",
+              "name": "dirx",
+              "type": "REGULAR",
+              "avatarUri": "ipfs://QmPdM1evqKBV9Xs5hS2VmWMBTtzQyPrd2asmr4qdTCLRA7",
+              "flag": "VERIFIED",
+              "collaborators": null,
+              "__typename": "User"
+            },
+            "__typename": "GenerativeToken"
+          },
+          "__typename": "Objkt"
+        },
+        "__typename": "Listing"
+      },
+      {
+        "id": 1124022,
+        "version": 1,
+        "price": 17995000,
         "objkt": {
           "id": "FX0-1180638",
           "version": 1,
@@ -462,9 +629,9 @@
           },
           "duplicate": false,
           "activeListing": {
-            "id": 1124005,
+            "id": 1124022,
             "version": 1,
-            "price": 14995000,
+            "price": 17995000,
             "__typename": "Listing"
           },
           "owner": {
@@ -508,9 +675,77 @@
         "__typename": "Listing"
       },
       {
-        "id": 1124004,
+        "id": 1124021,
         "version": 1,
-        "price": 34995000,
+        "price": 16000000,
+        "objkt": {
+          "id": "FX0-597656",
+          "version": 1,
+          "name": "Enlightened Journey #213",
+          "slug": "enlightened-journey-213",
+          "metadata": {
+            "name": "Enlightened Journey #213",
+            "iterationHash": "ooAPVkMxY3JJ6LH1pyqxefSEsHZ47QJQNJBBU2J2w7rBjSK1oKd",
+            "description": "A digital journey through nature.\n\nMade in p5js\n\nSpecial thanks to @Zancan and @TenebrisVia for inspiring me to code with nature, along with the work of Linda Rous for inspiring the use of perspective and stairs in the scene. Also, thanks to the FX Hash and Twitter communities for the wonderful feedback and suggestions which helped throughout the design process.\n",
+            "tags": [
+              "Enlightened",
+              "journey",
+              "nature",
+              "plants",
+              "p5",
+              "p5js",
+              "JavaScript",
+              "stairs",
+              "clean",
+              "generative",
+              "Tezumie"
+            ],
+            "generatorUri": "ipfs://QmaHNE3HhoWNgsv7WnsY9MPByquBcLJu28U9LnkCsz5vS7",
+            "artifactUri": "ipfs://QmaHNE3HhoWNgsv7WnsY9MPByquBcLJu28U9LnkCsz5vS7?fxhash=ooAPVkMxY3JJ6LH1pyqxefSEsHZ47QJQNJBBU2J2w7rBjSK1oKd",
+            "displayUri": "ipfs://Qma52ALyNZ3rf7bjSB1XRqp3cXXDB4uht5PECtvkqsGPku",
+            "thumbnailUri": "ipfs://QmYYtDPhypVgjmVkXmChzfZjZ4HSfDwLvhrW8NCAeNMLTv",
+            "authenticityHash": "955dd873c88d9d55335f97654036fc13be1d369c14ba51cfe61c48d40bf4ff48",
+            "attributes": [],
+            "decimals": 0,
+            "symbol": "GENTK",
+            "version": "0.2"
+          },
+          "duplicate": false,
+          "activeListing": {
+            "id": 1124021,
+            "version": 1,
+            "price": 16000000,
+            "__typename": "Listing"
+          },
+          "owner": {
+            "id": "tz1ZjEwXyHtcnD48WfYy9YRpkkc7dSP3Nh4W",
+            "name": null,
+            "flag": "NONE",
+            "avatarUri": null,
+            "__typename": "User"
+          },
+          "issuer": {
+            "flag": "NONE",
+            "name": "Enlightened Journey",
+            "author": {
+              "id": "tz1a2aHDQayeSEsbDRm5igEiLYH4cxcNnKyz",
+              "name": "Tezumie",
+              "type": "REGULAR",
+              "avatarUri": "ipfs://QmSKzorFywkX9nnpGGgi3YYydKEEAcLj7zTV45o3rz9yKL",
+              "flag": "NONE",
+              "collaborators": null,
+              "__typename": "User"
+            },
+            "__typename": "GenerativeToken"
+          },
+          "__typename": "Objkt"
+        },
+        "__typename": "Listing"
+      },
+      {
+        "id": 1124020,
+        "version": 1,
+        "price": 38000000,
         "objkt": {
           "id": "FX0-281290",
           "version": 0,
@@ -607,9 +842,9 @@
           },
           "duplicate": false,
           "activeListing": {
-            "id": 1124004,
+            "id": 1124020,
             "version": 1,
-            "price": 34995000,
+            "price": 38000000,
             "__typename": "Listing"
           },
           "owner": {
@@ -638,189 +873,9 @@
         "__typename": "Listing"
       },
       {
-        "id": 1124003,
+        "id": 1124019,
         "version": 1,
-        "price": 59000000,
-        "objkt": {
-          "id": "FX0-43231",
-          "version": 0,
-          "name": "TEST01 #249",
-          "slug": "test01-249",
-          "metadata": {
-            "name": "TEST01 #249",
-            "iterationHash": "oouireDgWJPT4SVhMc9kk7HeSp8RhWjvk716uNjkw7jWuUk9y8C",
-            "description": "Feature is possession",
-            "tags": [
-              "shvembldr"
-            ],
-            "artifactUri": "ipfs://QmVvgWnmacwcUu3vmLHUg3VmKGX4WnrpPRQcgtvTz2Cofs",
-            "displayUri": "ipfs://QmbqQxWDv6MP5eVmtYnowvivLG2SAWK55MQ8biS1Gr7PtV",
-            "thumbnailUri": "ipfs://QmUbQa89DGkqAxdL2daMYfxp5q1MBcNmCFf6LFarLBfmAS",
-            "authenticityHash": "2ebd6c53a6d63c4c1d237a71c34bb1ab9805fae78bac0d4275605dec4f7839af",
-            "attributes": [],
-            "decimals": 0,
-            "symbol": "GENTK"
-          },
-          "duplicate": false,
-          "activeListing": {
-            "id": 1124003,
-            "version": 1,
-            "price": 59000000,
-            "__typename": "Listing"
-          },
-          "owner": {
-            "id": "tz1ZjEwXyHtcnD48WfYy9YRpkkc7dSP3Nh4W",
-            "name": null,
-            "flag": "NONE",
-            "avatarUri": null,
-            "__typename": "User"
-          },
-          "issuer": {
-            "flag": "NONE",
-            "name": "TEST01",
-            "author": {
-              "id": "tz1WqBtWEXjYPwKofxDPsf2V8Jo7dRxdKYqu",
-              "name": "-------------",
-              "type": "REGULAR",
-              "avatarUri": "ipfs://QmWZjWrKw5M8WTrLLE4LUauTHRyAiD82WSp8xGwNAH3K4d",
-              "flag": "VERIFIED",
-              "collaborators": null,
-              "__typename": "User"
-            },
-            "__typename": "GenerativeToken"
-          },
-          "__typename": "Objkt"
-        },
-        "__typename": "Listing"
-      },
-      {
-        "id": 1124002,
-        "version": 1,
-        "price": 11995000,
-        "objkt": {
-          "id": "FX0-597656",
-          "version": 1,
-          "name": "Enlightened Journey #213",
-          "slug": "enlightened-journey-213",
-          "metadata": {
-            "name": "Enlightened Journey #213",
-            "iterationHash": "ooAPVkMxY3JJ6LH1pyqxefSEsHZ47QJQNJBBU2J2w7rBjSK1oKd",
-            "description": "A digital journey through nature.\n\nMade in p5js\n\nSpecial thanks to @Zancan and @TenebrisVia for inspiring me to code with nature, along with the work of Linda Rous for inspiring the use of perspective and stairs in the scene. Also, thanks to the FX Hash and Twitter communities for the wonderful feedback and suggestions which helped throughout the design process.\n",
-            "tags": [
-              "Enlightened",
-              "journey",
-              "nature",
-              "plants",
-              "p5",
-              "p5js",
-              "JavaScript",
-              "stairs",
-              "clean",
-              "generative",
-              "Tezumie"
-            ],
-            "generatorUri": "ipfs://QmaHNE3HhoWNgsv7WnsY9MPByquBcLJu28U9LnkCsz5vS7",
-            "artifactUri": "ipfs://QmaHNE3HhoWNgsv7WnsY9MPByquBcLJu28U9LnkCsz5vS7?fxhash=ooAPVkMxY3JJ6LH1pyqxefSEsHZ47QJQNJBBU2J2w7rBjSK1oKd",
-            "displayUri": "ipfs://Qma52ALyNZ3rf7bjSB1XRqp3cXXDB4uht5PECtvkqsGPku",
-            "thumbnailUri": "ipfs://QmYYtDPhypVgjmVkXmChzfZjZ4HSfDwLvhrW8NCAeNMLTv",
-            "authenticityHash": "955dd873c88d9d55335f97654036fc13be1d369c14ba51cfe61c48d40bf4ff48",
-            "attributes": [],
-            "decimals": 0,
-            "symbol": "GENTK",
-            "version": "0.2"
-          },
-          "duplicate": false,
-          "activeListing": {
-            "id": 1124002,
-            "version": 1,
-            "price": 11995000,
-            "__typename": "Listing"
-          },
-          "owner": {
-            "id": "tz1ZjEwXyHtcnD48WfYy9YRpkkc7dSP3Nh4W",
-            "name": null,
-            "flag": "NONE",
-            "avatarUri": null,
-            "__typename": "User"
-          },
-          "issuer": {
-            "flag": "NONE",
-            "name": "Enlightened Journey",
-            "author": {
-              "id": "tz1a2aHDQayeSEsbDRm5igEiLYH4cxcNnKyz",
-              "name": "Tezumie",
-              "type": "REGULAR",
-              "avatarUri": "ipfs://QmSKzorFywkX9nnpGGgi3YYydKEEAcLj7zTV45o3rz9yKL",
-              "flag": "NONE",
-              "collaborators": null,
-              "__typename": "User"
-            },
-            "__typename": "GenerativeToken"
-          },
-          "__typename": "Objkt"
-        },
-        "__typename": "Listing"
-      },
-      {
-        "id": 1124001,
-        "version": 1,
-        "price": 59000000,
-        "objkt": {
-          "id": "FX0-43059",
-          "version": 0,
-          "name": "TEST01 #122",
-          "slug": "test01-122",
-          "metadata": {
-            "name": "TEST01 #122",
-            "iterationHash": "ooDKzkT97vxNUEdG99LwvsW6HxWBJCBoy4bM2ZtxKLiGKFexhg7",
-            "description": "Feature is possession",
-            "tags": [
-              "shvembldr"
-            ],
-            "artifactUri": "ipfs://QmcEEzwpUuUezBjpQjpq8X23qacDDrX2MedmLgNExVBWCK",
-            "displayUri": "ipfs://QmPwkgSnraDegKRxcEN2U5JamBhxJbYFumfSPRTrMoNxsW",
-            "thumbnailUri": "ipfs://QmQEicozSjR1AYKAoBupfhRLyP2nEAKvoyv6a6sUKPDs5g",
-            "authenticityHash": "c71583de2a6424029adba6ccab08e1142bc06f89d1a30ed4a8816539f2d455f4",
-            "attributes": [],
-            "decimals": 0,
-            "symbol": "GENTK"
-          },
-          "duplicate": false,
-          "activeListing": {
-            "id": 1124001,
-            "version": 1,
-            "price": 59000000,
-            "__typename": "Listing"
-          },
-          "owner": {
-            "id": "tz1ZjEwXyHtcnD48WfYy9YRpkkc7dSP3Nh4W",
-            "name": null,
-            "flag": "NONE",
-            "avatarUri": null,
-            "__typename": "User"
-          },
-          "issuer": {
-            "flag": "NONE",
-            "name": "TEST01",
-            "author": {
-              "id": "tz1WqBtWEXjYPwKofxDPsf2V8Jo7dRxdKYqu",
-              "name": "-------------",
-              "type": "REGULAR",
-              "avatarUri": "ipfs://QmWZjWrKw5M8WTrLLE4LUauTHRyAiD82WSp8xGwNAH3K4d",
-              "flag": "VERIFIED",
-              "collaborators": null,
-              "__typename": "User"
-            },
-            "__typename": "GenerativeToken"
-          },
-          "__typename": "Objkt"
-        },
-        "__typename": "Listing"
-      },
-      {
-        "id": 1124000,
-        "version": 1,
-        "price": 29995000,
+        "price": 27995000,
         "objkt": {
           "id": "FX0-1598735",
           "version": 1,
@@ -894,9 +949,9 @@
           },
           "duplicate": false,
           "activeListing": {
-            "id": 1124000,
+            "id": 1124019,
             "version": 1,
-            "price": 29995000,
+            "price": 27995000,
             "__typename": "Listing"
           },
           "owner": {
@@ -925,17 +980,445 @@
         "__typename": "Listing"
       },
       {
-        "id": 1123999,
+        "id": 1124018,
         "version": 1,
-        "price": 29995000,
+        "price": 12000000,
         "objkt": {
-          "id": "FX0-428360",
-          "version": 0,
-          "name": "flowers #43",
-          "slug": "flowers-43-f7891850-601b-4390-ba1d-7244d940a1fa",
+          "id": "FX0-1344717",
+          "version": 1,
+          "name": "Fischbach #127",
+          "slug": "fischbach-127",
           "metadata": {
-            "name": "flowers #43",
-            "iterationHash": "onyiCSC9Hf5G1W7v8PBVeX9Dx1NraAdEi6E32UumGUQaxyPT7n4",
+            "name": "Fischbach #127",
+            "iterationHash": "op2tU4LvPrfMpJtZme7Gm57qg1hNiTQZzD7C56BWtys8Q2YgZC9",
+            "description": "#fxhashturnsone\n\nThe first 365 crazy days of fxhash - time to celebrate this and take a look back.\n\nThe entropy of memories in a vivid photo collage that gives me goosebumps while others might just see moving eye candy. Perspective and perception can be so different.\n\nBased on some of my photos from the last 365 days that trigger emotional memories, even if they are not directly connected. By the way, Fischbach is the name of the small village where I grew up. It was a great time!\n\nHow does it work?\n\nEach piece uses pairs of photos and colors (top/bottom).\n\nThe animated collage itself is based on two layers. The first layer uses a double buffer to cut, colorize and animate the photos. The second layer is mainly just for screen rendering, debugging and behind-the-scene looks.\n\nCutting and pasting photos is based on a variable moving color grid, the fixed horizon, the variable position of the photos top/bottom, the previous buffer and some magic distance calculations between them.\n\nThe grid itself is a combination of vertical color stripes with variable position and distance factors that determine the color gradient between the two colors, and folds that alternate between the two colors depending on the horizontal and vertical values.\n\nEspecially the entropy of the photos and the colored grid influence the pixel movement.\n\nAnimation changes are triggered after a random number of frames and effect folds, stripes and photo position. These replace parts of the current collage (fade to black) or add some (discard fragment updates).\n\nFeatures:\n\n- top color [12] - hue, colorful & bright\n- bottom color [6] - hue, less colorful & bright\n- top photo [16] (zingst, birds, xmas, zustand, zebra, moving-blocks-mono, fischbach, santanyi, goldblume, ♠4, driften, brand-pyramide, zäpfle, bc, tisa, lieblingspulli)\n- bottom photo: [16] (zingst, birds, xmas, zustand, zebra, moving-blocks-mono, fischbach, santanyi, goldblume, ♠4, driften, brand-pyramide, zäpfle, bc, tisa, lieblingspulli)\n- horizon [0.618, 0.5, 0.382] (down, center, up)\n- hectic [3, 5, 11] (calm, slightly, very)\n- horizontal folds [113, 365, 997, 2153, 3987] - used for first animation iteration, variable\n- vertical folds [7, 37, 127, 571, 1501, 3147] - used for first animation iteration, variable\n- min stripes [1, 3, 5] - used for first animation iteration, variable\n\nAnimation and feature selection are based on the deterministic prng Xoshiro128 seeded with the fxhash. This allows repeated playback in the same sequence. The animation is synchronized with frames and not with time.\n\nThe preview images are taken after 300 frames.\n\nShortcuts & interactions:\n\n- spacebar, mouse click or tap touch to trigger animation changes\n- `c` to take a picture\n- `f` for full screen mode\n- `p` to pause\n- `h` to see all options\n\nAvailable query string parameters:\n\n- autopause - enable automatic pausing\n- pixelratio=2 - sets the pixel ratio (default: device)\n- showannouncement - activates the announcement\n- kioskspeed=10 - activates the kiosk mode and sets the speed in seconds\n- showinfo - activates the info box",
+            "tags": [
+              "webgl2",
+              "fischbach",
+              "moving blocks",
+              "zebra",
+              "glsl",
+              "discard",
+              "twgl.js",
+              "#fxhashturnsone",
+              "fxhashturnsone",
+              "thi.ng",
+              "interactive",
+              "animated",
+              "photo collage"
+            ],
+            "generatorUri": "ipfs://QmXfE7s2HbfJe1fgxYMwBxpkoVv4ixGoRxixbrsw6edeKK",
+            "artifactUri": "ipfs://QmXfE7s2HbfJe1fgxYMwBxpkoVv4ixGoRxixbrsw6edeKK?fxhash=op2tU4LvPrfMpJtZme7Gm57qg1hNiTQZzD7C56BWtys8Q2YgZC9",
+            "displayUri": "ipfs://QmUCWwPB8KcDjhNddFfdHvWJFKsFuZwyAR63qhZtMyC1X6",
+            "thumbnailUri": "ipfs://QmZJNoq9ZuXtEqoo9tBDFxgPvCa3KcPHaSBZHwTyHT3UFa",
+            "authenticityHash": "da9b40d6d13ae06c4bc5752dd1922d55fd671bbeabfbaaeb50609c83491b285f",
+            "attributes": [
+              {
+                "name": "top color",
+                "value": "#ff7dff"
+              },
+              {
+                "name": "bottom color",
+                "value": "#7fa513"
+              },
+              {
+                "name": "horizon",
+                "value": "down"
+              },
+              {
+                "name": "horizontal fold",
+                "value": 997
+              },
+              {
+                "name": "vertical fold",
+                "value": 37
+              },
+              {
+                "name": "hectic",
+                "value": "slightly"
+              },
+              {
+                "name": "top photo",
+                "value": "zingst"
+              },
+              {
+                "name": "bottom photo",
+                "value": "♠4"
+              },
+              {
+                "name": "min stripes",
+                "value": 3
+              }
+            ],
+            "decimals": 0,
+            "symbol": "GENTK",
+            "version": "0.2"
+          },
+          "duplicate": false,
+          "activeListing": {
+            "id": 1124018,
+            "version": 1,
+            "price": 12000000,
+            "__typename": "Listing"
+          },
+          "owner": {
+            "id": "tz1X95uJRaZkK4VDoPpf2UuSzX4T24E8eCrb",
+            "name": "Applied.tez",
+            "flag": "NONE",
+            "avatarUri": null,
+            "__typename": "User"
+          },
+          "issuer": {
+            "flag": "NONE",
+            "name": "Fischbach",
+            "author": {
+              "id": "tz1QM2ZmH3HUD5MUSY3efFvYqLz3A2rZZmT6",
+              "name": "dirx",
+              "type": "REGULAR",
+              "avatarUri": "ipfs://QmPdM1evqKBV9Xs5hS2VmWMBTtzQyPrd2asmr4qdTCLRA7",
+              "flag": "VERIFIED",
+              "collaborators": null,
+              "__typename": "User"
+            },
+            "__typename": "GenerativeToken"
+          },
+          "__typename": "Objkt"
+        },
+        "__typename": "Listing"
+      },
+      {
+        "id": 1124017,
+        "version": 1,
+        "price": 12000000,
+        "objkt": {
+          "id": "FX0-1613198",
+          "version": 1,
+          "name": "Fischbach #344",
+          "slug": "fischbach-344",
+          "metadata": {
+            "name": "Fischbach #344",
+            "iterationHash": "ooS6JhRJ6zaa9sjEDVxbzm9vzWxy99SymKEQGMqhGCiCzTcxJSv",
+            "description": "#fxhashturnsone\n\nThe first 365 crazy days of fxhash - time to celebrate this and take a look back.\n\nThe entropy of memories in a vivid photo collage that gives me goosebumps while others might just see moving eye candy. Perspective and perception can be so different.\n\nBased on some of my photos from the last 365 days that trigger emotional memories, even if they are not directly connected. By the way, Fischbach is the name of the small village where I grew up. It was a great time!\n\nHow does it work?\n\nEach piece uses pairs of photos and colors (top/bottom).\n\nThe animated collage itself is based on two layers. The first layer uses a double buffer to cut, colorize and animate the photos. The second layer is mainly just for screen rendering, debugging and behind-the-scene looks.\n\nCutting and pasting photos is based on a variable moving color grid, the fixed horizon, the variable position of the photos top/bottom, the previous buffer and some magic distance calculations between them.\n\nThe grid itself is a combination of vertical color stripes with variable position and distance factors that determine the color gradient between the two colors, and folds that alternate between the two colors depending on the horizontal and vertical values.\n\nEspecially the entropy of the photos and the colored grid influence the pixel movement.\n\nAnimation changes are triggered after a random number of frames and effect folds, stripes and photo position. These replace parts of the current collage (fade to black) or add some (discard fragment updates).\n\nFeatures:\n\n- top color [12] - hue, colorful & bright\n- bottom color [6] - hue, less colorful & bright\n- top photo [16] (zingst, birds, xmas, zustand, zebra, moving-blocks-mono, fischbach, santanyi, goldblume, ♠4, driften, brand-pyramide, zäpfle, bc, tisa, lieblingspulli)\n- bottom photo: [16] (zingst, birds, xmas, zustand, zebra, moving-blocks-mono, fischbach, santanyi, goldblume, ♠4, driften, brand-pyramide, zäpfle, bc, tisa, lieblingspulli)\n- horizon [0.618, 0.5, 0.382] (down, center, up)\n- hectic [3, 5, 11] (calm, slightly, very)\n- horizontal folds [113, 365, 997, 2153, 3987] - used for first animation iteration, variable\n- vertical folds [7, 37, 127, 571, 1501, 3147] - used for first animation iteration, variable\n- min stripes [1, 3, 5] - used for first animation iteration, variable\n\nAnimation and feature selection are based on the deterministic prng Xoshiro128 seeded with the fxhash. This allows repeated playback in the same sequence. The animation is synchronized with frames and not with time.\n\nThe preview images are taken after 300 frames.\n\nShortcuts & interactions:\n\n- spacebar, mouse click or tap touch to trigger animation changes\n- `c` to take a picture\n- `f` for full screen mode\n- `p` to pause\n- `h` to see all options\n\nAvailable query string parameters:\n\n- autopause - enable automatic pausing\n- pixelratio=2 - sets the pixel ratio (default: device)\n- showannouncement - activates the announcement\n- kioskspeed=10 - activates the kiosk mode and sets the speed in seconds\n- showinfo - activates the info box",
+            "tags": [
+              "webgl2",
+              "fischbach",
+              "moving blocks",
+              "zebra",
+              "glsl",
+              "discard",
+              "twgl.js",
+              "#fxhashturnsone",
+              "fxhashturnsone",
+              "thi.ng",
+              "interactive",
+              "animated",
+              "photo collage"
+            ],
+            "generatorUri": "ipfs://QmXfE7s2HbfJe1fgxYMwBxpkoVv4ixGoRxixbrsw6edeKK",
+            "artifactUri": "ipfs://QmXfE7s2HbfJe1fgxYMwBxpkoVv4ixGoRxixbrsw6edeKK/?fxhash=ooS6JhRJ6zaa9sjEDVxbzm9vzWxy99SymKEQGMqhGCiCzTcxJSv&fxiteration=344&fxminter=tz1RBSpEWaWLLUhTn9C5wkWJgEYVucW7xS7h&fxchain=undefined",
+            "displayUri": "ipfs://QmQx8XCCJBDkAe4NJHQqpiAaSofqyuaPjCu1EeiEKxZRUE",
+            "thumbnailUri": "ipfs://QmXHHgtjDNmPqqt1v8qfTKn8fExq6WCnjtNsZEuJPKKuNL",
+            "authenticityHash": "c568754963edf6f80d56d728955038da3982d0af1fef0bd319ae55e769bd0063",
+            "attributes": [
+              {
+                "name": "top color",
+                "value": "#efcf0c"
+              },
+              {
+                "name": "bottom color",
+                "value": "#00c481"
+              },
+              {
+                "name": "horizon",
+                "value": "up"
+              },
+              {
+                "name": "horizontal fold",
+                "value": 2153
+              },
+              {
+                "name": "vertical fold",
+                "value": 7
+              },
+              {
+                "name": "hectic",
+                "value": "calm"
+              },
+              {
+                "name": "top photo",
+                "value": "driften"
+              },
+              {
+                "name": "bottom photo",
+                "value": "zäpfle"
+              },
+              {
+                "name": "min stripes",
+                "value": 1
+              }
+            ],
+            "symbol": "GENTK",
+            "version": "0.2",
+            "decimals": 0
+          },
+          "duplicate": false,
+          "activeListing": {
+            "id": 1124017,
+            "version": 1,
+            "price": 12000000,
+            "__typename": "Listing"
+          },
+          "owner": {
+            "id": "tz1X95uJRaZkK4VDoPpf2UuSzX4T24E8eCrb",
+            "name": "Applied.tez",
+            "flag": "NONE",
+            "avatarUri": null,
+            "__typename": "User"
+          },
+          "issuer": {
+            "flag": "NONE",
+            "name": "Fischbach",
+            "author": {
+              "id": "tz1QM2ZmH3HUD5MUSY3efFvYqLz3A2rZZmT6",
+              "name": "dirx",
+              "type": "REGULAR",
+              "avatarUri": "ipfs://QmPdM1evqKBV9Xs5hS2VmWMBTtzQyPrd2asmr4qdTCLRA7",
+              "flag": "VERIFIED",
+              "collaborators": null,
+              "__typename": "User"
+            },
+            "__typename": "GenerativeToken"
+          },
+          "__typename": "Objkt"
+        },
+        "__typename": "Listing"
+      },
+      {
+        "id": 1124016,
+        "version": 1,
+        "price": 22000000,
+        "objkt": {
+          "id": "FX0-1613199",
+          "version": 1,
+          "name": "Fischbach #345",
+          "slug": "fischbach-345",
+          "metadata": {
+            "name": "Fischbach #345",
+            "iterationHash": "op92Jwbvi5EUgmDPyN391bW1YC4791pt4sAU9NtmmdaY3erZ6B3",
+            "description": "#fxhashturnsone\n\nThe first 365 crazy days of fxhash - time to celebrate this and take a look back.\n\nThe entropy of memories in a vivid photo collage that gives me goosebumps while others might just see moving eye candy. Perspective and perception can be so different.\n\nBased on some of my photos from the last 365 days that trigger emotional memories, even if they are not directly connected. By the way, Fischbach is the name of the small village where I grew up. It was a great time!\n\nHow does it work?\n\nEach piece uses pairs of photos and colors (top/bottom).\n\nThe animated collage itself is based on two layers. The first layer uses a double buffer to cut, colorize and animate the photos. The second layer is mainly just for screen rendering, debugging and behind-the-scene looks.\n\nCutting and pasting photos is based on a variable moving color grid, the fixed horizon, the variable position of the photos top/bottom, the previous buffer and some magic distance calculations between them.\n\nThe grid itself is a combination of vertical color stripes with variable position and distance factors that determine the color gradient between the two colors, and folds that alternate between the two colors depending on the horizontal and vertical values.\n\nEspecially the entropy of the photos and the colored grid influence the pixel movement.\n\nAnimation changes are triggered after a random number of frames and effect folds, stripes and photo position. These replace parts of the current collage (fade to black) or add some (discard fragment updates).\n\nFeatures:\n\n- top color [12] - hue, colorful & bright\n- bottom color [6] - hue, less colorful & bright\n- top photo [16] (zingst, birds, xmas, zustand, zebra, moving-blocks-mono, fischbach, santanyi, goldblume, ♠4, driften, brand-pyramide, zäpfle, bc, tisa, lieblingspulli)\n- bottom photo: [16] (zingst, birds, xmas, zustand, zebra, moving-blocks-mono, fischbach, santanyi, goldblume, ♠4, driften, brand-pyramide, zäpfle, bc, tisa, lieblingspulli)\n- horizon [0.618, 0.5, 0.382] (down, center, up)\n- hectic [3, 5, 11] (calm, slightly, very)\n- horizontal folds [113, 365, 997, 2153, 3987] - used for first animation iteration, variable\n- vertical folds [7, 37, 127, 571, 1501, 3147] - used for first animation iteration, variable\n- min stripes [1, 3, 5] - used for first animation iteration, variable\n\nAnimation and feature selection are based on the deterministic prng Xoshiro128 seeded with the fxhash. This allows repeated playback in the same sequence. The animation is synchronized with frames and not with time.\n\nThe preview images are taken after 300 frames.\n\nShortcuts & interactions:\n\n- spacebar, mouse click or tap touch to trigger animation changes\n- `c` to take a picture\n- `f` for full screen mode\n- `p` to pause\n- `h` to see all options\n\nAvailable query string parameters:\n\n- autopause - enable automatic pausing\n- pixelratio=2 - sets the pixel ratio (default: device)\n- showannouncement - activates the announcement\n- kioskspeed=10 - activates the kiosk mode and sets the speed in seconds\n- showinfo - activates the info box",
+            "tags": [
+              "webgl2",
+              "fischbach",
+              "moving blocks",
+              "zebra",
+              "glsl",
+              "discard",
+              "twgl.js",
+              "#fxhashturnsone",
+              "fxhashturnsone",
+              "thi.ng",
+              "interactive",
+              "animated",
+              "photo collage"
+            ],
+            "generatorUri": "ipfs://QmXfE7s2HbfJe1fgxYMwBxpkoVv4ixGoRxixbrsw6edeKK",
+            "artifactUri": "ipfs://QmXfE7s2HbfJe1fgxYMwBxpkoVv4ixGoRxixbrsw6edeKK/?fxhash=op92Jwbvi5EUgmDPyN391bW1YC4791pt4sAU9NtmmdaY3erZ6B3&fxiteration=345&fxminter=tz1RBSpEWaWLLUhTn9C5wkWJgEYVucW7xS7h&fxchain=undefined",
+            "displayUri": "ipfs://QmbF34upD3G825KdR7yyKbrgRNjkwDPju6gunY7DQb2TKj",
+            "thumbnailUri": "ipfs://QmccVSk45EfnC5obD3Rxwc2BL5FrN7dQ8J6W82ZCRBNKRe",
+            "authenticityHash": "d029dfd747c719da8f148c4e644d23282f70e7604e1b65957d0c482d6e86b51e",
+            "attributes": [
+              {
+                "name": "top color",
+                "value": "#17ff8e"
+              },
+              {
+                "name": "bottom color",
+                "value": "#9c91ff"
+              },
+              {
+                "name": "horizon",
+                "value": "up"
+              },
+              {
+                "name": "horizontal fold",
+                "value": 365
+              },
+              {
+                "name": "vertical fold",
+                "value": 37
+              },
+              {
+                "name": "hectic",
+                "value": "very"
+              },
+              {
+                "name": "top photo",
+                "value": "zäpfle"
+              },
+              {
+                "name": "bottom photo",
+                "value": "zebra"
+              },
+              {
+                "name": "min stripes",
+                "value": 3
+              }
+            ],
+            "symbol": "GENTK",
+            "version": "0.2",
+            "decimals": 0
+          },
+          "duplicate": false,
+          "activeListing": {
+            "id": 1124016,
+            "version": 1,
+            "price": 22000000,
+            "__typename": "Listing"
+          },
+          "owner": {
+            "id": "tz1X95uJRaZkK4VDoPpf2UuSzX4T24E8eCrb",
+            "name": "Applied.tez",
+            "flag": "NONE",
+            "avatarUri": null,
+            "__typename": "User"
+          },
+          "issuer": {
+            "flag": "NONE",
+            "name": "Fischbach",
+            "author": {
+              "id": "tz1QM2ZmH3HUD5MUSY3efFvYqLz3A2rZZmT6",
+              "name": "dirx",
+              "type": "REGULAR",
+              "avatarUri": "ipfs://QmPdM1evqKBV9Xs5hS2VmWMBTtzQyPrd2asmr4qdTCLRA7",
+              "flag": "VERIFIED",
+              "collaborators": null,
+              "__typename": "User"
+            },
+            "__typename": "GenerativeToken"
+          },
+          "__typename": "Objkt"
+        },
+        "__typename": "Listing"
+      },
+      {
+        "id": 1124015,
+        "version": 1,
+        "price": 28000000,
+        "objkt": {
+          "id": "FX0-1598734",
+          "version": 1,
+          "name": "Fischbach #222",
+          "slug": "fischbach-222",
+          "metadata": {
+            "name": "Fischbach #222",
+            "iterationHash": "onhXDqm5JmrzkpGogzNZsPKmBgTumuFDvMBGiBfJanpPtrJNHK9",
+            "description": "#fxhashturnsone\n\nThe first 365 crazy days of fxhash - time to celebrate this and take a look back.\n\nThe entropy of memories in a vivid photo collage that gives me goosebumps while others might just see moving eye candy. Perspective and perception can be so different.\n\nBased on some of my photos from the last 365 days that trigger emotional memories, even if they are not directly connected. By the way, Fischbach is the name of the small village where I grew up. It was a great time!\n\nHow does it work?\n\nEach piece uses pairs of photos and colors (top/bottom).\n\nThe animated collage itself is based on two layers. The first layer uses a double buffer to cut, colorize and animate the photos. The second layer is mainly just for screen rendering, debugging and behind-the-scene looks.\n\nCutting and pasting photos is based on a variable moving color grid, the fixed horizon, the variable position of the photos top/bottom, the previous buffer and some magic distance calculations between them.\n\nThe grid itself is a combination of vertical color stripes with variable position and distance factors that determine the color gradient between the two colors, and folds that alternate between the two colors depending on the horizontal and vertical values.\n\nEspecially the entropy of the photos and the colored grid influence the pixel movement.\n\nAnimation changes are triggered after a random number of frames and effect folds, stripes and photo position. These replace parts of the current collage (fade to black) or add some (discard fragment updates).\n\nFeatures:\n\n- top color [12] - hue, colorful & bright\n- bottom color [6] - hue, less colorful & bright\n- top photo [16] (zingst, birds, xmas, zustand, zebra, moving-blocks-mono, fischbach, santanyi, goldblume, ♠4, driften, brand-pyramide, zäpfle, bc, tisa, lieblingspulli)\n- bottom photo: [16] (zingst, birds, xmas, zustand, zebra, moving-blocks-mono, fischbach, santanyi, goldblume, ♠4, driften, brand-pyramide, zäpfle, bc, tisa, lieblingspulli)\n- horizon [0.618, 0.5, 0.382] (down, center, up)\n- hectic [3, 5, 11] (calm, slightly, very)\n- horizontal folds [113, 365, 997, 2153, 3987] - used for first animation iteration, variable\n- vertical folds [7, 37, 127, 571, 1501, 3147] - used for first animation iteration, variable\n- min stripes [1, 3, 5] - used for first animation iteration, variable\n\nAnimation and feature selection are based on the deterministic prng Xoshiro128 seeded with the fxhash. This allows repeated playback in the same sequence. The animation is synchronized with frames and not with time.\n\nThe preview images are taken after 300 frames.\n\nShortcuts & interactions:\n\n- spacebar, mouse click or tap touch to trigger animation changes\n- `c` to take a picture\n- `f` for full screen mode\n- `p` to pause\n- `h` to see all options\n\nAvailable query string parameters:\n\n- autopause - enable automatic pausing\n- pixelratio=2 - sets the pixel ratio (default: device)\n- showannouncement - activates the announcement\n- kioskspeed=10 - activates the kiosk mode and sets the speed in seconds\n- showinfo - activates the info box",
+            "tags": [
+              "webgl2",
+              "fischbach",
+              "moving blocks",
+              "zebra",
+              "glsl",
+              "discard",
+              "twgl.js",
+              "#fxhashturnsone",
+              "fxhashturnsone",
+              "thi.ng",
+              "interactive",
+              "animated",
+              "photo collage"
+            ],
+            "generatorUri": "ipfs://QmXfE7s2HbfJe1fgxYMwBxpkoVv4ixGoRxixbrsw6edeKK",
+            "artifactUri": "ipfs://QmXfE7s2HbfJe1fgxYMwBxpkoVv4ixGoRxixbrsw6edeKK/?fxhash=onhXDqm5JmrzkpGogzNZsPKmBgTumuFDvMBGiBfJanpPtrJNHK9&fxminter=tz1cFdB4zmUSMm4FDZErr7reDB4XtsEnWz3V",
+            "displayUri": "ipfs://QmfCXZEws3kRmNNnjb74XbZUuezajnGyuhnv2Wbd19SH9A",
+            "thumbnailUri": "ipfs://QmZU3RxynuEasVhWTQSzEEshxUFnAzbdihCYJTgeEw9KfT",
+            "authenticityHash": "31bcd3a4c3ca7197d682f6be54ddb32b44170504751355501d1dfe9b3cdf8c80",
+            "attributes": [
+              {
+                "name": "top color",
+                "value": "#00ebff"
+              },
+              {
+                "name": "bottom color",
+                "value": "#ff69b8"
+              },
+              {
+                "name": "horizon",
+                "value": "up"
+              },
+              {
+                "name": "horizontal fold",
+                "value": 997
+              },
+              {
+                "name": "vertical fold",
+                "value": 37
+              },
+              {
+                "name": "hectic",
+                "value": "calm"
+              },
+              {
+                "name": "top photo",
+                "value": "lieblingspulli"
+              },
+              {
+                "name": "bottom photo",
+                "value": "goldblume"
+              },
+              {
+                "name": "min stripes",
+                "value": 3
+              }
+            ],
+            "decimals": 0,
+            "symbol": "GENTK",
+            "version": "0.2"
+          },
+          "duplicate": false,
+          "activeListing": {
+            "id": 1124015,
+            "version": 1,
+            "price": 28000000,
+            "__typename": "Listing"
+          },
+          "owner": {
+            "id": "tz1X95uJRaZkK4VDoPpf2UuSzX4T24E8eCrb",
+            "name": "Applied.tez",
+            "flag": "NONE",
+            "avatarUri": null,
+            "__typename": "User"
+          },
+          "issuer": {
+            "flag": "NONE",
+            "name": "Fischbach",
+            "author": {
+              "id": "tz1QM2ZmH3HUD5MUSY3efFvYqLz3A2rZZmT6",
+              "name": "dirx",
+              "type": "REGULAR",
+              "avatarUri": "ipfs://QmPdM1evqKBV9Xs5hS2VmWMBTtzQyPrd2asmr4qdTCLRA7",
+              "flag": "VERIFIED",
+              "collaborators": null,
+              "__typename": "User"
+            },
+            "__typename": "GenerativeToken"
+          },
+          "__typename": "Objkt"
+        },
+        "__typename": "Listing"
+      },
+      {
+        "id": 1124014,
+        "version": 1,
+        "price": 26000000,
+        "objkt": {
+          "id": "FX0-428343",
+          "version": 0,
+          "name": "flowers #26",
+          "slug": "flowers-26-607c5fc4-0f1b-4004-8275-9c4668c8d493",
+          "metadata": {
+            "name": "flowers #26",
+            "iterationHash": "onuADExYkvxecFPYUt3PJ8VFxzR3Djk2RSns1iRKHMUfW8uUJiX",
             "description": "This is an abstract piece based on circle packing algorithm.\n\nFebruary 2022\nykxotkx",
             "tags": [
               "abstract",
@@ -945,10 +1428,10 @@
               "flowers"
             ],
             "generatorUri": "ipfs://QmR7aJ5WeNHupJADapwndzir6Sa63us5iAoZPYcrvnbkR4",
-            "artifactUri": "ipfs://QmR7aJ5WeNHupJADapwndzir6Sa63us5iAoZPYcrvnbkR4?fxhash=onyiCSC9Hf5G1W7v8PBVeX9Dx1NraAdEi6E32UumGUQaxyPT7n4",
-            "displayUri": "ipfs://QmbQDGMCgB8gJCgC5w2G6gN6hN96oAptdQrPrzGTEoPKH9",
-            "thumbnailUri": "ipfs://Qmev1DZik1BQURAHkyDKE1cgbb2FTcEim8gDhu2HjHvYd3",
-            "authenticityHash": "c1dbbab8f1bb8ddc5a1a98607b3c195b584fff4ff34e9634159a7c68b06458f2",
+            "artifactUri": "ipfs://QmR7aJ5WeNHupJADapwndzir6Sa63us5iAoZPYcrvnbkR4?fxhash=onuADExYkvxecFPYUt3PJ8VFxzR3Djk2RSns1iRKHMUfW8uUJiX",
+            "displayUri": "ipfs://QmTiaYQTJTFiTXC21bH54qAFwxCwsEsW2rQVqfZWG9UzNV",
+            "thumbnailUri": "ipfs://Qmb93Xv3iRZ8GvazERMFigBhznqLi2D6bKi6uZrkWaq6dy",
+            "authenticityHash": "b0bc0ee5e8062f4e95e4b6476ace0f53e820de79e33db1cfe96256d0a8bfba1e",
             "attributes": [
               {
                 "name": "Style",
@@ -961,14 +1444,14 @@
           },
           "duplicate": false,
           "activeListing": {
-            "id": 1123999,
+            "id": 1124014,
             "version": 1,
-            "price": 29995000,
+            "price": 26000000,
             "__typename": "Listing"
           },
           "owner": {
-            "id": "tz1ZjEwXyHtcnD48WfYy9YRpkkc7dSP3Nh4W",
-            "name": null,
+            "id": "tz1X95uJRaZkK4VDoPpf2UuSzX4T24E8eCrb",
+            "name": "Applied.tez",
             "flag": "NONE",
             "avatarUri": null,
             "__typename": "User"
@@ -992,429 +1475,41 @@
         "__typename": "Listing"
       },
       {
-        "id": 1123998,
+        "id": 1124013,
         "version": 1,
-        "price": 39000000,
+        "price": 12000000,
         "objkt": {
-          "id": "FX0-967624",
+          "id": "FX0-1181706",
           "version": 1,
-          "name": "Rough Cuts #93",
-          "slug": "rough-cuts-93",
+          "name": "NEW TERRITORIES #170",
+          "slug": "new-territories-170",
           "metadata": {
-            "name": "Rough Cuts #93",
-            "iterationHash": "ooTbm7nEidZ41UqRUxx4S3zxRw8TAj3dgKwAP8WreuWRVCysvGb",
-            "description": "Abstract generative artwork that explores composition and form by cutting canvas with straight lines. Coded brushwork gives a real-painting look to each piece.\n\nOptions:\n\n- press 's' to save the PNG image of the current view\n- press 1, 2, 3, or 4 to save hi-res PNG images\n\nCreated using p5js.\n\n@VolatileMoods, July, 2022.",
+            "name": "NEW TERRITORIES #170",
+            "iterationHash": "ooMZ9sZXSuPjLaX2iRVKSRm5SFyNEXQyBYdJu1LBbjUR1ph3QQY",
+            "description": "On desktop, open project in live view\nRotate and zoom with the mouse to explore the model\nClick “S” to download STL 3D model file\nClick “P” to download PNG file (3600x3600)\n\n\nNew Territories\n\nNew Territories is the sequel to Cityblocks. In this series, urban ensembles are generated with a simple click. With each iteration appears a new densely built city block. Graced with impeccable geometrical lines, devoid of any human presence, these buildings remind us of brutalist utopias like Le Corbusier’s Cité radieuse or Niemeyer’s Brasilia. But despite their clearly modernist feel, there is something hauntingly primitive about them. They could be either New Mexican adobe pueblos, Minoan palaces, or Turkish troglodyte dwellings. Both carved and sculpted, these Ghormenghasts of concrete float in a realm out of time, like in some architect’s dream.\n\nThe purpose of this creative work is to generate 3D architectural projects that could be implemented in the real world. The accelerating lives that we live, complicated by growing and unpredictable environmental crises, call for an enhanced capacity to come up quickly with new architectural solutions adapted to different contexts. From computer assisted design to 3D printing, from augmented reality to real-life housing, from sculpture to architecture, this work aims at bridging the gap between the virtual and the tangible.\n\nWorking as a visual artist, David Umemoto draws inspiration from his training as an architect. He has been using low-tech methods for a long time, refining his talent for elegant simple shapes and combinatory constructions. Now, poured concrete and home-made moulds are giving way to zero-gravity rotating models. The skills he developed while working with real objects find a new playground in the virtual realm.\n",
             "tags": [
-              "rough",
-              "cuts",
-              "volatile",
-              "moods",
-              "abstract",
-              "generative",
-              "painting",
-              "colors",
-              "brushwork"
-            ],
-            "generatorUri": "ipfs://QmbicvBxjTTGEDLMGvBjtr3ViPrPQnhEPnzQKp8hEom38Q",
-            "artifactUri": "ipfs://QmbicvBxjTTGEDLMGvBjtr3ViPrPQnhEPnzQKp8hEom38Q?fxhash=ooTbm7nEidZ41UqRUxx4S3zxRw8TAj3dgKwAP8WreuWRVCysvGb",
-            "displayUri": "ipfs://QmYjzajMCcKFE9BmaozdwRK7DYWg8gB1TS2VfDnBYdMtc8",
-            "thumbnailUri": "ipfs://QmTQYya9WqmVuNHwVQQH8GwBTwAETNh3K7YGWCHHK5ewrB",
-            "authenticityHash": "a82fdc1aabdf87932da5b5a5fd98c8809b1b71d4f3b1b1ad49b82f2c4cd0e80a",
-            "attributes": true,
-            "decimals": 0,
-            "symbol": "GENTK",
-            "version": "0.2"
-          },
-          "duplicate": false,
-          "activeListing": {
-            "id": 1123998,
-            "version": 1,
-            "price": 39000000,
-            "__typename": "Listing"
-          },
-          "owner": {
-            "id": "tz1X95uJRaZkK4VDoPpf2UuSzX4T24E8eCrb",
-            "name": "Applied.tez",
-            "flag": "NONE",
-            "avatarUri": null,
-            "__typename": "User"
-          },
-          "issuer": {
-            "flag": "NONE",
-            "name": "Rough Cuts",
-            "author": {
-              "id": "tz1e2JfJR934E58Xa9FFR3dVoiMKH4AT1iji",
-              "name": "Volatile Moods",
-              "type": "REGULAR",
-              "avatarUri": "ipfs://QmSFjJqkfByAsbRiC9kUcekZA1FkRb9gkJSjw8bAsZ15Jp",
-              "flag": "VERIFIED",
-              "collaborators": null,
-              "__typename": "User"
-            },
-            "__typename": "GenerativeToken"
-          },
-          "__typename": "Objkt"
-        },
-        "__typename": "Listing"
-      },
-      {
-        "id": 1123992,
-        "version": 1,
-        "price": 40000000,
-        "objkt": {
-          "id": "FX0-43043",
-          "version": 0,
-          "name": "TEST01 #109",
-          "slug": "test01-109",
-          "metadata": {
-            "name": "TEST01 #109",
-            "iterationHash": "ooXVpchy19ty8DccwsHDK6f7t8gE7DXgrumkqN6rnY1oDn8VsQk",
-            "description": "Feature is possession",
-            "tags": [
-              "shvembldr"
-            ],
-            "artifactUri": "ipfs://QmfYWtcpSQvx2sUzCHYPqDZFZC1b4uMrFKW5vkQHWgF6RL",
-            "displayUri": "ipfs://QmPc3611UgAuwzF8jvw7BSsVyKkfj1oG4MGAj6HYwqDrc9",
-            "thumbnailUri": "ipfs://QmUgcxTCbTsrDdYT9YSitb4wmRFwQA8JPtZWmoonZNnomq",
-            "authenticityHash": "b440e4b62e9806fe28a0271be1e9d474c10d02570a8414a926d86363d1cbaa94",
-            "attributes": [],
-            "decimals": 0,
-            "symbol": "GENTK"
-          },
-          "duplicate": false,
-          "activeListing": {
-            "id": 1123992,
-            "version": 1,
-            "price": 40000000,
-            "__typename": "Listing"
-          },
-          "owner": {
-            "id": "tz1X95uJRaZkK4VDoPpf2UuSzX4T24E8eCrb",
-            "name": "Applied.tez",
-            "flag": "NONE",
-            "avatarUri": null,
-            "__typename": "User"
-          },
-          "issuer": {
-            "flag": "NONE",
-            "name": "TEST01",
-            "author": {
-              "id": "tz1WqBtWEXjYPwKofxDPsf2V8Jo7dRxdKYqu",
-              "name": "-------------",
-              "type": "REGULAR",
-              "avatarUri": "ipfs://QmWZjWrKw5M8WTrLLE4LUauTHRyAiD82WSp8xGwNAH3K4d",
-              "flag": "VERIFIED",
-              "collaborators": null,
-              "__typename": "User"
-            },
-            "__typename": "GenerativeToken"
-          },
-          "__typename": "Objkt"
-        },
-        "__typename": "Listing"
-      },
-      {
-        "id": 1123991,
-        "version": 1,
-        "price": 40000000,
-        "objkt": {
-          "id": "FX0-43072",
-          "version": 0,
-          "name": "TEST01 #132",
-          "slug": "test01-132",
-          "metadata": {
-            "name": "TEST01 #132",
-            "iterationHash": "onhhdEK7b89KixBFK16tBcHSLGGoBZ3RNueb3UnDULdb6RVzVsq",
-            "description": "Feature is possession",
-            "tags": [
-              "shvembldr"
-            ],
-            "artifactUri": "ipfs://QmQEENYHYM1o5DcV1GLaSut98hmRmid2QPUD3SbnupzQms",
-            "displayUri": "ipfs://QmSnak7TTUdxCeN4kfi7s4wpno1HTqQiz8AsDhUDYSU9UM",
-            "thumbnailUri": "ipfs://QmPQNzwTWwfL7d4kukf7TywA6iddQT2J6YscF8nQSWJj45",
-            "authenticityHash": "653aac1614b6169dd50ff32dd2853008e2d58bee0d936ba0b64b22bda1551c91",
-            "attributes": [],
-            "decimals": 0,
-            "symbol": "GENTK"
-          },
-          "duplicate": false,
-          "activeListing": {
-            "id": 1123991,
-            "version": 1,
-            "price": 40000000,
-            "__typename": "Listing"
-          },
-          "owner": {
-            "id": "tz1X95uJRaZkK4VDoPpf2UuSzX4T24E8eCrb",
-            "name": "Applied.tez",
-            "flag": "NONE",
-            "avatarUri": null,
-            "__typename": "User"
-          },
-          "issuer": {
-            "flag": "NONE",
-            "name": "TEST01",
-            "author": {
-              "id": "tz1WqBtWEXjYPwKofxDPsf2V8Jo7dRxdKYqu",
-              "name": "-------------",
-              "type": "REGULAR",
-              "avatarUri": "ipfs://QmWZjWrKw5M8WTrLLE4LUauTHRyAiD82WSp8xGwNAH3K4d",
-              "flag": "VERIFIED",
-              "collaborators": null,
-              "__typename": "User"
-            },
-            "__typename": "GenerativeToken"
-          },
-          "__typename": "Objkt"
-        },
-        "__typename": "Listing"
-      },
-      {
-        "id": 1123987,
-        "version": 1,
-        "price": 15000000,
-        "objkt": {
-          "id": "FX0-1318259",
-          "version": 1,
-          "name": "FHX-1 #231",
-          "slug": "fhx-1-231",
-          "metadata": {
-            "name": "FHX-1 #231",
-            "iterationHash": "onqGg2R4Bh3yb9snWGUHpyBoGSFfjQhsxbbSSunMPSGkwJd6BPv",
-            "description": "• #fxhashturnsone •\n\nAll primary proceeds are donated to The Processing Foundation and Girls Who Code.\nhttps://processingfoundation.org\nhttps://girlswhocode.com/about-us\n\n\nControls:\n[s] save as PNG.\n\n\nNotes:\nArtworks take a few seconds to render.\n\nI generated the raw base unprocessed GAN seeds used in this piece offline from various custom styleGAN models. All the mixing and processing steps are done generatively online in p5.js by the FHX algorithm.\n\n\n⫸ GAN ⫸ p5.js ⫸ Blockchain\n\n\nCopyright (©) 2022 Thomas Noya\n\n◉_◉\n\n",
-            "tags": [
-              "fxhashturnsone"
-            ],
-            "generatorUri": "ipfs://QmaCvD48ceEYyzpGRV4FgW1s53qNFmWZN2c6yDX4FCsc7F",
-            "artifactUri": "ipfs://QmaCvD48ceEYyzpGRV4FgW1s53qNFmWZN2c6yDX4FCsc7F?fxhash=onqGg2R4Bh3yb9snWGUHpyBoGSFfjQhsxbbSSunMPSGkwJd6BPv",
-            "displayUri": "ipfs://Qma2h36yedHLTMzBH9W2e5mpuxQSr2LZf1R8YanhG1ZErn",
-            "thumbnailUri": "ipfs://QmdoE3hAXMNqmg4kucaozH7zsbBNpW1rnGs5jQ75bQAzLS",
-            "authenticityHash": "a3fccf60acc1bcf74c022f84d3f4d5ac29f13be0779544901c4c184df5f25fe0",
-            "attributes": [
-              {
-                "name": "🎉",
-                "value": "🎂"
-              }
-            ],
-            "decimals": 0,
-            "symbol": "GENTK",
-            "version": "0.2"
-          },
-          "duplicate": false,
-          "activeListing": {
-            "id": 1123987,
-            "version": 1,
-            "price": 15000000,
-            "__typename": "Listing"
-          },
-          "owner": {
-            "id": "tz1LrJ318RRULKZUp1xgyBQdo6LyjZWvqhdz",
-            "name": null,
-            "flag": "NONE",
-            "avatarUri": null,
-            "__typename": "User"
-          },
-          "issuer": {
-            "flag": "NONE",
-            "name": "FHX-1",
-            "author": {
-              "id": "tz1d45wFbpZLqS4SPoMRnEbhLopFt7zBhW3g",
-              "name": "Thomas Noya",
-              "type": "REGULAR",
-              "avatarUri": "ipfs://QmT2Hp4ko6n2eavQuka5D6dxQmzEQDdAJ3nmTL3C99AHik",
-              "flag": "VERIFIED",
-              "collaborators": null,
-              "__typename": "User"
-            },
-            "__typename": "GenerativeToken"
-          },
-          "__typename": "Objkt"
-        },
-        "__typename": "Listing"
-      },
-      {
-        "id": 1123968,
-        "version": 1,
-        "price": 76000000,
-        "objkt": {
-          "id": "FX0-1169692",
-          "version": 1,
-          "name": "el inefable momento #1105",
-          "slug": "el-inefable-momento-1105",
-          "metadata": {
-            "name": "el inefable momento #1105",
-            "iterationHash": "onxLb73wgZF9arboWvvUuS514KyQR3mSmLuQvBde3GP93BRGbmJ",
-            "description": "\"el inefable momento del colorido descubrimiento\" (\"the ineffable moment of the colorful discovery\")  is part of the fxhash interactive minting experience at The Ever-Evolving World of Art, Art Basel Hong-Kong, 2022.\n\nIt is a tribute to playful discovery. This work was commissioned for the Art Basel Hong Kong / Tezos / fxhash collaboration, as part of an activity to introduce visitors into generative art. As I was pondering what could I do in the short time available, I saw my youngest daughter drawing: the ineffable moment of colorful discovery. Child play is one of the most discovery-filled activities I can think of. And drawing is that joy that I describe: a blank piece of paper with a crayon is pure possibility. Which is what generative art is. I had wanted for quite some time to create a tribute to those drawings my daughters do, and this has been the perfect occasion to start it: it seemed to me that it fit the occasion perfectly: kids discover through painting, maybe adults can discover generative art using the same visual language.\n\n\"el inefable momento del colorido descubrimiento\" is a work that explores colour and irregular basic shapes, and that leaves the viewer in front of a new space with each execution. Does it trigger any excitement to see those imperfect elements? It is dearest to me to see the hearts and rainbows, as two mainstays of the drawings that I keep in folders and count in the hundreds and thousands. Can an algorithm that reproduces those elements trigger the same warm feelings in the viewer? It does with me.\n\nThe piece lets the viewer explore certain characteristics. The viewer can pause the iterations: each is just an execution of the same drawing, slightly different. When paused, one can look at each line individually and notice how the drawing is constructed. When running, it gives an idea of how the things we know are just versions of the ideal concept they represent. \n\nAlso, one can have an idea of what would have happened if the child had decided to draw more or less elements. The viewer can press “e” to see different variations of the same piece: random elements are selected and displayed. To restore the original work, press “r”. Which one is the “finished” artwork? All of them. What is “the” artwork? \n\nThe work has the following commands:\n\n- Change the work: “e”. To restore: “r”\n- The painting can be paused/unpaused pressing “p”\n- The viewer can save an artwork pressing “s” (it will pause the piece, press \"p\" to unpause)\n- The resolution can be arbitrarily changed pressing “d” followed by a number from 1 to 9. If the image goes dark and nothing paints, press “d 0” (d zero) and try again with a lower number. Resolution can be increased iteratively: press d 2, then d 2, etc. It will always add the amount to the current pixel density, thus increasing resolution.\n- The viewer can see how many decisions are made per iteration. This might be interesting to those who don’t know how generative art works. Each iteration is composed of thousands of decisions that inform colour, positions, shapes, etc. To toggle the decision count view, press “q”\n- It has also colour controls: press z for brightness, x for contrast, g for gamma, b for blur, n for noise followed by + or - to alter their values. You might get some simple variations that you might enjoy. Press a to enable/disable all colour controls (except the noise).\n- There are some pre-recorded colour variations: press “v” followed by 1, 2 or 3. Press “v” followed by 0 (zero) to reset the variations.\n\nIn every process of discovery, one comes to an \"aha\" moment ;) If you find your aha moment, then you can do one more thing: you can play with the size of certain elements pressing “o”. To restore, reload the piece. Once you find your aha moment, you can go back the same way you got there. All the controls work the same when one has reached their aha moment.\n\nI hope you enjoy the piece as much as I have enjoyed drawing it, directly or indirectly, with my daughters. Thanks.\n\nArtwork by Marcelo Soria-Rodríguez, @msoriaro.\nMade with p5js and glsl.",
-            "tags": [
-              "ABHK2022",
-              "Art Basel",
-              "Hong-Kong 2022",
-              "playful",
-              "child",
-              "discovery",
-              "iillucid",
-              "polylines",
-              "colorful"
-            ],
-            "generatorUri": "ipfs://QmcwZdCwXARrhbjTt7CkCNK7yDfD4iZ7UvvYYTHaQF22dr",
-            "artifactUri": "ipfs://QmcwZdCwXARrhbjTt7CkCNK7yDfD4iZ7UvvYYTHaQF22dr?fxhash=onxLb73wgZF9arboWvvUuS514KyQR3mSmLuQvBde3GP93BRGbmJ",
-            "displayUri": "ipfs://QmQKLuGpPnEXFAvychUTfd6zPh3XD653Rf3EDresZrUcS1",
-            "thumbnailUri": "ipfs://QmPvrWLezPtiiFs8FnKwBr5gsf9ZDEnKVPR6edM6pTjDoh",
-            "authenticityHash": "f8af270fba57103a90e0ea7da51336255056fd3c66c40ab8394739877c87466b",
-            "attributes": [
-              {
-                "name": "Draw mode",
-                "value": "Pencils and used markers"
-              },
-              {
-                "name": "Placement",
-                "value": "Grid"
-              },
-              {
-                "name": "Rainbows",
-                "value": "Few"
-              },
-              {
-                "name": "Wicked colour band",
-                "value": "Many"
-              },
-              {
-                "name": "Hearts",
-                "value": "Few"
-              },
-              {
-                "name": "B/W",
-                "value": "False"
-              },
-              {
-                "name": "Inverted colours",
-                "value": "False"
-              },
-              {
-                "name": "Background colour",
-                "value": "dark"
-              },
-              {
-                "name": "Elements size",
-                "value": "Normal"
-              },
-              {
-                "name": "Colouring",
-                "value": "Random"
-              }
-            ],
-            "decimals": 0,
-            "symbol": "GENTK",
-            "version": "0.2"
-          },
-          "duplicate": false,
-          "activeListing": {
-            "id": 1123968,
-            "version": 1,
-            "price": 76000000,
-            "__typename": "Listing"
-          },
-          "owner": {
-            "id": "tz1X95uJRaZkK4VDoPpf2UuSzX4T24E8eCrb",
-            "name": "Applied.tez",
-            "flag": "NONE",
-            "avatarUri": null,
-            "__typename": "User"
-          },
-          "issuer": {
-            "flag": "NONE",
-            "name": "el inefable momento",
-            "author": {
-              "id": "tz1eCX4smQ3LbxwDR3pqNoLQvNNKiHJtpwYz",
-              "name": "msoriaro",
-              "type": "REGULAR",
-              "avatarUri": "ipfs://QmU9cPLFmtqhRZUXxJywGZwuy62kXiwzmgQFsqwgzub8f8",
-              "flag": "VERIFIED",
-              "collaborators": null,
-              "__typename": "User"
-            },
-            "__typename": "GenerativeToken"
-          },
-          "__typename": "Objkt"
-        },
-        "__typename": "Listing"
-      },
-      {
-        "id": 1123967,
-        "version": 1,
-        "price": 72000000,
-        "objkt": {
-          "id": "FX0-761216",
-          "version": 1,
-          "name": "Dencity #903",
-          "slug": "dencity-903",
-          "metadata": {
-            "name": "Dencity #903",
-            "iterationHash": "opDK6UoeT9MNFJdkRzBB3ojoBDdj1WDjeYVy2B5NmByRRkZEtGK",
-            "description": "Dencity is a generative art project inspired by aerial views of cities with a high density of buildings. Its perspective effect, its perfectly imprecise lines, its subtle textures and its very advanced level of detail give it the appearance of a hand-drawn work.\n\nBehind the visible art (the image) hides another form of art, an extremely complex algorithm capable of calculating and drawing in 2D each variation of the Dencity project. To draw a variation, the algorithm notably takes around 3,000,000 to 20,000,000 random decisions based on the hash of the mint and draws around 800,000 to 4,000,000 lines to create all the strokes and texture effects.\n\nMade with ❤️, code and p5js.",
-            "tags": [
-              "p5js",
-              "city",
-              "cities",
+              "3d",
+              "3dmodel",
               "architecture",
-              "perspective"
+              "stl",
+              "city",
+              "urban"
             ],
-            "generatorUri": "ipfs://QmPaFpXKhSLdbFmrXXoogFngkzaXZAht1VREi5gCGMwc1A",
-            "artifactUri": "ipfs://QmPaFpXKhSLdbFmrXXoogFngkzaXZAht1VREi5gCGMwc1A?fxhash=opDK6UoeT9MNFJdkRzBB3ojoBDdj1WDjeYVy2B5NmByRRkZEtGK",
-            "displayUri": "ipfs://QmaDdEdFRe3Bmtgi63VdWH3rjg9iRDCQC9gMedoUobPgae",
-            "thumbnailUri": "ipfs://QmccG7uNMJX9YuNYcfMLfyqpt4aTAg6tXXwSDrBvRPQxwp",
-            "authenticityHash": "e4ac1038e192d10f082677d7a69ec76776232f309e88f9c59f0f95f128e0c0dc",
-            "attributes": [
-              {
-                "name": "Palette",
-                "value": "Desert"
-              },
-              {
-                "name": "Single Color Palette",
-                "value": "No"
-              },
-              {
-                "name": "Area Size",
-                "value": 6
-              },
-              {
-                "name": "Distribution",
-                "value": "Regular"
-              },
-              {
-                "name": "Perspective",
-                "value": 8
-              },
-              {
-                "name": "View",
-                "value": "Normal"
-              },
-              {
-                "name": "Trees",
-                "value": "Yes"
-              },
-              {
-                "name": "Vehicles",
-                "value": "No"
-              },
-              {
-                "name": "Building Density",
-                "value": "High"
-              },
-              {
-                "name": "Lines Accuracy",
-                "value": 3
-              }
-            ],
+            "generatorUri": "ipfs://QmdsoMyYsyQXHJmWZuCL8eoZRMwx8Qb985cMekH6hDz3kQ",
+            "artifactUri": "ipfs://QmdsoMyYsyQXHJmWZuCL8eoZRMwx8Qb985cMekH6hDz3kQ?fxhash=ooMZ9sZXSuPjLaX2iRVKSRm5SFyNEXQyBYdJu1LBbjUR1ph3QQY",
+            "displayUri": "ipfs://QmRVRLE8mW2mv8GaA1iM3rC8Ua2US1EjPwuyKeMyfaiYAy",
+            "thumbnailUri": "ipfs://QmQhNaYFta6WkAy7f6HiRvjRVXPEnA8dUFbCojMgS8xuwo",
+            "authenticityHash": "181ddaca3c7528012dbfa73e8a4c3821097d19c5292b1639c8ce78bbc489d228",
+            "attributes": true,
             "decimals": 0,
             "symbol": "GENTK",
             "version": "0.2"
           },
           "duplicate": false,
           "activeListing": {
-            "id": 1123967,
+            "id": 1124013,
             "version": 1,
-            "price": 72000000,
+            "price": 12000000,
             "__typename": "Listing"
           },
           "owner": {
@@ -1426,184 +1521,25 @@
           },
           "issuer": {
             "flag": "NONE",
-            "name": "Dencity",
+            "name": "NEW TERRITORIES",
             "author": {
-              "id": "tz1NMvVB48fNzrG3rPZS58Eo1nSJ6p3RjRyz",
-              "name": "Hevey",
-              "type": "REGULAR",
-              "avatarUri": "ipfs://QmeGW5LK9W4KupJKrhRwUGZbaRpSTMb1JnbHqTx6RzJQkv",
-              "flag": "VERIFIED",
-              "collaborators": null,
-              "__typename": "User"
-            },
-            "__typename": "GenerativeToken"
-          },
-          "__typename": "Objkt"
-        },
-        "__typename": "Listing"
-      },
-      {
-        "id": 1123966,
-        "version": 1,
-        "price": 35000000,
-        "objkt": {
-          "id": "FX0-969516",
-          "version": 1,
-          "name": "Rough Cuts #234",
-          "slug": "rough-cuts-234",
-          "metadata": {
-            "name": "Rough Cuts #234",
-            "iterationHash": "ooA1nR7UKTVH2EP9A291axE1yNTAcmdaX8SkpsLZNam1z72ohho",
-            "description": "Abstract generative artwork that explores composition and form by cutting canvas with straight lines. Coded brushwork gives a real-painting look to each piece.\n\nOptions:\n\n- press 's' to save the PNG image of the current view\n- press 1, 2, 3, or 4 to save hi-res PNG images\n\nCreated using p5js.\n\n@VolatileMoods, July, 2022.",
-            "tags": [
-              "rough",
-              "cuts",
-              "volatile",
-              "moods",
-              "abstract",
-              "generative",
-              "painting",
-              "colors",
-              "brushwork"
-            ],
-            "generatorUri": "ipfs://QmbicvBxjTTGEDLMGvBjtr3ViPrPQnhEPnzQKp8hEom38Q",
-            "artifactUri": "ipfs://QmbicvBxjTTGEDLMGvBjtr3ViPrPQnhEPnzQKp8hEom38Q?fxhash=ooA1nR7UKTVH2EP9A291axE1yNTAcmdaX8SkpsLZNam1z72ohho",
-            "displayUri": "ipfs://QmU9B2XZuPCAdo5TtsZxH8qZeK97btqKtLDXDEscXmsxJF",
-            "thumbnailUri": "ipfs://Qmd93FrtkFx7WM7gWR8mBVf7pj5HydbD5iKBYDfnSng1s5",
-            "authenticityHash": "53a2101178c51c2a8b4285a279576805014f48bd09cb2a61b7a7bb553cfb65db",
-            "attributes": true,
-            "decimals": 0,
-            "symbol": "GENTK",
-            "version": "0.2"
-          },
-          "duplicate": false,
-          "activeListing": {
-            "id": 1123966,
-            "version": 1,
-            "price": 35000000,
-            "__typename": "Listing"
-          },
-          "owner": {
-            "id": "tz1b6sHfWaEbsL6MjRA9n6t1agiyvQSFy7rR",
-            "name": null,
-            "flag": "NONE",
-            "avatarUri": null,
-            "__typename": "User"
-          },
-          "issuer": {
-            "flag": "NONE",
-            "name": "Rough Cuts",
-            "author": {
-              "id": "tz1e2JfJR934E58Xa9FFR3dVoiMKH4AT1iji",
-              "name": "Volatile Moods",
-              "type": "REGULAR",
-              "avatarUri": "ipfs://QmSFjJqkfByAsbRiC9kUcekZA1FkRb9gkJSjw8bAsZ15Jp",
-              "flag": "VERIFIED",
-              "collaborators": null,
-              "__typename": "User"
-            },
-            "__typename": "GenerativeToken"
-          },
-          "__typename": "Objkt"
-        },
-        "__typename": "Listing"
-      },
-      {
-        "id": 1123965,
-        "version": 1,
-        "price": 14000000,
-        "objkt": {
-          "id": "FX0-1036457",
-          "version": 1,
-          "name": "Bound #72",
-          "slug": "bound-72",
-          "metadata": {
-            "name": "Bound #72",
-            "iterationHash": "ooTWia5fXpF2P4zg6YTfC7uUkncfqmLxHcAgwYaxCV8wXmaAMMd",
-            "description": "Knots bind and hold, mark time, and unite. But the power of a well-tied knot isn't only to fasten – it also symbolizes how tightly one holds their pledges. Whether a commitment to a partner, community, or oneself – the longevity of a deeply held bond is often marked with a symbol of passing time, like knots tied in a rope.\n\nLet these ropes remind us of the binds we hold – new ones, lengthy ones, unbreakable ones, and even those we’ve had to untie. In plain view, these knots invite us to contemplate what our bonds mean to us, and to see them anew.\n\n---\n\nPress ‘1’-’9’ to increase resolution\nPress 's' to save an image of the output at the current resolution\n\nCreated with p5.js\nFor third party license information, please see license.md\n\n---\n\nTENDER x David Brice Allen\nJuly 2022",
-            "tags": [
-              "ropes",
-              "knots",
-              "p5.js"
-            ],
-            "generatorUri": "ipfs://QmS9VyofBrA756WHUkQscgvmJ2nRsg38omQQMnZKwAzfH1",
-            "artifactUri": "ipfs://QmS9VyofBrA756WHUkQscgvmJ2nRsg38omQQMnZKwAzfH1?fxhash=ooTWia5fXpF2P4zg6YTfC7uUkncfqmLxHcAgwYaxCV8wXmaAMMd",
-            "displayUri": "ipfs://QmeeD8pX1NtyoGG6wA3k53uK6gq9419GMkUPJSpkbWgtv4",
-            "thumbnailUri": "ipfs://QmTCEX6anBmb8hNB2PNhwsuipoRMSwShzYQKJbKvxg7sJ4",
-            "authenticityHash": "4b59562090e69b6cdfd74b06ae9e5d4cb185a0b74085e297ee26aa47873af8e2",
-            "attributes": [
-              {
-                "name": "Rope size",
-                "value": "Macro"
-              },
-              {
-                "name": "Rope frequency",
-                "value": "Single"
-              },
-              {
-                "name": "Knots",
-                "value": "No"
-              },
-              {
-                "name": "Format",
-                "value": "Vertical"
-              },
-              {
-                "name": "Palette",
-                "value": "Sage"
-              },
-              {
-                "name": "Background style",
-                "value": "Waves"
-              },
-              {
-                "name": "Background shade",
-                "value": "Light"
-              },
-              {
-                "name": "White border",
-                "value": "No"
-              }
-            ],
-            "decimals": 0,
-            "symbol": "GENTK",
-            "version": "0.2"
-          },
-          "duplicate": false,
-          "activeListing": {
-            "id": 1123965,
-            "version": 1,
-            "price": 14000000,
-            "__typename": "Listing"
-          },
-          "owner": {
-            "id": "tz1b6sHfWaEbsL6MjRA9n6t1agiyvQSFy7rR",
-            "name": null,
-            "flag": "NONE",
-            "avatarUri": null,
-            "__typename": "User"
-          },
-          "issuer": {
-            "flag": "NONE",
-            "name": "Bound",
-            "author": {
-              "id": "KT1FWfk85JCftmukKr2d4FJjokbD4oJV82Na",
+              "id": "KT1N4YxEpJd8Cvca72eR6NmgSsHpnCoKYWep",
               "name": null,
               "type": "COLLAB_CONTRACT_V1",
               "avatarUri": null,
               "flag": "NONE",
               "collaborators": [
                 {
-                  "id": "tz1N8iC2rP1NuzRRvmtn6szfAMbcdnmZ5GEM",
-                  "name": "David Brice Allen",
-                  "avatarUri": "ipfs://QmWsnf6xbgdnT1hhkDY7A1LAvsKA9oJSHyn21MmesUkERN",
+                  "id": "tz1bnWcfHMPWQnr1mGAFNgWKXTsp2wm3Eugc",
+                  "name": "Charles Umemoto",
+                  "avatarUri": null,
                   "flag": "VERIFIED",
                   "__typename": "User"
                 },
                 {
-                  "id": "tz1NmZAWpGzA8U3t7WBefVNwQfcCZoz3oMvi",
-                  "name": "TENDER x",
-                  "avatarUri": "ipfs://QmR3fMt1gSoXguocaaNGyTbHWBTy6A4VXDNy2of5WvqDff",
+                  "id": "tz1idAKLGAvWwFLAE4Lh4KHKP5gUPX6rTCxJ",
+                  "name": "David Umemoto",
+                  "avatarUri": "ipfs://Qmbi1WMZv7ojvDTKpg2ihwcfDemiFL2T7GNYf6TigA42s7",
                   "flag": "VERIFIED",
                   "__typename": "User"
                 }
@@ -1617,41 +1553,175 @@
         "__typename": "Listing"
       },
       {
-        "id": 1123964,
+        "id": 1124012,
         "version": 1,
-        "price": 25000000,
+        "price": 18000000,
         "objkt": {
-          "id": "FX0-1232163",
+          "id": "FX0-1180577",
           "version": 1,
-          "name": "Primordial #98",
-          "slug": "primordial-98",
+          "name": "NEW TERRITORIES #17",
+          "slug": "new-territories-17",
           "metadata": {
-            "name": "Primordial #98",
-            "iterationHash": "onohJPA8fM8HUTebfApFx7EA9kD888MCj82D14oGappzF8SDqNZ",
-            "description": "Primordial is a study of abstract forms. The algorithm, written in p5.js and WebGL, utilizes domain warping to create twisted fields of color and then overlays thousands of tiny lines to provide depth and texture. The outputs are chaotic but not completely formless, like a swirling mass of plasma from the early universe, or a strange proto-life form suspended in prehistoric ooze.\n\nCONTROLS:\n\n1-9: Increase resolution and save image in PNG format\n\nB: Toggle borders on/off\n\nF: Fullscreen\nP: Portrait\nL: Landscape\nS: Square\n\nFor third party license information, please see license.md\n\nDavid Brice Allen\nOctober 2022",
+            "name": "NEW TERRITORIES #17",
+            "iterationHash": "ooZ5ZjiniETcgWwtjoky6TdZfV6S54XB3Z5DwKg2eq75EdevE5Y",
+            "description": "On desktop, open project in live view\nRotate and zoom with the mouse to explore the model\nClick “S” to download STL 3D model file\nClick “P” to download PNG file (3600x3600)\n\n\nNew Territories\n\nNew Territories is the sequel to Cityblocks. In this series, urban ensembles are generated with a simple click. With each iteration appears a new densely built city block. Graced with impeccable geometrical lines, devoid of any human presence, these buildings remind us of brutalist utopias like Le Corbusier’s Cité radieuse or Niemeyer’s Brasilia. But despite their clearly modernist feel, there is something hauntingly primitive about them. They could be either New Mexican adobe pueblos, Minoan palaces, or Turkish troglodyte dwellings. Both carved and sculpted, these Ghormenghasts of concrete float in a realm out of time, like in some architect’s dream.\n\nThe purpose of this creative work is to generate 3D architectural projects that could be implemented in the real world. The accelerating lives that we live, complicated by growing and unpredictable environmental crises, call for an enhanced capacity to come up quickly with new architectural solutions adapted to different contexts. From computer assisted design to 3D printing, from augmented reality to real-life housing, from sculpture to architecture, this work aims at bridging the gap between the virtual and the tangible.\n\nWorking as a visual artist, David Umemoto draws inspiration from his training as an architect. He has been using low-tech methods for a long time, refining his talent for elegant simple shapes and combinatory constructions. Now, poured concrete and home-made moulds are giving way to zero-gravity rotating models. The skills he developed while working with real objects find a new playground in the virtual realm.\n",
             "tags": [
-              "dba",
-              "primordial",
-              "p5.js",
-              "webgl"
+              "3d",
+              "3dmodel",
+              "architecture",
+              "stl",
+              "city",
+              "urban"
             ],
-            "generatorUri": "ipfs://QmbFgD7jBZ6svKhfP6suVsmuoSnMwc2Puf3y3F3L82v172",
-            "artifactUri": "ipfs://QmbFgD7jBZ6svKhfP6suVsmuoSnMwc2Puf3y3F3L82v172?fxhash=onohJPA8fM8HUTebfApFx7EA9kD888MCj82D14oGappzF8SDqNZ",
-            "displayUri": "ipfs://QmPXoHEZWtotPogj3WLxPrswjnzaKDcYa9i41caUim4ycd",
-            "thumbnailUri": "ipfs://Qmdq7QFL2E12FUPQYREBuyjh7uGYxLNxrvZgm6dCzURovH",
-            "authenticityHash": "0d6b9dd2fd90fcb90ca919f56ca075dbb108cf8d60761a3ad976a4021de04bdd",
+            "generatorUri": "ipfs://QmdsoMyYsyQXHJmWZuCL8eoZRMwx8Qb985cMekH6hDz3kQ",
+            "artifactUri": "ipfs://QmdsoMyYsyQXHJmWZuCL8eoZRMwx8Qb985cMekH6hDz3kQ?fxhash=ooZ5ZjiniETcgWwtjoky6TdZfV6S54XB3Z5DwKg2eq75EdevE5Y",
+            "displayUri": "ipfs://QmQQGn6z3wgGTjQCgmckRxuhifqaQ4XgRWuYwivBMEU56r",
+            "thumbnailUri": "ipfs://QmVN3emMkxHQhP5JuLy13zejHdFArbyw8yBXTbGBTGRkeA",
+            "authenticityHash": "151442f63601ff28fd37513bf32afa035dc258f544f65103e927e8cfbe64b8fe",
+            "attributes": true,
+            "decimals": 0,
+            "symbol": "GENTK",
+            "version": "0.2"
+          },
+          "duplicate": false,
+          "activeListing": {
+            "id": 1124012,
+            "version": 1,
+            "price": 18000000,
+            "__typename": "Listing"
+          },
+          "owner": {
+            "id": "tz1X95uJRaZkK4VDoPpf2UuSzX4T24E8eCrb",
+            "name": "Applied.tez",
+            "flag": "NONE",
+            "avatarUri": null,
+            "__typename": "User"
+          },
+          "issuer": {
+            "flag": "NONE",
+            "name": "NEW TERRITORIES",
+            "author": {
+              "id": "KT1N4YxEpJd8Cvca72eR6NmgSsHpnCoKYWep",
+              "name": null,
+              "type": "COLLAB_CONTRACT_V1",
+              "avatarUri": null,
+              "flag": "NONE",
+              "collaborators": [
+                {
+                  "id": "tz1bnWcfHMPWQnr1mGAFNgWKXTsp2wm3Eugc",
+                  "name": "Charles Umemoto",
+                  "avatarUri": null,
+                  "flag": "VERIFIED",
+                  "__typename": "User"
+                },
+                {
+                  "id": "tz1idAKLGAvWwFLAE4Lh4KHKP5gUPX6rTCxJ",
+                  "name": "David Umemoto",
+                  "avatarUri": "ipfs://Qmbi1WMZv7ojvDTKpg2ihwcfDemiFL2T7GNYf6TigA42s7",
+                  "flag": "VERIFIED",
+                  "__typename": "User"
+                }
+              ],
+              "__typename": "User"
+            },
+            "__typename": "GenerativeToken"
+          },
+          "__typename": "Objkt"
+        },
+        "__typename": "Listing"
+      },
+      {
+        "id": 1124011,
+        "version": 1,
+        "price": 30000000,
+        "objkt": {
+          "id": "FX0-281368",
+          "version": 0,
+          "name": "SoulSea #116",
+          "slug": "soulsea-116",
+          "metadata": {
+            "name": "SoulSea #116",
+            "iterationHash": "oo4d5wFWL5PgDoARRARZVsHxjxcerpqyvZKd94vQveZzFVrbD9q",
+            "description": "The Soul Sea\n\nYou look down and find that the ocean in your heart is a sine wave. \nThe tide gently laps onto the shore.\n\nThe soul is the sea. You are the land. \nThere are waves on the shore, and the waves are slices.\n\nGazing at the slices, you feel the coldness of the Arctic Ocean, the permafrost of the Antarctic Sea, the deep darkness of the bottomless sea.\n\nStay silent, hear the sound of the waves lapping at the innumerable shores far away.\nFeel the soul of the digital ocean.\n\nInteractivities:\n> Key P: Pause\n> Key S: Save\n> Press and move mouseX: wave moves slower / faster\n\nChe-Yu Wu",
+            "tags": [
+              "generative",
+              "digital",
+              "nature",
+              "soulsea"
+            ],
+            "generatorUri": "ipfs://QmPDfMShxb1iQ12bwV4LivT5pC1UXoL9ZRcjjC7grr3r9P",
+            "artifactUri": "ipfs://QmPDfMShxb1iQ12bwV4LivT5pC1UXoL9ZRcjjC7grr3r9P?fxhash=oo4d5wFWL5PgDoARRARZVsHxjxcerpqyvZKd94vQveZzFVrbD9q",
+            "displayUri": "ipfs://Qmf6sZuCYdrVXwdG3g41vx5pD68UV4jZLKHG55kSgR4aXB",
+            "thumbnailUri": "ipfs://QmVTnfMk1uHDRxGP1m9JckZNXqPhVhZL19hozyPuNdPuzY",
+            "authenticityHash": "8919f10c3cd270828993f4272ce063e55269256449c7d138b5b514de5d81fa20",
             "attributes": [
               {
-                "name": "Format",
-                "value": "Horizontal"
+                "name": "palette",
+                "value": "color"
               },
               {
-                "name": "Palette",
-                "value": "Citra"
+                "name": "waveNoise",
+                "value": 1
               },
               {
-                "name": "Gnarliness",
-                "value": "Mid"
+                "name": "style",
+                "value": "natural"
+              },
+              {
+                "name": "shape",
+                "value": "void"
+              },
+              {
+                "name": "creatureType",
+                "value": "none"
+              },
+              {
+                "name": "vertexSpan",
+                "value": 15
+              },
+              {
+                "name": "waveFreq1",
+                "value": 112.51123870257288
+              },
+              {
+                "name": "waveFreq2",
+                "value": 70.69490506779402
+              },
+              {
+                "name": "glitchFreq",
+                "value": 1
+              },
+              {
+                "name": "splashThr",
+                "value": 0.39937511868774894
+              },
+              {
+                "name": "canvasAng",
+                "value": 0.6551571749150753
+              },
+              {
+                "name": "colorRMin",
+                "value": 57
+              },
+              {
+                "name": "colorRMax",
+                "value": 188
+              },
+              {
+                "name": "colorGMin",
+                "value": 81
+              },
+              {
+                "name": "colorGMax",
+                "value": 213
+              },
+              {
+                "name": "colorBMin",
+                "value": 47
+              },
+              {
+                "name": "colorBMax",
+                "value": 120
               }
             ],
             "decimals": 0,
@@ -1660,13 +1730,137 @@
           },
           "duplicate": false,
           "activeListing": {
-            "id": 1123964,
+            "id": 1124011,
             "version": 1,
-            "price": 25000000,
+            "price": 30000000,
             "__typename": "Listing"
           },
           "owner": {
-            "id": "tz1b6sHfWaEbsL6MjRA9n6t1agiyvQSFy7rR",
+            "id": "tz1X95uJRaZkK4VDoPpf2UuSzX4T24E8eCrb",
+            "name": "Applied.tez",
+            "flag": "NONE",
+            "avatarUri": null,
+            "__typename": "User"
+          },
+          "issuer": {
+            "flag": "NONE",
+            "name": "SoulSea",
+            "author": {
+              "id": "tz1WopvVxCVdGP7Sew7kz6Kro9o1qQ7SuEtN",
+              "name": "Che-Yu Wu",
+              "type": "REGULAR",
+              "avatarUri": "ipfs://QmVgEgkFYwUkXe1L9febp4D2C5K1bqCF7xcEXZkHVumirD",
+              "flag": "VERIFIED",
+              "collaborators": null,
+              "__typename": "User"
+            },
+            "__typename": "GenerativeToken"
+          },
+          "__typename": "Objkt"
+        },
+        "__typename": "Listing"
+      },
+      {
+        "id": 1124010,
+        "version": 1,
+        "price": 10000000,
+        "objkt": {
+          "id": "FX0-597667",
+          "version": 1,
+          "name": "Enlightened Journey #221",
+          "slug": "enlightened-journey-221",
+          "metadata": {
+            "name": "Enlightened Journey #221",
+            "iterationHash": "oonXbSKxu2JrFSVcjET5qRa3duWMfoxVzKo2Tx1hT7G8PYSr9o4",
+            "description": "A digital journey through nature.\n\nMade in p5js\n\nSpecial thanks to @Zancan and @TenebrisVia for inspiring me to code with nature, along with the work of Linda Rous for inspiring the use of perspective and stairs in the scene. Also, thanks to the FX Hash and Twitter communities for the wonderful feedback and suggestions which helped throughout the design process.\n",
+            "tags": [
+              "Enlightened",
+              "journey",
+              "nature",
+              "plants",
+              "p5",
+              "p5js",
+              "JavaScript",
+              "stairs",
+              "clean",
+              "generative",
+              "Tezumie"
+            ],
+            "generatorUri": "ipfs://QmaHNE3HhoWNgsv7WnsY9MPByquBcLJu28U9LnkCsz5vS7",
+            "artifactUri": "ipfs://QmaHNE3HhoWNgsv7WnsY9MPByquBcLJu28U9LnkCsz5vS7?fxhash=oonXbSKxu2JrFSVcjET5qRa3duWMfoxVzKo2Tx1hT7G8PYSr9o4",
+            "displayUri": "ipfs://QmVVWpKqNiirvvQjfgBT5iijTBsDKV2UqepXuvkGRyWRLm",
+            "thumbnailUri": "ipfs://QmW1LCixbNM8qCqk6oG4rNAHQXGTMXgGqYFopKkmG5262d",
+            "authenticityHash": "a850983a8fd0ba75630ce7abeeb08c55d74795c6f1989a2aecd36d0a25daa49a",
+            "attributes": [],
+            "decimals": 0,
+            "symbol": "GENTK",
+            "version": "0.2"
+          },
+          "duplicate": false,
+          "activeListing": {
+            "id": 1124010,
+            "version": 1,
+            "price": 10000000,
+            "__typename": "Listing"
+          },
+          "owner": {
+            "id": "tz1X95uJRaZkK4VDoPpf2UuSzX4T24E8eCrb",
+            "name": "Applied.tez",
+            "flag": "NONE",
+            "avatarUri": null,
+            "__typename": "User"
+          },
+          "issuer": {
+            "flag": "NONE",
+            "name": "Enlightened Journey",
+            "author": {
+              "id": "tz1a2aHDQayeSEsbDRm5igEiLYH4cxcNnKyz",
+              "name": "Tezumie",
+              "type": "REGULAR",
+              "avatarUri": "ipfs://QmSKzorFywkX9nnpGGgi3YYydKEEAcLj7zTV45o3rz9yKL",
+              "flag": "NONE",
+              "collaborators": null,
+              "__typename": "User"
+            },
+            "__typename": "GenerativeToken"
+          },
+          "__typename": "Objkt"
+        },
+        "__typename": "Listing"
+      },
+      {
+        "id": 1124003,
+        "version": 1,
+        "price": 59000000,
+        "objkt": {
+          "id": "FX0-43231",
+          "version": 0,
+          "name": "TEST01 #249",
+          "slug": "test01-249",
+          "metadata": {
+            "name": "TEST01 #249",
+            "iterationHash": "oouireDgWJPT4SVhMc9kk7HeSp8RhWjvk716uNjkw7jWuUk9y8C",
+            "description": "Feature is possession",
+            "tags": [
+              "shvembldr"
+            ],
+            "artifactUri": "ipfs://QmVvgWnmacwcUu3vmLHUg3VmKGX4WnrpPRQcgtvTz2Cofs",
+            "displayUri": "ipfs://QmbqQxWDv6MP5eVmtYnowvivLG2SAWK55MQ8biS1Gr7PtV",
+            "thumbnailUri": "ipfs://QmUbQa89DGkqAxdL2daMYfxp5q1MBcNmCFf6LFarLBfmAS",
+            "authenticityHash": "2ebd6c53a6d63c4c1d237a71c34bb1ab9805fae78bac0d4275605dec4f7839af",
+            "attributes": [],
+            "decimals": 0,
+            "symbol": "GENTK"
+          },
+          "duplicate": false,
+          "activeListing": {
+            "id": 1124003,
+            "version": 1,
+            "price": 59000000,
+            "__typename": "Listing"
+          },
+          "owner": {
+            "id": "tz1ZjEwXyHtcnD48WfYy9YRpkkc7dSP3Nh4W",
             "name": null,
             "flag": "NONE",
             "avatarUri": null,
@@ -1674,12 +1868,12 @@
           },
           "issuer": {
             "flag": "NONE",
-            "name": "Primordial",
+            "name": "TEST01",
             "author": {
-              "id": "tz1N8iC2rP1NuzRRvmtn6szfAMbcdnmZ5GEM",
-              "name": "David Brice Allen",
+              "id": "tz1WqBtWEXjYPwKofxDPsf2V8Jo7dRxdKYqu",
+              "name": "-------------",
               "type": "REGULAR",
-              "avatarUri": "ipfs://QmWsnf6xbgdnT1hhkDY7A1LAvsKA9oJSHyn21MmesUkERN",
+              "avatarUri": "ipfs://QmWZjWrKw5M8WTrLLE4LUauTHRyAiD82WSp8xGwNAH3K4d",
               "flag": "VERIFIED",
               "collaborators": null,
               "__typename": "User"
