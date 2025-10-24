@@ -2,6 +2,311 @@
   "data": {
     "listings": [
       {
+        "id": 1124116,
+        "version": 1,
+        "price": 15000000,
+        "objkt": {
+          "id": "FX0-1344717",
+          "version": 1,
+          "name": "Fischbach #127",
+          "slug": "fischbach-127",
+          "metadata": {
+            "name": "Fischbach #127",
+            "iterationHash": "op2tU4LvPrfMpJtZme7Gm57qg1hNiTQZzD7C56BWtys8Q2YgZC9",
+            "description": "#fxhashturnsone\n\nThe first 365 crazy days of fxhash - time to celebrate this and take a look back.\n\nThe entropy of memories in a vivid photo collage that gives me goosebumps while others might just see moving eye candy. Perspective and perception can be so different.\n\nBased on some of my photos from the last 365 days that trigger emotional memories, even if they are not directly connected. By the way, Fischbach is the name of the small village where I grew up. It was a great time!\n\nHow does it work?\n\nEach piece uses pairs of photos and colors (top/bottom).\n\nThe animated collage itself is based on two layers. The first layer uses a double buffer to cut, colorize and animate the photos. The second layer is mainly just for screen rendering, debugging and behind-the-scene looks.\n\nCutting and pasting photos is based on a variable moving color grid, the fixed horizon, the variable position of the photos top/bottom, the previous buffer and some magic distance calculations between them.\n\nThe grid itself is a combination of vertical color stripes with variable position and distance factors that determine the color gradient between the two colors, and folds that alternate between the two colors depending on the horizontal and vertical values.\n\nEspecially the entropy of the photos and the colored grid influence the pixel movement.\n\nAnimation changes are triggered after a random number of frames and effect folds, stripes and photo position. These replace parts of the current collage (fade to black) or add some (discard fragment updates).\n\nFeatures:\n\n- top color [12] - hue, colorful & bright\n- bottom color [6] - hue, less colorful & bright\n- top photo [16] (zingst, birds, xmas, zustand, zebra, moving-blocks-mono, fischbach, santanyi, goldblume, ♠4, driften, brand-pyramide, zäpfle, bc, tisa, lieblingspulli)\n- bottom photo: [16] (zingst, birds, xmas, zustand, zebra, moving-blocks-mono, fischbach, santanyi, goldblume, ♠4, driften, brand-pyramide, zäpfle, bc, tisa, lieblingspulli)\n- horizon [0.618, 0.5, 0.382] (down, center, up)\n- hectic [3, 5, 11] (calm, slightly, very)\n- horizontal folds [113, 365, 997, 2153, 3987] - used for first animation iteration, variable\n- vertical folds [7, 37, 127, 571, 1501, 3147] - used for first animation iteration, variable\n- min stripes [1, 3, 5] - used for first animation iteration, variable\n\nAnimation and feature selection are based on the deterministic prng Xoshiro128 seeded with the fxhash. This allows repeated playback in the same sequence. The animation is synchronized with frames and not with time.\n\nThe preview images are taken after 300 frames.\n\nShortcuts & interactions:\n\n- spacebar, mouse click or tap touch to trigger animation changes\n- `c` to take a picture\n- `f` for full screen mode\n- `p` to pause\n- `h` to see all options\n\nAvailable query string parameters:\n\n- autopause - enable automatic pausing\n- pixelratio=2 - sets the pixel ratio (default: device)\n- showannouncement - activates the announcement\n- kioskspeed=10 - activates the kiosk mode and sets the speed in seconds\n- showinfo - activates the info box",
+            "tags": [
+              "webgl2",
+              "fischbach",
+              "moving blocks",
+              "zebra",
+              "glsl",
+              "discard",
+              "twgl.js",
+              "#fxhashturnsone",
+              "fxhashturnsone",
+              "thi.ng",
+              "interactive",
+              "animated",
+              "photo collage"
+            ],
+            "generatorUri": "ipfs://QmXfE7s2HbfJe1fgxYMwBxpkoVv4ixGoRxixbrsw6edeKK",
+            "artifactUri": "ipfs://QmXfE7s2HbfJe1fgxYMwBxpkoVv4ixGoRxixbrsw6edeKK?fxhash=op2tU4LvPrfMpJtZme7Gm57qg1hNiTQZzD7C56BWtys8Q2YgZC9",
+            "displayUri": "ipfs://QmUCWwPB8KcDjhNddFfdHvWJFKsFuZwyAR63qhZtMyC1X6",
+            "thumbnailUri": "ipfs://QmZJNoq9ZuXtEqoo9tBDFxgPvCa3KcPHaSBZHwTyHT3UFa",
+            "authenticityHash": "da9b40d6d13ae06c4bc5752dd1922d55fd671bbeabfbaaeb50609c83491b285f",
+            "attributes": [
+              {
+                "name": "top color",
+                "value": "#ff7dff"
+              },
+              {
+                "name": "bottom color",
+                "value": "#7fa513"
+              },
+              {
+                "name": "horizon",
+                "value": "down"
+              },
+              {
+                "name": "horizontal fold",
+                "value": 997
+              },
+              {
+                "name": "vertical fold",
+                "value": 37
+              },
+              {
+                "name": "hectic",
+                "value": "slightly"
+              },
+              {
+                "name": "top photo",
+                "value": "zingst"
+              },
+              {
+                "name": "bottom photo",
+                "value": "♠4"
+              },
+              {
+                "name": "min stripes",
+                "value": 3
+              }
+            ],
+            "decimals": 0,
+            "symbol": "GENTK",
+            "version": "0.2"
+          },
+          "duplicate": false,
+          "activeListing": {
+            "id": 1124116,
+            "version": 1,
+            "price": 15000000,
+            "__typename": "Listing"
+          },
+          "owner": {
+            "id": "tz1X95uJRaZkK4VDoPpf2UuSzX4T24E8eCrb",
+            "name": "Applied.tez",
+            "flag": "NONE",
+            "avatarUri": null,
+            "__typename": "User"
+          },
+          "issuer": {
+            "flag": "NONE",
+            "name": "Fischbach",
+            "author": {
+              "id": "tz1QM2ZmH3HUD5MUSY3efFvYqLz3A2rZZmT6",
+              "name": "dirx",
+              "type": "REGULAR",
+              "avatarUri": "ipfs://QmPdM1evqKBV9Xs5hS2VmWMBTtzQyPrd2asmr4qdTCLRA7",
+              "flag": "VERIFIED",
+              "collaborators": null,
+              "__typename": "User"
+            },
+            "__typename": "GenerativeToken"
+          },
+          "__typename": "Objkt"
+        },
+        "__typename": "Listing"
+      },
+      {
+        "id": 1124115,
+        "version": 1,
+        "price": 32000000,
+        "objkt": {
+          "id": "FX0-281368",
+          "version": 0,
+          "name": "SoulSea #116",
+          "slug": "soulsea-116",
+          "metadata": {
+            "name": "SoulSea #116",
+            "iterationHash": "oo4d5wFWL5PgDoARRARZVsHxjxcerpqyvZKd94vQveZzFVrbD9q",
+            "description": "The Soul Sea\n\nYou look down and find that the ocean in your heart is a sine wave. \nThe tide gently laps onto the shore.\n\nThe soul is the sea. You are the land. \nThere are waves on the shore, and the waves are slices.\n\nGazing at the slices, you feel the coldness of the Arctic Ocean, the permafrost of the Antarctic Sea, the deep darkness of the bottomless sea.\n\nStay silent, hear the sound of the waves lapping at the innumerable shores far away.\nFeel the soul of the digital ocean.\n\nInteractivities:\n> Key P: Pause\n> Key S: Save\n> Press and move mouseX: wave moves slower / faster\n\nChe-Yu Wu",
+            "tags": [
+              "generative",
+              "digital",
+              "nature",
+              "soulsea"
+            ],
+            "generatorUri": "ipfs://QmPDfMShxb1iQ12bwV4LivT5pC1UXoL9ZRcjjC7grr3r9P",
+            "artifactUri": "ipfs://QmPDfMShxb1iQ12bwV4LivT5pC1UXoL9ZRcjjC7grr3r9P?fxhash=oo4d5wFWL5PgDoARRARZVsHxjxcerpqyvZKd94vQveZzFVrbD9q",
+            "displayUri": "ipfs://Qmf6sZuCYdrVXwdG3g41vx5pD68UV4jZLKHG55kSgR4aXB",
+            "thumbnailUri": "ipfs://QmVTnfMk1uHDRxGP1m9JckZNXqPhVhZL19hozyPuNdPuzY",
+            "authenticityHash": "8919f10c3cd270828993f4272ce063e55269256449c7d138b5b514de5d81fa20",
+            "attributes": [
+              {
+                "name": "palette",
+                "value": "color"
+              },
+              {
+                "name": "waveNoise",
+                "value": 1
+              },
+              {
+                "name": "style",
+                "value": "natural"
+              },
+              {
+                "name": "shape",
+                "value": "void"
+              },
+              {
+                "name": "creatureType",
+                "value": "none"
+              },
+              {
+                "name": "vertexSpan",
+                "value": 15
+              },
+              {
+                "name": "waveFreq1",
+                "value": 112.51123870257288
+              },
+              {
+                "name": "waveFreq2",
+                "value": 70.69490506779402
+              },
+              {
+                "name": "glitchFreq",
+                "value": 1
+              },
+              {
+                "name": "splashThr",
+                "value": 0.39937511868774894
+              },
+              {
+                "name": "canvasAng",
+                "value": 0.6551571749150753
+              },
+              {
+                "name": "colorRMin",
+                "value": 57
+              },
+              {
+                "name": "colorRMax",
+                "value": 188
+              },
+              {
+                "name": "colorGMin",
+                "value": 81
+              },
+              {
+                "name": "colorGMax",
+                "value": 213
+              },
+              {
+                "name": "colorBMin",
+                "value": 47
+              },
+              {
+                "name": "colorBMax",
+                "value": 120
+              }
+            ],
+            "decimals": 0,
+            "symbol": "GENTK",
+            "version": "0.2"
+          },
+          "duplicate": false,
+          "activeListing": {
+            "id": 1124115,
+            "version": 1,
+            "price": 32000000,
+            "__typename": "Listing"
+          },
+          "owner": {
+            "id": "tz1X95uJRaZkK4VDoPpf2UuSzX4T24E8eCrb",
+            "name": "Applied.tez",
+            "flag": "NONE",
+            "avatarUri": null,
+            "__typename": "User"
+          },
+          "issuer": {
+            "flag": "NONE",
+            "name": "SoulSea",
+            "author": {
+              "id": "tz1WopvVxCVdGP7Sew7kz6Kro9o1qQ7SuEtN",
+              "name": "Che-Yu Wu",
+              "type": "REGULAR",
+              "avatarUri": "ipfs://QmVgEgkFYwUkXe1L9febp4D2C5K1bqCF7xcEXZkHVumirD",
+              "flag": "VERIFIED",
+              "collaborators": null,
+              "__typename": "User"
+            },
+            "__typename": "GenerativeToken"
+          },
+          "__typename": "Objkt"
+        },
+        "__typename": "Listing"
+      },
+      {
+        "id": 1124114,
+        "version": 1,
+        "price": 12000000,
+        "objkt": {
+          "id": "FX0-597667",
+          "version": 1,
+          "name": "Enlightened Journey #221",
+          "slug": "enlightened-journey-221",
+          "metadata": {
+            "name": "Enlightened Journey #221",
+            "iterationHash": "oonXbSKxu2JrFSVcjET5qRa3duWMfoxVzKo2Tx1hT7G8PYSr9o4",
+            "description": "A digital journey through nature.\n\nMade in p5js\n\nSpecial thanks to @Zancan and @TenebrisVia for inspiring me to code with nature, along with the work of Linda Rous for inspiring the use of perspective and stairs in the scene. Also, thanks to the FX Hash and Twitter communities for the wonderful feedback and suggestions which helped throughout the design process.\n",
+            "tags": [
+              "Enlightened",
+              "journey",
+              "nature",
+              "plants",
+              "p5",
+              "p5js",
+              "JavaScript",
+              "stairs",
+              "clean",
+              "generative",
+              "Tezumie"
+            ],
+            "generatorUri": "ipfs://QmaHNE3HhoWNgsv7WnsY9MPByquBcLJu28U9LnkCsz5vS7",
+            "artifactUri": "ipfs://QmaHNE3HhoWNgsv7WnsY9MPByquBcLJu28U9LnkCsz5vS7?fxhash=oonXbSKxu2JrFSVcjET5qRa3duWMfoxVzKo2Tx1hT7G8PYSr9o4",
+            "displayUri": "ipfs://QmVVWpKqNiirvvQjfgBT5iijTBsDKV2UqepXuvkGRyWRLm",
+            "thumbnailUri": "ipfs://QmW1LCixbNM8qCqk6oG4rNAHQXGTMXgGqYFopKkmG5262d",
+            "authenticityHash": "a850983a8fd0ba75630ce7abeeb08c55d74795c6f1989a2aecd36d0a25daa49a",
+            "attributes": [],
+            "decimals": 0,
+            "symbol": "GENTK",
+            "version": "0.2"
+          },
+          "duplicate": false,
+          "activeListing": {
+            "id": 1124114,
+            "version": 1,
+            "price": 12000000,
+            "__typename": "Listing"
+          },
+          "owner": {
+            "id": "tz1X95uJRaZkK4VDoPpf2UuSzX4T24E8eCrb",
+            "name": "Applied.tez",
+            "flag": "NONE",
+            "avatarUri": null,
+            "__typename": "User"
+          },
+          "issuer": {
+            "flag": "NONE",
+            "name": "Enlightened Journey",
+            "author": {
+              "id": "tz1a2aHDQayeSEsbDRm5igEiLYH4cxcNnKyz",
+              "name": "Tezumie",
+              "type": "REGULAR",
+              "avatarUri": "ipfs://QmSKzorFywkX9nnpGGgi3YYydKEEAcLj7zTV45o3rz9yKL",
+              "flag": "NONE",
+              "collaborators": null,
+              "__typename": "User"
+            },
+            "__typename": "GenerativeToken"
+          },
+          "__typename": "Objkt"
+        },
+        "__typename": "Listing"
+      },
+      {
         "id": 1124113,
         "version": 1,
         "price": 16995000,
@@ -284,204 +589,6 @@
           "owner": {
             "id": "tz1ZjEwXyHtcnD48WfYy9YRpkkc7dSP3Nh4W",
             "name": null,
-            "flag": "NONE",
-            "avatarUri": null,
-            "__typename": "User"
-          },
-          "issuer": {
-            "flag": "NONE",
-            "name": "Enlightened Journey",
-            "author": {
-              "id": "tz1a2aHDQayeSEsbDRm5igEiLYH4cxcNnKyz",
-              "name": "Tezumie",
-              "type": "REGULAR",
-              "avatarUri": "ipfs://QmSKzorFywkX9nnpGGgi3YYydKEEAcLj7zTV45o3rz9yKL",
-              "flag": "NONE",
-              "collaborators": null,
-              "__typename": "User"
-            },
-            "__typename": "GenerativeToken"
-          },
-          "__typename": "Objkt"
-        },
-        "__typename": "Listing"
-      },
-      {
-        "id": 1124110,
-        "version": 1,
-        "price": 36000000,
-        "objkt": {
-          "id": "FX0-281368",
-          "version": 0,
-          "name": "SoulSea #116",
-          "slug": "soulsea-116",
-          "metadata": {
-            "name": "SoulSea #116",
-            "iterationHash": "oo4d5wFWL5PgDoARRARZVsHxjxcerpqyvZKd94vQveZzFVrbD9q",
-            "description": "The Soul Sea\n\nYou look down and find that the ocean in your heart is a sine wave. \nThe tide gently laps onto the shore.\n\nThe soul is the sea. You are the land. \nThere are waves on the shore, and the waves are slices.\n\nGazing at the slices, you feel the coldness of the Arctic Ocean, the permafrost of the Antarctic Sea, the deep darkness of the bottomless sea.\n\nStay silent, hear the sound of the waves lapping at the innumerable shores far away.\nFeel the soul of the digital ocean.\n\nInteractivities:\n> Key P: Pause\n> Key S: Save\n> Press and move mouseX: wave moves slower / faster\n\nChe-Yu Wu",
-            "tags": [
-              "generative",
-              "digital",
-              "nature",
-              "soulsea"
-            ],
-            "generatorUri": "ipfs://QmPDfMShxb1iQ12bwV4LivT5pC1UXoL9ZRcjjC7grr3r9P",
-            "artifactUri": "ipfs://QmPDfMShxb1iQ12bwV4LivT5pC1UXoL9ZRcjjC7grr3r9P?fxhash=oo4d5wFWL5PgDoARRARZVsHxjxcerpqyvZKd94vQveZzFVrbD9q",
-            "displayUri": "ipfs://Qmf6sZuCYdrVXwdG3g41vx5pD68UV4jZLKHG55kSgR4aXB",
-            "thumbnailUri": "ipfs://QmVTnfMk1uHDRxGP1m9JckZNXqPhVhZL19hozyPuNdPuzY",
-            "authenticityHash": "8919f10c3cd270828993f4272ce063e55269256449c7d138b5b514de5d81fa20",
-            "attributes": [
-              {
-                "name": "palette",
-                "value": "color"
-              },
-              {
-                "name": "waveNoise",
-                "value": 1
-              },
-              {
-                "name": "style",
-                "value": "natural"
-              },
-              {
-                "name": "shape",
-                "value": "void"
-              },
-              {
-                "name": "creatureType",
-                "value": "none"
-              },
-              {
-                "name": "vertexSpan",
-                "value": 15
-              },
-              {
-                "name": "waveFreq1",
-                "value": 112.51123870257288
-              },
-              {
-                "name": "waveFreq2",
-                "value": 70.69490506779402
-              },
-              {
-                "name": "glitchFreq",
-                "value": 1
-              },
-              {
-                "name": "splashThr",
-                "value": 0.39937511868774894
-              },
-              {
-                "name": "canvasAng",
-                "value": 0.6551571749150753
-              },
-              {
-                "name": "colorRMin",
-                "value": 57
-              },
-              {
-                "name": "colorRMax",
-                "value": 188
-              },
-              {
-                "name": "colorGMin",
-                "value": 81
-              },
-              {
-                "name": "colorGMax",
-                "value": 213
-              },
-              {
-                "name": "colorBMin",
-                "value": 47
-              },
-              {
-                "name": "colorBMax",
-                "value": 120
-              }
-            ],
-            "decimals": 0,
-            "symbol": "GENTK",
-            "version": "0.2"
-          },
-          "duplicate": false,
-          "activeListing": {
-            "id": 1124110,
-            "version": 1,
-            "price": 36000000,
-            "__typename": "Listing"
-          },
-          "owner": {
-            "id": "tz1X95uJRaZkK4VDoPpf2UuSzX4T24E8eCrb",
-            "name": "Applied.tez",
-            "flag": "NONE",
-            "avatarUri": null,
-            "__typename": "User"
-          },
-          "issuer": {
-            "flag": "NONE",
-            "name": "SoulSea",
-            "author": {
-              "id": "tz1WopvVxCVdGP7Sew7kz6Kro9o1qQ7SuEtN",
-              "name": "Che-Yu Wu",
-              "type": "REGULAR",
-              "avatarUri": "ipfs://QmVgEgkFYwUkXe1L9febp4D2C5K1bqCF7xcEXZkHVumirD",
-              "flag": "VERIFIED",
-              "collaborators": null,
-              "__typename": "User"
-            },
-            "__typename": "GenerativeToken"
-          },
-          "__typename": "Objkt"
-        },
-        "__typename": "Listing"
-      },
-      {
-        "id": 1124109,
-        "version": 1,
-        "price": 14000000,
-        "objkt": {
-          "id": "FX0-597667",
-          "version": 1,
-          "name": "Enlightened Journey #221",
-          "slug": "enlightened-journey-221",
-          "metadata": {
-            "name": "Enlightened Journey #221",
-            "iterationHash": "oonXbSKxu2JrFSVcjET5qRa3duWMfoxVzKo2Tx1hT7G8PYSr9o4",
-            "description": "A digital journey through nature.\n\nMade in p5js\n\nSpecial thanks to @Zancan and @TenebrisVia for inspiring me to code with nature, along with the work of Linda Rous for inspiring the use of perspective and stairs in the scene. Also, thanks to the FX Hash and Twitter communities for the wonderful feedback and suggestions which helped throughout the design process.\n",
-            "tags": [
-              "Enlightened",
-              "journey",
-              "nature",
-              "plants",
-              "p5",
-              "p5js",
-              "JavaScript",
-              "stairs",
-              "clean",
-              "generative",
-              "Tezumie"
-            ],
-            "generatorUri": "ipfs://QmaHNE3HhoWNgsv7WnsY9MPByquBcLJu28U9LnkCsz5vS7",
-            "artifactUri": "ipfs://QmaHNE3HhoWNgsv7WnsY9MPByquBcLJu28U9LnkCsz5vS7?fxhash=oonXbSKxu2JrFSVcjET5qRa3duWMfoxVzKo2Tx1hT7G8PYSr9o4",
-            "displayUri": "ipfs://QmVVWpKqNiirvvQjfgBT5iijTBsDKV2UqepXuvkGRyWRLm",
-            "thumbnailUri": "ipfs://QmW1LCixbNM8qCqk6oG4rNAHQXGTMXgGqYFopKkmG5262d",
-            "authenticityHash": "a850983a8fd0ba75630ce7abeeb08c55d74795c6f1989a2aecd36d0a25daa49a",
-            "attributes": [],
-            "decimals": 0,
-            "symbol": "GENTK",
-            "version": "0.2"
-          },
-          "duplicate": false,
-          "activeListing": {
-            "id": 1124109,
-            "version": 1,
-            "price": 14000000,
-            "__typename": "Listing"
-          },
-          "owner": {
-            "id": "tz1X95uJRaZkK4VDoPpf2UuSzX4T24E8eCrb",
-            "name": "Applied.tez",
             "flag": "NONE",
             "avatarUri": null,
             "__typename": "User"
@@ -1272,113 +1379,6 @@
           "duplicate": false,
           "activeListing": {
             "id": 1124097,
-            "version": 1,
-            "price": 9000000,
-            "__typename": "Listing"
-          },
-          "owner": {
-            "id": "tz1X95uJRaZkK4VDoPpf2UuSzX4T24E8eCrb",
-            "name": "Applied.tez",
-            "flag": "NONE",
-            "avatarUri": null,
-            "__typename": "User"
-          },
-          "issuer": {
-            "flag": "NONE",
-            "name": "Fischbach",
-            "author": {
-              "id": "tz1QM2ZmH3HUD5MUSY3efFvYqLz3A2rZZmT6",
-              "name": "dirx",
-              "type": "REGULAR",
-              "avatarUri": "ipfs://QmPdM1evqKBV9Xs5hS2VmWMBTtzQyPrd2asmr4qdTCLRA7",
-              "flag": "VERIFIED",
-              "collaborators": null,
-              "__typename": "User"
-            },
-            "__typename": "GenerativeToken"
-          },
-          "__typename": "Objkt"
-        },
-        "__typename": "Listing"
-      },
-      {
-        "id": 1124096,
-        "version": 1,
-        "price": 9000000,
-        "objkt": {
-          "id": "FX0-1344717",
-          "version": 1,
-          "name": "Fischbach #127",
-          "slug": "fischbach-127",
-          "metadata": {
-            "name": "Fischbach #127",
-            "iterationHash": "op2tU4LvPrfMpJtZme7Gm57qg1hNiTQZzD7C56BWtys8Q2YgZC9",
-            "description": "#fxhashturnsone\n\nThe first 365 crazy days of fxhash - time to celebrate this and take a look back.\n\nThe entropy of memories in a vivid photo collage that gives me goosebumps while others might just see moving eye candy. Perspective and perception can be so different.\n\nBased on some of my photos from the last 365 days that trigger emotional memories, even if they are not directly connected. By the way, Fischbach is the name of the small village where I grew up. It was a great time!\n\nHow does it work?\n\nEach piece uses pairs of photos and colors (top/bottom).\n\nThe animated collage itself is based on two layers. The first layer uses a double buffer to cut, colorize and animate the photos. The second layer is mainly just for screen rendering, debugging and behind-the-scene looks.\n\nCutting and pasting photos is based on a variable moving color grid, the fixed horizon, the variable position of the photos top/bottom, the previous buffer and some magic distance calculations between them.\n\nThe grid itself is a combination of vertical color stripes with variable position and distance factors that determine the color gradient between the two colors, and folds that alternate between the two colors depending on the horizontal and vertical values.\n\nEspecially the entropy of the photos and the colored grid influence the pixel movement.\n\nAnimation changes are triggered after a random number of frames and effect folds, stripes and photo position. These replace parts of the current collage (fade to black) or add some (discard fragment updates).\n\nFeatures:\n\n- top color [12] - hue, colorful & bright\n- bottom color [6] - hue, less colorful & bright\n- top photo [16] (zingst, birds, xmas, zustand, zebra, moving-blocks-mono, fischbach, santanyi, goldblume, ♠4, driften, brand-pyramide, zäpfle, bc, tisa, lieblingspulli)\n- bottom photo: [16] (zingst, birds, xmas, zustand, zebra, moving-blocks-mono, fischbach, santanyi, goldblume, ♠4, driften, brand-pyramide, zäpfle, bc, tisa, lieblingspulli)\n- horizon [0.618, 0.5, 0.382] (down, center, up)\n- hectic [3, 5, 11] (calm, slightly, very)\n- horizontal folds [113, 365, 997, 2153, 3987] - used for first animation iteration, variable\n- vertical folds [7, 37, 127, 571, 1501, 3147] - used for first animation iteration, variable\n- min stripes [1, 3, 5] - used for first animation iteration, variable\n\nAnimation and feature selection are based on the deterministic prng Xoshiro128 seeded with the fxhash. This allows repeated playback in the same sequence. The animation is synchronized with frames and not with time.\n\nThe preview images are taken after 300 frames.\n\nShortcuts & interactions:\n\n- spacebar, mouse click or tap touch to trigger animation changes\n- `c` to take a picture\n- `f` for full screen mode\n- `p` to pause\n- `h` to see all options\n\nAvailable query string parameters:\n\n- autopause - enable automatic pausing\n- pixelratio=2 - sets the pixel ratio (default: device)\n- showannouncement - activates the announcement\n- kioskspeed=10 - activates the kiosk mode and sets the speed in seconds\n- showinfo - activates the info box",
-            "tags": [
-              "webgl2",
-              "fischbach",
-              "moving blocks",
-              "zebra",
-              "glsl",
-              "discard",
-              "twgl.js",
-              "#fxhashturnsone",
-              "fxhashturnsone",
-              "thi.ng",
-              "interactive",
-              "animated",
-              "photo collage"
-            ],
-            "generatorUri": "ipfs://QmXfE7s2HbfJe1fgxYMwBxpkoVv4ixGoRxixbrsw6edeKK",
-            "artifactUri": "ipfs://QmXfE7s2HbfJe1fgxYMwBxpkoVv4ixGoRxixbrsw6edeKK?fxhash=op2tU4LvPrfMpJtZme7Gm57qg1hNiTQZzD7C56BWtys8Q2YgZC9",
-            "displayUri": "ipfs://QmUCWwPB8KcDjhNddFfdHvWJFKsFuZwyAR63qhZtMyC1X6",
-            "thumbnailUri": "ipfs://QmZJNoq9ZuXtEqoo9tBDFxgPvCa3KcPHaSBZHwTyHT3UFa",
-            "authenticityHash": "da9b40d6d13ae06c4bc5752dd1922d55fd671bbeabfbaaeb50609c83491b285f",
-            "attributes": [
-              {
-                "name": "top color",
-                "value": "#ff7dff"
-              },
-              {
-                "name": "bottom color",
-                "value": "#7fa513"
-              },
-              {
-                "name": "horizon",
-                "value": "down"
-              },
-              {
-                "name": "horizontal fold",
-                "value": 997
-              },
-              {
-                "name": "vertical fold",
-                "value": 37
-              },
-              {
-                "name": "hectic",
-                "value": "slightly"
-              },
-              {
-                "name": "top photo",
-                "value": "zingst"
-              },
-              {
-                "name": "bottom photo",
-                "value": "♠4"
-              },
-              {
-                "name": "min stripes",
-                "value": 3
-              }
-            ],
-            "decimals": 0,
-            "symbol": "GENTK",
-            "version": "0.2"
-          },
-          "duplicate": false,
-          "activeListing": {
-            "id": 1124096,
             "version": 1,
             "price": 9000000,
             "__typename": "Listing"
